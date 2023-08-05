@@ -1,0 +1,14 @@
+owl_results/__init__.py,sha256=Qb9kBZ6hIpSMn5MX5V7F9Hwl_abCU_9JB6D9X0jACrI,126
+owl_results/bp/__init__.py,sha256=T43Q4zUhl33tfR4xF421X8Tlf_rVpCIH0Ke2oueSlOY,44
+owl_results/bp/owl_results_api.py,sha256=YANGeNgoxZWibuMl6w2lFtUN4F2rVFERNKWLIF4NNtM,1983
+owl_results/dmo/__init__.py,sha256=xQk-_Cjgo6Er_JiUuJxOZMlW3qS_l-_dmJ1muTd7IyI,91
+owl_results/dmo/edge_dedupe.py,sha256=EaVNiiGEG_tWxK1itnipY1HwmJGqayzSV4PAujAp3G8,1046
+owl_results/dmo/ontology_node_dedupe.py,sha256=B61bVhzkwrf3ilKqmZkBAJBNIJQg9dE0dJQQLTRRgAw,1078
+owl_results/dto/__init__.py,sha256=zrllo5sZJ9zKju35kyScejzRdsC-axnodVfqqqyrznE,156
+owl_results/dto/typedefs.py,sha256=YdOi7qrLiYrwF46XE4UsULmSQNgUoM97dkKvaNDs8E0,675
+owl_results/svc/__init__.py,sha256=Slo9gjWffTOJL8iV4sHANPa_Hw_FQjKn3Vo9eh7vw0Q,116
+owl_results/svc/create_graph_structure.py,sha256=5YnJOICrWUGDdP2fR8ifmSL8NExUbqQziy3ejAdI9eQ,5555
+owl_results/svc/post_process_structure.py,sha256=UxpkeCeFYaLjAeocvFsURYn-gLIaadJP9eNLTyio6fc,1223
+owl_results-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+owl_results-0.1.1.dist-info/METADATA,sha256=GEnRmDu9YlMoAs7apYMl6CvWQl9D7S6zarcvVtgNz_c,917
+owl_results-0.1.1.dist-info/RECORD,,
