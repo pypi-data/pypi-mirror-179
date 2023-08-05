@@ -1,0 +1,8 @@
+s3_client_lib/s3_client,sha256=djSiwIbRD3ZkgKQFByWJbb6BRYCRL4w309N1caPydLM,20909
+s3_client_lib/s3_client.py,sha256=UrhML77kQ3nWIOe4N7Kz5HaLPbgbjwDU_PpcGb8SiSs,16963
+s3_client_lib/s3_multipart_client.py,sha256=5Oa59rtEB9KmJKqhfwNYr9l0LCO0h21BsNUbkAwTecI,8736
+s3_client_lib/tmp,sha256=W8TWF4DEGq8oCJWKaamMi360hfuTk3hIT88ltCOTGGk,5292
+s3_client_lib/utils.py,sha256=MRYQRWKsf8DYgxdDsgBvhVhdw6oK0tu3_3kc2VMtQSE,5000
+s3_client_lib-0.2.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+s3_client_lib-0.2.2.dist-info/METADATA,sha256=8Qs-1dNgQVJgpoudAEsbhqCBZUZEw8g5j_RmxxmkGFU,933
+s3_client_lib-0.2.2.dist-info/RECORD,,
