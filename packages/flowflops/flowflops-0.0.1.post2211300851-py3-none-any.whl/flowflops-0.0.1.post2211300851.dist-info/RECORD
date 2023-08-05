@@ -1,0 +1,13 @@
+flowflops/__init__.py,sha256=2oi6vzM52uuiq5RzGTiTBIJf_8spluGKElzC9Vi1Wzw,51
+flowflops/flow_counter.py,sha256=5OI0D2A6O7jxHPm0peIazIC0EWbbonBRJODF2QEF6gI,2120
+flowflops/flow_engine.py,sha256=jXQDHgFN1Iu5DouFUp4T3AzjrhZ1UHYAKrIgkI36h7w,12142
+flowflops/flow_ops.py,sha256=AbwQh-Sxku3BgsHnelNpEOg3uckFsEm-tUywomZPGuQ,14041
+flowflops/utils.py,sha256=x5M4vRsW1a-NHPhITkDWaS38HPVRlFWWdpoHa2qwYJQ,1670
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_delta_between_graph_eager.py,sha256=CAvQ6o3_gIcv1akDM4ztN0tsi2NIvRehsuDgG8ziXfg,2954
+tests/test_layers.py,sha256=uyJLwn0yrGR2dOhVqlrQS7aVqfUkpLEI3vmWeHDnQT4,3010
+flowflops-0.0.1.post2211300851.dist-info/METADATA,sha256=7jYjuw5LTFqHAKnoHJbDYQrVSxMcGC0JbapaeJwHBbE,5997
+flowflops-0.0.1.post2211300851.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flowflops-0.0.1.post2211300851.dist-info/top_level.txt,sha256=E4jQThoyrXBhE12tiS6Xw1eoci3K8R0tgBax_09_7g0,16
+flowflops-0.0.1.post2211300851.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+flowflops-0.0.1.post2211300851.dist-info/RECORD,,
