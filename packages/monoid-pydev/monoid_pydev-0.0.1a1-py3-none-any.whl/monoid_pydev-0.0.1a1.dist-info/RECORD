@@ -1,0 +1,17 @@
+monoid_pydev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monoid_pydev/runner.py,sha256=Oca1_uI0KSXiXwj9IBj2FjxxZYK7ZZ_f0BSxIxhMHvU,4543
+monoid_pydev/logger/__init__.py,sha256=KYWYfti4m8TcWzjOfmollEfEArTgTasq2Zuaz9AkzZI,31
+monoid_pydev/logger/logger.py,sha256=saGqW4Rdywvox2s6f1fSXohOZhrHRzTCZuuW-1MClz4,1055
+monoid_pydev/models/__init__.py,sha256=hMFZuTiLnInwxMbPve4uQ49BIawLswayp08cgOrg-XM,22
+monoid_pydev/models/models.py,sha256=jKuUMO741bjUh1RdjmTOhmIheq5oi6asiEUxRyHT7yU,2825
+monoid_pydev/silos/__init__.py,sha256=Q1A3UeeQuTLJD2vl57wQkxR2PbYqAom0c_s1ZbpRyPY,40
+monoid_pydev/silos/abstract_silo.py,sha256=GcrtxBgH0GB5hNh3fn1H22i63i6ghpdUj1OuNyGJaTI,5487
+monoid_pydev/silos/data_store.py,sha256=SwDxbvZH8VjaoiavkHRiC8XYvcMPOSgPR7Y-i84A6gY,2031
+monoid_pydev/silos/db_data_store.py,sha256=aLbKKVNcJE48IoeUZRlY6Sipll3PpcXpIeBUVoDf1cQ,4237
+monoid_pydev/utils/__init__.py,sha256=alIDGBnxWH4JvP-UW-7N99seBBi0r1GV1h8f1ERFBec,21
+monoid_pydev/utils/utils.py,sha256=x8OQqLdLcRlAihIYxUxqaH0iOitK6UrMdZHBPVo7mO0,165
+monoid_pydev-0.0.1a1.dist-info/LICENSE,sha256=X9KUQ8Dkv1LZuFGdVs6MVBkkPdSY40_w7IEKLYF3liU,1055
+monoid_pydev-0.0.1a1.dist-info/METADATA,sha256=OVpHyNSgeKwIwwSX_lWBYWeJrYdNI9R7HRjI8D98yW0,615
+monoid_pydev-0.0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+monoid_pydev-0.0.1a1.dist-info/top_level.txt,sha256=skc-pwbRn6yNJbkm9gkI2yCP2R0OdWov2b2UmIg8PUA,13
+monoid_pydev-0.0.1a1.dist-info/RECORD,,
