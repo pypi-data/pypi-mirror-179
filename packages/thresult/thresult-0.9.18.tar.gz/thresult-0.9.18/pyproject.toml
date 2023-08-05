@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "thresult"
+version = "0.9.18"
+description = "Tangled Result"
+license = "BSD 3-clause"
+authors = ["Tangled <info@tangledgroup.com>"]
+readme = "README.md"
+repository = "https://gitlab.com/tangledlabs/thresult"
+keywords = ["thresult", "result", "tangled", "tangledgroup", "tangledhub", "tangledlabs", "tangledcloud"]
+
+# Classifiers reference: https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+packages = [{ include = "thresult" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+pytest-cov ="^4.0.0"
+coverage ="^6.5.0"
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
