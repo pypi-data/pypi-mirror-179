@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pywx/__init__.py
+pywx.egg-info/PKG-INFO
+pywx.egg-info/SOURCES.txt
+pywx.egg-info/dependency_links.txt
+pywx.egg-info/top_level.txt
+pywx/test/__init__.py
+pywx/test/test_pywx.py
