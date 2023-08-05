@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+isPowerOfTwo/__init__.py
+isPowerOfTwo/isPowerOfTwo.py
+isPowerOfTwo.egg-info/PKG-INFO
+isPowerOfTwo.egg-info/SOURCES.txt
+isPowerOfTwo.egg-info/dependency_links.txt
+isPowerOfTwo.egg-info/top_level.txt

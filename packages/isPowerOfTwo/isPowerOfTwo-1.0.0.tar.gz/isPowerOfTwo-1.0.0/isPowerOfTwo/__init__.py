@@ -1,0 +1,1 @@
+from isPowerOfTwo import isPowerOfTwo
