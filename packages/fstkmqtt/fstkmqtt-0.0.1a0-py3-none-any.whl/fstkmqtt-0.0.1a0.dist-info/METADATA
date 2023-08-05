@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: fstkmqtt
+Version: 0.0.1a0
+Summary: Full project name: Fullstack MQTT for engineering
+Download-URL: https://sourceforge.net/projects/fstkmqtt
+Author: Samson
+Author-email: kaioffrayce@gmail.com
+Description-Content-Type: text/markdown
+
+
+# __Fullstack MQTT Platform__
+
+The Fullstack MQTT platform provides engineers and students with a wide range of libraries that are fast and secure enough for a website, database and IoT project.
+
+---
+
+## __Version__
+The latest version is currently Beta test version __0.0.1a0__
+
+---
+## __Work environment__
+We regret with our current resources we can only develop the platform running on Window and Window Server operating systems (For Beta __0.0.1a0__) In the future we will transform ourselves to accommodate all whole operating system.
+
+---
+## __Programming language__
+1. Python
+
+---
+## __Feature__
+1. Supports data security with RSA, AES, SHA and HMAC.
+2. Support TCP and HTTP protocol
+3. Support for databases
+---
+## __Supported modules__
+1. Database
+2. Network
+3. Render
+4. Security
+
+### ___Database___
+Database supports popular database software platforms such as:
+1. MySQL
+2. SQL Server
+3. SQLite
+4. In addition, we develop a prototype for Data warehouse (ETL)
+
+### ___Network___
+1. TCPServer
+2. HTTPServer
+
+**_TCPServer_**:
+TCPServer supports users to create the basic platform from TCP (Telnet, SSH, ...).
+<br>
+**_HTTPServer_**:
+Supports HTTP and HTTPS with TLS/SSL.
