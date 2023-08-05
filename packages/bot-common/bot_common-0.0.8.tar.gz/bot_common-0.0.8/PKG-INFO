@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bot_common
+Version: 0.0.8
+Summary: Common libraries AISAC Bot
+Author: cla.fragomeli_92
+Author-email: <cla.fragomeli@gmail.com>
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that contains the common libraries for the AISAC Bot
