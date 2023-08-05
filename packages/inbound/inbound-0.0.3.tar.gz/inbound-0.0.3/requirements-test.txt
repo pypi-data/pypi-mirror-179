@@ -1,0 +1,6 @@
+faker
+pytest
+coverage
+pytest-cov
+pytest-mock
+duckdb

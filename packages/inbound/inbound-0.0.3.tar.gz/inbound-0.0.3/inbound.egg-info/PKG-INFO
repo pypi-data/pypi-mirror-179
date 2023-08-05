@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: inbound
+Version: 0.0.3
+Summary: declarative data ingestion.
+Home-page: https://github.com/navikt/dbc
+Author: Virksomhetsdatalaget
+Author-email: paul.bencze@nav.no
+Keywords: data ingestion,data loading,data pipelines
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dbt
+Provides-Extra: snowflake
+Provides-Extra: all
+
+# Experimental toolkit for declarative data ingestion as a dbt companion

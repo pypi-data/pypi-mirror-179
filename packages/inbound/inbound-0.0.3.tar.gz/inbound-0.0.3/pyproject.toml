@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.venv
+  | \.env
+  | build
+  | dist
+  | \.mypy_cache
+  | tests/data
+)/
+'''
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
+known_first_party = ["dbc", "tests"]
+default_section = "THIRDPARTY"
+
+[tool.coverage.paths]
+source = ["dbc", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["dbc"]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+omit = []
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
