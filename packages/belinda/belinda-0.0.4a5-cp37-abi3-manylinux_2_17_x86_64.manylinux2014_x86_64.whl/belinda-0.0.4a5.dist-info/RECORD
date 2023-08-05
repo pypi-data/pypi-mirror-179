@@ -1,0 +1,7 @@
+belinda-0.0.4a5.dist-info/METADATA,sha256=pnVyYkPmWYJEYLeVfagNPqSrhpiBxDvZy8ezz-vcwXg,777
+belinda-0.0.4a5.dist-info/WHEEL,sha256=UI-kNvM2YhJTFBZpaB-xRGNOqXKPRY1n2FouPes8Ztk,128
+belinda/__init__.py,sha256=RMdjTACGuh8OdkUNlQc4D64I70YxA2xeVuze9TgmeFQ,44
+belinda/rust/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+belinda/exprs.py,sha256=THsKjMMsmPPZWT8UeAUehITV7mZ_QsvvQB989j6_JHI,3427
+belinda/belinda.abi3.so,sha256=wV8FP_sSrpmjgfqZrCggtBSVXhmeAG3LGE9CIdtDpOE,32152336
+belinda-0.0.4a5.dist-info/RECORD,,
