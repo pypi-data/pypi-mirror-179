@@ -1,0 +1,173 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+      - '*.x'
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - main
+  schedule:
+    # Weekly Monday 9AM build
+    # * is a special character in YAML so you have to quote this string
+    - cron: '0 9 * * 0'
+
+jobs:
+  check:
+    name: ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        toxenv: [ check-style, check-security ]
+        python-version: [ '3.x' ]
+        os: [ ubuntu-latest ]
+        include:
+          - name: Code style check
+            toxenv: check-style
+          - name: Security audit
+            toxenv: check-security
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
+  test:
+    name: ${{ matrix.toxenv }} (Python ${{ matrix.python-version }}, ${{ matrix.os }})
+    needs: [ check ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        toxenv: [ test-xdist, test-devdeps ]
+        python-version: [ '3.8', '3.9', '3.10', '3.11' ]
+        os: [ ubuntu-latest, macos-latest ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
+  test_older_numpy:
+    name: ${{ matrix.toxenv }} (Python ${{ matrix.python-version }}, ${{ matrix.os }})
+    needs: [ test ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        toxenv: [ test-numpy120, test-numpy121, test-numpy120 ]
+        python-version: [ '3.8', '3.9', '3.10', '3.11' ]
+        os: [ ubuntu-latest ]
+        exclude:
+          - python-version: '3.10'
+            toxenv: test-numpy120
+          - python-version: '3.11'
+            toxenv: test-numpy120
+          - python-version: '3.11'
+            toxenv: test-numpy121
+          - python-version: '3.11'
+            toxenv: test-numpy122
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
+  test_pyargs:
+    name: ${{ matrix.toxenv }} (Python ${{ matrix.python-version }}, ${{ matrix.os }}
+    needs: [ test ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        toxenv: [ test-pyargs-xdist ]
+        python-version: [ '3.x' ]
+        os: [ ubuntu-latest ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
+  test_with_coverage:
+    name: ${{ matrix.toxenv }} (Python ${{ matrix.python-version }}, ${{ matrix.os }})
+    needs: [ test ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        toxenv: [ test-cov ]
+        python-version: [ '3.11' ]
+        os: [ ubuntu-latest ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
+      - if: ${{ contains(matrix.toxenv,'-cov') }}
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage.xml
+          flags: unit
+          fail_ci_if_error: true
+  build:
+    name: ${{ matrix.toxenv }} (Python ${{ matrix.python-version }}, ${{ matrix.os }})
+    needs: [ test ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        toxenv: [ build-twine ]
+        python-version: [ '3.8', '3.9', '3.10', '3.11' ]
+        os: [ ubuntu-latest, macos-latest ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install tox
+      - uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tox-${{ matrix.toxenv }}-${{ env.pythonLocation }}-${{ runner.os }}-${{ hashFiles('pyproject.toml', 'setup.*') }}
+      - run: tox -e ${{ matrix.toxenv }}
