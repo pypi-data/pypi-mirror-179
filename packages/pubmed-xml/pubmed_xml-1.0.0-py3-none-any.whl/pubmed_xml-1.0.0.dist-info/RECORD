@@ -1,0 +1,14 @@
+pubmed_xml/__init__.py,sha256=1PSi6KjK3xZIrs_yJfjxxJTPYWGmSDTo6I7QXG6-vZU,242
+pubmed_xml/version.json,sha256=STEFryYAv3TV-gbb7sfOzl8gDtLkZg10nwyUecPVby8,217
+pubmed_xml/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubmed_xml/bin/main.py,sha256=hqJxQ7bcMQpNQK_5e7LTDsBt1tPTN9GfQK159xZQAPE,1327
+pubmed_xml/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pubmed_xml/core/abstract.py,sha256=84jKslxsoAFgEuAhi4u_zlSMNp1kqMWJ-XT9Vfs08SU,1321
+pubmed_xml/core/article.py,sha256=hRQj6_TQFrA0BXYbTu0jEcoKTjZZtrtHnGQ9WCoBCQ8,550
+pubmed_xml/core/parser.py,sha256=MYlCYo9a-NY7vCGinZfSqUiu8AYgCPI-76A1uNwRMGU,5406
+pubmed_xml/util/__init__.py,sha256=gtevPYiISP8jC2aGUVZH2fO9LRQinfsRtjCFhHgQfEQ,1354
+pubmed_xml-1.0.0.dist-info/METADATA,sha256=RHy8R-36aErydJOZHU7HVE__4KJ9MyAgofOdxpK1QvE,1692
+pubmed_xml-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pubmed_xml-1.0.0.dist-info/entry_points.txt,sha256=nAfuB6QE3cAsYCh8v8kWegUQezaqOIqN6ZXVXxaN_xs,57
+pubmed_xml-1.0.0.dist-info/top_level.txt,sha256=ASPiEq0qHQW3rmBO9PdahxdvrZZLL_g6J-o1K991y6w,11
+pubmed_xml-1.0.0.dist-info/RECORD,,
