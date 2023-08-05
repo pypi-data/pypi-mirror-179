@@ -1,0 +1,11 @@
+viggoorg/__init__.py,sha256=mU0Vcfcclwax3VdCDaG_l0cQqeA49n9ygszKHaGwUAo,1464
+viggoorg/resources.py,sha256=ybJ1bpWH2lb1d07b28lC8bTwmf9S_WwJ0ZSTOuu08zc,225
+viggoorg/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggoorg/subsystem/sysadmin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggoorg/subsystem/sysadmin/domain_org/__init__.py,sha256=frKsZ-TTK-lPjAs2L_tukoPrTdU6GgFfgDYur9lx5M8,162
+viggoorg/subsystem/sysadmin/domain_org/resource.py,sha256=WWU7A2bEF8EBBhuCiITIQzdAy5lbGr31vQLHhpqSvDg,2492
+viggoorg-1.0.0.dist-info/AUTHORS,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+viggoorg-1.0.0.dist-info/METADATA,sha256=lV-_dN9jFqxPDX3uAnG-Cd3z2Ff9Z3Y1AK2dU2ZPAQs,330
+viggoorg-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+viggoorg-1.0.0.dist-info/top_level.txt,sha256=MAaS_rhB8_16HS9T4bt6ayHuH2X-P-xFapYISxlSj14,9
+viggoorg-1.0.0.dist-info/RECORD,,

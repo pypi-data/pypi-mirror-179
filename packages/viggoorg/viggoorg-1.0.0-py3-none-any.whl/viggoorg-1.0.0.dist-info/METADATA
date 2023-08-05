@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: viggoorg
+Version: 1.0.0
+Summary: VIGGOORGbackend Flask REST service
+Home-page: https://bitbucket.org/viggoorgb3t3/viggoorg-backend
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: AUTHORS
+Requires-Dist: viggocore (<2.0.0,>=1.0.0)
+Requires-Dist: viggolocal (>=1.0.0)
+Requires-Dist: flask-cors
+
+UNKNOWN
+
