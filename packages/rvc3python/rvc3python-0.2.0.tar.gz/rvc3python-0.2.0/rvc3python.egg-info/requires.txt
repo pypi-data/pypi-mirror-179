@@ -1,0 +1,4 @@
+matplotlib
+roboticstoolbox-python
+machinevision-toolbox-python
+bdsim
