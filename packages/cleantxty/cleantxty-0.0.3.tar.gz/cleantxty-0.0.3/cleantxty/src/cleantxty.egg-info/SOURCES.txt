@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cleantxty/src/cleantxty.egg-info/PKG-INFO
+cleantxty/src/cleantxty.egg-info/SOURCES.txt
+cleantxty/src/cleantxty.egg-info/dependency_links.txt
+cleantxty/src/cleantxty.egg-info/top_level.txt
+cleantxty/src/cleantxty.py
+cleantxty/src/cleantxty.egg-info/SOURCES.txt
