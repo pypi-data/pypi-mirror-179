@@ -1,0 +1,2 @@
+[console_scripts]
+dbc = dbc.framework.cli:main
