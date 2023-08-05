@@ -1,0 +1,12 @@
+leukeleu_django_gdpr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_gdpr/apps.py,sha256=2IfC7KfZCrV0m8DoXk-wYm2d_wZTvAubwUk9JUMB0GA,216
+leukeleu_django_gdpr/checks.py,sha256=Dz4rRhZM4cdrVXB8R4OrCMlLI3hrLaBtHkmNPvI_ctQ,614
+leukeleu_django_gdpr/gdpr.py,sha256=dKYmsDwqAtkDq9mz2fIbiOYRpZb0MpcTjy3VB8EvTVk,5677
+leukeleu_django_gdpr/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_gdpr/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+leukeleu_django_gdpr/management/commands/gdpr.py,sha256=0HJDNjBZTmFoLQfu5ZpHJnj2ubWnASAiZgsqR5h8NHg,2899
+leukeleu_django_gdpr-1.2.1.dist-info/LICENSE,sha256=Jt66eviASvkOZWhb2Mm-ocNjDt_uTMwapnC_qjWNs44,1070
+leukeleu_django_gdpr-1.2.1.dist-info/METADATA,sha256=8jayLdV5LuM5r_zkwc4Gn2eZGG0WEkpBbJ1-ujYTjAo,4818
+leukeleu_django_gdpr-1.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+leukeleu_django_gdpr-1.2.1.dist-info/top_level.txt,sha256=dKD99w3kSTZFo_rAyd6AP8nzxctjWh6H-uteh5axOW4,21
+leukeleu_django_gdpr-1.2.1.dist-info/RECORD,,
