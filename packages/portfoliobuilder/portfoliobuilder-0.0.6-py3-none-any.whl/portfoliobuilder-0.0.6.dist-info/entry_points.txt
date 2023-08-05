@@ -1,0 +1,2 @@
+[console_scripts]
+portfoliobuilder = src.portfoliobuilder:portfoliobuilder
