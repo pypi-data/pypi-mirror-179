@@ -1,0 +1,8 @@
+simpy
+pygame
+numpy
+
+[dev]
+flake8
+black
+bumpver
