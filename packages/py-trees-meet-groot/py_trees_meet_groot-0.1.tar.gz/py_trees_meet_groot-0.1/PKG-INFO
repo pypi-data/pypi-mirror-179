@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: py_trees_meet_groot
+Version: 0.1
+Summary: Simple library to load XML begavior Trees done using Groot GUI into the py_trees library
+Project-URL: Homepage, https://github.com/narcispr/py_trees_meet_groot
+Project-URL: Bug Tracker, https://github.com/pypa/py_trees_meet_groot/issues
+Author-email: Narcis Palomeras <narcispr@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Import Groot XML files into py_trees
+
+[Groot](https://github.com/BehaviorTree/Groot) is a Graphical Editor, written in C++ and Qt, to create BehaviorTrees. It is only compatible with [BehaviorTree.CPP](https://github.com/BehaviorTree/BehaviorTree.CPP). This module is an attempt to use Groot to generate trees using [py_trees](https://github.com/splintered-reality/py_trees) instead of BehaviorTree.CPP.
+
+## Groot supported features 
+
+BehaviorTree.CPP and py_trees use different control sequences, decorators and tree leaves. This section explains the mapping between one and the other in order to use Groot in py_trees.
+
+### Control nodes to Composite nodes:
+
+| Groot | py_trees |
+|-------|----------|
+| Sequence | Sequence with `memory=True` |
+| ReactiveSequence | Sequence with `memory=False` |
+| Fallback | Selector with `memory=True` |
+| ReactiveFallback | Selector with `memory=False` |
+| Parallel with `success_threshold=1` | Parallel with `policy=SuccessOnOne` |
+| Parallel with `success_threshold <> 1` | Parallel with `policy=SuccessOnAll` |
+| IfThenElse | not available |
+| WhileDoElse | not available |
+| SwitchX | not available |
+
+
+### Decorators to Decorators
+
+| Groot | py_trees |
+|-------|----------|
+| Timeout | Timeout |
+| ForceFailure | SuccessIsFailure |
+| ForceSuccess | FailureIsSuccess |
+| Inverter | Inverter | 
+| BlackboardCheckX | *EternalGuard?* | 
+| KeepRunningUntilFailure | *Condition?* |
+| Repeat | not available |
+| RetryUntilSuccessful | not available |
+| Delay | not available |
+| User defined Decorator | Decorator in `user_decorators` |
+
+Additional py_trees decorators, both core defined as `OneShot`, `StatusToBlackboard`, `FailureIsRunning`, `RunningIsSuccess`... or completely created by the use must be added in the `user_decorators` diccionare and pass to the `groot_xml_to_py_trees` function to be used.
+
+
+### Actions and Conditions to Behaviors
+
+| Groot | py_trees |
+|-------|----------|
+| AlwaysFailure | Failure |
+| AlwaysSuccess | Success |
+| SetBlackBoard | SetBlackboardVariable `output_key=value` |
+| user defined Action | Behavior in `user_behaviors` |
+| user defined Condition | Behavior in `user_behaviors` |
+
+
+All manually defined Actions or Conditions in Groot has to be defined as py_trees `behaviors` and added into the `user_behaviors` list in function `groot_xml_to_py_trees` to be used.
+
