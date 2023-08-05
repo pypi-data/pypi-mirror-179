@@ -1,0 +1,10 @@
+dycode/__init__.py,sha256=sazM-UW5Eo1gGW4PjVhfQpp6N-13Qf30qgK5FxvbusE,180
+dycode/functions.py,sha256=FCn1k-CCXc3TY05e056XVZ-6okHHqXmyZSspMcHpWks,7381
+dycode/get_value.py,sha256=IxaMyxmrU0hV-YfPrVjhXfHGKIhKLQ15Q2NxAz085Hs,6250
+dycode/set_value.py,sha256=nE_bK8fE9fDg_tpbZG8EEReWk4UaA8pcIQYIhmM6WUM,885
+dycode/utils.py,sha256=ZcF5BfRgxoZ1IRIJ_7EJqNyq7JUy65N3b6eJta6Vwrs,965
+dycode-0.0.1.dist-info/LICENSE,sha256=EpRO3S5sf5in4qdaigOmvKri6VmnDwiIj8iSGRVG5iI,1069
+dycode-0.0.1.dist-info/METADATA,sha256=j7S3XsFC_el9w5BVC8ROzys_YcwJbFWc6OUw9s9jkAQ,8715
+dycode-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dycode-0.0.1.dist-info/top_level.txt,sha256=HibeeoTtuCyuydFh8bZHAtvOpCWhxKJi9Swv6NN78s0,7
+dycode-0.0.1.dist-info/RECORD,,
