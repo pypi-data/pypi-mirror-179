@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/tridimensional/main.py
+src/tridimensional.egg-info/PKG-INFO
+src/tridimensional.egg-info/SOURCES.txt
+src/tridimensional.egg-info/dependency_links.txt
+src/tridimensional.egg-info/top_level.txt
