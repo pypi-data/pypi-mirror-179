@@ -1,0 +1,11 @@
+django4_recaptcha_admin_login/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django4_recaptcha_admin_login/admin.py,sha256=jTfZJbzTWRCv4RiBn_a5vIlPnkFGrvhFPyfkXOz7uDg,333
+django4_recaptcha_admin_login/apps.py,sha256=vvVxQDCcLA_S91dss2CBfYOT4sRBjqHmAG7lSIq-C2Y,182
+django4_recaptcha_admin_login/forms.py,sha256=sdjCZN24QzJfAKCqUTm_wc2y2YYJ7PevTxpYQw9MdeQ,232
+django4_recaptcha_admin_login/sites.py,sha256=RgDgFiAtqiuUXKpIlceA6k7roodpA71LlzHyiJTbeDA,228
+django4_recaptcha_admin_login/templates/admin/rechapcha_login.html,sha256=J1sBlgxCzzFpbg4cEIlZhTlecs1lxTtQA4fdLKtnHwE,1983
+django4_recaptcha_admin_login-1.0.dist-info/LICENSE.txt,sha256=WQc2UxNMqHcAS7zGkqEep0akDAEb1eH0f1iwxoFTJCM,1073
+django4_recaptcha_admin_login-1.0.dist-info/METADATA,sha256=QdwM8BHBQqLOuN_PCVCTBAcE0J-hGMRlyJ1q1tW5hx4,2412
+django4_recaptcha_admin_login-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django4_recaptcha_admin_login-1.0.dist-info/top_level.txt,sha256=WQSyocPnOZQnrRIgl62-O7TIww-L4HvJxjOVGDb2rZE,30
+django4_recaptcha_admin_login-1.0.dist-info/RECORD,,
