@@ -1,0 +1,9 @@
+pycfdns/__init__.py,sha256=h17fxnRLz5ybcbfRy66B29AMTHbM0_SBuaSpZC6xso0,5028
+pycfdns/const.py,sha256=ifGOm8TCZSeDMdk005Hzh50kmMXFTp7r5ZcTNfHdGWA,106
+pycfdns/exceptions.py,sha256=ZAHuXmlgQ469F0V6belHgKcwLpj3maFc_6bZCgI3xRo,463
+pycfdns/models.py,sha256=I4O4ISVlx-ogZW20Tay-mR_zBNh7O1sgFM27_bNxvlI,4538
+pycfdns-2.0.1.dist-info/LICENSE,sha256=Cpar6eu-b8sZct5IfR85ew3t2cb2VtoPJ7VwSirr9Qs,1078
+pycfdns-2.0.1.dist-info/METADATA,sha256=mFhgXOVQ-hbQCKRPLFXg1dw5g95KcgFAzK1vRkcQ7C8,1268
+pycfdns-2.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pycfdns-2.0.1.dist-info/top_level.txt,sha256=JE2LKN1_CNYxGCVoYPewoJn3Bqintji2SqGuizCSlbg,8
+pycfdns-2.0.1.dist-info/RECORD,,
