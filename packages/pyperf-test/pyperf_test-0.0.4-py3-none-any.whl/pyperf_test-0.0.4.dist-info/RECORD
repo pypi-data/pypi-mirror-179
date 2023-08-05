@@ -1,0 +1,15 @@
+pyperf/__init__.py,sha256=I6ZCrnspfTcbrKqCSXKbRJD6c23310wgIzN-yCZzWmA,94
+pyperf/apply.py,sha256=63cXRbl-QjI6wIyz1Q-23ZupYy4D5Y3LN1RfGQCIeBM,1683
+pyperf/base.py,sha256=jVrT3fPp23B-QOletNFcqY84ipSogytFsF8lWuKvZxg,1632
+pyperf/main.py,sha256=1oZ4y4NN19tWrkY12pY_LxF4_Ynw3Yp5ja8OBqpjjZA,240
+pyperf/tests/__init__.py,sha256=SesaPQGZ_3qCd0EnxBlsT9gQOg59wzJicdvCR2W9NrE,65
+pyperf/tests/classes/__init__.py,sha256=980G6qwpEYSySNyOEOqx0bv97XK57IuRDxD4Wn2Pfo0,28
+pyperf/tests/classes/classes_slots.py,sha256=jLGL_ilMuv0WhhP7jIjtYK4LLoVS3xoY0u70mJ-rGms,902
+pyperf/tests/dicts/__init__.py,sha256=-g7zQi0j64YWexzsJG64_2FuR6uezipgJ2sVZpU3U9c,20
+pyperf/tests/dicts/dicts.py,sha256=jsBTPseyTCBZQlPy0HkC1kG6V2pWW6iKimhGOKDG8X4,233
+pyperf/tests/lists/__init__.py,sha256=R7Wfz1F27H2bCWzN3HyNVHZMZTww_MtawVVT6MucGSw,20
+pyperf/tests/lists/lists.py,sha256=cykzXrNvfsqeniTCWF9-fLW2F-aROaZ2s9KXQsMSrUg,622
+pyperf_test-0.0.4.dist-info/METADATA,sha256=A0g414IcY7kuiowGORc70FOpOp1EbAKcOApU-NYaNHU,423
+pyperf_test-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyperf_test-0.0.4.dist-info/top_level.txt,sha256=f4jZ491KVkYfITs8wfVm6es4Ut0OX6VIhPWD3LM73C8,7
+pyperf_test-0.0.4.dist-info/RECORD,,
