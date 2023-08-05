@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: cag
+Version: 0.5.5
+Summary: This is a general framework to create arango db graphs and annotate them.
+Keywords: graph,architectural framework,graph creator,graph annotator
+Author-email: Roxanne El Baff <roxanne.elbaff@dlr.de>, Tobias Hecking <tobias.hecking@dlr.de>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: dataclasses>=0.6
+Requires-Dist: spacy>=3.4.1
+Requires-Dist: spacy_arguing_lexicon>=0.0.3
+Requires-Dist: empath>=0.89
+Requires-Dist: pytest>=7.1.2
+Requires-Dist: networkx>=2.8.5
+Requires-Dist: nltk>=3.4.5
+Requires-Dist: pyvis>=0.2.1
+Requires-Dist: tqdm>=4.43.0
+Requires-Dist: python-arango>=7.4.1
+Requires-Dist: pyArango>=2.0.1
+Requires-Dist: tomli>=2.0.1
+Requires-Dist: pip-tools ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Project-URL: Homepage, https://github.com/DLR-SC/corpus-annotation-graph-builder
+Provides-Extra: dev
+
+# Corpus Annotation Graph Builder (CAG)
+
+
+* [Overview](#overview)
+* [Installation](#installation)
+* [Usage](#usage)
+
+
+## Overview
+
+
+
+![cag](docs/cag.png)
+
+**Corpus Annotation Graph builder (CAG)**  is an *architectural framework* that employs the *build-and-annotate* pattern for creating a graph. CAG is built on top of [ArangoDB](https://www.arangodb.com) and its Python drivers ([PyArango](https://pyarango.readthedocs.io/en/latest/)). The *build-and-annotate* pattern consists of two phases (see Figure above): (1) OOI data is collected from different sources (e.g., publication databases, online encyclopedias, news feeds, web portals, electronic libraries, repositories, media platforms) and preprocessed to build the core nodes. The component responsible for this phase is the **Graph-Creator**. (2) Annotations are extracted from the OOIs, and corresponding annotation nodes are created and linked to the core nodes. The component dealing with this phase is the **Graph-Annotator**.
+
+This framework aims to offer researchers a flexible but unified and reproducible way of organizing and maintaining their interlinked document collections in a Corpus Annotation Graph. 
+
+## Installation
+
+### Direct install via pip 
+
+The package can also be installed directly via pip.
+```
+pip install cag
+```
+
+This will allow you to use the module **`cag`** from any python script locally. The two main packages are **`cag.framework`** and **`cag.view_wrapper`**.
+
+
+### Manual cloning
+This package is in the early development stages - to use/update it, clone the repository, go to the root folder and then run:
+
+```
+pip install -e .
+```
+## Usage
+
+* Graph Creation [[jupyter notebook](examples/1_create_graph.ipynb)]
+* Graph Annotation [[jupyter notebook](examples/2_annotate_graph.ipynb)]
+
+
