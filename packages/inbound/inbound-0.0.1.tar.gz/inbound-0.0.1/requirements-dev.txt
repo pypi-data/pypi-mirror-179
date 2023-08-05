@@ -1,0 +1,12 @@
+mypy
+black
+flake8
+flake8-docstrings
+flake8-black
+Sphinx
+darglint
+isort
+nox
+build
+twine
+sqlfluff
