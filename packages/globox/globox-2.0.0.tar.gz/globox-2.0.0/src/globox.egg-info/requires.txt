@@ -1,0 +1,11 @@
+rich
+tqdm
+numpy
+
+[dev]
+tox
+pytest
+twine
+build
+pycocotools
+Pillow
