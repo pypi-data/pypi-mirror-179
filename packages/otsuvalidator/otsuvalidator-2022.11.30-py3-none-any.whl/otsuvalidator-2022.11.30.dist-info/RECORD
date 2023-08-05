@@ -1,0 +1,9 @@
+otsuvalidator/__init__.py,sha256=nyXIuiMe3chE-g0VRNnaBBpKEeeg-iaXHgWiuuYuS_s,664
+otsuvalidator/bases.py,sha256=nuxBDxshu4WqKmhmknnuyle8eqVX_e7j1xJtQB7FABU,8156
+otsuvalidator/converters.py,sha256=zhpbvKKawQbAQMbo1kyictWrniaPv3XzDhbPfcGduC8,9659
+otsuvalidator/validators.py,sha256=PcwRurmIhDTHZVztWQ0jkuSVjWnrRiJm2-JE6Kx5mZk,26240
+otsuvalidator-2022.11.30.dist-info/LICENSE.txt,sha256=XeWySNtE4_U7F-7QZKewFrVrDFEknE9jIi_JAaiNoMI,1087
+otsuvalidator-2022.11.30.dist-info/METADATA,sha256=5Rayo8qki2UjWgkrzt7dswrdNBnpTzlrzzKw_cUsAM8,31827
+otsuvalidator-2022.11.30.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+otsuvalidator-2022.11.30.dist-info/top_level.txt,sha256=l0-Zk3CB2TJEDbLW5JkJza3rQ3j28pz5KHd753PFUfo,14
+otsuvalidator-2022.11.30.dist-info/RECORD,,
