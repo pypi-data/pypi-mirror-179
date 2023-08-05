@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yourmove-monitor
+Version: 0.1.2
+Summary: General Library to monitor YourMove Project
+Home-page: https://github.com/Hekler-Designing-Health-Lab/YourMove-Monitor
+Author: jup014
+Author-email: jup014@ucsd.edu
+License: MIT
+Project-URL: Bug Tracker, https://github.com/Hekler-Designing-Health-Lab/YourMove-Monitor/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pymongo
+
+test readme.md file
