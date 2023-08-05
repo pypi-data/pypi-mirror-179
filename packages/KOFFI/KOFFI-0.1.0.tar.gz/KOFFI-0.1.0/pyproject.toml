@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "KOFFI"
+description = "Known Objects From FITS Indices"
+version = "0.1.0"
+authors = [
+    {name = "Max West", email = "maxwest@uw.edu"}
+]
+requires-python = ">=3.7"
+dependencies = [
+    "astropy",
+    "astroquery",
+    "dask",
+    "tqdm"
+]
+license = {text = "BSD 3-Clause License"}
+
+# formatting configuration as specified at developer.lsst.io
+[tool.black]
+line-length = 110
+target-version = ["py38"]
+
+[tool.isort]
+profile = "black"
+line_length = 110

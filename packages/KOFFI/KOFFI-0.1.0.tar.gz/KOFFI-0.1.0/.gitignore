@@ -1,0 +1,11 @@
+.DS_Store
+KOFFI.egg-info/
+__pycache__/
+koffi_tools/__pycache__/
+tests/__pycache__/
+build/
+dist/
+.pytest_cache
+.coverage
+
+*.py[cod]
