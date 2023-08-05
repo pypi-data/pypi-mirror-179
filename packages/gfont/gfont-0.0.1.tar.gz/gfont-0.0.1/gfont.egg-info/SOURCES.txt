@@ -1,0 +1,8 @@
+setup.py
+gfont/__init__.py
+gfont/gfont.py
+gfont.egg-info/PKG-INFO
+gfont.egg-info/SOURCES.txt
+gfont.egg-info/dependency_links.txt
+gfont.egg-info/requires.txt
+gfont.egg-info/top_level.txt
