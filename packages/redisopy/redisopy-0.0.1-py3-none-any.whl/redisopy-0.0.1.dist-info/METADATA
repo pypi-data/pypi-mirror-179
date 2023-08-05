@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: redisopy
+Version: 0.0.1
+Summary: python redis orm
+Author: Steven Wang
+Author-email: brightstar8284@icloud.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: redis (>=4.3.5)
+

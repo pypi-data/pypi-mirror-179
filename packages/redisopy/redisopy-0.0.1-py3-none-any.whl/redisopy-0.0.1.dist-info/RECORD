@@ -1,0 +1,16 @@
+redisorm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redisorm/connection.py,sha256=y6HtQOPYdydmOKRgsgfzLwdMUTp1l5v6gpVkLegXOXA,530
+redisorm/errors.py,sha256=VHCWtfEsgqN0yIvyn6mNKpxOyBSV6S_qWs-vHxJ_XII,41
+redisorm/fields.py,sha256=bzHYD7L6UGvrT-WGw1zfa0wOJt9_K2vH4DiBWbLpvpc,589
+redisorm/models.py,sha256=Q1U8pc0JOzdZpLCa-WgsfPhKGAMk-GlO6q2QkTLZ23c,1369
+redisorm/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redisorm/base/field.py,sha256=h1lPTTlpSMJq7PANId0OcUil34K3yj1IbE4C6jVQJGc,876
+redisorm/base/model.py,sha256=sr_WuEo49Jelw6B-k-zbTAq1akzW09k1o8TqNfe4dqo,2357
+redisorm/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redisorm/utils/model_var.py,sha256=RCi_cON6koR8-MoCyOsrlhysbSJxOAEyHdtNkbZND-0,928
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_model.py,sha256=7f6Qj_qVa0wZeduynMkHC1GL7FNZtghMhEPTVFuc0hQ,1350
+redisopy-0.0.1.dist-info/METADATA,sha256=R2wO3of9099GwCVzT4eECC-4Un7C40rEzC0lRyQQzNQ,312
+redisopy-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+redisopy-0.0.1.dist-info/top_level.txt,sha256=qEFLAdMFyiNSbshj73OyZ8JTFwtn-DUA0u4ffyGbdMg,14
+redisopy-0.0.1.dist-info/RECORD,,
