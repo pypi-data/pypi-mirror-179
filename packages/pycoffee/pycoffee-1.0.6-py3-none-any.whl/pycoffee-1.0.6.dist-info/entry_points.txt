@@ -1,0 +1,3 @@
+[console_scripts]
+cof = Coffee.CLI.coffee:coffee
+cofd = Coffee.CLI.coffeed:coffeed
