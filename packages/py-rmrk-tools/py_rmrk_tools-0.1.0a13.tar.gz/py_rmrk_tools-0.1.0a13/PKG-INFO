@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: py-rmrk-tools
+Version: 0.1.0a13
+Summary: Python port of Typescript rmrk-tools.
+Project-URL: Homepage, https://github.com/khssnv/py-rmrk-tools
+Author-email: "Alisher A. Khassanov" <a.khssnv@gmail.com>
+License-File: LICENSE
+Keywords: kusama,nft,polkadot,rmrk
+Requires-Python: >=3.9
+Provides-Extra: all
+Requires-Dist: black<22.0,>=21.12b0; extra == 'all'
+Requires-Dist: flake8<5.0.0,>=4.0.1; extra == 'all'
+Requires-Dist: ipython<8.0.0,>=7.30.1; extra == 'all'
+Requires-Dist: isort<6.0.0,>=5.10.1; extra == 'all'
+Requires-Dist: pre-commit<3.0.0,>=2.16.0; extra == 'all'
+Requires-Dist: pylint<3.0.0,>=2.12.2; extra == 'all'
+Requires-Dist: pytest<6.0.0,>=5.2; extra == 'all'
+Description-Content-Type: text/markdown
+
+py-rmrk-tools
+=============
+
+A port of [rmrk-tools](https://github.com/rmrk-team/rmrk-tools) for Python.
+
+Installation
+------------
+
+Python 3.9 and higher supported.
+
+```console
+pip install py-rmrk-tools
+```
+
+What's done
+-----------
+
+The package contains only those features I currently need for my other projects. But feel free to create an [issue](https://github.com/khssnv/py-rmrk-tools/issues/new) in case you want to request any other feature ported here from the [rmrk-tools](https://github.com/rmrk-team/rmrk-tools) package. Also [pull requests](https://github.com/khssnv/py-rmrk-tools/pulls) are very welcome!
+
+### RMRK 1.0.0
+
+- [x] Constants and enums,
+- [x] Definitions: Attribute, Properties, Reactionmap, Change, NFTMetadata,
+- [x] NFT entity,
+- [ ] Collection entity.
+
+### RMRK 2.0.0
+
+- [x] Constants and enums,
+- [x] Definitions: MutationOp, Mutation, Attribute, Properties, Reactionmap, Change, NFTChild, ResourceConsolidated, NFTInstanceConf, NFTMetadata,
+- [x] NFT entity,
+- [x] Collection entity (partially).
+
+Who uses it
+-----------
+
+I use this package in production for a couple of projects:
+
+* At [https://spot.merklebot.com](https://spot.merklebot.com/) it mints a RMRK NFT for each Boston Dynamics Spot robot demo launch which triggers by a `Launch` type transaction in [Robonomics Network](https://robonomics.network/) blockchain,
+* At [https://telescope.merklebot.com](https://telescope.merklebot.com) it worked to produce RMRK NFTs from deep space photos made by [https://atacamascope.cl](https://atacamascope.cl/) telescope in Atacama desert, Chile.
