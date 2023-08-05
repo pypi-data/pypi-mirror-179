@@ -1,0 +1,9 @@
+tokengen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tokengen/cli.py,sha256=DKWxmlsuB8HcS2Zimi2r0DYDxO5AcoDYruKogKAewBk,2776
+tokengen/source.py,sha256=uCAdr6EFSZB73ZwYdBzOUPPEYPgREjRmyPgockteXq8,2831
+tokengen-0.0.16.dist-info/LICENSE,sha256=XmDrP6MkWtnEKk2bG2CSN4NayFa1ClcotitYQN4EneA,1073
+tokengen-0.0.16.dist-info/METADATA,sha256=Dhn4aLlVJvPlMw7MjphL83_-zD-LUrmK5D8m5ey2Bhg,2282
+tokengen-0.0.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tokengen-0.0.16.dist-info/entry_points.txt,sha256=jbyAF17jEsnXyyZ8Hl3JO9d6thawx1SRZo4OZRUDMs0,47
+tokengen-0.0.16.dist-info/top_level.txt,sha256=JhseYb-TYq_KCr8MCowtIvJJzZ0Me6jcRkIONOLDopo,9
+tokengen-0.0.16.dist-info/RECORD,,
