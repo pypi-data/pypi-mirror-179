@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/django4_recaptcha_admin_login/__init__.py
+src/django4_recaptcha_admin_login/admin.py
+src/django4_recaptcha_admin_login/apps.py
+src/django4_recaptcha_admin_login/forms.py
+src/django4_recaptcha_admin_login/sites.py
+src/django4_recaptcha_admin_login.egg-info/PKG-INFO
+src/django4_recaptcha_admin_login.egg-info/SOURCES.txt
+src/django4_recaptcha_admin_login.egg-info/dependency_links.txt
+src/django4_recaptcha_admin_login.egg-info/requires.txt
+src/django4_recaptcha_admin_login.egg-info/top_level.txt
+src/django4_recaptcha_admin_login/templates/admin/rechapcha_login.html
