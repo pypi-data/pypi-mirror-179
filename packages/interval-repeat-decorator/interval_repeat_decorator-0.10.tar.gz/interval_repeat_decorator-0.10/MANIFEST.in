@@ -1,0 +1,4 @@
+include interval_repeat_decorator/requirements.txt
+include interval_repeat_decorator/thirdparty.json
+include interval_repeat_decorator/README.MD
+include interval_repeat_decorator/LICENSE

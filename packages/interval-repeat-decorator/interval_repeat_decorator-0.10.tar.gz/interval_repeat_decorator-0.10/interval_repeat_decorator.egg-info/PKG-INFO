@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: interval-repeat-decorator
+Version: 0.10
+Summary: Run code asynchronously to the main code execution
+Home-page: https://github.com/hansalemaos/interval_repeat_decorator
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: decorator,asynchronously,execution,threading
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+### Run code asynchronously to the main code execution
+
+```python
+pip install interval-repeat-decorator
+
+from interval_repeat_decorator import repeat_action
+from threading import Lock
+lock = Lock()
+@repeat_action(
+    print_exception=True,
+    exception_value="FTW",
+    break_on_exceptions=False,
+    interval=.1,
+    threadlock=lock,
+    kill_thread="ctrl+x",
+    number_of_executions=10,
+)
+def testest(number):
+    if number == 0:
+        print(number)
+        return True
+    elif number == 1:
+        print(number / 0)
+    return True
+@repeat_action(
+    print_exception=True,
+    exception_value="FTW",
+    break_on_exceptions=False,
+    interval=.2,
+    threadlock=lock,
+    kill_thread="ctrl+y",
+    number_of_executions=5,
+)
+def testest2(number):
+    if number == 0:
+        print(number)
+        return True
+    elif number == 1:
+        print(number / 0)
+    return True
+testex = testest(number=0)
+testex2 = testest2(number=1)
+print(f"{testex=}\n{testex2=}") #returns the first result only, but will keep on executing!  
+0
+division by zero
+testex=True
+testex2='FTW'
+0
+division by zero
+0
+0
+division by zero
+0
+0
+division by zero
+0
+0
+division by zero
+0
+0
+testex
+Out[3]: True
+testex2
+Out[4]: 'FTW'
+
+
+```
+
