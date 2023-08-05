@@ -1,0 +1,15 @@
+itk/IOScancoPython.py,sha256=xd1YPaVjgC5qvrvtU975trLRXCDSzCI83vHHBAvWUJ0,2415
+itk/_IOScancoPython.pyd,sha256=05SatHIA_taWMxwxIiw0iEbiIeoOVNctsW526cr22o8,329728
+itk/__init_ioscanco__.py,sha256=OBAOsaenUCay1iWR4eNw82WfMLVElY053bLXfe34MLs,1191
+itk/itkScancoImageIOPython.py,sha256=0ROID6TZ-nFWxeRXaLptVondf4aQ8igjaBpWrYWprFo,13239
+itk/Configuration/IOScancoConfig.py,sha256=B7bxCBLyyHkKvzdM8qQjXqqQ_TViGWxNWvnUpH06hD8,259
+itk/Configuration/IOScanco_snake_case.py,sha256=9vod4cFmYt5kmtm1e6v9EGK_ZPA-PDivTkxICPlGqzM,27
+itk_ioscanco.libs/.load-order-itk_ioscanco-0.10.0,sha256=JKcc36NVULcRc2mwXzXn5udi-nCmRySL93Q7w2vpTnA,34
+itk_ioscanco.libs/msvcp140.dll,sha256=cjwZDKxOog9xnhSHeEeslvB0vOpXIaaQd3ASgr1i8vY,572304
+itk_ioscanco.libs/vcruntime140_1.dll,sha256=P0f6yquHS7phbO1tNCDFKB1iKTw0bcHnMWZi5Ar_Pas,38288
+itk_ioscanco-0.10.0.dist-info/DELVEWHEEL,sha256=rp4WU7wpa25UgCLK5aDGgBzpXFtj41ehhP4Mru4rcT0,257
+itk_ioscanco-0.10.0.dist-info/LICENSE,sha256=6N4ac5NFfpyIdot45rp5BiL777BAzkgZTCyw8bbU6f8,11562
+itk_ioscanco-0.10.0.dist-info/METADATA,sha256=dput-PRQbDxpqENQXgWexktPeTQHvkTTO8aabxlsO7w,1519
+itk_ioscanco-0.10.0.dist-info/WHEEL,sha256=7RMqt2RdAuOto_Wyer8iWf7BxxQdTDxRIxgixr-G0qQ,95
+itk_ioscanco-0.10.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_ioscanco-0.10.0.dist-info/RECORD,,
