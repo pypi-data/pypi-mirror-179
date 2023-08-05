@@ -1,0 +1,17 @@
+contextualise_ssh_server/__init__.py,sha256=XNEOetZ4Alygu6anjW6LPRwZXDJBfaV2qjgtqulc7TU,189
+contextualise_ssh_server/cli.py,sha256=WnXc2vWLkrKsCxhokAzEnaHNqW2N1qf2il4VpC60mYU,6257
+contextualise_ssh_server/config.py,sha256=hySamEfLkR0qGdviweYZWKBDN09Lzv20LRSLRNcPgpw,2156
+contextualise_ssh_server/contextualise_ssh_server.conf,sha256=96b_xe2yIaiEF-kUqRAh6E29B103yqiLC4a2-XOErQo,751
+contextualise_ssh_server/disable-pam-ssh.sh,sha256=cZye4RR9HFmkXTkw6QaEhiNtyy4xL8F3bMXtTLpSXV4,162
+contextualise_ssh_server/enable-pam-ssh.sh,sha256=6DZ2seTqcoMPBIamLfHba5_m01e38NhJKM5lh42jb5I,1194
+contextualise_ssh_server/feudal_adapter.template.conf,sha256=fQN9FUt2JUh2o9xcvtNhznHr1Dqz8SSHUJ91ZDDeDOY,7529
+contextualise_ssh_server/logsetup.py,sha256=jc34Jw4nW70Qs4K1B3i2CABSbYrVUatlbPUzdpQvV5E,1790
+contextualise_ssh_server/motley_cue.template.conf,sha256=VYaj9EKYn8VUURGhVgi_YUbvGqIvfeytu8WSBU_qWtQ,4376
+contextualise_ssh_server/parse_args.py,sha256=20VD56Zs92rCDREQhJorTohxs5cAlok7FoGbLTzy7bk,1894
+contextualise_ssh_server-0.8.2.dist-info/LICENSE,sha256=Z5Mid9tCobuQ6HntUe6uJw8OJInIU7qKAOPY9HtXNYo,1071
+contextualise_ssh_server-0.8.2.dist-info/METADATA,sha256=5UloyBOq1AbLoTfhJSBTrs83mTvc0N_DO5d51ad0d8w,3008
+contextualise_ssh_server-0.8.2.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+contextualise_ssh_server-0.8.2.dist-info/entry_points.txt,sha256=64KI-PmLpMSVuRIgG0slE6I0iE7s7tATUsya9uN0FRs,79
+contextualise_ssh_server-0.8.2.dist-info/pbr.json,sha256=G0aZEuMdVoYo067as7srv8tGa_OFmE9TDm-TlxcGCug,47
+contextualise_ssh_server-0.8.2.dist-info/top_level.txt,sha256=a1TJKmsGgcw5R8r0AR2D18Rk5Dh953qUpzoPlAn42h0,25
+contextualise_ssh_server-0.8.2.dist-info/RECORD,,
