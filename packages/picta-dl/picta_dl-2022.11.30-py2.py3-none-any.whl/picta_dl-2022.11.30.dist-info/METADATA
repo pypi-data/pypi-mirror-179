@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: picta-dl
+Version: 2022.11.30
+Summary: Picta video downloader
+Home-page: https://github.com/oleksis/picta-dl
+Maintainer: Oleksis Fraga
+Maintainer-email: oleksis.fraga@gmail.com
+Project-URL: Documentation, https://github.com/oleksis/picta-dl#readme
+Project-URL: Source, https://github.com/oleksis/picta-dl
+Project-URL: Tracker, https://github.com/oleksis/picta-dl/issues
+Classifier: Topic :: Multimedia :: Video
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: mutagen
+Requires-Dist: pycryptodomex
+Requires-Dist: websockets
+Requires-Dist: certifi
+Requires-Dist: brotlicffi ; platform_python_implementation != "CPython"
+Requires-Dist: brotli ; platform_python_implementation == "CPython"
+
+Command-line program to download videos from Picta.cu Plataforma de Contenidos Audiovisuales and YouTube.com
