@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nocode-autonn
+Version: 1.0.0
+Summary: An AutoML framework for deep learning
+Home-page: https://github.com/AutoNN/AutoNN
+Author-email: raju.banerjee.720@gmail.com
+License: Apache License 2.0
+Keywords: AutoNN,autonn,AutoML,Deep Learning,CNN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/55054089/190849404-ac47a467-3f66-48af-a037-177938230c4b.png" />
+</p>
+
+***
+# AutoNN : An AutoML/ No Code ML Framework For Deep Learning enthusiast.
+
+## How to run the file:
+
+In terminal write the following command
+```
+autonn
+```
+
+
+
