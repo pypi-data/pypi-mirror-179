@@ -1,0 +1,11 @@
+DroidRpc/__init__.py,sha256=FnX9HH-2dXADluNfucg98JPMfruMoBpN9ER9lZkVQvQ,49
+DroidRpc/client.py,sha256=ePT56Z96pZjFYagtZxgIkqqGyteSzJS1r5z5Q2Sd9pY,24684
+DroidRpc/dataclasses.py,sha256=NSvF_0SShaKOgjHX83DNdEm4JHVBsKvVQHRF01ee0Eg,1415
+DroidRpc/converter/__init__.py,sha256=fs6RRJZD1CHY3-jcayq2qOh95SPM0GJaBdoAGXsOJeA,13208
+DroidRpc/grpc_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DroidRpc/grpc_interface/bot_pb2.py,sha256=dQkOe1Gh6h7mTSy7A7Ws0JSIuHTlZgbw4iZdLchly7I,131116
+DroidRpc/grpc_interface/bot_pb2_grpc.py,sha256=VppOEOBswCqDBnMURBZY5gnVLk2c1Ed9EXbherhbRSQ,14178
+DroidRpc-1.4.3.dist-info/METADATA,sha256=M0B0KHCShkBukZOIQv1kxsYSwKsBV5OfCoQZq1Tpva8,7870
+DroidRpc-1.4.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DroidRpc-1.4.3.dist-info/top_level.txt,sha256=hUUCY75-i7_TZ92Z1CxARGWbQNjH0E000VTS-oD76y4,9
+DroidRpc-1.4.3.dist-info/RECORD,,
