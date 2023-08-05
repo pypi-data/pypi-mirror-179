@@ -1,0 +1,3 @@
+[console_scripts]
+monarch=src.monarch_py.cli:app
+
