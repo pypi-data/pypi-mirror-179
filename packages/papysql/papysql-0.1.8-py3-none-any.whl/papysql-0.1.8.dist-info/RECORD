@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/papysql.py,sha256=tbu2JvO3xMOXPTRVb9w36swZ5kNySWY2LwgISGPEBqo,1031
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_myfunctions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+papysql-0.1.8.dist-info/METADATA,sha256=F1n_KGHKdyeg-sDWF-ey_wJs6KiTuBmyMFhk3XlibGw,447
+papysql-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+papysql-0.1.8.dist-info/top_level.txt,sha256=ko5Zp-GH1-aCqmTB-_pzAfcKWZ9D29cRgzo8EmAy2_k,9
+papysql-0.1.8.dist-info/RECORD,,
