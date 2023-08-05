@@ -1,0 +1,15 @@
+README.md
+setup.py
+solidityParserPlus.egg-info/PKG-INFO
+solidityParserPlus.egg-info/SOURCES.txt
+solidityParserPlus.egg-info/dependency_links.txt
+solidityParserPlus.egg-info/requires.txt
+solidityParserPlus.egg-info/top_level.txt
+solidity_parser/__init__.py
+solidity_parser/__main__.py
+solidity_parser/parser.py
+solidity_parser/solidity_antlr4/SolidityLexer.py
+solidity_parser/solidity_antlr4/SolidityListener.py
+solidity_parser/solidity_antlr4/SolidityParser.py
+solidity_parser/solidity_antlr4/SolidityVisitor.py
+solidity_parser/solidity_antlr4/__init__.py
