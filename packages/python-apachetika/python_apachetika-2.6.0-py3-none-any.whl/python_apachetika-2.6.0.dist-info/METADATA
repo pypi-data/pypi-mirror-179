@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: python-apachetika
+Version: 2.6.0
+Summary: Python interface to Apache Tika, text extraction from PDF pages
+Home-page: https://github.com/bitextor/python-apachetika/
+Author: Aaron Galiano
+Author-email: Aaron Galiano <aaron.galiano@ua.es>
+Maintainer: Aaron Galiano
+Maintainer-email: aaron.galiano@ua.es
+License: Apache 2.0
+Project-URL: Homepage, https://github.com/bitextor/python-apachetika
+Project-URL: Bug Tracker, https://github.com/bitextor/python-apachetika/issues
+Keywords: apachetika
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: JPype1
+Requires-Dist: chardet
+
+# python-apachetika
+
+
+A python wrapper for [apache tika](https://tika.apache.org/), a Java toolkit that detects and extracts metadata and text from over a thousand different file types
+
+
+
