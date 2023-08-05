@@ -1,0 +1,14 @@
+amr_logic_converter/AmrLogicConverter.py,sha256=op6zE9AaMTQYmk-5zgGuBAoA_GQfNGoQnrNq2yY3T7c,13059
+amr_logic_converter/__init__.py,sha256=64Dot9hARQAiBP8Fp5rKV9JR3Yj-1iZJSlDVNcOZmPc,326
+amr_logic_converter/extract_instances_from_amr_tree.py,sha256=uX0R_IPvsmoJEUH2RVAGFv7kUAwqfiBa7wxR2r8L5HE,441
+amr_logic_converter/find_coreferent_instances.py,sha256=UWx-YwKHqGsC97L3BBZlX9Xl6ZsMBNa3ZLlBx0iQf18,1202
+amr_logic_converter/find_instance_depths.py,sha256=pKXMr-IjVyMdT64z8MzBpvtz4DLljXK-CWIKj2QoPjQ,1063
+amr_logic_converter/map_instances_lca.py,sha256=M5TBygM6WN9Ts8Y-4Msax9LGi4i9fQyMB4Am6wRcgT8,1919
+amr_logic_converter/map_instances_to_nodes.py,sha256=Jc6v29PJBYnnGAUCaKGKKr9w9UZf--6reYteZIS4rdk,1111
+amr_logic_converter/parse_value_and_alignment.py,sha256=mjyBfkU6_FkDvKVKkyTIfryz0Js6UbgUSunfy2B3XeA,1094
+amr_logic_converter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amr_logic_converter/types.py,sha256=uJSJGwWvjL17LD2ycd_5__afD1vUdBbAeS4qIklfcGQ,3711
+amr_logic_converter-0.5.0.dist-info/LICENSE,sha256=Ux853LGONRUrh06u_wM5MUTT0_GfiW6YqrloKJMlDxk,1069
+amr_logic_converter-0.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+amr_logic_converter-0.5.0.dist-info/METADATA,sha256=3NBwfZXe68zKfno_pz3cqZukVn-CbKMuSyH567R8zsQ,6435
+amr_logic_converter-0.5.0.dist-info/RECORD,,
