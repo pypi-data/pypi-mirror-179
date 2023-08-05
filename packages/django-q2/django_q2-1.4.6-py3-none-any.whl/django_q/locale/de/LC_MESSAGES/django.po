@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-12 01:47+0000\n"
+"PO-Revision-Date: 2018-08-05 18:28+0200\n"
+"Last-Translator: Jonas Winkler\n"
+"Language-Team: \n"
+"Language: de-DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: django_q/admin.py:43
+msgid "Resubmit selected tasks to queue"
+msgstr "Ausgewählte Aufgaben erneut ausführen"
+
+#: django_q/admin.py:98 django_q/models.py:228
+#, fuzzy
+#| msgid "Success"
+msgid "success"
+msgstr "erfolg"
+
+#: django_q/admin.py:109 django_q/models.py:230
+msgid "last_run"
+msgstr ""
+
+#: django_q/cluster.py:77
+#, python-format
+msgid "Q Cluster %(name)s starting."
+msgstr "Q-Cluster %(name)s wird gestartet."
+
+#: django_q/cluster.py:85
+#, fuzzy, python-format
+#| msgid "Q Cluster-{} stopping."
+msgid "Q Cluster %(name)s stopping."
+msgstr "Q-Cluster {name} wird gestoppt."
+
+#: django_q/cluster.py:88
+#, python-format
+msgid "Q Cluster %(name)s has stopped."
+msgstr "Q-Cluster %(name)s wurde gestoppt."
+
+#: django_q/cluster.py:96
+#, python-format
+msgid "%(name)s got signal %(signal)s"
+msgstr "%(name)s erhielt das Signal %(signal)s"
+
+#: django_q/cluster.py:219
+#, python-format
+msgid "reincarnated monitor %(name)s after sudden death"
+msgstr "Monitor %(name)s wurde nach unerwartetem Absturz neu gestartet"
+
+#: django_q/cluster.py:222
+#, python-format
+msgid "reincarnated pusher %(name)s after sudden death"
+msgstr "Pusher %(name)s wurde nach unerwartetem Absturz neu gestartet"
+
+#: django_q/cluster.py:229
+#, python-format
+msgid "reincarnated worker %(name)s after timeout"
+msgstr "Worker %(name)s wurde nach Zeitüberschreitung neu gestartet"
+
+#: django_q/cluster.py:231
+#, python-format
+msgid "recycled worker %(name)s"
+msgstr "Worker %(name)s wurde wiederverwendet"
+
+#: django_q/cluster.py:233
+#, python-format
+msgid "reincarnated worker %(name)s after death"
+msgstr "Worker %(name)s wurde nach unerwartetem Absturz neu gestartet"
+
+#: django_q/cluster.py:256
+#, python-format
+msgid "%(name)s guarding cluster %(cluster_name)s"
+msgstr "%(name)s beschützt das Cluster %(cluster_name)s"
+
+#: django_q/cluster.py:261
+#, python-format
+msgid "Q Cluster %(cluster_name)s running."
+msgstr "Q-Cluster %(cluster_name)s läuft."
+
+#: django_q/cluster.py:295
+#, python-format
+msgid "%(name)s stopping cluster processes"
+msgstr "%(name)s hält Cluster-Prozesse an"
+
+#: django_q/cluster.py:320
+#, python-format
+msgid "%(name)s waiting for the monitor."
+msgstr "%(name)s wartet auf den Monitor."
+
+#: django_q/cluster.py:342
+#, python-format
+msgid "%(process_name)s pushing tasks at %(id)s"
+msgstr "%(process_name)s veröffentlicht Aufagaben auf %(id)s"
+
+#: django_q/cluster.py:363
+#, python-format
+msgid "queueing from %(list_key)s"
+msgstr "Einreihen von %(list_key)s"
+
+#: django_q/cluster.py:366
+#, python-format
+msgid "%(name)s stopped pushing tasks"
+msgstr "%(name)s veröffentlicht keine Aufgaben mehr"
+
+#: django_q/cluster.py:378
+#, python-format
+msgid "%(name)s monitoring at %(id)s"
+msgstr "%(name)s beobachtet auf %(id)s"
+
+#: django_q/cluster.py:395
+#, python-format
+msgid "Processed '%(info_name)s' (%(task_name)s)"
+msgstr "[%(task_name)s] - '%(info_name)s' wurde verarbeitet"
+
+#: django_q/cluster.py:398
+#, python-format
+msgid "Failed '%(info_name)s' (%(task_name)s) - %(task_result)s"
+msgstr "'%(info_name)s' (%(task_name)s) ist fehlgeschlagen - %(task_result)s"
+
+#: django_q/cluster.py:399
+#, python-format
+msgid "%(name)s stopped monitoring results"
+msgstr "%(name)s überwacht keine Ergebnisse mehr"
+
+#: django_q/cluster.py:413
+#, python-format
+msgid "%(proc_name)s ready for work at %(id)s"
+msgstr "%(proc_name)s ist bereit für Arbeit auf %(id)s"
+
+#: django_q/cluster.py:425
+#, python-format
+msgid "%(proc_name)s processing '%(func_name)s' (%(task_name)s)"
+msgstr "%(proc_name)s verarbeitet '%(func_name)s' (%(task_name)s)"
+
+#: django_q/cluster.py:440
+#, python-format
+msgid ""
+"Could not process '%(func_name)s'. Check the location of the function and "
+"the args/kwargs."
+msgstr ""
+"Konnte '%(func_name)s' nicht verarbeiten. Überprüfen Sie den Ort der "
+"Funktion und die args/kwargs."
+
+#: django_q/cluster.py:456
+#, python-format
+msgid "%(proc_name)s stopped doing work"
+msgstr "%(proc_name)s hat die Arbeit beendet"
+
+#: django_q/cluster.py:649 django_q/models.py:144
+msgid "Please install croniter to enable cron expressions"
+msgstr "Bitte installieren Sie croniter, um Cron-Ausdrücke zu aktivieren"
+
+#: django_q/cluster.py:672
+#, python-format
+msgid "%(process_name)s failed to create a task from schedule [%(schedule)s]"
+msgstr ""
+"%(process_name)s konnte keine Aufgabe von Zeitplan [%(schedule)s] erstellen"
+
+#: django_q/cluster.py:678
+#, python-format
+msgid "%(process_name)s created a task from schedule [%(schedule)s]"
+msgstr ""
+"%(process_name)s hat eine Aufgabe des Zeitplans [%(schedule)s] erstellt"
+
+#: django_q/cluster.py:718
+msgid "Skipping cpu affinity because psutil was not found."
+msgstr "Cpu-Affinität wird übersprungen, da psutil nicht gefunden wurde."
+
+#: django_q/cluster.py:723
+msgid "Faking cpu affinity because it is not supported on this platform"
+msgstr ""
+"Vortäuschen von CPU-Affinität, da diese auf dieser Plattform nicht "
+"unterstützt wird"
+
+#: django_q/cluster.py:744
+#, python-format
+msgid "%(pid)s will use cpu %(affinity)s"
+msgstr "%(pid)s wird CPU %(affinity)s benutzen"
+
+#: django_q/conf.py:85
+#, python-format
+msgid ""
+"SAVE_LIMIT_PER (%(option)s) is not a valid option. Options are: 'group', "
+"'name', 'func' and None. Default is None."
+msgstr ""
+"SAVE_LIMIT_PER (%(option)s) ist keine gültige Option. Optionen sind: "
+"'group', 'name', 'func' und None. Standard ist None."
+
+#. Translators: Cluster status descriptions
+#: django_q/conf.py:194
+msgid "Starting"
+msgstr "Wird gestartet"
+
+#: django_q/conf.py:195
+msgid "Working"
+msgstr "Arbeitet"
+
+#: django_q/conf.py:196
+msgid "Idle"
+msgstr "Leerlauf"
+
+#: django_q/conf.py:197
+msgid "Stopped"
+msgstr "Gestoppt"
+
+#: django_q/conf.py:198
+msgid "Stopping"
+msgstr "Wird gestoppt"
+
+#. Translators: help text for qcluster management command
+#: django_q/management/commands/qcluster.py:9
+msgid "Starts a Django Q Cluster."
+msgstr "Startet ein Django-Q-Cluster."
+
+#. Translators: help text for qinfo management command
+#: django_q/management/commands/qinfo.py:11
+msgid "General information over all clusters."
+msgstr "Allgemeine Informationen über alle Cluster"
+
+#. Translators: help text for qmemory management command
+#: django_q/management/commands/qmemory.py:9
+msgid "Monitors Q Cluster memory usage"
+msgstr "Überwacht die Speichernutzung von Q Cluster"
+
+#. Translators: help text for qmonitor management command
+#: django_q/management/commands/qmonitor.py:9
+msgid "Monitors Q Cluster activity"
+msgstr "Q-Cluster aktiv überwachen"
+
+#: django_q/models.py:119
+msgid "Successful task"
+msgstr "Erfolgreiche Aufgabe"
+
+#: django_q/models.py:120
+msgid "Successful tasks"
+msgstr "Erfolgreiche Aufgaben"
+
+#: django_q/models.py:135
+msgid "Failed task"
+msgstr "Fehlgeschlagene Aufgabe"
+
+#: django_q/models.py:136
+msgid "Failed tasks"
+msgstr "Fehlgeschlagene Aufgaben"
+
+#: django_q/models.py:160
+msgid "e.g. 1, 2, 'John'"
+msgstr "zum Beispiel 1, 2, 'John'"
+
+#: django_q/models.py:162
+msgid "e.g. x=1, y=2, name='John'"
+msgstr "zum Beispiel x=1, y=2, name='John'"
+
+#: django_q/models.py:176
+msgid "Once"
+msgstr "Einmal"
+
+#: django_q/models.py:177
+msgid "Minutes"
+msgstr "Minuten"
+
+#: django_q/models.py:178
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: django_q/models.py:179
+msgid "Daily"
+msgstr "Täglich"
+
+#: django_q/models.py:180
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: django_q/models.py:181
+msgid "Biweekly"
+msgstr "Zweiwöchentlich"
+
+#: django_q/models.py:182
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: django_q/models.py:183
+msgid "Bimonthly"
+msgstr "Zweimonatlich"
+
+#: django_q/models.py:184
+msgid "Quarterly"
+msgstr "Vierteljährlich"
+
+#: django_q/models.py:185
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: django_q/models.py:186
+msgid "Cron"
+msgstr "Cron"
+
+#: django_q/models.py:189
+msgid "Schedule Type"
+msgstr "Zeitplan-Typ"
+
+#: django_q/models.py:192
+msgid "Number of minutes for the Minutes type"
+msgstr "Anzahl Minuten für den Typ 'Minuten'"
+
+#: django_q/models.py:195
+msgid "Repeats"
+msgstr "Wiederhohlungen"
+
+#: django_q/models.py:195
+msgid "n = n times, -1 = forever"
+msgstr "n = n mal, -1 = für immer"
+
+#: django_q/models.py:198
+msgid "Next Run"
+msgstr "Nächste Ausführung"
+
+#: django_q/models.py:205
+msgid "Cron expression"
+msgstr "Cron-Ausdruck"
+
+#: django_q/models.py:235
+msgid "Scheduled task"
+msgstr "Geplante Aufgabe"
+
+#: django_q/models.py:236
+msgid "Scheduled tasks"
+msgstr "Geplante Aufgaben"
+
+#: django_q/models.py:262
+msgid "Queued task"
+msgstr "Eingereihte Aufgabe"
+
+#: django_q/models.py:263
+msgid "Queued tasks"
+msgstr "Eingereihte Aufgaben"
+
+#: django_q/monitor.py:62 django_q/monitor.py:339
+msgid "Host"
+msgstr "Host"
+
+#: django_q/monitor.py:66 django_q/monitor.py:343 django_q/monitor.py:450
+msgid "Id"
+msgstr "Id"
+
+#: django_q/monitor.py:70
+msgid "State"
+msgstr "Status"
+
+#: django_q/monitor.py:74
+msgid "Pool"
+msgstr "Pool"
+
+#: django_q/monitor.py:78
+msgid "TQ"
+msgstr "TQ"
+
+#: django_q/monitor.py:82
+msgid "RQ"
+msgstr "RQ"
+
+#: django_q/monitor.py:86
+msgid "RC"
+msgstr "RC"
+
+#: django_q/monitor.py:90
+msgid "Up"
+msgstr "Up"
+
+#: django_q/monitor.py:170 django_q/monitor.py:279
+msgid "Queued"
+msgstr "Eingereiht"
+
+#: django_q/monitor.py:178
+msgid "Success"
+msgstr "Erfolg"
+
+#: django_q/monitor.py:188 django_q/monitor.py:287
+msgid "Failures"
+msgstr "Fehlschläge"
+
+#: django_q/monitor.py:199 django_q/monitor.py:485
+msgid "[Press q to quit]"
+msgstr "[Drücken Sie q zum Beenden]"
+
+#: django_q/monitor.py:223
+msgid "day"
+msgstr "Tag"
+
+#: django_q/monitor.py:244
+msgid "second"
+msgstr "Sekunde"
+
+#: django_q/monitor.py:247
+msgid "minute"
+msgstr "Minute"
+
+#: django_q/monitor.py:250
+msgid "hour"
+msgstr "Stunde"
+
+#: django_q/monitor.py:260
+#, python-format
+msgid "-- %(prefix)s %(version)s on %(info)s --"
+msgstr "-- %(prefix)s %(version)s auf %(info)s --"
+
+#: django_q/monitor.py:266
+msgid "Clusters"
+msgstr "Cluster"
+
+#: django_q/monitor.py:270
+msgid "Workers"
+msgstr "Arbeiter"
+
+#: django_q/monitor.py:274
+msgid "Restarts"
+msgstr "Neustarts"
+
+#: django_q/monitor.py:283
+msgid "Successes"
+msgstr "Erfolge"
+
+#: django_q/monitor.py:292
+msgid "Schedules"
+msgstr "Zeitpläne"
+
+#: django_q/monitor.py:296
+#, python-format
+msgid "Tasks/%(per)s"
+msgstr "Aufgaben/%(per)s"
+
+#: django_q/monitor.py:300
+msgid "Avg time"
+msgstr "Durchschnittl. Zeit"
+
+#: django_q/monitor.py:348
+msgid "Available (%)"
+msgstr "Verfügbar (%)"
+
+#: django_q/monitor.py:354
+msgid "Available (MB)"
+msgstr "Verfügbar (MB)"
+
+#: django_q/monitor.py:359
+msgid "Total (MB)"
+msgstr "Insgesamt (MB)"
+
+#: django_q/monitor.py:364
+msgid "Sentinel (MB)"
+msgstr "Sentinel (MB)"
+
+#: django_q/monitor.py:370
+msgid "Monitor (MB)"
+msgstr "Monitor (MB)"
+
+#: django_q/monitor.py:376
+msgid "Workers (MB)"
+msgstr "Arbeiter (MB)"
+
+#: django_q/monitor.py:478
+#, python-format
+msgid "Available lowest (): %(memory_percent)s ((at)s)"
+msgstr "Niedrigste verfügbar (): %(memory_percent)s ((at)s)"
+
+#: django_q/monitor.py:496
+msgid "No clusters appear to be running."
+msgstr "Es scheinen keine Cluster zu laufen."
+
+#: django_q/signals.py:22
+#, python-format
+msgid "malformed return hook '%(hook)s' for [%(name)s]"
+msgstr "Ungültiger Return-Hook '%(hook)s' für [%(name)s]"
+
+#: django_q/signals.py:30
+#, python-format
+msgid "return hook %(hook)s failed on [%(name)s] because %(error)s"
+msgstr "Return-Hook %(hook)s für [%(name)s] ist gescheitert: %(error)s"
