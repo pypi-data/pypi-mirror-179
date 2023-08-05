@@ -1,0 +1,2 @@
+[console_scripts]
+portfoliobuilder = portfoliobuilder:portfoliobuilder

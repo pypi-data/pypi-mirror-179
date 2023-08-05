@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: portfolio-builder-cli
+Version: 0.0.1
+Author: ravinder
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: aiohttp
+Requires-Dist: requests
+
