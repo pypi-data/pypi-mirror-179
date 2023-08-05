@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: boaz-words
+Version: 0.0.2
+Requires-Dist: requests
+Requires-Dist: click (==8.1.3)
+
