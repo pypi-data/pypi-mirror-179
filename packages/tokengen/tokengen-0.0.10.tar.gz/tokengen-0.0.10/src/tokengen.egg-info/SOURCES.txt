@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/publish.yml
+src/tokengen/cli.py
+src/tokengen/source.py
+src/tokengen.egg-info/PKG-INFO
+src/tokengen.egg-info/SOURCES.txt
+src/tokengen.egg-info/dependency_links.txt
+src/tokengen.egg-info/entry_points.txt
+src/tokengen.egg-info/requires.txt
+src/tokengen.egg-info/top_level.txt
