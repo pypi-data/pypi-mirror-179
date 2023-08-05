@@ -1,0 +1,2 @@
+[console_scripts]
+tokengen = tokengen.cli:main
