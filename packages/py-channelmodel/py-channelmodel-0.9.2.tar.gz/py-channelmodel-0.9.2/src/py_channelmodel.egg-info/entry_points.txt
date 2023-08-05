@@ -1,0 +1,2 @@
+[console_scripts]
+channelmodel = channelmodel.__main__:main
