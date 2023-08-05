@@ -1,0 +1,16 @@
+AUTHORS
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+viggoorg/__init__.py
+viggoorg/resources.py
+viggoorg.egg-info/PKG-INFO
+viggoorg.egg-info/SOURCES.txt
+viggoorg.egg-info/dependency_links.txt
+viggoorg.egg-info/requires.txt
+viggoorg.egg-info/top_level.txt
+viggoorg/subsystem/__init__.py
+viggoorg/subsystem/sysadmin/__init__.py
+viggoorg/subsystem/sysadmin/domain_org/__init__.py
+viggoorg/subsystem/sysadmin/domain_org/resource.py
