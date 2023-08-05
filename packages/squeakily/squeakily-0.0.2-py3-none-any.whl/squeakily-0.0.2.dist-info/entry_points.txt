@@ -1,0 +1,2 @@
+[nbdev]
+squeakily = squeakily._modidx:d
