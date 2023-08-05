@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: deepproblog
+Version: 2.0.0
+Summary: DeepProbLog: Problog with neural networks
+Home-page: https://github.com/ML-KULeuven/deepproblog
+Author: DeepProbLog team
+Author-email: robin.manhaeve@cs.kuleuven.be
+License: Apache Software License
+Keywords: prolog probabilistic logic neural-symbolic problog deepproblog
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Prolog
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Provides-Extra: examples
+Provides-Extra: tests
+License-File: LICENSE
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+pysdd@ git+https://github.com/wannesm/PySDD.git#egg=PySDD
+problog
+torch
+torchvision
+pyswip@ git+https://github.com/ML-KULeuven/pyswip.git#egg=pyswip
+
+[examples]
+Pillow
+
+[tests]
+pytest
