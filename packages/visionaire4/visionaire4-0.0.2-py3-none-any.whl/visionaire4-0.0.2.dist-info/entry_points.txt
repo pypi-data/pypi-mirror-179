@@ -1,0 +1,3 @@
+[console_scripts]
+visionaire4 = visionaire4.__main__:main
+

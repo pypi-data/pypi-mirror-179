@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: visionaire4
+Version: 0.0.2
+Summary: Visionaire4 maintenance tools suite
+Home-page: https://pypi.org/project/visionaire4/
+Author: Tri Wahyu Utomo
+Author-email: tri@nodeflux.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: docker (>=4.3.0)
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# VISIONAIRE4
+
+A suite of tools used for Visionaire4 maintenance.  
+Supported function subcommand:
+- `export`: Export metrics and edge cases data from current machine to files.
+- `import`: Import metrics and edge cases data from the exported files to current machine.
+
+## Installation
+
+Install it directly using pip:
+```bash
+$ pip install visionaire4 --upgrade
+```
+
+## How to Use
+
+### Export
+
+Before running export metrics make sure to have prometheus server to be running.  
+Export monitoring metrics data by running: 
+```
+$ visionaire4 export metrics
+```
+
+This command will pull metrics data from prometheus server running in container named `visionaire4`.  
+You can configure the container name where the prometheus server is running with:
+```
+$ visionaire4 export metrics --prom-name <container name>
+```
+
+This will export the file to the default directory of `~/nodeflux/export`.  
+You can configure where the exported file output directory with:
+```
+$ visionaire4 export metrics --out-dir <output directory>
+```
+
+### Import
+
+Import the exported data by running:
+```
+$ visionaire4 import metrics -f <path to exported file>
+```
+
+This will spawn a prometheus and grafana server and you can view the grafana dashboards at http://localhost:3000
+with username `admin` and password `admin`.
+
+All the required configs to run the prometheus and grafana server will be generated to the default directory of `~/nodeflux/import`.  
+You can configure the config directory with:
+```
+$ visionaire4 import metrics -f <path to exported file> --cfg-dir <config directory>
+```
+
+When you finished viewing the metrics data, you can shutdown the monitoring server by running:
+```
+$ visionaire4 import metrics --cfg-dir <config directory> --down
+```
+
+
