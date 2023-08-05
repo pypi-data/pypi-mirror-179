@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Medicationtable
+Version: 0.0.1
+Summary: This package is for making medication table
+Author: Ariana
+License: UNKNOWN
+Keywords: prescriptions_data,propensity_data,ndc2_data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt.txt
+
+UNKNOWN
+

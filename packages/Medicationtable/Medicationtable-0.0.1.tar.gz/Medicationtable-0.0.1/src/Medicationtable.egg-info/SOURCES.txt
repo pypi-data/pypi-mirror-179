@@ -1,0 +1,9 @@
+LICENSE.txt.txt
+README.md
+setup.py
+src/Medicationtable.py
+src/Medicationtable.egg-info/PKG-INFO
+src/Medicationtable.egg-info/SOURCES.txt
+src/Medicationtable.egg-info/dependency_links.txt
+src/Medicationtable.egg-info/requires.txt
+src/Medicationtable.egg-info/top_level.txt
