@@ -1,0 +1,10 @@
+podao/cli.py,sha256=pOVd1e86WskkLzaVvLhl4cDsgLISm7v3BGxqXsfhuKo,4082
+podao/constant.py,sha256=KkbwyYdZapjPmjB9uPChu4x9qFJqsX-P47N1ehuvyAk,2122
+podao/main.py,sha256=PXTUOWGut8k1P2uELAquVChhm_pnqfNp4e77KPmXz7Q,8627
+podao/util.py,sha256=2NqwOcEx0NGz9Zb2zJBV-jd-1Ms-epVoBCw9TliDeUs,1855
+podao-0.8.1.dist-info/LICENSE,sha256=R0-k83B-hPSokem96Q0a5O9FaK5LIgqDdLvDlMc39Q4,1074
+podao-0.8.1.dist-info/METADATA,sha256=5QmTLG_pyxktKiXnxijYcJRwYoZBDTIxmWXqHMH5CCw,4831
+podao-0.8.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+podao-0.8.1.dist-info/entry_points.txt,sha256=rfgnCejv8OG10nyNc-OizdbH3SPpz_tHMh9A7aHuJ_Y,36
+podao-0.8.1.dist-info/top_level.txt,sha256=WU18QvwBh_NmvRrgqLU5V0M9zoW_sOWsgK-iQtutTto,6
+podao-0.8.1.dist-info/RECORD,,
