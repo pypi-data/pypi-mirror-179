@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: paginate-pandas
+Version: 1.0.0
+Summary: An interactive paginator for pandas Series and DataFrames in Jupyter.
+Home-page: https://github.com/jmberros/paginate_pandas
+Author: Juan Manuel Berros
+Author-email: juanmaberros@gmail.com
+License: MIT
+Keywords: pandas,pagination,interactive,ipywidgets,jupyter
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A dead-simple interactive paginator for a pandas Series or DataFrames that leverages on ipywidgets and works beautifully on Jupyter Lab. It let's you easily browse through a possibly big (say, hundreds of thousands of rows) dataframe advancing page by page. It also let's you control the page size. If you deal with pandas a lot in Jupyter, this will change your quality of (developer) life.
