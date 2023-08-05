@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/magicbag/__init__.py
+src/magicbag/check.py
+src/magicbag.egg-info/PKG-INFO
+src/magicbag.egg-info/SOURCES.txt
+src/magicbag.egg-info/dependency_links.txt
+src/magicbag.egg-info/top_level.txt
+src/magicbag.egg-info/zip-safe

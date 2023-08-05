@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: magicbag
+Version: 0.0.1
+Summary: python tool package
+Home-page: https://github.com/lipicoder/magicbag
+Author: lipi
+Author-email: lipi <lipicoder@qq.com>
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/lipicoder/magicbag/issues
+Project-URL: Homepage, https://github.com/lipicoder/magicbag
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+magicbag is a python tool library.
