@@ -1,0 +1,8 @@
+pyzint-0.1.10.dist-info/WHEEL,sha256=D79CBkaJekx7HMK1NaBe_KU1GVla4HlolbFXT3at6fg,148
+pyzint-0.1.10.dist-info/METADATA,sha256=FSYPQGODBBb2KWKzs31CJTEDgdBo8Kuj45v5BGFUSK8,1981
+pyzint-0.1.10.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+pyzint-0.1.10.dist-info/RECORD,,
+pyzint-0.1.10.dist-info/top_level.txt,sha256=BF_JhjzyUQQemiVfvJU-kHHU7XmF_21FppXWYjc9EWQ,7
+pyzint/__init__.py,sha256=80zEn2uvLvJbd01m4IVw1w6_hsEmjrndw87noVdPbCA,3766
+pyzint/zint.cpython-39-x86_64-linux-gnu.so,sha256=WkH_tLuM639iHdsAS41McOpQsqpJPiHZ6YDgm6pbmo0,2663472
+pyzint/zint.pyi,sha256=sBuyT1M29N9mXOxqsgQDeKkktsNxRGGrV1e7sN7zplM,3626
