@@ -1,0 +1,13 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+[data-jp-theme-light='true'].logo-icon{
+    background-image: url(logo.svg);
+}
+
+[data-jp-theme-light='false'].logo-icon{
+    background-image: url(logo.svg);
+}
