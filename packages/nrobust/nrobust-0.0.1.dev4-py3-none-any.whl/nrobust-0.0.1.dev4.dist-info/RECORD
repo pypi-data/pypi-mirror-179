@@ -1,0 +1,11 @@
+nrobust/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nrobust/figures.py,sha256=xpz0qiQtejBaBjZ235rmlA_uEKo6t0TA0spPnygbjCo,3804
+nrobust/models.py,sha256=XQBYp90oZFOVZiow8OGyizk8WCF1f73RNu3fls3Sogs,9324
+nrobust/prototypes.py,sha256=gNzR57ZI2-AhEpfHwht1Y-2lS0PPICU5wuhFB793M-0,776
+nrobust/replication_data_prep.py,sha256=wTxQtlw0BmiOpUUwKS9TbTpWrYwzS_RhJ_k6QX4B7e0,1884
+nrobust/utils.py,sha256=KggDLZYPD1-EOez9H5gHSXxqUlqSs1i6XAsnIcJM9_I,8394
+nrobust-0.0.1.dev4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+nrobust-0.0.1.dev4.dist-info/METADATA,sha256=wM3QcYfJC-oUTjs5XGwIYbuCWJbruO4jFq9o69F1n6s,1066
+nrobust-0.0.1.dev4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nrobust-0.0.1.dev4.dist-info/top_level.txt,sha256=H1l9xa-nXypO5b3PKuk21PbhgpPlSx2CvTFOhkFefgE,8
+nrobust-0.0.1.dev4.dist-info/RECORD,,
