@@ -1,0 +1,8 @@
+vscode_server_bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vscode_server_bin/__main__.py,sha256=hC5lG2dNbVouGfgG8yMyHZ6RCnj8DashqjwpohuOeOQ,841
+vscode_server_bin/bin.tar.gz,sha256=plNHiSXtKEgtt-rvnkvT-5dJCkLdu6xc3ANySbxkd8s,58380082
+vscode_server_bin/vscode-commit-id,sha256=16fve_GPmblRcJ_jwVy8sGrAT4diZ5mHUQESQPJWO5A,40
+vscode_server_bin-1.71.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vscode_server_bin-1.71.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+vscode_server_bin-1.71.0.dist-info/METADATA,sha256=sa_T7bgWmf95ZDEMRw5WUg4VjH3DW9osA0XEygeJu4A,526
+vscode_server_bin-1.71.0.dist-info/RECORD,,
