@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blkmgr"
+version = "0.0.1"
+
+authors = [    { name = 'Sophia Roger Hürzeler', email ='srh@srhuerzeler.net' }]
+
+description = "Block device managing utility."
+readme = "README.rst"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+"GitLab repository" = "https://gitlab.com/srhuerzeler/blkmgr"
+"PyPI package" = "https://pypi.org/project/blkmgr"
+
+[project.scripts]
+conditor = 'conditor.__main__:main'
+

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: blkmgr
+Version: 0.0.1
+Summary: Block device managing utility.
+Author-email: Sophia Roger Hürzeler <srh@srhuerzeler.net>
+Project-URL: GitLab repository, https://gitlab.com/srhuerzeler/blkmgr
+Project-URL: PyPI package, https://pypi.org/project/blkmgr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+
+.. _/main:
+
+*************
+Block Manager
+*************
+
+Block Manager provides an API to manage block devices (inspect, format, mount).
+
+.. ............................................................................
+.. _/main/use_cases:
+
+Use Cases
+=========
+
+Partition disks.
+
+Set up disk partition table, partition types and file system.
+
+Mount partitions.
+
+.. ............................................................................
+.. _/main/installing:
+
+Installing
+==========
+
+Install with PyPI.
+
+.. code-block:: console
+
+   pip3 install blkmgr
+
+.. ............................................................................
+.. _/main/links:
+
+Links
+=====
+
+`GitLab repository <https://gitlab.com/srhuerzeler/blkmgr>`_
+
+`PyPI package <https://pypi.org/project/blkmgr>`_
+
