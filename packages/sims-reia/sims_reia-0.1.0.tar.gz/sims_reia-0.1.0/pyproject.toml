@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "sims_reia"
+version = "0.1.0"
+description = ""
+authors = ["Ammar Askar <ammar@ammaraskar.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^9.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
