@@ -1,0 +1,3 @@
+[console_scripts]
+logtracker = ojbk.logtracker:logtrack
+reportself = ojbk:report_self_cli
