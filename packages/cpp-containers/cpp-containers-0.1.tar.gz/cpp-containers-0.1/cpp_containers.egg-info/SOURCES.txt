@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cpp_containers.egg-info/PKG-INFO
+cpp_containers.egg-info/SOURCES.txt
+cpp_containers.egg-info/dependency_links.txt
+cpp_containers.egg-info/not-zip-safe
+cpp_containers.egg-info/top_level.txt
+cppcontainers/__init__.py
+cppcontainers/cppcontainers.cpp
+cppcontainers/cppcontainers.pyx
+cppcontainers/smartptr.pxd
+include/smartptr.h
