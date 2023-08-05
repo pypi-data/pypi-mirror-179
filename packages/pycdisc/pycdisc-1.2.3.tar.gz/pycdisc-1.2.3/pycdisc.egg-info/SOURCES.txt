@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+pycdisc/__init__.py
+pycdisc/colors.json
+pycdisc/main.py
+pycdisc/ops.py
+pycdisc.egg-info/PKG-INFO
+pycdisc.egg-info/SOURCES.txt
+pycdisc.egg-info/dependency_links.txt
+pycdisc.egg-info/entry_points.txt
+pycdisc.egg-info/requires.txt
+pycdisc.egg-info/top_level.txt
