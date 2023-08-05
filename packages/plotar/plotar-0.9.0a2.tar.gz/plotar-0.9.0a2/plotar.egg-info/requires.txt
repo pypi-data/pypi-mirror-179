@@ -1,0 +1,14 @@
+pandas
+numpy
+requests
+tornado
+click
+Pillow
+jinja2
+
+[all]
+pyqrcode
+usd-core
+
+[server]
+pyqrcode
