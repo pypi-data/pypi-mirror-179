@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+sonarqube/__init__.py
+sonarqube/audit.py
+sonarqube/sonar.py
+sonarqube_client.egg-info/PKG-INFO
+sonarqube_client.egg-info/SOURCES.txt
+sonarqube_client.egg-info/dependency_links.txt
+sonarqube_client.egg-info/requires.txt
+sonarqube_client.egg-info/top_level.txt
