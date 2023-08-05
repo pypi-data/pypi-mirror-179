@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: pispy-client
+Version: 0.1.0
+Summary: PISpy - A Terminal-Based Python Package Index Inspector
+Home-page: https://github.com/davep/pispy
+Author: Dave Pearson
+Author-email: davep@davep.org
+Maintainer: Dave Pearson
+Maintainer-email: davep@davep.org
+License: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Keywords: terminal python pypi client lookup
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Environment :: Console
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Classifier: Topic :: Terminals
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: textual
+Requires-Dist: httpx
+
+# PISpy
+
+## Introduction
+
+PISpy aims to be a simple but useful [PyPi](https://pypi.org/) lookup client
+for the Terminal, built with [Textual](https://textual.textualize.io/).
+
+## Installation
+
+PISPy is a full-screen terminal-based tool and is best installed using
+[`pipx`](https://pypa.github.io/pipx/):
+
+```sh
+$ pipx install pispy-client
+```
+
+## Running
+
+Once installed, just run `pispy` from your shell.
+
+![PISpy lookup up Textual](./img/pispy.png)
+
+## Naming
+
+> Wait! What? Is this pispy or pispy-client? Why the two names?
+
+Well... when I started hacking this together I went to check if PyPi had a
+package called `pispy` and it didn't, so I steamed ahead with that. Only
+when I came to add the package to PyPi did it say it wouldn't let me because
+it was too similar to another package.
+
+So... package name is `pispy-client` but the content is `pispy`.
+
+## Work in progress
+
+PISpy is currently a work in progress. I'm still figuring out what it should
+do and how; but for now it provides a simple package lookup interface.
+
+[//]: # (README.md ends here)
