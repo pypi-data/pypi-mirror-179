@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/SuperSimpleGameHacker/English.py
+src/SuperSimpleGameHacker/Portugues.py
+src/SuperSimpleGameHacker/__init__.py
+src/SuperSimpleGameHacker.egg-info/PKG-INFO
+src/SuperSimpleGameHacker.egg-info/SOURCES.txt
+src/SuperSimpleGameHacker.egg-info/dependency_links.txt
+src/SuperSimpleGameHacker.egg-info/requires.txt
+src/SuperSimpleGameHacker.egg-info/top_level.txt
