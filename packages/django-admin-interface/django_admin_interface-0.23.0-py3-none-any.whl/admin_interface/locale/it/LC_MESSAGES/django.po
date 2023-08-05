@@ -1,0 +1,270 @@
+# This file is distributed under the same license as the
+# django-admin-interface package.
+#
+# Translators:
+# Fabio Caccamo <fabio.caccamo@gmail.com>, 2018
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: django-admin-interface\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-23 10:12-0600\n"
+"PO-Revision-Date: 2018-12-30 19:13-0500\n"
+"Last-Translator: Fabio Caccamo <fabio.caccamo@gmail.com>\n"
+"Language-Team: Italian <LL@li.org>\n"
+"Language: Italian \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: build/lib/admin_interface/admin.py
+msgid "Environment"
+msgstr "Ambiente"
+
+#: build/lib/admin_interface/admin.py
+msgid "Language chooser"
+msgstr "Selettore di lingua"
+
+#: build/lib/admin_interface/admin.py
+msgid "Logo"
+msgstr "Logo"
+
+#: build/lib/admin_interface/admin.py
+msgid "Favicon"
+msgstr "Favicon"
+
+#: build/lib/admin_interface/admin.py
+msgid "Title"
+msgstr "Titolo"
+
+#: build/lib/admin_interface/admin.py
+msgid "Header"
+msgstr "Header"
+
+#: build/lib/admin_interface/admin.py
+msgid "Breadcrumbs / Module headers"
+msgstr "Breadcrumbs / Header dei moduli"
+
+#: build/lib/admin_interface/admin.py
+msgid "Generic Links"
+msgstr "Link generici"
+
+#: build/lib/admin_interface/admin.py
+msgid "Save Buttons"
+msgstr "Pulsanti per salvare"
+
+#: build/lib/admin_interface/admin.py
+msgid "Delete Buttons"
+msgstr "Pulsanti per eliminare"
+
+#: build/lib/admin_interface/admin.py
+msgid "Navigation Bar"
+msgstr ""
+
+#: build/lib/admin_interface/admin.py
+msgid "Related Modal"
+msgstr "Modale per gli oggetti correlati"
+
+#: build/lib/admin_interface/admin.py
+msgid "Form Controls"
+msgstr ""
+
+#: build/lib/admin_interface/admin.py
+msgid "List Filter"
+msgstr "Filtro listato"
+
+#: build/lib/admin_interface/admin.py
+msgid "Recent Actions"
+msgstr "Azioni recenti"
+
+#: build/lib/admin_interface/apps.py
+msgid "Admin Interface"
+msgstr "Interfaccia di amministrazione"
+
+#: build/lib/admin_interface/models.py
+msgid "name"
+msgstr "nome"
+
+#: build/lib/admin_interface/models.py
+msgid "active"
+msgstr "attivo"
+
+#: build/lib/admin_interface/models.py
+#: build/lib/admin_interface/templates/admin/base_site.html
+msgid "Django administration"
+msgstr "Amministrazione di Django"
+
+#: build/lib/admin_interface/models.py
+msgid "title"
+msgstr "titolo"
+
+#: build/lib/admin_interface/models.py
+msgid "color"
+msgstr "colore"
+
+#: build/lib/admin_interface/models.py
+msgid "visible"
+msgstr "visibile"
+
+#: build/lib/admin_interface/models.py
+msgid "Leave blank to use the default Django logo"
+msgstr "Lasciare vuoto per usare il logo Django di default"
+
+#: build/lib/admin_interface/models.py
+msgid "logo"
+msgstr "logo"
+
+#: build/lib/admin_interface/models.py
+msgid "max width"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "max height"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "(.ico|.png|.gif - 16x16|32x32 px)"
+msgstr "(formato ico, png o gif - dimensioni 16x16 o 32x32 px)"
+
+#: build/lib/admin_interface/models.py
+msgid "favicon"
+msgstr "favicon"
+
+#: build/lib/admin_interface/models.py
+msgid ""
+"(red: #E74C3C, orange: #E67E22, yellow: #F1C40F, green: #2ECC71, blue: "
+"#3498DB)"
+msgstr ""
+"(rosso: #E74C3C, arancione: #E67E22, giallo: #F1C40F, verde: #2ECC71, blu: "
+"#3498DB)"
+
+#: build/lib/admin_interface/models.py
+msgid "visible in header (marker and name)"
+msgstr "visibile nell'header (marker e nome)"
+
+#: build/lib/admin_interface/models.py
+msgid "visible in favicon (marker)"
+msgstr "visibile nella favicon (marker)"
+
+#: build/lib/admin_interface/models.py
+msgid "Default Select"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "Minimal Select"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "control"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "code"
+msgstr "codice"
+
+#: build/lib/admin_interface/models.py
+msgid "display"
+msgstr "visualizzazione"
+
+#: build/lib/admin_interface/models.py
+msgid "background color"
+msgstr "colore di sfondo"
+
+#: build/lib/admin_interface/models.py
+msgid "text color"
+msgstr "colore del testo"
+
+#: build/lib/admin_interface/models.py
+msgid "link color"
+msgstr "colore dei link"
+
+#: build/lib/admin_interface/models.py
+msgid "link hover color"
+msgstr "colore dei link in hover"
+
+#: build/lib/admin_interface/models.py
+#, fuzzy
+#| msgid "background color"
+msgid "background selected color"
+msgstr "colore di sfondo"
+
+#: build/lib/admin_interface/models.py
+#, fuzzy
+#| msgid "link color"
+msgid "link selected color"
+msgstr "colore dei link"
+
+#: build/lib/admin_interface/models.py
+msgid "rounded corners"
+msgstr "bordi arrotondati"
+
+#: build/lib/admin_interface/models.py
+msgid "background hover color"
+msgstr "colore di sfondo in hover"
+
+#: build/lib/admin_interface/models.py
+msgid "background opacity"
+msgstr "opacità dello sfondo"
+
+#: build/lib/admin_interface/models.py
+msgid "close button visible"
+msgstr "pulsante chiudi visibile"
+
+#: build/lib/admin_interface/models.py
+msgid "highlight active"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "use dropdown"
+msgstr "usa dropdown"
+
+#: build/lib/admin_interface/models.py
+msgid "sticky position"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "quick remove links for active filters at top of sidebar"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "foldable apps"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "sticky submit"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "sticky pagination"
+msgstr ""
+
+#: build/lib/admin_interface/models.py
+msgid "Theme"
+msgstr "Tema"
+
+#: build/lib/admin_interface/models.py
+msgid "Themes"
+msgstr "Temi"
+
+#: build/lib/admin_interface/templates/admin/change_list.html
+#, fuzzy
+#| msgid "List Filter"
+msgid "Filter"
+msgstr "Filtro listato"
+
+#. Translators: don't translate this, the django catalog already contains it
+#: build/lib/admin_interface/templates/admin/change_list.html
+msgid "Clear all filters"
+msgstr ""
+
+#: build/lib/admin_interface/templates/admin/filter.html
+#: build/lib/admin_interface/templates/admin_interface/dropdown_filter.html
+#, python-format
+msgid " By %(filter_title)s "
+msgstr " Per %(filter_title)s "
+
+#: build/lib/admin_interface/templates/admin/popup_response.html
+msgid "Popup closing..."
+msgstr "Chiusura popup..."
