@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: qiskit-qutree-cloud-provider
+Version: 0.1.0
+Requires-Python: >=3.7
+Provides-Extra: dev

@@ -1,0 +1,9 @@
+qiskit
+qiskit-terra>=0.19
+grpcio
+protobuf
+
+[dev]
+grpcio-tools
+black
+pre-commit
