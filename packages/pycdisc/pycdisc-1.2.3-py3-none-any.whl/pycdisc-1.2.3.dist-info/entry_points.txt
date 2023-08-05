@@ -1,0 +1,2 @@
+[console_scripts]
+string-color = pycdisc.main:main
