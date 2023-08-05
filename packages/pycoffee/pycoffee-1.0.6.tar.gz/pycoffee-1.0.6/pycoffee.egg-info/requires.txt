@@ -1,0 +1,16 @@
+pyyaml
+click
+influxdb
+requests
+wget
+watchdog
+rich
+ntplib
+grafanalib
+flask
+pid
+python-daemon
+django
+h5py
+numpy
+ddt
