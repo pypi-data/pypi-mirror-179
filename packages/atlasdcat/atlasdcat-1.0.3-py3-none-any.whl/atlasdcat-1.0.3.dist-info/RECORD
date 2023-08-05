@@ -1,0 +1,9 @@
+atlasdcat/__init__.py,sha256=fLUKF5k7dPI5fkOPE1tfL4BDDoL-k9rcYTNGpzKBZMg,586
+atlasdcat/attribute.py,sha256=e5HK7m-pT98YQXlUGdtvxW-HFRhzHM5VgrJbYmwoO9M,823
+atlasdcat/glossaryclient.py,sha256=VcQyLS5ZufwNI0jDVNUr1woilIMb5_K7yO3PijoYGm4,1883
+atlasdcat/mapper.py,sha256=4Qrcfjz_jUD4HIP9vi9X7R5xa3j7VqikPQHuTrMTfqM,36519
+atlasdcat/termtype.py,sha256=oakf33lriNLjePyYb4gZbEDbyX6fYy4Rdx4h7lIOna0,193
+atlasdcat-1.0.3.dist-info/LICENSE,sha256=UXoSUlYJDYC0ulcajzXd9HVRPGeCBf5SG3O01TjfLHc,11360
+atlasdcat-1.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atlasdcat-1.0.3.dist-info/METADATA,sha256=QK9BHx0K9_fEbYj4WelFJLp3K5kArMuVChhASI1VjWI,4765
+atlasdcat-1.0.3.dist-info/RECORD,,
