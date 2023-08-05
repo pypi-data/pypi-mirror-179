@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sims_reia"
+version = "0.1.2"
+description = ""
+authors = ["Ammar Askar <ammar@ammaraskar.com>"]
+readme = "README.md"
+homepage = "https://github.com/ammaraskar/SimsReiaParser"
+repository = "https://github.com/ammaraskar/SimsReiaParser/tree/main/SimsReiaPy"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pillow = "^9.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
