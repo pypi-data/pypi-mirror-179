@@ -1,0 +1,10 @@
+certifi
+charset-normalizer
+idna
+oauthlib
+plumbum
+py-trello
+python-dateutil
+pytz
+six
+urllib3
