@@ -1,0 +1,4 @@
+requests
+aigpy
+lxml
+prettytable
