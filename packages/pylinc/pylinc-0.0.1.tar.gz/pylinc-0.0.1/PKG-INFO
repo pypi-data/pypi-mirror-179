@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pylinc
+Version: 0.0.1
+Summary: A general-purposed utility kit.
+Home-page: https://github.com/Linc-tw/pylinc
+Author: Chieh-An Lin
+Author-email: turtlelin1210@gmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: healpy
+License-File: LICENSE
+
+pylinc
+======
+
+A general-purposed utility kit for personal usage.
+
+Installation
+------------
+
+```python
+$ pip install pylinc[healpy]
+```
+
+`pylinc` is using a third-party package `healpy` for its `healpix` module.
+If installation of `healpy` fails (this has been reported on Windows),
+users can install `pylinc` without the `healpix` module:
+```python
+$ pip install pylinc
+```

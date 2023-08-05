@@ -1,0 +1,7 @@
+numpy>=1.15.0
+astropy>=4.0.0
+pandas>=1.2.0
+matplotlib>=3.0.0
+
+[healpy]
+healpy>=3.5.3
