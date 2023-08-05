@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bot-common
+Version: 0.0.5
+Summary: Common libraries AISAC Bot
+Home-page: UNKNOWN
+Author: cla.fragomeli_92
+Author-email: <cla.fragomeli@gmail.com>
+License: UNKNOWN
+Keywords: python,bot
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (==1.4.29)
+Requires-Dist: mysql-connector-python-rf (==2.2.2)
+Requires-Dist: PyYAML (==5.4.1)
+Requires-Dist: pydantic (==1.9.0)
+
+A package that contains the common libraries for the AISAC Bot
+
