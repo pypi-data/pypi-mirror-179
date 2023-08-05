@@ -1,0 +1,10 @@
+legendmeta/__init__.py,sha256=l8iUT37zN4dkKxMzAog90xfJHg5aqqPfuoNeSQeq3ok,248
+legendmeta/_version.py,sha256=F4OaytDPTe_UhnRxWr5M85fOkPtvP11Guus85TlgY6M,176
+legendmeta/catalog.py,sha256=2musi8idR7SQbJrBN2rW_nScmsJOyFwz-2OCjxGvfKs,5859
+legendmeta/core.py,sha256=P2l5qzuw0o7-e4XbHuTkChxMKDViXzpLt7bdR98EeVI,2338
+legendmeta/jsondb.py,sha256=_WIsA1004BZaIWpwvxwouD0LLdomyFPPAln8F2C1Xaw,5197
+pylegendmeta-0.2.1.dist-info/LICENSE,sha256=OwT4zkrZL5xe8Na9ExUPfifZDE39OKnWWV7BW_NTHw0,1081
+pylegendmeta-0.2.1.dist-info/METADATA,sha256=isDJmIEFwTTZDlQjFj4AFCscPg5htnXn32oG2U5nuNk,3038
+pylegendmeta-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pylegendmeta-0.2.1.dist-info/top_level.txt,sha256=eH83sBgpPgTZVUMXsJbnHDmCFxFr6H3_RSisKPpF_Rc,11
+pylegendmeta-0.2.1.dist-info/RECORD,,
