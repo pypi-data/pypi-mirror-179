@@ -1,0 +1,8 @@
+sonarqube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sonarqube/audit.py,sha256=XfrNF5LT6_qUqMGOLcxJTsbOIZHVQvMlq4KEjIS6UDE,7007
+sonarqube/sonar.py,sha256=PqwmbSF6hnU1DBm6GXn6H-4pOWpKuDrHvQ2X6UQ2HFk,8300
+sonarqube_client-0.0.5.dist-info/LICENSE.txt,sha256=pL-jWN4jJTnu5dtGjNabc4aJ85r97VElSHnBAnizziU,1068
+sonarqube_client-0.0.5.dist-info/METADATA,sha256=Gc8tYNGE-1Bee6e9y4ByX8Sa2RZQ9MDrDWGIRZYMWfo,8581
+sonarqube_client-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sonarqube_client-0.0.5.dist-info/top_level.txt,sha256=YCsrtL7_xvieiApaG3xClee5zCiBhWJAAQsJq6LMnk4,10
+sonarqube_client-0.0.5.dist-info/RECORD,,
