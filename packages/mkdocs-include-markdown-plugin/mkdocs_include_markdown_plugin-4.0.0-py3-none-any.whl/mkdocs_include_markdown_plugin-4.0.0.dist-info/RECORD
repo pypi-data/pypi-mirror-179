@@ -1,0 +1,10 @@
+mkdocs_include_markdown_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_include_markdown_plugin/config.py,sha256=YHgdMAR_pSiCA1veLnj_vLZpXNBS4-ZxSINBmVaamYM,1346
+mkdocs_include_markdown_plugin/event.py,sha256=LKwKlPe_42QeDqFtV8g8Yi3y2Ws_OaruyhK4_NtUzbU,25810
+mkdocs_include_markdown_plugin/plugin.py,sha256=nXO9fPugAmxNMw7jObSOsFTneDYTuuXXxcefBCT93-I,2260
+mkdocs_include_markdown_plugin/process.py,sha256=_MUVDV6eTk_GP250NklddJZoWLM7Ti32LNwOF32hqVg,12687
+mkdocs_include_markdown_plugin-4.0.0.dist-info/METADATA,sha256=1e25pdN2HSdJoZQv_wa0EnkU_T4Bz8eRhCqq4ApxvuM,9602
+mkdocs_include_markdown_plugin-4.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+mkdocs_include_markdown_plugin-4.0.0.dist-info/entry_points.txt,sha256=WEL5m7sw5ZMBwmdOs5S_9mGoZfLCaUDPkDKw7CUk16Q,96
+mkdocs_include_markdown_plugin-4.0.0.dist-info/licenses/LICENSE,sha256=su3MJy0Qhc1h-CjEGNiR5DQCRROye-uxGGyLiEj4VKw,11365
+mkdocs_include_markdown_plugin-4.0.0.dist-info/RECORD,,
