@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/amountamount/__init__.py
+src/amountamount/calc.py
+src/amountamount/types.py
+src/mathmath/__init__.py
+src/toilet2.egg-info/PKG-INFO
+src/toilet2.egg-info/SOURCES.txt
+src/toilet2.egg-info/dependency_links.txt
+src/toilet2.egg-info/top_level.txt
