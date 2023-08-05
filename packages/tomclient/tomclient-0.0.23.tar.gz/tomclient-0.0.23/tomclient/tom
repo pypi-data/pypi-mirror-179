@@ -1,0 +1,43 @@
+#! python
+import typer
+import sched, time
+import netifaces as ni
+from netifaces import AF_INET
+from loguru import logger
+from tomclient.clients.tom_client import TomClient
+from tomclient.gpuml.gpu_profiler import gpu_measure
+from tomclient.clock import clock_watch
+
+tom = typer.Typer(help="Research Computer Worker Daemon")
+
+@tom.command()
+def join(host: str='localhost',
+         nic_name: str ='access',
+         report_interval: int=10, 
+         working_dir: str = "."
+        ):
+    ip_addr = ni.ifaddresses(nic_name)[AF_INET][0]['addr']
+    gpu_stats = gpu_measure()
+
+    if gpu_stats is not None and 'gpu' in gpu_stats:
+        gpu_stats = gpu_stats['gpu']
+        total_gpus = len(gpu_stats)
+        s = sched.scheduler(time.time, time.sleep)
+        tom_client = TomClient(host_url=host, num_cards = total_gpus)
+        for idx, gpu_stat in enumerate(gpu_stats):
+            tom_client.join(
+                gpu_id=idx,
+                ip_addr=ip_addr,
+                gpu_spec=gpu_stat['product_name'],
+                gpu_memory=gpu_stat['fb_memory_usage']['total'],
+                working_dir=working_dir,
+            )
+        s.enter(report_interval, 1, clock_watch, (s, tom_client, ip_addr, str(idx)))
+        s.run(blocking=True)
+
+@tom.command()
+def config():
+    pass
+
+if __name__ == "__main__":
+    tom()

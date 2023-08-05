@@ -1,0 +1,11 @@
+typer
+jsonrpc-websocket
+netifaces
+nvidia-ml-py
+requests
+loguru
+rich
+humanize
+pyyaml
+bkm
+dstool
