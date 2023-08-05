@@ -1,0 +1,4 @@
+fastapi
+flask>=2.0.0
+starlette
+uvicorn
