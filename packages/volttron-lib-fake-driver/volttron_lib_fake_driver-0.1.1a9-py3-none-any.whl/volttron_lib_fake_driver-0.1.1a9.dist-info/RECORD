@@ -1,0 +1,6 @@
+volttron/driver/interfaces/fake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+volttron/driver/interfaces/fake/fake.py,sha256=Fyx-mKK2v1llpHIy_67-hipaM-KIUEwEbU8Xogr4424,5072
+volttron_lib_fake_driver-0.1.1a9.dist-info/LICENSE,sha256=jbS35gpEFbSo_UigScg0Qfr4UrqpPxpsRAtb7T00LYY,11928
+volttron_lib_fake_driver-0.1.1a9.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+volttron_lib_fake_driver-0.1.1a9.dist-info/METADATA,sha256=OcnifMlfyqPtGTN260IydKvPlQBCABv-V53xjFMGHzc,8208
+volttron_lib_fake_driver-0.1.1a9.dist-info/RECORD,,
