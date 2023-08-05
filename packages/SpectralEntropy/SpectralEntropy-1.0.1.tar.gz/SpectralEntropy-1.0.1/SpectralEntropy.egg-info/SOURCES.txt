@@ -1,0 +1,14 @@
+README.md
+setup.py
+SpectralEntropy.egg-info/PKG-INFO
+SpectralEntropy.egg-info/SOURCES.txt
+SpectralEntropy.egg-info/dependency_links.txt
+SpectralEntropy.egg-info/requires.txt
+SpectralEntropy.egg-info/top_level.txt
+spectral_entropy/__init__.py
+spectral_entropy/math_distance.py
+spectral_entropy/ms_distance.py
+spectral_entropy/spectral_entropy.py
+spectral_entropy/spectral_similarity.py
+spectral_entropy/tools.py
+spectral_entropy/tools_fast.c
