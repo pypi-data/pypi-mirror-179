@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/boaz_words.egg-info/PKG-INFO
+src/boaz_words.egg-info/SOURCES.txt
+src/boaz_words.egg-info/dependency_links.txt
+src/boaz_words.egg-info/requires.txt
+src/boaz_words.egg-info/top_level.txt
+src/words/__init__.py
+src/words/counter.py
