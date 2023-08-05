@@ -1,0 +1,12 @@
+aigbook/__init__.py,sha256=X6LXnndO_mwzY763dmUc3VJb_jZ2xhsDqGrgNZK6YA0,1593
+aigbook/book.py,sha256=dBt3fM9Rpnk4rR7JsUeI1z-Ojxfs_8nvA2SF0M9tl5g,6836
+aigbook/gebiqu.py,sha256=ipRyMt-SW4d5L4G7NzPdNeSWnzOJdQ4zHe3yRQs0Ndk,2351
+aigbook/zw81.py,sha256=VwB_ibIQiqjXUQavtG5u1EStVXHbA7PrAMwz8Tpi4T4,2406
+test/__init__.py,sha256=jRO75v7PGPTLv4JEJGGQLVmUaU1q5uV2lYUmxTwtyGY,1386
+test/test_gui.py,sha256=AhSzo9vKAP0r1vdH1QobmUVmRiSboPj2KXJN89eIT3M,5084
+aigbook-1.0.0.4.dist-info/LICENSE,sha256=THf6vwmFOQSpIbXFplcVG2-gM8UC0L94sLnqrxqW58I,1084
+aigbook-1.0.0.4.dist-info/METADATA,sha256=gJDlMSRCgA26KGAXt6RV6HNtnwGKNflKo4bBdTzI6GE,280
+aigbook-1.0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aigbook-1.0.0.4.dist-info/entry_points.txt,sha256=AfRrxNFwbOWN3aD7nEHd5ynr4SK_3e22ewMas00M96w,45
+aigbook-1.0.0.4.dist-info/top_level.txt,sha256=z7qCZgbS68MGreDObEeXcvyS_nyERb8i0sRJlyKTvU0,13
+aigbook-1.0.0.4.dist-info/RECORD,,
