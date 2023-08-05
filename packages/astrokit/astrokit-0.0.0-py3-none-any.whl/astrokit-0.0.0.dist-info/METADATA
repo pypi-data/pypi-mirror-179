@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: astrokit
+Version: 0.0.0
+Summary: A Python ToolKit for Astronomy
+Project-URL: Homepage, https://github.com/astro-zhurui/astrokit
+Project-URL: Bug Tracker, https://github.com/astro-zhurui/astrokit/issues
+Author-email: Rui Zhu <zhurui675@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+===== Ray's Package =====  
+@name: astrokit  
+@author: Rui Zhu  
+@creation time: 2022-11-30  
+@description: A Python ToolKit for Astronomy  
