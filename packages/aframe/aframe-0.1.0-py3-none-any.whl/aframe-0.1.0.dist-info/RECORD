@@ -1,0 +1,9 @@
+aframe/__init__.py,sha256=aU9fB38KPXFUTPxXvEyc9J3hIQ4AemnbHF2Ivf1r9xk,73
+aframe/a_html.py,sha256=0U18XdilSdhkDtWDAnExgi_5Sl8qbaZcs3Bvx6YQnes,1939
+aframe/core.py,sha256=VQidslzdpv1EsTkGavCI60nWpXBC5GE8H1wBGGAUNK4,16440
+aframe/examples/with_fastapi.py,sha256=uB1Q6dIrSTq6-m4m84tnbK1-r8_rFMIaF0pDkG0xwqQ,1368
+aframe/helpers.py,sha256=Ylt23sbzk3H0AtgQauafUqhAPT7tNeiyFNFkD7FYm8Y,804
+aframe/templates.py,sha256=SbKWsKOSyBxa_UP-13MuUXm7eUPgwqJxq770P4yxEIg,179
+aframe-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aframe-0.1.0.dist-info/METADATA,sha256=2EZhDRp4GW5sjpaijk5BK2s2UdrZ6pjwEmUfi1N4zoU,2751
+aframe-0.1.0.dist-info/RECORD,,
