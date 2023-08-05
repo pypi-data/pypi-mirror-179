@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fmover
+Version: 0.0.4
+Summary: Move files based on file properties and given criteria
+Home-page: https://github.com/EphraimSiegfried/fmover
+License: MIT
+Keywords: filemanager,filemover,mover,fileorganizer
+Author: Ephraim Siegfried
+Author-email: ephraim.siegfried@hotmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Desktop Environment :: File Managers
+Classifier: Topic :: Utilities
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: notifypy (>=1.0.3.0,<2.0.0.0)
+Project-URL: Repository, https://github.com/EphraimSiegfried/fmover
