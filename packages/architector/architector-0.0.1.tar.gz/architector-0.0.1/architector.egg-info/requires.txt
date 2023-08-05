@@ -1,0 +1,11 @@
+requests
+ase
+numpy
+py3Dmol
+openbabel
+scipy
+pandas
+xtb-python
+
+[:python_version >= "3.6"]
+importlib
