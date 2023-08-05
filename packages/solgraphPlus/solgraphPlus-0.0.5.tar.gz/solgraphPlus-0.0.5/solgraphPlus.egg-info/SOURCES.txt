@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+solgraphPlus/__init__.py
+solgraphPlus/main.py
+solgraphPlus.egg-info/PKG-INFO
+solgraphPlus.egg-info/SOURCES.txt
+solgraphPlus.egg-info/dependency_links.txt
+solgraphPlus.egg-info/requires.txt
+solgraphPlus.egg-info/top_level.txt
+test/test.py
