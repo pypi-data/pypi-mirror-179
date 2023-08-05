@@ -1,0 +1,11 @@
+itk_ioscanco.libs/libtbb-e251c622.so.12.3,sha256=QW3Q2BukMwPKIl4Dlj9P2mOaQxfan6FTZFjeA8ICdhY,378360
+itk/_IOScancoPython.so,sha256=Yft5kNtm8bRoc4wNTuZN1vFHalausqtcmefmccoIaiQ,1408408
+itk/itkScancoImageIOPython.py,sha256=7r0oWs9pl1xwuao2N1K1OsjDu2oGA_TYbpfqsS2xA8M,12986
+itk/IOScancoPython.py,sha256=taIy8wTziSKIQD7Cpmng5V68GJm6ACTk2JzVIt-rbQU,2340
+itk/Configuration/IOScancoConfig.py,sha256=rYZzax1Ll1nIvK2TeMtDn7u4D966gNhqenas4SUDIH4,254
+itk/Configuration/IOScanco_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk_ioscanco-0.10.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_ioscanco-0.10.0.dist-info/METADATA,sha256=pjxSHI9AEKwODBCfwsBUOxDF8OKfoUiU8d3U__R_g-Q,1488
+itk_ioscanco-0.10.0.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_ioscanco-0.10.0.dist-info/RECORD,,
+itk_ioscanco-0.10.0.dist-info/WHEEL,sha256=VHkgONuAe6uG3_1GjBCvqmttgGut4UUdQuHT7jYxZck,106
