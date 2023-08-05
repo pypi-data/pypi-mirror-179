@@ -1,0 +1,8 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+extend-exclude = "qiskit_qutree_cloud_provider/rpc/"
