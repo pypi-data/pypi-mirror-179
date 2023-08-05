@@ -1,0 +1,3 @@
+[console_scripts]
+qcodes-dynacool-server = qcodes.instrument_drivers.QuantumDesign.DynaCoolPPMS.private.server:run_server
+qcodes-monitor = qcodes.monitor.monitor:main
