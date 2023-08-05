@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/apachetika/__init__.py
+src/apachetika/data/tika-app.jar
+src/apachetika/extract/__init__.py
+src/python_apachetika.egg-info/PKG-INFO
+src/python_apachetika.egg-info/SOURCES.txt
+src/python_apachetika.egg-info/dependency_links.txt
+src/python_apachetika.egg-info/requires.txt
+src/python_apachetika.egg-info/top_level.txt
