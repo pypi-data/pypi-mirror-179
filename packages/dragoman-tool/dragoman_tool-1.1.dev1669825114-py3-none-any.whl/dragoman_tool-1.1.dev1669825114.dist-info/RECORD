@@ -1,0 +1,13 @@
+Interpreter/__init__.py,sha256=ijpSfrmUyk8r0fcG9kW7hOZ_wQ_3LIX-0Oa5rboo0QM,41166
+Interpreter/__main__.py,sha256=9lpWegoBQOXpW-mUpyPhXAWhjyaCraoswQeP0vdggJU,491
+Interpreter/connection.py,sha256=zyXB-5MZ7BGVdSm4TL1kYCv7nLYBQ4ubRmghOXgzKHc,78265
+Interpreter/functions.py,sha256=nGDYynu7hCEJsyCMTWSyyQnkxCrWLbCkwUMDXen8atI,3764
+Interpreter/string_subs.py,sha256=5QN4LoxDHzfuuXazlmOmhNX256X9kyY-An_q0fV-ihs,10421
+Interpreter/translate.py,sha256=5-U2Htn8jmYOVsD1fsontL7x3pSW_Tjc40fOmAZ9pIQ,47120
+Interpreter/triples_map/TriplesMap.py,sha256=sfHI5xBRqZxhV6tzhMFviwOlKr2VmFaV1XdR3LcVLAY,4569
+Interpreter/triples_map/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dragoman_tool-1.1.dev1669825114.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dragoman_tool-1.1.dev1669825114.dist-info/METADATA,sha256=3pZQl6lV8awQFRo6jtlrlAV56zWyANxayqYWtySbtNc,3141
+dragoman_tool-1.1.dev1669825114.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dragoman_tool-1.1.dev1669825114.dist-info/top_level.txt,sha256=saaDvuBKUaEUutUG8h2UGs8u2yWrR6Nd6bFa3BQAhgc,12
+dragoman_tool-1.1.dev1669825114.dist-info/RECORD,,
