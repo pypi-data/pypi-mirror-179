@@ -1,0 +1,8 @@
+_yapybrot.cpython-310-darwin.so,sha256=_MZ8blxisW9_53nNd-j1L306pF23jjGTjJuu7khfjUA,154568
+yapybrot/__init__.py,sha256=z2j53Fg61pludq9xy_E0KVZC88dY0WD4bCOsbbT8WEU,35
+yapybrot/mandelbrot.py,sha256=UPyH6DjwnhowedcIw6gNdQ4Kyfqbr2ImdrRNflw5jpA,1257
+yapybrot-0.0.1.dist-info/LICENSE,sha256=eLCZ5RL-_w7fqnkv5ELPeewdtrXWeXXfjMxgUjKBvPE,1069
+yapybrot-0.0.1.dist-info/METADATA,sha256=6q5BTDlF-RWJetCLfuvrF7x1raZIL7B70hIPHVDLyhE,1088
+yapybrot-0.0.1.dist-info/WHEEL,sha256=wHXPjcF1PbvralrZAZffaBRfMW8u_7d-L-q3slIS7Go,111
+yapybrot-0.0.1.dist-info/top_level.txt,sha256=CLlmO_gCpTqZDTPD2MLpqekDagZyrc3iIPcNFqh3Nhc,19
+yapybrot-0.0.1.dist-info/RECORD,,
