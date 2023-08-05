@@ -1,0 +1,10 @@
+ase
+matplotlib
+numpy
+pyopencl
+reikna
+
+[dev]
+pre-commit
+pytest
+pytest-cov
