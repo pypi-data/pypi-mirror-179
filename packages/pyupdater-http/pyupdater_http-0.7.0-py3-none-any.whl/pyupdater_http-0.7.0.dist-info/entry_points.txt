@@ -1,0 +1,3 @@
+[pyupdater.plugins]
+http_uploader=pyupdater_http.uploader:HTTPUploader
+
