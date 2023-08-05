@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+src/llm_factory.egg-info/PKG-INFO
+src/llm_factory.egg-info/SOURCES.txt
+src/llm_factory.egg-info/dependency_links.txt
+src/llm_factory.egg-info/top_level.txt
