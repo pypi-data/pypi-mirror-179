@@ -1,0 +1,9 @@
+numpy
+pandas
+gplearn
+scipy
+deap
+bluepyopt
+glmnet
+icecream
+scikit-learn
