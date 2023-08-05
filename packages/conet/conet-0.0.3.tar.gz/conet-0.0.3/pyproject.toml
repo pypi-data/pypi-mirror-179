@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65.6", "numpy", "gensim", "networkx"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "conet"
+version = "0.0.3"
+authors = [
+  { name="Agustin Brusco, Eitan Sprejer, Facundo Joaquin Garcia", email="facundojgarcia02@gmail.com" },
+]
+description = "Complex networks analysis tools for small RAM computers or big graphs."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy", "gensim", "networkx"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/facundojgarcia02/CoNet"
