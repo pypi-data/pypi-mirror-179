@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+src/Mansour_utils.egg-info/PKG-INFO
+src/Mansour_utils.egg-info/SOURCES.txt
+src/Mansour_utils.egg-info/dependency_links.txt
+src/Mansour_utils.egg-info/top_level.txt
