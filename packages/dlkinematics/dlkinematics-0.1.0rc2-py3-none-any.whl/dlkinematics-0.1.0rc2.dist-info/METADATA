@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: dlkinematics
+Version: 0.1.0rc2
+Summary: 
+Author: Lukas Mölschl
+Author-email: lukas@moelschl.com
+Requires-Python: >=3.8,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Requires-Dist: numpy (>=1.23.5,<2.0.0)
+Requires-Dist: pyaml (>=21.10.1,<22.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: tensorflow (>=2.2.0,<3.0.0)
+Requires-Dist: tensorflow-graphics (>=2021.12.3,<2022.0.0)
+Requires-Dist: transformations (>=2022.9.26,<2023.0.0)
+Description-Content-Type: text/markdown
+
+[![dlkinematics](https://github.com/lumoe/dlkinematics/actions/workflows/main.yml/badge.svg)](https://github.com/lumoe/dlkinematics/actions/workflows/main.yml)
+
+# Deep Learning Kinematics
+
+### Differentiable Forwad Kinematics for TensorFlow and Keras
+
+Supported Joint Types:
+
+- [x] Fixed
+- [x] Revolute
+- [x] Continious
+- [x] Prismatic
+- [x] Floating (not coverd by unit tests)
+- [x] Planar (not coverd by unit tests)
+
+## Installation
+
+### Install from source
+
+`$ pip3 install -e git+https://github.com/lumoe/dlkinematics.git@main#egg=DLKinematics`
+
+### Install from PyPi
+
+_Coming soon_
+
+## Usage:
+
+```python
+import tensorflow as tf
+from dlkinematics.urdf import chain_from_urdf_file
+from dlkinematics.dlkinematics import DLKinematics
+
+# Load URDF
+chain = chain_from_urdf_file('data/human.urdf')
+
+# Create DLKinematics
+dlkinematics = DLKinematics(
+   chain,
+   base_link="human_base",
+   end_link="human_spine_2",
+   batch_size=2)
+
+# Joint configuartion
+thetas = tf.Variable([1., 2., 3., 4.], dtype=tf.float32)
+
+# Forward pass
+with tf.GradientTape() as tape:
+    result = dlkinematics.forward(thetas)
+
+print(result)
+print(tape.gradient(result, thetas))
+
+```
+
+## As Keras Layer
+
+```python
+from dlkinematics.training_utils import ForwardKinematics
+from tensorflow import keras
+import tensorflow as tf
+
+model = keras.Sequential()
+
+FK_layer = ForwardKinematics(
+   urdf_file = 'path/to/urdf',
+   base_link = 'link0',
+   end_link = 'linkN',
+   batch_size = 2)
+
+model.add(FK_layer)
+# Output shape of FK_layer is (batch_size, 4, 4)
+```
+
+## Run tests
+
+The tests use ROS packages to validate the result of the dlkinematics module.
+
+1. Build the docker image for tests:  
+   `$ docker build -t dlkinematics_tests .`
+
+1. Start the container in the root folder of the project:  
+   `$ docker run -it -v $PWD:/work dlkinematics_tests python3 -m pytest`
+
+1. Execute all tests:  
+   `$ docker run -it -v $PWD:/work dlkinematics_tests python3 -m pytest`  
+   Execute only a single testfile:  
+   `$ docker run -it -v $PWD:/work dlkinematics_tests python3 -m pytest tests/test_prismatic.py`
+
