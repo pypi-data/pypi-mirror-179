@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: solidityParserPlus
+Version: 0.0.2
+Summary: A Solidity parser for Python built on top of a robust ANTLR4 grammar
+Home-page: https://github.com/VelitasDao/python-solidity-parser
+Author: t0hka
+Author-email: s4ndalph0n.t0hka@gmail.com
+License: MIT
+Keywords: solidity,parser,antlr
+Description-Content-Type: text/markdown
+Requires-Dist: antlr4-python3-runtime (==4.9.3)
+
