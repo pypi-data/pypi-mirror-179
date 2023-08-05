@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+private_registry/private_registry.egg-info/PKG-INFO
+private_registry/private_registry.egg-info/SOURCES.txt
+private_registry/private_registry.egg-info/dependency_links.txt
+private_registry/private_registry.egg-info/requires.txt
+private_registry/private_registry.egg-info/top_level.txt
