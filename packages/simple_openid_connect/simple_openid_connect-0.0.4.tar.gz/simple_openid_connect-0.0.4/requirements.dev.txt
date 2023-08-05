@@ -1,0 +1,14 @@
+coverage
+django-debug-toolbar
+django-stubs[compatible-mypy]
+flit
+hypothesis
+mypy>=0.991
+pytest
+pytest-django
+pytest-explicit
+pyyaml
+responses
+sphinx
+sphinx_rtd_theme
+types-requests

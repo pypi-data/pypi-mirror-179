@@ -1,0 +1,58 @@
+name: checks
+on:
+  - push
+  - workflow_dispatch
+
+jobs:
+  check-pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            requirements.dev.txt
+      - run: |
+          pip install pre-commit
+          pip install -e .
+          pip install -r requirements.dev.txt
+      - uses: actions/cache@v3
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml') }}
+      - run: pre-commit run --show-diff-on-failure --color=always --all-files
+
+  pytest:
+    strategy:
+      fail-fast: false
+      matrix:
+        py_version: [ "3.9", "3.10", "3.11" ]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+          cache-dependency-path: |
+            tests/dummy_provider/yarn.lock
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "${{ matrix.py_version }}"
+          cache: pip
+          cache-dependency-path: |
+            pyproject.toml
+            requirements.dev.txt
+      - name: install dependencies
+        run: |
+          yarn install --frozen-lockfile --cwd=tests/dummy_provider
+          pip install -e .
+          pip install -r requirements.dev.txt
+      - name: execute tests
+        run: |
+          yarn run --cwd=tests/dummy_provider start &
+          pytest
+          kill %1
