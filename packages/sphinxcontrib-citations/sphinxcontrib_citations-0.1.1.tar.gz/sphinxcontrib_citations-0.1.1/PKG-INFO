@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-citations
+Version: 0.1.1
+Summary: Create a list with all the papers that cite yours
+Author: Gabriele Bozzola
+Author-email: sbozzolator@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Sphinx (>=4.0)
+Requires-Dist: requests (>=2.0,<3.0)
+Requires-Dist: sphinxcontrib-bibtex (>=2.0,<3.0)
