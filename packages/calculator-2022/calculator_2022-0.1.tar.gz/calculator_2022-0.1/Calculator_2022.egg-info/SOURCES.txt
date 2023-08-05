@@ -1,0 +1,15 @@
+setup.py
+Calculator_2022/__init__.py
+Calculator_2022/calculator_main.py
+Calculator_2022/calculator_session.py
+Calculator_2022.egg-info/PKG-INFO
+Calculator_2022.egg-info/SOURCES.txt
+Calculator_2022.egg-info/dependency_links.txt
+Calculator_2022.egg-info/top_level.txt
+calculator_2022/__init__.py
+calculator_2022/calculator_main.py
+calculator_2022/calculator_session.py
+calculator_2022.egg-info/PKG-INFO
+calculator_2022.egg-info/SOURCES.txt
+calculator_2022.egg-info/dependency_links.txt
+calculator_2022.egg-info/top_level.txt
