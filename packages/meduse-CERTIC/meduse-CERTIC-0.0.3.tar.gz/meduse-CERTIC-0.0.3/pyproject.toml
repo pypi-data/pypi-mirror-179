@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "meduse-CERTIC"
+version = "0.0.2"
+description = "Outil en ligne de commande destiné à réaliser des copies statiques des projets du Pôle Document Numérique"
+authors = ["Mickaël Desfrênes <mickael.desfrenes@unicaen.fr>"]
+license = "Cecill"
+packages = [
+    { include = "meduse"},
+]
+[tool.poetry.dependencies]
+python = "^3.9"
+sanic = "^22.3.2"
+lxml = "^4.9.0"
+argh = "^0.26.2"
+requests = "^2.28.0"
+beautifulsoup4 = "^4.11.1"
+elasticsearch = ">=6.0.0,<7.0.0"
+
+[tool.poetry.scripts]
+meduse = "meduse.__main__:run_cli"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
