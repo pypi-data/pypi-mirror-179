@@ -1,0 +1,11 @@
+ws_sbom_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_sbom_generator/_version.py,sha256=pMdgcdk7uQ1I23r1KpyCnvjfmsF7bbx4DxLQD-k_jKA,113
+ws_sbom_generator/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_sbom_generator/cyclonedx.py,sha256=lnScbHgrJV0b0ai5OLXLnRNh2SpzqTIaL-4vA24v0Zs,8681
+ws_sbom_generator/sbom_generator.py,sha256=l-xEHDDEb2ku_mEW_JS_weWsA0GshCRytBS-QyN92ko,28414
+ws_sbom_generator-22.11.30.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_sbom_generator-22.11.30.1.dist-info/METADATA,sha256=5a90I0qxq1kIFN4SlxgNVZV_g1pcLdtLuGSuA6T2SBw,8581
+ws_sbom_generator-22.11.30.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ws_sbom_generator-22.11.30.1.dist-info/entry_points.txt,sha256=Ju1GAchGfJFh4IAd-7NeeJ015hz5yAuys0KP8LZdBzs,77
+ws_sbom_generator-22.11.30.1.dist-info/top_level.txt,sha256=DRKpqZunaih18F__kaurtJy2TA7wG2oN5JEiudEjerg,18
+ws_sbom_generator-22.11.30.1.dist-info/RECORD,,
