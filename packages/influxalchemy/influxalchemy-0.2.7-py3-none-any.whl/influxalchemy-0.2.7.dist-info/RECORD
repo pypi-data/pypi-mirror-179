@@ -1,0 +1,10 @@
+influxalchemy/__init__.py,sha256=eJ0n_hIvGpqr5T2L-6fThbGiARSnEhyK2h6yNrTfarU,174
+influxalchemy/client.py,sha256=uwV9rgQb8hHHeJBcf8Jybuc6bjkA8rVaibWqaMyb06s,1442
+influxalchemy/measurement.py,sha256=fjbRJejeEd9BDbxRe2bi3MsRDkr73-wwC1iySyDwOh4,416
+influxalchemy/meta.py,sha256=_FIev4PzqIjy5iMJ7gkEQPLmtDkP1mfQSeuhd76h4vw,6115
+influxalchemy/operations.py,sha256=NU6OPe6KnsRt9HBABUoDMEijLB52PnUhYCljcMcHEAk,792
+influxalchemy/query.py,sha256=N6Iqz1ustnoZ-shP0c3GjyloeE0nnHEHqxq7npPopM0,3493
+influxalchemy-0.2.7.dist-info/LICENSE,sha256=z_tqEb1lVCSrap9ZjmgHARNLREZAdWqiJDK4bJ6Yo_w,1076
+influxalchemy-0.2.7.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+influxalchemy-0.2.7.dist-info/METADATA,sha256=nV5giJaAByZTnFNKsjqPHRyLAnYJBMIWPy3sv-vlJpk,4099
+influxalchemy-0.2.7.dist-info/RECORD,,
