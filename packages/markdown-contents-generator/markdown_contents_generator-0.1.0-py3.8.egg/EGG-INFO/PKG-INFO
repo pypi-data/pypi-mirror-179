@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: markdown-contents-generator
+Version: 0.1.0
+Summary: Generate table of contents for markdown files
+Home-page: https://github.com/fadich/markdown-contents-generator
+Author: Fadi A.
+Author-email: royalfadich@gmail.com
+License: UNKNOWN
+Keywords: markdown-contents-generator,md-contents-generator,md,markdown,contents,contents-generator,generator,content
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Markdown Contents Generator
+
+Generate contents for markdown files.
+
+<contents-start />
+
+- [Installation](#installation)
+  - [Install from Source](#install-from-source)
+- [Usage](#usage)
+  - [Generate Contents](#generate-contents)
+  - [Insert Contents into a file](#insert-contents-into-a-file)
+
+<contents-finish />
+
+## Installation
+
+Install via python _pip_:
+```shell
+pip install markdown-contents-generator
+```
+
+### Install from Source
+
+Clone git-repository and make setup inside the project directory:
+```shell
+git clone https://github.com/fadich/markdown-contents-generator.git \
+  && cd markdown-contents-generator
+
+python setup.py
+```
+
+## Usage
+
+Once the package installed, it provides a console command:
+```shell
+md-contents-generator
+```
+
+You can call it with no arguments to view the instructions. The only required parameter is a path to the markdown file content of which you're going to generate.
+
+### Generate Contents
+
+
+
+### Insert Contents into a file
+
+
