@@ -1,0 +1,8 @@
+libcst
+
+[dev]
+flake8>=4.0
+flake8-docstrings>=1.6
+flake8-black>=0.2
+isort>=5.10
+autoflake>=1.4
