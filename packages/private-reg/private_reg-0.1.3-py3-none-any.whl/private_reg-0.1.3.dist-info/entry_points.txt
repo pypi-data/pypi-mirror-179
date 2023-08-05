@@ -1,0 +1,3 @@
+[console_scripts]
+private_reg=src.private_reg.container_registry:Private_registry
+
