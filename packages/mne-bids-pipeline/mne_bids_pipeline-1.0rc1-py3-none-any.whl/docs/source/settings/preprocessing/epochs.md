@@ -1,0 +1,14 @@
+::: mne_bids_pipeline._config.rename_events
+::: mne_bids_pipeline._config.on_rename_missing_events
+::: mne_bids_pipeline._config.event_repeated
+::: mne_bids_pipeline._config.conditions
+::: mne_bids_pipeline._config.epochs_tmin
+::: mne_bids_pipeline._config.epochs_tmax
+::: mne_bids_pipeline._config.baseline
+::: mne_bids_pipeline._config.epochs_metadata_tmin
+::: mne_bids_pipeline._config.epochs_metadata_tmax
+::: mne_bids_pipeline._config.epochs_metadata_keep_first
+::: mne_bids_pipeline._config.epochs_metadata_keep_last
+::: mne_bids_pipeline._config.epochs_metadata_query
+::: mne_bids_pipeline._config.rest_epochs_duration
+::: mne_bids_pipeline._config.rest_epochs_overlap
