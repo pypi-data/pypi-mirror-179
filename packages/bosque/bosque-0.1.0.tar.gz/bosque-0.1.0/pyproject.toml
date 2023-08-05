@@ -1,0 +1,146 @@
+[build-system]
+requires = ["poetry_core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "bosque"
+version = "0.1.0"
+description = "Bosque"
+authors = [
+    "José Antonio Perdiguero López <perdy@perdy.io>",
+    "Miguel A. Durán Olivencia <migduroli@gmail.com>"
+]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/perdy/bosque"
+keywords = ["machine-learning", "ml", "ml-ops", "mlops", "storage", "model", "mlflow", "dvc", "tensorflow", "pytorch", "sklearn"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks"
+]
+include = ["bosque/py.typed"]
+exclude = []
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.12"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0"
+pytest-xdist = { version = "^3.0", extras = ["psutil"] }
+pytest-cov = "^4.0"
+pytest-asyncio = "^0.20"
+gevent = "^22.10"
+ipython = [
+    { version = "^7.0", python = ">=3.7,<3.8" },
+    { version = "^8.0", python = ">=3.8" }
+]
+isort = "^5.10"
+flake8 = "^5.0"
+black = { version = "^22.3", extras = ["d"] }
+mypy = "^0.991"
+pre-commit = "^2.20"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+atomic = true
+multi_line_output = 3
+include_trailing_comma = true
+line_length = 120
+skip_glob = [
+    "*/.venv/**",
+    "*/docs/**",
+    "*/build/**",
+    "*/dist/**",
+]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+show_error_codes = true
+exclude = [
+    "\\.venv",
+    "\\.github",
+    "examples",
+    "docs",
+    "build",
+    "dist",
+    "tests",
+]
+
+[tool.pytest.ini_options]
+minversion = 3
+addopts = "--junitxml=./test-results/pytest/results.xml --no-cov-on-fail --cov-report=html --cov-report=xml --cov-report=term-missing --cov-config=pyproject.toml --cov=. --pdbcls=IPython.terminal.debugger:TerminalPdb"
+norecursedirs = [
+    "*settings*",
+    "*urls*",
+    "*docs*",
+]
+asyncio_mode = "auto"
+
+[tool.coverage.run]
+source = [
+    "."
+]
+branch = true
+omit = [
+    ".venv*",
+    "*__init__.py",
+    "*__main__.py",
+    "*tests*",
+    "make",
+    "examples*",
+]
+concurrency = ["thread", "gevent"]
+
+[tool.coverage.report]
+show_missing = true
+ignore_errors = true
+fail_under = 95
+exclude_lines = [
+    "noqa",
+    "pragma: no cover",
+    "pass",
+    "\\.\\.\\.",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if 0:",
+    "if __name__ == .__main__.:",
+    "def __repr__",
+    "def __str__",
+    "if cls\\.debug",
+    "if (typing\\.|t\\.)?TYPE_CHECKING:",
+]
+
+[tool.coverage.paths]
+source = [
+    "./"
+]
+
+[tool.coverage.html]
+directory = "./test-results/coverage_html/"
+
+[tool.coverage.xml]
+output = "./test-results/coverage.xml"
+
+[tool.coverage.json]
+output = "./test-results/coverage.json"
