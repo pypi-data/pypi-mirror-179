@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: Perceptron_pkg
+Version: 0.0.3
+Summary: A small package for perceptron
+Home-page: https://github.com/iambalakrishnan/Perceptron-pkg
+Author: iambalakrishnan
+Author-email: imbkrishnaa@gmail.com
+Project-URL: Bug Tracker, https://github.com/iambalakrishnan/Perceptron-pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+$ onePerceptron python package
+
+## How to use this package
+```python
+from onePerceptron.perceptron import Perceptron
+model = Perceptron(sta=0.3, epochs=10)
+```
+## Reference - 
+
+* [Official python docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+* [Github action file for PYPI](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
