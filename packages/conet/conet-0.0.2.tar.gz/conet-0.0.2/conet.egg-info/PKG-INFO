@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: conet
+Version: 0.0.2
+Summary: Complex networks analysis tools for small RAM computers or big graphs.
+Author: Agustin Brusco, Eitan Sprejer, Facundo Joaquin Garcia
+Author-email: "Agustin Brusco, Eitan Sprejer, Facundo Joaquin Garcia" <facundojgarcia02@gmail.com>
+Project-URL: Homepage, https://github.com/facundojgarcia02/CoNet
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Complex networks analysis tools for small RAM computers or big graphs.
