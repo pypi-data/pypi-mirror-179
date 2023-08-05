@@ -1,0 +1,1 @@
+recursive-include src/text-processing-nlp-tools/resources/yanwenzi *.json

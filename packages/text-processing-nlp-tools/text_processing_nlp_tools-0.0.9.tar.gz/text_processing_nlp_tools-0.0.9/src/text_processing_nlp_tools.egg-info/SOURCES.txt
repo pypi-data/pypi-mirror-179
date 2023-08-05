@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.py
+src/text_processing_nlp_tools/__init__.py
+src/text_processing_nlp_tools.egg-info/PKG-INFO
+src/text_processing_nlp_tools.egg-info/SOURCES.txt
+src/text_processing_nlp_tools.egg-info/dependency_links.txt
+src/text_processing_nlp_tools.egg-info/requires.txt
+src/text_processing_nlp_tools.egg-info/top_level.txt
+src/text_processing_nlp_tools/fasttext_tools/__init__.py
+src/text_processing_nlp_tools/fasttext_tools/convert_bin_to_vec.py
+src/text_processing_nlp_tools/text_preprocess/__init__.py
+src/text_processing_nlp_tools/text_preprocess/text_simple_filter.py
+src/text_processing_nlp_tools/text_preprocess/yanwenzi.py
+src/text_processing_nlp_tools/text_simple_type/__init__.py
+src/text_processing_nlp_tools/text_simple_type/text_simple_type.py
