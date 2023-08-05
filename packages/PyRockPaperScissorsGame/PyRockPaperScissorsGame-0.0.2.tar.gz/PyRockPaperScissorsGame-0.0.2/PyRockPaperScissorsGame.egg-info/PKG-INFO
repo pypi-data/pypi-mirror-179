@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PyRockPaperScissorsGame
+Version: 0.0.2
+Summary: A quick rock paper scissors game
+Home-page: https://github.com/NeShkApp/RockPaperScissors
+Author: NeShk
+Author-email: <bodia.nazar4669@gmail.com>
+License: UNKNOWN
+Keywords: python,game,function,rps,rock,paper,scissors
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+You can play a rock paper scissors game in any time
+
