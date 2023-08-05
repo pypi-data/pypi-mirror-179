@@ -1,0 +1,6 @@
+ports_list/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ports_list/__main__.py,sha256=3XKqdlcbL2_bdkRH7aOPQW9UmpvsWez89YPUOBPySfk,92
+ports_list/ports.py,sha256=oMvkkb2X0yC9iYBI3UxH3W59j0Yzg-_BQIwcJapbXKA,1181
+ports_list-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+ports_list-0.1.0.dist-info/METADATA,sha256=Uh_BX3n_NDQEYA8doewGOluBr_2nDJFls5_wcHO_kBA,403
+ports_list-0.1.0.dist-info/RECORD,,
