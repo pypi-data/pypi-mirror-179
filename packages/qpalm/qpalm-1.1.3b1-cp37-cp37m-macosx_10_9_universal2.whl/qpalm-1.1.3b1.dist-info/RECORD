@@ -1,0 +1,12 @@
+qpalm/__init__.py,sha256=zCFVP9Lxg6fWW3ERPI_ljS10FM4hnCzHnZ63SjkfukM,564
+qpalm/__init__.pyi,sha256=JYh7f02sTrENXJaO28sOjNtz-7SSujgLboBMT4E6_UI,27
+qpalm/_qpalm.so,sha256=7mCsCc6R9IYJbuXGSZp7KSqstbpuxtK8BE4h29PszrU,882918
+qpalm/_qpalmd.so,sha256=ofRAEqHrQQZiUjcBplxVFldvXJiSOkKruJTk9IPaSAc,5319191
+qpalm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm/_qpalm/__init__.pyi,sha256=G60Fl7QpRYV9oFpc9m8km7bFhVM26YbbnunN4ELbtDo,10566
+qpalm/_qpalmd/__init__.pyi,sha256=WuaB7cHLz-7mwWHUuKIDyNUHp08D-saco8b0hiFuuLI,10566
+qpalm-1.1.3b1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+qpalm-1.1.3b1.dist-info/METADATA,sha256=L4KTpivb6EjF-A5Ic455sEUQt0xJ0LFIj_1th1msgg8,5699
+qpalm-1.1.3b1.dist-info/WHEEL,sha256=67u31AAc7ZnYjEjQyls-y8f0wF8WkBICd01qIpqnCZ4,105
+qpalm-1.1.3b1.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm-1.1.3b1.dist-info/RECORD,,
