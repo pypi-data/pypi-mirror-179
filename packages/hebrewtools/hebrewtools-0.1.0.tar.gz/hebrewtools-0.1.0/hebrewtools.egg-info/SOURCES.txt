@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+hebrewtools/__init__.py
+hebrewtools/functions.py
+hebrewtools.egg-info/PKG-INFO
+hebrewtools.egg-info/SOURCES.txt
+hebrewtools.egg-info/dependency_links.txt
+hebrewtools.egg-info/top_level.txt
