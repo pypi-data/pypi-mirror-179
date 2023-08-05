@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "private-reg"
+version = "0.1.2"
+description = "A simple pytho program for managing container registry in private"
+authors = ["selva <selva.g@subcom.tech>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+docker = "^6.0.1"
+typer = "^0.7.0"
+
+[tool.poetry.scripts]
+private_reg = "src.private_reg.container_registry:Private_registry"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
