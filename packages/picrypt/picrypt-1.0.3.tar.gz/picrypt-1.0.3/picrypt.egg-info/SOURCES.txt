@@ -1,0 +1,8 @@
+README.md
+setup.py
+picrypt/__init__.py
+picrypt.egg-info/PKG-INFO
+picrypt.egg-info/SOURCES.txt
+picrypt.egg-info/dependency_links.txt
+picrypt.egg-info/requires.txt
+picrypt.egg-info/top_level.txt

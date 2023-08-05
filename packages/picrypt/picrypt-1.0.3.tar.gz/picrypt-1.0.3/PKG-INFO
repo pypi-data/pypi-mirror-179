@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: picrypt
+Version: 1.0.3
+Summary: Simple cryptography
+Home-page: UNKNOWN
+Author: mi66mc
+Author-email: miguelmalgarezi@gmail.com
+License: MIT
+Keywords: cryptography
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# picrypt
+'picrypt' is a simple cryptographer.
+
+## Install
+`pip install picrypt`
+
+## Example
+```py
+import picrypt
+
+token = "banana" # you can use picrypt.generate_token() to generate a random token
+encryptor = picrypt.Encryptor(token)
+encrypted = encryptor.encrypt("hello world")
+decrypted = encryptor.decrypt(encrypted)
+print("Encrypted:", encrypted)
+print("Encrypted:", decrypted)
+```
+Result:
+
+```
+Encrypted:  [63336, 61509, 65772, 65772, 67599, 19488, 72471, 67599, 69426, 65772, 60900]
+Decrypted:  hello world
+```
+
+Use the token to encrypt and decrypt.
+
