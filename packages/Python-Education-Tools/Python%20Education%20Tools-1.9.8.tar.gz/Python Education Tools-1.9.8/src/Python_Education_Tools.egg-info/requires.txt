@@ -1,0 +1,6 @@
+numpy
+pandas
+pyttsx3
+
+[:python_version > "3.5"]
+importlib-metadata
