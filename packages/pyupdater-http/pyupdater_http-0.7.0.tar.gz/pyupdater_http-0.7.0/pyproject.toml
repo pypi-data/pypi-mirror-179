@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "pyupdater-http"
+version = "0.7.0"
+description = "PyUpdater Plugin: HTTP upload support"
+authors = ["Kirill Pinchuk <cybergrind@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/micro-fan/pyupdater-http"
+repository = "https://github.com/micro-fan/pyupdater-http"
+keywords = ["pyupdater", "pyupdater-plugin", "http"]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+httpx = ">=0.23.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.plugins."pyupdater.plugins"]
+"http_uploader" = "pyupdater_http.uploader:HTTPUploader"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 100
+skip-string-normalization = true
+skip-magic-trailing-comma = true
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+combine_as_imports = true
+default_section = 'THIRDPARTY'
+force_alphabetical_sort_within_sections = true
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 100
+lines_after_imports = 2
+multi_line_output = 3
+sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'OWN', 'FIRSTPARTY', 'LOCALFOLDER']
+
+known_first_party = ''
+known_own = ['pytest_tipsi_testing', 'fan_tools']
