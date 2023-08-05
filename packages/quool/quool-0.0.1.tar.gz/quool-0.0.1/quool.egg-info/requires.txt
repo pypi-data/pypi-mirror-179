@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+backtrader
+mplfinance
+rich
+
+[stats]
+statsmodules
+sklearn
+dask
+scipy

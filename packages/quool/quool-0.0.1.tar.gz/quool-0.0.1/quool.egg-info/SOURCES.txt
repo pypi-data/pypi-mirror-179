@@ -1,0 +1,17 @@
+README.md
+setup.py
+quool/__init__.py
+quool/analyst.py
+quool/artist.py
+quool/backtester.py
+quool/base.py
+quool/calculator.py
+quool/evaluator.py
+quool/fetcher.py
+quool/processor.py
+quool/tools.py
+quool.egg-info/PKG-INFO
+quool.egg-info/SOURCES.txt
+quool.egg-info/dependency_links.txt
+quool.egg-info/requires.txt
+quool.egg-info/top_level.txt
