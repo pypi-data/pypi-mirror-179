@@ -1,0 +1,12 @@
+qpalm/__init__.py,sha256=IA1rlgLektaPSDokRqwO1bM3N5CG0sMHRKhsGy9rptw,562
+qpalm/__init__.pyi,sha256=JYh7f02sTrENXJaO28sOjNtz-7SSujgLboBMT4E6_UI,27
+qpalm/_qpalm.cpython-38-aarch64-linux-gnu.so,sha256=mehR5-21urTtgNBFkFQ5mwShQPsanmyUejADZmsI5h0,641280
+qpalm/_qpalmd.cpython-38-aarch64-linux-gnu.so,sha256=N97WmBuA4CLfySnWT5z8wta2INEydy7IJqYB5EwcGQs,2079528
+qpalm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm/_qpalm/__init__.pyi,sha256=17w6jQsZYuJv7AfIXbfidBPGMyU5TAW2FskZY9VhEIU,10564
+qpalm/_qpalmd/__init__.pyi,sha256=TiVK9H6XJwYLouAUTRbo42KxqMmfKgFmC4p3CFGrpP8,10564
+qpalm-1.1.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+qpalm-1.1.4.dist-info/METADATA,sha256=s6vppYKMIrez9zVg_kaCikabzzyYyAvMkOTyJeW-fJY,3911
+qpalm-1.1.4.dist-info/WHEEL,sha256=yoo7BLHTuXinSU4dANKUQtsVopUPl2U-lk-R2qSGzdY,104
+qpalm-1.1.4.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qpalm-1.1.4.dist-info/RECORD,,
