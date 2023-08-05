@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/yapybrot/mandelbrot.cpp
+src/yapybrot/__init__.py
+src/yapybrot/mandelbrot.cpp
+src/yapybrot/mandelbrot.py
+src/yapybrot.egg-info/PKG-INFO
+src/yapybrot.egg-info/SOURCES.txt
+src/yapybrot.egg-info/dependency_links.txt
+src/yapybrot.egg-info/not-zip-safe
+src/yapybrot.egg-info/requires.txt
+src/yapybrot.egg-info/top_level.txt
