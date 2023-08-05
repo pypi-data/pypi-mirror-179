@@ -1,0 +1,16 @@
+endi_split_pdf/__init__.py,sha256=eR1ouhPbf7f192z_l6ZleB3oxwj6_Ad-y45UwBJlIe0,4220
+endi_split_pdf/config.py,sha256=fHNXJXbYeP4Y7SlaVxJaa8wMO2mkrIVumjpdaJkVqpk,4128
+endi_split_pdf/data_finder.py,sha256=usxevyCHa8ASHqq4av_0yHYMpgcszGu0Vp0fznwsgx4,6471
+endi_split_pdf/errors.py,sha256=VXkDbMsShsP8tZ_jVm1jeOmbMyPnx3nxyEuVkDjAZTE,335
+endi_split_pdf/log_config.py,sha256=wm8eJ-4Yz7JJsrrz1dS6xkW4ZcQ4RecF_QOFk0JpwnU,6658
+endi_split_pdf/section.py,sha256=exgB9gxtxBBG0twJEKAKLYjlnfMTpT_o-HEarnXdFsY,4154
+endi_split_pdf/splitter.py,sha256=_HLOrFzle_Fu6tDQ58jZ4Jb7C_N1Yqem1IEM8330_RA,12361
+endi_split_pdf/utils.py,sha256=k4t-MgwDUhhkEKFIlwvTanjfzRrMvMMqjZoBWrhif2k,1270
+endi_split_pdf-1.0.10.data/scripts/change_code_analytique,sha256=1GKruvK6KRCrWmBJI_uQawLtzbntNLvrCx2eF5_TMuo,545
+endi_split_pdf-1.0.10.data/scripts/endi-split-pdf-page2text,sha256=8vPoSJkpahebpYdnlXLCw8LrIjfpgc4WwkZoz6-zOXI,562
+endi_split_pdf-1.0.10.data/scripts/endi-split-pdf-run,sha256=uq0A3__QBYbUzvpXF8Y9qhhJagU1MH07WvWggnBb790,82
+endi_split_pdf-1.0.10.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+endi_split_pdf-1.0.10.dist-info/METADATA,sha256=HPjXS62L30pj78g29JYuD_C4VqobvI1RlsP67SNeCm8,6714
+endi_split_pdf-1.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+endi_split_pdf-1.0.10.dist-info/top_level.txt,sha256=nUxOEi8KTkizpRnxbx6qAChbCJdwBkaoK6BYhQ2x8xs,15
+endi_split_pdf-1.0.10.dist-info/RECORD,,
