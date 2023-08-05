@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cu-astr3510
+Version: 0.0.0
+Summary: Pedagogical tools for optical observational astronomy.
+Home-page: https://github.com/zkbt/cu-astr3510
+Author: Zach Berta-Thompson
+Author-email: zach.bertathompson@colorado.edu
+License: MIT
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Requires-Python: >=3.6
+Provides-Extra: develop
+License-File: LICENSE
+
+Read the complete documentation at https://zkbt.github.io/cu-astr3510/
