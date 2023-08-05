@@ -1,0 +1,9 @@
+k9/__init__.py,sha256=drmio4SqSJ8UsU7h6Ixe7JpAYgfZD73xVQw11TP6T8M,1886
+k9/client/__init__.py,sha256=I8uy2TE9Zsjpnsz0lzN2mdzYsrorKXWs7-mLPatMPCk,1249
+k9/middleware/__init__.py,sha256=El1A8BiAihN3astuXJ8osv55qj6JfrgU8mctmoDxk60,40
+k9/middleware/fastapi/__init__.py,sha256=iUIIbi3blliRxjBkZYxmekVGRcrLB0BUNocw5i2ISnU,976
+k9/models/__init__.py,sha256=pjuIrqtHsjYvo3B_J_TsvKSOnliixnJ0u2s3Nj6pxVc,494
+k9_python_logger-0.0.19.dist-info/METADATA,sha256=iBcGwIZvDDt7rsrfJ-ded60z4_SP3iZheHpxAcQzbqk,432
+k9_python_logger-0.0.19.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+k9_python_logger-0.0.19.dist-info/top_level.txt,sha256=bdhmWU5K9w_fzvfzo0AlosuCG2qZot5qNI4SNEN88j8,3
+k9_python_logger-0.0.19.dist-info/RECORD,,
