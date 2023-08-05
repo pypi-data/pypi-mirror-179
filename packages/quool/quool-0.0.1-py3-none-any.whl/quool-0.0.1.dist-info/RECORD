@@ -1,0 +1,14 @@
+quool/__init__.py,sha256=0cm7YoFjgaxP0dtv9Izw1fulFJyxNtwk1J_OgrI_r1A,1539
+quool/analyst.py,sha256=G7p8j8KeEO_8t6kx5ug4ngCb6SOat8jZ6o3_VBv2ji8,12489
+quool/artist.py,sha256=B4yf816pOwq8_-VIy3cdPu7tNsp3YFL9eRShIQzvWqE,4030
+quool/backtester.py,sha256=bYaoCJF0pdxxkTMDx5z9L4H0oYitCwyL5SbxTfhjXnE,28553
+quool/base.py,sha256=I2qfX8SVczGtLhm05aNpfpA0kdjfctqeF_GKHjC4iWg,20408
+quool/calculator.py,sha256=Hl0q7_A-o05v0cezY4F21Ysf4TgtCaeU4GyVYntVcL4,4191
+quool/evaluator.py,sha256=2gc6-vnf-dz319j7kZyYcHtDcvgF1IxLV99u8kRorfA,1757
+quool/fetcher.py,sha256=8R4ThBYYOHhVf9Ay__uwvszV4d_GQMKcMnrOFjdn1X8,18065
+quool/processor.py,sha256=d84dQYqr2vWCTzGk3yjdN5jqyRtB-8b9f7FGkZagT1M,22399
+quool/tools.py,sha256=mAq6U1uc9IW-pGwGpEoOd2Ljw0B_LsEmojaCCoJ-ITg,7233
+quool-0.0.1.dist-info/METADATA,sha256=RW9-v4-ZonXc7QZhPwi3FL_uqGHpNraxGi7kAamvyU4,1991
+quool-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quool-0.0.1.dist-info/top_level.txt,sha256=55mYDUq6XKhFYQdrOTnrUH22q2y4YNxi-n-qJKzX0Lc,6
+quool-0.0.1.dist-info/RECORD,,
