@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: py4mv
+Version: 0.0.1
+Summary: Combining VMS and Maia data.
+Author: Abdelouahed Ben Mhamed (a-benmhamed)
+Author-email: <a.benmhamed@intelligentica.net>
+Keywords: python,vms,maia,logbooks,fishing,tracks
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+
+# py4mv
+
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Abdelouahed Ben Mhamed from Intelligentica (c) 2022
+
+### Examples of How To Use (Buggy Alpha Version)
+
+Creating A database
+
+```python
+from py4mv import vmsEditRaw
+
+vmsEditRaw(vms="vms-data.csv")
+
+# Other Code
+
+```
