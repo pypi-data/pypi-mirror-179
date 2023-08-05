@@ -1,0 +1,22 @@
+[project]
+name = "python-apachetika"
+version = "2.6.0"
+authors = [
+  { name="Aaron Galiano", email="aaron.galiano@ua.es" },
+]
+description = "Python interface to Apache Tika, text extraction from PDF pages"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: Apache Software License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 2.7',
+    'Natural Language :: English',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bitextor/python-apachetika"
+"Bug Tracker" = "https://github.com/bitextor/python-apachetika/issues"
