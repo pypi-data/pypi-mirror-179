@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyfinance-tunisia
+Version: 0.0.3
+Summary: A python library that can help developer to see much informations about tunisian companies in stock market
+Author: Anis SAADAOUI
+License: UNKNOWN
+Keywords: financial ratios,BVMT,Ilboursa,Finance,Tunisia
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+
