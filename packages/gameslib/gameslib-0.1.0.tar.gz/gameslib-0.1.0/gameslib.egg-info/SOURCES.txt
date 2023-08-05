@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+gameslib/__init__.py
+gameslib/console.py
+gameslib/datatypes.py
+gameslib/filesystem.py
+gameslib/numbers.py
+gameslib/spinners.py
+gameslib/visuals.py
+gameslib.egg-info/PKG-INFO
+gameslib.egg-info/SOURCES.txt
+gameslib.egg-info/dependency_links.txt
+gameslib.egg-info/requires.txt
+gameslib.egg-info/top_level.txt

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: gameslib
+Version: 0.1.0
+Summary: Everything you need to have for a basic Console-only Game in Python.
+Home-page: 
+Author: TRC Loop
+Author-email: aro.yt.mail@gmail.com
+License: MIT
+Keywords: game,console,terminal
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+# GamesLib
+This Library for making Console Games.
+
+## What it includes
+- Datatypes
+- Filesystem-Builtins
+- Console Text Positioning
+- Spinner for loadingscreens
+- Float to String conversion
+
+
+## Installation
+Installation Command
+`pip install gameslib`
+or
+`python -m pip install gameslib`
+
+## Have fun making games (;
+
+# Changelog
+Newest Version Release: `None`
+Newest Version: `0.1.0`
+
+
+
+- 0.1.0 (11/30/2022) ALPHA PUBLIC RELEASE
+
+
