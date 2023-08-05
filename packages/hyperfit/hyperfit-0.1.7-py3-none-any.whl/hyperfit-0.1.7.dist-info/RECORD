@@ -1,0 +1,14 @@
+hyperfit/__init__.py,sha256=4K05tUtMHzsxbBNCSOeSxYGhfT6Cl2SxUkS3kx6c8nI,260
+hyperfit/data.py,sha256=pnxRmWzj7BypQXVXb43V41E501MvZ6CnzWyfpyUYnRM,12420
+hyperfit/linfit.py,sha256=cbUouUFL8cbIzSEDgKq5-SoGUCh4aQPWkALJbq5Y1q4,25788
+hyperfit/data/Example.txt,sha256=AleO2pyX32nfzf-MHrR3fVeEr3nW5oQP4Ojqc0B1JCo,4238
+hyperfit/data/FP6dFGS.txt,sha256=hV_Y83HRnH-nOWO-xMVsT9V6kbDWnMU5DKfW7W7tXSU,695514
+hyperfit/data/GAMAsmVsize.txt,sha256=hDNh3BIYGzEkTOd8avusomd-vpJUIzUbth19DOk-25g,204862
+hyperfit/data/Hogg.txt,sha256=l2E0xsc1hKx3SgXuVQAv5qvVPA6mhdZDUMMA1kRW4PA,396
+hyperfit/data/MJB.txt,sha256=WrewEVb9k8QLFJam0y4ToG9eFNLg7cIec_G4gYilVwI,1221
+hyperfit/data/TFR.txt,sha256=wJwQd0NV9DHQ8RaJQsE0rYm0-Q7IssdNOfbc-z2AgDU,1989
+hyperfit-0.1.7.dist-info/LICENSE.txt,sha256=8gOCyTMnsm-7OjVrA6Ec7DfCtU8xBKcV3ZpSANznqfU,1061
+hyperfit-0.1.7.dist-info/METADATA,sha256=KtZPgyw064p7zNGt1AELg8cJNui9yd19cFOgJXIwozw,1470
+hyperfit-0.1.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+hyperfit-0.1.7.dist-info/top_level.txt,sha256=crw0Xvx2N3RIx3hbzVkK4yj5yofvdI6oLMKgCVUl8cY,9
+hyperfit-0.1.7.dist-info/RECORD,,
