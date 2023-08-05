@@ -1,0 +1,7 @@
+orjson
+aiofiles
+aioconsole
+jsonschema
+
+[performance]
+jsonschema-rs
