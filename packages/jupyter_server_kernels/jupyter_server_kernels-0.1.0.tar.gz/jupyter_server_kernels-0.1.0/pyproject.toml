@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling>=1.5"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter_server_kernels"
+readme = "README.md"
+dynamic = ["version"]
+license = { file = "LICENSE" }
+description = "A Jupyter Server Extension Providing Kernels."
+keywords = ["ipython", "jupyter"]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Intended Audience :: System Administrators",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+  "jupyter_client>=7.4.4",
+  "jupyter_core>=4.12,!=~5.0",
+  "jupyter_server>=2.0.0rc8",
+  "tornado>=6.2.0",
+  "traitlets>=5.3.0",
+]
+
+[[project.authors]]
+name = "Jupyter Development Team"
+email = "jupyter@googlegroups.com"
+
+[project.urls]
+Homepage = "https://jupyter.org"
+
+[tool.hatch.version]
+path = "jupyter_server_kernels/__init__.py"
+
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyter-config" = "etc/jupyter/jupyter_server_config.d"
