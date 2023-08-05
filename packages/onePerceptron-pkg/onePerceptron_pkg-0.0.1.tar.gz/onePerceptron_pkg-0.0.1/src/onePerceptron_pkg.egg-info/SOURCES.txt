@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/onePerceptron/__init__.py
+src/onePerceptron/perceptron.py
+src/onePerceptron_pkg.egg-info/PKG-INFO
+src/onePerceptron_pkg.egg-info/SOURCES.txt
+src/onePerceptron_pkg.egg-info/dependency_links.txt
+src/onePerceptron_pkg.egg-info/requires.txt
+src/onePerceptron_pkg.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: onePerceptron_pkg
+Version: 0.0.1
+Summary: A small package for perceptron
+Home-page: https://github.com/iambalakrishnan/onePerceptron_pkg
+Author: iambalakrishnan
+Author-email: imbkrishnaa@gmail.com
+Project-URL: Bug Tracker, https://github.com/iambalakrishnan/onePerceptron_pkg/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+$ onePerceptron python package
+
+## Reference - 
+
+* [Official python docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
