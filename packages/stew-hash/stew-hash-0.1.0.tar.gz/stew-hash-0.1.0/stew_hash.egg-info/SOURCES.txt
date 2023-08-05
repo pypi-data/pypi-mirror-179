@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+stew_hash/__init__.py
+stew_hash/main.py
+stew_hash.egg-info/PKG-INFO
+stew_hash.egg-info/SOURCES.txt
+stew_hash.egg-info/dependency_links.txt
+stew_hash.egg-info/top_level.txt
