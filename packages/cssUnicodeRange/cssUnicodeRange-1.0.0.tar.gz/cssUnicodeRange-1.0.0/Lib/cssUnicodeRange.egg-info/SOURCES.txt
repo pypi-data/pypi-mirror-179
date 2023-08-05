@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Lib/cssUnicodeRange/__init__.py
+Lib/cssUnicodeRange/cmdline.py
+Lib/cssUnicodeRange.egg-info/PKG-INFO
+Lib/cssUnicodeRange.egg-info/SOURCES.txt
+Lib/cssUnicodeRange.egg-info/dependency_links.txt
+Lib/cssUnicodeRange.egg-info/entry_points.txt
+Lib/cssUnicodeRange.egg-info/requires.txt
+Lib/cssUnicodeRange.egg-info/top_level.txt
+Lib/cssUnicodeRange.egg-info/zip-safe

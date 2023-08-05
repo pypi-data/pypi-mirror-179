@@ -1,0 +1,2 @@
+[console_scripts]
+css-unicode-range = cssUnicodeRange.cmdline:css_unicode_range
