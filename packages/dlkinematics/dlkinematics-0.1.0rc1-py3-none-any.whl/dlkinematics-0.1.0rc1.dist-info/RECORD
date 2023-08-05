@@ -1,0 +1,16 @@
+dlkinematics/__init__.py,sha256=nf6RsjEAU1379rgSDJJlYt3LfX4IiUo04cLru-svqoM,51
+dlkinematics/dlkinematics.py,sha256=rPN5W9vpBOWExSXIlx2qQCgRYqMAeKNmokCnkVc_d7E,5110
+dlkinematics/solver.py,sha256=ruUJ7BliaPDcccsONKHrU6QZqVK5jMMryL09iq-JHAI,1230
+dlkinematics/tf_transformations.py,sha256=F9pM1fSPch9ms0l1RinWQrzXDn6NoEBMEuqw4vtIfso,1276
+dlkinematics/training_utils.py,sha256=FATT1REtPlM3isADa6xgLMDtld6YD9cUywv5s8hZZqQ,8766
+dlkinematics/urdf.py,sha256=agtjMcuPYPmPAt26HHowvOe9H3T7Kc3s9x_4S8E8yig,1160
+dlkinematics/urdf_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dlkinematics/urdf_parser/sdf.py,sha256=3vHoqDd7KmCIGs4UGBx4AA1deUui4VoG0Gi4-_LJEs8,3532
+dlkinematics/urdf_parser/urdf.py,sha256=xY1IdExXbnEgCQ5Fsjna2igy-g8fW966_vE_qHRV5ec,15489
+dlkinematics/urdf_parser/xml_reflection/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+dlkinematics/urdf_parser/xml_reflection/basics.py,sha256=uHlBBTpU47SlTwO4ud7_Rkb9u3ceLKh8cFE2X66QI1k,2350
+dlkinematics/urdf_parser/xml_reflection/core.py,sha256=bx80ouQEnN8_z02Mi8t_24zdadwkIK8WnG9hQGatq6o,22261
+dlkinematics-0.1.0rc1.dist-info/LICENSE,sha256=6Ug2juzIsfPWAB-wbXVMxxsm1aBILAeoFPDtQrJsIcY,1522
+dlkinematics-0.1.0rc1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+dlkinematics-0.1.0rc1.dist-info/METADATA,sha256=u0_TLj-0HzCZ02hQSNIifimtVI3NC7EjZL5aMkEg3vI,2686
+dlkinematics-0.1.0rc1.dist-info/RECORD,,
