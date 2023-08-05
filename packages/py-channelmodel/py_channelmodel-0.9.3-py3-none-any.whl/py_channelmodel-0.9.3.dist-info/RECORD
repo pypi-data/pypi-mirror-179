@@ -1,0 +1,15 @@
+channelmodel/__init__.py,sha256=MymqlIb7y_ekGBdtYlG1vg3ktndTT-w3K5z074dv34k,167
+channelmodel/awgn.py,sha256=ZkC_r9vR--6HgZ7BIkta4FchseCI2sp3hjMg43l80zE,2446
+channelmodel/channel.py,sha256=Yxrme6zqqFe_K9xzEqowl8QtUt0LPSrxg2wWJUsF9oY,8912
+channelmodel/coherence.py,sha256=dV3qQtm1G1PrBjLqkHz6CxiGf4NgEda310kbduqczRo,2517
+channelmodel/frequencydomainchannel.py,sha256=0RSLWEASZY5B3FCC3UQOqg5ffgbe7A-i7ej4D7UoNpk,1820
+channelmodel/plot_coherence.py,sha256=4sICoW9fJ55gdJjEz2-zh-IWlsKLUZps2tTwYGj9pbk,1646
+channelmodel/plot_powerdelayprofile.py,sha256=jPGWwCZcB3AVqQpzzZyVQ7VFSEqwVDcyPfNiGojqZyU,1932
+channelmodel/powerdelayprofile.py,sha256=RyGDGXdi7WbOW5rxZhVXptR45xakLQWFBD3UobmrndI,3611
+channelmodel/timevariantchannel.py,sha256=CDD6l0NTgAokPatrGAymCKwO-rNLbhTxqpBm5n5bATw,2708
+py_channelmodel-0.9.3.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+py_channelmodel-0.9.3.dist-info/METADATA,sha256=O1l5wRhXJD3XzZIfNRpsJQMtjDEdBtStMsr9QDtYR38,3996
+py_channelmodel-0.9.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+py_channelmodel-0.9.3.dist-info/entry_points.txt,sha256=V3K9_LyxxoYc3kBbcvDbcH5r5X4Qyyl1x5sN4X28z0Q,60
+py_channelmodel-0.9.3.dist-info/top_level.txt,sha256=BeVwKIqZhfzKswlCz9xejexynAXRW9v0Q8Zq4oX31iI,13
+py_channelmodel-0.9.3.dist-info/RECORD,,
