@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/PyperText/__init__.py
+src/PyperText/html.py
+src/PyperText/htmlButton.py
+src/PyperText/htmlHeader.py
+src/PyperText/htmlWidget.py
+src/PyperText.egg-info/PKG-INFO
+src/PyperText.egg-info/SOURCES.txt
+src/PyperText.egg-info/dependency_links.txt
+src/PyperText.egg-info/top_level.txt
