@@ -1,0 +1,6 @@
+src/private_reg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/private_reg/container_registry.py,sha256=b0ftV26jjYWarcSZ8Mm5uGxN7ZFn_Xm083x31owUfoE,5593
+private_reg-0.1.0.dist-info/LICENSE.txt,sha256=IOzTDvUFR4dP_4VqcCR3iijXMuXyo5Rdw0H0WCXeBdo,34449
+private_reg-0.1.0.dist-info/METADATA,sha256=tpKqOPYPIBtbaQKTIkWbXK7NZkT2CJNKY2kwEsFrWJ4,752
+private_reg-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+private_reg-0.1.0.dist-info/RECORD,,
