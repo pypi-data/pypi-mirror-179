@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pitchtypes/__init__.py
+pitchtypes/basetypes.py
+pitchtypes/converters.py
+pitchtypes/enharmonic.py
+pitchtypes/harmonic.py
+pitchtypes/logfreq.py
+pitchtypes/spelled.py
+pitchtypes/spelled_array.py
+pitchtypes.egg-info/PKG-INFO
+pitchtypes.egg-info/SOURCES.txt
+pitchtypes.egg-info/dependency_links.txt
+pitchtypes.egg-info/requires.txt
+pitchtypes.egg-info/top_level.txt
