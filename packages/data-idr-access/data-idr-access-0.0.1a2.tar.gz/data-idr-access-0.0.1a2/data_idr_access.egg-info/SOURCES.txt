@@ -1,0 +1,15 @@
+README.md
+setup.py
+./data_idr_access/__init__.py
+./data_idr_access/accessor.py
+./data_idr_access/kafka_accessor.py
+./data_idr_access/pgsql_accessor.py
+./data_idr_access/redis_accessor.py
+./data_idr_access/singleton.py
+./tests/__init__.py
+./tests/test_accessor.py
+data_idr_access.egg-info/PKG-INFO
+data_idr_access.egg-info/SOURCES.txt
+data_idr_access.egg-info/dependency_links.txt
+data_idr_access.egg-info/not-zip-safe
+data_idr_access.egg-info/top_level.txt
