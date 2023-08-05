@@ -1,0 +1,11 @@
+# This section is the only one required for build.
+# Any others provided in docs are just an endorsement to use `pyproject.toml`
+# https://setuptools.pypa.io/en/latest/build_meta.html
+# https://pypa-build.readthedocs.io/en/latest/
+
+[build-system]
+requires = [
+    "setuptools>=40",
+    "darlog-pypi>=1.0.0",
+]
+build-backend = "setuptools.build_meta"
