@@ -1,0 +1,5 @@
+fs
+PySide6
+
+[:platform_system == "Windows"]
+pywin32
