@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/amount/__init__.py
+src/amount/calc.py
+src/amount/types.py
+src/math/__init__.py
+src/toilet3.egg-info/PKG-INFO
+src/toilet3.egg-info/SOURCES.txt
+src/toilet3.egg-info/dependency_links.txt
+src/toilet3.egg-info/top_level.txt
