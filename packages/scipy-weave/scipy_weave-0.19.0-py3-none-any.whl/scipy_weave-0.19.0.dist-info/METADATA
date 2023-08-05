@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: scipy-weave
+Version: 0.19.0
+Summary: scipy-weave: a C++ compiler for Python 2.
+Home-page: http://www.github.com/scipy/weave
+Maintainer: scipy-weave developers
+Maintainer-email: scipy-dev@scipy.org
+License: BSD
+Download-URL: https://pypi.python.org/pypi/weave
+Platform: Windows
+Platform: Linux
+Platform: Solaris
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.4,<3.10
+License-File: LICENSE.txt
+
+scipy-weave provides tools for including C/C++ code within Python code.
+Inlining C/C++ code within Python generally results in speedups of 1.5x to 30x
+over algorithms written in pure Python.
+
+``scipy-weave`` is the stand-alone version of the removed SciPy submodule
+``scipy.weave``.   It is Python 3.x only (see versions <0.19.0 for Python
+2.6-2.7 support), and is provided for users that need versions of SciPy from
+which the ``weave`` submodule has been removed but have existing code that
+still depends on ``scipy.weave``.  For new code, users are recommended to use
+Cython.
+
+To install ``scipy-weave``, use of pip is recommended:: 
+
+    pip install scipy-weave
+
+Note that the import name for ``scipy-weave`` is ``weave``. To run the tests::
+
+    python2 -c "import weave; weave.test('full')"
+
+
+
