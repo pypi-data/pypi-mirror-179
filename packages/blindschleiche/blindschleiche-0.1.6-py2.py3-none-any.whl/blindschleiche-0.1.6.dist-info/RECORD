@@ -1,0 +1,13 @@
+blsl/__init__.py,sha256=9dNMHXouYh6JJRx9lliDUznE6x_6Dek7aACrJaO3BkY,1365
+blsl/__main__.py,sha256=eI85U00AovX84M2AwDe-bqpCUwlGMO00X-Psh1Y_XYE,317
+blsl/falen.py,sha256=zU-VXt-iiqiU6kzPbXwZEj8cmCUNnVudf7K41V8DfRM,848
+blsl/genigvjs.py,sha256=tSG0ed-sX-nVUye1heQjvKKvT7VedDEaO4SV40_9DPA,3088
+blsl/liftoff_gff3.py,sha256=M5lilcPIjjvmT5UeLdq2iVpzHuzyNecNGwXcsayKlSI,3882
+blsl/mask2bed.py,sha256=nzp7q3Q0vZ1JUcA_cfig4fsqj79Hbvk5Yl7778gXDVs,1953
+blsl/n50.py,sha256=aiM1wsjgZ39egyO2f3bA0fiPqQm2wuegEA4BNH7sCYI,1170
+blsl/pansn_rename.py,sha256=pm0-GIVH4pMxemqMJVIleHBbbrdHh6l9linbENXreDA,4384
+blsl/telogrep.py,sha256=AxeAash3Y2ii1fRnLjuhdWvh4vzVkU9Ah4XPrrZ8BoA,3189
+blindschleiche-0.1.6.dist-info/entry_points.txt,sha256=pfv7dytBZc8LiclZjcN-XXAuX-j4jkdccYZpJ_U30Ok,34
+blindschleiche-0.1.6.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+blindschleiche-0.1.6.dist-info/METADATA,sha256=biWnBNpA52Xfj20rrav2C1dzak19Teg6S5NGG6EJK7o,193
+blindschleiche-0.1.6.dist-info/RECORD,,
