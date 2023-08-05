@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ponponon
+Version: 0.0.1
+Summary: An advanced message queue framework, derived from nameko
+Home-page: https://github.com/ponponon/pon
+Author: ponponon
+Author-email: 1729303158@qq.com
+Maintainer: ponponon
+Maintainer-email: 1729303158@qq.com
+License: MIT License
+Platform: all
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
