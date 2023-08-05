@@ -1,0 +1,11 @@
+pip
+sh
+click
+tomlkit
+packaging
+
+[dev]
+black
+isort
+pytest
+pytest-depends
