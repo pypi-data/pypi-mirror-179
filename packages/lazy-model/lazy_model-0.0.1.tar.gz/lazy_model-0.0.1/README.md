@@ -1,0 +1,1 @@
+Lazy parsing for Pydantic models
