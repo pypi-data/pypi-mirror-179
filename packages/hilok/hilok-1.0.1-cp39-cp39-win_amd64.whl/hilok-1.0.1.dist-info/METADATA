@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hilok
+Version: 1.0.1
+Summary: Fast hierarchical locks
+Author: Erik aronesty
+Author-email: erik@atakama.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+= Hierarchical locks
+
+```
+from hilok import HiLok
+
+h = HiLok()
+
+rd = h.read("/some/path")
+
+# nonblocking, this will fail!
+try:
+    wr = h.write("/some", block=False)
+except TimeoutError:
+    pass
+
+rd.release()
+
+wr = h.write("/some")
+
+# timeout=0 is the the same as block=False
+rd = h.read("/some/path", block=False)
+```
