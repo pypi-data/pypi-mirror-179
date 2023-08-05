@@ -1,0 +1,17 @@
+jp_prefecture/__init__.py,sha256=xXUtU7fS61eWRw3gv5ed5WkqLv2A4tMZDRJUvLKdAKo,42
+jp_prefecture/address.py,sha256=-0-IGLrAtOKgH-7kffHojRQ8JMZp1uB2X2hnbVFxKKc,5953
+jp_prefecture/checkdigit.py,sha256=eIPKRQEVXPT32hFoBUn7Yto2ugVSKqjMDVMizEh6lok,3461
+jp_prefecture/immutable_dict.py,sha256=1jziwAlstf2Z1Gtekqw4dXvRKnXe8EuPk6uQu-M9RH0,768
+jp_prefecture/jp_cities.py,sha256=-8BRc0OyuSSfojdhKpE5hEE4TsFV4rNIQBlrmE0EXMQ,23630
+jp_prefecture/jp_numbers.py,sha256=NFzexLCzUSc89cJ_Q5Oq-FhgC9mEcs6NxXaSOkTK41c,21272
+jp_prefecture/jp_prefecture.py,sha256=zNvv-nN8B0E9Cc6QLgfyuGhFdwWbj2gcxU6bYyCS2KI,11477
+jp_prefecture/singledispatchmethod.py,sha256=OYIP8Jy2hNgHsNRBqS0wcgr2H3SgttnTg8p94Ajl_MQ,463
+jp_prefecture/utils.py,sha256=jaw-z0dYT8j-gZR3jNB4GYYTm3QTkFI4K1qAsOTBfWs,1320
+jp_prefecture/versions.py,sha256=TD-ZruVVYiGdQME7Qk4PcfN0GHsm-uyaePRw5sfoqpk,76
+jp_prefecture/data/cities.csv,sha256=HtleiISqmVnZh2-vnqM_djT9XgOvd6b_8ym2vBZds6U,135797
+jp_prefecture/data/towns.csv,sha256=eKAd1QzYpGomQ9Dz3nB5Jj4qadQdxzivmaaZGTVp4eU,12434452
+jp_prefecture-0.7.9.1.dist-info/LICENSE,sha256=56Se6nY3_l30xFuZDFX1THfaataxgy3S5_JnHK0d-_E,1079
+jp_prefecture-0.7.9.1.dist-info/METADATA,sha256=XhA0v0CaZU-JLdNbdDHTzLWz3lfJWEHyzioV7onZ-Rs,58025
+jp_prefecture-0.7.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jp_prefecture-0.7.9.1.dist-info/top_level.txt,sha256=fdV9u0229-PoGrn6lzTnIiQTwUC1OUpKYL82DHibt_k,14
+jp_prefecture-0.7.9.1.dist-info/RECORD,,
