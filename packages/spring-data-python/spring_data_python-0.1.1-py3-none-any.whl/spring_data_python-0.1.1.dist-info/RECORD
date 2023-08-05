@@ -1,0 +1,12 @@
+springdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springdata/async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+springdata/async/repository.py,sha256=RgGNF9vB9vHo91Oj7eFlN1gcVdMAb50FglJM2vxjCow,5408
+springdata/domain/__init__.py,sha256=oE-GoANZpptD1OH5tEJZV91ZeDYlxjQAhCvefTQU_wo,171
+springdata/domain/page.py,sha256=urRMLGk-JQmnmvjan_eoY2jAwhFOnqVjDNTDLqfAg4A,4420
+springdata/domain/pageable.py,sha256=fVWFV14Z976MffSB8WizphvrNx8-guzE3Y7hAbke7u0,5616
+springdata/domain/sort.py,sha256=M_o_agZ7icSUWR5WzQ7jM3-JAx28zzyZqr_MDUW1_cg,6794
+springdata/repository.py,sha256=XJUKYg-miA1HS6XzIEwcm3GaCjIq3SvH_OJCUQGNb0A,5330
+spring_data_python-0.1.1.dist-info/LICENSE,sha256=8qm5b6--J2FS-Fz9VmOxvK_lnRmVeyHojHgojQJYOYE,1092
+spring_data_python-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+spring_data_python-0.1.1.dist-info/METADATA,sha256=r1-YHUSqWSAbkYpuJN6UVbC2nhjjrGcuoM_SPqE9oBA,797
+spring_data_python-0.1.1.dist-info/RECORD,,
