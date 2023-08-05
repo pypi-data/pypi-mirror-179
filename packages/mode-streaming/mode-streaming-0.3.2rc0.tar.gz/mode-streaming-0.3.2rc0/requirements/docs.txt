@@ -1,0 +1,7 @@
+-r default.txt
+six
+sphinx
+sphinx_celery>=1.4.8
+sphinx-autodoc-annotation
+alabaster
+babel
