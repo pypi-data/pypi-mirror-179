@@ -1,0 +1,17 @@
+README.md
+setup.py
+pyperf/__init__.py
+pyperf/apply.py
+pyperf/base.py
+pyperf/main.py
+pyperf/tests/__init__.py
+pyperf/tests/classes/__init__.py
+pyperf/tests/classes/classes_slots.py
+pyperf/tests/dicts/__init__.py
+pyperf/tests/dicts/dicts.py
+pyperf/tests/lists/__init__.py
+pyperf/tests/lists/lists.py
+pyperf_test.egg-info/PKG-INFO
+pyperf_test.egg-info/SOURCES.txt
+pyperf_test.egg-info/dependency_links.txt
+pyperf_test.egg-info/top_level.txt
