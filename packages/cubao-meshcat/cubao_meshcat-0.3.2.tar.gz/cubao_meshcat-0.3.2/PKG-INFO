@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cubao_meshcat
+Version: 0.3.2
+Summary: WebGL-based visualizer for 3D geometries and scenes
+Home-page: https://github.com/cubao/meshcat-python
+Author: tzx
+Author-email: dvorak4tzx@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,3 @@
+[console_scripts]
+cubao-meshcat-server = cubao_meshcat.servers.zmqserver:main
+
