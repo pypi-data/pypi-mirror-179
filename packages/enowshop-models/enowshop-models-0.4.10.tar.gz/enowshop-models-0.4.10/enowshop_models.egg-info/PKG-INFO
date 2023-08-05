@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: enowshop-models
+Version: 0.4.10
+Summary: e-nowshop-models
+Home-page: https://github.com/GustavoSwDaniel/e-nowshop-models
+Author: GustavoSwDaniel
+Author-email: <gustavodanieldetoledo@gmail.com.com>
+License: MIT
+Keywords: python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
