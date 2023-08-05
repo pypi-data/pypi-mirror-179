@@ -1,0 +1,9 @@
+LICENSE.txt.txt
+README.md
+setup.py
+src/Diagnostictable.py
+src/Diagnostictable.egg-info/PKG-INFO
+src/Diagnostictable.egg-info/SOURCES.txt
+src/Diagnostictable.egg-info/dependency_links.txt
+src/Diagnostictable.egg-info/requires.txt
+src/Diagnostictable.egg-info/top_level.txt
