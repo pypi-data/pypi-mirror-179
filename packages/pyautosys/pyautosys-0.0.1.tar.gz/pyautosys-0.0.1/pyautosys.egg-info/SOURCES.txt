@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+pyautosys/__init__.py
+pyautosys.egg-info/PKG-INFO
+pyautosys.egg-info/SOURCES.txt
+pyautosys.egg-info/dependency_links.txt
+pyautosys.egg-info/requires.txt
+pyautosys.egg-info/top_level.txt
