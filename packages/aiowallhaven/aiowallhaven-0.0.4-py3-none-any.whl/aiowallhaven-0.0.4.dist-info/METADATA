@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: aiowallhaven
+Version: 0.0.4
+Summary: Async wrapper for Wallhaven's API
+Home-page: https://github.com/itsuchur/aiowallhaven
+Download-URL: https://github.com/itsuchur/aiowallhaven/archive/refs/tags/0.0.3.tar.gz
+Author: Dmitrii Efimov
+Author-email: efimov.1992@outlook.com
+License: MIT
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# aiowallhaven
+
+aiowallhaven is an asynchronous API wrapper for popular
+wallpaper hosting site wallhaven.cc.
+
+## Basic Usage:
+
+```
+import asyncio
+from aiowallhaven import WallHavenAPI
+
+wallhaven = WallHavenAPI("Your-API-key")
+
+async def wallpaper_details():
+    request = await wallhaven.get_wallpaper("5758y8")
+    print(request)
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(wallpaper_details())
+```
+
+## Prerequisites
+The following dependencies are required:
+
+- Python 3.10
+- aiohttp library
+- aiolimiter library
+
+## Installation
+
+```
+$ pip install aiowallhaven
+```
+
+## Documentation
+
+The documentation is available at [readthedocs.io](https://aiowallhaven.readthedocs.io/en/latest/).
+
+## License
+
+aiowallhaven is developed and distributed under the MIT
+license.
