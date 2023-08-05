@@ -1,0 +1,14 @@
+paho-mqtt
+psutil
+notify2
+PyYAML
+importlib_metadata
+
+[linux]
+dbus-python
+
+[macos]
+PyObjC
+
+[win]
+win10toast
