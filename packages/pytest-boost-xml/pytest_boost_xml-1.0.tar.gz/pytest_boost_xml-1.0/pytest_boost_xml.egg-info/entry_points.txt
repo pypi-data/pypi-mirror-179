@@ -1,0 +1,2 @@
+[pytest11]
+boost-xml = pytest_boost_xml.plugin_register
