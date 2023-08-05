@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+jkinpylib.egg-info/PKG-INFO
+jkinpylib.egg-info/SOURCES.txt
+jkinpylib.egg-info/dependency_links.txt
+jkinpylib.egg-info/requires.txt
+jkinpylib.egg-info/top_level.txt
