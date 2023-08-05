@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: clamg
+Version: 0.2
+Summary: A module to convert YAML or JSON to object models
+Home-page: https://github.com/srak289/clamg.git
+Author-email: spencer.rak@gmail.com
+License: MIT
+Requires: yaml
+License-File: LICENSE
+
+Convert a YAML or JSON structure to an object model. This is useful for working with deeply nested structures.
