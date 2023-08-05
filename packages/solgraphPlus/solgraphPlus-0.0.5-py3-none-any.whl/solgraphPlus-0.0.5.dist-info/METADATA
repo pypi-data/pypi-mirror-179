@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: solgraphPlus
+Version: 0.0.5
+Summary: An upgraded version of Solgraph:Display function information in the contract
+Home-page: https://github.com/VelitasDao/Solgraph-Plus
+Author: t0hka
+Author-email: s4ndalph0n.t0hka@gmail.com
+Keywords: solidity,dot,graph
+License-File: LICENSE
+Requires-Dist: jsonpath (==0.82)
+Requires-Dist: graphviz (==0.20.1)
+Requires-Dist: solidityParserPlus (==0.0.4)
+
