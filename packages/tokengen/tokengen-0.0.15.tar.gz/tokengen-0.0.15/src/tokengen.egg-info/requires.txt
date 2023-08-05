@@ -1,0 +1,13 @@
+azure-common==1.1.28
+azure-core==1.26.1
+azure-identity==1.12.0
+azure-keyvault-secrets==4.6.0
+docker==6.0.1
+docutils==0.19
+more-itertools==9.0.0
+packaging==21.3
+pkginfo==1.9.2
+pyparsing==3.0.9
+readme-renderer==37.3
+SecretStorage==3.3.3
+twine==4.0.1
