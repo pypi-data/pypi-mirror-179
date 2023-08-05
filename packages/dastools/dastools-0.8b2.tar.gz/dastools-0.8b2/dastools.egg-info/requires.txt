@@ -1,0 +1,5 @@
+obspy
+numpy
+cherrypy
+tqdm
+h5py
