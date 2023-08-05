@@ -1,0 +1,8 @@
+qattools/__init__.py,sha256=m9RkXRHeWXEkuOBHt0uXtpGlYK6VsDJ-FlWy0Q9zXSc,129
+qattools/describe.py,sha256=9ihqQHDWI7HnquZXQqrFrG91Os7QBgfAUpb0YhjswQs,27
+qattools/imex.py,sha256=oBPVGlgvce7cKWqbmjiwgx4DXgJUpy7hx007GRPcSOA,51
+qattools/to.py,sha256=zclPeK0aV6JOE7Q_XBwR0GpXTNEfA6-yrg0yOHEJVzw,134
+qattools/what.py,sha256=L2m9cPgSwklDtDQBqNhjOKEXlP0Yg0C5badWkDXMYrw,3174
+qattools-0.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+qattools-0.5.0.dist-info/METADATA,sha256=yWCTIxwnmGIVWVqCMbwjrkCQLySR_lx4XRh0dUo6Zmc,562
+qattools-0.5.0.dist-info/RECORD,,
