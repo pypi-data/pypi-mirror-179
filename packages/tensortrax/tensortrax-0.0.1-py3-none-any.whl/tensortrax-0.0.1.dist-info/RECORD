@@ -1,0 +1,11 @@
+tensortrax/__init__.py,sha256=QFfJ2IXCCpt9oQDMKxoqUvRz4OvUT8U941kmgIvMp1s,867
+tensortrax/_helpers.py,sha256=50PtXjwSpXOExjd0E_3ji1jYNDmG216691QmfehrFqk,1044
+tensortrax/_tensor.py,sha256=VptE-msOmwvaowLtHnLKx-D2woJSYcXdNCf8XoNDiIM,6505
+tensortrax/math/__init__.py,sha256=q5MjNEvwxhTZaGW9NRrT-H8YKG1EQiFXXEj8DgbWK34,963
+tensortrax/math/_array.py,sha256=05ME0QOsNYLtSYuLcr8obAAhmT9nVZyoXORgBVm4GVI,2441
+tensortrax/math/_tensor.py,sha256=qJB1RiBt40r9QF_bLAy56oSN1yCz7Ua6rvjkYwmVaJg,5266
+tensortrax-0.0.1.dist-info/LICENSE,sha256=prjaSibx57r8FiM2zsGzvtWZz6KTUkWjMC8S2JoBaL8,35144
+tensortrax-0.0.1.dist-info/METADATA,sha256=1gaaDbpzdU93JWE7wLgKL4a4IZrXhuShcSFtjdW2dZw,44771
+tensortrax-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tensortrax-0.0.1.dist-info/top_level.txt,sha256=-7WjVYu9JW0i11ttOl6Cyb9F0Ydogqv6X9xn2cjUjzo,11
+tensortrax-0.0.1.dist-info/RECORD,,
