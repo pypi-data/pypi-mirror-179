@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: viggolocal
+Version: 1.0.0
+Summary: ViggoLocal backend Flask REST service
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: AUTHORS
+Requires-Dist: viggocore (<2.0.0,>=1.0.0)
+Requires-Dist: flask-cors
+
+UNKNOWN
+
