@@ -1,0 +1,3 @@
+[console_scripts]
+filez-python-sdk=filez_python_sdk.cli:main
+
