@@ -1,0 +1,13 @@
+students2courses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+students2courses/course_capacities.csv,sha256=BasdRe7Gq-xJQ7Pe1GGInnk0xfo6AfC7iDipcJ-BLPc,32
+students2courses/examples.py,sha256=FrIHXNCN-HaQmqjE5gOyt7F62-LSRmcgI_OUq0ycioA,2017
+students2courses/solver.py,sha256=0V22TKGmIFVcYnwbbRTYXlmbvBweemGcqj9GCPjKV6s,7843
+students2courses/student_votes.csv,sha256=EXGiN7vV29qjSdOMWj-1kG8h6Vy_UcDRB8BKiYr_aYA,145
+students2courses/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+students2courses/tests/course_capacities.csv,sha256=BasdRe7Gq-xJQ7Pe1GGInnk0xfo6AfC7iDipcJ-BLPc,32
+students2courses/tests/student_votes.csv,sha256=EXGiN7vV29qjSdOMWj-1kG8h6Vy_UcDRB8BKiYr_aYA,145
+students2courses/tests/test_solver.py,sha256=G1xrhEEb7mwHn2t4Me4HtOk3P58YlRuQej-AJlc681Q,2638
+students2courses-1.0.0.dist-info/METADATA,sha256=yky0DWiembiqRH1Og1FHzFT1WW13uscd7XSYcG8wDUE,15532
+students2courses-1.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+students2courses-1.0.0.dist-info/licenses/LICENSE,sha256=kKjzsyWRHDzIFljgh6lB6kXKnHSXkdMMlLmsFAQvfG8,1053
+students2courses-1.0.0.dist-info/RECORD,,
