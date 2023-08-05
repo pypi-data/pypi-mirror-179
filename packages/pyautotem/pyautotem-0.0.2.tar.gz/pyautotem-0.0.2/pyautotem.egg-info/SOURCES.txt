@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+pyautotem/__init__.py
+pyautotem.egg-info/PKG-INFO
+pyautotem.egg-info/SOURCES.txt
+pyautotem.egg-info/dependency_links.txt
+pyautotem.egg-info/top_level.txt
