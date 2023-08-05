@@ -1,0 +1,13 @@
+viggoparceiro/__init__.py,sha256=mEMTgd75EdZh-Gm1DK4fTdl-S9Y0zVPEWB9dAcEZssc,1756
+viggoparceiro/resources.py,sha256=lqYWS9OzHxKfs3NvyLiHyaPtqNpFcn9yy9e0_kivCUg,165
+viggoparceiro/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggoparceiro/subsystem/parceiro/__init__.py,sha256=yfKLFmowGne_AHBBzFOKM10H2Q0n6zJZB8cPAGmvQls,154
+viggoparceiro/subsystem/parceiro/resource.py,sha256=f5mL7rGhy82YjJbTTOzx28h1oytE9y7WXpAlxmPjeOE,3832
+viggoparceiro/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggoparceiro/tests/functional/__init__.py,sha256=zoRDYMPYa-11-VkM5OVOIR3im_sywFGPKbMJlUyFHJg,337
+viggoparceiro/tests/functional/fixtures.py,sha256=MUhfdPrzzF-vnKLDxBDLlz7lVi-zpQKkpQwAD2V8jxA,3376
+viggoparceiro-1.0.0.dist-info/AUTHORS,sha256=eA0sItoxH1fco3B6_AM96bzJBsjPXxbz-m6sQBZ49Uc,53
+viggoparceiro-1.0.0.dist-info/METADATA,sha256=ew39-MBZGVLhPZHo7SdqMzmY0fRw9yZEirYfzIBUfHk,297
+viggoparceiro-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+viggoparceiro-1.0.0.dist-info/top_level.txt,sha256=p4sANgOBUEXKcKonzC3qPLwB0Ac5ntC4mg6YwYZnPsE,14
+viggoparceiro-1.0.0.dist-info/RECORD,,
