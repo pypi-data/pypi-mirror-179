@@ -1,0 +1,12 @@
+LICENSE
+NOTICE
+README.md
+setup.cfg
+setup.py
+gen/pb_python/flyteidl.egg-info/PKG-INFO
+gen/pb_python/flyteidl.egg-info/SOURCES.txt
+gen/pb_python/flyteidl.egg-info/dependency_links.txt
+gen/pb_python/flyteidl.egg-info/requires.txt
+gen/pb_python/flyteidl.egg-info/top_level.txt
+gen/pb_python/validate/__init__.py
+gen/pb_python/validate/validate_pb2.py
