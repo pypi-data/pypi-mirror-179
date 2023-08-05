@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: openCFR
+Version: 1.0.0
+Summary: A Python implementation of Counterfactual Regret Minimization (CFR).
+Home-page: https://github.com/stockhamrexa/OpenCFR
+Author: Rex Stockham
+Author-email: rexstockham13@gmail.com
+License: MIT
+Keywords: CFR,CFR+,CFR plus,chance sampling,Counterfactual Regret Minimization,game tree,heads-up no-limit,imperfect information,Kuhn,MCCFR,Monte Carlo Counterfactual Regret Minimization,Nash equilibrium,outcome sampling,poker,Python,regret based pruning,rock-paper-scissors,Texas Hold-Em,zero sum
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: tqdm (>=4.57.0)
+
+A Python library for building the game trees of zero-sum imperfect information games and solving for their Nash equilibrium using Counterfactual Regret Minimization (CFR).
