@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mmseg-ext
+Version: 0.0.1
+Summary: Extended function for mmsegmentation
+Home-page: http://github.com/haruishi43/mmseg_ext
+Author: Haruya Ishikawa
+Author-email: 
+License: GNU General Public License 3.0
+Keywords: computer vision,semantic segmentation,edge detection
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MMSeg Extension
+
+Extended function for mmsegmentation
+
+
+## License
