@@ -1,0 +1,16 @@
+limax/__init__.py,sha256=upcBaiRG9ai3ixcqhNBCU2ifquC-LahbTJKQeSV5MAg,406
+limax/commands.py,sha256=wFeOCU3cxqs4GevTLbBb6_Hg-kcK1FSXCgbs9wazUgA,3840
+limax/example.py,sha256=SkR_KG5DScWfvPQkzzzs5TedckkkzO70ZRziqMdCWZs,501
+limax/io.py,sha256=HF2f40AfZ6i-y9OJM-JrTWRfGhLkH9z2F-jiGK5v1TI,2142
+limax/resources/processed/patient1,sha256=jql6YxHXCxYPkV9ewtXNMKDqpkjDjxURkktqCi-Sm-8,992
+limax/resources/processed/patient1.csv,sha256=jql6YxHXCxYPkV9ewtXNMKDqpkjDjxURkktqCi-Sm-8,992
+limax/resources/processed/patient2.csv,sha256=jql6YxHXCxYPkV9ewtXNMKDqpkjDjxURkktqCi-Sm-8,992
+limax/resources/raw/patient1.csv,sha256=-Wi6pmJng81GJdQpknqg_d0Dkn6RZoeDuyf72Lz0Qdo,1125
+limax/resources/raw/patient2.csv,sha256=-Wi6pmJng81GJdQpknqg_d0Dkn6RZoeDuyf72Lz0Qdo,1125
+limax-0.1.4.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+limax-0.1.4.dist-info/METADATA,sha256=vNG8pmLrXSXwhyDXJPUxkdo_vbKBKVli6ErpWWVdfA4,9132
+limax-0.1.4.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+limax-0.1.4.dist-info/entry_points.txt,sha256=8C3LOsPOFwmxwU6sKD5e_4Q1uXz7iQrKr31LFnxFlZU,46
+limax-0.1.4.dist-info/top_level.txt,sha256=m4V0O6gk7wcCzAFhhGAiU5RfbGJAyS4iGWou-cKjpIg,6
+limax-0.1.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+limax-0.1.4.dist-info/RECORD,,
