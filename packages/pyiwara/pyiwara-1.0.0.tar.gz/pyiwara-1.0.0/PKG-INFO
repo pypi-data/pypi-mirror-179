@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyiwara
+Version: 1.0.0
+Summary: iwaraの情報を取得、ダウンロードができます。
+Home-page: https://github.com/kazutora1006/pyiwara
+Download-URL: https://github.com/kazutora1006/pyiwara
+Author: kazutora
+Author-email: kazutora1006@gmail.com
+Maintainer: kazutora
+Maintainer-email: kazutora1006@gmail.com
+License: MIT License
+Requires-Python: >=3.6
+
+pyiwara
+##########
+`詳細 <https://github.com/kazutora1006/pyiwara>`_

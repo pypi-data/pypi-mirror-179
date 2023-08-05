@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyiwara/__init__.py
+pyiwara/modules.py
+pyiwara.egg-info/PKG-INFO
+pyiwara.egg-info/SOURCES.txt
+pyiwara.egg-info/dependency_links.txt
+pyiwara.egg-info/requires.txt
+pyiwara.egg-info/top_level.txt
