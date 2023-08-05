@@ -1,0 +1,16 @@
+python-dateutil
+
+[docs]
+dunamai
+m2r2
+sphinx
+sphinx-rtd-theme
+
+[spatial]
+pyproj
+shapely
+
+[test]
+pytest
+pytest-cov
+pytest-xdist
