@@ -1,0 +1,5 @@
+flask-http-middleware
+flask>=2.0.0
+pydantic
+python-jose
+werkzeug>=2.0.0
