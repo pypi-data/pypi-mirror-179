@@ -1,0 +1,3 @@
+[console_scripts]
+linkedin-dl = linkedin.download:main
+
