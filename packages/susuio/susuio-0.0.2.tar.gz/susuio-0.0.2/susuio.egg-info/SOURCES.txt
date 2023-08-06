@@ -1,0 +1,8 @@
+README.md
+setup.py
+susuio/__init__.py
+susuio.egg-info/PKG-INFO
+susuio.egg-info/SOURCES.txt
+susuio.egg-info/dependency_links.txt
+susuio.egg-info/requires.txt
+susuio.egg-info/top_level.txt
