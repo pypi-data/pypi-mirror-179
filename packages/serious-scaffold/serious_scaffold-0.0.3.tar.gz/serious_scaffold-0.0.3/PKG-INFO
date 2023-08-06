@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: serious_scaffold
+Version: 0.0.3
+Summary: A serious python project template for out-of-box and production usage.
+Author: Serious Scaffold
+Author-email: huxuan <i@huxuan.org>
+Project-URL: homepage, https://github.com/huxuan/serious-scaffold-python/
+Project-URL: issue, https://github.com/huxuan/serious-scaffold-python/issues
+Keywords: out-of-box,production,project template,template
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: package
+Provides-Extra: test
+License-File: LICENSE
+
+# serious-scaffold-python
+
+A serious python project template for out-of-box and production usage.
+
+![Lint & Test Status](https://github.com/huxuan/serious-scaffold-python/actions/workflows/lint-test.yml/badge.svg?branch=main)
+![Codecov](https://img.shields.io/codecov/c/github/huxuan/serious-scaffold-python)
+![Read the Docs](https://img.shields.io/readthedocs/serious-scaffold-python)
+![PyPI](https://img.shields.io/pypi/v/serious-scaffold)
+![PyPI - License](https://img.shields.io/pypi/l/serious-scaffold)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/serious-scaffold)
