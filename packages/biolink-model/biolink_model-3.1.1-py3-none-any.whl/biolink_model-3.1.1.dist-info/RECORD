@@ -1,0 +1,9 @@
+biolink/__init__.py,sha256=tRvQSfsQ2dDaH-Rg7QeHSF3-tjDRudpKPbaQtaYxY30,721
+biolink/model.py,sha256=713Y0OGXQCdQCUQzF46E8tmJeC2oOr32X6051Hq1t6c,613489
+biolink/pydanticmodel.py,sha256=ugylpS7RPxix-KZgnBpLNka612Bx4BpOONToSOHHsqE,839627
+biolink_model-3.1.1.dist-info/AUTHORS,sha256=L1ADgRC-yTrWk11wso4MojYed8OxZ7b22innSkk9XE4,762
+biolink_model-3.1.1.dist-info/LICENSE,sha256=jPiMjA6RL-50vqD7K6xwZb6yUb6XHolsyXT9uRynttk,523
+biolink_model-3.1.1.dist-info/METADATA,sha256=4U8IcYSPLbGTQil5vxkY7imMnroRb_6Xn7u-ikony1s,7262
+biolink_model-3.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+biolink_model-3.1.1.dist-info/top_level.txt,sha256=Tj0OSffj-YdSs92HC1VpKuw2N7fjXIcU71uy44-K-5Q,8
+biolink_model-3.1.1.dist-info/RECORD,,
