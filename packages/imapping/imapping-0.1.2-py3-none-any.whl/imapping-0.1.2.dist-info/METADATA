@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: imapping
+Version: 0.1.2
+Summary: iMapping was created with the intention of helping when mapping your future projects and facilitating their compilations
+Author: Noxty
+Author-email: noxty@proton.me
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
