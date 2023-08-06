@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+mkie/__init__.py
+mkie/__main__.py
+mkie.egg-info/PKG-INFO
+mkie.egg-info/SOURCES.txt
+mkie.egg-info/dependency_links.txt
+mkie.egg-info/entry_points.txt
+mkie.egg-info/requires.txt
+mkie.egg-info/top_level.txt
+mkie/core/__init__.py
+mkie/core/mkdk.py
+mkie/core/mkgit.py
