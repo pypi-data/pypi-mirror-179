@@ -1,0 +1,10 @@
+Install python-packaging-at and import python_packaging_at - package and directory should have the same name
+from python_packaging_at.maths import add_numbers
+
+Git ignore should be done before initializing the repository
+
+README: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+Use toml and if there are things that are not supported use setup.python
+
+Good practice to give the same name to repository as package
