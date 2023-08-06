@@ -1,0 +1,8 @@
+static-ffmpeg
+yt-dlp
+torch
+# Work in progress
+# torchvision==0.14
+# torchaudio==0.13.0
+# cuda-python==11.8.1
+whisper.ai==1.0.0.1

@@ -1,0 +1,4 @@
+static-ffmpeg
+yt-dlp
+torch
+whisper.ai==1.0.0.1

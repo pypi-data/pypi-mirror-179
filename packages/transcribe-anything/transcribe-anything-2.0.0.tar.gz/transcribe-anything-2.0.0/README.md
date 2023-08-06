@@ -1,0 +1,62 @@
+
+# transcribe-anything
+
+Input a local file or url and this service will transcribe it using Whisper AI into subtitle files and raw text.
+
+Uses whisper AI so this is state of the art translation service - completely free. 🤯🤯🤯
+
+Version 2.0 is CPU only for now.
+Pull requests welcome! Looking for help to getting the gpu accelerated pytorch installations running.
+
+# Usage
+
+```bash
+> pip install transcribe-anything
+> transcribe_anything <YOUTUBE_URL>
+# Outputs the srt, vtt and txt files in YOUTUBE_URL/out.vtt
+> transcribe_anything <LOCAL.MP4/MP3/WAV>
+# Same but in LOCAL/out.vtt ...
+```
+
+# Build Status
+
+[![Actions Status](https://github.com/zackees/transcribe-anything/workflows/MacOS_Tests/badge.svg)](https://github.com/zackees/transcribe-anything/actions/workflows/push_macos.yml)
+[![Actions Status](https://github.com/zackees/transcribe-anything/workflows/Win_Tests/badge.svg)](https://github.com/zackees/transcribe-anything/actions/workflows/push_win.yml)
+[![Actions Status](https://github.com/zackees/transcribe-anything/workflows/Ubuntu_Tests/badge.svg)](https://github.com/zackees/transcribe-anything/actions/workflows/push_ubuntu.yml)
+
+
+## Install dev
+
+Works for Ubuntu/MacOS/Win32(in git-bash)
+This will create a virtual environment
+
+```bash
+> cd transcribe_anything
+> ./install_dev.sh
+# Enter the environment:
+> source activate.sh
+```
+
+
+The environment is now active and the next step will only install to the local python. If the terminal
+is closed then to get back into the environment `cd transcribe_anything` and execute `source activate.sh`
+
+## Required: Install to current python environment
+  * `pip install transcribe-anything`
+    * The command `transcribe_anything` will magically become available.
+  * `transcribe_anything <YOUTUBE_URL> > out_subtitles.txt`
+  * -or- `transcribe_anything <MY_LOCAL.MP4/WAV> > out_subtitles.txt`
+
+
+# Tech Stack
+  * OpenAI whisper
+  * yt-dlp: https://github.com/yt-dlp/yt-dlp
+  * static-ffmpeg
+    * github: https://github.com/zackees/static_ffmpeg
+    * pypi: https://pypi.org/project/static-ffmpeg/
+
+# Testing
+  * All tests are run by `tox`, simply go to the project directory root and run it.
+
+# Versions
+  * 2.0.0: New! Now a front end for Whisper ai!
