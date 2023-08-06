@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/finhelp/__init__.py
+src/finhelp/finhelp.py
+src/finhelp.egg-info/PKG-INFO
+src/finhelp.egg-info/SOURCES.txt
+src/finhelp.egg-info/dependency_links.txt
+src/finhelp.egg-info/top_level.txt
