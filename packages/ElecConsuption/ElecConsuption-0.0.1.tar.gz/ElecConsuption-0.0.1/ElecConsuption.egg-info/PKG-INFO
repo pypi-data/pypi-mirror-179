@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ElecConsuption
+Version: 0.0.1
+Summary:  Prediction of electricity consumption in France for 8/12/2022
+Home-page: https://github.com/Paul-Crp/Projet-Conso-Electrique-France.git
+Author: Thamara Renoir,Oualid Lamrini,Emma Sinibaldi,Paul Crespin
+Author-email: paul.crespin@etu.umontpellier.fr
+License: MIT
