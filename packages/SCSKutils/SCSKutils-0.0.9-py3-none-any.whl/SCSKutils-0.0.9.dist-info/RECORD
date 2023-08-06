@@ -1,0 +1,10 @@
+scskutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scskutils/decorators.py,sha256=EL5svecyj5lfcG5Qs6aFCMr4VkKPpqhCwOJa9OmDyuI,283
+scskutils/scraper.py,sha256=g0YeMEhZfr0K773jXYKJTxK5yA5Zo33InKTo-TGUDYo,865
+scskutils/scskutils.py,sha256=78DTtVF2veIG3NLx48aC9ylo0xa0yzV9jb-Bzpw7nNY,456
+scskutils/translator.py,sha256=QCcbtOgBWFPcLG6LzT_zW37LDss6pnjo7suoKaNJuG8,830
+scskutils/visuals.py,sha256=VZAIE6pz6A9b6HPPzRHoOmAfxQTiYa3Ns8bKs9XjchI,331
+SCSKutils-0.0.9.dist-info/METADATA,sha256=MG1NpQjK7hYd-YP6gsF-qEjeMYFzkRijM0rI2ONt6VI,306
+SCSKutils-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SCSKutils-0.0.9.dist-info/top_level.txt,sha256=6912EcEDRxZod2KVRv63qjkp_5cHhHhfm6mUKtQcoPs,10
+SCSKutils-0.0.9.dist-info/RECORD,,
