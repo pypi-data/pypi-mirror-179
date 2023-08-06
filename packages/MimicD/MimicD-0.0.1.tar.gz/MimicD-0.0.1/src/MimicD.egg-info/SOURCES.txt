@@ -1,0 +1,9 @@
+LICENSE.txt.txt
+README.md
+setup.py
+src/MimicD.py
+src/MimicD.egg-info/PKG-INFO
+src/MimicD.egg-info/SOURCES.txt
+src/MimicD.egg-info/dependency_links.txt
+src/MimicD.egg-info/requires.txt
+src/MimicD.egg-info/top_level.txt
