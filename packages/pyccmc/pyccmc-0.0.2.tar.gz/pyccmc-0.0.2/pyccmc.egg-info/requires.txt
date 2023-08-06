@@ -1,0 +1,5 @@
+requests
+tqdm
+colorama
+fake_useragent
+browser_cookie3
