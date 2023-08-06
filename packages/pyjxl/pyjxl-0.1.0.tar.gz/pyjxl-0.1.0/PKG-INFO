@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyjxl
+Version: 0.1.0
+Summary: 
+Author: Aravind Reddy Voggu
+Author-email: aravind.reddy@iiitb.org
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pyJXL
+
+pyjxl is an experimental decoder for JPEG-XL .jxl files in Python.
+
+pyjxl's primary goals are being an easy to understand decoder and enabling experimentation.
+It's not meant to be performant or complete.
+Please use [`libjxl`](https://github.com/libjxl/libjxl) instead for actual decoding purposes.
+
+
+
+
