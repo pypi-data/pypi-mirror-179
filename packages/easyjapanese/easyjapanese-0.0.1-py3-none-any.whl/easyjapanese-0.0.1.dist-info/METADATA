@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: easyjapanese
+Version: 0.0.1
+Summary: # EasyJapanese
+Home-page: https://github.com/yuki-cossy/EasyJapanese
+Download-URL: https://github.com/yuki-cossy/EasyJapanese
+Author: Yuki Cossy
+Author-email: domokomod5@gmail.com
+Maintainer: Yuki Cossy
+Maintainer-email: domokomod5@gmail.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: selenium
+Requires-Dist: beautifulsoup4
+
