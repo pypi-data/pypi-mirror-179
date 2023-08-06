@@ -1,0 +1,7 @@
+stripe_payment_setup/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+stripe_payment_setup/app.py,sha256=ZuSY0wgcFtoB_PjuMTF8tza0okG0CK4TaE2OjB-0h88,2280
+stripe_payment_setup/settings.py,sha256=qM72eMW5l-1pKRMyGfm3a-xGXsluarkMVgPl5DwdaLY,336
+stripe_payment_setup-0.1.0.dist-info/entry_points.txt,sha256=_3tz0gtK3NPJalqtF24NGhPYnQXZYL258nsQ5HTMpwY,71
+stripe_payment_setup-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+stripe_payment_setup-0.1.0.dist-info/METADATA,sha256=8rGpx2fQbQ2lOWVkBnamyOmp39avY-til0uGJ19hIn8,1214
+stripe_payment_setup-0.1.0.dist-info/RECORD,,

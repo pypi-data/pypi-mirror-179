@@ -1,0 +1,3 @@
+[console_scripts]
+stripe-payment-setup=stripe_payment_setup.app:serve
+
