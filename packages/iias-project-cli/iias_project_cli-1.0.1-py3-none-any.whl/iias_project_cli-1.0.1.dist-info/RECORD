@@ -1,0 +1,8 @@
+project_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+project_cli/__main__.py,sha256=b1A8RxKKPDE2bjsdIoJgn62ZQ15uERbkk-3lJsSEmJM,4158
+project_cli/templates.py,sha256=vXUJKkrNXladhChp6mBA8fI3FuyEm7LcegyA_s5rdcc,2598
+iias_project_cli-1.0.1.dist-info/METADATA,sha256=XGMQdzmolYIWrO4RKtNGgkeYjkbBoOSDnGSlnW_U8VE,1448
+iias_project_cli-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iias_project_cli-1.0.1.dist-info/entry_points.txt,sha256=JbqSqAYwGOFdf_nenfELjX6Ep17rt7DED2H5VOlO830,68
+iias_project_cli-1.0.1.dist-info/top_level.txt,sha256=xaVOOC83wxFgpEChwCBemcJLDicapKUxSYRtLiKSPUA,12
+iias_project_cli-1.0.1.dist-info/RECORD,,
