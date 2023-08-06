@@ -1,0 +1,3 @@
+[snek5000.solvers]
+tgv = snek5000_tgv.solver
+
