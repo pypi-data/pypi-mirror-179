@@ -1,0 +1,2 @@
+[console_scripts]
+rgagui = rgagui.__main__:main
