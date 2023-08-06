@@ -1,0 +1,3 @@
+[psychopy.experiment.components]
+EmotivMarkingComponent = psychopy_emotiv:EmotivMarkingComponent
+EmotivRecordingComponent = psychopy_emotiv:EmotivRecordingComponent
