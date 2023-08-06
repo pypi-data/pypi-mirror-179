@@ -1,0 +1,4 @@
+hestia_earth.utils>=0.10.0
+numpy
+pandas>=1.2.0
+pymc==4.4.0
