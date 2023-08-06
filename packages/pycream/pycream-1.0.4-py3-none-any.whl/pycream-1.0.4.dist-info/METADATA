@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pycream
+Version: 1.0.4
+Home-page: https://github.com/mangto/CREAM
+Author: mangto
+Author-email: mangto0701@gmail.com
+License: MIT
+Keywords: example project
+Requires-Dist: numpy
+
