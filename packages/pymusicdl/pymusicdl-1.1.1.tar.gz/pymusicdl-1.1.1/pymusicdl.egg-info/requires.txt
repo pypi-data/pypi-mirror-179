@@ -1,0 +1,11 @@
+pytube
+requests
+rich
+spotipy
+urllib3
+youtube-dl
+youtube-title-parse
+yt-dlp
+
+[:platform_system == "Windows"]
+windows-curses
