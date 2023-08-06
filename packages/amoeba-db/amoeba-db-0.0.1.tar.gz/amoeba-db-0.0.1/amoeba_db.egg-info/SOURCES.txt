@@ -1,0 +1,6 @@
+README.md
+setup.py
+amoeba_db.egg-info/PKG-INFO
+amoeba_db.egg-info/SOURCES.txt
+amoeba_db.egg-info/dependency_links.txt
+amoeba_db.egg-info/top_level.txt
