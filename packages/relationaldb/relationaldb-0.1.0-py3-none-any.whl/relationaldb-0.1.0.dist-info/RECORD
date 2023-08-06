@@ -1,0 +1,16 @@
+relationaldb/__init__.py,sha256=876st0efzkyitYVtwYaNmv6xx0y8t85bdGIrv5-g12Y,199
+relationaldb/bases.py,sha256=WTjlzhljM5MZ8a7amb5JCNnn2E0LBgoI2auknk-Yab8,1807
+relationaldb/conception.py,sha256=ONoobJ2na-HTKH4i5tGhp8323roxt_W4jxfw87A7pOE,8199
+relationaldb/consts.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+relationaldb/entities.py,sha256=vEEgv3RcBvqoIhQIY9VzWqnZoDIBJBZZ98ooWbPHRTI,15321
+relationaldb/exceptions.py,sha256=Yw8CraOHmlvavE_dkAGvy9gKcoXcxRzK2dUqVvW6Msw,42
+relationaldb/mongodb.py,sha256=nEha7_-uonhZ2yOlGu3N9VSAbpI8jaQs1dz2f4kMlW8,18394
+relationaldb/mongodb_builder.py,sha256=5-Rn8wxHWvWHI4t50FRNvENaWeUbAjuqyylY3iuI8DI,11748
+relationaldb/simpledb.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relationaldb/sqldb.py,sha256=7MHA-kxEk0dqRkx5qdacuxmD_wZlzk96NfflwWaudkw,58
+relationaldb/utils.py,sha256=1SGWiqwst9gVZ1njZtKEujlFrcO1lS1WUTGKSU7MFDA,388
+relationaldb-0.1.0.dist-info/LICENSE,sha256=bf6JVPwzmH4PF7C6IyefmelWDd-sM3GUMk2fLOrZBjM,1063
+relationaldb-0.1.0.dist-info/METADATA,sha256=v579zZIpDjGmPG2U6ecDZhveQ82u1bl76jBwmYgdETE,4777
+relationaldb-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+relationaldb-0.1.0.dist-info/top_level.txt,sha256=JxCebrDXZDJNzQ6acKRrXTw-vLCJ5SuYkhVYtD5VjbU,13
+relationaldb-0.1.0.dist-info/RECORD,,
