@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: qqddm
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/David-Lor/python-qqddm
+Author: David Lorenzo
+Author-email: 17401854+David-Lor@users.noreply.github.com
+License: ISC
+Download-URL: https://github.com/David-Lor/python-qqddm/archive/main.zip
+Keywords: qq,different dimension me,anime,ai
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# QQ's "Different Dimension Me" Animify Python library
+
+Python wrapper for QQ's "Different Dimension Me" AI, that applies an anime-theme to any given picture.
+
+## Installing
+
+This package was developed & tested under Python 3.9. Available on [PyPI](https://pypi.org/project/qqddm):
+
+```bash
+pip install --user qqddm
+```
+
+## Usage
+
+Check the [example](example.py) code.
+
+## Changelog
+
+Versions 0.y.z are expected to be unstable, and the API may change on Minor (y) releases.
+
+- 0.0.1
+  - Initial release:
+    - Class-based interface.
+    - Pass an image (as bytes) and send it to QQ API, returning the resulting images URLs.
+    - Download the returned images URLs.
+    - Requests settings (different for QQ API and for downloading result images): request timeouts, proxy, user-agents.
+
+
