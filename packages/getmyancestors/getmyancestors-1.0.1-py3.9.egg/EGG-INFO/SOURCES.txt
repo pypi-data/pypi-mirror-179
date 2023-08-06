@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+getmyancestors/__init__.py
+getmyancestors/__main__.py
+getmyancestors/fstogedcom.png
+getmyancestors/fstogedcom.py
+getmyancestors/getmyancestors.py
+getmyancestors/mergemyancestors.py
+getmyancestors/translation.py
+getmyancestors.egg-info/PKG-INFO
+getmyancestors.egg-info/SOURCES.txt
+getmyancestors.egg-info/dependency_links.txt
+getmyancestors.egg-info/entry_points.txt
+getmyancestors.egg-info/requires.txt
+getmyancestors.egg-info/top_level.txt
