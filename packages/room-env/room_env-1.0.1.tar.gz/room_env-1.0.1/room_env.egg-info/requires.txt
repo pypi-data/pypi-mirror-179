@@ -1,0 +1,4 @@
+gym>=0.26.1
+torch>=1.12.1
+PyYAML>=6.0
+tqdm
