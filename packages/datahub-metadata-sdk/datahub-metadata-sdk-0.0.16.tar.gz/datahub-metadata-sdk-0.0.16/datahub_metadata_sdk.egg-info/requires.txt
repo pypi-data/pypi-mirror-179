@@ -1,0 +1,14 @@
+requests
+backoff
+acryl-datahub[datahub-rest]
+validators
+python-dateutil
+pyjwt
+lbg
+tqdm
+
+[cli]
+sh
+jsonpath_ng
+pandas
+coloredlogs
