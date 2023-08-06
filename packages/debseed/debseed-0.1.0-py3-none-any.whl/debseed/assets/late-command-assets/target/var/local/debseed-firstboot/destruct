@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# Remove debseed-firstboot completely from the system
+#
+ME=$(readlink -f $0)
+ME_DIR=$(dirname "$ME")
+ME_DIR=${ME_DIR%%/}
+
+echo "destruct"
+systemctl disable debseed-firstboot.service
+rm -f /etc/systemd/system/debseed-firstboot.service
+rm -rf $ME_DIR

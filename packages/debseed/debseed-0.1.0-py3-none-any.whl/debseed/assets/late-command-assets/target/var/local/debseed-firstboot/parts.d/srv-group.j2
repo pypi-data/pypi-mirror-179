@@ -1,0 +1,8 @@
+#!/bin/sh
+{% if srv_group %}
+echo "configure /srv group permissions"
+chgrp -R {{ srv_group }} /srv    # set group for existing files and folder under /srv
+chmod g=rwx,g+s /srv              # set group write permission, and the setgid bit so that files and folder under /srv will be created with the same group as /srv
+setfacl -R -m g::rwx /srv         # set the group ACLs recursively for existing files and folders
+setfacl -R -d -m g::rwx /srv      # set the default group ACLs recursively
+{% endif %}

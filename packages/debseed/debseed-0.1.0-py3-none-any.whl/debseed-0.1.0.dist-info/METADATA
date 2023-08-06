@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: debseed
+Version: 0.1.0
+Summary: Create ISO images to automate Debian installations, by appending a preseed file to Debian official images.
+Author-email: Ipamo <dev@ipamo.net>
+Project-URL: Homepage, https://gitlab.com/ipamo/debseed
+Project-URL: Bug Tracker, https://gitlab.com/ipamo/debseed/issues
+Keywords: adaptation,iso,installation,debian,netinst,preseed
+Requires-Python: >=3.7.3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: jinja2 (>=3.1.2)
+Requires-Dist: tabulate (>=0.9.0)
+Provides-Extra: all
+Requires-Dist: jinja2 (>=3.1.2) ; extra == 'all'
+Requires-Dist: tabulate (>=0.9.0) ; extra == 'all'
+Requires-Dist: pyvmomi (>=7.0.3) ; extra == 'all'
+Provides-Extra: vmware
+Requires-Dist: jinja2 (>=3.1.2) ; extra == 'vmware'
+Requires-Dist: tabulate (>=0.9.0) ; extra == 'vmware'
+Requires-Dist: pyvmomi (>=7.0.3) ; extra == 'vmware'
+
+Debseed
+=======
+
+Create ISO images to automate Debian installations, by appending a [preseed file](https://wiki.debian.org/DebianInstaller/Preseed) to Debian official images.
+
+
+## Prerequisites
+
+This application must be run on Linux and requires _python3_, _xorriso_ and _isolinux_. Example on Debian:
+
+    sudo apt install python3-pip xorriso isolinux
+
+## Installation
+
+Install the application using _pip_:
+
+    pip3 install debseed
+
+Or, if you wish to automatically publish the generated ISO files to a VMWare datastore, install the application with additional dependencies:
+
+    pip3 install debseed[vmware]
+
+## Usage examples
+
+Download latest Debian ISO file and generate a custom ISO file from it, using the generic edition:
+
+    debseed update
+
+Generate a custom ISO file from a specific image and preseed file:
+
+    debseed generate debian-11.5.0-amd64-netinst.iso path/to/preseed.cfg
+
+To print full usage instructions, run:
+
+    debseed --help
+
+
+## Configuration
+
+Configuration of Debseed is defined in the following files (by decreasing priority):
+
+- `local.conf` in current working directory
+- `~/.config/debseed.conf` in home directory
+- `C:/ProgramData/debseed.conf` (Windows) or `/etc/debseed.conf` (Linux)
+
+Configuration section `[debseed]` contains general-purpose application settings.
+
+Specific sets of generation parameters, called _editions_, are configured in their own configuration section. For example, section named `default` is configured using configuration section `[debseed:default]`.
+
+See [example](example.conf).
+
+
+## Development
+
+Create Python virtual environment (example on a Debian workstation):
+
+    python3 -m venv .venv
+    source .venv/bin/activate
+    python -m pip install --upgrade pip wheel
+    pip install -r requirements_all.txt
+
+Run commands:
+
+    python -m debseed --help
+
+Clean repository:
+
+```sh
+find . \( -name __pycache__ -o -name build -o -name dist -o -name "*.egg-info" \) -not -path "./.venv/*" -exec rm -rf {} \;
+```
+
+Create Python redistribuable package:
+
+    pip wheel --no-deps -w dist .
+
+Prepare Twine for package upload (if necessary):
+
+```ps1
+pip install twine
+$env:REQUESTS_CA_BUNDLE="...ca-certificates.crt"
+```
+
+Check package (in particular, verify version in file name):
+
+    twine check dist/...
+
+Upload le paquet:
+
+    twine upload --repository ...  dist/...
+
+
+## Troubleshooting
+
+To display information about an ISO, use command `isoinfo` from Debian package `genisoimage`, example:
+
+    isoinfo -d -i path.iso
+
+Extract initial ramdisk:
+
+    cd debseed.tmp/...
+    mkdir extracted-initrd
+    cd  extracted-initrd
+    cpio -idm < ../initrd
