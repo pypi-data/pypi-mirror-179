@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: typecho-password
+Version: 0.0.1
+Project-URL: Homepage, https://github.com/veoco/typecho-password
+Project-URL: Bug Tracker, https://github.com/veoco/typecho-password/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# typecho-password
+Typecho（数据库中）用户密码的生成及验证
+
+
+## 使用方法
+
+1. 安装
+
+```python
+pip install typecho-password
+```
+
+2. 使用
+
+```python
+from typecho_password import PasswordContext
+
+m = PasswordContext()
+hashed_password = m.hash('123456789ABCabc')
+print(m.verify('123456789ABCabc', hashed_password))
+```
