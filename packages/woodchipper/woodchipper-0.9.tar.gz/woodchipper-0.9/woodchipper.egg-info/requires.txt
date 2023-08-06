@@ -1,0 +1,4 @@
+structlog>=21.5.0
+
+[sentry]
+structlog-sentry<2.0.0
