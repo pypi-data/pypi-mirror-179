@@ -1,0 +1,10 @@
+yaqn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yaqn/assets/logo.png,sha256=jEc1hLt0OS5udcSeahcGHZClME75KTaKvUTQjtVU1Uw,45805
+yaqn/config.py,sha256=AMFRYhJcDoVIogieznDDKhsnCst6vvvqsyd3OZdTJJU,2331
+yaqn/gui.py,sha256=T0Z2hzmHT34O9QQH4si9H_-7cW3ls9t9V9ZmKgR9KRQ,3772
+yaqn/main.py,sha256=s3i5slOweiE23ycZcvEj68VrQprEoPX_F2V2sNOJ570,1410
+yaqn-0.1.0.dist-info/entry_points.txt,sha256=cHkgLTHp-uhI2C8LqMR3V6RcxRWzcC6wejNuuRi8yQU,39
+yaqn-0.1.0.dist-info/LICENSE.txt,sha256=VvA1bZ3KmaWjPb4oI2AQZQpZh60eq-j-Wj_bYstP6Rs,1061
+yaqn-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+yaqn-0.1.0.dist-info/METADATA,sha256=J2KaWJx59Ml63COTvFKluA4TIwyo-Wp1262geqFY3SY,2476
+yaqn-0.1.0.dist-info/RECORD,,
