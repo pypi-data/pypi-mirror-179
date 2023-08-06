@@ -1,0 +1,13 @@
+torch>=1.10
+numpy
+Pillow
+scipy
+igl
+
+[build]
+build
+twine
+
+[dev]
+bumpver
+pytest
