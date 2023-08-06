@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ocotillo/__init__.py
+ocotillo/api.py
+ocotillo/dataset.py
+ocotillo/model_loader.py
+ocotillo/transcribe.py
+ocotillo/utils.py
+ocotillo_speechify.egg-info/PKG-INFO
+ocotillo_speechify.egg-info/SOURCES.txt
+ocotillo_speechify.egg-info/dependency_links.txt
+ocotillo_speechify.egg-info/requires.txt
+ocotillo_speechify.egg-info/top_level.txt
