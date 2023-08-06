@@ -1,0 +1,16 @@
+growbuddies/PID_code.py,sha256=piqtKcBLH5Q5AJGDHvp3au_T2_uTxVI8WewUs3Ry0hU,10090
+growbuddies/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+growbuddies/__main__.py,sha256=I2R0Z1G2oiIOz0ACIyEEOkpkH5WffHRyL4bZRoa0zzs,4545
+growbuddies/colors.py,sha256=69wHnjrKS6OYuxsKfeCbFB5raCICExnP783TXJR86bI,1064
+growbuddies/growbuddies_settings.json,sha256=6edqlqgE6vRQV8P3mEDAekGrYOP9--z-JH20jB_MITA,543
+growbuddies/gus.py,sha256=f3MNRp2MSlWjbxo4i2ix1TSCK2x-F_tfURlnqQ30d-0,12340
+growbuddies/logginghandler.py,sha256=bzGJHt9qaLu5wkAU5sLSFDFnC-GVZVAJ_ETyh-youOU,4311
+growbuddies/mistbuddy.py,sha256=jh2nzsE4mmIgu2r6X2scFBRG-mtXlMtZolfbbJd-iUU,7023
+growbuddies/snifferbuddyreadings.py,sha256=CQHpVsuZTpfOHcMZCCzzMA19fCVIErb44q5GUcoHeUU,8015
+growbuddies/test.py,sha256=Up1nBA_OoHRZAFF8BKEG940UiRwy6qrtk6k2B4flOhU,247
+growbuddies/data/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+growbuddies-2022.12.6.dist-info/METADATA,sha256=8H8yrSnxR5Y1KEwGt_TxzGYPHMOYT5GniMs02Fa4pyg,2079
+growbuddies-2022.12.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+growbuddies-2022.12.6.dist-info/entry_points.txt,sha256=NxWvPgb6Z4FN3eA8PYykHypzXbwq-vZa0Qwk2jCsz-w,61
+growbuddies-2022.12.6.dist-info/top_level.txt,sha256=ppbHErA2tEPhNTST3DdEUHb8-Z47TN2Fvz3pjmW5Jzk,12
+growbuddies-2022.12.6.dist-info/RECORD,,
