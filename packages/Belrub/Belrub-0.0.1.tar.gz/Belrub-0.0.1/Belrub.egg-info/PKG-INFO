@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Belrub
+Version: 0.0.1
+Summary: This is a library for robots in rubika
+Home-page: UNKNOWN
+Author: MaMaD BeLectron
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: This is a library for Robots in RUBIKA
+        
+        from BeLrub.BeLrub import Token
+        
+        bot = Token("AUTH")
+        target = "GUID"
+        bot.sendMessage(target, "Hi BeLrub !"
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
