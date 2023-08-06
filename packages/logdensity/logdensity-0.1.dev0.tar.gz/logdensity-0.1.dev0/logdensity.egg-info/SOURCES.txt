@@ -1,0 +1,15 @@
+COPYING
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+logdensity/__init__.py
+logdensity/__main__.py
+logdensity/arguments.py
+logdensity/runner.py
+logdensity.egg-info/PKG-INFO
+logdensity.egg-info/SOURCES.txt
+logdensity.egg-info/dependency_links.txt
+logdensity.egg-info/entry_points.txt
+logdensity.egg-info/requires.txt
+logdensity.egg-info/top_level.txt

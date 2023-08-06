@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: logdensity
+Version: 0.1.dev0
+Summary: take the logarithm of a cryo-EM density
+Home-page: https://gitlab.com/cblau/logdensity
+Author: Christian Blau
+Author-email: cblau.mail@gmail.com
+Project-URL: Bug Tracker, https://gitlab.com/cblau/logdensity/issues
+Keywords: molecular dynamics,GROMACS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: COPYING
+
+# logdensity
+
+Downsample a density.
+
+## Installing and running
+
+Install the latest release from the python package manager
+
+```bash
+pip3 install logdensity
+```
+
+Then run it
+
+```bash
+logdensity
+```
+
+## Author
+
+Christian Blau
