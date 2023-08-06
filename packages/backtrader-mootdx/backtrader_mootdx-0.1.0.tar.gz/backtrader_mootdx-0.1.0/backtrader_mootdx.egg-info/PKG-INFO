@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: backtrader-mootdx
+Version: 0.1.0
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/bopo/backtrader_mootdx
+Author: bopo
+Author-email: ibopo@126.com
+License: MIT license
+Keywords: backtrader_mootdx
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+
+=================
+backtrader_mootdx
+=================
+
+
+.. image:: https://img.shields.io/pypi/v/backtrader_mootdx.svg
+        :target: https://pypi.python.org/pypi/backtrader_mootdx
+
+.. image:: https://img.shields.io/travis/bopo/backtrader_mootdx.svg
+        :target: https://travis-ci.com/bopo/backtrader_mootdx
+
+.. image:: https://readthedocs.org/projects/backtrader-mootdx/badge/?version=latest
+        :target: https://backtrader-mootdx.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: MIT license
+* Documentation: https://backtrader-mootdx.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2022-12-05)
+------------------
+
+* First release on PyPI.
+
+
