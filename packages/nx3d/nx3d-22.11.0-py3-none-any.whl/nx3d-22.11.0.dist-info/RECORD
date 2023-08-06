@@ -1,0 +1,15 @@
+nx3d/__init__.py,sha256=NFs4p7tTbKLoNW-Hw02_ysgpCXwLI2KJAnjU5Bq5oDQ,99
+nx3d/__main__.py,sha256=MK9hMuUHZdJbUlLYqUig4MLJ7AHEbFcX9TUsRXZskHg,518
+nx3d/core.py,sha256=xh3xqmuFVzXK854X1KEBwpMyBInRty7Zr4Rg_Od0V7w,24723
+nx3d/examples/__init__.py,sha256=rv6CjkwDoKVOGcBzhmB4GdsCov8pAXHLYceqN6qk_KU,54
+nx3d/examples/diffusion.py,sha256=4LcslfscUspSAJbDFbGIIn3L1FxJRLi1nmFnyrHp4nQ,3864
+nx3d/examples/gameoflife.py,sha256=cOmIaFRPq9QBf6duawUmcwHjCWbZwgTf0yFRC6KqFVw,2819
+nx3d/examples/keyboard_control.py,sha256=N1x3aOR_Nv-617YdWFhJpRj_tsUq443-88n2aFlLjj8,746
+nx3d/mesh.py,sha256=d6EdcE8dgSejLilN05hRQnlAq6SQCFhEpHq9RbceWBo,2938
+nx3d/simplified.py,sha256=eu-zHfAcXqnc1dlNUUW7h8Bnn6FUnU8wWFTfX1dtbcE,3262
+nx3d/types.py,sha256=q59xqVrYO-O2XxxfcJlt7Nse_rSmzUrUIM_e2ll7vWs,88
+nx3d/utils.py,sha256=myd0T7Lvi2ORRuQyubcnXLT5Gh9HYxhXWmF2AeZ2Gzw,1785
+nx3d-22.11.0.dist-info/LICENSE,sha256=xG9NkEat4vmSNReMSOFlJqU574QZpd75KbM-BvzY5nY,1062
+nx3d-22.11.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+nx3d-22.11.0.dist-info/METADATA,sha256=4ipIOZT-YxVYPW0J_E9tQsa0RSeQo76RewvDTI-U-Ic,2451
+nx3d-22.11.0.dist-info/RECORD,,
