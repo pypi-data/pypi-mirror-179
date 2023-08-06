@@ -1,0 +1,12 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+test_project_987/__init__.py
+test_project_987/load.py
+test_project_987/maths.py
+test_project_987.egg-info/PKG-INFO
+test_project_987.egg-info/SOURCES.txt
+test_project_987.egg-info/dependency_links.txt
+test_project_987.egg-info/requires.txt
+test_project_987.egg-info/top_level.txt

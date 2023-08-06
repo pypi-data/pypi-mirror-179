@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: test-project-987
+Version: 0.0.0
+Summary: Test project
+Author-email: Laura Porta <29216006+lauraporta@users.noreply.github.com>
+License: BSD-3-Clause
+Requires-Python: >=3.10.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Test project 987
+
+This is a test project.

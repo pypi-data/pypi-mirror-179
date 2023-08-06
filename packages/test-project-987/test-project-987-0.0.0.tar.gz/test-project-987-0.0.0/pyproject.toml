@@ -1,0 +1,20 @@
+[project]
+name = "test-project-987"
+authors = [{name = "Laura Porta", email= "29216006+lauraporta@users.noreply.github.com"}]
+description = "Test project"
+readme = "README.md"
+requires-python = ">=3.10.6"
+dynamic = ["version"]
+
+license = {text = "BSD-3-Clause"}
+
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
