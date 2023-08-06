@@ -1,0 +1,15 @@
+pixpy/__init__.py,sha256=hCfEDFc5aVyLjcXuL6RfAiIvNY7HLyPMfz1nm2fKmbw,147
+pixpy/__init__.pyi,sha256=o59BZcsSpTyfMLTCmz_nTcnaj-4354lc_Zic_lAk8aQ,18122
+pixpy/__main__.py,sha256=8592z2Ur2-NtwniWW3_tQbGpCracRll1ChZNpb06DyY,64
+pixpy/_pixpy.cp39-win_amd64.pyd,sha256=fnpBnge0tXizXioRN0vaFzmjBtL3d0iJYFsYztBsbMk,1638912
+pixpy/editor.py,sha256=IGT_fNPew21sJ9vgs4lYjgED2NFWLWRxk8iJt-nO5Lc,5241
+pixpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pixpy/repl.py,sha256=sHjRCYfhNseKGI7hoiX9jFArclvK4VoSNgUEC-lDLys,5208
+pixpy/color/__init__.pyi,sha256=G442StiJZlh0gtuEE9arlr8XBpimOUaDc0_5sB6adSU,696
+pixpy/event/__init__.pyi,sha256=ui2LH-AnwXACwCVq1qev8t67Xh8lJX_93ZC8XKjCja0,1932
+pixpy/key/__init__.pyi,sha256=2ePWzSUSpPc56IRX4-J1iLXJe9lh6zc8vNoxN6cWyMc,1309
+pixpy-0.1.4.dist-info/LICENSE.md,sha256=nUth7S1gDDw8NJAUSOS0x29h2E2X2OkVZVKGKxKxrkE,1059
+pixpy-0.1.4.dist-info/METADATA,sha256=kE52biV47jDW02iiFl_WkoAbTy1MaqTVPItj7HAIJcU,4968
+pixpy-0.1.4.dist-info/WHEEL,sha256=ycmo5H_b7yH7v1R7kR7fiFpp-oVDP_tN3VEYP_5SzS0,94
+pixpy-0.1.4.dist-info/top_level.txt,sha256=SveNhvLGcEfnlVPRFn8hM5bctMIrMKuBi8RKfcl5QE8,6
+pixpy-0.1.4.dist-info/RECORD,,
