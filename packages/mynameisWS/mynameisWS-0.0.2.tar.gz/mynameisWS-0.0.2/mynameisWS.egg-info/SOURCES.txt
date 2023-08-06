@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameisWS/WS.py
+mynameisWS/__init__.py
+mynameisWS.egg-info/PKG-INFO
+mynameisWS.egg-info/SOURCES.txt
+mynameisWS.egg-info/dependency_links.txt
+mynameisWS.egg-info/top_level.txt
