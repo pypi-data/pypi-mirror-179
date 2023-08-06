@@ -1,0 +1,9 @@
+dockerfile_parse-stubs/METADATA.toml,sha256=c0LIqvErPuB42IhbnjYgNNEQv2DNFGx2MvcmNcEpklM,88
+dockerfile_parse-stubs/__init__.pyi,sha256=4WciTIRprsd7_5gO0_2WVE-tQQpB0jKnkKunEpZHCYM,75
+dockerfile_parse-stubs/constants.pyi,sha256=gxWJE1YmGL8Rejfi7vMngA3QQ8a8brWnFP6gxrS0K64,109
+dockerfile_parse-stubs/parser.pyi,sha256=VB1AM3vPyCeI6ArP3tI7wS08TE5FfRvkVSb4DI2YnSo,2070
+dockerfile_parse-stubs/util.pyi,sha256=YUezpr9tFb4sO1mR2Z_KpG5g_JY5s6-Y0nHj_RvB4wc,1957
+types_dockerfile_parse-1.2.0.0.dist-info/METADATA,sha256=GiNw6CmGyUKNQD-YHBhMSAIVeuhJKzLL5O1yuU1aTf4,1260
+types_dockerfile_parse-1.2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+types_dockerfile_parse-1.2.0.0.dist-info/top_level.txt,sha256=6b3ZlYRwBxApEo9SbUezMFzQESSafhp6_BpdEI-_XZ4,23
+types_dockerfile_parse-1.2.0.0.dist-info/RECORD,,
