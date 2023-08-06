@@ -1,0 +1,6 @@
+setup.py
+./src/pypi_project_no_meta/__init__.py
+pypi_project_no_meta.egg-info/PKG-INFO
+pypi_project_no_meta.egg-info/SOURCES.txt
+pypi_project_no_meta.egg-info/dependency_links.txt
+pypi_project_no_meta.egg-info/top_level.txt
