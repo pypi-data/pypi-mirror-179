@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pysitemaps/__init__.py
+pysitemaps.egg-info/PKG-INFO
+pysitemaps.egg-info/SOURCES.txt
+pysitemaps.egg-info/dependency_links.txt
+pysitemaps.egg-info/requires.txt
+pysitemaps.egg-info/top_level.txt
