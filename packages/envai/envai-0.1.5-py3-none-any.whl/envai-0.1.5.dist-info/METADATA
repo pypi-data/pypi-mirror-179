@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: envai
+Version: 0.1.5
+Summary: UNKNOWN
+Home-page: https://github.com/jsdsg666/envai
+Author: Yuqi Wang
+Author-email: 22S054041@stu.hit.edu.cn
+License: GNU GPLv3
+Keywords: envai
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+UNKNOWN
+
