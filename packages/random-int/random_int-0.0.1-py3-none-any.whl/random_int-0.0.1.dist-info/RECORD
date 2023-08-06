@@ -1,0 +1,10 @@
+build/lib/faker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_int/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_int/random_int_recognition.py,sha256=wwMZHVTMu3DNRwLsvxTohMULrD3OrtopkWNlGDsna4M,170
+randomnumber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+randomnumber/faker_recognition.py,sha256=wwMZHVTMu3DNRwLsvxTohMULrD3OrtopkWNlGDsna4M,170
+random_int-0.0.1.dist-info/METADATA,sha256=rp3T6Rygd88AOWC81MjduxYAbZyuqMM60ADIUQPJUBg,141
+random_int-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+random_int-0.0.1.dist-info/top_level.txt,sha256=D6miSNheGMQrVj6Gly0ZLacNa8tyvLGid-Vw5SQ5arQ,11
+random_int-0.0.1.dist-info/RECORD,,
