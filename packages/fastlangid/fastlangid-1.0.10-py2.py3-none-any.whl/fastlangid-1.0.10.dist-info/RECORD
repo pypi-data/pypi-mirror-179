@@ -1,0 +1,13 @@
+fastlangid/__init__.py,sha256=SRJygUmJpjSI0WMMyS7Fl_B5zdbSkn2N0muDEalSVro,179
+fastlangid/langid.py,sha256=ReJ7mFOiBEgmVM0LvqCP1I_epdK_pfL0DO5QSmwRp0M,4225
+fastlangid/regex_rule.py,sha256=XefpVnFOTLuXMzgkJzIcNO205bhy45bNdkEsctrhEuE,1688
+fastlangid/utils.py,sha256=Tl1Ee9iUHamvBFlCMu1v1obwNiMV7kVY8lYr74JqgCw,2321
+fastlangid/models/lid.176.ftz,sha256=jzRyz-hzintgmejpmcPL-uDc0VaWqsfXc4qAOdtgPoM,938013
+fastlangid/models/model_s.ftz,sha256=A-qmZ4LSBbqr3aer91mfloD60g0IsevDJlBbIIJjF44,395365
+fastlangid/models/punc.dict,sha256=zD1NUgb84EslxtjXyFyIaNRtcP-Cay3ac42tGe-nwII,274
+fastlangid/models/unicode_lang.dict,sha256=SSSob2bEg2nNkSztrXz7THUlkxu9j-WPwjVmeUprYSs,63445
+fastlangid-1.0.10.dist-info/LICENSE,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+fastlangid-1.0.10.dist-info/METADATA,sha256=khs1QxNTQbrxg3xHNhruoKHQwxJcIZtcFFZ0GmbqXiQ,6646
+fastlangid-1.0.10.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+fastlangid-1.0.10.dist-info/top_level.txt,sha256=eowMa5F0aTa9g86JelScOxWBxjzLJuZ5-7yZ5My9zHE,11
+fastlangid-1.0.10.dist-info/RECORD,,
