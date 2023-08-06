@@ -1,0 +1,4 @@
+include dirdf/requirements.txt
+include dirdf/thirdparty.json
+include dirdf/README.MD
+include dirdf/LICENSE

@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+dirdf/LICENSE
+dirdf/README.MD
+dirdf/__init__.py
+dirdf/requirements.txt
+dirdf/thirdparty.json
+dirdf.egg-info/PKG-INFO
+dirdf.egg-info/SOURCES.txt
+dirdf.egg-info/dependency_links.txt
+dirdf.egg-info/top_level.txt
