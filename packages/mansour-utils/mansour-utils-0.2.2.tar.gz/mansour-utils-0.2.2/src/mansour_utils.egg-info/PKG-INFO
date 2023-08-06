@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mansour-utils
+Version: 0.2.2
+Summary: Mansour Mahboubi's tools
+Author-email: Mansour Mahboubi <mansourmahboubi@outlook.com>
+Project-URL: Homepage, https://github.com/mansourmahboubi/
+Keywords: mansour
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
