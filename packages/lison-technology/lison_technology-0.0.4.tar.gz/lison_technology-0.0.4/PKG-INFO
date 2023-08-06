@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lison_technology
+Version: 0.0.4
+Summary: Welcome to lison_technology
+Author: HuiBuBu
+Author-email: huibubu2022@163.com
+Maintainer: HuiBuBu
+Maintainer-email: huibubu2022@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+License-File: LICENSE
