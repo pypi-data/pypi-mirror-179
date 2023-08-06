@@ -1,0 +1,17 @@
+# Linting.
+black
+mypy
+types-requests
+
+# Dependencies.
+beautifulsoup4
+brotli
+lxml
+requests
+
+# Build dist.
+build
+twine
+
+# Testing.
+pytest
