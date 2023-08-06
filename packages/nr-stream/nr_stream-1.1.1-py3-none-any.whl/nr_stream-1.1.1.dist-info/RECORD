@@ -1,0 +1,11 @@
+nr/stream/__init__.py,sha256=hwe4RaWNgDf9BHAqOpFnsXalrjfH3jzn0pQlw_TWtlo,275
+nr/stream/_notset.py,sha256=awStxeYk17Dfy_3zz6A_wD31hh94hROf4GxdvIbADqg,170
+nr/stream/_optional.py,sha256=DUrC6zO44CqoA8pWqy1JgX9mQU-6-pZkTSz56XCsifU,1433
+nr/stream/_refreshable.py,sha256=akMhnaarE8QhRPwjdfGrXfWuVEbWejO4JHDsC-P2YKQ,1936
+nr/stream/_stream.py,sha256=3ZO7seDWabgUGFifqy3KyHpyYqjCnwQ03s3GAwQrpSE,11825
+nr/stream/_supplier.py,sha256=QUMtz6xUPD4n7HcAQBkwJ4QNLWqqHUXLV_HLVfy4VYU,6472
+nr/stream/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nr_stream-1.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nr_stream-1.1.1.dist-info/LICENSE,sha256=bDVcEAS5rCEemhGT133WyYPEWhviXjCvQ46Pi_1gInQ,998
+nr_stream-1.1.1.dist-info/METADATA,sha256=gzo2T9AsfTM4B53GiMPOP49sForzQNz9W60hUWvDIKk,3646
+nr_stream-1.1.1.dist-info/RECORD,,
