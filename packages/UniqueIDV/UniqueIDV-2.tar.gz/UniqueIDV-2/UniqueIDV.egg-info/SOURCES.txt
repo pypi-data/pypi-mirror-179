@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+UniqueIDV/__init__.py
+UniqueIDV.egg-info/PKG-INFO
+UniqueIDV.egg-info/SOURCES.txt
+UniqueIDV.egg-info/dependency_links.txt
+UniqueIDV.egg-info/top_level.txt
