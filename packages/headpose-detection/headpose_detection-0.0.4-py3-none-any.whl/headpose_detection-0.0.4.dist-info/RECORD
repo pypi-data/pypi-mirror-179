@@ -1,0 +1,17 @@
+headpose_estimation/WHENet.h5,sha256=j4vPkkRH9xJmZs8sclpjPsK5rgavpGmQZNMkKgJAH1k,18016256
+headpose_estimation/__init__.py,sha256=WiUZKhrGl2nCADRf_GoMHRh9jCBQ4IdWhnshGYHWd2c,49
+headpose_estimation/headpose.py,sha256=Rrtu-RM5qufvJfi-czHqdZDvEzTfoAKjGErdiZ5Lukk,3494
+headpose_estimation/utils.py,sha256=36WN9cAeYAdb5TxDzaOC286sGRMNjO8B9N6jNIa5E8I,8582
+headpose_estimation/whenet.py,sha256=tzhiy6Bq1cqQTQUsWkiEs80hbOY75bejPfy7Ci0E4bw,1572
+headpose_estimation/face_detector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headpose_estimation/face_detector/demo.py,sha256=K5YBLLPmsybE-N-JH5-nF9JworPMyFgRAuWq3l2CUMw,181
+headpose_estimation/face_detector/retinaface.py,sha256=mJ7afhESs6kSneuDvjtdnQN14dy0BnYIuw5iiKKX1qM,6636
+headpose_estimation/face_detector/commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headpose_estimation/face_detector/commons/postprocess.py,sha256=s8YBVy4mWI0xQsC2-6ApHIe5zLZOwol5aCASVw1hHBw,7160
+headpose_estimation/face_detector/commons/preprocess.py,sha256=Utui1KEp8SQQvrtpOjNVoTcEZFrSzk6_WiLqCtfXK-k,1782
+headpose_estimation/face_detector/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+headpose_estimation/face_detector/model/retinaface_model.py,sha256=-TiQ1xYxPXDiybSk2vVTvrL2SYt6SRJB5sLduaUdX58,40947
+headpose_detection-0.0.4.dist-info/METADATA,sha256=VYyV9garVK_AO25sT0lD9jOMOGet-2dBAwv7yxuxCYg,2061
+headpose_detection-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+headpose_detection-0.0.4.dist-info/top_level.txt,sha256=a5qxzO6gvBpPvrXBgD_OWTbY9yBfitvY13q-aek5gjI,20
+headpose_detection-0.0.4.dist-info/RECORD,,
