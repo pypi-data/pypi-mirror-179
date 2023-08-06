@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+LogManagement/PyLogManagement.py
+LogManagement/__init__.py
+LogManagement/__main__.py
+LogManagement.egg-info/PKG-INFO
+LogManagement.egg-info/SOURCES.txt
+LogManagement.egg-info/dependency_links.txt
+LogManagement.egg-info/requires.txt
+LogManagement.egg-info/top_level.txt
