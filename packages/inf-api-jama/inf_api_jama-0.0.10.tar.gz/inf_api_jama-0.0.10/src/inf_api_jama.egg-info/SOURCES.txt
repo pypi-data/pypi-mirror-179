@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+inf_api_jama.egg-info/SOURCES.txt
+inf_api_jama.egg-info/dependency_links.txt
+inf_api_jama.egg-info/requires.txt
+inf_api_jama.egg-info/top_level.txt
+src/api_jama/__init__.py
+src/inf_api_jama.egg-info/PKG-INFO
+src/inf_api_jama.egg-info/SOURCES.txt
+src/inf_api_jama.egg-info/dependency_links.txt
+src/inf_api_jama.egg-info/requires.txt
+src/inf_api_jama.egg-info/top_level.txt
