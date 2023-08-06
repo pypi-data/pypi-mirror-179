@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+src/ejemplo_paquete_qa_auto.egg-info/PKG-INFO
+src/ejemplo_paquete_qa_auto.egg-info/SOURCES.txt
+src/ejemplo_paquete_qa_auto.egg-info/dependency_links.txt
+src/ejemplo_paquete_qa_auto.egg-info/requires.txt
+src/ejemplo_paquete_qa_auto.egg-info/top_level.txt
+src/example_publish_pypi_medium/__init__.py
+src/example_publish_pypi_medium/example/__init__.py
+src/example_publish_pypi_medium/example/custom_sklearn.py
