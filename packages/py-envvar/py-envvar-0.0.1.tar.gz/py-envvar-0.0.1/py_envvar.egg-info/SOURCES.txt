@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+envvar/__init__.py
+envvar/load.py
+envvar/version.py
+py_envvar.egg-info/PKG-INFO
+py_envvar.egg-info/SOURCES.txt
+py_envvar.egg-info/dependency_links.txt
+py_envvar.egg-info/not-zip-safe
+py_envvar.egg-info/requires.txt
+py_envvar.egg-info/top_level.txt

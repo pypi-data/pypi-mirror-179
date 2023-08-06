@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: py-envvar
+Version: 0.0.1
+Summary: Easiest way to deal with env vars
+Home-page: https://github.com/drish/envvar
+Author: Derich Pacheco
+Author-email: carlosderich@gmail.com
+License: UNKNOWN
+Description: # envvar
+        
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        
+        
+        ## Usage
+        
+        ```yaml
+        required:
+          - PORT
+        defaults:
+          HOST: 0.0.0.0
+        local:
+          DB_NAME: pg://
+        ```
+        
+Keywords: env,environment variables
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
