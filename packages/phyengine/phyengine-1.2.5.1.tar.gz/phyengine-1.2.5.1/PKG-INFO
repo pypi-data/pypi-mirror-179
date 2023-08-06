@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: phyengine
+Version: 1.2.5.1
+Summary: Pyhton library for simple physics modelation
+Home-page: https://github.com/tacterex/PhyEngine
+Author: tacterex
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# **About**
+This library can help you program some simple kinematics processes and get some important (maybe) data from it
+# **Getting saterted**
+## **Installing**
+To install phyengine, run following command in command prompt:
+
+```pip install phyengine```
+
+## **Importing**
+You can import this like usual library:
+
+```import phyengine```
+
+# **Basic acknowledge**
+## **Vectors**
+Phyengine can work with 2d vectors. General syntax to create vector object is
+
+```phyengine.Vector(<coordx>, <coordy>)```
+
+For example:
+
+```first = phyengine.Vector(2, 3)```
