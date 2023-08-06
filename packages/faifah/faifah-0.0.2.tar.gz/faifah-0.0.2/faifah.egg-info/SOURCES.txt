@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+faifah/__init__.py
+faifah.egg-info/PKG-INFO
+faifah.egg-info/SOURCES.txt
+faifah.egg-info/dependency_links.txt
+faifah.egg-info/requires.txt
+faifah.egg-info/top_level.txt
