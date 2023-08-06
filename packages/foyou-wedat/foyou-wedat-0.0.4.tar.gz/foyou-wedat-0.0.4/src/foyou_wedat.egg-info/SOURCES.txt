@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/foyou_wedat.egg-info/PKG-INFO
+src/foyou_wedat.egg-info/SOURCES.txt
+src/foyou_wedat.egg-info/dependency_links.txt
+src/foyou_wedat.egg-info/entry_points.txt
+src/foyou_wedat.egg-info/top_level.txt
+src/wedat/__init__.py
