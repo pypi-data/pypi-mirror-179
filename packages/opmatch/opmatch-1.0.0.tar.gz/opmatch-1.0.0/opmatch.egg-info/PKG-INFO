@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: opmatch
+Version: 1.0.0
+Summary: A leightweight package to perform optimal case-control matching.
+Home-page: https://github.com/kirilklein/opmatch
+Author: Kiril Klein
+Author-email: kikl@di.ku.dk
+License: MIT
+Keywords: matching,statistics,epidemiology,causal inference,propensity score,optimal matching,case-control matching,matching algorithms,matching methods,pharmacoepidemiology
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+License-File: LICENSE

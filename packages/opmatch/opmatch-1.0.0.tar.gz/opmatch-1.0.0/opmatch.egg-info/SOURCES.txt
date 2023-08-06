@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+opmatch/__init__.py
+opmatch/main.py
+opmatch/matcher.py
+opmatch.egg-info/PKG-INFO
+opmatch.egg-info/SOURCES.txt
+opmatch.egg-info/dependency_links.txt
+opmatch.egg-info/top_level.txt
