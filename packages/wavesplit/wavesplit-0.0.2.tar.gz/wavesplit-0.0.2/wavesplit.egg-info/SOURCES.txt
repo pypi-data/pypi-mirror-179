@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+wavesplit/__init__.py
+wavesplit/_modidx.py
+wavesplit/core.py
+wavesplit.egg-info/PKG-INFO
+wavesplit.egg-info/SOURCES.txt
+wavesplit.egg-info/dependency_links.txt
+wavesplit.egg-info/entry_points.txt
+wavesplit.egg-info/not-zip-safe
+wavesplit.egg-info/requires.txt
+wavesplit.egg-info/top_level.txt
