@@ -1,0 +1,9 @@
+minimal_dydb/__init__.py,sha256=r8EefikBKVVOGiuRbC08aSLYOUbqE69llrJIjwlnlkg,362
+minimal_dydb/_aws_auth.py,sha256=xK3jdO0YurQNrX295gm0ZRntnt7IVgeiNXAt6nqsLdU,11699
+minimal_dydb/_config.py,sha256=vU7QiGSy_AJuJFmClUocqIJ-Ltku_8C24ZU8L6fLJR0,53
+minimal_dydb/_credential_managers.py,sha256=o3D4AnEZXnwRmcDJSdDGsNS2Ar1mYHUc2I2_JZI7kCQ,8314
+minimal_dydb/_dydb.py,sha256=jxfkksViPDXFOCAvDnPXA5vlhW9S2HqjyH1qo9BVwKs,7986
+minimal_dydb-0.1.16.dist-info/LICENSE,sha256=uzWcgf04acMCcJbJjSuDK4Q3ME478FYyhKgcJCh47q4,1495
+minimal_dydb-0.1.16.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+minimal_dydb-0.1.16.dist-info/METADATA,sha256=3C0xRLZUO_jmMj39PPcPTsFHM0BAcKAl2FR5Nx7eKbM,455
+minimal_dydb-0.1.16.dist-info/RECORD,,
