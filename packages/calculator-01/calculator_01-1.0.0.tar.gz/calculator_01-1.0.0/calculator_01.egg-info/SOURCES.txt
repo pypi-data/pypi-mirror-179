@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+calculator_01/__init__.py
+calculator_01/calculator_main.py
+calculator_01/calculator_session.py
+calculator_01.egg-info/PKG-INFO
+calculator_01.egg-info/SOURCES.txt
+calculator_01.egg-info/dependency_links.txt
+calculator_01.egg-info/top_level.txt
