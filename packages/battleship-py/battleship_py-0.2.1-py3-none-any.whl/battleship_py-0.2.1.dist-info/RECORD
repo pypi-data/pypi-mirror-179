@@ -1,0 +1,11 @@
+battleship/__init__.py,sha256=Mu-yZ5biIhP150KaVqsxdXlT9eskyYvK8hzBhhhF5Ww,161
+battleship/__main__.py,sha256=U7bi8fabyrsKrHEzITa9_JwCp045pnaVZlG6rKyC5sY,147
+battleship/console.py,sha256=620xm2BrukKgna5ZrnKPpcKQrLRxEzBekHgcHCATH0g,2215
+battleship/game.py,sha256=0FUtrrJ_FiwHoRXfmQEr1vZzgXc_97T3wvycMlWdmOI,5840
+battleship/test/__init__.py,sha256=yMaDcfooNNba5QHQkjQcBHnx0Bo2Z333eLg9XD1x8MI,44
+battleship/test/base.py,sha256=rJfqS7qiZhAlOzP5j15YanOLTQ8oZ6kTy1IV1myw8HY,699
+battleship_py-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+battleship_py-0.2.1.dist-info/METADATA,sha256=UXmlQwd6Fy5kATuScCS9Wul_r8WY0pjlUyCyXm5zFU4,2609
+battleship_py-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+battleship_py-0.2.1.dist-info/top_level.txt,sha256=TJo8gwFnmhJN6ZdNkci660eBiU_O7YCvwEBR7Z9LEc4,11
+battleship_py-0.2.1.dist-info/RECORD,,
