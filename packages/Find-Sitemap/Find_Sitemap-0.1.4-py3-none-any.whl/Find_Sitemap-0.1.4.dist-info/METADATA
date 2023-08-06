@@ -1,0 +1,200 @@
+Metadata-Version: 2.1
+Name: Find-Sitemap
+Version: 0.1.4
+Summary: A set of data tools in Python
+Home-page: https://github.com/hsuanchi/Find-Sitemaps
+Download-URL: https://pypi.org/project/Finde-sitemap/
+Author: HsuanChi Su
+Author-email: a0025071@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3 (==1.26.9) ; python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.5.0" and python_version < "4" and python_version >= "3.7"
+Requires-Dist: certifi (==2022.6.15) ; python_version >= "3.7" and python_version < "4"
+Requires-Dist: idna (==3.3) ; python_version >= "3.7" and python_version < "4"
+Requires-Dist: requests (==2.28.1) ; python_version >= "3.7" and python_version < "4"
+Requires-Dist: charset-normalizer (==2.1.0) ; python_version >= "3.7" and python_version < "4" and python_full_version >= "3.6.0"
+Provides-Extra: dev
+Requires-Dist: invoke (==1.7.1) ; extra == 'dev'
+Requires-Dist: mkdocs-material (==7.3.6) ; extra == 'dev'
+Requires-Dist: typing-extensions (==4.3.0) ; extra == 'dev'
+Requires-Dist: coverage (==5.5) ; ((python_version >= "2.7" and python_full_version < "3.0.0") or (python_full_version >= "3.5.0" and python_version < "4")) and extra == 'dev'
+Requires-Dist: flake8 (==3.9.2) ; ((python_version >= "2.7" and python_full_version < "3.0.0") or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: pytest-cov (==2.12.1) ; ((python_version >= "2.7" and python_full_version < "3.0.0") or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: pytest-xdist (==1.34.0) ; ((python_version >= "2.7" and python_full_version < "3.0.0") or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; (python_full_version >= "3.6.1" and python_version < "4.0") and extra == 'dev'
+Requires-Dist: cfgv (==3.3.1) ; (python_full_version >= "3.6.1" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: black (==21.12b0) ; (python_full_version >= "3.6.2") and extra == 'dev'
+Requires-Dist: pathspec (==0.9.0) ; (python_full_version >= "3.6.2") and extra == 'dev'
+Requires-Dist: argcomplete (==1.12.3) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: commitizen (==2.28.0) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: termcolor (==1.1.0) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: decli (==0.5.2) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.6") and extra == 'dev'
+Requires-Dist: packaging (==21.3) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.6" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7")) and extra == 'dev'
+Requires-Dist: jinja2 (==3.1.2) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: markupsafe (==2.1.1) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pyyaml (==6.0) ; (python_full_version >= "3.6.2" and python_full_version < "4.0.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pyparsing (==3.0.9) ; (python_full_version >= "3.6.8" and python_full_version < "4.0.0" and python_version >= "3.6") and extra == 'dev'
+Requires-Dist: astroid (==2.11.6) ; (python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: dill (==0.3.5.1) ; (python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; (python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: pylint (==2.14.4) ; (python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: wrapt (==1.14.1) ; (python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: importlib-metadata (==4.12.0) ; (python_version < "3.10" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: tomli (==1.2.3) ; (python_version < "3.11" and python_full_version >= "3.7.2" and python_version >= "3.6") and extra == 'dev'
+Requires-Dist: execnet (==1.9.0) ; (python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: pycodestyle (==2.7.0) ; (python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: pyflakes (==2.3.1) ; (python_version >= "2.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0") and extra == 'dev'
+Requires-Dist: dparse (==0.5.1) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: mypy (==0.910) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: safety (==1.10.3) ; (python_version >= "3.5") and extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; (python_version >= "3.5" and python_full_version >= "3.6.2") and extra == 'dev'
+Requires-Dist: ghp-import (==2.1.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: hypothesis (==5.49.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: mergedeep (==1.3.4) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: mkdocs-material-extensions (==1.0.3) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: mkdocs (==1.3.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: pygments (==2.12.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: pytest (==6.2.5) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: pyyaml-env-tag (==0.1) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: sortedcontainers (==2.4.0) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: watchdog (==2.1.9) ; (python_version >= "3.6") and extra == 'dev'
+Requires-Dist: python-dateutil (==2.8.2) ; (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.3.0" and python_version >= "3.6") and extra == 'dev'
+Requires-Dist: pytest-forked (==1.4.0) ; (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") and extra == 'dev'
+Requires-Dist: lazy-object-proxy (==1.7.1) ; (python_version >= "3.6" and python_full_version >= "3.7.2") and extra == 'dev'
+Requires-Dist: prompt-toolkit (==3.0.30) ; (python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: questionary (==1.10.0) ; (python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: wcwidth (==0.2.5) ; (python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.6.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: tomlkit (==0.11.1) ; (python_version >= "3.6" and python_version < "4.0" and python_full_version >= "3.7.2" and python_full_version < "4.0.0") and extra == 'dev'
+Requires-Dist: bandit (==1.7.4) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: gitdb (==4.0.9) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: gitpython (==3.1.27) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: identify (==2.5.1) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: markdown (==3.3.7) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pbr (==5.9.0) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pre-commit (==2.19.0) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pymdown-extensions (==9.5) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pytest-mock (==3.8.2) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: smmap (==5.0.0) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: stevedore (==3.5.0) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: zipp (==3.8.0) ; (python_version >= "3.7") and extra == 'dev'
+Requires-Dist: urllib3 (==1.26.9) ; (python_version >= "3.7" and python_full_version < "3.0.0" and python_version < "4" or python_full_version >= "3.5.0" and python_version < "4" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: atomicwrites (==1.4.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") or sys_platform == "win32" and python_version >= "3.7" and python_full_version >= "3.4.0" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6")) and extra == 'dev'
+Requires-Dist: attrs (==21.4.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: distlib (==0.3.4) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: filelock (==3.7.1) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: iniconfig (==1.1.1) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: pluggy (==1.0.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: py (==1.11.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: six (==1.16.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: virtualenv (==20.15.1) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: toml (==0.10.2) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7" and python_version < "4") and extra == 'dev'
+Requires-Dist: nodeenv (==1.7.0) ; (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.7.0" and python_version >= "3.7") and extra == 'dev'
+Requires-Dist: click (==8.1.3) ; (python_version >= "3.7" and python_full_version >= "3.6.2") and extra == 'dev'
+Requires-Dist: platformdirs (==2.5.2) ; (python_version >= "3.7" and python_full_version >= "3.7.2" and (python_version >= "3.7" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.7")) and extra == 'dev'
+Requires-Dist: certifi (==2022.6.15) ; (python_version >= "3.7" and python_version < "4") and extra == 'dev'
+Requires-Dist: idna (==3.3) ; (python_version >= "3.7" and python_version < "4") and extra == 'dev'
+Requires-Dist: requests (==2.28.1) ; (python_version >= "3.7" and python_version < "4") and extra == 'dev'
+Requires-Dist: charset-normalizer (==2.1.0) ; (python_version >= "3.7" and python_version < "4" and python_full_version >= "3.6.0") and extra == 'dev'
+Requires-Dist: colorama (==0.4.5) ; (sys_platform == "win32" and python_version >= "3.7" and python_full_version >= "3.7.2" and (python_version >= "3.7" and python_full_version < "3.0.0" and platform_system == "Windows" or platform_system == "Windows" and python_version >= "3.7" and python_full_version >= "3.5.0") and python_full_version < "4.0.0" and (python_version >= "3.7" and python_full_version < "3.0.0" and sys_platform == "win32" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") or sys_platform == "win32" and python_version >= "3.7" and (python_version >= "3.6" and python_full_version < "3.0.0" or python_full_version >= "3.5.0" and python_version >= "3.6") and python_full_version >= "3.5.0") and platform_system == "Windows") and extra == 'dev'
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License:MIT](https://camo.githubusercontent.com/65a1e1765866b3722ff006952b8c7c5f27ad714b26e7fdc60db79ddbc9923303/68747470733a2f2f626c61636b2e72656164746865646f63732e696f2f656e2f737461626c652f5f7374617469632f6c6963656e73652e737667)](https://github.com/hsuanchi/Find-Sitemaps)
+[![PyPi:Find-Sitemap](https://badge.fury.io/py/Find-Sitemap.svg)](https://github.com/hsuanchi/Find-Sitemaps)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+# Find-Sitemap
+
+Find Sitemap is a simple SEO tool to help you find the sitemap.
+
+```
+>>> from Find_Sitemap import FindSitemap
+>>> main = FindSitemap('google.com')
+>>> main.crawl()
+...
+...
+check 13801/13804: https://google.com/xmap.php
+check 13802/13804: https://google.com/xmap.jsp
+check 13803/13804: https://google.com/xmap.asp
+check 13804/13804: https://google.com/xmap.html
+--------------------
+Find sitemap urls len: 1
+Find sitemap urls list: ['https://www.google.com/sitemap.xml']
+```
+
+## Getting Started
+Installing Requests on PyPI:
+```
+$ pip install Find-Sitemap
+```
+
+### Prerequisites
+* [Python](https://www.python.org/downloads/)
+* [requests](https://pypi.org/project/requests/)
+
+## Usage
+1. Show the subdomains, slugs_L1, slugs_L2, filetypes parameters.
+    ```
+    >>> from Find_Sitemap import FindSitemap
+    >>> main = FindSitemap('google.com')
+    >>> main.subdomains
+    {'www.'}
+
+    >>> main.slugs_L1
+    {'/default', '/sitemap', '/feeds', '/api', '/contents' ...}
+
+    >>> main.slugs_L2
+    {'/sitemap', '/stock', '/sitemap1', '/sitemap0', ...}
+
+    >>> main.filetypes
+    {'txt', 'xml', 'xml.gz', 'jsp', 'html', ...}
+    ```
+
+2. Add the subdomains, slugs_L1, slugs_L2, filetypes parameters.
+    ```
+    >>> from Find_Sitemap import FindSitemap
+    >>> main = FindSitemap('google.com')
+    >>> main.subdomains.add("shop.")
+    >>> main.slugs_L1.add("/node")
+    >>> main.slugs_L2.add("/site")
+    >>> main.filetypes.add("xml")
+    ```
+
+3. Remove the subdomains, slugs_L1, slugs_L2, filetypes parameters.
+    ```
+    >>> from Find_Sitemap import FindSitemap
+    >>> main = FindSitemap('google.com')
+    >>> main.subdomains.remove("shop.")
+    >>> main.slugs_L1.remove("/node")
+    >>> main.slugs_L2.remove("/site")
+    >>> main.filetypes.remove("xml")
+    ```
+
+4. Run the crawler.
+    ```
+    >>> from Find_Sitemap import FindSitemap
+    >>> main = FindSitemap('google.com')
+    >>> main.crawl()
+    ...
+    ...
+    check 13801/13804: https://google.com/xmap.php
+    check 13802/13804: https://google.com/xmap.jsp
+    check 13803/13804: https://google.com/xmap.asp
+    check 13804/13804: https://google.com/xmap.html
+    --------------------
+    Find sitemap urls len: 1
+    Find sitemap urls list: ['https://www.google.com/sitemap.xml']
+    ```
+## Contributing
+* See [Contributing](contributing.md)
+
+## Authors
+* Email: <a0025071@gmail.com>
+* Website: [Max 行銷誌](https://www.maxlist.xyz/)
