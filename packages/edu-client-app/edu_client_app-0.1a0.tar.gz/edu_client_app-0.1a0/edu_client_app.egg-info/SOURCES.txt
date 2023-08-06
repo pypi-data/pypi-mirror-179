@@ -1,0 +1,5 @@
+setup.py
+edu_client_app.egg-info/PKG-INFO
+edu_client_app.egg-info/SOURCES.txt
+edu_client_app.egg-info/dependency_links.txt
+edu_client_app.egg-info/top_level.txt
