@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_thinkcellbuilder.py,sha256=nti1V8oNJJ5PvXSvAIBdBrTbfbD8ZG8fBR_ytqV3aF8,17018
+thinkcellbuilder/__init__.py,sha256=_sX3O9ew03Wdm9PzB9gISmmQlkyD-gfs5p8xeJhhQuI,134
+thinkcellbuilder/thinkcellbuilder.py,sha256=zgcwz90SsAHI9dB0opno9qQ6EYN4VLiNHBzLD96y3X4,15836
+ThinkcellBuilder-0.1.0.dist-info/LICENSE,sha256=KlVtacsk-tGJU5y7LE3uEvKdDN7z94tZwO1MLqVlH5I,1067
+ThinkcellBuilder-0.1.0.dist-info/METADATA,sha256=JHOKyd1bYVue91vyVmfDF3g6pk1YF_epj75lt5OCrYo,6719
+ThinkcellBuilder-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ThinkcellBuilder-0.1.0.dist-info/top_level.txt,sha256=Ng92JofcwaXls9kkjEdmZNiXFnyqGKNPNhCs9K4BmT8,23
+ThinkcellBuilder-0.1.0.dist-info/RECORD,,
