@@ -1,0 +1,37 @@
+setup.py
+MadEngine_server_mess.egg-info/PKG-INFO
+MadEngine_server_mess.egg-info/SOURCES.txt
+MadEngine_server_mess.egg-info/dependency_links.txt
+MadEngine_server_mess.egg-info/requires.txt
+MadEngine_server_mess.egg-info/top_level.txt
+server/__init__.py
+server/server_PyQT.py
+server/common/Python_1_test.py
+server/common/__init__.py
+server/common/descriptor.py
+server/common/errors.py
+server/common/utils 2.py
+server/common/utils.py
+server/common/variables.py
+server/logs/__init__.py
+server/logs/client_log_config.py
+server/logs/server_log_config.py
+server/server/__init__.py
+server/server/add_user.py
+server/server/config_window.py
+server/server/main_window.py
+server/server/my_core.py
+server/server/my_socket.py
+server/server/server_DB.py
+server/server/server_qui.py
+server/server/setup.py
+server/server/stat_window.py
+server/tests/__init__.py
+server/tests/test_Python_1_task 2.py
+server/tests/test_Python_1_task.py
+server/tests/test_client 2.py
+server/tests/test_client.py
+server/tests/test_server 2.py
+server/tests/test_server.py
+server/tests/test_utils 2.py
+server/tests/test_utils.py
