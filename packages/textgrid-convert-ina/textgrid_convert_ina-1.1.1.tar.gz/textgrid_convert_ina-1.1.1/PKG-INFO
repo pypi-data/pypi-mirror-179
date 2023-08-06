@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: textgrid_convert_ina
+Version: 1.1.1
+Summary: textgrid-convert converts audio transcripts such as sbv or srt files to Praat and DARLA compatible TextGrids.
+License: MIT
+Requires-Python: >=3.0.0
+
+textgrid-convert converts audio transcripts such as sbv or srt files to Praat and DARLA compatible TextGrids.
