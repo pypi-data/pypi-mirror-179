@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/mongodictpy.egg-info/PKG-INFO
+src/mongodictpy.egg-info/SOURCES.txt
+src/mongodictpy.egg-info/dependency_links.txt
+src/mongodictpy.egg-info/requires.txt
+src/mongodictpy.egg-info/top_level.txt
