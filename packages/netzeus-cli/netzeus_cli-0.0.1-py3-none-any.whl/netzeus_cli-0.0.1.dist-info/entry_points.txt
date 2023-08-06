@@ -1,0 +1,2 @@
+[console_scripts]
+netzeus-cli = netzeus_cli.cli:cli

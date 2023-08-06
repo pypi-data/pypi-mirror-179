@@ -1,0 +1,8 @@
+netzeus_cli/__init__.py,sha256=fuKs2a1a252zGjbwc_SPyBZ-7_dZUvU3cmaoYfgWk08,33
+netzeus_cli/cli.py,sha256=WhhfPJHKTjxVMVrEqiQvvCUVEnZY6alDBdqJAkghuxk,786
+netzeus_cli/settings/__init__.py,sha256=F098g715Pu-hxHNfHeL9bGg0XFnM7ZN9Na0ZrKBdNZ4,205
+netzeus_cli-0.0.1.dist-info/METADATA,sha256=ROS5dJKI06PcB0tyULy3yG2xP8HmaWNcLA4I2MhlnHg,9665
+netzeus_cli-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+netzeus_cli-0.0.1.dist-info/entry_points.txt,sha256=QicSAESizYcvr2JTggDvrzd9nNyyYGB5t7UudohPwJQ,52
+netzeus_cli-0.0.1.dist-info/top_level.txt,sha256=tZTHsArJuXlHf42YM_QKEout2SC7T6EF8H3wjS7UyDU,12
+netzeus_cli-0.0.1.dist-info/RECORD,,
