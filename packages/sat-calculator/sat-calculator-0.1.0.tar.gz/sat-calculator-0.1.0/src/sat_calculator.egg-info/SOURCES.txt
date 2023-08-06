@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/calculator/__init__.py
+src/calculator/app.py
+src/calculator/operation.py
+src/calculator/utils.py
+src/sat_calculator.egg-info/PKG-INFO
+src/sat_calculator.egg-info/SOURCES.txt
+src/sat_calculator.egg-info/dependency_links.txt
+src/sat_calculator.egg-info/entry_points.txt
+src/sat_calculator.egg-info/not-zip-safe
+src/sat_calculator.egg-info/requires.txt
+src/sat_calculator.egg-info/top_level.txt
