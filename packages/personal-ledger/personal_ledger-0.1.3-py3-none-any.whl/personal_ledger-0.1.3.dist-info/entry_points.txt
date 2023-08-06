@@ -1,0 +1,3 @@
+[console_scripts]
+pledger = pledger.main:main
+
