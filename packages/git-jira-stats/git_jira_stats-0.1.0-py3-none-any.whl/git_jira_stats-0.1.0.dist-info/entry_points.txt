@@ -1,0 +1,3 @@
+[console_scripts]
+rtd=git_jira_stats.main:fire_main
+

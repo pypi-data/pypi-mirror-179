@@ -1,0 +1,7 @@
+git_jira_stats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_jira_stats/main.py,sha256=5mBk2wDfVQOr6q7HJmJ7XTHN-4rAyLXKOYQzWpKxzwU,3712
+git_jira_stats/test_main.py,sha256=e9AzqwNolKQCNpM9CSDpC756J3DDEzRrQSDsHBPkMUY,3678
+git_jira_stats-0.1.0.dist-info/entry_points.txt,sha256=rsVXoU05b4QNnQEmMEnlQgT-DT0IrNXsSfgJ1ULh_Wk,53
+git_jira_stats-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+git_jira_stats-0.1.0.dist-info/METADATA,sha256=p09Z3gimjfPWGs25ExK5vYmW8p80Em8yZVOqxF3-sF0,389
+git_jira_stats-0.1.0.dist-info/RECORD,,
