@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: exdelphi
+Version: 0.0.1
+Summary: Python template
+Author-email: exdelphi <hi@exdelphi.com>
+Project-URL: Homepage, https://www.exdelphi.com
+Project-URL: Source Code, https://github.com/exdelphi/exdelphi-py
+Project-URL: Documentation, https://exdelphi.readthedocs.io/en/latest/
+Project-URL: Bug Tracker, https://github.com/exdelphi/exdelphi-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# exdelphi-py
+
+Python client for [EXDELPHI](https://www.exdelphi.com/) API
+
+## Further information
+
+API endpoints are described [here](http://api.exdelphi.com/docs).
+
+## Credits
+
+exdelphi, 2022
