@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vector/__init__.py
+vector/activation.py
+vector/random.py
+vector_ai_ml.egg-info/PKG-INFO
+vector_ai_ml.egg-info/SOURCES.txt
+vector_ai_ml.egg-info/dependency_links.txt
+vector_ai_ml.egg-info/top_level.txt
