@@ -1,0 +1,7 @@
+setup.py
+SelfPack/GNSSReader.py
+SelfPack/__init__.py
+SelfPack.egg-info/PKG-INFO
+SelfPack.egg-info/SOURCES.txt
+SelfPack.egg-info/dependency_links.txt
+SelfPack.egg-info/top_level.txt
