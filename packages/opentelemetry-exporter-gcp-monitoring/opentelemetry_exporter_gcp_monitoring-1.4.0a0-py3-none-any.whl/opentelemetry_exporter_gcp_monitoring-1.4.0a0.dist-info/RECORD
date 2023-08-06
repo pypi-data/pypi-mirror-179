@@ -1,0 +1,9 @@
+opentelemetry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/exporter/cloud_monitoring/__init__.py,sha256=C8QekNyZ5wQc6_qT80XhVESQAIMmy1Z44vNg2JX2Waw,13764
+opentelemetry/exporter/cloud_monitoring/_resource.py,sha256=AUQRE2s6_tK6JbKtGgtSsItLaLwbNfbl9JEl3FteRNs,8089
+opentelemetry/exporter/cloud_monitoring/version.py,sha256=dJ1bsE2SVpMyAvGFvkEi98PmI93DU0fhXlSlFvwnqtY,614
+opentelemetry_exporter_gcp_monitoring-1.4.0a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_exporter_gcp_monitoring-1.4.0a0.dist-info/METADATA,sha256=lJVyfUYk1SU9ZAV_prjuMOmPQSydnAv3kENJRrtJkGE,2888
+opentelemetry_exporter_gcp_monitoring-1.4.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+opentelemetry_exporter_gcp_monitoring-1.4.0a0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_exporter_gcp_monitoring-1.4.0a0.dist-info/RECORD,,
