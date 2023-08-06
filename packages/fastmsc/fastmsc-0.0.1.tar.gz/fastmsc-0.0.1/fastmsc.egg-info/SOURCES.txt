@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+fastmsc/__init__.py
+fastmsc/_modidx.py
+fastmsc/core.py
+fastmsc.egg-info/PKG-INFO
+fastmsc.egg-info/SOURCES.txt
+fastmsc.egg-info/dependency_links.txt
+fastmsc.egg-info/entry_points.txt
+fastmsc.egg-info/not-zip-safe
+fastmsc.egg-info/requires.txt
+fastmsc.egg-info/top_level.txt

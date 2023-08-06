@@ -1,0 +1,7 @@
+numpy
+pandas
+fastcore
+fastai
+
+[dev]
+twine
