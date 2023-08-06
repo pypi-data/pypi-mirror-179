@@ -1,0 +1,5 @@
+setup.py
+pypi_robot_visible.egg-info/PKG-INFO
+pypi_robot_visible.egg-info/SOURCES.txt
+pypi_robot_visible.egg-info/dependency_links.txt
+pypi_robot_visible.egg-info/top_level.txt
