@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libarbitrage/__init__.py
+libarbitrage/lib.py
+libarbitrage.egg-info/PKG-INFO
+libarbitrage.egg-info/SOURCES.txt
+libarbitrage.egg-info/dependency_links.txt
+libarbitrage.egg-info/requires.txt
+libarbitrage.egg-info/top_level.txt

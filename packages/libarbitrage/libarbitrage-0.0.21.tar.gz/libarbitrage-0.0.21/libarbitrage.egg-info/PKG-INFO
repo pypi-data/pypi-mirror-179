@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: libarbitrage
+Version: 0.0.21
+Summary: Analyzing arbitrage opportunities between DEcentralized eXchanges (dex-to-dex)
+Author: f4T1H21 (Şefik Efe Altınoluk)
+Author-email: <sefbey21@gmail.com>
+Project-URL: Source, https://github.com/f4T1H21/Arbitrage-Bot-Code-Library/blob/main/libarbitrage/lib.py
+Project-URL: Homepage, https://github.com/f4T1H21/Arbitrage-Bot-Code-Library
+Project-URL: Documentation, https://github.com/f4T1H21/Arbitrage-Bot-Code-Library#documentation
+Project-URL: Twitter, https://twitter.com/f4T1H21
+Project-URL: Linkedin, https://www.linkedin.com/in/%C5%9Fefik-efe/
+Keywords: python,bot,arbitrage,analyze,arbitrage analyze,dex,dex arbitrage,pyarbitrage,libarbitrage
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+An extensible library allows to analyze DEX-to-DEX arbitrage opportunities autonomously, besides advanced decentralized exchange operations
