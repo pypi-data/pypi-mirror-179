@@ -1,0 +1,26 @@
+{% extends "admin/smart_logging/base.html" %}{% load static i18n %}
+{% block online %}selected{% endblock %}
+{% block left %}
+    <div id="changelist" class="smart-logging">
+    <form>
+        <ul class="logging search-form">
+            {{ form.as_ul }}
+            <li class="float-right sticky">
+                <input type="button" id="clear" value="{% trans "Clear" %}">
+            </li>
+        </ul>
+        <table class="online filtered">
+            <thead>
+            <tr>
+                <th class="rownum">#</th>
+                <th class="timestamp">timestamp</th>
+                <th class="level">level</th>
+                <th class="logger">logger</th>
+                <th class="message">message</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </form>
+    </div>
+{% endblock left %}
