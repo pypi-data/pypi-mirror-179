@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PyRlEnvs-andnp
+Version: 1.2.0
+Summary: A handful of fast environments for running RL experiments
+License: MIT
+Author-email: Andy Patterson <andnpatterson@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: numba>=0.56.4
+Requires-Dist: numpy>=1.23.5
+Requires-Dist: rlglue-andnp>=0.0.6
+Requires-Dist: scipy>=1.9.3
+Description-Content-Type: text/markdown
