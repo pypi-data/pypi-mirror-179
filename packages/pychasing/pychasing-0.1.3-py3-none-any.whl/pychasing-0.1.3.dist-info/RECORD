@@ -1,0 +1,10 @@
+pychasing/__init__.py,sha256=iQ_Up6jtyAcNDVbPVYB_ljGkE5St34oxltKn7NoaIGw,1070
+pychasing/client.py,sha256=smtZFv94iTxZbJoh_GWFnr5wYDynQTPyeqcNJD-bzbE,41237
+pychasing/enums.py,sha256=uPzHJXpCmBwtkW4SkYc5rWmR4pJxrgvL8mpcgVr75Xw,8450
+pychasing/models.py,sha256=sBoNU6ve9N08dSdyrBa57d4RMnllepYd2PuSbawCkko,1098
+pychasing/rate_limit.py,sha256=BSIpaj_FMNsXT1MizYuqnrYxkYcEktOZNoVz9J6m6C8,1994
+pychasing-0.1.3.dist-info/LICENSE,sha256=rj5V8vDULEgL4ngfPi9EdqMfq1b_FCWAoefV9adoH9w,1096
+pychasing-0.1.3.dist-info/METADATA,sha256=kAHNo8EI9jD1UWziwCtWTbXVGVw4dWiLqaUqPOMY0o8,6424
+pychasing-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pychasing-0.1.3.dist-info/top_level.txt,sha256=SudYAshZ4InCLDtPCNdBBFjobIAdHRj3-f34yYEEZ0Y,10
+pychasing-0.1.3.dist-info/RECORD,,
