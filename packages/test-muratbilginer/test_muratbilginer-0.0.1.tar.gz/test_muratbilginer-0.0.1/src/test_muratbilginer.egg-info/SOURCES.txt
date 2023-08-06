@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/test_muratbilginer/__init__.py
+src/test_muratbilginer/example.py
+src/test_muratbilginer.egg-info/PKG-INFO
+src/test_muratbilginer.egg-info/SOURCES.txt
+src/test_muratbilginer.egg-info/dependency_links.txt
+src/test_muratbilginer.egg-info/top_level.txt
