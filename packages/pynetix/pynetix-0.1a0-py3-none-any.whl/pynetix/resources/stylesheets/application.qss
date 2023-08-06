@@ -1,0 +1,69 @@
+* {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: $(EGGSHELL);
+    background-color: $(BLACK);
+}
+
+QStatusBar{
+    font-size: 13px;
+    background-color: $(BLUE);
+}
+
+QStatusBar *{
+    padding: -3px;
+}
+
+QMainWindow{
+    background-color: $(BLACK);
+}
+
+QSplitter::handle{
+    background-color: $(BLACK);
+    border: 0px solid $(BLUE);
+}
+
+QPushButton{
+    background-color: $(GRAY);
+    border: 0px;
+    padding: 3px;
+    text-align:left;
+}
+
+QLabel{
+    padding: 3px;
+}
+
+QTreeView::item:hover{
+    background-color: $(BLUEISH_GRAY);
+}
+
+QTreeView::item:selected{
+    background-color: $(LIGHT_BLUEISH_GRAY);
+}
+
+QScrollBar{
+    background-color: $(BLACK);
+}
+
+QScrollBar::handle{
+    background-color: $(GRAY);
+}
+
+QScrollBar::handle:hover{
+    background-color: $(LIGHT_GRAY);
+}
+
+/* Test purposes 
+
+.QWidget{
+    border: 1px solid red;
+}
+
+QSplitter{
+    border: 1px solid green;
+}
+
+QLabel{
+    border: 1px solid blue;
+}*/
