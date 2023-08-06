@@ -1,0 +1,50 @@
+# Document Information
+
+SPDXVersion: SPDX-1.2
+DataLicense: CC0-1.0
+DocumentName: rich-12.6.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentNamespace: http://spdx.org/spdxdocs/rich-12.6.0-7676d587-ef50-79c5-dc47-0199325d8115
+DocumentComment: <text>This document was created automatically using available information from python packages.</text>
+
+
+# Creation Info
+
+Creator: Person: Will McGugan (willmcgugan@gmail.com)
+Creator: Tool: mbed-spdx-generator
+Created: 2022-12-01T19:00:39Z
+
+
+# Package
+
+PackageName: rich
+SPDXID: SPDXRef-rich
+PackageVersion: 12.6.0
+PackageDownloadLocation: NONE
+PackageSummary: <text>Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal</text>
+PackageFileName: rich
+PackageOriginator: Person: Will McGugan (willmcgugan@gmail.com)
+PackageChecksum: SHA1: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageDescription: <text>NOASSERTION</text>
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageLicenseInfoFromFiles: MIT
+PackageCopyrightText: NOASSERTION
+PackageHomePage: https://github.com/willmcgugan/rich
+
+
+# File
+
+FileName: UNKNOWN
+SPDXID: SPDXRef-ad921d60-4863-6625-8809-553a3db49a4a
+FileType: SOURCE
+FileChecksum: SHA1: 0
+LicenseConcluded: MIT
+LicenseInfoInFile: MIT
+FileCopyrightText: NONE
+FileComment: <text>NONE</text>
+
+
+# Extracted Licenses
+
