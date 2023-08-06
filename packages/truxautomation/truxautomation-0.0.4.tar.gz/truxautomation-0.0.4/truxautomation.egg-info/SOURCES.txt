@@ -1,0 +1,8 @@
+setup.py
+truxautomation/__init__.py
+truxautomation/print.py
+truxautomation.egg-info/PKG-INFO
+truxautomation.egg-info/SOURCES.txt
+truxautomation.egg-info/dependency_links.txt
+truxautomation.egg-info/requires.txt
+truxautomation.egg-info/top_level.txt
