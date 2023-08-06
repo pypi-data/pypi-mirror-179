@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/cotiwallet.egg-info/PKG-INFO
+src/cotiwallet.egg-info/SOURCES.txt
+src/cotiwallet.egg-info/dependency_links.txt
+src/cotiwallet.egg-info/requires.txt
+src/cotiwallet.egg-info/top_level.txt
