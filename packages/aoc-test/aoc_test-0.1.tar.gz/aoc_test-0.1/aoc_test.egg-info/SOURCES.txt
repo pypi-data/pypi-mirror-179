@@ -1,0 +1,9 @@
+README.md
+setup.py
+aoc_test.egg-info/PKG-INFO
+aoc_test.egg-info/SOURCES.txt
+aoc_test.egg-info/dependency_links.txt
+aoc_test.egg-info/not-zip-safe
+aoc_test.egg-info/top_level.txt
+src/aoc_test/__init__.py
+src/aoc_test/aoct
