@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: vEMreg
+Version: 0.1
+Summary: Volume Electron Microscopy REGistration (vEMreg)
+Home-page: https://www.thibault.biz/Research/VolumeEM/vEMreg/vEMreg.html
+Download-URL: https://www.thibault.biz/Doc/vEMreg/vEMreg-0.1.tar.gz
+Author: Guillaume THIBAULT
+Author-email: thibaulg@ohsu.edu
+Maintainer: Guillaume THIBAULT
+Maintainer-email: thibaulg@ohsu.edu
+License: MIT
+Keywords: Registration,Alignment,Electron Microscopy,Volume EM,vEM,FIB-SEM,Focused Ion Beam Scanning Electron Microscop
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Requires-Python: >=3.8,<=3.11
+
+# Volume Electron Microscropy DENoising (vEMden)
+
+This package performs registration (alignment) of volume electron microscopy images. 
+It's a stochastic version of TurboReg/StackReg.
+For installation, more information/details and full examples with code and data, visit:
+https://www.thibault.biz/Research/VolumeEM/vEMreg/vEMreg.html
