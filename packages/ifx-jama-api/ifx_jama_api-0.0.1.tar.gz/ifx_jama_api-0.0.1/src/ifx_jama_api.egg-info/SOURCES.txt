@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+testingArea.py
+src/ifx_jama_api/__init__.py
+src/ifx_jama_api.egg-info/PKG-INFO
+src/ifx_jama_api.egg-info/SOURCES.txt
+src/ifx_jama_api.egg-info/dependency_links.txt
+src/ifx_jama_api.egg-info/requires.txt
+src/ifx_jama_api.egg-info/top_level.txt
