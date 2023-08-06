@@ -1,0 +1,8 @@
+README.md
+setup.py
+mregancs501a10py/CS501_Assignment10.py
+mregancs501a10py/__init__.py
+mregancs501a10py.egg-info/PKG-INFO
+mregancs501a10py.egg-info/SOURCES.txt
+mregancs501a10py.egg-info/dependency_links.txt
+mregancs501a10py.egg-info/top_level.txt
