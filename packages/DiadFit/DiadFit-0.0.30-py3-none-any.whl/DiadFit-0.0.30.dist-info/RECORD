@@ -1,0 +1,14 @@
+DiadFit/H2O_fitting.py,sha256=a4nQF9LtzFEI3CkMJVDf1AxkDrt4R2SYiTtwRG_9zeE,28320
+DiadFit/__init__.py,sha256=K7_TFjvgoMsQGajZFcpdL53m2vGea2BPIPhN0u9Reu0,760
+DiadFit/_version.py,sha256=gQ-tIjcY1xyMFDrcVuUAXEZQDq_RI1fokbpVMd00cac,296
+DiadFit/densimeters.py,sha256=OkTkf7s90E2J2tZwwCNDGQekmorb8q2yjT3Joidxlo8,5313
+DiadFit/density_depth_crustal_profiles.py,sha256=qCjYfiIv-0rtWjVqNjbxqXo3Xw9VdUgv7zDSxEHN12I,12521
+DiadFit/diads.py,sha256=Wtu8eCdJXzWsOPHJDLr73iASE-yGycI5b9f-qC2SnQ8,128007
+DiadFit/error_propagation.py,sha256=kywmp3iWZ0M2HVEqKFDKJduPeQJXv2_LeCzrRQRe3eU,13871
+DiadFit/importing_data_files.py,sha256=aRpR3HNja5wmqcw5pCksKa8qwiUbEnUDrArgOQnMTR4,23354
+DiadFit/ne_lines.py,sha256=IuJi2ZlAkq18vHzgPnRlba-sWOQdH9UB9Jpas-kkUNE,49052
+DiadFit/skewness.py,sha256=gdoyEKhl0v6KiJQgu56lPYR5_ooSF_nAgcLpML8Zwmc,19443
+DiadFit-0.0.30.dist-info/METADATA,sha256=2c15Qr9lcGV89YDTekohSXHrZRk_fVRf9PrQSs0FACY,1132
+DiadFit-0.0.30.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+DiadFit-0.0.30.dist-info/top_level.txt,sha256=yZC6OFLVznaFA5kcPlFPkvhKotcVd-YO4bKxZZw3LQE,8
+DiadFit-0.0.30.dist-info/RECORD,,
