@@ -1,0 +1,12 @@
+spotipy/__init__.py,sha256=NPq8WwbLX6cQETF2B2roHW9K5WzgO8mbQecPCC5VkG4,147
+spotipy/_version.py,sha256=6phs_teiMFXlYjRZHHJJHElOwXq2XLUA2bDPY9cA4bQ,176
+spotipy/hrnet.py,sha256=smsWXreyTRjIj8-to03nkf7ObRX9OEKhQE_lcCNm7fk,5443
+spotipy/model.py,sha256=rMGC-xjkG5BjR2eiWRXIKq5QxSkqCt2g1hYTgjt4JdM,30434
+spotipy/multiscalenet.py,sha256=xkQLDbXRe9M4D4Al_DEMMKd-Pbd6dvRM1ANLaCZYQWM,7170
+spotipy/unetplus.py,sha256=pGlFv9_NPGqUA-yahLfhMR1DKRIEaxd2Hv_G92w8stU,12250
+spotipy/utils.py,sha256=f0-DEk3D1T19b5StEvSm0NAr7gS9ZGpyi1x9ASfpUcc,14681
+spotipy_detector-0.1.0.dist-info/LICENSE,sha256=Bhiqn8PS-oWXhZdUVxyY8wM9GZm8W4FajqucxqgEwm4,1525
+spotipy_detector-0.1.0.dist-info/METADATA,sha256=JD5lz6DMZIH5PS7fC-8v5791rIPNa9ipztkcB0DuT9k,3592
+spotipy_detector-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+spotipy_detector-0.1.0.dist-info/top_level.txt,sha256=dSwjjk5rAZzv_g4EkBg7OkAUjW6k02wB8jjA29BrSa0,8
+spotipy_detector-0.1.0.dist-info/RECORD,,
