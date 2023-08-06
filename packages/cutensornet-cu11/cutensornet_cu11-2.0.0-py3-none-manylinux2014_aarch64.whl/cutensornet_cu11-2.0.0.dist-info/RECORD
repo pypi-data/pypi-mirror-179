@@ -1,0 +1,11 @@
+cuquantum/LICENSE,sha256=ggls9JXP_4o4y4mN_v9h48-YaGQUM5FkJmLQ9y9AlcQ,11004
+cuquantum/distributed_interfaces/activate_mpi.sh,sha256=hUQ35sBvwoO5mLW7vklR_WfQRTQDi6sCfpxvEB-joio,1657
+cuquantum/distributed_interfaces/cutensornet_distributed_interface_mpi.c,sha256=JthOYcbbwSk6OXpNbJsbBGP6Mj12rXN3iAJ9xjbypXE,5273
+cuquantum/include/cutensornet.h,sha256=0rNluzqsMyL8jCnR0otNVWdjOT5w6qNlPbDGx8tQhEY,77942
+cuquantum/include/cutensornet/types.h,sha256=Z3F169JKe8ZFwF16ZA70ZGXeh8Cj1EtklurbrgF-bMc,27267
+cuquantum/include/cutensornet/typesDistributed.h,sha256=MefxVe_KqQZsvQe8RTmXJ7VCLADVoBGsLf9tvK5_kfc,2172
+cuquantum/lib/libcutensornet.so.2,sha256=MjzZgnj_kLXWsy2M_dyViB-0Q93PQ8s65s1MNPRmPBo,4922777
+cutensornet_cu11-2.0.0.dist-info/METADATA,sha256=u83gSQZ5L6aB0KcHVQA5pydIp7xYcOJ6uTY_a5tH794,2257
+cutensornet_cu11-2.0.0.dist-info/WHEEL,sha256=RFAOv--K-F3dgxUbMWvzojEzEpGxCUrj4z2KcvBTKF0,110
+cutensornet_cu11-2.0.0.dist-info/top_level.txt,sha256=Tq6tIi8CZB9154B9shQExluwFkA4mOSbHw_GVcQvjt8,10
+cutensornet_cu11-2.0.0.dist-info/RECORD,,
