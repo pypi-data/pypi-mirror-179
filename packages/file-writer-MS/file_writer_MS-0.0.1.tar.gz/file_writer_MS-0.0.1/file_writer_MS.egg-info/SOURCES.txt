@@ -1,0 +1,7 @@
+setup.py
+file_writer_MS/__init__.py
+file_writer_MS/file_writer_MS.py
+file_writer_MS.egg-info/PKG-INFO
+file_writer_MS.egg-info/SOURCES.txt
+file_writer_MS.egg-info/dependency_links.txt
+file_writer_MS.egg-info/top_level.txt
