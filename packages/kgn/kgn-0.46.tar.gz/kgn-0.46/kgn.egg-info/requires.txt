@@ -1,0 +1,7 @@
+click
+requests
+spacy
+readchar
+
+[test]
+pytest
