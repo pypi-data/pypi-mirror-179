@@ -1,0 +1,9 @@
+{% if not current_user().is_authenticated() %}
+  <h1>you gotta authenticate first!</h1>
+{% else %}
+  <ul>
+    {% for domain, is_admin in current_user().domains %}
+      <li><a href="{{ url_for('powerdns.domain_detail', domain_name=domain) }}">{{ domain }}</a> {% if is_admin %}is_admin!{% endif %}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
