@@ -1,0 +1,9 @@
+setup.py
+a_simple_module.egg-info/PKG-INFO
+a_simple_module.egg-info/SOURCES.txt
+a_simple_module.egg-info/dependency_links.txt
+a_simple_module.egg-info/top_level.txt
+extras/__init__.py
+extras/divide.py
+extras/multiply.py
+extras/power.py
