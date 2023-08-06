@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rhttp
+Version: 0.1.1
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: A http requests library based on requests written in rust, implemented from the ground up.
+
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
