@@ -1,0 +1,9 @@
+cc2imgcap/__init__.py,sha256=E5k_gOj4Pa4W2UtwEZ6qdZA8Ycj6qG8FNHnibWwKsJk,67
+cc2imgcap/main.py,sha256=4A7JpFTD67BDjPtU7byfXLHs_YOBN_HB5Aq1lXGWKIw,6708
+cc2imgcap/spark_session_builder.py,sha256=9oc7D6nmSRWU5uKt6_woCVAUXLGg3WLU8QyEi-AytDc,3590
+cc2imgcap-1.2.0.data/data/README.md,sha256=KgypvvDVJyOwXbMwFSZML7L8l5F6GjLpBDuKETqGiOw,3276
+cc2imgcap-1.2.0.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+cc2imgcap-1.2.0.dist-info/METADATA,sha256=EuzIEViKK1vlYR2lnYSQpRXyHcUyunJD0hjlpnGQ8vo,4071
+cc2imgcap-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cc2imgcap-1.2.0.dist-info/top_level.txt,sha256=RZHQDkRcp5CU_gGinfd_qAfDDZeGOq1x-u6sMPdmVsg,10
+cc2imgcap-1.2.0.dist-info/RECORD,,
