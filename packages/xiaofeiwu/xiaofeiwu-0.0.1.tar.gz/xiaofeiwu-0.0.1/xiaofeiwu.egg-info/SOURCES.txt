@@ -1,0 +1,8 @@
+README.rst
+setup.py
+xiaofeiwu/__init__.py
+xiaofeiwu/lsgoxiaofeiwu.py
+xiaofeiwu.egg-info/PKG-INFO
+xiaofeiwu.egg-info/SOURCES.txt
+xiaofeiwu.egg-info/dependency_links.txt
+xiaofeiwu.egg-info/top_level.txt
