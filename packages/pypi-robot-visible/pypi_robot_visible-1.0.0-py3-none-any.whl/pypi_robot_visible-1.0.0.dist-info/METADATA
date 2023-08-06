@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pypi-robot-visible
+Version: 1.0.0
+Summary: Pypi Visible
+Home-page: https://github.com/tuananht/pypi-robot-visible
+Author: Tuan, LLC
+Author-email: anhtuantatt@gmail.com
+License: UNKNOWN
+Keywords: Tuan,Visible
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pypi Robot Visible
+
