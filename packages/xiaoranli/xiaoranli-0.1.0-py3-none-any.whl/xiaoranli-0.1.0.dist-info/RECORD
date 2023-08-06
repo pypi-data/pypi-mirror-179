@@ -1,0 +1,15 @@
+xiaoranli/__init__.py,sha256=KGAfc4lOIOtF1O_KaR6YSTFG7X-a7dI9lUixDcVDzxI,1415
+xiaoranli/data/rc_files/alias,sha256=uw0D-awccLVoQandcJ_nabKOomQI-BfZsEhIHC5q0mg,231
+xiaoranli/data/rc_files/dockerignore,sha256=fNTcMXrdUU9h9Y0tkLpfQKbLhwRwaVNd-MyP-ycI3sE,75
+xiaoranli/data/rc_files/gdbinit,sha256=Om1pIhhf-_lIfLgx8Gt730W2R4vvZLr05hbgnhNy0Hs,393
+xiaoranli/data/rc_files/gitconfig,sha256=kJZIubN64CoqXqHlHlkof8HzGh0E0KlAWWRHCkpQc6Y,118
+xiaoranli/data/rc_files/inputrc,sha256=LBnvTQA6YANbPWZPboj8cPjf6dWwOETn-Uu24vNrqPY,534
+xiaoranli/data/rc_files/tmux.config,sha256=m0TZ9DBK72V3IXXWir2YqHjLWbuTLwxqkYrhdTvEgRc,153
+xiaoranli/data/rc_files/vimrc,sha256=DYXN0AuKfMf2psj52aqYLflwzuE0nRpHgCeu6g93DB4,319
+xiaoranli/scripts/install_useful_tools.sh,sha256=wadjuyu8vs9h94VBc92jZqX68k8vJtV5f1FMMwMz9oA,973
+xiaoranli-0.1.0.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+xiaoranli-0.1.0.dist-info/METADATA,sha256=0T_6VZR_pdVT98KxRWeA-DThcGHIAiuWLgYGROgD5yg,931
+xiaoranli-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+xiaoranli-0.1.0.dist-info/entry_points.txt,sha256=Ss5QjE_9q15rWXTfHQVRes4lzOdzjOMgq6rMnrvq7tY,46
+xiaoranli-0.1.0.dist-info/top_level.txt,sha256=DjwPuFyAkwL8uNM0Z41wNraAt9-71lDJ8SRwYTqRRcs,10
+xiaoranli-0.1.0.dist-info/RECORD,,

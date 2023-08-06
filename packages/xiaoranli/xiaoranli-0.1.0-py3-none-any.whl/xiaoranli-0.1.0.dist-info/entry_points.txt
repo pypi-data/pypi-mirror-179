@@ -1,0 +1,3 @@
+[console_scripts]
+xiaoranli = xiaoranli:main
+
