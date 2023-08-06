@@ -1,0 +1,10 @@
+cinematips/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cinematips/imdbrating.py,sha256=NAoGgC8a1LCjPBVH6OzfaNWzOJxRxL-NdQ5sOF2QxW0,324
+cinematips/imdbrequest.py,sha256=LjIMVBstIPls_DvFhY_32wZhwYNsiFRYUd8sBKkZU_8,914
+cinematips/movie.py,sha256=4AIPfkPGVl12SjBmYoicMZ1nKnHzFUHeH6-7RsXu8sU,542
+cinematips/response.py,sha256=wjszmONoywDIofEq8rM6snuRKEoquAqiTpp-yA9n1i8,140
+cinematips-0.1.0.dist-info/LICENSE,sha256=cYYrZx0s6ykzj3qBlvhnAhE6QkD04wRR1aJK8HlWMMA,1096
+cinematips-0.1.0.dist-info/METADATA,sha256=QgbmsY46og6DxM5wxUdKJvO-XMTZ7IFRJzc3T46uEww,2715
+cinematips-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cinematips-0.1.0.dist-info/top_level.txt,sha256=CPb4Y4rmWv6gIv9cpbvwkMrjYIf733y6RyWUMxgjJ48,11
+cinematips-0.1.0.dist-info/RECORD,,
