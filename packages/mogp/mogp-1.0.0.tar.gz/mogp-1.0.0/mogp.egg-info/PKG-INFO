@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mogp
+Version: 1.0.0
+Summary: Mixture of Gaussian Processes Model for Sparse Longitudinal Data
+Home-page: https://github.com/fraenkel-lab/mogp
+Author: Divya Ramamoorthy
+Author-email: divyar@mit.edu
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
