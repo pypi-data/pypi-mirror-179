@@ -1,0 +1,6 @@
+README.md
+setup.py
+voicem.egg-info/PKG-INFO
+voicem.egg-info/SOURCES.txt
+voicem.egg-info/dependency_links.txt
+voicem.egg-info/top_level.txt
