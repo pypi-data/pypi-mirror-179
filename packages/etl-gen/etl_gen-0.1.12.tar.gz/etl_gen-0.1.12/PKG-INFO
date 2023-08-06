@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: etl-gen
+Version: 0.1.12
+Summary: 
+Author: realdengziqi
+Author-email: 993396365@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: faker (>=15.3.3,<16.0.0)
+Requires-Dist: kafka-python (>=2.0.2,<3.0.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+
