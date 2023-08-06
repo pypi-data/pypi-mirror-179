@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "undetected_edgedriver"
+version = "3.1.6.2"
+authors = [
+  { name="Plorinaa" },
+]
+dependencies = [
+  "selenium>=4.0.0",
+  "requests",
+  "websockets",
+]
+description = "Undetected EdgeDriver for Selenium based on undetected_chromedriver with some tweaking."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-only"}
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Plorinaa/undetected_edgedriver"
+"Bug Tracker" = "https://github.com/Plorinaa/undetected_edgedriver/issues"

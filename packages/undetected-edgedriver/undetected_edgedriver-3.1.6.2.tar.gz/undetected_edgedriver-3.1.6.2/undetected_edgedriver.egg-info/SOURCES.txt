@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+undetected_edgedriver/__init__.py
+undetected_edgedriver/cdp.py
+undetected_edgedriver/dprocess.py
+undetected_edgedriver/options.py
+undetected_edgedriver/patcher.py
+undetected_edgedriver/reactor.py
+undetected_edgedriver/webelement.py
+undetected_edgedriver.egg-info/PKG-INFO
+undetected_edgedriver.egg-info/SOURCES.txt
+undetected_edgedriver.egg-info/dependency_links.txt
+undetected_edgedriver.egg-info/requires.txt
+undetected_edgedriver.egg-info/top_level.txt
