@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "http-prep"
+version = "0.0.6"
+authors = [
+    { name = "Tanner B. Corcoran", email = "tannerbcorcoran@gmail.com" },
+]
+description = "A tool to easily create complicated and dynamic URLs and headers"
+readme = "README.md"
+requires-python = ">=3.7.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "prepr >= 0.0.6",
+]
+[project.urls]
+"Homepage" = "https://github.com/tanrbobanr/http-prep"

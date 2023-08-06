@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/http_prep.egg-info/PKG-INFO
+src/http_prep.egg-info/SOURCES.txt
+src/http_prep.egg-info/dependency_links.txt
+src/http_prep.egg-info/requires.txt
+src/http_prep.egg-info/top_level.txt
+src/httpprep/Headers.py
+src/httpprep/OverloadDict.py
+src/httpprep/URL.py
+src/httpprep/__init__.py
