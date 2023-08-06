@@ -1,0 +1,3 @@
+[plover.macro]
+retro_stroke = sachac_plover_retro_stroke:retro_stroke
+
