@@ -1,0 +1,14 @@
+itk/RansacPython.py,sha256=_Fe-F5UxBXaxn1lKmVTdK9yXoMSr6cjUqZD1_laaDZc,2633
+itk/_RansacPython.pyd,sha256=CySw38S4EVpfiINK6FMs7DlLdsNEpBPUyaSGQfeXcvo,548864
+itk/__init_ransac__.py,sha256=dMDGv8RBwAkzonLZDSBcqngFY1dW39v9d23CBDRqOQ0,479
+itk/itkRansacPython.py,sha256=877NNTyZ9fa9WiQR6pxXF_CL-csek3bk00jKZKtPp0k,9691
+itk/Configuration/RansacConfig.py,sha256=8tBcdmsXkuG9OlLeYaM382vZDjmhLFPBcuFwhvN7c04,541
+itk/Configuration/Ransac_snake_case.py,sha256=9vod4cFmYt5kmtm1e6v9EGK_ZPA-PDivTkxICPlGqzM,27
+itk_ransac.libs/msvcp140.dll,sha256=hclEPj4JPeoqbyfi5jGk883cudauxlLJdHQkVFDndnU,579912
+itk_ransac.libs/tbb12.dll,sha256=3Ym0FW-dLjEApD2zv1XnQJvS8nxkBRLWEJ6dviOb1Tg,308736
+itk_ransac-0.1.1.dist-info/DELVEWHEEL,sha256=Hc9Tg58mWGGOdtF6gsy7nObcar4Tya6zASwOOsc58Pc,256
+itk_ransac-0.1.1.dist-info/LICENSE,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+itk_ransac-0.1.1.dist-info/METADATA,sha256=qjqCt-8TW2Q6bhM1zpJqbWny_IBLsJO3LeUM_Yk1bWs,1580
+itk_ransac-0.1.1.dist-info/WHEEL,sha256=GU4rI4wMZL-SuzOEUrCTJW4sR5VHkDhKC5wrAAo_TXc,96
+itk_ransac-0.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_ransac-0.1.1.dist-info/RECORD,,
