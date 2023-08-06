@@ -1,0 +1,6 @@
+crcmod==1.7
+fusepy==3.0.1
+kaitaistruct==0.10
+
+[test]
+pytest==7.1.2
