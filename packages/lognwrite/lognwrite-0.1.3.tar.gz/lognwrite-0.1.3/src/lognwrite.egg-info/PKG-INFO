@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: lognwrite
+Version: 0.1.3
+Home-page: https://github.com/malifpy/log-n-write
+Author: Muhammad Alif Putra Yasa
+Author-email: malifputrayasa@gmail.com
+License: MIT
+Keywords: log
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Log N Write
+
+Log function executions and variables. Output to `stdout`.
+
+## Example
+
+Use `log_function` decorator to log functions and `log_variable` to log values.
+
+```python
+from lognwrite.log_to_out import LogToOut
+
+@LogToOut.log_function
+def addition(a, b):
+    LogToOut.log_variable(a, "a")
+    LogToOut.log_variable(b, "b")
+    return a + b
+
+addition(3, 50)
+```
+
+Executing the example will output:
+
+```console
+malifpy@malifpy:~$ python main.py
++ addition( 3, 50 )
+  a = 3
+  b = 50
+- addition -> 53
+```
