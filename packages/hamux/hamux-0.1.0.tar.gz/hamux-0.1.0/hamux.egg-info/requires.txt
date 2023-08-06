@@ -1,0 +1,9 @@
+fastcore
+flax
+treex
+loguru
+jax
+jaxlib
+hypernetx
+
+[dev]
