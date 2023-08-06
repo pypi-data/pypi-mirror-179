@@ -1,0 +1,12 @@
+request_html>=0.10.0
+requests>=0.10.0
+types-requests>=2.27.29
+loguru>=0.6.0
+numpy
+pandas
+
+[converter]
+multimethod>=1.8
+
+[socks]
+PySocks!=1.5.7,>=1.5.6
