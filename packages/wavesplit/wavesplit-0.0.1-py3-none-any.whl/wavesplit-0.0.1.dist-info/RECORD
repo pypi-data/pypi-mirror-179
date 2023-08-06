@@ -1,0 +1,9 @@
+wavesplit/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+wavesplit/_modidx.py,sha256=OIoL2GTz7SSf_YcQAd79ovTwqexqMs_I3UwUYgptqUQ,585
+wavesplit/core.py,sha256=DYIjfO3pglfuF9xojEbzs033HrQ0R2lxOOKAxgUGg3w,1562
+wavesplit-0.0.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+wavesplit-0.0.1.dist-info/METADATA,sha256=kCRG1NFbFT_mePB7cNHEHt6n2IGvJX9VT4waIJS1z3c,1210
+wavesplit-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wavesplit-0.0.1.dist-info/entry_points.txt,sha256=IxcnRUnXlCg-DgK4eb4UjMow7EViVIU6KkBQRdagJKg,125
+wavesplit-0.0.1.dist-info/top_level.txt,sha256=7wPFBrCEWlw0KlMD2c0DDbh3ETvFuHeUNk7MPkeRkIY,10
+wavesplit-0.0.1.dist-info/RECORD,,
