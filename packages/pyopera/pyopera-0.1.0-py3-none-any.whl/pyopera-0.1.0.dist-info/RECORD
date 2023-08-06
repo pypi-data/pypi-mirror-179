@@ -1,0 +1,8 @@
+pyopera/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopera/opera/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyopera/opera/helpers/opera_helpers.py,sha256=_FJnA6zK523ZwST0QQwuq_JBPKUNXIe44ih9TLyb9TQ,379
+pyopera/opera/opera.py,sha256=yQtIb_ecA9i8bd9d7BIvTzwP_ITi9JJ5oc5_uSLprVQ,770
+pyopera-0.1.0.dist-info/LICENSE,sha256=oWY6wb1LypTYVi89LtGGgDJDI7UMnGxoR_Mx-CVkVY4,1086
+pyopera-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pyopera-0.1.0.dist-info/METADATA,sha256=EOOHAA5r1kQRF7UGrNAr79_xGjI-59Ew1XLSAZgh1pA,2178
+pyopera-0.1.0.dist-info/RECORD,,
