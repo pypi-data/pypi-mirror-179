@@ -1,0 +1,59 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+-   repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        name: isort (python)
+        args: ["--python-version", "37", "--profile", "black"]
+-   repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+        args: ["--target-version", "py37"]
+-   repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        additional_dependencies:
+        - flake8-bugbear
+        - flake8-comprehensions
+        - flake8-tidy-imports
+        - flake8-typing-imports
+-   repo: https://github.com/pre-commit/mirrors-mypy
+    rev: 'v0.991'
+    hooks:
+    -   id: mypy
+        additional_dependencies: [types-requests, types-setuptools]
+        args:
+        - --install-types
+        - --non-interactive
+        - --ignore-missing-imports
+        # Disallow dynamic typing
+        - --disallow-any-generics
+        - --disallow-subclassing-any
+
+        # Disallow untyped definitions and calls
+        - --disallow-untyped-defs
+        - --disallow-incomplete-defs
+        - --check-untyped-defs
+
+        # None and optional handling
+        - --no-implicit-optional
+
+        # Configuring warnings
+        - --warn-unused-ignores
+        - --warn-no-return
+        - --no-warn-return-any
+        - --warn-redundant-casts
+
+        # Strict equality
+        - --strict-equality
+
+        # Config file
+        - --warn-unused-configs

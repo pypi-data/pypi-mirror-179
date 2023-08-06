@@ -1,0 +1,8 @@
+click>=8.0
+click-default-group>=1.2
+numpy>=1.19.3
+opencv-python>=4.6
+pydantic>=1.9.1
+pyside6>=6
+requests>=2.26.0
+tqdm>=4.62.3
