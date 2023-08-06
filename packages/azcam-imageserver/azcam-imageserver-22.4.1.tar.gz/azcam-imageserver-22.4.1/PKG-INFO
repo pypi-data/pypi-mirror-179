@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: azcam-imageserver
+Version: 22.4.1
+Summary: Azcam application to create a remote image server which receives images from azcamserver
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Description-Content-Type: text/markdown
+Project-URL: Documentation, https://mplesser.github.io/azcam/
+Project-URL: Repository, https://github.com/mplesser/azcam-imageserver/
+
+# azcam-imageserver
+
+*azcam-imageserver* is an *azcam* application which creates a process to receive an image from a remote system running azcam.
+
+## Installation
+
+`pip install azcam-imageserver`
+
+Or download from github: https://github.com/mplesser/azcam-imageserver.git.
+
+
+## Usage Examples
+
+Command line options are:
+
+- -port *portnumber* (default 6543): set socket port for listening
+- -b: set beep ON when an image is received
+- -v: set verbose mode ON
+- -g: set guide mode ON
+
+```
+azcamimageserver
+or
+azcamimageserver -l 1234 -b -v -g
+or
+python -m imageserver -l 1234 -b -v
+```
+
