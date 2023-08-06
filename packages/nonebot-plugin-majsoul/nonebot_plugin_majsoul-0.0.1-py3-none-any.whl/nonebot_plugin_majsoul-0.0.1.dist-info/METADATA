@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-majsoul
+Version: 0.0.1
+Summary: 
+License: AGPL-3.0
+Author: ssttkkl
+Author-email: huang.wen.long@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: icmplib (>=3.0.3,<4.0.0)
+Requires-Dist: monthdelta (>=0.9.1,<0.10.0)
+Requires-Dist: nonebot2 (>=2.0.0rc1,<3.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+nonebot-plugin-majsoul
+========
+
+受[DaiShengSheng/Majsoul_bot](https://github.com/DaiShengSheng/Majsoul_bot)启发而写的雀魂信息查询 Bot 插件。
+
+## 功能
+
+### 雀魂牌谱屋
+
+- [x] 个人数据查询（可按照时间、按照场数、按照房间类型查询）
+- [ ] 个人最近对局查询
+
+## LICENSE
+
+AGPLv3
+
