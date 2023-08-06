@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: EasyJapanese4Cloud
+Version: 0.0.1
+Summary: copy of easyjapanese, edited for cloud.
+Home-page: https://github.com/yuki-cossy/easyjapanese4cloud
+Author: Yuki Cossy
+Author-email: domokomod5@gmail.com
+Maintainer: Yuki Cossy
+Maintainer-email: domokomod5@gmail.com
+Requires-Python: >=3.6
+Requires-Dist: google-cloud-storage (>=2.6.0)
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: selenium (>=4.7.2)
+Requires-Dist: pandas (>=1.5.2)
+Requires-Dist: numpy (>=1.23.5)
+
+copy of easyjapanese, edited for cloud
