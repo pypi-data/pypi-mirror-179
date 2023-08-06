@@ -1,0 +1,9 @@
+rlim/__init__.py,sha256=AtBN_w8r7j6bN2-uyDjMmOAojWQHSNKI3Wj9nFazMjU,1108
+rlim/_ratelimit.py,sha256=DPlp11n61D6VUZimD3lvL4O6kn7N636oa7O5Q6KZxNE,6845
+rlim/exceptions.py,sha256=GbFtDh0UNGbDIRDQPqob1GW8PT55_wASdQlg5SxK_Aw,224
+rlim/models.py,sha256=vxsT6_NUcA-Nvzjdmb7bbnW8_Km7lEgH9JwTYOJZSHI,1077
+rlim-0.0.1.dist-info/LICENSE,sha256=rj5V8vDULEgL4ngfPi9EdqMfq1b_FCWAoefV9adoH9w,1096
+rlim-0.0.1.dist-info/METADATA,sha256=uUu8Fe1hh4d2Drj6hKz7-oQLiBI2rQJjk4QRbUgbzro,6218
+rlim-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+rlim-0.0.1.dist-info/top_level.txt,sha256=Ch_zRnZVegDNAggfTQ-Qgci7IElyw3j9ltF5AaY0dKI,5
+rlim-0.0.1.dist-info/RECORD,,
