@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: aoc-kit
+Version: 0.1.5
+Summary: Toolkit for advent of code
+Author: Pierre Hoffmeister
+Author-email: pierre.git@posteo.de
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Advent Of Code kit
+
+## Advent of what?
+
+Advent of code is a coding competition during december. 
+[https://adventofcode.com/about](adventofcode.com).
+
+
+## Purpose
+
+With this library it should be easy to get started.
+
+## Getting started
+
+### Create a folder for you aoc adventures:
+
+```
+mkdir aoc
+cd aoc
+```
+
+### Install the `aoc-kit` 
+
+* Pipenv:
+```
+pipenv init
+pipenv install aoc-kit
+```
+
+* Poetry:
+```
+poetry init
+poetry add aoc-kit
+```
+
+* System wide
+```
+pip install --user aoc-kit
+```
+
+### Create a `.env` file
+Within your freshly created aoc folder you have to create a `.env` file with a
+contents like this. You can find the token in your browser. When you are logged
+in you can open the dev tools and find it in the cookies. It is the session
+cookie. Just replace the xxxxxx with your actual token.
+
+`.env`
+```
+AOC_TOKEN=xxxxxx
+```
+
+## Basic usage
+
+### Using the template to get started on a puzzle for a day
+
+Simply run
+```
+poetry run aoc-new-day --year 2022 --day 1
+# or
+pipenv run aoc-new-day --year 2022 --day 1
+# or if you have it installed systemwide
+aoc-new-day --year 2022 --day 1
+```
+This will create a file structure like this
+```
+aoc/
+  2022/
+    01/
+      main.py
+```
+You can implement you solution in `main.py` and run it with:
+```
+pipenv run python 2022/01/main.py
+# or
+poetry run python 2022/01/main.py
+# or
+python 2022/01/main.py
+```
+
+### `get_input` function
+
+The `get_input` will return the downloaded (on first call) puzzle input or
+return a locally saved puzzle input (on all later calls) of the given day and
+year.
+
+```
+from aockit import get_input
+
+def process(data):
+    return 'implement me'
+
+data = get_input(2015, 1)
+result = process(data)
+print(result)
+```
+
