@@ -1,0 +1,3 @@
+[console_scripts]
+cookie-test=cookie_test.__main__:main
+
