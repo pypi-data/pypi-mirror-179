@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "PassKeeperStudent"
+version = "0.0.1"
+authors = [
+	{ name="Matt Bay", email="MJBayUNL@yahoo.com"},
+]
+description = "A student class with some project specific functions and classes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+	    "Programming Language :: Python :: 3",
+	    "License :: OSI Approved :: MIT License",
+	    "Operating System :: OS Independent",
+]
+
+[project.urls]
+
+
