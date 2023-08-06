@@ -1,0 +1,13 @@
+pysdd
+problog
+torch
+torchvision
+
+[approximate]
+pyswip@ git+https://github.com/ML-KULeuven/pyswip.git#egg=pyswip
+
+[examples]
+Pillow
+
+[tests]
+pytest
