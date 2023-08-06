@@ -1,0 +1,10 @@
+setup.py
+seppepi_distributions/Binomialdistribution.py
+seppepi_distributions/Gaussiandistribution.py
+seppepi_distributions/Generaldistribution.py
+seppepi_distributions/__init__.py
+seppepi_distributions.egg-info/PKG-INFO
+seppepi_distributions.egg-info/SOURCES.txt
+seppepi_distributions.egg-info/dependency_links.txt
+seppepi_distributions.egg-info/not-zip-safe
+seppepi_distributions.egg-info/top_level.txt
