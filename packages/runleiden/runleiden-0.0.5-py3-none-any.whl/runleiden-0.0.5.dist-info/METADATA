@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: runleiden
+Version: 0.0.5
+Summary: Wrapper over leidenalg
+Author: runeblaze
+Author-email: runeblaze@excite.co.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: leidenalg (>=0.9.0,<0.10.0)
+Requires-Dist: structlog (>=22.1.0,<23.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+runleiden
+================
+
+Wrapper over `leidenalg`.
+
+## Install
+
+```bash
+poetry install
+poetry shell # activate virtualenv
+```
+
+## Run Script
+
+```bash
+runleiden -i input_edgelist.txt -r resolution_value -o output_communities.txt
+```

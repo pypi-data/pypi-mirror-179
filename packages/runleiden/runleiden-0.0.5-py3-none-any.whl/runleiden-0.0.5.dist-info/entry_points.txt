@@ -1,0 +1,3 @@
+[console_scripts]
+runleiden=runleiden.runleiden:entry_point
+
