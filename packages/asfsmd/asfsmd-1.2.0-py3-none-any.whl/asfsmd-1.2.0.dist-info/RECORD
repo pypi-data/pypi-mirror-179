@@ -1,0 +1,15 @@
+asfsmd/__init__.py,sha256=VWdxf35NxRdV-t2zjh4VIyzYLdB6ds0N3myOyy-_I4c,653
+asfsmd/__main__.py,sha256=MCqj4F2l5NgvkbyEe6lfD6aojBYHZqeU7Dc9IjJyA24,76
+asfsmd/cli.py,sha256=2p7k8DDabwCZY5YYpyywDFqsHjxvMxijZIrlYL9mHCM,8888
+asfsmd/common.py,sha256=XefHCCOHncE5UVqdBTAlXlZIH_LAxFP4Vo-8l120-Ak,402
+asfsmd/core.py,sha256=Xb_2zo3AxKCG2VJgwHqXymlu7dAtVg9PasiaiVUQeug,6081
+asfsmd/fsspec_client.py,sha256=GuTJJzGMxK19r5IvhTRtA-2zFw0LAiCzzvy9HttEhv4,892
+asfsmd/httpio_client.py,sha256=gg2owMlxot0OslBispEIIfylxPWLaVRBwSi7C6g30qA,1965
+asfsmd/remotezip_client.py,sha256=BhtTDuzeIekMbR_pnALhUHbc9sB1jh9NYE-H-9DVIYY,673
+asfsmd-1.2.0.dist-info/LICENSE,sha256=4AHfI4WSf7mhDyeXelvMRoQwZVAPERNrwTs8QjqvKyg,1074
+asfsmd-1.2.0.dist-info/METADATA,sha256=I98ok9HlfhWfl1udWwb2OggbiKHwnqyuX-Aiz7iXYSw,7043
+asfsmd-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+asfsmd-1.2.0.dist-info/entry_points.txt,sha256=_vc4Ibe23EJwtYU0NR0Y9WcidP81er4gVUVipwpvB-8,43
+asfsmd-1.2.0.dist-info/top_level.txt,sha256=0s0TtA59QBMYkiQ4MHy08JlEElbVH9MhbvXLdb2oeOk,7
+asfsmd-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+asfsmd-1.2.0.dist-info/RECORD,,
