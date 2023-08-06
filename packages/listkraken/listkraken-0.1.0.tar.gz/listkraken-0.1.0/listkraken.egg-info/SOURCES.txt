@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+listkraken/__init__.py
+listkraken/faculty.py
+listkraken/registry_data.py
+listkraken/student.py
+listkraken/test.py
+listkraken.egg-info/PKG-INFO
+listkraken.egg-info/SOURCES.txt
+listkraken.egg-info/dependency_links.txt
+listkraken.egg-info/requires.txt
+listkraken.egg-info/top_level.txt
