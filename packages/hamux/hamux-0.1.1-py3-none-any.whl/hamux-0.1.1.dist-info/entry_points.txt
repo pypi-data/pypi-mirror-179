@@ -1,0 +1,2 @@
+[nbdev]
+hamux = hamux._modidx:d
