@@ -1,0 +1,14 @@
+mwconstants/__init__.py,sha256=kXttdlgS53qnqHxId19iFZ3pKneaBZ9Tj8DkJ8OR6jc,469
+mwconstants/languages.py,sha256=6vWlGyZ6VHkCFBj3L8JCQ6RxHjb-_Em4k6pZSTgV2p0,1445
+mwconstants/links.py,sha256=QAuyWp0BYbQaMHD5_rX-0JXxfarGIctcGxQpEY5an8c,473
+mwconstants/media.py,sha256=UZEdB-xV4xh2t8SiqoQGV3yKMKvXCEpCtjjy1kkwI8A,3511
+mwconstants/namespaces.py,sha256=A5mvLDUWL1yr8dHkrQvivND7iAn_q_sKsgSNfZ8-nO0,5878
+mwconstants/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mwconstants/constants/c_languages.py,sha256=-U_zT10qsAVb86yzu-oWnojAngsUN93hwRYiqSp412U,2600
+mwconstants/constants/c_media.py,sha256=BmJI97FkzrUso0JYOQupUUS-7UYvvgnn4EEFxdmv4yU,246738
+mwconstants/constants/c_namespaces.py,sha256=5l9ST0x2_Zvv1u0KuO_btnNyiXdnS1bh-2C5DwQTIks,622410
+mwconstants-0.0.1.dist-info/LICENSE,sha256=LvpaaccZ_-c0QhxjxDSMTLc4eqVwN9zaln108A0N1P0,1073
+mwconstants-0.0.1.dist-info/METADATA,sha256=13LGd8zV3y3siCnk9qNGDvIzPLi6f5ZpuWyHOdjfVBg,2157
+mwconstants-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mwconstants-0.0.1.dist-info/top_level.txt,sha256=QM0Pl7kUq3PG-4xvw_4CyfwzPrLADJkJMB6dUg1H0z4,12
+mwconstants-0.0.1.dist-info/RECORD,,
