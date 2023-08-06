@@ -1,0 +1,13 @@
+README.md
+setup.py
+TeXid/__init__.py
+TeXid/configuration.py
+TeXid/dataloader.py
+TeXid/model.py
+TeXid/pl_wrapper.py
+TeXid/postprocess.py
+TeXid/tokenizer.py
+TeXid.egg-info/PKG-INFO
+TeXid.egg-info/SOURCES.txt
+TeXid.egg-info/dependency_links.txt
+TeXid.egg-info/top_level.txt
