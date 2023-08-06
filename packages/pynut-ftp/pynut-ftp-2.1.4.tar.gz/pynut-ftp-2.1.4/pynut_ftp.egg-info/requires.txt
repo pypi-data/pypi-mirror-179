@@ -1,0 +1,2 @@
+pynut-Files==2.2.2
+paramiko==2.11.0
