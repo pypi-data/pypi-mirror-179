@@ -1,0 +1,14 @@
+PenguinServices/DateRanger.py,sha256=c3_qncscx1O25RTb2fTq30dwFw9WTt85g40JHSZaSpQ,3743
+PenguinServices/FileSystem.py,sha256=J17pFbjisqtZ6tMIZM2F4aIxnSag79QJefm79VSixhs,4685
+PenguinServices/MiscUtils.py,sha256=vzR85FPk49CjESOXWr5L4X-_tIZi-bQ8-pAQVFvmykk,617
+PenguinServices/Networking.py,sha256=MEopOH8jW8gqJgpY_oI8lA4ODsARB_D0Hc2jfvRYcjQ,119
+PenguinServices/OperatingSystem.py,sha256=swwrJm4FQbcKuGsVqJZImHCwjX7JSuE4mYvoSd172ss,148
+PenguinServices/Security.py,sha256=XrDn_zOWh1BXFkGbshcta9555ErCxcM03GjlWIniw7Y,1391
+PenguinServices/ShellAlternatives.py,sha256=b15T0GioSuiwZ_7X0U7keeSlvig5wb0yAQAuqmXR0Ow,2136
+PenguinServices/Terminal.py,sha256=XE4ysC7mRf69rxnQK0XkNW0ksoq3LpvDiijUXH2sZVo,878
+PenguinServices/__init__.py,sha256=-xFo2_kjcwfo8Wo8rY41XWF-ZxmDrV5OFCzGCZ1SG2s,486
+Penguin_Services-2.0.0.dist-info/LICENSE,sha256=uBr-ac1MfmxnzaovoKntc1ElNSIBVYTy5ogR3PpKzT0,1070
+Penguin_Services-2.0.0.dist-info/METADATA,sha256=fRtzbt3Dwz7iWT_MOD_3nsoyRKysC2fHFw7r14FLqJI,3493
+Penguin_Services-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Penguin_Services-2.0.0.dist-info/top_level.txt,sha256=mruCG6eFtjhMGcEr6kK7NgsKzrHTDfulTlj6_vAqCHs,16
+Penguin_Services-2.0.0.dist-info/RECORD,,
