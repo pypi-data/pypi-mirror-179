@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+rella.py
+setup.py
+rella.egg-info/PKG-INFO
+rella.egg-info/SOURCES.txt
+rella.egg-info/dependency_links.txt
+rella.egg-info/not-zip-safe
+rella.egg-info/requires.txt
+rella.egg-info/top_level.txt

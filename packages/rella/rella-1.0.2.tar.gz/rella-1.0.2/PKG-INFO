@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rella
+Version: 1.0.2
+Summary: A simple Python package for tracking events with Rella
+Home-page: https://github.com/rella/python-sdk
+Author: Harry Lucas
+Author-email: harry@rella.so
+License: MIT
