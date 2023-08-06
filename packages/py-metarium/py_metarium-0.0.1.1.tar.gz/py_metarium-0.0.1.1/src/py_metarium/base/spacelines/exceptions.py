@@ -1,0 +1,2 @@
+class SpaceLineConnectionRefusedError(Exception):
+    pass

@@ -1,0 +1,2 @@
+class TimeLineConnectionRefusedError(Exception):
+    pass
