@@ -1,0 +1,191 @@
+Metadata-Version: 2.1
+Name: MyTUI
+Version: 1.0.0
+Summary: Easily create terminal user interface containing menus, text boxes and input fields for your projects
+Author: Paulin-Dev
+Project-URL: Homepage, https://github.com/Paulin-Dev/TUI
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MyTUI
+Terminal User Interface in Python  
+<br>
+## Project Description  
+
+<br>  
+Copyright (c) 2022 Paulin-Dev.  
+
+Contact (Discord) : `Pekkos#9809`
+<br><br>  
+
+MyTUI simplies for both users and developers terminal experience. It is inspired by the interface of the Rasberry Pi Software Configuration Tool (raspi-config). It is fully responsive to work with any terminals' size. It provides quick-to-implement functions to create interfaces such as :
+
+- Text Boxes
+- Menus
+- Input Fields
+- Yes/No Choice
+
+<br>
+Please note that it is still in development. There is no guarantee that everything will perfectly work.      
+
+If you have issues or ideas for this package, please contact the author.  
+<br>  
+
+## Requirements
+<br>
+Python 3 (not tested under version 3.6)
+
+[getkey](https://pypi.org/project/getkey/) Package to get user's input
+
+<br>
+
+## Getting started
+<br>
+You won't need to import extra modules to make it work, simply import the MyTUI class and use its methods to create interfaces. These methods will return the output if there is one. You can then use the user's response to do whatever you want.  
+<br><br>  
+
+
+## Examples
+<br>
+As already mentioned, there are 4 different types of interface available at the moment plus the configuration. Here is how to use them.  
+<br><br>  
+
+###  Config
+
+You can use the `config` method to configurate some options.
+
+```python
+from mytui import MyTUI
+
+MyTUI.config(
+    text_center=True,
+    can_quit=True,
+    quit_key='q'
+)
+```
+
+*You can always change this later*  
+The quit key will exit the program. The `back` string will be returned if the user presses escape.  
+<br><br>
+
+### Text Box
+
+This is the most basic interface, it creates a simple text box with its title and text. Press `Enter` to exit.   
+It returns `None`.
+
+```python
+from mytui import MyTUI
+
+MyTUI.textbox(title="Your Title", text="Your text")
+```
+*you can use `\n` in the text fields*  
+<br>
+
+Output :
+
+<p align="center"><img src="https://imgur.com/mmIF7Eh.png" alt="Text Box Image"></p>
+<br><br>
+
+### Menu
+
+You can use menus to create a list of options. Use the up and down arrows to navigate.  
+It returns the name (`str`) of the selected option.
+
+```python
+from mytui import MyTUI
+
+options = [
+    '1. First option',
+    '2. Second option',
+    '3. Third option'
+]
+
+selected = MyTUI.menu(title="Your Title", text="Your text", options=options)
+
+if selected == options[0]:
+    # do stuff
+```
+<br>
+
+Output :
+
+<p align="center"><img src="https://imgur.com/4zy4Y8j.png" alt="Menu Image"></p>
+<br><br>
+
+### Yes/No Choice
+
+The yes/no interface is basically used to ask yes/no questions the targeted user. Use the left and right arrows or tab to navigate.  
+It returns `True` (`bool`) if the selected answer is "yes" else `False`. 
+
+```python
+from mytui import MyTUI
+
+if MyTUI.yesno(title="Your Title", text="Your question"):
+    # do stuff
+else:
+    # do other stuff
+```
+<br>
+
+Output : 
+
+<p align="center"><img src="https://imgur.com/m2xJcQQ.png" alt="Yes/No Image"></p>
+<br><br>
+
+### Input
+
+Last interface but not least : input fields. You can create input fields to recover a value from your user. All parameters are optional. Press `Enter` to submit your answer.  
+It returns the value (`str`) inside the input field.
+
+```python
+from mytui import MyTUI
+
+output = MyTUI.input(
+    title="Your Title",
+    text="Your text",
+    default_text="",
+    input_size=60,
+    max_length=50,
+    min_length=0,
+    can_delete_default_text=False,
+    allow_spaces=True,
+    only_numeric=False,
+    only_alpha=False
+)
+```
+<br>
+
+Output :
+
+<p align="center"><img src="https://imgur.com/jkWE9Pu.png" alt="Input Image"></p>
+
+<br><br>
+
+## Copyright
+<br>
+
+MIT License
+
+Copyright (c) 2022 Paulin-Dev
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
