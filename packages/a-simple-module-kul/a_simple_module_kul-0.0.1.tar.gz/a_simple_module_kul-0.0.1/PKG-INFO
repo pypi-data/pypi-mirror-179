@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: a_simple_module_kul
+Version: 0.0.1
+Summary: my first python package
+Author: Stijn Dom
+Author-email: stijn.dom@hotmail.be
+Keywords: python,first package,math,university
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+The first python package I ever created, it has functionality to do basic math operations.
