@@ -1,0 +1,4 @@
+{
+  "tests/test_code.py::test_encode": true,
+  "tests/test_code.py::test_reverse_code2": true
+}

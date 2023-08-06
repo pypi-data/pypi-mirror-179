@@ -1,0 +1,10 @@
+[
+  "tests/test_clean.py::test_clear",
+  "tests/test_clear.py::test_clear",
+  "tests/test_code.py::test_decode",
+  "tests/test_code.py::test_encode",
+  "tests/test_code.py::test_errors",
+  "tests/test_code.py::test_reverse_code",
+  "tests/test_code.py::test_reverse_code1",
+  "tests/test_code.py::test_reverse_code2"
+]
