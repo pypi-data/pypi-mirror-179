@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+
+[project]
+name = "basebot22-basebot_JustinGuese"
+authors = [
+  { name="Justin Güse", email="guese.justin@gmail.com" },
+]
+description = "A python package to interact with the tradingbot22 backend. used in tradingbot22-tradingbots"
+readme = "README.md"
+# version = "0.2.5.2"
+dynamic = ["version"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests",
+  "scipy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JustinGuese/tradingbot22-basebot"
+"Bug Tracker" = "https://github.com/JustinGuese/tradingbot22-basebot/issues"
+
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
