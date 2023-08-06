@@ -1,0 +1,10 @@
+pylint_gitlab/__init__.py,sha256=5tkTGZf6MmryJLc4M1hdu4inyARtkgETIs8XXwe6xVw,476
+pylint_gitlab/reporter.py,sha256=DnvaaVKycDnt4TtWpPbr5aYu5RSBVDwS2O5-e0arke8,5307
+pylint_gitlab/templates/report.html.j2,sha256=v108R53dOukzj_k6lh_1GRJ-CrlDbzwFr--PCpL9lrE,2678
+tests/__init__.py,sha256=ExaOzTmVj3W2aOZpi_QC8FlqZH3mnpvFjQMMbBK6jxw,70
+tests/test_reporter.py,sha256=d-7-qB6ZpWH8HQuaEmv6XTgCo7DLdL3-8cTT9GFkvB8,3940
+pylint_gitlab-1.2.0.dist-info/LICENSE,sha256=K0VgBB5daIpTcQtJ6I_nIXI6rvASVc6Nr-cCccnuTUo,1072
+pylint_gitlab-1.2.0.dist-info/METADATA,sha256=oweFnNu8cUCMq6mIheTYsGDMdM61vGmOyZBBaAg0b-8,4863
+pylint_gitlab-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pylint_gitlab-1.2.0.dist-info/top_level.txt,sha256=KkFBXqRkhi2f7-H0J3kAT3Fvl4BZlBjMw3RFSm10fjE,20
+pylint_gitlab-1.2.0.dist-info/RECORD,,
