@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: modian
+Version: 0.3.6
+Summary: Simple python library for Boolean networks
+Author: Loïc Paulevé
+Author-email: loic.pauleve@labri.fr
+License: CeCILL
+Keywords: boolean networks,model checing,teaching
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+
+For teaching purpose

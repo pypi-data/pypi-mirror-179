@@ -1,0 +1,24 @@
+{% set name = "modian" %}
+{% set version = "0.3.5" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  path: ../
+
+build:
+  script: python -m pip install --no-deps --ignore-installed .
+  noarch: python
+
+requirements:
+  host:
+    - python
+    - pip
+
+  run:
+    - python
+    - nusmv
+    - graphviz
+    - pydotplus
