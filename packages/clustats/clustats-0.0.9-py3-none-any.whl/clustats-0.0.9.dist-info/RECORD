@@ -1,0 +1,7 @@
+clustats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clustats/format_latex.py,sha256=mz8mtD8WfJKrsFlHziQZDlQvHL4EokCB2ycOhaYY48Q,991
+clustats/runstats.py,sha256=JMhK7GoYLrF5CpivMhkIYp_SoqT1BmTNGLCXfFuzBUg,3062
+clustats-0.0.9.dist-info/entry_points.txt,sha256=qvZ70EcDyYrNAHNK4tdESdOgMrWvLC1ovolctzAK8yk,107
+clustats-0.0.9.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+clustats-0.0.9.dist-info/METADATA,sha256=e3JiJJyk4Dsr7s_FWzEeCpG_Db6eZXE649DuqHRe56A,676
+clustats-0.0.9.dist-info/RECORD,,
