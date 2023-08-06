@@ -1,0 +1,11 @@
+lotr/__init__.py,sha256=4j453-kkCv7XNwrBYS6D71exS-qG4lEk-TBom2UXiUg,4697
+lotr/_book.py,sha256=EYuotNUEIfJc2DCEbAzCOvjUvStochkiPp4n-B87P3o,231
+lotr/_chapter.py,sha256=Uboql-qDprG-hSgCcTuAU39635Ryk0Upw4oewE9urBw,408
+lotr/_character.py,sha256=TmiOe0IEV2l0MUjs-eQx2jTdFnD0mPlWena47A0FE8U,271
+lotr/_movie.py,sha256=R9sdcqbQ4PT2LnVY7yCp5WJ9Fr7nmZfslhTB_TWg0EI,239
+lotr/_quote.py,sha256=QUeIXQ9LRZOskK3GJlNHRzFdzPoqMk7mFa7AxYkACmg,541
+vinodmsdk-0.0.3.dist-info/LICENSE,sha256=En2snQ_H2OUajAAQ5NTqMsqB24Pddg6-QAG8-TIsDWM,1051
+vinodmsdk-0.0.3.dist-info/METADATA,sha256=QdGk00eYE1nU5QOLk6bsWyy0j5uKLD4erx1FUs3-WgY,4150
+vinodmsdk-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vinodmsdk-0.0.3.dist-info/top_level.txt,sha256=1SxSRljEjY7-CuGVFq-QuKDBSFoYEAzXauzIGUeGksA,5
+vinodmsdk-0.0.3.dist-info/RECORD,,
