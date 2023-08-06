@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+PDFMaster/PDFTableMaster.py
+PDFMaster/__init__.py
+PDFMaster.egg-info/PKG-INFO
+PDFMaster.egg-info/SOURCES.txt
+PDFMaster.egg-info/dependency_links.txt
+PDFMaster.egg-info/top_level.txt
