@@ -1,0 +1,4 @@
+[console_scripts]
+aoc-download=aockit.download:main
+aoc-new-day=aockit.template:main
+
