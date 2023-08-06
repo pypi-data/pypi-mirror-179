@@ -1,0 +1,13 @@
+magicbag/__init__.py,sha256=Uyp6PK8txejoczOOLAg8UIWziuOjkVjBofT6bB25Usk,392
+magicbag/_version.py,sha256=cOQQlSki3QG9Kv_cNfbeJFxp6Yq5gJJnn4EkD0RbGRo,498
+magicbag/check.py,sha256=RkhRdemHMb9N8fEY7D4yoP3OdUMDxj9CgKS1Mvn5s_8,559
+magicbag/mock/__init__.py,sha256=nAU0UjUPwlEhWuFCyjqT4JEzC0BGV8YRi8HTiqBcq8Y,299
+magicbag/mock/date.py,sha256=BJxVMx4bwqvw71Ur6Smb5OFANrvwibPdz7Cgs1Z-jwk,1082
+magicbag/mock/decimal.py,sha256=NflnrOntnUBC_XkCnSsFIZUIKzOhboiFGu4VNKe3IwE,1109
+magicbag/mock/int.py,sha256=ue2KxJCJvY4knyl-a0-P4emo6bi2juX2bBzTnY_eFoc,274
+magicbag/mock/time.py,sha256=meart5dk505t-WUbas-0ebwJo5NbjXH_yPMqh4wjSvc,688
+magicbag-0.0.16.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+magicbag-0.0.16.dist-info/METADATA,sha256=4wYiLpNEyj9lYW8T96FVqGFjPKSqesI6XuZAtzQbIr4,611
+magicbag-0.0.16.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+magicbag-0.0.16.dist-info/top_level.txt,sha256=dY4Gh37k886avHZfFSQuAF9URZeeCfITu9FQo44QeuQ,9
+magicbag-0.0.16.dist-info/RECORD,,
