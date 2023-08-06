@@ -1,0 +1,12 @@
+pandas
+seaborn
+fpdf
+matplotlib
+pathlib
+glob
+os
+string
+random
+re
+PyPDF2
+warnings
