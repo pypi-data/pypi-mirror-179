@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+opentriviadb/__init__.py
+opentriviadb/client.py
+opentriviadb/errors.py
+opentriviadb/questions.py
+opentriviadb.egg-info/PKG-INFO
+opentriviadb.egg-info/SOURCES.txt
+opentriviadb.egg-info/dependency_links.txt
+opentriviadb.egg-info/requires.txt
+opentriviadb.egg-info/top_level.txt
+requirements/base.txt
+requirements/dev.txt
+requirements/docs.txt
