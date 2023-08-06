@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qreader.egg-info/PKG-INFO
+qreader.egg-info/SOURCES.txt
+qreader.egg-info/dependency_links.txt
+qreader.egg-info/requires.txt
+qreader.egg-info/top_level.txt
+yolo_v3/constants.py
+yolo_v3/yolov3_qr_detector.py

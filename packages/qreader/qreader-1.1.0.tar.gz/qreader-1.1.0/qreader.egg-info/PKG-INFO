@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: qreader
+Version: 1.1.0
+Summary: QReader is a very simple and robust QR code detector-decoder for Python.
+Home-page: https://github.com/Eric-Canas/qreader
+Author: Eric Canas
+Author-email: elcorreodeharu@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qreader
+Robust QR reader 
+
+
