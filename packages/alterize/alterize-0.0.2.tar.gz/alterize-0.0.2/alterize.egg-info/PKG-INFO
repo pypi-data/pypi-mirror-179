@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: alterize
+Version: 0.0.2
+Summary: Alter sql tables using SqlAlchmey and Alembic
+Home-page: https://github.com/eddiethedean/alterize
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown

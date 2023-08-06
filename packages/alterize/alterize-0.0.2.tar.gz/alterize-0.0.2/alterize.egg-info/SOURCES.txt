@@ -1,0 +1,10 @@
+README.md
+setup.py
+alterize/__init__.py
+alterize/alter.py
+alterize/exceptions.py
+alterize.egg-info/PKG-INFO
+alterize.egg-info/SOURCES.txt
+alterize.egg-info/dependency_links.txt
+alterize.egg-info/requires.txt
+alterize.egg-info/top_level.txt
