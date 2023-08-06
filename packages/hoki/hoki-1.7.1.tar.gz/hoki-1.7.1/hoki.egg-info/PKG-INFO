@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: hoki
+Version: 1.7.1
+Summary: A Python interface to BPASS - Bridging the gap between observation and theory
+Home-page: https://heloises.github.io/hoki/intro.html
+Author: H. F. Stevance
+Author-email: hfstevance@gmail.com
+License: BSD 3-Clause
+Requires-Python: >=3.7
+Provides-Extra: test
+License-File: LICENSE.rst
+
+Please check the full documentation https://heloises.github.io/hoki/intro.html

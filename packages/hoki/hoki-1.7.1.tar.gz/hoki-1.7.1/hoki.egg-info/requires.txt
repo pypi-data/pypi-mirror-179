@@ -1,0 +1,16 @@
+numpy
+pandas
+matplotlib
+pyyaml
+wheel
+numba
+emcee
+corner
+scipy
+astropy
+specutils
+ppxf
+h5py
+
+[test]
+pytest-astropy
