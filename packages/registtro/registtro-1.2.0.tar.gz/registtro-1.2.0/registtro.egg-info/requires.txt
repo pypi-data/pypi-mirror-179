@@ -1,0 +1,4 @@
+basicco<9,>=8
+tippo<4,>=3
+pyrsistent
+six
