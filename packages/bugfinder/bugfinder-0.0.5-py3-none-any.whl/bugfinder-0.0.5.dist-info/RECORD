@@ -1,0 +1,9 @@
+bugfinder/__init__.py,sha256=3eFGIo_DPwkgGYYVbgF--ahrIyqPJbzU_92G_AGFl3A,1324
+bugfinder/asrsummary.py,sha256=PlLzBiskBszUVhO_z64AluKIKTKUHHvGGgv_fkRNnMQ,2462
+bugfinder/utils.py,sha256=HsTFSisgdiLIToGYvSzaE7p53zUAm_QyfEKBAEmMHNg,213
+bugfinder/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bugfinder-0.0.5.dist-info/METADATA,sha256=UtCS6-8YTtmQOrCmDp-b7NnufRWB611ecnBO60UW5js,385
+bugfinder-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bugfinder-0.0.5.dist-info/entry_points.txt,sha256=-QZLLCgxvX39Nn0puTGaDleohxADVqO6xK1IEcQR-VM,176
+bugfinder-0.0.5.dist-info/top_level.txt,sha256=rYaY5e2sOErUyQmLjPWjiVgH73oBpSb-4yFggHjKGZc,10
+bugfinder-0.0.5.dist-info/RECORD,,
