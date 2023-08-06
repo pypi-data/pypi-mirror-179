@@ -1,0 +1,11 @@
+README.md
+setup.py
+assign3_1/ingest_data.py
+assign3_1/mlflowrun.py
+assign3_1/score.py
+assign3_1/train.py
+assign3_1/assign3_1.egg-info/PKG-INFO
+assign3_1/assign3_1.egg-info/SOURCES.txt
+assign3_1/assign3_1.egg-info/dependency_links.txt
+assign3_1/assign3_1.egg-info/requires.txt
+assign3_1/assign3_1.egg-info/top_level.txt
