@@ -1,0 +1,9 @@
+click
+jpredapi
+numpy
+pandas
+selenium>=4.0
+tabulate
+python-slugify
+matplotlib
+rich
