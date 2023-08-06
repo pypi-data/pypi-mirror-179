@@ -1,0 +1,11 @@
+prefix=/project/build/lib.linux-aarch64-3.6/pylib_fftw3f
+exec_prefix=/project/build/lib.linux-aarch64-3.6/pylib_fftw3f
+libdir=/project/build/lib.linux-aarch64-3.6/pylib_fftw3f/lib64
+includedir=/project/build/lib.linux-aarch64-3.6/pylib_fftw3f/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3f 
+Libs.private: -lm
+Cflags: -I${includedir}
