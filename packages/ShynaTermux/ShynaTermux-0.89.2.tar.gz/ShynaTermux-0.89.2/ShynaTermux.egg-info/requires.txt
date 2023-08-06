@@ -1,0 +1,8 @@
+ShynaTime
+ShynaProcess
+ShynaDatabase
+setuptools
+wheel
+nltk
+python-telegram-bot
+ShynaTelegramBotNotification
