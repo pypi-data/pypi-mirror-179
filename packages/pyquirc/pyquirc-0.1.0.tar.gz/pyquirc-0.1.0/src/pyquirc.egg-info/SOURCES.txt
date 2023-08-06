@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pyquirc.egg-info/PKG-INFO
+src/pyquirc.egg-info/SOURCES.txt
+src/pyquirc.egg-info/dependency_links.txt
+src/pyquirc.egg-info/entry_points.txt
+src/pyquirc.egg-info/requires.txt
+src/pyquirc.egg-info/top_level.txt
+src/quirc/__init__.py
+src/quirc/__main__.py
+src/quirc/tests/__init__.py
+src/quirc/tests/conftest.py
+src/quirc/tests/test_decode.py
+src/quirc/tests/test_low_level.py
