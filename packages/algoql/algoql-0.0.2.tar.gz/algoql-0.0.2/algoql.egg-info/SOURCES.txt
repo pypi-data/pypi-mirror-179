@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+algoql/__init__.py
+algoql/algoql.py
+algoql/algoql.tx
+algoql/algorand.py
+algoql/cli.py
+algoql.egg-info/PKG-INFO
+algoql.egg-info/SOURCES.txt
+algoql.egg-info/dependency_links.txt
+algoql.egg-info/entry_points.txt
+algoql.egg-info/requires.txt
+algoql.egg-info/top_level.txt

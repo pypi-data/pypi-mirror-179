@@ -1,0 +1,2 @@
+[console_scripts]
+algoql = algoql.cli:cli
