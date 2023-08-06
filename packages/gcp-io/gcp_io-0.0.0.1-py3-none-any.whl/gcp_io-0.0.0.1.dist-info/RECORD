@@ -1,0 +1,8 @@
+gcpio/gcs.py,sha256=rlg-FNEonKFMs7nmP5uGnco25D1DJ_RCu5hHuBJ-yJI,1332
+gcpio/gdrive.py,sha256=AVcQ6gThns3nmjcUKZCXYzWKzLZ-rHrXJnceTwiwnjU,10645
+gcpio/settings.py,sha256=TTPk9DNuybmYYO9q_sl5tIvbRKjS24TZnwVUiDzgdKc,269
+gcpio/utils.py,sha256=qkzXQGRabas13ByiLO3htuuuMSN5NkHJsk43ieAcmds,2601
+gcp_io-0.0.0.1.dist-info/METADATA,sha256=aaWKveVE6EVAdc2tavLHI0Uf1ea9Kkdwq5Ad1KrVq3E,2200
+gcp_io-0.0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gcp_io-0.0.0.1.dist-info/top_level.txt,sha256=gV_CAsGjpcQUU6OgeftMlgGYboOAzhml3shrOP-j3C8,56
+gcp_io-0.0.0.1.dist-info/RECORD,,
