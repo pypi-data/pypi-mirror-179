@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pycocosiou
+Version: 1.5
+Summary: Unofficial APIs for the MS-COCO dataset with SIOU evaluation
+Home-page: https://github.com/pierlj/extended_pycocotools
+License: FreeBSD
+Platform: UNKNOWN
+Requires-Python: >=3.5
+
+UNKNOWN
+
