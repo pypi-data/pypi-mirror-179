@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+keywordcloud.egg-info/PKG-INFO
+keywordcloud.egg-info/SOURCES.txt
+keywordcloud.egg-info/dependency_links.txt
+keywordcloud.egg-info/requires.txt
+keywordcloud.egg-info/top_level.txt
