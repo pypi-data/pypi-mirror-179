@@ -1,0 +1,774 @@
+# French translations for lino_presto.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the lino_presto
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lino_presto 0.0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-07-31 11:05+0300\n"
+"PO-Revision-Date: 2018-12-03 11:52+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: lino_presto/lib/cal/models.py:33
+#: lino_presto/lib/presto/config/sales/VatProductInvoice/service_report.weasy.html:20
+msgid "Team"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:34 lino_presto/lib/contacts/models.py:461
+msgid "Teams"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:42 lino_presto/lib/contacts/models.py:152
+msgid "Print"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:219 lino_presto/lib/contacts/models.py:306
+#: lino_presto/lib/contacts/models.py:534
+#: lino_presto/lib/presto/fixtures/demo.py:169
+#: lino_presto/lib/presto/user_types.py:55
+msgid "Worker"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:224
+msgid "Locks all teams"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:236 lino_presto/lib/contacts/models.py:91
+#: lino_presto/lib/contacts/models.py:184
+#: lino_presto/lib/contacts/models.py:260
+#: lino_presto/lib/contacts/models.py:380 lino_presto/lib/presto/models.py:171
+#: lino_presto/lib/sales/models.py:28 lino_presto/lib/users/desktop.py:16
+msgid "General"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:243 lino_presto/lib/sales/models.py:33
+msgid "More"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:261
+msgid "Deployments needing replacement"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:281
+msgid "Find replacement"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:287
+msgid "Comment"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:322
+msgid "External"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:323
+msgid "Internal"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:324
+#: lino_presto/lib/presto/fixtures/demo.py:162
+msgid "Craftsmen"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:325
+msgid "Care staff"
+msgstr ""
+
+#: lino_presto/lib/cal/models.py:326
+#: lino_presto/lib/presto/fixtures/demo.py:190
+msgid "Garden"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:8
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:8
+#: lino_presto/lib/contacts/models.py:35
+msgid "Roster"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:23
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:22
+#: lino_presto/lib/presto/fixtures/demo.py:314
+msgid "Order"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:51
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:48
+msgid "Time"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:52
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:55
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:49
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:52
+#: lino_presto/lib/presto/config/sales/VatProductInvoice/service_report.weasy.html:21
+msgid "Duration"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:53
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:50
+msgid "Address"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:54
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:51
+#: lino_presto/lib/presto/models.py:104 lino_presto/lib/presto/models.py:184
+msgid "Client"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:56
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:53
+msgid "Signature"
+msgstr ""
+
+#: lino_presto/lib/cal/config/cal/Room/roster.weasy.html:58
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:55
+#: lino_presto/lib/contacts/models.py:409
+msgid "Remark"
+msgstr ""
+
+#: lino_presto/lib/cal/fixtures/std.py:22
+msgid "Holidays"
+msgstr ""
+
+#: lino_presto/lib/cal/fixtures/std.py:35
+msgid "Summer holidays"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:33
+msgid "Print a roster of calendar events"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:42
+msgid "Show remarks"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:44
+msgid "Overview"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:112 lino_presto/lib/presto/models.py:189
+msgid "Invoicing"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:189
+#: lino_presto/lib/contacts/models.py:278
+msgid "Contact"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:194
+msgid "Human Links"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:200
+#: lino_presto/lib/contacts/models.py:293
+msgid "Miscellaneous"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:205
+msgid "Calendar"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:307
+msgid "Workers"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:310
+msgid "All workers"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:317
+msgid "Show only workers of this team."
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:342
+msgid "{} : {}"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:400
+msgid "Team membership"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:401
+msgid "Team memberships"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:412
+msgid "{} is member of {}"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:436
+msgid "Members"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:565
+msgid "Weekly view"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:571
+msgid "Daily view"
+msgstr ""
+
+#: lino_presto/lib/contacts/models.py:587
+msgid "Workers planner"
+msgstr ""
+
+#: lino_presto/lib/contacts/config/contacts/Person/roster.weasy.html:36
+msgid "with"
+msgstr ""
+
+#: lino_presto/lib/ledger/models.py:28
+msgid "Orders"
+msgstr ""
+
+#: lino_presto/lib/presto/__init__.py:24
+msgid "Master"
+msgstr ""
+
+#: lino_presto/lib/presto/__init__.py:32
+msgid "Income certificate"
+msgstr ""
+
+#: lino_presto/lib/presto/help_texts.py:7
+msgid "An extended invoicing plan."
+msgstr ""
+
+#: lino_presto/lib/presto/help_texts.py:8
+msgid ""
+"If this field is nonempty, select only enrolments of that\n"
+"given order."
+msgstr ""
+
+#: lino_presto/lib/presto/help_texts.py:10
+msgid "Start an invoicing plan for this order."
+msgstr ""
+
+#: lino_presto/lib/presto/help_texts.py:11
+msgid "See lino.core.plugin.Plugin."
+msgstr ""
+
+#: lino_presto/lib/presto/help_texts.py:12
+msgid "The Django model which represents a worker."
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:48
+msgid "Newcomer"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:49
+msgid "Aktiv"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:50
+msgid "Former"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:54
+msgid "Income category"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:55
+msgid "Income categories"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:89
+msgid "Life mode"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:90
+msgid "Life modes"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:105
+msgid "Clients"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:116
+msgid "Date of death"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:156
+msgid "Primary coach"
+msgstr ""
+
+#: lino_presto/lib/presto/models.py:244
+msgid "Nationality"
+msgstr ""
+
+#: lino_presto/lib/presto/user_types.py:53
+msgid "Anonymous"
+msgstr ""
+
+#: lino_presto/lib/presto/user_types.py:54
+msgid "Secretary"
+msgstr ""
+
+#: lino_presto/lib/presto/user_types.py:56
+msgid "Administrator"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:22
+msgid "Called off"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:23
+msgid "Scheduled"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:32
+msgid "Missed"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:33
+msgid "Client missed the appointment."
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:50
+msgid "Present"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:54
+msgid "Needs replacement"
+msgstr ""
+
+#: lino_presto/lib/presto/workflows.py:55
+msgid "Found replacement"
+msgstr ""
+
+#: lino_presto/lib/presto/config/sales/VatProductInvoice/service_report.weasy.html:8
+#: lino_presto/lib/presto/fixtures/demo.py:96
+msgid "Service report"
+msgstr ""
+
+#: lino_presto/lib/presto/config/sales/VatProductInvoice/service_report.weasy.html:19
+msgid "Date"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:73
+msgid "Health problems"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:74
+msgid "Handicap"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:75
+msgid "Messie"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:77
+msgid "Single"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:78
+msgid "Living together"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:79
+msgid "Married couple"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:80
+msgid "Family with children"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:81
+msgid "Three-generation household"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:82
+msgid "Single with children"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:84
+msgid "By presence"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:87
+msgid "Maximum 10"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:117
+msgid "Employment office"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:131
+msgid "Landlord"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:132
+msgid "Wealth manager"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:133
+msgid "Personal manager"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:134
+msgid "Delegated contact"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:137
+msgid "Sales on services"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:142
+msgid "Fees"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:145
+msgid "Consuming items"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:152
+msgid "Deployment"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:154
+msgid "Outside work"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:158
+#: lino_presto/lib/presto/fixtures/demo.py:198
+msgid "Home care"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:166
+msgid "Office work"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:171
+msgid "Guest"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:192
+msgid "Moves"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:194
+msgid "Renovation"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:196
+msgid "Home help"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:200
+msgid "Office"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:210
+msgid "Washing per Kg"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:214
+msgid "Work by hour"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:225
+msgid "Travel per Km"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:229
+msgid "Other consuming items"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:233
+msgid "Other"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/demo.py:305
+msgid "Manual invoices"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/std.py:23
+msgid "Cost estimate"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/std.py:29
+msgid "Order sheet"
+msgstr ""
+
+#: lino_presto/lib/presto/fixtures/std.py:35
+msgid "Week planner"
+msgstr ""
+
+#: lino_presto/lib/products/models.py:9
+msgid "Services"
+msgstr ""
+
+#: lino_presto/lib/products/models.py:10
+msgid "Furniture"
+msgstr ""
+
+#: lino_presto/lib/sales/models.py:23
+msgid "Header"
+msgstr ""
+
+#: lino_presto/lib/sales/models.py:38
+msgid "Ledger"
+msgstr ""
+
+#: lino_presto/lib/sales/models.py:65
+msgid "Our reference"
+msgstr ""
+
+#: lino_presto/lib/sales/models.py:67 lino_presto/lib/sales/models.py:69
+msgid "Total amount"
+msgstr ""
+
+#~ msgid "Invoice recipient in dossiers"
+#~ msgstr ""
+
+#~ msgid "{} appointments"
+#~ msgstr ""
+
+#~ msgid "Dossier"
+#~ msgstr ""
+
+#~ msgid "Dossiers"
+#~ msgstr ""
+
+#~ msgid "Contracts"
+#~ msgstr ""
+
+#~ msgid "Garden contracts"
+#~ msgstr ""
+
+#~ msgid "Active"
+#~ msgstr ""
+
+#~ msgid "Closed"
+#~ msgstr ""
+
+#~ msgid "Inactive"
+#~ msgstr ""
+
+#~ msgid "Cancelled"
+#~ msgstr ""
+
+#~ msgid "Forwarded"
+#~ msgstr ""
+
+#~ msgid "Draft"
+#~ msgstr ""
+
+#~ msgid "Confirmed"
+#~ msgstr ""
+
+#~ msgid "First contact"
+#~ msgstr ""
+
+#~ msgid "Trying"
+#~ msgstr ""
+
+#~ msgid "Invoicing policy"
+#~ msgstr ""
+
+#~ msgid "Invoicing policies"
+#~ msgstr ""
+
+#~ msgid "By calendar event"
+#~ msgstr ""
+
+#~ msgid "Residence"
+#~ msgstr ""
+
+#~ msgid "Residences"
+#~ msgstr ""
+
+#~ msgid "Household composition"
+#~ msgstr ""
+
+#~ msgid "Household compositions"
+#~ msgstr ""
+
+#~ msgid "Price factor"
+#~ msgstr ""
+
+#~ msgid "Price factors"
+#~ msgstr ""
+
+#~ msgid "Inside"
+#~ msgstr ""
+
+#~ msgid "Outside"
+#~ msgstr ""
+
+#~ msgid "Alone"
+#~ msgstr ""
+
+#~ msgid "2 members"
+#~ msgstr ""
+
+#~ msgid "3 members"
+#~ msgstr ""
+
+#~ msgid "Below 900"
+#~ msgstr ""
+
+#~ msgid "900-1100"
+#~ msgstr ""
+
+#~ msgid "1100-1300"
+#~ msgstr ""
+
+#~ msgid "1300-1800"
+#~ msgstr ""
+
+#~ msgid "Above 1800"
+#~ msgstr ""
+
+#~ msgid "Add a colleague"
+#~ msgstr ""
+
+#~ msgid "Enrolments using this fee"
+#~ msgstr ""
+
+#~ msgid "Appointments"
+#~ msgstr ""
+
+#~ msgid "More"
+#~ msgstr ""
+
+#~ msgid "Invoice recipient in contracts"
+#~ msgstr ""
+
+#~ msgid "My {}"
+#~ msgstr ""
+
+#~ msgid "Contract type"
+#~ msgstr ""
+
+#~ msgid "Contract types"
+#~ msgstr ""
+
+#~ msgid "{} with {} on {}"
+#~ msgstr ""
+
+#~ msgid "{} deployments"
+#~ msgstr ""
+
+#~ msgid "Contract"
+#~ msgstr ""
+
+#~ msgid "Attendance fee"
+#~ msgstr ""
+
+#~ msgid "Invoice recipient"
+#~ msgstr ""
+
+#~ msgid "Patient"
+#~ msgstr ""
+
+#~ msgid "Household"
+#~ msgstr ""
+
+#~ msgid "Organization"
+#~ msgstr ""
+
+#~ msgid "Manager"
+#~ msgstr ""
+
+#~ msgid "Role"
+#~ msgstr ""
+
+#~ msgid "Participant"
+#~ msgstr ""
+
+#~ msgid "Phone: {0}"
+#~ msgstr ""
+
+#~ msgid "GSM: {0}"
+#~ msgstr ""
+
+#~ msgid "Payment info"
+#~ msgstr ""
+
+#~ msgid "Fee rule"
+#~ msgstr ""
+
+#~ msgid "Fee rules"
+#~ msgstr ""
+
+#~ msgid "Time"
+#~ msgstr ""
+
+#~ msgid "Date"
+#~ msgstr ""
+
+#~ msgid "Your start date"
+#~ msgstr ""
+
+#~ msgid "Scheduled dates"
+#~ msgstr ""
+
+#~ msgid "Defines and instantiates a demo version of Lino Care."
+#~ msgstr ""
+
+#~ msgid "Student"
+#~ msgstr ""
+
+#~ msgid "Missions"
+#~ msgstr ""
+
+#~ msgid "House works"
+#~ msgstr ""
+
+#~ msgid "Garden works"
+#~ msgstr ""
+
+#~ msgid "isikukood"
+#~ msgstr ""
+
+#~ msgid "Deployment plan"
+#~ msgstr ""
+
+#~ msgid "Show states"
+#~ msgstr ""
+
+#~ msgid "Workers calendar"
+#~ msgstr ""
+
+#~ msgid "%(details)s in %(master)s"
+#~ msgstr ""
+
+#~ msgid "Members"
+#~ msgstr ""
+
+#~ msgid "Name"
+#~ msgstr ""
+
+#~ msgid "Guest missed the appointment."
+#~ msgstr ""
+
+#~ msgid "Planned"
+#~ msgstr ""
+
+#~ msgid "Memberships"
+#~ msgstr ""
+
+#~ msgid "Inside work"
+#~ msgstr ""
+
+#~ msgid "Ironing of a shirt"
+#~ msgstr ""
+
+#~ msgid "Ironing of a pair of trousers"
+#~ msgstr ""
+
+#~ msgid "Ironing of a skirt"
+#~ msgstr ""
+
+#~ msgid "Purchases"
+#~ msgstr ""
+

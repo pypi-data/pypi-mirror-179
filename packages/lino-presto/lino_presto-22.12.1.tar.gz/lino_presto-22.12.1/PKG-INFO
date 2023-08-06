@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: lino_presto
+Version: 22.12.1
+Summary: A Lino for managing services
+Home-page: https://gitlab.com/lino-framework/presto
+Author: Rumma & Ko Ltd
+Author-email: info@lino-framework.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier:   Programming Language :: Python
+Classifier:   Programming Language :: Python :: 3
+Classifier:   Development Status :: 4 - Beta
+Classifier:   Environment :: Web Environment
+Classifier:   Framework :: Django
+Classifier:   Intended Audience :: Developers
+Classifier:   Intended Audience :: System Administrators
+Classifier:   License :: OSI Approved :: GNU Affero General Public License v3
+Classifier:   Natural Language :: English
+Classifier:   Natural Language :: French
+Classifier:   Natural Language :: German
+Classifier:   Operating System :: OS Independent
+Classifier:   Topic :: Database :: Front-Ends
+Classifier:   Topic :: Home Automation
+Classifier:   Topic :: Office/Business
+License-File: COPYING
+
+
+Lino Presto is an application for managing services with physical on-site
+presence of the workers.  Deployments can be either individually scheduled or
+recurring based on contracts.  Integrated calendar and contacts. Automatically
+generate invoices based on calendar entries.   Optional functionalities include
+accounting (payments, purchases, general ledger, VAT declarations).
+
+- Project homepage: http://presto.lino-framework.org
+
+- Documentation: https://lino-framework.gitlab.io/presto/
+
+- Commercial information: https://www.saffre-rumma.net
+
+The name "Presto" originally comes from "prestations de service", the French
+expression for service providement.  It also means "quick" in Italian.
+
+
+
