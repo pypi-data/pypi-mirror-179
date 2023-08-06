@@ -1,0 +1,4 @@
+google-cloud-texttospeech
+indic_transliteration>=2.3.27
+pydub
+requests
