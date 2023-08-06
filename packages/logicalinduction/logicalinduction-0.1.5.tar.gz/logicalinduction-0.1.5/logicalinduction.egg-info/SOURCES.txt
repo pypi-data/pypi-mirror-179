@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+logicalinduction/__init__.py
+logicalinduction/credence.py
+logicalinduction/enumerator.py
+logicalinduction/enumerator_test.py
+logicalinduction/formula.py
+logicalinduction/inductor.py
+logicalinduction/inductor_test.py
+logicalinduction/sentence.py
+logicalinduction/sentence_test.py
+logicalinduction.egg-info/PKG-INFO
+logicalinduction.egg-info/SOURCES.txt
+logicalinduction.egg-info/dependency_links.txt
+logicalinduction.egg-info/top_level.txt
