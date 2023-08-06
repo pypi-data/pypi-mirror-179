@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: calc_tt
+Version: 0.12
+Summary: A simple CLI calculator
+Author-email: Tomas Timinskas <tatiminskas@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, http://github.com/alzyras
