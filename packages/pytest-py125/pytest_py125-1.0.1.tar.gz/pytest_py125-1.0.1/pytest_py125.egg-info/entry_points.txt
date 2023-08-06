@@ -1,0 +1,3 @@
+[pytest11]
+pytest_py125 = src.pytest_py125
+
