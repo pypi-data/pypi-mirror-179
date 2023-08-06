@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sahale
+Version: 0.0.1
+Summary: Python sdk for sahale
+Project-URL: Homepage, https://github.com/sahaleio/sdk-python
+Project-URL: Bug Tracker, https://github.com/sahaleio/sdk-python/issues
+Author-email: Jessie Young <jessie@sahale.io>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# sdk-python
+Python SDK for Sahale
+
+Activating the virtual environment:
+`source env/bin/activate`
+
+Installing new dependencies:
+`pip install blah` (no need for pip3)
+
+Viewing all installed dependencies:
+`pip list`
+or 
+`pip freeze > requirements.txt`
+
+Deactivating virtual environment
+`deactivate`
