@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-openai
+Version: 0.0.1
+Summary: A plugin for nonebot to chat
+Home-page: https://github.com/InariInDream/nonebot_plugin_openai
+Author: InariInDream
+Author-email: inariindream@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
