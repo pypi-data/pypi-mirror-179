@@ -1,0 +1,2 @@
+[mlflow.deployments]
+openshift = mlflow_openshift
