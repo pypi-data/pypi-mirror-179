@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: mfpymake
+Version: 1.2.6
+Summary: pymake is a Python package to compile MODFLOW-based models.
+Home-page: https://github.com/modflowpy/pymake
+Download-URL: https://pypi.org/project/mfpymake
+Author: Joseph D. Hughes
+Author-email: modflow@usgs.gov
+Maintainer: Joseph D. Hughes
+Maintainer-email: jdhughes@usgs.gov
+License: CC0
+Project-URL: Documentation, https://mfpymake.readthedocs.io
+Project-URL: Bug Tracker, https://github.com/modflowpy/pymake/issues
+Project-URL: Source Code, https://github.com/modflowpy/pymake
+Keywords: MODFLOW,groundwater,hydrogeology
+Platform: Windows
+Platform: Mac OS-X
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: networkx (>=2.6.3)
+Requires-Dist: meson
+Requires-Dist: ninja
+Requires-Dist: pydotplus
+
+License
+=======
+
+Unless otherwise noted, This project is in the public domain in the United
+States because it contains materials that originally came from the United
+States Geological Survey, an agency of the United States Department of
+Interior. For more information, see the official USGS copyright policy at
+https://www2.usgs.gov/visual-id/credit_usgs.html#copyright
+
+Additionally, we waive copyright and related rights in the work worldwide
+through the CC0 1.0 Universal public domain dedication.
+
+CC0 1.0 Universal Summary
+-------------------------
+
+This is a human-readable summary of the
+[Legal Code (read the full text)][1].
+
+### No Copyright
+
+The person who associated a work with this deed has dedicated the work to the
+public domain by waiving all of his or her rights to the work worldwide under
+copyright law, including all related and neighboring rights, to the extent
+allowed by law.
+
+You can copy, modify, distribute and perform the work, even for commercial
+purposes, all without asking permission.
+
+### Other Information
+
+In no way are the patent or trademark rights of any person affected by CC0, nor
+are the rights that other persons may have in the work or in how the work is
+used, such as publicity or privacy rights.
+
+Unless expressly stated otherwise, the person who associated a work with this
+deed makes no warranties about the work, and disclaims liability for all uses
+of the work, to the fullest extent permitted by applicable law. When using or
+citing the work, you should not imply endorsement by the author or the
+affirmer.
+[1]: https://creativecommons.org/publicdomain/zero/1.0/legalcode
