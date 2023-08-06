@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cbasyncio
+Version: 0.0.1
+Summary: 
+Author: Bryan Matteson
+Author-email: bryan@matteson.dev
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: uvloop
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: typing-extensions (>=4.2.0,<5.0.0)
+Requires-Dist: uvloop (>=0.16.0,<0.17.0); extra == "uvloop"
+Description-Content-Type: text/markdown
+
+## cbasyncio - Usefule async utilties
+
+A useful collection of asyncio tools
+
+Features
+--------
+
+* Async binary and file i/o
+* Taskgroups (backported from python 3.11)
+* Channels (`go` style)
+* Context groups
+* async `itertools` functions (`map`, `filter`, `chain`, etc.)
