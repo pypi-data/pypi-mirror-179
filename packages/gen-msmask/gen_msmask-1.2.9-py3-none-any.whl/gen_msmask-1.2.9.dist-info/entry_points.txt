@@ -1,0 +1,2 @@
+[console_scripts]
+genmask = gen_msmask.gen_mask:main
