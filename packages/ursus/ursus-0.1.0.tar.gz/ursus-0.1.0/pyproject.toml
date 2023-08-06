@@ -1,0 +1,86 @@
+[tool.poetry]
+name = "ursus"
+version = "0.1.0"
+description = "PowerDNS control panel"
+authors = ["Quark <quark@whiisker.net>"]
+license = "BSD-3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+quart = "^0.18.3"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+flake8 = "^5.0.4"
+flake8-docstrings = "^1.6.0"
+tox = "^3.27.1"
+tox-poetry = "^0.4.1"
+flake8-pyproject = "^1.2.0"
+pytest = "^7.2.0"
+coverage = "^6.5.0"
+pydoctor = "^22.9.1"
+isort = "^5.10.1"
+pytest-mock = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 99
+per-file-ignores = [
+    '*:D107',
+    'tests/*:D100,D101,D102,D103',
+]
+
+[tool.mypy]
+strict_optional = true
+mypy_path = "stubs"
+
+disallow_any_generics = true
+disallow_any_unimported = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unused_ignores = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.coverage.report]
+exclude_lines = [
+    # Have to re-enable the standard pragma
+    "pragma: no cover",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise NotImplementedError",
+]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py310, py311, docs, flake8, mypy
+
+[testenv]
+commands =
+    coverage run --branch --source=ursus -m py.test
+    coverage report -m
+
+[testenv:docs]
+commands =
+    pydoctor --make-html --html-output=docs/ ursus/
+
+[testenv:flake8]
+commands =
+    flake8 ursus tests
+
+[testenv:mypy]
+commands =
+    mypy -p ursus
+"""
