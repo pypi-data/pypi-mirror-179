@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Generated from README.md by `gendoc` for watchpylint -->
+<html>
+<head>
+  <title>watchpylint</title>
+  <style type="text/css">
+    body {
+      font-family: sans-serif;
+    }
+    h1, h2, h3 {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      border-bottom: 1px solid #eee;
+    }
+    h2, h3 {
+      margin-top: 1.5em;
+    }
+    pre {
+      margin-left: 30px;
+      margin-right: 30px;
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 3px 3px 3px 3px;
+    }
+    p > code {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 3px 3px 3px 3px;
+    }
+  </style>
+</head>
+  <body>
+<h1>watchpylint</h1>
+
+<p>A simple utility script which watches for changes in the given Python files, and runs
+<code>pylint</code> on them. It then groups the output together by message type and saves the output
+to a file.</p>
+
+<p>It will run lint processes in parallel (up to 8), and also has an option to wait for
+output to be available before printing it. That allows you to set <code>watchpylint -w
+lint.txt</code> as your editor's linter or compiler for easy browsing of the output.</p>
+
+<h2>Example</h2>
+
+<p><code>
+cd ~/py/myproject
+watchpylint *.py -o lint.txt
+</code></p>
+
+<p>Then, in <code>emacs</code>:</p>
+
+<p><code>
+M-x compile
+watchpylint -w lint.txt
+</code></p>
+  </body>
+</html>

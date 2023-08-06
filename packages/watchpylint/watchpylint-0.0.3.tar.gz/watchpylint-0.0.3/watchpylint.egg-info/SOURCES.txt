@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.html
+README.md
+gendoc
+pyproject.toml
+setup.cfg
+watchpylint
+watchpylint.egg-info/PKG-INFO
+watchpylint.egg-info/SOURCES.txt
+watchpylint.egg-info/dependency_links.txt
+watchpylint.egg-info/requires.txt
+watchpylint.egg-info/top_level.txt
