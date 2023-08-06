@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: music_fsl
+Version: 0.1.2
+Summary: Few-shot learning for music instrument recognition using PyTorch
+Home-page: https://blog.godatadriven.com/setup-py
+Author: Hugo Flores García
+Author-email: hugofloresgarcia@u.northwestern.edu
+License-File: LICENSE
