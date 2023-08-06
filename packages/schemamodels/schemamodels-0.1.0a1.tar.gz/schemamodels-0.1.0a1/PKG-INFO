@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: schemamodels
+Version: 0.1.0a1
+Summary: Dynamically create useful data classes from JSON schemas
+License: LGPL-3.0
+Author: 'Jurnell Cockhren'
+Author-email: jurnell@civichacker.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
