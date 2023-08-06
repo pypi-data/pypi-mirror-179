@@ -1,0 +1,2 @@
+[console_scripts]
+lf_to_gtif = scripts.lf_to_gtif:lf_to_gtif
