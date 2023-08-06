@@ -1,0 +1,76 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pandas-sphinx"
+description = "Render a pandas DataFrame as an opinionated table for Sphinx."
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+authors = [{ name = "João Palmeiro", email = "jm.palmeiro@campus.fct.unl.pt" }]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = ["pandas>=1.3.4", "tabulate"]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://github.com/joaopalmeiro/pandas-sphinx#readme"
+Issues = "https://github.com/joaopalmeiro/pandas-sphinx/issues"
+Source = "https://github.com/joaopalmeiro/pandas-sphinx"
+
+[tool.hatch.version]
+# path = "pandas_sphinx/__init__.py"
+path = "pandas_sphinx/version.py"
+
+# https://github.com/dzhu/rstfmt
+# https://github.com/LilSpazJoekp/docstrfmt
+[tool.hatch.envs.format]
+detached = true
+dependencies = ["black", "isort", "rstfmt"]
+
+[tool.hatch.envs.format.scripts]
+i = "isort --profile black ."
+b = "black ."
+r = "rstfmt docs/ --verbose"
+check = "pip list"
+
+[tool.hatch.envs.lint]
+detached = true
+dependencies = ["interrogate", "darglint"]
+
+[tool.hatch.envs.lint.scripts]
+i = "interrogate -vv ."
+ib = "interrogate --generate-badge assets/ --badge-style flat"
+d = "darglint -v 2 -s numpy ."
+check = "pip list"
+
+# https://github.com/pypa/hatch/blob/hatch-v1.6.3/pyproject.toml#L72
+# https://hatch.pypa.io/1.6/build/#configuration
+[tool.hatch.build.targets.sdist]
+exclude = [".github/", ".vscode/", "assets/", "dev.py", "docs/"]
+
+# https://github.com/cjolowicz/cookiecutter-hypermodern-python/blob/main/%7B%7Bcookiecutter.project_name%7D%7D/pyproject.toml#L27
+[tool.hatch.envs.docs]
+dependencies = ["sphinx", "sphinx-rtd-theme", "sphinx-copybutton"]
+
+# https://www.sphinx-doc.org/en/master/man/sphinx-build.html
+# https://github.com/cjolowicz/cookiecutter-hypermodern-python/blob/main/%7B%7Bcookiecutter.project_name%7D%7D/noxfile.py#L208
+[tool.hatch.envs.docs.scripts]
+clean = "rm -rf docs/_build"
+build = "sphinx-build -b html -W docs docs/_build"
+open = "python -m http.server --directory docs/_build"
+check = "pip list"
