@@ -1,0 +1,12 @@
+bda.intellidatetime-1.4-nspkg.pth,sha256=-_xjzkgZx35hWwLgKl24hcdnM5_fqksJWVNIyTTNpQk,524
+bda/intellidatetime/__init__.py,sha256=NMFqM4GSBM2op9TpoOIYNLOi8iXozxR6NKUiaU2WY4I,349
+bda/intellidatetime/configure.zcml,sha256=mdwuh-qBGad3L_xjEgc48IhNvI1emv1hrOgIdOf_eNo,214
+bda/intellidatetime/converter.py,sha256=uIAJelfElXOv6b7laG6I1ZpD97h3QfAeyywUJschfus,6456
+bda/intellidatetime/interfaces.py,sha256=-Mj4DdtxBPKrGcoN2TzGtm2eTwfMUTePxLasmXY8Wh8,4008
+bda/intellidatetime/tests.py,sha256=t42ipVHjEj5t0qmFhamX4WYKukEmE58aeJGBHYxCYF4,9066
+bda.intellidatetime-1.4.dist-info/LICENSE.rst,sha256=04jOt6tfzCbSQ8bH2Y4H7Nl0te7abb1ANjMA7GBnXvw,1515
+bda.intellidatetime-1.4.dist-info/METADATA,sha256=VlD7hgXgiXwvKOJi5uAcs1Gt-m_A_sGLpJCiZZNvhQQ,6848
+bda.intellidatetime-1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bda.intellidatetime-1.4.dist-info/namespace_packages.txt,sha256=o6j_AbxsjEUSGRtUTlySIks6bshK_mUiiyXK6CIhgSM,4
+bda.intellidatetime-1.4.dist-info/top_level.txt,sha256=o6j_AbxsjEUSGRtUTlySIks6bshK_mUiiyXK6CIhgSM,4
+bda.intellidatetime-1.4.dist-info/RECORD,,
