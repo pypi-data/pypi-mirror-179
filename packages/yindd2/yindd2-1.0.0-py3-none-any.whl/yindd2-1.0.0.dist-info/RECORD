@@ -1,0 +1,7 @@
+build/lib/yindd/yindd.py,sha256=eeIYusAZnGPXhWgC-aTWs_9OMlwYI5lT7cREUzmqeTQ,104
+yinddt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yinddt/yindd.py,sha256=FhgevnU_AGnYmkhlshtlKzsO8mZhaQVsjS7XyLmCkJg,89
+yindd2-1.0.0.dist-info/METADATA,sha256=9juMFiACWOW7jW5tflk8CzM1MJtnZzXnZhkp4JtuAY0,320
+yindd2-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+yindd2-1.0.0.dist-info/top_level.txt,sha256=zoX5cjk8YCWvgl-LvyeA3X-aIlfCv89hw46QZN3W4rk,7
+yindd2-1.0.0.dist-info/RECORD,,
