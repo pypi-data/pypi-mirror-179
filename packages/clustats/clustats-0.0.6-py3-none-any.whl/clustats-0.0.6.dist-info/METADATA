@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: clustats
+Version: 0.0.6
+Summary: 
+Author: runeblaze
+Author-email: runeblaze@excite.co.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: belinda (==0.0.4a8)
+Requires-Dist: pandas (>=1,<2)
+Requires-Dist: polars (>=0.15.2,<0.16.0)
+Requires-Dist: structlog (>=22.3.0,<23.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+

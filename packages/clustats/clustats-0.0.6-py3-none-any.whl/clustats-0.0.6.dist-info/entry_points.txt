@@ -1,0 +1,4 @@
+[console_scripts]
+clustats=clustats.runstats:entry_point
+clustats2latex=clustats.format_latex:entry_point
+
