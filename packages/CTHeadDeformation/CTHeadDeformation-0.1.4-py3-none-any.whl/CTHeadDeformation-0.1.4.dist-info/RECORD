@@ -1,0 +1,12 @@
+DeformHeadCT/DataPreparation.py,sha256=2u2Ibk5gO2egQWvvbfIYv90EtC9BFkCMY6Tt5lRRNj0,3038
+DeformHeadCT/DeformVolume.py,sha256=k5YG_Kglz7nZI-yhBdxQsc9zFvWY84M1LyeUFxYVZGA,5918
+DeformHeadCT/DeformVolumeOld.py,sha256=l_vpGk3gKxcVKawCu0OFKP87r3vfOV6CtSQPzgG452c,14488
+DeformHeadCT/VolumeInfo.py,sha256=47Dk_8J9aj9QhLps0HnTKRFtoryVv-fGA7WN5-X6nGk,11703
+DeformHeadCT/__init__.py,sha256=c9k6Myd_vSUUmGDtMscVmBK92EbBEBU6I_GF6QdksTI,157
+DeformHeadCT/deformation.py,sha256=tHUD1k5d-pS64WpqIADm84tDfbvWifNNzqVmfmFs6kg,13926
+DeformHeadCT/utils.py,sha256=pXsDxVxR2G6gYbsCVf9msjkpNtrKOP-x2WLmXFBW4zw,4092
+CTHeadDeformation-0.1.4.dist-info/LICENSE.md,sha256=23BPU0YdajwYSL_XaNyewXm4EVLKxF0B3sTLDWaDezY,1076
+CTHeadDeformation-0.1.4.dist-info/METADATA,sha256=aHa2N8YX6vTQuCMXtGicYnT-GVRJlK-7xKLvd4MTTtw,4079
+CTHeadDeformation-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CTHeadDeformation-0.1.4.dist-info/top_level.txt,sha256=9SIc9HwBK9Y5psrDIgFPOttXpfEk3x-V6ibWYuaeemU,13
+CTHeadDeformation-0.1.4.dist-info/RECORD,,
