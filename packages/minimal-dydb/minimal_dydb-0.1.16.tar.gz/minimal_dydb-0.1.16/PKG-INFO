@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: minimal-dydb
+Version: 0.1.16
+Summary: 
+License: BSD-3-Clause
+Author: Robert Heyer
+Author-email: bobby.heyer@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
