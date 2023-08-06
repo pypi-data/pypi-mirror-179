@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+package/__init__.py
+package/__main__.py
+package219038924.egg-info/PKG-INFO
+package219038924.egg-info/SOURCES.txt
+package219038924.egg-info/dependency_links.txt
+package219038924.egg-info/top_level.txt
