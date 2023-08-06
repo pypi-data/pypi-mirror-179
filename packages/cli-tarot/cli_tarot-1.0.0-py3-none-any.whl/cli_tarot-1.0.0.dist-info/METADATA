@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: cli-tarot
+Version: 1.0.0
+Summary: A convenient way to get a tarot reading on your terminal!
+Home-page: https://github.com/beeankha/command_line_tarot
+Author: Bianca Henderson
+Author-email: Bianca Henderson <beeankha@gmail.com>
+Project-URL: Homepage, https://github.com/beeankha/command_line_tarot
+Keywords: tarot,command line
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
