@@ -1,0 +1,13 @@
+socketsc/__init__.py,sha256=hFKMpddjQ_aBFQJohybinkRwIKdxO2GAHnp6pm_NdmA,117
+socketsc/client.py,sha256=zTbfrz6rcqjas1hJJ4DdBrse7n6H50LCABQ2RaFEFAY,5703
+socketsc/constants.py,sha256=bhRyxMTkPHnHTWt0RyroS95vZEJqgvge4NZiPiTU39g,295
+socketsc/logger.py,sha256=9nECE36bSasKaRYYhBT-Lllv3qs7ptY4Ixnc5DbJU_s,1018
+socketsc/packet.py,sha256=2qhkU9DDZUOSqxdUHYmsNzkOYH_HszrWV_PXYoetzlo,3369
+socketsc/server.py,sha256=S5_knp4FtAIJc4CEmnOtLRdehVbIiyOo6krRDGyv5Ys,10567
+socketsc/utils.py,sha256=zLaPHAk9tLCiuK-w_gATs5uSqn64pAYzcck5PMOOZwM,640
+socketsc/version.py,sha256=CgcQvZCmrT8KikFvV1csMxdE1WxLOiQcrC9nm7EDNro,23
+socketsc-1.9.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+socketsc-1.9.dist-info/METADATA,sha256=52nO-VwzSLGf4vXxvzh1Nrp_uVyIYGe4Toj6UNDJ4SY,2426
+socketsc-1.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+socketsc-1.9.dist-info/top_level.txt,sha256=wI_6Xc64qOqkqz7Je8m4-9jKvGuenJtUiN2PbF5Fi6U,9
+socketsc-1.9.dist-info/RECORD,,
