@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+Principal.py
+README.md
+requirements.txt
+setup.py
+Lemmath.egg-info/PKG-INFO
+Lemmath.egg-info/SOURCES.txt
+Lemmath.egg-info/dependency_links.txt
+Lemmath.egg-info/requires.txt
+Lemmath.egg-info/top_level.txt
