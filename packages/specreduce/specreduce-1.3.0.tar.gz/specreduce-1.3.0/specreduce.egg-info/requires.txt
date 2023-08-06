@@ -1,0 +1,14 @@
+astropy
+specutils>=1.9.1
+synphot
+matplotlib
+photutils
+
+[data]
+specreduce_data
+
+[docs]
+sphinx-astropy
+
+[test]
+pytest-astropy
