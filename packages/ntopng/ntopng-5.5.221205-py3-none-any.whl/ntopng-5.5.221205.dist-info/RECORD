@@ -1,0 +1,9 @@
+ntopng/flow.py,sha256=WycGlfRJGa1uaql0_4toSwSrE-PIzo6kSqu061deuv0,2609
+ntopng/host.py,sha256=wfMZeSanQfCRS6YFxEIbDdGNa5kfbF5OxE4HOliBTN4,4952
+ntopng/interface.py,sha256=p85g-zLOZdNWKKYxBIOk93hgoC5PwRqu5m4gBIdHf4E,2252
+ntopng/ntopng.py,sha256=vJDq10OQUYXoWi785bEHUBt4arqSUSzOgfnGD6nrYPs,1130
+ntopng/setup.py,sha256=KO239fewB2q-hVl9ICFZspySdfp8VoUOHVzy08v6Gh0,319
+ntopng-5.5.221205.dist-info/METADATA,sha256=_yD9Ug7XyA_RYaZo-9o_IsxnNHRKQWBfSYdEZfdsCmA,237
+ntopng-5.5.221205.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ntopng-5.5.221205.dist-info/top_level.txt,sha256=1KNRAAMZHs1aTuZ3SFkwjPrREN-bp_iv-ZEMeDinreo,7
+ntopng-5.5.221205.dist-info/RECORD,,
