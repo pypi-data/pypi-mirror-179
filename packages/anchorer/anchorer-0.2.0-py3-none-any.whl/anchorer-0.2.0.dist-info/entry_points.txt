@@ -1,0 +1,2 @@
+[virtualenvwrapper.pre_mkvirtualenv]
+anchorer = virtualenvwrapper.anchorer.plugin:pre_mkvirtualenv
