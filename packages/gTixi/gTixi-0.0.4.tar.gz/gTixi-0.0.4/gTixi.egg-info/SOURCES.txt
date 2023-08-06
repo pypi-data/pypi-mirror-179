@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+gTixi/__init__.py
+gTixi/alib.py
+gTixi/starMod.py
+gTixi/starServer.py
+gTixi/wLTR390.py
+gTixi/waDrivers.py
+gTixi/waFile.py
+gTixi/waText.py
+gTixi/wadapter.py
+gTixi.egg-info/PKG-INFO
+gTixi.egg-info/SOURCES.txt
+gTixi.egg-info/dependency_links.txt
+gTixi.egg-info/top_level.txt
