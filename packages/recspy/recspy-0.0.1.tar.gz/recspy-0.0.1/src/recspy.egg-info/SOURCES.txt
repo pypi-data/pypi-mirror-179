@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/recspy.egg-info/PKG-INFO
+src/recspy.egg-info/SOURCES.txt
+src/recspy.egg-info/dependency_links.txt
+src/recspy.egg-info/requires.txt
+src/recspy.egg-info/top_level.txt
