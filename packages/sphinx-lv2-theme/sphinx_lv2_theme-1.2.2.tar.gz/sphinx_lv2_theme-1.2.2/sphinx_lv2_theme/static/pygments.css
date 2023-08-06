@@ -1,0 +1,558 @@
+/* Light (default) theme */
+
+span.n {
+  color: #222;
+}
+
+span.c {
+  color: #3F4D91;
+  font-style: italic;
+}
+
+span.err {
+  border: 1px solid #DC322F;
+}
+
+span.k {
+  color: #586E75;
+}
+
+span.o {
+  color: #586E75;
+}
+
+span.cm {
+  color: #3F4D91;
+  font-style: italic;
+}
+
+span.cp {
+  color: #586E75;
+}
+
+span.cpf {
+  color: #93115C;
+}
+
+span.c1 {
+  color: #3F4D91;
+  font-style: italic;
+}
+
+span.cs {
+  color: #3F4D91;
+  font-style: italic;
+}
+
+span.gd {
+  color: #990A1B;
+}
+
+span.ge {
+  font-style: italic;
+}
+
+span.gr {
+  color: #DC322F;
+}
+
+span.gh {
+  color: #3F4D91;
+  font-weight: bold;
+}
+
+span.gi {
+  color: #859900;
+}
+
+span.go {
+  color: #666;
+}
+
+span.gp {
+  color: #666;
+  font-weight: bold;
+}
+
+span.gs {
+  font-weight: bold;
+}
+
+span.gu {
+  color: #444;
+  font-weight: bold;
+}
+
+span.gt {
+  color: #268BD2;
+}
+
+span.kc {
+  color: #586E75;
+  font-weight: bold;
+}
+
+span.kd {
+  color: #586E75;
+  font-weight: bold;
+}
+
+span.kn {
+  color: #586E75;
+  font-weight: bold;
+}
+
+span.kp {
+  color: #586E75;
+}
+
+span.kr {
+  color: #586E75;
+  font-weight: bold;
+}
+
+span.kt {
+  color: #586E75;
+}
+
+span.m {
+  color: #666;
+}
+
+span.s {
+  color: #93115C;
+}
+
+span.na {
+  color: #444;
+}
+
+span.nb {
+  color: #3F4D91;
+}
+
+span.nc {
+  color: #000;
+}
+
+span.no {
+  color: #880;
+}
+
+span.nd {
+  color: #A2F;
+}
+
+span.ni {
+  color: #666;
+  font-weight: bold;
+}
+
+span.ne {
+  color: #D2413A;
+  font-weight: bold;
+}
+
+span.nf {
+  color: #000;
+}
+
+span.nl {
+  color: #546E00;
+}
+
+span.nn {
+  color: #444;
+}
+
+span.nt {
+  color: #444;
+}
+
+span.nv {
+  color: #222;
+}
+
+span.ow {
+  color: #3F4D91;
+}
+
+span.w {
+  color: #BBB;
+}
+
+span.mb {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.mf {
+  color: #93115C;
+}
+
+span.mh {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.mi {
+  color: #93115C;
+}
+
+span.mo {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.sb {
+  color: #93115C;
+}
+
+span.sc {
+  color: #93115C;
+}
+
+span.sd {
+  color: #3F4D91;
+  font-style: italic;
+}
+
+span.s2 {
+  color: #93115C;
+}
+
+span.se {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.sh {
+  color: #93115C;
+}
+
+span.si {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.sx {
+  color: #93115C;
+}
+
+span.sr {
+  color: #93115C;
+  font-weight: bold;
+}
+
+span.s1 {
+  color: #93115C;
+}
+
+span.ss {
+  color: #444;
+  font-weight: bold;
+}
+
+span.bp {
+  color: #859900;
+}
+
+span.vc {
+  color: #00629D;
+}
+
+span.vg {
+  color: #00629D;
+}
+
+span.vi {
+  color: #00629D;
+}
+
+span.il {
+  color: #000;
+}
+
+span.p {
+  color: #444;
+}
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  span.n {
+    color: #CCC;
+  }
+
+  span.c {
+    color: #6C71C4;
+    font-style: italic;
+  }
+
+  span.err {
+    border: 1px solid #FF6E64;
+  }
+
+  span.k {
+    color: #93A1A1;
+  }
+
+  span.o {
+    color: #93A1A1;
+  }
+
+  span.cm {
+    color: #6C71C4;
+    font-style: italic;
+  }
+
+  span.cp {
+    color: #93A1A1;
+  }
+
+  span.cpf {
+    color: #D33682;
+  }
+
+  span.c1 {
+    color: #6C71C4;
+    font-style: italic;
+  }
+
+  span.cs {
+    color: #6C71C4;
+    font-style: italic;
+  }
+
+  span.gd {
+    color: #DC322F;
+  }
+
+  span.ge {
+    font-style: italic;
+  }
+
+  span.gr {
+    color: #FF6E64;
+  }
+
+  span.gh {
+    color: #6C71C4;
+    font-weight: bold;
+  }
+
+  span.gi {
+    color: #859900;
+  }
+
+  span.go {
+    color: #666;
+  }
+
+  span.gp {
+    color: #666;
+    font-weight: bold;
+  }
+
+  span.gs {
+    font-weight: bold;
+  }
+
+  span.gu {
+    color: #BBB;
+    font-weight: bold;
+  }
+
+  span.gt {
+    color: #69B7F0;
+  }
+
+  span.kc {
+    color: #93A1A1;
+    font-weight: bold;
+  }
+
+  span.kd {
+    color: #93A1A1;
+    font-weight: bold;
+  }
+
+  span.kn {
+    color: #93A1A1;
+    font-weight: bold;
+  }
+
+  span.kp {
+    color: #93A1A1;
+  }
+
+  span.kr {
+    color: #93A1A1;
+    font-weight: bold;
+  }
+
+  span.kt {
+    color: #93A1A1;
+  }
+
+  span.m {
+    color: #999;
+  }
+
+  span.s {
+    color: #D33682;
+  }
+
+  span.na {
+    color: #BBB;
+  }
+
+  span.nb {
+    color: #6C71C4;
+  }
+
+  span.nc {
+    color: #FFF;
+  }
+
+  span.no {
+    color: #880;
+  }
+
+  span.nd {
+    color: #A2F;
+  }
+
+  span.ni {
+    color: #999;
+    font-weight: bold;
+  }
+
+  span.ne {
+    color: #D2413A;
+    font-weight: bold;
+  }
+
+  span.nf {
+    color: #FFF;
+  }
+
+  span.nl {
+    color: #546E00;
+  }
+
+  span.nn {
+    color: #BBB;
+  }
+
+  span.nt {
+    color: #BBB;
+  }
+
+  span.nv {
+    color: #DDD;
+  }
+
+  span.ow {
+    color: #6C71C4;
+  }
+
+  span.w {
+    color: #BBB;
+  }
+
+  span.mb {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.mf {
+    color: #D33682;
+  }
+
+  span.mh {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.mi {
+    color: #D33682;
+  }
+
+  span.mo {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.sb {
+    color: #D33682;
+  }
+
+  span.sc {
+    color: #D33682;
+  }
+
+  span.sd {
+    color: #6C71C4;
+    font-style: italic;
+  }
+
+  span.s2 {
+    color: #D33682;
+  }
+
+  span.se {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.sh {
+    color: #D33682;
+  }
+
+  span.si {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.sx {
+    color: #D33682;
+  }
+
+  span.sr {
+    color: #D33682;
+    font-weight: bold;
+  }
+
+  span.s1 {
+    color: #D33682;
+  }
+
+  span.ss {
+    color: #BBB;
+    font-weight: bold;
+  }
+
+  span.bp {
+    color: #859900;
+  }
+
+  span.vc {
+    color: #268BD2;
+  }
+
+  span.vg {
+    color: #268BD2;
+  }
+
+  span.vi {
+    color: #268BD2;
+  }
+
+  span.il {
+    color: #FFF;
+  }
+
+  span.p {
+    color: #BBB;
+  }
+}
