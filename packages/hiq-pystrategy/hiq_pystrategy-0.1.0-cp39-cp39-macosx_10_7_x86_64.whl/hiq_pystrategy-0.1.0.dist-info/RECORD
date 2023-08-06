@@ -1,0 +1,10 @@
+hiq_pystrategy-0.1.0.dist-info/METADATA,sha256=thjmEmBb4Y3SX7jKPY2i0SqEmipQi59K8Hf4vniECWI,263
+hiq_pystrategy-0.1.0.dist-info/WHEEL,sha256=tRaqIqZ53-d_7TRdj0l7TrLOvovqcfAmox0oHjR0ahE,104
+hiq_pystrategy/test_strategy.py,sha256=JBqsuRNC5GsnmejLLHyt8106Jiexa8SIlS24s6acxvo,982
+hiq_pystrategy/__init__.py,sha256=_2KVkOIdaN3cjK-lH0I56hhQ4ZIc5XnnCYMZZP6Fjb0,176
+hiq_pystrategy/strategy.py,sha256=oDbGKuKR_nkOEsBdLb9TM51x-EpPiuFZJDYOkMnd1LA,2291
+hiq_pystrategy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hiq_pystrategy/hiq_pystrategy.pyi,sha256=s80HhezEId39Lpc49WB-G7DNnfpgJIYYAR8Z_gLEFp8,307
+hiq_pystrategy/my_runner.py,sha256=Dln3le--hwwc_d43D6yZ8AdpeXZlXmwtqiBEg8Drob8,831
+hiq_pystrategy/hiq_pystrategy.cpython-39-darwin.so,sha256=BJds431TlpOuBBT_PXoLIQMmvyfxDtBUdNrCbQuF4OE,18131496
+hiq_pystrategy-0.1.0.dist-info/RECORD,,
