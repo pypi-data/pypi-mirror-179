@@ -1,0 +1,10 @@
+nopecha/__init__.py,sha256=rOfO2Ds7vdIzBL0cyiiTY6K_02RuxXS2iUBpbfcUSuc,730
+nopecha/api_requestor.py,sha256=7rBNwrLVRRZ45KV21zq46evp11molyUC_Kdpq75oHLA,6010
+nopecha/error.py,sha256=FnNxr3075EidgYOres0sFUENvT9f7i49SZsciLN2EpU,906
+nopecha/nopecha.py,sha256=gRZFhBjPqJQIyZKPfrz-_2ElQf5mgeaW-1qMZghT8lc,1577
+nopecha/nopecha_object.py,sha256=-snLuTwNsGdJS-Cgyrb3lZaDJs_Z0vI_WqMCz66Pb5E,3210
+nopecha-1.0.0.dist-info/LICENSE,sha256=K9m4pilmYHulaiQt08dBtGrFouua6DELAir1G-Wt9dE,1064
+nopecha-1.0.0.dist-info/METADATA,sha256=kSZb4kk79YtliJ2D6rgqCO2YGY4FKF2ItFTcwkemn-g,2359
+nopecha-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nopecha-1.0.0.dist-info/top_level.txt,sha256=89-e9j2AIzJsJf7IndXB5Kd4a4urJ2WK4I209fol6dU,8
+nopecha-1.0.0.dist-info/RECORD,,
