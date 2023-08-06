@@ -1,0 +1,6 @@
+src/location_properties_pkg/LocationHandler.py,sha256=DCVJ4XhMbNsd7vT6EuDwY8Ii0CCReqhehqDEkbZ5Mm8,1857
+src/location_properties_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_erel_ozturk-0.0.1.dist-info/METADATA,sha256=0zOsKoR6Cuol17e5yKHR8NNA1X3O-551zZ6CHv0OoNo,484
+example_package_erel_ozturk-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+example_package_erel_ozturk-0.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+example_package_erel_ozturk-0.0.1.dist-info/RECORD,,
