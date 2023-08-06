@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/typeguards/__init__.py
+src/typeguards/json.py
+src/typeguards/py.typed
+src/typeguards.egg-info/PKG-INFO
+src/typeguards.egg-info/SOURCES.txt
+src/typeguards.egg-info/dependency_links.txt
+src/typeguards.egg-info/requires.txt
+src/typeguards.egg-info/top_level.txt
