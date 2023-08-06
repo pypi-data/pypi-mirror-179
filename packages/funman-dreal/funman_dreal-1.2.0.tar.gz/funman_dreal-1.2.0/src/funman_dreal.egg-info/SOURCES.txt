@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/funman_dreal/__init__.py
+src/funman_dreal/_version.py
+src/funman_dreal/funman_dreal.py
+src/funman_dreal.egg-info/PKG-INFO
+src/funman_dreal.egg-info/SOURCES.txt
+src/funman_dreal.egg-info/dependency_links.txt
+src/funman_dreal.egg-info/not-zip-safe
+src/funman_dreal.egg-info/requires.txt
+src/funman_dreal.egg-info/top_level.txt
+src/funman_dreal/example/__init__.py
+test/test_run_dreal.py
+test/test_run_dreal_interactive.py
