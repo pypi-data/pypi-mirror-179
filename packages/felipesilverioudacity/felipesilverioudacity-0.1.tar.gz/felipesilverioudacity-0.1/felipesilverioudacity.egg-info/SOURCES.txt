@@ -1,0 +1,10 @@
+setup.py
+felipesilverioudacity/Binomialdistribution.py
+felipesilverioudacity/Gaussiandistribution.py
+felipesilverioudacity/Generaldistribution.py
+felipesilverioudacity/__init__.py
+felipesilverioudacity.egg-info/PKG-INFO
+felipesilverioudacity.egg-info/SOURCES.txt
+felipesilverioudacity.egg-info/dependency_links.txt
+felipesilverioudacity.egg-info/not-zip-safe
+felipesilverioudacity.egg-info/top_level.txt
