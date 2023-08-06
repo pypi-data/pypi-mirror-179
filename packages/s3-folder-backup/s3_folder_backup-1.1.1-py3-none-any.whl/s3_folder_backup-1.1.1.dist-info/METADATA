@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: s3-folder-backup
+Version: 1.1.1
+Summary: Backup Folders to S3
+Home-page: https://s3-folder-backup.readthedocs.io/
+Author: BugsCreator
+Author-email: jay@BugsCreator.tech
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: botocore
+Requires-Dist: zipp
+
+# S3 Folder Backup
+
+
+
+Have capacity to back up your server files and folders to AWS S3
+
+
+
+<code>
+
+
+
+    import s3_folder_backup 
+
+    config =
+
+      {
+
+        "DIR": "",# your server/folder dir
+
+        "AWS_ACCESS_KEY_ID": "", #aws access key
+
+        "AWS_SECRET_ACCESS_KEY": "",#aws secret key
+
+        "DELETE_LOCAL": "" #want to delete backup file from local system
+
+      }
+
+    s3_folder_backup(config).upload()
+
+
+
+</code>
+
+
+
+You can easily upload folders with it.
+
+
+
