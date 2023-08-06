@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tomboulier-foobar
+Version: 0.2.0
+Summary: This is a simple 'Hello, world!' example for the purpose of showing how Flit works.
+Author-email: Thomas Boulier <boulier.thomas@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/tomboulier/flit-demo
+
+# A simple example on how to use Flit
+
+This module is just a "Hello, world!" example for publishing package with [Flit](https://flit.pypa.io/).
+
+## Installation
+
+```
+pip install tomboulier_foobar
+```
+
+## Usage
+
+``` bash
+$ python -m tomboulier_foobar          
+Hello, world!
+```
