@@ -1,0 +1,2 @@
+[console_scripts]
+dpgen = dpgen.main:main
