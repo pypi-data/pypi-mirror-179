@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: statlink
+Version: 0.1.6
+Summary: An asyncio based multipurpose link checker.
+Author: Thibaut Frain
+Author-email: thibaut.frain@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: aiolimiter (>=1.0.0,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Requires-Dist: playwright (>=1.28.0,<2.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Description-Content-Type: text/markdown
+
+# Statlink
+
+An asyncio based multipurpose link explorer.
+
+- Check broken links in websites.
+- Headless browsers support (Chromium, Firefox, WebKit).
+- Domain / URL Regex / status code filters.
+- Incremental timeout.
+- Panda dataframe / CSV output.
+- Database store support.
+
+
+## Get started
+
+### Installation
+
+    pip install statlink
+
+With browser support:
+
+    pip install statlink[chromium|fifefox|webkit|all]
+
+## Usage
+
+    Usage: statlink [OPTIONS] [SOURCES]...
+
+    Options:
+      -c, --concurrency INTEGER       Set the maximum number of concurrent
+                                      requests.  [default: 20]
+      --allow-external                Allow external URL to be checked.
+      -d, --depth INTEGER             Recursion depth value for checking URLs,
+                                      negative value will set it to infinity.
+                                      [default: -1]
+      -t, --timeout INTEGER           Set timeout for each requests.  [default:
+                                      20]
+      --engine [aiohttp|chromium|firefox|webkit]
+                                      Engine that will be used to make requests.
+                                      [default: aiohttp]
+      --help                          Show this message and exit.
+
+
+## Examples
+
+Find the dead links for a https domain
+
+    $ statlink https://google.com
+
+
+Find the dead links in a text file
+
+    $ statlink -d 0 bad_urls.txt
+
+
+## Library
+
+
+    from statlink.crawler import Crawler
+
+    crawler = Crawler()
+    crawler.add_url("https://google.com")
+    crawler.start()
+
