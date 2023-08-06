@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sase_push
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/atav928/sase_push
+Author: atav928
+Author-email: adam@tavnets.com
+Maintainer-email: adam@tavnets.com
+License: UNKNOWN
+Description: # sase_push
+         script to push sase
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
