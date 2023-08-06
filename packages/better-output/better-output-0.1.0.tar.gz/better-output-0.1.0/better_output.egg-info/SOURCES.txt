@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+better_output/Output.py
+better_output/__init__.py
+better_output/formatting.py
+better_output.egg-info/PKG-INFO
+better_output.egg-info/SOURCES.txt
+better_output.egg-info/dependency_links.txt
+better_output.egg-info/top_level.txt
