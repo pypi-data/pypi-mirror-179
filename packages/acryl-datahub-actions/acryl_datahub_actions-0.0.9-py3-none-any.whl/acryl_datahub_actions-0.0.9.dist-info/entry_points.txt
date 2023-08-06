@@ -1,0 +1,7 @@
+[console_scripts]
+datahub-actions = datahub_actions.entrypoints:main
+
+[datahub_actions.action.plugins]
+executor = datahub_actions.plugin.action.execution.executor_action:ExecutorAction
+slack = datahub_actions.plugin.action.slack.slack:SlackNotificationAction
+teams = datahub_actions.plugin.action.teams.teams:TeamsNotificationAction
