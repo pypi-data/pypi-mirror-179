@@ -1,0 +1,7 @@
+mo-dots==9.266.22338
+mo-future==6.265.22338
+
+[tests]
+mo-json
+mo-testing
+pyLibrary
