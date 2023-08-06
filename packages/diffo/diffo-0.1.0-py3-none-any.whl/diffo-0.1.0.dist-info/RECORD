@@ -1,0 +1,10 @@
+diffo/__about__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+diffo/__init__.py,sha256=VzJSyVlNaV1m31IaOheHh9rAvE6bl0XjP3msz0mvXSI,275
+diffo/_cli.py,sha256=fBWTLCkn0DeraoX7E7yF0hf0GJ8LL_q6VwSZReVJffM,1963
+diffo/_paths.py,sha256=3L1sUJIVjlKCb3BEOkCQuldRCXLASKs6LTF6VOiy3H4,3913
+diffo/_strings.py,sha256=SWNc2WCOCXyHMJMRidM2ZHrruV2AP4Du2e54ib_K5eo,6234
+diffo-0.1.0.dist-info/METADATA,sha256=2zcqWmbAvO6Dy5JhVxEm407CuRYuPc0shuGVjapO-Lc,1966
+diffo-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+diffo-0.1.0.dist-info/entry_points.txt,sha256=FkI2ly5Dg_vluBL08oH_7rLlEIhQhwq4qNchMel5png,42
+diffo-0.1.0.dist-info/top_level.txt,sha256=dUcrHfSG_L_Ep-b3aei52NNm3YYXJ24Sfv6D1TNN9fM,6
+diffo-0.1.0.dist-info/RECORD,,
