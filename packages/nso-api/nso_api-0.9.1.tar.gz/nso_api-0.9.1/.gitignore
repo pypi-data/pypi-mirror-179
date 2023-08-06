@@ -1,0 +1,4 @@
+.gitignore
+pynso/db-secret-key.hex
+*__pycache__
+dist/*
