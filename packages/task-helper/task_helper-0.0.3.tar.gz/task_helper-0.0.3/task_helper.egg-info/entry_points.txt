@@ -1,0 +1,2 @@
+[console_scripts]
+task_helper = task_helper.main:main
