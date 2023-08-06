@@ -1,0 +1,3 @@
+[console_scripts]
+zood=zood.__main__:run
+
