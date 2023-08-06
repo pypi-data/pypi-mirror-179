@@ -1,0 +1,10 @@
+addfile
+devpi
+exe
+getsockname
+inet
+mktemp
+readline
+sdist
+sysconfig
+tmpdir
