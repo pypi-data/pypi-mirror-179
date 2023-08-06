@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: japanese-dictionary-parser
+Version: 0.1.0
+Summary: Parsers for japanese dictionaries: JMdict and kanjidic2
+Author: Maxim R
+Author-email: joey-hzpfywtd@hotmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Japanese dictionary parser
+___
+The package contains two classes for parsing dictionaries:
+* JMdict: contains information on japanese vocabulary
+* kanjidic2: contains information on japanese kanji
+

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "japanese-dictionary-parser"
+version = "0.1.0"
+description = "Parsers for japanese dictionaries: JMdict and kanjidic2"
+authors = ["Maxim R <joey-hzpfywtd@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "japanese_dictionary_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
