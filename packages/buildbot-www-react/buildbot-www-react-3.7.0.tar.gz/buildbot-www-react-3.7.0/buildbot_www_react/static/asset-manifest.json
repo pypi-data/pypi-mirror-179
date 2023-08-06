@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/css/main.5d5c294a.chunk.css",
+    "main.js": "/js/main.31f9f031.chunk.js",
+    "main.js.map": "/js/main.31f9f031.chunk.js.map",
+    "runtime-main.js": "/js/runtime-main.30b8d22a.js",
+    "runtime-main.js.map": "/js/runtime-main.30b8d22a.js.map",
+    "js/2.cfcdd80c.chunk.js": "/js/2.cfcdd80c.chunk.js",
+    "js/2.cfcdd80c.chunk.js.map": "/js/2.cfcdd80c.chunk.js.map",
+    "js/3.e65a7642.chunk.js": "/js/3.e65a7642.chunk.js",
+    "js/3.e65a7642.chunk.js.map": "/js/3.e65a7642.chunk.js.map",
+    "browser-warning.css": "/browser-warning.css",
+    "browser-warning.css.map": "/browser-warning.css.map",
+    "browser-warning.js": "/browser-warning.js",
+    "css/main.5d5c294a.chunk.css.map": "/css/main.5d5c294a.chunk.css.map",
+    "index.html": "/index.html",
+    "js/2.cfcdd80c.chunk.js.LICENSE.txt": "/js/2.cfcdd80c.chunk.js.LICENSE.txt",
+    "media/styles.scss": "/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "js/runtime-main.30b8d22a.js",
+    "js/2.cfcdd80c.chunk.js",
+    "css/main.5d5c294a.chunk.css",
+    "js/main.31f9f031.chunk.js"
+  ]
+}
