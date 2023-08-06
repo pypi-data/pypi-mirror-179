@@ -1,0 +1,9 @@
+compose_companion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose_companion/cli.py,sha256=NjkgTRayXHD2XznpOTjtE-HNDCsgBOpMG-mTvIVVXrk,8663
+compose_companion/config.cfg,sha256=8SDXuWdTw4sR_bsIGbULpw3mEgoEqO1C0obmqVJyxMs,27
+compose_companion/configurations.py,sha256=8l-IamLfHK3fRO8hapUv7TIS0xvzpQenQpZUKa74lDI,6681
+compose_companion/functions.py,sha256=mv140hs3h1y815ugWi6PkWe2l2Oq87lkHovLxkz2KyU,2362
+compose_companion-0.1.7.dist-info/entry_points.txt,sha256=5MGpnFUGosEYzUFiQHmJW4eGjkREfmB_FPa04QRQY7c,53
+compose_companion-0.1.7.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+compose_companion-0.1.7.dist-info/METADATA,sha256=mSZ2GBFzt2clXJD7Jr0LDUHcmOZIqbM2fkL3edPf3VQ,5394
+compose_companion-0.1.7.dist-info/RECORD,,
