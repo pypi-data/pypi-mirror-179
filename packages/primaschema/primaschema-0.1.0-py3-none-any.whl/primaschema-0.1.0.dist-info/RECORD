@@ -1,0 +1,10 @@
+primaschema/__init__.py,sha256=vSjFtw2rg3SGhTkEedJm3cvVDxtXS4S0fDx0zTsJeMI,153
+primaschema/cli.py,sha256=1euuieQQwsNIAfdwExWAuw_vzI7w8Djdp7KDU8OXw4g,2650
+primaschema/lib.py,sha256=qkNMMxKo8RVRnwEn_bVJgjBckN5GtyPtIGcH7Nm026M,9426
+primaschema/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+primaschema-0.1.0.dist-info/LICENSE,sha256=ErMlNzk7FxTSojlu_cCnRa4OH2y3MiKoZjDq7wxxyig,1076
+primaschema-0.1.0.dist-info/METADATA,sha256=AEoUDBbPL7ayXL1gdsRZAEf2nRK476OGl0uHnsl7vO4,3212
+primaschema-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+primaschema-0.1.0.dist-info/entry_points.txt,sha256=Hl9JwNS88PGSbxkKtcHWZ1L454W-Q9S0XLsIoFgReqg,53
+primaschema-0.1.0.dist-info/top_level.txt,sha256=M5zqhc65a3QQiLyNUQ22H6gITDTp99MaIvp-gUlddaY,12
+primaschema-0.1.0.dist-info/RECORD,,
