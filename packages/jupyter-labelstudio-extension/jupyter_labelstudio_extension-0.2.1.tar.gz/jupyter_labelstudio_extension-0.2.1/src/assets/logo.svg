@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="198" height="198">
+<path style="fill:#fffaf0; stroke:none;" d="M0 0L0 198L198 198L198 0L0 0z"/>
+<path style="fill:#ffeab9; stroke:none;" d="M27 28L27 29L66 29C55.726 24.6889 38.1724 28 27 28M131 28L131 29L170 29C159.726 24.6889 142.172 28 131 28z"/>
+<path style="fill:#ffd16c; stroke:none;" d="M26 29L26 68L27 68C27 56.8277 30.3111 39.274 26 29z"/>
+<path style="fill:#fdb515; stroke:none;" d="M27 29L27 68L40 68L40 135L27 135L27 174L66 174L66 160L132 160L132 174L170 174L170 135L158.028 132.682L157 115L157 68L170 68L170 29L132 29L132 42L66 42L66 29L27 29z"/>
+<path style="fill:#ffc443; stroke:none;" d="M131 29L131 42L132 42L131 29z"/>
+<path style="fill:#ffd16c; stroke:none;" d="M170 29L170 68L171 68C171 56.8276 174.311 39.274 170 29M66 55L66 56L131 56L110 55L66 55z"/>
+<path style="fill:#ffeab9; stroke:none;" d="M66 56L66 68L53.0278 69.6034L52 87L52 134L66 134L66 147L131 147L131 134L144 134L144 68L131 68L131 56L66 56z"/>
+<path style="fill:#ffc443; stroke:none;" d="M131 56L131 68L132 68L131 56z"/>
+<path style="fill:#ffeab9; stroke:none;" d="M27 68L27 69L39 69L27 68z"/>
+<path style="fill:#ffc443; stroke:none;" d="M39 68L39 135L40 135L40 89L39 68z"/>
+<path style="fill:#ffd16c; stroke:none;" d="M52 68L53 69L52 68z"/>
+<path style="fill:#ffc443; stroke:none;" d="M157 68L157 134L158 134L158 89L157 68z"/>
+<path style="fill:#ffeab9; stroke:none;" d="M158 68L158 69L170 69L158 68M26 134L27 135L26 134z"/>
+<path style="fill:#ffd16c; stroke:none;" d="M27 134L27 135L39 135L27 134M52 134L52 135L66 135L52 134M131 134L131 135L144 135L131 134M158 134L158 135L170 135L170 174L171 145L169.972 135.603L158 134z"/>
+<path style="fill:#ffeab9; stroke:none;" d="M170 134L171 135L170 134z"/>
+<path style="fill:#ffd16c; stroke:none;" d="M26 135L26 174L27 174C27 162.828 30.3111 145.274 26 135z"/>
+<path style="fill:#ffc443; stroke:none;" d="M131 135L131 147L132 147L131 135M66 147L66 148L131 148L110 147L66 147M131 160L131 174L132 174L131 160z"/>
+</svg>
