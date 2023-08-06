@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+django_google_oauth_rest/__init__.py
+django_google_oauth_rest/admin.py
+django_google_oauth_rest/apps.py
+django_google_oauth_rest/generate_url.py
+django_google_oauth_rest/tests.py
+django_google_oauth_rest/views.py
+django_google_oauth_rest.egg-info/PKG-INFO
+django_google_oauth_rest.egg-info/SOURCES.txt
+django_google_oauth_rest.egg-info/dependency_links.txt
+django_google_oauth_rest.egg-info/top_level.txt
