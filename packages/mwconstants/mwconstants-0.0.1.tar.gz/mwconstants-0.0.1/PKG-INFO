@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mwconstants
+Version: 0.0.1
+Summary: Various data and utilities for processing wikitext.
+Home-page: https://gitlab.wikimedia.org/repos/research/mwconstants
+Author: geohci (Isaac Johnson)
+Author-email: <isaac@wikimedia.org>
+License: MIT License
+Keywords: python,wikitext,wiki
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+Provides-Extra: dev
+License-File: LICENSE
+
+
+# mwconstants
+
+Various utilities and constants useful for analyses of wikitext. This package contains three types of artifacts:
+* Data generating functions: Python functions for calling various APIs to build useful data structures -- e.g., all Wikipedia language codes
+* Static data snapshots: Python variables that contain the most recent result of a data generating function
+* Utilities: Python functions for handling various wikitext-related processing tasks -- e.g., mapping links to namespaces.
+
+## Modules
+All modules generally contain relevant constants, functions for generating those constants, and other useful utilities for manipulating them: 
+* `languages.py`: functions for identifying languages associated with a given Wikimedia project.
+* `media.py`: functions for identifying media in wikitext and parsing wikitext media syntax into its components
+* `namespaces.py`: functions for identifying namespace prefixes
+
+## Limitations
+* Links have many edge-cases, especially around interwiki prefixes. For now, just the basics are covered: language-specific namespaces and interlanguage links
