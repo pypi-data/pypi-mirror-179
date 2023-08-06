@@ -1,0 +1,6 @@
+numpy>=1.22.0
+matplotlib
+jax
+
+[FEA Solver]
+PyNiteFEA
