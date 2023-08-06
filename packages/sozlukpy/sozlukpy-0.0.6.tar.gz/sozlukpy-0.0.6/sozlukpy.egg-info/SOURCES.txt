@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sozlukpy/__init__.py
+sozlukpy.egg-info/PKG-INFO
+sozlukpy.egg-info/SOURCES.txt
+sozlukpy.egg-info/dependency_links.txt
+sozlukpy.egg-info/top_level.txt
