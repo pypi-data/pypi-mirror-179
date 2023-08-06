@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+Marceau/__init__.py
+Marceau/__main__.py
+Marceau/panjer.py
+Marceau.egg-info/PKG-INFO
+Marceau.egg-info/SOURCES.txt
+Marceau.egg-info/dependency_links.txt
+Marceau.egg-info/requires.txt
+Marceau.egg-info/top_level.txt
