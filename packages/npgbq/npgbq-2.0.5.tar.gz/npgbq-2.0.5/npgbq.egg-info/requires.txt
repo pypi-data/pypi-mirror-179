@@ -1,0 +1,15 @@
+fastparquet
+google-cloud-bigquery>=3.3.0
+openpyxl
+pandas
+pyarrow
+requests
+psycopg2-binary
+pyodbc
+db-dtypes
+
+[dev]
+check-manifest
+
+[test]
+coverage
