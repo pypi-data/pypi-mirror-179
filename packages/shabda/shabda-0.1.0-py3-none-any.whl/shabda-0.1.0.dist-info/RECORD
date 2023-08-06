@@ -1,0 +1,13 @@
+shabda/1000nouns.txt,sha256=7BQ1eaobK5gBAxvU0hW0qcq4GbjdpvBQsAcHNAQGQoQ,7255
+shabda/__init__.py,sha256=W8eOT2lZoQDXT27JfqYofD97Ks5tyCoCcfMpv_SNNpQ,224
+shabda/client.py,sha256=wFn3P_QSKJxZ9DwKLWJhgvTJO5NCJc28LjTkCb4y8SA,3948
+shabda/display.py,sha256=nh2zAr4-lvjhPkNOHRBhQR1pQDtjI_WQ9aCV0_Lq76w,284
+shabda/dj.py,sha256=7S3eZuOO18iSkm3AMffNYnCN6LAY3dsRaeNrfb1uuVI,9919
+shabda/sampleset.py,sha256=Yp3O2tbnVnzYTsQsseA6ZbTOwLzFo6Fw6vo650UFRX8,2923
+shabda/sound.py,sha256=einq5TlbU2oR941QUOv-uJyDDajM968X2mPxCSEKzTw,1418
+shabda/templates/home.html,sha256=DBhGxOhgjhxmQdboU_Pt1yWGnDY2E4-7YFF4dv4vFyg,13399
+shabda/web.py,sha256=nqyBf4_NFqMxC7tWLtjMA9Ll-DDbegzimm2MKTK-umI,6651
+shabda-0.1.0.dist-info/entry_points.txt,sha256=LoVA6aPz9yvNKfkiEdpgq8Obp9LN6ZhtowLmpmvbNAg,41
+shabda-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+shabda-0.1.0.dist-info/METADATA,sha256=kySlTn3OmjmIwSZqqCXyIP5kuaI3PU5VzGqLhJGDNHY,4585
+shabda-0.1.0.dist-info/RECORD,,
