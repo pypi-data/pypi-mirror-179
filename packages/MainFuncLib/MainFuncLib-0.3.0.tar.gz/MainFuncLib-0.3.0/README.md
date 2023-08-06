@@ -1,0 +1,73 @@
+# MainFuncLib
+This library is created for the second homework of MG 8411 Data Engineering and extends the first homework. This library still hides the API key. The code implements also the Keltner bands.  It keeps track in real time of max, min, mean, VOL, FD (fractal dimension) per 6 minute interval.
+
+It does this by calculating the volatility as max – min. Then 100 Keltner bands get formed in the next interval using the mean and the volatility of the previous interval:
+
+Keltner Channel Upper Band = Mean Value + n*0.025*VOL, n from 1 to 100, where Mean Value and VOL are calculated from the previous period of 6 minutes.
+
+Keltner Channel Lower Band = Mean Value – n*0.025*VOL, n from 1 to 100, where Mean Value and VOL are calculated from the previous period of 6 minutes.
+
+The # crosses with the Keltner bands gets counted during the 6 minute interval and then the fractal dimension is calculated as: # cross/VOL
+
+Extra info: this is based on brownian montion with the Mean Value as the best approximation for the next 6 minutes and the 0.025 is the step size. 
+
+Note that the first 6 minute checkpoint doesn't yield a FD and is set to Null, because there is no previous information yet.
+
+The code also implements a check to see if the provided makes sense and is correct and the comments in the code clarify my implementation of this homework.
+
+
+
+### Installation
+```
+pip install MainFuncLib==0.3.8
+```
+
+### Get started
+Make sure the latest version of Polygon-api-client is installed. Example of how to use this library in Max's code, delete main() in Max's code and replace with the library:
+
+```Python
+# # To have HW3 fully extend HW1 and HW2, I made a new and updated version of the library
+# # This library can be found at: https://pypi.org/project/MainFuncLib/0.3.8/
+# # This will now also return extra tables for the returns for each currency pair and their profit/loss on top of
+# # the parameters for the Keltner Channels (HW2) and will hide the API key as stated in HW1
+
+import os
+import random
+from threading import Thread
+from sqlalchemy import create_engine
+
+# Always check if the final db is removed, to prevent already exists errors during initialization
+if os.path.lexists("./sqlite/final2.db"):
+    os.remove("./sqlite/final2.db")
+
+from MainFuncLib import mainFunc
+
+# Create an engine to connect to the database; setting echo to false should stop it from logging in std.out
+engine = create_engine("sqlite+pysqlite:///sqlite/final2.db", echo=False, future=True)
+
+# Insert currency pairs here
+pair_list = [("USD", "AUD"), ("USD", "GBP"), ("USD", "CAD"), ("USD", "JPY"), ("USD", "MXN"),
+             ("USD", "EUR"), ("USD", "CNY"), ("USD", "CZK"), ("USD", "PLN"), ("USD", "CHF")]
+
+random.shuffle(pair_list)  # Randomly shuffle the pairs in the list
+
+buy_list = pair_list[:5]  # First 5 currency pairs we take a long position on
+sell_list = pair_list[-5:]  # Last 5 currency pairs we take a short position on
+
+# create threads for LONG positions
+# see READme for the benefits of using these threads
+threads_buy = [Thread(target=mainFunc, args=(pair, engine, 36120, "LONG")) for pair in buy_list]
+
+# create threads for SHORT positions
+threads_sell = [Thread(target=mainFunc, args=(pair, engine, 36120, "SHORT")) for pair in sell_list]
+
+threads = threads_buy + threads_sell
+
+# start the threads
+for thread in threads:
+    thread.start()
+
+# wait for the threads to complete
+for thread in threads:
+    thread.join()
+```
