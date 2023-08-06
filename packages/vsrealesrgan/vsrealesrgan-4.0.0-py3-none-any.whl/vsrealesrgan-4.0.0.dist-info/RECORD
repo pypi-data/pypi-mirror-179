@@ -1,0 +1,16 @@
+vsrealesrgan/ESRGAN_SRx4_DF2KOST_official-ff704c30.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/RealESRGAN_x2plus.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/RealESRGAN_x4plus.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/RealESRGAN_x4plus_anime_6B.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/__init__.py,sha256=0JLcIduUKG8Td_9Ma5wYCjpKxh66PwDJXM-3xyrXG6o,17417
+vsrealesrgan/__main__.py,sha256=EWVRwvk-ghIartQzD_Z72-_ZemlcTkubWM_ij097fwQ,1094
+vsrealesrgan/arch_util.py,sha256=LlvT41RNHO8wjNpIjdZjArL1BlxRYUq__a2bJQYVr5k,1831
+vsrealesrgan/realesr-animevideov3.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/realesr-general-wdn-x4v3.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/realesr-general-x4v3.pth,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsrealesrgan/rrdbnet_arch.py,sha256=BbExeSGPHuv-yXzaTnBXmJW-2DLr3LRo8rGxfaNwEpk,4664
+vsrealesrgan/srvgg_arch.py,sha256=WbijL7utlyT3A2rEvBhXoCSu-5l_kmU_xoGNlTaEpgg,3077
+vsrealesrgan-4.0.0.dist-info/METADATA,sha256=wSDibX9Ni02KVge6Yr9MPYuiRcqDSMV_UklGc7VPoJs,3584
+vsrealesrgan-4.0.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+vsrealesrgan-4.0.0.dist-info/licenses/LICENSE,sha256=FrK99Y6pIqJusMWVlQniYYCjgO8YSWykmfHuSx4nKqk,1548
+vsrealesrgan-4.0.0.dist-info/RECORD,,
