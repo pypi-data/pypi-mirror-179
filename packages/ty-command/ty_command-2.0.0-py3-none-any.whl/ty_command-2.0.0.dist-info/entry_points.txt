@@ -1,0 +1,2 @@
+[console_scripts]
+ty = ty_command.ty:main
