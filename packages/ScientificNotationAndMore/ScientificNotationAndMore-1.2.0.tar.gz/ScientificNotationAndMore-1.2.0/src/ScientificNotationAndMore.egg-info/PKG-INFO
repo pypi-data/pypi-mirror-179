@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ScientificNotationAndMore
+Version: 1.2.0
+Summary: Powerful mathematics, brought to you.
+Author-email: Pigly3 <spot@wolvesburg.com>
+Project-URL: Homepage, https://www.wolvesburg.com/
+Project-URL: Bug Tracker, https://www.wolvesburg.com/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+![Wolvesburg Productions Logo](https://wolvesburg.com/wp-content/uploads/2022/09/logo.png)
+Made by Wolvesburg Productions
