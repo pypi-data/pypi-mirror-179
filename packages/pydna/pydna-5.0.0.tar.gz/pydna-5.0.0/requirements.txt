@@ -1,0 +1,4 @@
+appdirs>=1.4.4
+biopython>=1.80
+networkx>=2.6.3
+prettytable>=3.5.0
