@@ -1,0 +1,12 @@
+pygram11/__init__.py,sha256=ouNP7pYSoiOTna1OST6ogiTj85j32NRMLTkIDty1kJk,1604
+pygram11/_backend.cp310-win_amd64.pyd,sha256=2OoHQnivQ9eySTXH3GjgUqmu1ZhJocoY9tVvzy_ydGk,2280448
+pygram11/_helpers.py,sha256=Db2yczUERSuKolBvEoxQ5xeVT1lO16CEecOy_q8EqgM,1173
+pygram11/_hist.py,sha256=NN1DGwMKp5qTpaYbzRmwQIdaICsnuAwXKZ_Hkqnc4Pw,20691
+pygram11/_misc.py,sha256=wUb4XzDFNSGUlwWnVWpYDCYD_oCzCKLDlzGStwtcKvM,9092
+pygram11/_numpy.py,sha256=GXpxQNYy0y9Aq51YueRvGkVMneCdVuMvkjB7p8QzbGE,7865
+pygram11/config.py,sha256=Ntm7V8rdyn8Zf2XqwMaBh39b1vafRWj2jgAP4_8KWwo,1133
+pygram11/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygram11-0.13.2.dist-info/METADATA,sha256=zAirWECf83f7To5GIiS2jl3GRFeQr2BLfZ_bFTZ6hm8,5749
+pygram11-0.13.2.dist-info/WHEEL,sha256=cv9Ca3QFLGqXXSj5e6hbmFHNoD2nKnnIgsg9WkGe9YE,96
+pygram11-0.13.2.dist-info/entrypoints.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygram11-0.13.2.dist-info/RECORD,,
