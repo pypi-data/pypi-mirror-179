@@ -1,0 +1,25 @@
+[package]
+name = "feathrpiper"
+version = "0.2.1"
+edition = "2021"
+authors = ["Chen Xu <windoze@0d0a.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/windoze/piper"
+repository = "https://github.com/windoze/piper.git"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "feathrpiper"
+crate-type = ["cdylib"]
+
+[dependencies]
+tokio = "1"
+futures = "0.3"
+chrono = "0.4"
+pyo3 = { version = "0.17", features = ["extension-module", "chrono"] }
+piper = { path = "local_dependencies/piper" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+# Use statically lined openssl when build with musl
+openssl = { version = "0.10", features = ["vendored"] }
