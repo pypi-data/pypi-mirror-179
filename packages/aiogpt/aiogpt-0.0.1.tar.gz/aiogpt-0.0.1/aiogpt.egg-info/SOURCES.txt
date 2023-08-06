@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aiogpt/__init__.py
+aiogpt/chat.py
+aiogpt.egg-info/PKG-INFO
+aiogpt.egg-info/SOURCES.txt
+aiogpt.egg-info/dependency_links.txt
+aiogpt.egg-info/requires.txt
+aiogpt.egg-info/top_level.txt

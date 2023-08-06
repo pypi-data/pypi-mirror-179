@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: aiogpt
+Version: 0.0.1
+Summary: An asyncio wrapper for the OpenAI ChatGPT API
+Home-page: https://github.com/katlol/aiogpt
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE
