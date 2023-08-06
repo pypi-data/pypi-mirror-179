@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: spring-data-python
+Version: 0.1.6
+Summary: Spring Data Python is an offshoot of the Java-based Spring Data Framework, targeted for Python.
+Home-page: https://github.com/kobibleu/spring-data-python
+Author: Vincent TERESE
+Author-email: vincent.terese@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/kobibleu/spring-data-python
+Description-Content-Type: text/markdown
+
+# spring-data-python
+Spring Data Python is an offshoot of the Java-based Spring Data Framework, targeted for Python. 
+
