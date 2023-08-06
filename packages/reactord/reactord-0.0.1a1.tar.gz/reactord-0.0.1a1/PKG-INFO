@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: reactord
+Version: 0.0.1a1
+Summary: Package for the simulation and design of chemical reactors
+Author-email: "Brandolín, Salvador Eduardo" <salvadorebrandolin@mi.unc.edu.ar>, "Parodi, Adrián" <adrian.parodi@mi.unc.edu.ar>, "Rovezzi, Juan Pablo" <juan.rovezzi@mi.unc.edu.ar>, "Santos, Maricel Del Valle" <maricel.santos@mi.unc.edu.ar>, "Scilipoti, José Antonio" <jscilipoti@unc.edu.ar>
+License: The MIT License
+Project-URL: Homepage, https://github.com/SalvadorBrandolin/reactord
+Keywords: chemical reactor,reactor design,reactor simulation,chemical engineering
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# reactord
