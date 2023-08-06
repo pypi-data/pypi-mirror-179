@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pycomfoconnect"
+version = "0.5"
+description = "Python interface for the Zehnder ComfoConnect LAN C bridge."
+authors = ["Michaël Arnauts <michael.arnauts@gmail.com>"]
+readme = "README.rst"
+license = "MIT"
+homepage = "https://github.com/michaelarnauts/comfoconnect"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+protobuf = ">=3.20.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
