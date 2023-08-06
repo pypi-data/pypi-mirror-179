@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: servey
+Version: 2.0.0a34
+Summary: A better API layer for python
+Home-page: https://github.com/tofarr/servey
+Author: Tim O'Farrell
+Author-email: tofarr@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: marshy (~=3.0)
+Requires-Dist: schemey (~=5.4)
+Requires-Dist: pyjwt (~=2.4)
+Requires-Dist: cryptography (~=37.0)
+Provides-Extra: all
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: pyyaml (~=6.0) ; extra == 'all'
+Requires-Dist: celery (~=5.2) ; extra == 'all'
+Requires-Dist: ruamel.yaml (~=0.17) ; extra == 'all'
+Requires-Dist: starlette (~=0.19) ; extra == 'all'
+Requires-Dist: python-multipart (~=0.0) ; extra == 'all'
+Requires-Dist: requests (~=2.28) ; extra == 'all'
+Requires-Dist: boto3 (~=1.26) ; extra == 'all'
+Requires-Dist: uvicorn (~=0.18) ; extra == 'all'
+Requires-Dist: pygments (~=2.13) ; extra == 'all'
+Requires-Dist: strawberry-graphql (~=0.125) ; extra == 'all'
+Provides-Extra: aws
+Requires-Dist: boto3 (~=1.26) ; extra == 'aws'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Provides-Extra: scheduler
+Requires-Dist: celery (~=5.2) ; extra == 'scheduler'
+Provides-Extra: server
+Requires-Dist: starlette (~=0.19) ; extra == 'server'
+Requires-Dist: strawberry-graphql (~=0.125) ; extra == 'server'
+Requires-Dist: uvicorn (~=0.18) ; extra == 'server'
+Requires-Dist: pygments (~=2.13) ; extra == 'server'
+Requires-Dist: requests (~=2.28) ; extra == 'server'
+Requires-Dist: python-multipart (~=0.0) ; extra == 'server'
+Provides-Extra: serverless
+Requires-Dist: pyyaml (~=6.0) ; extra == 'serverless'
+Requires-Dist: ruamel.yaml (~=0.17) ; extra == 'serverless'
+Requires-Dist: strawberry-graphql (~=0.125) ; extra == 'serverless'
+
+This is very much a work in progress - I'll update this readme when it is production ready.
+
+Philosophy: Get the most from AWS but allow local testing / not be completely dependent on it.
+
+Actions Mounts, Handlers and Apps
+
+Authorization should be explicit! That is why we inject it - one of the bits of magic
+
+Why not use aws directly? Vendor lock in and lack of local test ability
+Less flexibility than fastapi - common elements.
+
+Why not include explicit caching? 
+The more I think about this the more I think it is needed.
+
+Authentication vs Authorization
+
+Default implementation mostly meant to be as annoying as possible while still working
+
+
+TODO:
+* Finish aws integration
+* Test Coverage
+* Caching
+* Example / Mock interfaces - provide example inputs in action for documentation / mocking / unit test generation
+
+rate limiting needs persistence, but can be in access_control - maybe add to persisty goodies
+
+python -m servey --sls-generate
+
+
+```
+pip install setuptools wheel
+python setup.py sdist bdist_wheel
+pip install twine
+python -m twine upload dist/*
+```
