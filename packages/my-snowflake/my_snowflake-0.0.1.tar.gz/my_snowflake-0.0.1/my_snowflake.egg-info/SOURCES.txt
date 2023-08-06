@@ -1,0 +1,9 @@
+README.md
+setup.py
+ezface/__init__.py
+ezface/exceptions.py
+ezface/my_snowflake.py
+my_snowflake.egg-info/PKG-INFO
+my_snowflake.egg-info/SOURCES.txt
+my_snowflake.egg-info/dependency_links.txt
+my_snowflake.egg-info/top_level.txt
