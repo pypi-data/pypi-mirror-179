@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ExcelTableMaster/ExcelTableMaster.py
+ExcelTableMaster/__init__.py
+ExcelTableMaster.egg-info/PKG-INFO
+ExcelTableMaster.egg-info/SOURCES.txt
+ExcelTableMaster.egg-info/dependency_links.txt
+ExcelTableMaster.egg-info/top_level.txt

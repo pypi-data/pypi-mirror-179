@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ExcelTableMaster
+Version: 0.0.1
+Summary: For scraping data from DPF
+Home-page: https://github.com/Muditha-Rajapaksha-101/ExcelTableMaster.git
+Author: Muditha Rajapaksha
+Author-email: muditha.rajapaksha101@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PDFMaster Package
+
+This is a PDFTableMaster package. You can use
+[Github-flavored Markdown](https://github.com/Muditha-Rajapaksha-101/ExcelTableMaster.git)
+
