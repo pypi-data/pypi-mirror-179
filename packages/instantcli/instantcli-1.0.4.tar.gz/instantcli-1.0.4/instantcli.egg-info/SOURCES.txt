@@ -1,0 +1,7 @@
+instantcli.py
+setup.py
+instantcli.egg-info/PKG-INFO
+instantcli.egg-info/SOURCES.txt
+instantcli.egg-info/dependency_links.txt
+instantcli.egg-info/requires.txt
+instantcli.egg-info/top_level.txt
