@@ -1,0 +1,15 @@
+gsoup/FreeMono.ttf,sha256=p8aSrVRcMIt7j8LbdwdgxKXRXKUPEq3fWMj1NgNw6DE,343980
+gsoup/__init__.py,sha256=haWJzJCnYUbNI2_oJqgKRoDeDOK2o0MhldJreIXigPo,1180
+gsoup/core.py,sha256=oMgpYEnp-gsC4OeLH6BtbPbAzLHQEVVYbhufqB6mL4Q,13548
+gsoup/geometry_advanced.py,sha256=qNy9ZaYcaMAXfr77JspgDMBsS2bickEyfMl5lEtaq0M,7186
+gsoup/geometry_basic.py,sha256=sciQSuMMtwb2RX5ZGPCgllr1K5LziZlDxi_nPdFDzbg,15188
+gsoup/gsoup_io.py,sha256=DU9C-R-tJ-JHf0WvrTiifTWXRVUX3TSk_tofwnvgC0E,10102
+gsoup/image.py,sha256=tiPpmtgtzrZyWI3T97ZSHy8lPgp2Oz-GN4Kebr6XFPM,6676
+gsoup/sphere_trace.py,sha256=PdFTgtgngs9f09FX_3pgBrqaUoWWQ7ohAT70jUrX5WQ,6821
+gsoup/structures.py,sha256=kTAA1nguKLxStlFEWE7o0NGXY1nJmoqIEdfUlDumjLs,15491
+gsoup/viewer.py,sha256=tvSoSUeOkz5hey57citxpiuyCDTNMXkkP5_0G5Qqouc,3808
+gsoup-0.0.2.dist-info/LICENSE,sha256=onjE628p-mCNG6bI36ILhMn92eUzsMW4jm7utBcTn7w,1088
+gsoup-0.0.2.dist-info/METADATA,sha256=mlaLaQP3bdfLnC5vNi27e3qmrIlvtPMA_d6QkH9zo6g,2298
+gsoup-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gsoup-0.0.2.dist-info/top_level.txt,sha256=am6Ry8nQ1oP6081bfj6jQJgkkU_lbtsVMJ6onsyXItA,6
+gsoup-0.0.2.dist-info/RECORD,,
