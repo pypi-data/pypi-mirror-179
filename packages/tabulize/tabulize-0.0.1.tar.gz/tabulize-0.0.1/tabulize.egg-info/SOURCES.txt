@@ -1,0 +1,8 @@
+README.md
+setup.py
+tabulize/__init__.py
+tabulize.egg-info/PKG-INFO
+tabulize.egg-info/SOURCES.txt
+tabulize.egg-info/dependency_links.txt
+tabulize.egg-info/requires.txt
+tabulize.egg-info/top_level.txt
