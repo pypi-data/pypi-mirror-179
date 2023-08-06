@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: stationdata
+Version: 0.1.0
+Summary: This package aims to carry out a pre-processing of conventional weather stations
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: "ROGERIO P. DOS SANTOS" <rogerio.dosantos@ifpr.edu.br>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# station_data
+ pre-processing data from conventional weather stations
