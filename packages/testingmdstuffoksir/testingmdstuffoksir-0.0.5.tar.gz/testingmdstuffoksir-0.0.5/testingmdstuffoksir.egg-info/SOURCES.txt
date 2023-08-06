@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+testingmdstuffoksir/__init__.py
+testingmdstuffoksir.egg-info/PKG-INFO
+testingmdstuffoksir.egg-info/SOURCES.txt
+testingmdstuffoksir.egg-info/dependency_links.txt
+testingmdstuffoksir.egg-info/top_level.txt
