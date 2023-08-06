@@ -1,0 +1,40 @@
+## Arithmetic Calculator Module
+
+This module is a simple arithmetic calculator. It can perform addition, subtraction, multiplication, and division. It can also perform square root and resetting opertations.
+
+## Installation via pip
+
+Use the package manager [pip](https://pypi.org/project/calculator-module) to install the module.
+
+```bash
+pip install calculator-module
+```
+
+## Installation via Docker
+
+Use the package manager [docker](https://hub.docker.com/r/minasefikadu/calc_image) to install the module.
+
+```bash
+docker pull minasefikadu/calc_image
+```
+
+## Usage
+
+```python
+
+from calculator import Calculator
+
+calculator = Calculator()
+
+calculator.add(2)  # adds 2 to the current value
+calculator.subtract(10) # subtracts 10 from the current value
+calculator.multiply(50) # multiplies the current value by 50
+calculator.divide(2) # divides the current value by 2
+calculator.square_root(9, 2) # returns the nth root of the current value
+                             # in this case, the square root of 9
+calculator.reset() # resets the current value to 0
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
