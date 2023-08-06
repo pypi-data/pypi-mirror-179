@@ -1,0 +1,24 @@
+[package]
+name = "chinilla_rs"
+version = "0.1.20"
+authors = ["Richard Kiss <him@richardkiss.com>"]
+edition = "2021"
+license = "Apache-2.0"
+description = "Code useful for implementing chinilla consensus."
+homepage = "https://github.com/Chinilla/chinilla_rs/"
+repository = "https://github.com/Chinilla/chinilla_rs/"
+readme = "README.md"
+
+[lib]
+name = "chinilla_rs"
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+chinilla = { path = "local_dependencies/chinilla", features = ["py-bindings"] }
+chinilla-protocol = { path = "local_dependencies/chinilla-protocol", features = ["py-bindings"]  }
+clvmr_chinilla = "=0.1.24"
+pyo3 = { version = "=0.15.1", features = ["extension-module", "multiple-pymethods"] }
+chinilla_py_streamable_macro = { version= "0.1.3", path = "local_dependencies/chinilla_py_streamable_macro" }
+chinilla_streamable_macro = { version = "0.2.4", path = "local_dependencies/chinilla_streamable_macro" }
+hex = "=0.4.3"

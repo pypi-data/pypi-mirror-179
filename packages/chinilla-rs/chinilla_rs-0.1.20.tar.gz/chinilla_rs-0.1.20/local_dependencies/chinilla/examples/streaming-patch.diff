@@ -1,0 +1,48 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index dbecd26..89bc1e8 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -15,7 +15,7 @@ repository = "https://github.com/Chinilla/chinilla_rs/"
+ serde = { version = "1.0.130", features = ["derive"] }
+ clvmr_chinilla = "=0.1.24"
+ pyo3 = "0.15.1"
+-bincode = { git = "https://github.com/richardkiss/bincode", branch = "chinilla" }
++# bincode = { git = "https://github.com/richardkiss/bincode", branch = "chinilla" }
+ hex = "=0.4.3"
+ 
+ [dev-dependencies]
+diff --git a/src/lib.rs b/src/lib.rs
+index 759f6d4..f4fa654 100644
+--- a/src/lib.rs
++++ b/src/lib.rs
+@@ -1,2 +1,2 @@
+ pub mod gen;
+-pub mod streamable;
++// pub mod streamable;
+
+diff --git a/wheel/src/api.rs b/wheel/src/api.rs
+index 6e34218..a096e84 100644
+--- a/wheel/src/api.rs
++++ b/wheel/src/api.rs
+@@ -2,8 +2,8 @@ use crate::run_generator::__pyo3_get_function_run_generator;
+ use chinilla::gen::flags::COND_ARGS_NIL;
+ use chinilla::gen::flags::COND_CANON_INTS;
+ use chinilla::gen::flags::NO_UNKNOWN_CONDS;
+-use chinilla::streamable::coin::Coin;
+-use chinilla::streamable::fullblock::Fullblock;
++//use chinilla::streamable::coin::Coin;
++//use chinilla::streamable::fullblock::Fullblock;
+ use clvmr_chinilla::chinilla_dialect::NO_NEG_DIV;
+ use clvmr_chinilla::chinilla_dialect::NO_UNKNOWN_OPS;
+ use clvmr_chinilla::py::lazy_node::LazyNode;
+@@ -25,8 +25,8 @@ pub fn chinilla_rs(_py: Python, m: &PyModule) -> PyResult<()> {
+     m.add("NO_UNKNOWN_OPS", NO_UNKNOWN_OPS)?;
+     m.add("MEMPOOL_MODE", MEMPOOL_MODE)?;
+     m.add_class::<LazyNode>()?;
+-    m.add_class::<Coin>()?;
+-    m.add_class::<Fullblock>()?;
++    //m.add_class::<Coin>()?;
++    //m.add_class::<Fullblock>()?;
+ 
+     Ok(())
+ }
