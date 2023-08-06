@@ -1,0 +1,2 @@
+[console_scripts]
+fb_login_brute = fb_login_brute.login_brute:main
