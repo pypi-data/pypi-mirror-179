@@ -1,0 +1,12 @@
+busywork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+busywork/__main__.py,sha256=tGkNqM1vpWg9cSXMO0efhE9IyGUnbH0wf4aiK7bpHDI,116
+busywork/ci.py,sha256=l4aoFPjx-r7fHlxe5IYPG7dtYJhPerHZ1D3_eSwj-vU,2739
+busywork/install.py,sha256=LOLL3Vl1D4YEUiwypDUx8peB4u_FnIU5UgC2jfw40kI,1166
+busywork/pyproject.py,sha256=N5rY4nusarPCJsUshgPmXnaOVDEADWCJrY45Prerzog,1565
+busywork/utils.py,sha256=trwBGjSwHjKV9vCDAzMLWTZfnVeZtppuh6fLexRbuiI,334
+busywork-0.1.0b2.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+busywork-0.1.0b2.dist-info/METADATA,sha256=9A2F510dp6H2kh4QKO01NYM_tFov90qr-VCb6K42ODw,1740
+busywork-0.1.0b2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+busywork-0.1.0b2.dist-info/entry_points.txt,sha256=7dphacrwa-Q6tJ4qbw7WXLHA2qrzKEiBpPn5phUnXpY,52
+busywork-0.1.0b2.dist-info/top_level.txt,sha256=C2ojEol_ovH3CPN2_uOnp2SFMM2408kv7bWhuaqqXXw,9
+busywork-0.1.0b2.dist-info/RECORD,,
