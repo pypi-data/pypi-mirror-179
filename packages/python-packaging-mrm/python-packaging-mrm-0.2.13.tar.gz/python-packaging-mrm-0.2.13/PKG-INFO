@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-packaging-mrm
+Version: 0.2.13
+Summary: Example of how to package Python projects
+Author-email: Marta Maciel <marta_maciel@live.com.pt>
+License: BSD-3-Clause
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+### python-packaging-mrm
+
+Python code packaging demo
