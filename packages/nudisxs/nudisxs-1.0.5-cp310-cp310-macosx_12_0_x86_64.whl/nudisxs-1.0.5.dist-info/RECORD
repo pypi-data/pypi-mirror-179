@@ -1,0 +1,15 @@
+nudisxs/__about__.py,sha256=tcTE7G1_tGq5vqrGkFTYv986sz3ebNRnnkAmNlkF0rE,122
+nudisxs/__init__.py,sha256=rRpdD8ZbQZiaaUJpr9Z3k_JLpjnCIHIRcM5cpB9FUB0,100
+nudisxs/_nudisxs.cpython-310-darwin.so,sha256=LCqyyg2lWbjK2okeeARZcP46x2m-3iA1x71bRtsYfyw,147976
+nudisxs/disxs.py,sha256=1bzUe_cohoY4sJhoFsKwkvjPzbii5OYzZKS6K-ULEJg,5578
+nudisxs/libDISxs.dylib,sha256=rdtmFl9ZmORD2JthacJu3wN_11R5gXCPNqRt-TUTciI,105056
+nudisxs/tests/__init__.py,sha256=rRpdD8ZbQZiaaUJpr9Z3k_JLpjnCIHIRcM5cpB9FUB0,100
+nudisxs/tests/test_cubepy.py,sha256=BLwgMe8tKaN1e9X4YjGrDsYw14o8BNhR5E7AuSl7AXo,1176
+nudisxs/tests/test_dis.py,sha256=FT8y0x25h0G5SqCwKfL3x56D4htkVCGgW3nY5r20RXc,2512
+nudisxs/tests/test_dis_total.py,sha256=nxPPTq-thjM_qAxT4FAsmbqN-MC1ugl1r-OoD6TD-ng,820
+nudisxs/tests/test_vegas.py,sha256=HtF1DBylTM1KZtSvZ-oKJxzOTL4DIoscwHpHjlmS6gA,1348
+nudisxs-1.0.5.dist-info/LICENSE.txt,sha256=cI-CCvousts_YJOiVktippLAMG-32JCBbuwWTONTA9k,1092
+nudisxs-1.0.5.dist-info/METADATA,sha256=Qns4ibEYCPu9TyGfCvQZbsxPTlrCP3kY93eZvSsVG6k,2406
+nudisxs-1.0.5.dist-info/WHEEL,sha256=5KDqCDFRQbXPpf0hXo7vEV1XUwc06NdxhFznNOmKbmc,105
+nudisxs-1.0.5.dist-info/top_level.txt,sha256=t9wxLIUvYafWk324BQGDG9-dfvLlKXdDuPo7SwHj3yo,22
+nudisxs-1.0.5.dist-info/RECORD,,
