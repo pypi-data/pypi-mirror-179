@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pycnpj_cpf/__init__.py
+pycnpj_cpf/__main__.py
+pycnpj_cpf/cli.py
+pycnpj_cpf/core.py
+pycnpj_cpf.egg-info/PKG-INFO
+pycnpj_cpf.egg-info/SOURCES.txt
+pycnpj_cpf.egg-info/dependency_links.txt
+pycnpj_cpf.egg-info/entry_points.txt
+pycnpj_cpf.egg-info/requires.txt
+pycnpj_cpf.egg-info/top_level.txt
