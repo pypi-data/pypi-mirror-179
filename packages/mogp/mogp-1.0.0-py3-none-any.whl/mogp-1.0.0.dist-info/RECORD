@@ -1,0 +1,13 @@
+.DS_Store,sha256=Zl_9Ts9yqYvFrh0dfWWJAQoHqEAQjGfOGuHjUA8CxQA,6148
+mogp/__init__.py,sha256=LouAt4yc74Va0hMpVfZQTUrTHub1aZOXL8fzG9S-T3Y,51
+mogp/allocmodel.py,sha256=CCbUOtZr8U2kZd3kp02efRkA7vS-jbXdmHdaecQtMcI,1392
+mogp/mogp_constrained.py,sha256=qXzUUWMAjUO__NM8ySaz8SEnKstB6sdJe4lbnQwySig,19180
+mogp/neg_linear.py,sha256=UP5abIQRY5VT345Elio0MAc7-thbtfW93r-fG1XEi-Y,709
+mogp/obsmodel.py,sha256=UosOaKSbn08DSLRjseT_MMpVNnmm_lSvS3PvQzk-L8Q,4147
+mogp/test_package.py,sha256=w6mHeZ5K47zOJdFNiq49WciqupBkI14jKMX0cY4nD68,2487
+mogp/utils.py,sha256=gcdg1Frxz232OjRlIH4u5uSGV8r10wT-j3nHQP4maxA,3175
+mogp-1.0.0.dist-info/LICENSE,sha256=m9EwVDGQ2piwx16sI7-t7M_bZJsk1VzJEvCmZcFNtb0,1531
+mogp-1.0.0.dist-info/METADATA,sha256=pT0r5tN6b9bjd7zM3w0yiVFUZ6WAtC1WHLudJ5DNH4g,424
+mogp-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mogp-1.0.0.dist-info/top_level.txt,sha256=cz_M2Z4p1vJkPNBqRFo7UG9DjqFdCqwghQIgCtxaIeY,5
+mogp-1.0.0.dist-info/RECORD,,
