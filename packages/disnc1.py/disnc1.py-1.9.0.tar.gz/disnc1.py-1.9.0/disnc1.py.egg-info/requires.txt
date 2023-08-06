@@ -1,0 +1,8 @@
+discord.py
+datetime
+functools
+inspect
+typing
+asyncio
+json
+re
