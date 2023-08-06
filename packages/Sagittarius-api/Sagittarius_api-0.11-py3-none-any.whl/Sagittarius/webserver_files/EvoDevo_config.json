@@ -1,0 +1,10 @@
+{
+  "cvae_yemb_dims": [2, 2],
+  "cvae_hidden_dims": [1024, 1024, 1024],
+  "latent_dim": 32,
+  "num_heads": 8,
+  "num_ref_points": 4,
+  "tr_dim": 32,
+  "temporal_dim": 8,
+  "cat_dims": [4, 4]
+}
