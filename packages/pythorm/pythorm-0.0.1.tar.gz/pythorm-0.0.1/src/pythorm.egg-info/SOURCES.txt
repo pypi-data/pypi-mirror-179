@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pythorm/__init__.py
+src/pythorm/main.py
+src/pythorm.egg-info/PKG-INFO
+src/pythorm.egg-info/SOURCES.txt
+src/pythorm.egg-info/dependency_links.txt
+src/pythorm.egg-info/requires.txt
+src/pythorm.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+[project]
+name = "pythorm"
+version = "0.0.1"
+authors = [
+  { name="Fenish", email="sohretalhadev@gmail.com" },
+]
+description = "Asnyc ORM library for python"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'aiomysql'
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/Fenish/pythorm"
+"Bug Tracker" = "https://github.com/Fenish/pythorm/issues"
