@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gauss_binomial_statdist
+Version: 0.0.3
+Summary: Code to enable the use of the gaussian and the binomial distributions
+Author: Oumayma EL-FAHSI
+Author-email: <oumayma.elfahsi@ump.ac.ma>
+Keywords: python,gaussian,binomial,distributions,mean,standard deviation,statistics
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## About the Package:
+The package was an assignment in a course I had taken about Machine Learning.
+
+The package is about making the Gaussian, and the Binomial distribution easy to work with .
+There's The Gaussian sub Module, and the Binomial sub Module as well.
+## Features:
+With The package , you can :
+* Read from the dataset.
+* calculate the mean for the Gaussian distribution, and the Binomial distribution as well.
+* calculate the standard deviation .
+* Plot the histogram of the data.
+* Calculate the probability density function for the distribution.
+* Plot the probability density function.
+* Add two Gaussian Distributions .
+* Add two Binomial Distributions (if only they have the same probability p, the complex case is not developed yet may be soon).
