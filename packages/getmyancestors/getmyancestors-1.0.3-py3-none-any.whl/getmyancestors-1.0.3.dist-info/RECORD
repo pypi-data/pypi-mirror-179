@@ -1,0 +1,17 @@
+getmyancestors/__init__.py,sha256=poQKjaoOoYph_3fBuMrtbaOf3ZLL8jL_OvJdbm9E8-8,162
+getmyancestors/__main__.py,sha256=oll6Ph3TOJzFj78htBJDPnM0ys4jkiP4jjjFIfhbNI4,65
+getmyancestors/fstogedcom.png,sha256=rU_u3zWC5jqyBpK8IlOaLjrQnhxBE2raOOKB2kP-Nko,198
+getmyancestors/fstogedcom.py,sha256=VYCq7OHkPXGoWazeVoi5NQsKhnIJQsONnSEzx99-5n4,546
+getmyancestors/getmyancestors.py,sha256=vn_3XaPXc2ebGOGRQBnIieiKj-GQwf_w4suZK7tmR9M,8689
+getmyancestors/mergemyancestors.py,sha256=YIzrOJke6Fyc1YpJmv5-32zXjcII4SpFsL5EKfCbFxU,4376
+getmyancestors/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getmyancestors/classes/constants.py,sha256=c2bh3L-De8NlBT8xsZ3iIUXzAqY-kejihyatlYmTqsI,1824
+getmyancestors/classes/gedcom.py,sha256=THnXxAiM1tOSzybkos73gMd_F82ZZVNhSKbtjkgcM_8,12385
+getmyancestors/classes/gui.py,sha256=fsgaCoHMZQg0g3tJPDSrUK2YVa531lht1CCL5B0yyYo,23502
+getmyancestors/classes/session.py,sha256=PWSKONJ2yaB3zHJfXhML0VdPSo984oSNCN8cB7zcbXM,7028
+getmyancestors/classes/translation.py,sha256=TkJlSH8rPrxIgoTzLpHQ-1bXHipajGG0hiootkeLf-k,7103
+getmyancestors/classes/tree.py,sha256=otZe2FFTEaUV1OnzlK57ptHXW3TQ_JNE-thVEpyRR3Y,32658
+getmyancestors-1.0.3.dist-info/entry_points.txt,sha256=JPi4PUXPCbzUZcl7RwbkZcEXylxgVXDkX2VGOOdWz0E,165
+getmyancestors-1.0.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+getmyancestors-1.0.3.dist-info/METADATA,sha256=bxNRzMKnFzxe7uTFw9Gle8qbR-89JCMIGkJMsdvVDqw,3270
+getmyancestors-1.0.3.dist-info/RECORD,,
