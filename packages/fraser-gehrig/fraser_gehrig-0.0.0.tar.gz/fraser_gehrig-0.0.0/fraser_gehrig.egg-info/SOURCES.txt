@@ -1,0 +1,14 @@
+.gitignore
+LICENSE.md
+README.md
+pyproject.toml
+requirements.ini
+requirements.txt
+setup.py
+fraser_gehrig/__init__.py
+fraser_gehrig/fraser_gehrig.py
+fraser_gehrig.egg-info/PKG-INFO
+fraser_gehrig.egg-info/SOURCES.txt
+fraser_gehrig.egg-info/dependency_links.txt
+fraser_gehrig.egg-info/requires.txt
+fraser_gehrig.egg-info/top_level.txt

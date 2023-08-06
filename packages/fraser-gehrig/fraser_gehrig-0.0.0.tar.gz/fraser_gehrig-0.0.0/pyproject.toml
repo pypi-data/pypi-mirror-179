@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fraser_gehrig"
+description = "A package to scrape AFL data."
+authors = [{name = "Harry Goodman", email = "harryfgoodman@gmail.com"}, {name = "Gabriel Dennis", email = "gabrieldennis17@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.8.1"
+license = {text = "MIT"}
+dependencies = [
+    "pandas",
+    "requests", 
+    "bs4", 
+]
+dynamic = ["version"]
+
