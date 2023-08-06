@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: MBCalculator
+Version: 0.0.1
+Summary: Bu Bir Hesap Makinesi Modülüdür - Toplama, Çıkarma, Bölme ve Çarpma İşlemi Yapar
+Author-email: Murat Bilginer <muratbilginer09@gmail.com>
+Project-URL: Homepage, https://github.com/MuratBilginerSoft/Calc
+Project-URL: Bug Tracker, https://github.com/MuratBilginerSoft/Calc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
