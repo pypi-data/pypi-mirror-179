@@ -1,0 +1,7 @@
+fsm_admin_lite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsm_admin_lite/mixins.py,sha256=mrp2l2jtEmqTVHanInectBcCwOn3jPMw8IXcyjSYAh8,5811
+fsm_admin_lite/templates/admin/fsm_admin_change_form.html,sha256=YV9lDHRb7tqQp2n2P0m-c0I1CUjYBCdBQo-3bsqZqII,478
+django_fsm_admin_lite-0.1.0.dist-info/LICENSE,sha256=egmwcJfHASmWhN9I4gSBNm8zWPDO60aGH7U15VdmTkw,1076
+django_fsm_admin_lite-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+django_fsm_admin_lite-0.1.0.dist-info/METADATA,sha256=oX7WKrpai3OjEu59dK07s0qRc_BNaFCF92H1L0-W6fc,3825
+django_fsm_admin_lite-0.1.0.dist-info/RECORD,,
