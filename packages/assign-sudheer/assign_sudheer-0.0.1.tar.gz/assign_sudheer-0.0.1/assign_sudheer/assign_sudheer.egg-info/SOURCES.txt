@@ -1,0 +1,11 @@
+README.md
+setup.py
+assign_sudheer/ingest_data.py
+assign_sudheer/mlflowrun.py
+assign_sudheer/score.py
+assign_sudheer/train.py
+assign_sudheer/assign_sudheer.egg-info/PKG-INFO
+assign_sudheer/assign_sudheer.egg-info/SOURCES.txt
+assign_sudheer/assign_sudheer.egg-info/dependency_links.txt
+assign_sudheer/assign_sudheer.egg-info/requires.txt
+assign_sudheer/assign_sudheer.egg-info/top_level.txt
