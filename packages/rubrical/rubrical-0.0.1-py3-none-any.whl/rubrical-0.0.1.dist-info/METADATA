@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rubrical
+Version: 0.0.1
+Summary: A Python CLI to encourage (😅) people to update their dependencies!
+Home-page: https://github.com/ivanklee86/rubrical
+License: MIT
+Author: Ivan Lee
+Author-email: ivanklee86@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Project-URL: Repository, https://github.com/ivanklee86/rubrical
+Description-Content-Type: text/markdown
+
+# rubrical
+A Python CLI to encourage (😅) people to update their dependencies!
+
