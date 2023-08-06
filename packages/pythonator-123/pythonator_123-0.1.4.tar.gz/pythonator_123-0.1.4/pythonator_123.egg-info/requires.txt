@@ -1,0 +1,7 @@
+
+[dev]
+pytest
+setuptools_scm
+black
+flake8
+pre-commit

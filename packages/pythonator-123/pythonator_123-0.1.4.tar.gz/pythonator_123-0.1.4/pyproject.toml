@@ -1,0 +1,55 @@
+[project]
+name = "pythonator_123"  #This defines what is installed
+authors = [{name = "Rob Campbell", email = "git@raacampbell.com"}] #Can use the GitHub noreply e-mail address if you don't want yours here
+description = "My test package for stuff with things"
+readme = "README.md"
+requires-python = ">=3.8.0"
+dynamic = ["version"]
+license = {text = "BSD 3-Clause"} # Can also provide a link with file =  (the standard licences have abbreviations)
+dependencies = []
+
+# The only other mandatory thing is to explain how you will package/build it
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.2",
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+
+# github actions will look in these. these are the tools that we need to work with
+# the software but not tools that are needed to run it. 
+[project.optional-dependencies]
+dev = [
+    "pytest",
+     "setuptools_scm",
+     "black",
+     "flake8",
+     "pre-commit"
+]
+
+
+[tool.black]
+target-version = ['py38', 'py39', 'py310']
+skip-string-normalization = false
+line-length = 85
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | _build
+    | build
+    | dist
+  )/
+)
+'''
+
+
