@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: gumby
+Version: 0.6.0
+Summary: Stretch polygonal meshes in segments along an axis
+Home-page: https://github.com/lace/gumby
+License: MIT
+Author: Paul Melnikow
+Author-email: github@paulmelnikow.com
+Requires-Python: >=3.8.1,<4
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: lacecore[obj] (>=3.0.0a0)
+Requires-Dist: meshlab-pickedpoints (>=3.0,<5.0)
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Project-URL: Repository, https://github.com/lace/gumby
