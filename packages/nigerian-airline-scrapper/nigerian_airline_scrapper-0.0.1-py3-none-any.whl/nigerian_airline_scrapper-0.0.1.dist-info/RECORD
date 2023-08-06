@@ -1,0 +1,9 @@
+nigerian_airline_scrapper/__init__.py,sha256=-zyoUcUZ2mdMic8hGLWCgv3qzfaBQpW--M9c0QN4Xn4,46
+nigerian_airline_scrapper/dana.py,sha256=_GTLGXRomgmrQda95Bgx2TBmeCPdwE7AYbNGqw7AEtM,1760
+nigerian_airline_scrapper/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nigerian_airline_scrapper/scrapper.py,sha256=SmLlFQ2Ru_5C8abzqAerj2vFl1QF71-jZRCKFNeNbP4,1333
+nigerian_airline_scrapper/thread.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nigerian_airline_scrapper-0.0.1.dist-info/METADATA,sha256=gMmab1_Ve-5ZQ5lxNuzwG1Wm8jIcPPfO6m1RjDlfo3w,41038
+nigerian_airline_scrapper-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+nigerian_airline_scrapper-0.0.1.dist-info/licenses/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+nigerian_airline_scrapper-0.0.1.dist-info/RECORD,,
