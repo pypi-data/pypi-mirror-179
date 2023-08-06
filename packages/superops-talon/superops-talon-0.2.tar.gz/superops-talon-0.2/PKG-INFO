@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: superops-talon
+Version: 0.2
+Summary: Mailgun library to extract message quotations and signatures (talon-1.6.0)
+Author: SuperOps
+Author-email: app.integrations@superops.com
+License: APACHE2
