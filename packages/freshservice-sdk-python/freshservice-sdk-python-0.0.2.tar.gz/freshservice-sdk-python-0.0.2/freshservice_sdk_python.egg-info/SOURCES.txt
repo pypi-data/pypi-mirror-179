@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+freshservice_sdk_python.egg-info/PKG-INFO
+freshservice_sdk_python.egg-info/SOURCES.txt
+freshservice_sdk_python.egg-info/dependency_links.txt
+freshservice_sdk_python.egg-info/requires.txt
+freshservice_sdk_python.egg-info/top_level.txt
