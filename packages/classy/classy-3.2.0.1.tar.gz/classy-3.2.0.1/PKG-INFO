@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: classy
+Version: 3.2.0.1
+Summary: Python interface to the Cosmological Boltzmann code CLASS
+Home-page: http://www.class-code.net
+Author: Julien Lesgourgues & Thomas Tram
+Author-email: Julien.Lesgourgues@physik.rwth-aachen.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
