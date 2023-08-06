@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/quicklook_time_series.py
+quicklooktimeseries.egg-info/PKG-INFO
+quicklooktimeseries.egg-info/SOURCES.txt
+quicklooktimeseries.egg-info/dependency_links.txt
+quicklooktimeseries.egg-info/requires.txt
+quicklooktimeseries.egg-info/top_level.txt
