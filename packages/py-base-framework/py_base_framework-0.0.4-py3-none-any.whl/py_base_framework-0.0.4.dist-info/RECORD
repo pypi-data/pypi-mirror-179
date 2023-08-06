@@ -1,0 +1,7 @@
+py_base_framework/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_base_framework/cloud_spi_core.py,sha256=F6k5-vqolnuAAeV3vGjaVfQXb8226Q1b0VIwDDMRhfs,214
+py_base_framework/cloud_spi_log.py,sha256=un8MqfpP99FzV4BirFxGeDIx09Ji_Z6SfYPojh54eU4,1541
+py_base_framework/cloud_spi_web.py,sha256=GVjOt59Q3Oe0snP6J9nu-755V_vILf34wOftxkMmRqw,728
+py_base_framework-0.0.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+py_base_framework-0.0.4.dist-info/METADATA,sha256=vb8hWTyKvKi79BOl0EuOywHFqdb30jpo6aLGY7TYUcw,513
+py_base_framework-0.0.4.dist-info/RECORD,,
