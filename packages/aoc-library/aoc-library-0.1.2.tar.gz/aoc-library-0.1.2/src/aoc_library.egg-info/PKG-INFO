@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aoc-library
+Version: 0.1.2
+Summary: Advent of Code Library
+Home-page: https://github.com/Area110011/AdventOfCodeLibrary/
+Author: Liborsaf, Thr0nSK
+Author-email: liborsaf@wetian.eu
+License: GPL-v3
+Platform: UNKNOWN
+Requires-Python: >=3.11
+License-File: LICENSE.md
+
+UNKNOWN
+

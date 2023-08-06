@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/aoc/__init__.py
+src/aoc_library.egg-info/PKG-INFO
+src/aoc_library.egg-info/SOURCES.txt
+src/aoc_library.egg-info/dependency_links.txt
+src/aoc_library.egg-info/requires.txt
+src/aoc_library.egg-info/top_level.txt
