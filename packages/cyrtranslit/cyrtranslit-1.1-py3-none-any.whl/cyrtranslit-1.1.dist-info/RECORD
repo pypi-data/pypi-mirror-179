@@ -1,0 +1,9 @@
+cyrtranslit/__init__.py,sha256=SfY10W5JE0g0DWZE6RX1rplLd-YzBCKNtWc9MJRI430,9179
+cyrtranslit/cyrtranslit.py,sha256=flJOxiNP5YzA7UFKqmRjRiTOARMitxjVn_7qBt8zt2E,2379
+cyrtranslit/mapping.py,sha256=FkLbJUpgCXhku5_t7Kfz7REvfwT2I7UgIa_8weXRavg,12896
+cyrtranslit-1.1.dist-info/LICENSE,sha256=Ro8JZF_kgwg-tVMV6I7tnOwFENzpXiBn81hOAc1HVWM,1084
+cyrtranslit-1.1.dist-info/METADATA,sha256=Nl8ABnZT15DbkB9tx_Hks0sjMwPs1vU9iYB3Iodk-0M,12332
+cyrtranslit-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cyrtranslit-1.1.dist-info/entry_points.txt,sha256=JTn_YO-JG_keuMDb1Au_coX-iyJRaAE580wp9sBcbjg,61
+cyrtranslit-1.1.dist-info/top_level.txt,sha256=iHSVb5jXSg-2C2sdgrct3Q1rgrFUDV-LG7IkBmQXfP8,12
+cyrtranslit-1.1.dist-info/RECORD,,
