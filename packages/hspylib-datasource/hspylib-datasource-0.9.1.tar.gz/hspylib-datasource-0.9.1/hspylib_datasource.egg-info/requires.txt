@@ -1,0 +1,4 @@
+hspylib>=latest
+cassandra-driver>=latest
+psycopg2>=latest
+PyMySQL>=latest
