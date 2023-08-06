@@ -1,0 +1,5 @@
+twopilabs-sense-x1000
+numpy
+matplotlib
+scipy
+h5py
