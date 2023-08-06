@@ -1,0 +1,13 @@
+include requirements.txt
+include README.md
+include LICENSE.md
+include MANIFEST.in
+recursive-include baitoolkit *
+recursive-exclude tests *
+recursive-exclude data *
+rescursive-exclude */__pycache__ *
+rescursive-exclude baitoolkit/*/__pycache__ *
+rescursive-exclude baitoolkit/*/*/__pycache__ *
+rescursive-exclude baitoolkit/*/*/*/__pycache__ *
+rescursive-exclude baitoolkit/*/*/*/*/__pycache__ *
+

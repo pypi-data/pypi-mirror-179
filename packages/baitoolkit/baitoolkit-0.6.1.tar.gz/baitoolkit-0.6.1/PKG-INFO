@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: baitoolkit
+Version: 0.6.1
+Summary: Core development tools for web & AI application.
+Home-page: UNKNOWN
+Author: Dabai
+Author-email: zhgbai@163.com
+License: MIT
+Description: Framework for application system development.
+        It includes 
+        - async utils
+        - flask extension 
+        - terminal command extension 
+        - sqlalchemy extension, for example, auto-validating when CREATION and UPDATE table record.
+        - nacos client
+        - some basic utils such as type, function, crypto etc.
+Keywords: Web,Database,Flask,Click,SQLAlchemy,Migration,Config
+Platform: any
+Classifier: Framework :: Flask
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
