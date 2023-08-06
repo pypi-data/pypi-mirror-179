@@ -1,0 +1,2 @@
+# Forward GIT configuration
+Defaults env_keep+="GIT_AUTHOR_* GIT_COMMITTER_*"

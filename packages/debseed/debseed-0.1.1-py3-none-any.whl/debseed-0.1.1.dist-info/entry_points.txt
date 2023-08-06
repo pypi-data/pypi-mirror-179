@@ -1,0 +1,2 @@
+[console_scripts]
+debseed = debseed.__main__:main

@@ -1,0 +1,5 @@
+[Time]{% if ntp_servers %}
+NTP={{ ntp_servers }}
+{% else %}
+#NTP=
+{% endif %}

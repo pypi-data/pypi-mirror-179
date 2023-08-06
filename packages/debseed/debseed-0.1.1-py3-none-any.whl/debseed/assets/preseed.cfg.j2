@@ -1,0 +1,160 @@
+{{ context_comments }}
+
+## ----------------------------------------------------------------------------
+## Network
+##
+
+{% if dhcp %}
+d-i netcfg/choose_interface select auto
+d-i netcfg/disable_autoconfig boolean true
+d-i netcfg/confirm_static boolean true
+{% endif %}
+
+{% if ip_gateway %}
+d-i netcfg/get_gateway string {{ ip_gateway }}
+{% endif %}
+
+{% if ip_netmask %}
+d-i netcfg/get_netmask string {{ ip_netmask }}
+{% endif %}
+
+{% if dns_servers %}
+d-i netcfg/get_nameservers string {{ dns_servers }}
+{% endif %}
+
+{% if dns_domain is not none %}
+d-i netcfg/get_domain string {{ dns_domain }}
+{% endif %}
+
+
+## ----------------------------------------------------------------------------
+## User
+##
+
+# Skip creation of a root account (the non-root user account that will be created will be able to use sudo).
+d-i passwd/root-login boolean false
+
+# Create the non-root user account
+{% if username %}
+d-i passwd/username string {{ username }}
+{% endif %}
+{% if password_crypted %}
+d-i passwd/user-password-crypted password {{ password_crypted }}
+{% endif %}
+d-i passwd/user-fullname string 
+d-i passwd/user-default-groups string audio video cdrom floppy dip plugdev netdev sudo staff
+
+{% if locale %}
+d-i debian-installer/locale string {{ locale }}
+{% endif %}
+
+{% if keyboard %}
+d-i keyboard-configuration/xkb-keymap select {{ keyboard }}
+{% endif %}
+
+
+## ----------------------------------------------------------------------------
+## Packages
+##
+
+# Repository host
+d-i apt-setup/security_host string {% if repository_host %}{{ repository_host }}{% else %}deb.debian.org{% endif %}
+d-i mirror/http/hostname string {% if repository_host %}{{ repository_host }}{% else %}deb.debian.org{% endif %}
+
+# Repository path
+d-i mirror/http/directory string {% if repository_path %}{{ repository_path }}{% else %}/debian/{% endif %}
+
+# Include security, non-free and contrib sources
+d-i apt-setup/services-select multiselect security
+d-i apt-setup/non-free boolean true
+d-i apt-setup/contrib boolean true
+
+# Misc
+d-i mirror/country string manual
+d-i mirror/http/proxy string 
+d-i apt-setup/enable-source-repositories boolean false
+
+# Packages to install
+d-i pkgsel/include string sudo {% if packages %}{{ packages }}{% endif %}
+
+# Misc
+tasksel tasksel/first multiselect standard
+d-i pkgsel/upgrade select full-upgrade
+popularity-contest popularity-contest/participate boolean false
+
+
+## ----------------------------------------------------------------------------
+## Time
+##
+
+{% if timezone %}
+# Time zone: you may set this to any valid setting for $TZ; see the contents of /usr/share/zoneinfo/ for valid values.
+d-i time/zone string {{ timezone }}
+{% endif %}
+
+{% if localtime_clock %}
+# Hardware clock is in localtime (should be avoided, except for dual-boot configurations with Windows)
+d-i clock-setup/utc boolean false
+{% else %}
+# Hardware clock is in UTC (preferred for Linux)
+d-i clock-setup/utc boolean true
+{% endif %}
+
+# Controls whether to use NTP to set the clock during the install.
+d-i clock-setup/ntp boolean true
+
+{% if first_ntp_server %}
+# NTP server to use during the install.
+d-i clock-setup/ntp-server string {{ first_ntp_server }}
+{% endif %}
+
+
+## ----------------------------------------------------------------------------
+## Files
+##
+{% if auto_partitioning == "lvm" %}
+d-i partman-auto/method string lvm
+d-i partman-auto/choose_recipe select atomic
+d-i partman-auto-lvm/guided_size string max
+
+d-i partman-lvm/device_remove_lvm boolean true
+d-i partman-lvm/confirm boolean true
+d-i partman-lvm/confirm_nooverwrite boolean true
+
+d-i partman-md/device_remove_md boolean true
+d-i partman-md/confirm boolean true
+
+d-i partman-partitioning/confirm_write_new_label boolean true
+
+d-i partman/choose_partition select finish
+d-i partman/confirm boolean true
+d-i partman/confirm_nooverwrite boolean true
+{% endif %}
+
+
+{% if late_command %}
+## ----------------------------------------------------------------------------
+## Late command
+##
+d-i preseed/late_command string {{ late_command }}
+{% endif %}
+
+
+## ----------------------------------------------------------------------------
+## Misc
+##
+d-i hw-detect/load_firmware boolean true
+d-i finish-install/reboot_in_progress note
+
+# Prevent scanning another CD or DVD
+apt-cdrom-setup apt-setup/cdrom/set-next boolean false
+apt-mirror-setup apt-setup/disable-cdrom-entries boolean true
+apt-setup-udeb apt-setup/disable-cdrom-entries boolean true
+d-i apt-setup/cdrom/set-first boolean false
+d-i apt-setup/cdrom/set-next boolean false
+d-i apt-setup/cdrom/set-failed boolean false
+
+# Boot loader
+d-i grub-installer/only_debian boolean true
+d-i grub-installer/with_other_os boolean true
+d-i grub-installer/bootdev  string default
