@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pstring"
+version = "0.1.0"
+description = "Pretty string for Python"
+readme = "README.md"
+authors = [
+    { name = "Junyu Chen" },
+]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+keywords = ["format", "string", "color", "pretty"]
+dependencies = []
+requires-python = ">=3.7"
+
+    [project.optional-dependencies]
+    build = ["build", "twine", "pdoc3"]
+    dev = ["black"]
+
+    [project.urls]
+    Repository = "https://github.com/Junyu474/pstring"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"pstring/__init__.py" = ["{version}"]

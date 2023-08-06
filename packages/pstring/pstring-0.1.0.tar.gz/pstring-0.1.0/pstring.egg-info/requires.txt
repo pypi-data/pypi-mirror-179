@@ -1,0 +1,8 @@
+
+[build]
+build
+twine
+pdoc3
+
+[dev]
+black
