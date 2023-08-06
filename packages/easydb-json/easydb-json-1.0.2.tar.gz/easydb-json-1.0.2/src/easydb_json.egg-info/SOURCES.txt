@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/easydb_json.egg-info/PKG-INFO
+src/easydb_json.egg-info/SOURCES.txt
+src/easydb_json.egg-info/dependency_links.txt
+src/easydb_json.egg-info/top_level.txt
+src/easydbjson/__init__.py
