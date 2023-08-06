@@ -1,0 +1,11 @@
+pandas
+matplotlib
+seaborn
+numpy
+plotly
+kaleido
+yellowbrick
+scikit-learn
+statsmodels
+matplotx
+nbformat
