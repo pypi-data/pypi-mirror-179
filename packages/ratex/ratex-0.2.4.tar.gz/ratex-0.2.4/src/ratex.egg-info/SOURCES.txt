@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/ratex.egg-info/PKG-INFO
+src/ratex.egg-info/SOURCES.txt
+src/ratex.egg-info/dependency_links.txt
+src/ratex.egg-info/top_level.txt
