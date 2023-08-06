@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: genotations
+Version: 0.0.2
+Summary: Genotations - python library to work with genomes and primers
+Author: antonkulaga (Anton Kualga)
+Author-email: <antonkulaga@gmail.com>
+Keywords: python,utils,files
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pyfunctional
+Requires-Dist: more-itertools
+Requires-Dist: click
+Requires-Dist: pycomfort
+Requires-Dist: polars
+Requires-Dist: genomepy
+Requires-Dist: primer3-py
+Requires-Dist: dna-features-viewer
+
+
+Genotations
+===========
+
+Python library to work with genomes and annotations, mostly Ensembl genomes. Also supports visualization of transcripts/gene features and primer selection.
+
+Setup
+=====
+
+Use micromamba and environment.yaml to install the dependencies
+
+TODO: documentation is in proccess
