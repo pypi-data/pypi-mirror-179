@@ -1,0 +1,13 @@
+ics_to_todoist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ics_to_todoist/__main__.py,sha256=898ouP6oIjUsTixOsVMIFA7-i38IqoWCIMLtBlGkAt0,3884
+ics_to_todoist/models/__init__.py,sha256=hv0Qp-cjuWyT6xNscZ95k0EvhZ5kGH4tmpIu-D0IjEY,135
+ics_to_todoist/models/configuration.py,sha256=TF0RNTR47_MPeiTNu0JV3XCYzkGg9-CUu0QIdVGPY2k,1260
+ics_to_todoist/models/event.py,sha256=2DX7X3jYjYmf2l-5-_oXrza4hWnf6abW7KHHKcttJ28,235
+ics_to_todoist/models/project.py,sha256=nTBNxI2klApM0A765R6Xj_HL9LBw-sPDOMwiQS9OWV8,111
+ics_to_todoist/models/reminder_time.py,sha256=RqhixxIlxfKRadDzFEiHnHAiNCboJhOdSmnftKe6ihg,1171
+ics_to_todoist/todoist_helper.py,sha256=l6dTZSy_NfPZTpfdPe1WOTFtyIALWUSdoGoTwFObPE8,2066
+ics_to_todoist-0.1.0.dist-info/entry_points.txt,sha256=Qv2EjpSfBRHvqv7I1eZaTvf5SE46JM3rEmpaMwMuEqk,62
+ics_to_todoist-0.1.0.dist-info/LICENSE.md,sha256=WCm1F6iYcrxRHcRHpUQABNVOOHw64RJ4ewbDpsOOf8A,1088
+ics_to_todoist-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ics_to_todoist-0.1.0.dist-info/METADATA,sha256=I7VSANLDTRv1gP7zNOcDU7LRfE_tG0E-JB5rz9dK2Cc,2490
+ics_to_todoist-0.1.0.dist-info/RECORD,,
