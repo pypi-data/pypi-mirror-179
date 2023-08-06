@@ -1,0 +1,13 @@
+# task
+task: classification
+
+# data
+data: ./cvnets/configs/data/fashionmnist.yaml
+
+# model
+model: ./cvnets/configs/model/mobilevit_s.yaml
+
+# configs
+output : ./output/model.pth
+optimizer : sgd
+loss : CrossEntropyLoss
