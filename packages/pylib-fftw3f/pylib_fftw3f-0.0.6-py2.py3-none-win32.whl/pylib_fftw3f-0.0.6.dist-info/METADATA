@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pylib-fftw3f
+Version: 0.0.6
+Summary: Python packaging of single-precision FFTW3 3.3.10
+Home-page: UNKNOWN
+Author: chenkui164
+License: UNKNOWN
+Platform: UNKNOWN
+
+Binary distribution of single-precision FFTW3 3.3.10 static libraries
+
