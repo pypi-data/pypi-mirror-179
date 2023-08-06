@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vina2vi"
+version = "0.0.4"
+#requires-python = ">=3.6"
+dependencies = [
+    #"tensorflow >= 2.4"
+]
+readme = "README.md"
+[project.optional-dependencies]
+#TF = ["tensorflow >= 2.4"]
