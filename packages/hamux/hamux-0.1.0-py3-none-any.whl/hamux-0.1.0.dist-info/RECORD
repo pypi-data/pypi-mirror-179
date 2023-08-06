@@ -1,0 +1,15 @@
+hamux/__init__.py,sha256=UNhJRMQvOi81J0JeoVlVl1BBiRr8Qfloj1zgnsDhrzU,155
+hamux/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+hamux/datasets.py,sha256=jnRjex37ktcikVudHDPv-NJZ-aautFUT_sxmMRti8sM,5778
+hamux/ham.py,sha256=__5A7aJNJsn-HAtG6JSoxrXYxJ7JnxaIYNijFCrz1oc,7574
+hamux/lagrangians.py,sha256=vx1lcO_kJUBSA5MTCLNtjQAUv4-5eAQHyNZj7nbuPIY,11588
+hamux/layers.py,sha256=ytFWE8ZDw9U3C39Ycm9-7hNcUZrRsnpnSsuBM2T555U,4851
+hamux/registry.py,sha256=0nBAw5-WvkxoO_k_dJMS5c_eb1fVquyJJ9froFIjaEs,9196
+hamux/synapses.py,sha256=MOEIR74MxODBao6_a6h5HsAnPVfZiECFSgXqi9n3elY,14685
+hamux/utils.py,sha256=Qey7YokDjN1B0E_h2eRA1LdJ9lPD_UYJTZOSMNaGcL4,2757
+hamux-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hamux-0.1.0.dist-info/METADATA,sha256=RzpZGSb4lb3yKYOGUx0a1jXBhjamlHbxe1jtj4GftkQ,11201
+hamux-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hamux-0.1.0.dist-info/entry_points.txt,sha256=_3HvdOYV6tC9P9iLyL6QVrp9LdFu7Xjs6B6RbyYCoU8,32
+hamux-0.1.0.dist-info/top_level.txt,sha256=Yrj7jPlJ_RehPrnejj9hLjU9N1I-HBNqL40gHTq0nlA,6
+hamux-0.1.0.dist-info/RECORD,,
