@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tushare"
+version = "1.2.87"
+authors = [
+  { name="Jimmy Liu", email="waditu@163.com" },
+]
+description = "A utility for crawling historical and Real-time Quotes data of China stocks"
+readme = "README.md"
+# requires-python = ">=3.7"
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Programming Language :: Python :: 2.6',
+    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3.2',
+    'Programming Language :: Python :: 3.3',
+    'Programming Language :: Python :: 3.4',
+    'Programming Language :: Python :: 3.5',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'License :: OSI Approved :: BSD License'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/waditu/tushare"
+"Bug Tracker" = "https://github.com/waditu/tushare/issues"
