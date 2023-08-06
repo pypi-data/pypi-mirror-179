@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: belinda
+Version: 0.0.4a7
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: polars>=0.15.1
+Requires-Dist: pyarrow>=10.0.1
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+belinda
+=============
+
+Data science library add-on for `polars` specialized for **clustering analysis** for large-scale graphs, with some graph analytics sprinkled in.
