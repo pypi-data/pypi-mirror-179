@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+LAPCA/__init__.py
+LAPCA/createNewParser.py
+LAPCA/main.py
+LAPCA/run.py
+LAPCA.egg-info/PKG-INFO
+LAPCA.egg-info/SOURCES.txt
+LAPCA.egg-info/dependency_links.txt
+LAPCA.egg-info/top_level.txt
