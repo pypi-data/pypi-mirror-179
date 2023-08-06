@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+fb_login_brute.egg-info/PKG-INFO
+fb_login_brute.egg-info/SOURCES.txt
+fb_login_brute.egg-info/dependency_links.txt
+fb_login_brute.egg-info/entry_points.txt
+fb_login_brute.egg-info/requires.txt
+fb_login_brute.egg-info/top_level.txt
+src/__init__.py
+src/login_brute.py
