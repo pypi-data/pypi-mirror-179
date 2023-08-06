@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/battleship/__init__.py
+src/battleship/__main__.py
+src/battleship/console.py
+src/battleship/game.py
+src/battleship/test/__init__.py
+src/battleship/test/base.py
+src/battleship_py.egg-info/PKG-INFO
+src/battleship_py.egg-info/SOURCES.txt
+src/battleship_py.egg-info/dependency_links.txt
+src/battleship_py.egg-info/not-zip-safe
+src/battleship_py.egg-info/top_level.txt
