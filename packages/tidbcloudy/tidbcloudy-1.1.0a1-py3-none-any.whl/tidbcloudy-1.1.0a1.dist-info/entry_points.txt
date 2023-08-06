@@ -1,0 +1,3 @@
+[console_scripts]
+tidbcloudy=tidbcloudy.__main__:cli
+
