@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: simpleelf
+Version: 0.1.10
+Summary: Simple ELF parser and builder
+Home-page: https://github.com/doronz88/simpleelf
+Author: DoronZ
+Author-email: doron88@gmail.com
+Requires-Python: >=2.7
