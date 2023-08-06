@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: calct
+Version: 0.4.1
+Summary: Easily do calculations on hours and minutes using the command line
+Author-email: Philippe Warren <philippewarren31@gmail.com>
+License: GPLv3
+Project-URL: homepage, https://github.com/philippewarren/calct
+Project-URL: repository, https://github.com/philippewarren/calct
+Project-URL: changelog, https://github.com/philippewarren/calct/releases
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: French
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# Calct
+Easily do calculations on hours and minutes using the command line
+
+## TODO
+1. Improve README and documentation
+2. Add more tests
