@@ -1,0 +1,11 @@
+argdantic/__init__.py,sha256=2EhiM3VUPLIEVxK6AxGLRo7fgwPz0EWdSDaAyn9XBiY,155
+argdantic/arguments.py,sha256=hdIfoDKpw6l9L8Yjc486X2swjP0cA-cjPLwk8Di6V6c,5901
+argdantic/convert.py,sha256=_C8orH-qW2HYv_RwyMsJxaJyyMTEzF4pvSE5mRI5QeU,3380
+argdantic/core.py,sha256=Fw1OR9O_lImQU_sYKp-euqzOpghLzrOzIEm2aqWEBfQ,4210
+argdantic/registry.py,sha256=zXoTuebal0ymtW9mhxfdxZoj1yvuarOIp51BdbHdkvc,1515
+argdantic/testing.py,sha256=KAPQn6DEjrJlyeizz-IEIUttBah7kyG2NV2RBcMUqV0,1137
+argdantic/utils.py,sha256=ilXVgS57WQnowcKaGyBAiZZaofFR_W0T3oxzkUn_UG0,2492
+argdantic-0.0.1.dist-info/LICENSE,sha256=4--yBk1M9FABtntbwzasPCuFlCAki_vl9kyCRiq_HGE,1072
+argdantic-0.0.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+argdantic-0.0.1.dist-info/METADATA,sha256=L1olSuoSw1Qv98Wqhrzp6fzf6GQyk70rNkbAP4Cu1xE,3428
+argdantic-0.0.1.dist-info/RECORD,,
