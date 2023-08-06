@@ -1,0 +1,8 @@
+biopython
+numpy
+pandas
+pypdb
+matplotlib
+scipy
+rdkit
+fragalysis
