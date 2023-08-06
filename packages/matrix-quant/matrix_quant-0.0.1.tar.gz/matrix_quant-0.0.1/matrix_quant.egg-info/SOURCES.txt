@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+matrix_quant/__init__.py
+matrix_quant/matrix.py
+matrix_quant.egg-info/PKG-INFO
+matrix_quant.egg-info/SOURCES.txt
+matrix_quant.egg-info/dependency_links.txt
+matrix_quant.egg-info/top_level.txt
