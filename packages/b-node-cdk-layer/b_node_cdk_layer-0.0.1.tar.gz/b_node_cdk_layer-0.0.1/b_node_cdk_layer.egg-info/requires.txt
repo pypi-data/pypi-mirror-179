@@ -1,0 +1,2 @@
+aws_cdk.core>=1.100.0
+aws_cdk.aws_lambda>=1.100.0
