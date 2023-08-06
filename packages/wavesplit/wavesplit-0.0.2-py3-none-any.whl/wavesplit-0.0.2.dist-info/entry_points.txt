@@ -1,0 +1,6 @@
+[console_scripts]
+wavemerge = wavesplit.core:merge
+wavesplit = wavesplit.core:split
+
+[nbdev]
+wavesplit = wavesplit._modidx:d
