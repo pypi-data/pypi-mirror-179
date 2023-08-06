@@ -1,0 +1,13 @@
+patpat/__init__.py,sha256=AyVrC_dDU3Fxfw6DHKorxu7IG5GKEiFkBm8Y6nwK29Y,14
+patpat/checker.py,sha256=v4Cqj1hkXUWN4YkrSWYnX5ZCX-gRFUMYCDMa5Vg1P8U,13055
+patpat/hub.py,sha256=VqNAKruQuhqoZzxeqIGhMXtm3PXvMtYu2JX9QV6Gs3c,15778
+patpat/logger.py,sha256=I1msNOD_1Evq0yIl5RjPLOQ-enG28h1uGEwP-WLMttM,2826
+patpat/mapper.py,sha256=AZhRdWgMrgoWPwgwsztt22uLzV2WLjax9Zv2yubsLuM,30997
+patpat/querier.py,sha256=bmDOjbTkUeldpN6xJYY5dFiJ3G_acoOxuiCXIUa8wlg,17772
+patpat/retriever.py,sha256=wF8KSQvApCIRr4UgsO4h8luPtNix8VcAxMrMmcT0wyM,41496
+patpat/utility.py,sha256=zQDby6KwZuU0s-S6l3loWFBwYjW3_lbqooCb2lJPmCg,9716
+patpat-1.1.0.dist-info/LICENSE,sha256=0VR1jgcnqFTxgN6UliMzh46nvM901BWGPpEynsgpk4k,11543
+patpat-1.1.0.dist-info/METADATA,sha256=gXHOiUn7229R-fYaiLmPw17jkPIhdFmcjqZVWY2CxDk,2471
+patpat-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+patpat-1.1.0.dist-info/top_level.txt,sha256=4nYWsEZjmfMgxssB37i6QR2M4KK607oN_5oBWfdbC9k,7
+patpat-1.1.0.dist-info/RECORD,,
