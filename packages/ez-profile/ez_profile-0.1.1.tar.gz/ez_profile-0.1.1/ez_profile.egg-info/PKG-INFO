@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ez-profile
+Version: 0.1.1
+Summary: A basic wrapper around cProfile with optional snakeviz integration
+Home-page: https://github.com/oddbookworm/ez_profile
+Download-URL: https://github.com/oddbookworm/ez_profile/archive/refs/tags/v0.1.1.tar.gz
+Author: oddbookworm
+Author-email: andrewryancoffey@hotmail.com
+License: MIT
+Keywords: ez_profile
+License-File: LICENSE

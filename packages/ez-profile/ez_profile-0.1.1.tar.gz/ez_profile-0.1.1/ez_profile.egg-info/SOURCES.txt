@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ez_profile/__init__.py
+ez_profile/profiler.py
+ez_profile/snakeviz_launcher.py
+ez_profile.egg-info/PKG-INFO
+ez_profile.egg-info/SOURCES.txt
+ez_profile.egg-info/dependency_links.txt
+ez_profile.egg-info/top_level.txt
