@@ -1,0 +1,10 @@
+matplotlib
+roboticstoolbox-python>1.0.2
+machinevision-toolbox-python
+bdsim
+IPython
+sympy
+
+[pytorch]
+torch
+torchvision
