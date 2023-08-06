@@ -1,0 +1,9 @@
+sensorcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sensorcore/sensor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sensorcore/sensor/sensor.py,sha256=jos_Xf6ANYLia0k1BsqJzGCxBqac9g1jZxv6f6NRyHs,2543
+sensorcore/sensor/camera/__init__.py,sha256=Tg2R1i1iJh65VZo0NHKP-ul1f2Js0s5Ls6VsifM2cZo,26
+sensorcore/sensor/camera/camera.py,sha256=C-MODImplJKzcjYvW7sHhoB3dfXRxl0J9iNBncQH50o,27
+sensorcore-0.0.1.dist-info/METADATA,sha256=Bp7dnzet0SVh1E9b8Ns1PgQ-dQhnHkT5IQ8K-UWsnMg,503
+sensorcore-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sensorcore-0.0.1.dist-info/top_level.txt,sha256=DFLGUQp1Ja1qJFRzqBeVk9ZT-wocDSlbdZ5h2aZhcnk,11
+sensorcore-0.0.1.dist-info/RECORD,,
