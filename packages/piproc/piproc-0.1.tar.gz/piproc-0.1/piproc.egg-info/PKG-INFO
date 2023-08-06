@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: piproc
+Version: 0.1
+Summary: A package which connects Plastic-i projects with a processing database
+Home-page: https://gitlab.com/plastic-i/piproc
+Author: Plastic-i
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: piproc
+Platform: UNKNOWN
+Requires-Python: >=3.9
