@@ -1,0 +1,11 @@
+motionstracker/__init__.py,sha256=qwoYqnbUzQBWp6rR8P9AfpTlI2hUuKiI510RWYF6ko4,3843
+motionstracker/__main__.py,sha256=2p6DnOqstPiylTrbtlQqXGvpSHdFei3QlYCyYt3oU_U,1003
+motionstracker/utils/Class.py,sha256=HJp3Zt8KjU68ytMXdnY7FJrvboMZ7ZOCYqG8IyAyNSI,398
+motionstracker/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motionstracker/utils/functions.py,sha256=1efDnubxJsp1oZJF3Cejd0BxY8XbXaZfhHpdMbomL4s,1938
+motionstracker/utils/variables.py,sha256=dR2H0MV7mGZcNPUQ2j5Wz6_YS-xrpGuFZm6WQTe-rW4,30
+motionstracker-2.2.1.dist-info/LICENSE,sha256=JqLFTp9l7rezjVZgeXdhR1WtKM3YKMXx2oMb9S2BIPc,1077
+motionstracker-2.2.1.dist-info/METADATA,sha256=ZS_up1Uk_9CzM04XkqbzRUXnouqbBKVhPLp2VS-YAIE,1580
+motionstracker-2.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+motionstracker-2.2.1.dist-info/top_level.txt,sha256=6qHDsmnOzYhh3yqHJWhYsJJcapXIbvtQ5dr0PLxdCvs,15
+motionstracker-2.2.1.dist-info/RECORD,,
