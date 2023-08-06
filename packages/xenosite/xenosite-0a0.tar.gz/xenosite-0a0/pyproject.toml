@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "xenosite"
+version = "0a0"
+description = ""
+authors = ["S. Joshua Swamidass <swamidass@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^12.6.0"
+
+
+[tool.poetry.scripts]
+xenosite = 'xenosite.__main__:app'
+
+
+[tool.poetry.group.dev.dependencies]
+click = "^8.1.3"
+typer = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+style = "pep440"
+
+[tool.poetry-dynamic-versioning.substitution]
+folders = [{"path" = "xenosite"},  {"path" = "xenosite/core"}]
