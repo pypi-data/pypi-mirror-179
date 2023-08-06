@@ -1,0 +1,33 @@
+appdirs
+sphinx
+pyspellchecker
+typing-extensions
+
+[:python_version < "3.11"]
+pygls<1.0,>=0.11.0
+
+[:python_version >= "3.11"]
+pygls<1.0,>=0.12.4
+
+[debug]
+lsp-devtools
+
+[dev]
+black
+flake8
+pre-commit
+tox
+
+[test]
+lsp-devtools
+pytest
+pytest-lsp
+pytest-cov
+pytest-timeout
+mypy
+types-appdirs
+types-docutils
+types-pygments
+
+[test:python_version < "3.8"]
+mock
