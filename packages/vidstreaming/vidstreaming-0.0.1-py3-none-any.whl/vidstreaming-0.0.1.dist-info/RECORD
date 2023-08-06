@@ -1,0 +1,8 @@
+vidstream/__init__.py,sha256=6wGA2wsOyX4ajqxwbFxFGG-qblv7iXI7HP3XYpqO9Ys,275
+vidstream/audio.py,sha256=_Nq0Ge8ZySz_3Ziw0pljP9I9OD3jHapjUXLUzm3veI0,4325
+vidstream/streaming.py,sha256=5ADvt61Be-jijXcuLeooSqemK2PJtgdcfvz7v8DJvjI,15198
+vidstreaming-0.0.1.dist-info/LICENSE,sha256=RlcV46ocynjv78wlXcIWqkH2r7uXwFx9oMwJYNXCBlY,1088
+vidstreaming-0.0.1.dist-info/METADATA,sha256=oIXjr98QjiiC1ZVinSB1j_mqu--gQfDjLHdVgUPoTKE,1597
+vidstreaming-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vidstreaming-0.0.1.dist-info/top_level.txt,sha256=AvFBdHA94b1FtWhnEHLV_Zz3YTCjsKS40s7b_6jerqc,10
+vidstreaming-0.0.1.dist-info/RECORD,,
