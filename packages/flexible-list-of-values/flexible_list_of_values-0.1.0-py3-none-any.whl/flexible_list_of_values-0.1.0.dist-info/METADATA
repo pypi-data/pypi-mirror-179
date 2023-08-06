@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: flexible-list-of-values
+Version: 0.1.0
+Summary: Flexible Lists of Values (LOV) for Django
+License: MIT
+Author: Jack Linke
+Author-email: jack@watervize.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# flexible-list-of-values
+Flexible and Extensible Lists of Values (LOV) for Django
+
