@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: marianodoc
+Version: 1.0.2
+Summary: Produce WORD and PDF files with great ease 
+Author: Mariano Rico
+Author-email: <marstab4@gmail.com>
+Keywords: python,hello
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: fpdf2
+Requires-Dist: python-docx
+
+With Mariano Doc, its easy to insert lines of texts into a WORD or PDF file. Allows for different color font color and sizes. For Word files only there is options for Headings sizes and listing items with bullets.However as yet, there is no support for tablesExample code is :Import RainbowDoc as rddoc = rd.RainbowDocument()doc.insert_line("Sample BOLD text line 1", font_bold=True)doc.insert_line("sample text line ", color_category=2)doc.insert_line("sample text line ", color_category=3)doc.linebreak()doc.insert_line("sample large font", font_size=rd.FontSize.LARGE)doc.pagebreak()doc.insert_line("Make this line a heading in MS Word of size 2,", msword_heading=2)doc.insert_line("last line of sample text")..doc.createPDFFile(filename="some_file.pdf") doc.createWordFile(filename="some_file.docx") ..or to specify font colors for color categories (makes lines with color_category==2, blue, and lines with color_category == 3, green.Supports 7 color categories) :..doc.createPDFFile(filename ="some_file1.pdf", colorcat2=(0,0,250),colorcat3=(0,250,0)  )doc.createWordFile(filename="some_file2.docx", colorcat2=(0,0,250),colorcat3=(0,250,0) )doc.createWordFile(filename="some_file3.docx", colorcat2=rd.FontColor.BLUE,colorcat3=rd.FontColor.GREEN )..For further examples:import marianodoc as mddoc=md.getDoc()doc.show_examples()
