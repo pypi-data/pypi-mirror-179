@@ -1,0 +1,14 @@
+betterplotlib/__init__.py,sha256=K6ySIQ8_GLAmrSL_kQPjHWG-R5FXHQ85cPtrGPmxpvc,215
+betterplotlib/_generate_interface.py,sha256=uNwIPcQCW5_Uc2MmSjkAS-W_BIh0hBjiirSAajWEqIM,3724
+betterplotlib/_interface.py,sha256=qbxXqI97fSxWzTeFbVvJG5reSug7vwTUetGAYxhF648,60252
+betterplotlib/axes_bpl.py,sha256=b1b2hbotubMuQb3zoja4ezxgpUUUDYsIhFvTUmEyTHI,98288
+betterplotlib/colors.py,sha256=JiqRhoo0doa7Dy7uyKWvuCkpoyBIO_0f4TgLUIsoCKM,3727
+betterplotlib/manage_axes.py,sha256=8V-uSIaFY-LduXPKS73eIPMoSFXcDSAPq_4RTkuLp90,1328
+betterplotlib/styles.py,sha256=FN8AXBG_7igAfmu49R3KgS8K5lS6P3ph5E4DUSf8tAA,12303
+betterplotlib/tools.py,sha256=BJyQIRbB2qGH-i--Qyh1xYpL3KOhSmUbZrTO965hlIw,29613
+betterplotlib/type_checking.py,sha256=s3-21TPYy121A5CTauz4QIihoXzajoMHWlnfRs3t_94,2682
+betterplotlib-1.7.0.dist-info/LICENSE,sha256=dImkH7CQTTVRQP1TrGZIGhB6XJOYc54kctEmvDUZuIw,1068
+betterplotlib-1.7.0.dist-info/METADATA,sha256=wt2-_5W7DETN9DEX5H_qtBKhBvA_Y7aJa1JhMm29u-4,2591
+betterplotlib-1.7.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+betterplotlib-1.7.0.dist-info/top_level.txt,sha256=zSMyKVnpWwenqPWHzkYuFKF4o4FFaFIP_yBtbWEO0kQ,14
+betterplotlib-1.7.0.dist-info/RECORD,,
