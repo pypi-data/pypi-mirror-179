@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: django-mega-drive
+Version: 1.6
+Summary: mega drive storage for django implemented with mega.py package
+Home-page: UNKNOWN
+Author: Rahul Singh
+Author-email: rahulsingh32929@gmail.com
+License: MIT
+Keywords: django python django_mega_drive
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+settins.py
+``` 
+MEGA_ACCOUNTS = {
+    'default': {
+        'email': 'mega drive account email here',
+        'password': "mega drive account password"
+    },
+
+    # define another account  with anothers alias
+}
+```
+
+models.py
+```
+from mega_drive.storage import MegaDriveStorage
+from django.db import model
+
+drive_storage = MegaDriveStorage(account_alias='default')
+second_drive_storage = MegaDriveStorage(
+    account_alias="another_mega_drive_alias")
+
+class Profile(models.Model):
+    image = models.ImageField(
+        upload_to='upload_destination', storage=drive_storage)
+    image = models.FileField(
+        upload_to='upload_destination', storage=second_drive_storage)
+    ...
+
+```
+
+
