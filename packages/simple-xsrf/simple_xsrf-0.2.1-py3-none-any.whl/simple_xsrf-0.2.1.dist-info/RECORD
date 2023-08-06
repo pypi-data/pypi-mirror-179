@@ -1,0 +1,6 @@
+simple_xsrf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_xsrf/exceptions.py,sha256=k1FSGGlqS0mCzGutwlLOhHPlbuEZ5Qf0vKG0ur2aIx4,44
+simple_xsrf/token.py,sha256=aQH5MyiXuOvkv-nLI5dz4Oqm8dWWJc54Vz2SbOour5U,970
+simple_xsrf-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+simple_xsrf-0.2.1.dist-info/METADATA,sha256=oh7LM-Sn_Ws-HkqLCaGRFK0Kfg03MJDXuTgwMy3ok6g,1579
+simple_xsrf-0.2.1.dist-info/RECORD,,
