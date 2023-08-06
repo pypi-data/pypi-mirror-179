@@ -1,0 +1,2 @@
+[console_scripts]
+messi = messi.messi:main
