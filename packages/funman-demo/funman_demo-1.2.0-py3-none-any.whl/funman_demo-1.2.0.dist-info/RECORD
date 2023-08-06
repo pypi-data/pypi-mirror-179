@@ -1,0 +1,11 @@
+funman_demo/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+funman_demo/_version.py,sha256=uJ4aJxpdONcIBJ0v7HQCZupKAlx1xVdG4GD5SpGDJLo,127
+funman_demo/box_plotter.py,sha256=50RHyIvMyToXIeM5ynXwxlq9fYmLb0k8IEutHe942ko,12153
+funman_demo/handlers.py,sha256=efizGMM2JPBlOXu50j6zvRDeC3xIEgvAr-0M1PZGE2E,3122
+funman_demo/plot.py,sha256=cy-RlwSWRG2ZQJXeKmIAaQfYGXTmHkTB4uab7AKgzks,2150
+funman_demo/example/__init__.py,sha256=-z9qLyrN1GMCxAAloATnWWN7tfq5ur5WMpHhKiJHOzg,1580
+funman_demo/example/bilayer.py,sha256=AwOn6kEO248CuNZblT2luDHreaUmtdvghOd5xMGwm1I,2940
+funman_demo-1.2.0.dist-info/METADATA,sha256=qEiuBXpH-dGhzroF-FK3-dvn50R4z2PHGZOjA-pmPNk,347
+funman_demo-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+funman_demo-1.2.0.dist-info/top_level.txt,sha256=SS1xAiX-F2PjnKda_nIu7zB88ypFGN_30WjLNoDWj1I,12
+funman_demo-1.2.0.dist-info/RECORD,,
