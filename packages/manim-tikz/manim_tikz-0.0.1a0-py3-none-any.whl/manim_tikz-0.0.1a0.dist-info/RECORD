@@ -1,0 +1,7 @@
+manim_tikz/__init__.py,sha256=tn6wwLvAgX31ICI7VU_gTbZEBRiAE4z8dNKxQjxWyzM,112
+manim_tikz/template.py,sha256=eSp6uKIWDTP5NLDWCh23Ut-cnFwmSXGwZYEsF6vHxMQ,971
+manim_tikz/tikz.py,sha256=4J6eWWHbioXNQakpFk1wOnGx3CSt_3XZBSkd_pZuYw4,2545
+manim_tikz-0.0.1a0.dist-info/entry_points.txt,sha256=bRczmK1CcRvMIAlHBWyuX6zvBETBaT_Uaq2mM_sNJ2E,47
+manim_tikz-0.0.1a0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+manim_tikz-0.0.1a0.dist-info/METADATA,sha256=8DvbfkipWUmTGKsCPrY-B4QuhTX0HJ7K97cfyTVG4Vg,4271
+manim_tikz-0.0.1a0.dist-info/RECORD,,
