@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vinodmsdk"
+version = "0.0.3"
+authors = [
+  { name="VinodM", email="vinodm@example.com" },
+]
+description = "SDK for Lord of the Rings API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/vinod-m/vinodm-sdk"
+"Bug Tracker" = "https://github.com/vinod-m/vinodm-sdk/issues"

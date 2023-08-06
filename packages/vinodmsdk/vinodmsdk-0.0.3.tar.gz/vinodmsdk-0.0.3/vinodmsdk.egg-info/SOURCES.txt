@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+lotr/__init__.py
+lotr/_book.py
+lotr/_chapter.py
+lotr/_character.py
+lotr/_movie.py
+lotr/_quote.py
+vinodmsdk.egg-info/PKG-INFO
+vinodmsdk.egg-info/SOURCES.txt
+vinodmsdk.egg-info/dependency_links.txt
+vinodmsdk.egg-info/top_level.txt
