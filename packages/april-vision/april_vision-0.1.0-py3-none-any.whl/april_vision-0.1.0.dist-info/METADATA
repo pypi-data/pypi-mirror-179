@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: april-vision
+Version: 0.1.0
+License: MIT
+License-File: LICENSE
+Requires-Dist: pyapriltags (<4,>=3.3.0.post1)
+Requires-Dist: numpy (<2,>=1.21)
+Requires-Dist: pyquaternion (<1,>=0.9.9)
+Provides-Extra: cli
+Requires-Dist: opencv-python (<5,>=4) ; extra == 'cli'
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: j5
+Requires-Dist: j5 (<2,>=1) ; extra == 'j5'
+Provides-Extra: opencv
+Requires-Dist: opencv-python-headless (<5,>=4) ; extra == 'opencv'
+Provides-Extra: python_requires_
+Requires-Dist: 3.8 ; extra == 'python_requires_'
+
