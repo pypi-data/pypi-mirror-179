@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pcsFilter
+Version: 0.2.0
+Summary: Tool for filtering out stinky/smelling code
+Home-page: https://github.com/alex-d-bondarev/pcsFilter
+Author: Sasha Bondarev (Oleksandr)
+Author-email: alex.d.bondarev@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pcsFilter (Pre-Alpha)
+Tool for filtering out **P**ython **C**ode **S**mells
+
+## Usage
+```shell
+pip install pcsFilter
+pcsFilter <path to project or file>
+```
+
+## Contributing
+Any contribution is always welcome!  
+Please follow [this code of conduct](./CODE_OF_CONDUCT.md).  
+[This doc](./CONTRIBUTING.md) explains contribution details.
