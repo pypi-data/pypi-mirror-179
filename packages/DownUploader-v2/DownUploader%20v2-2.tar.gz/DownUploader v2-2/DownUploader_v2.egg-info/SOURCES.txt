@@ -1,0 +1,5 @@
+setup.py
+DownUploader_v2.egg-info/PKG-INFO
+DownUploader_v2.egg-info/SOURCES.txt
+DownUploader_v2.egg-info/dependency_links.txt
+DownUploader_v2.egg-info/top_level.txt
