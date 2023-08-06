@@ -1,0 +1,14 @@
+LICENSE
+README.md
+qreader.py
+setup.cfg
+setup.py
+__yolo_v3_qr_detector/constants.py
+__yolo_v3_qr_detector/qrcode-yolov3-tiny.cfg
+__yolo_v3_qr_detector/qrcode-yolov3-tiny_last.weights
+__yolo_v3_qr_detector/yolov3_qr_detector.py
+qreader.egg-info/PKG-INFO
+qreader.egg-info/SOURCES.txt
+qreader.egg-info/dependency_links.txt
+qreader.egg-info/requires.txt
+qreader.egg-info/top_level.txt
