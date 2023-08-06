@@ -1,0 +1,17 @@
+_libsemigroups_pybind11.cpython-311-x86_64-linux-musl.so,sha256=_f0NyoEBdsSs-YVGiWAR958gw9nYVReY-jMiL9h6fus,12898896
+libsemigroups_pybind11.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+libsemigroups_pybind11.libs/libsemigroups-4a08ac6c.so.2.0.0,sha256=ou4Izxk2dA3wTmKdFV5gcPF7mILLKmXB7v7wTvG8U1k,1827968
+libsemigroups_pybind11.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+libsemigroups_pybind11/matrix.py,sha256=f_C1sitmp_pGaNIdmW7ctoWVLVqe9I8CrqxhvXqzBSc,2116
+libsemigroups_pybind11/__init__.py,sha256=ghmesUmEwHzhU3mOk8bhzrs-ADwQ3-LH58Dryad6sNQ,1004
+libsemigroups_pybind11/presentation.py,sha256=FO6-HUZxYqnyhFmDKhbNHPRph6c10AAxKsTxZqV3t2g,1972
+libsemigroups_pybind11/action_digraph_helper.py,sha256=bjUttpOhkQQm7QEvP7WNX1bsQ60QoeDG6gjZbE-AhVM,484
+libsemigroups_pybind11/transf.py,sha256=6E7QujT0J3RrGu_p8DN7jNuOnuyVoq5QaBwMIQto-kQ,2844
+libsemigroups_pybind11/tools.py,sha256=paHB2ny3tE7kyrPiSsZDQ6R_rUAC-yuJVBTC5nObl4w,1391
+libsemigroups_pybind11/konieczny.py,sha256=zco81VRe1Y0PrdiXRqXfB642Bc4Z1BLt_QUkB5bK1BU,1843
+libsemigroups_pybind11/froidure_pin.py,sha256=850I32ZkHcfukhXB5rAa85OcFJASi5wcr_owzppFDKs,3393
+libsemigroups_pybind11-0.6.0.dist-info/top_level.txt,sha256=ioBcYB0HIR7IOuOfQQ9j7zGrabD5lCsxBFYuxYpFCeM,47
+libsemigroups_pybind11-0.6.0.dist-info/METADATA,sha256=f0g-UNkqX4UUv5cyciN9gr4fpGOC0SG0aAGh-y-Ztgg,4424
+libsemigroups_pybind11-0.6.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+libsemigroups_pybind11-0.6.0.dist-info/RECORD,,
+libsemigroups_pybind11-0.6.0.dist-info/WHEEL,sha256=wKqQduDN3J2lDuna9fuGj3PU-hJ5aK25LIfW8f_9J88,113
