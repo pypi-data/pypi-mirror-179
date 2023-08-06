@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: myDynamixel
+Version: 1.1.9
+Summary: Support tool for Smart Actuator, Dynamixel Series.
+Home-page: UNKNOWN
+Author: Toshihiro Nishimura
+Author-email: tnishimura@se.kanazawa-u.ac.jp
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: dynamixel-sdk (>=3)
+
+UNKNOWN
+
