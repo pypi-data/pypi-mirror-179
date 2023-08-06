@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Somefuns
+Version: 0.1
+Summary: Some funs of Environment and Climate Science for Group Liu
+Home-page: https://www.python.org/
+Author: Zhenyuan Cui
+Author-email: chuan_yes@126.com
+License: MIT Licence
+Requires-Python: >=3.5.0
+
