@@ -1,0 +1,1 @@
+See [GitHub home](https://www.github.com/Kh4lidMD/AlAdhan) page for more Information.
