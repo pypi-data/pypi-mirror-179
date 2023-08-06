@@ -1,0 +1,3 @@
+[console_scripts]
+fix-future-annotations=fix_future_annotations._main:main
+
