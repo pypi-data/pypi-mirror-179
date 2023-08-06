@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+./common/gason.cpp
+./common/gason.h
+./common/maskApi.c
+./common/maskApi.h
+pycocosiou/__init__.py
+pycocosiou/_mask.pyx
+pycocosiou/coco.py
+pycocosiou/cocoeval.py
+pycocosiou/mask.py
+pycocosiou.egg-info/PKG-INFO
+pycocosiou.egg-info/SOURCES.txt
+pycocosiou.egg-info/dependency_links.txt
+pycocosiou.egg-info/requires.txt
+pycocosiou.egg-info/top_level.txt
