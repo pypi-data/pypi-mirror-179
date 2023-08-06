@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+Addbook.egg-info/PKG-INFO
+Addbook.egg-info/SOURCES.txt
+Addbook.egg-info/dependency_links.txt
+Addbook.egg-info/top_level.txt
