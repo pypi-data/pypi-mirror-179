@@ -1,0 +1,7 @@
+README.md
+setup.py
+magetool/__init__.py
+magetool_zhengfeng2.egg-info/PKG-INFO
+magetool_zhengfeng2.egg-info/SOURCES.txt
+magetool_zhengfeng2.egg-info/dependency_links.txt
+magetool_zhengfeng2.egg-info/top_level.txt
