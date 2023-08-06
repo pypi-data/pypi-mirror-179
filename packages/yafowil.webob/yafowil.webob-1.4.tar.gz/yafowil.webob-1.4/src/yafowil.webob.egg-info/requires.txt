@@ -1,0 +1,3 @@
+WebOb
+setuptools
+yafowil>2.1.99
