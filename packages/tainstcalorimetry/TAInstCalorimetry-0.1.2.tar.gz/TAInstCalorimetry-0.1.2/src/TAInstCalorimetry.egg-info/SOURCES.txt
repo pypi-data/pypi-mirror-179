@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/TAInstCalorimetry/__init__.py
+src/TAInstCalorimetry/py.typed
+src/TAInstCalorimetry/tacalorimetry.py
+src/TAInstCalorimetry.egg-info/PKG-INFO
+src/TAInstCalorimetry.egg-info/SOURCES.txt
+src/TAInstCalorimetry.egg-info/dependency_links.txt
+src/TAInstCalorimetry.egg-info/not-zip-safe
+src/TAInstCalorimetry.egg-info/requires.txt
+src/TAInstCalorimetry.egg-info/top_level.txt
