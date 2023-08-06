@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aiogram-deta
+Version: 1.0.0a0
+Summary: aiogram Deta.sh integration
+Project-URL: Documentation, https://github.com/aiogram/aiogram-deta#readme
+Project-URL: Issues, https://github.com/aiogram/aiogram-deta/issues
+Project-URL: Source, https://github.com/aiogram/aiogram-deta
+Author-email: Alex Root Junior <jroot.junior@gmail.com>
+License-File: LICENSE
+Keywords: aiogram,deta
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Requires-Dist: aiogram==3.0.0b6
+Requires-Dist: deta[async]==1.1.0a2
+Requires-Dist: fastapi==0.88.0
+Description-Content-Type: text/markdown
+
+# aiogram on Deta.sh
