@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: kpx
+Version: 0.1.0
+Summary: AWS config and credentials manager
+Author: Bogdan Rizac
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.26,<2.0)
+Requires-Dist: configparser (>=5.3.0,<6.0.0)
+Requires-Dist: prettytable (>=3.5.0,<4.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Install
+
+```bash
+pip install -U kpx --index-url https://gitlab.com/api/v4/projects/24038501/packages/pypi/simple
+```
+
