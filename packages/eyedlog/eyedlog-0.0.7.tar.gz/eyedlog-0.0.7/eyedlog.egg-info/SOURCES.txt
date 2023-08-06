@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+eyedlog/__init__.py
+eyedlog/__version__.py
+eyedlog/compress.py
+eyedlog/logging.py
+eyedlog.egg-info/PKG-INFO
+eyedlog.egg-info/SOURCES.txt
+eyedlog.egg-info/dependency_links.txt
+eyedlog.egg-info/top_level.txt

@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: eyedlog
+Version: 0.0.7
+Summary: Colored log
+Home-page: https://gitee.com/ferras/eyedlog
+Author: Ferras Meng
+Author-email: 469611602@qq.com
+License: MIT
+Keywords: colored,readable,log
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# eyedlog
+
+A tool to make the log display more elegant.
+
+## Installation
+
+```shell
+pip install eyedlog
+```
+
+## Usage
+
+Recommended usage
+
+```python
+from eyedlog import get_logger
+
+logger = get_logger('pretty.log')
+logger.info('some text')
+```
+
+Advanced usage
+
+```python
+from eyedlog import ColoredLogger
+
+logger = ColoredLogger('pretty.log')
+logger.info('some text')
+```
+
+```shell
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
+
