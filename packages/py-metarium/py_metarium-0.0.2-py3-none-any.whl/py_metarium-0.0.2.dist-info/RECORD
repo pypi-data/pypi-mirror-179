@@ -1,0 +1,17 @@
+py_metarium/__init__.py,sha256=0qCfSARBmXvodIRRm4uMz_TVJHIb72ja_YOZFs9J7y8,37
+py_metarium/base/__init__.py,sha256=zyP59CAyKNJuKaGdgRnujGaJ8yFM9cX6a2Gtq06O1PU,63
+py_metarium/base/being.py,sha256=JaHPT15FlQnLiwzX8awDO96KGb5fgPNK0U6abdm4tow,3618
+py_metarium/base/constants.py,sha256=QP5zpTJIxsSfztdhI3Ki3sRMvD74wedOoE6LxKwIv4Y,55
+py_metarium/base/spacelines/__init__.py,sha256=dkbeoZwvijHQPIY82XnIK8s-FZ5Cr5igTvjXDa3BdgU,31
+py_metarium/base/spacelines/base.py,sha256=fEQEketEzvbm1th3BfqdU7p_U_d7H0k1RXrc83t9kic,321
+py_metarium/base/spacelines/exceptions.py,sha256=CYI-MGwx4mIGNPD5TuaepdjBjS-uQoVoMcBx8bMLQ9c,58
+py_metarium/base/spacelines/ipfs.py,sha256=PNRarVlJ-fL_BmjFiEu4E7J_a0uuVAPwVP9CZgjy0AM,2652
+py_metarium/base/timelines/__init__.py,sha256=_6Lo5qKpg-r_syYe7wDKFm1jO4QuRYoJuw9Hl8ZlZR8,41
+py_metarium/base/timelines/base.py,sha256=GGyMdtavs3DvgQbujd5H3TRVO4sx7mXKEBi1FVAhMIw,384
+py_metarium/base/timelines/exceptions.py,sha256=lHxV-VcfBvKGQM7hZGUmdiv0dxIREtVGvt4QV2IAaGU,57
+py_metarium/base/timelines/substrate.py,sha256=7CM6bNnhPr-uXlDud9jeaGXW-DqRflyP7TpuZGmdDh8,6083
+py_metarium-0.0.2.dist-info/LICENSE,sha256=u0i8Uf0Abry1vgNy8wdYlbBo4SqivCE_Em8PaYb5060,1071
+py_metarium-0.0.2.dist-info/METADATA,sha256=Uy2JGqd8WbRXptzQqjDKFutrrEhxPL4ea4ZT_msCkFw,2306
+py_metarium-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+py_metarium-0.0.2.dist-info/top_level.txt,sha256=5CU8Em5kZbfK1tyWdHi8_5Ico_X7sVL2Z_xpZkEITtA,12
+py_metarium-0.0.2.dist-info/RECORD,,
