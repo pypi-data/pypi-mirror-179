@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+webdriver_installer/__init__.py
+webdriver_installer/utils.py
+webdriver_installer.egg-info/PKG-INFO
+webdriver_installer.egg-info/SOURCES.txt
+webdriver_installer.egg-info/dependency_links.txt
+webdriver_installer.egg-info/requires.txt
+webdriver_installer.egg-info/top_level.txt

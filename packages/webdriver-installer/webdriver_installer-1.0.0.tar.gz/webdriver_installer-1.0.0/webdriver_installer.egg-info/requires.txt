@@ -1,0 +1,11 @@
+packaging
+requests
+beautifulsoup4
+bs4
+certifi
+charset-normalizer
+idna
+pyparsing
+soupsieve
+urllib3
+xmltodict
