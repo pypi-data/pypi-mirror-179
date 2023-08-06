@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: magicbag
+Version: 0.0.19
+Summary: A library of tools to aid in development
+Home-page: https://github.com/lipicoder/magicbag
+Author: lipi
+Author-email: lipi <lipicoder@qq.com>
+Project-URL: Bug Tracker, https://github.com/lipicoder/magicbag/issues
+Project-URL: Homepage, https://github.com/lipicoder/magicbag
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytz (>=2022.6)
+
+# magicbag
+many tools for python developer
