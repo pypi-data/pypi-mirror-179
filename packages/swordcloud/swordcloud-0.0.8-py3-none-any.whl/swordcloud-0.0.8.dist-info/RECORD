@@ -1,0 +1,14 @@
+.DS_Store,sha256=t4cS7cD47Eb-wZkur1RJc5wnmZdy1djzUl6_25Ebu48,6148
+swordcloud/THSarabun.ttf,sha256=UaBx9V_gsh0FM0vqlNbhM5Pt0j5L93X9ax-Cm-zpZ_Q,99980
+swordcloud/__init__.py,sha256=lSJH7VY8ibYj9zUBVuvqU_1NFDePbEo3fMfEegFuFe4,401
+swordcloud/color_from_image.py,sha256=XZchfGfunHRmzLRTo-GTAVi_WUPvDU7JIbiR8hfNlWU,2621
+swordcloud/processing.py,sha256=nq88xqq8s8G186FfFPWjFJiaQLzECm9PanxuOWHoSc0,4172
+swordcloud/query_integral_image.py,sha256=D4XPGQmtBeuCdbL2bg_Yb5GnwLh8V435Gx--MnLIpgU,2182
+swordcloud/stopwords,sha256=Nq0SOS4duZSssaGf5mn7ak26iYnhpfF4PNSmXZhrLVw,1050
+swordcloud/thstopwords,sha256=ixN0SFG_D5lGewpUunW8TJndt2gniRpWtJFU_pRemLc,20658
+swordcloud/tokenization.py,sha256=3pMFTgvtrmHcg4QI8P1fHcofYjo0-Eh1Af_sSTXPy7g,6247
+swordcloud/wordcloud.py,sha256=yF4EOOwlUlwsOsmfeOorwUm19yonVXFXc9QenkE65Dc,43937
+swordcloud-0.0.8.dist-info/METADATA,sha256=z1hMvPWRLXsFbKi1703P300eQhz6I2TL5tlblVFE5M4,799
+swordcloud-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+swordcloud-0.0.8.dist-info/top_level.txt,sha256=UbtH9ACi_9y8xHrSewERN8YvMbdYGPTu9dI9XqYGK1o,11
+swordcloud-0.0.8.dist-info/RECORD,,
