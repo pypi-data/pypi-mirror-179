@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/truxautomation/__init__.py
+src/truxautomation/print.py
+src/truxautomation.egg-info/PKG-INFO
+src/truxautomation.egg-info/SOURCES.txt
+src/truxautomation.egg-info/dependency_links.txt
+src/truxautomation.egg-info/top_level.txt
