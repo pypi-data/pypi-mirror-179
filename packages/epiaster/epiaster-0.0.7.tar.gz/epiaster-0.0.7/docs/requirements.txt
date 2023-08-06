@@ -1,0 +1,12 @@
+numpy
+scipy
+scikit-learn
+kneed
+scanpy
+episcanpy==0.3.2
+igraph
+louvain
+leidenalg
+sphinx_autodoc_typehints
+nbsphinx
+tqdm
