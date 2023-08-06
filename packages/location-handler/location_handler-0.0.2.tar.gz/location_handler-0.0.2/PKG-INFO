@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: location_handler
+Version: 0.0.2
+Summary: Basic coordinate operations
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Erel Öztürk <erelozturk98@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# LocationHandler
+To get the distance between two coordinate pairs, use the *calculateDistanceInKM* function.
+
+To decide whether a coordinate is close enough to another coordinate, use *isCoordinateFeasible* function.
