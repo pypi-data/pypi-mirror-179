@@ -1,0 +1,12 @@
+sitzungsdienst/__init__.py,sha256=CPswbgnGSMGuE0bw5IeZvNUuM1Ag1E9yRkcczVwwlKc,420
+sitzungsdienst/models/__init__.py,sha256=e8tbco4vLJ2Q2MBgzrCOXjELgqtV1xDXI7ppMoKgg3s,107
+sitzungsdienst/models/base.py,sha256=98nNMre0ipJOg-aO0-RTD2V22wP0-qTM-XoTvwDGrzE,3087
+sitzungsdienst/models/court.py,sha256=YcgiBAakmGKGN820gEde-jB1OGVr6rZ8dBzdFPoyPLA,2523
+sitzungsdienst/models/express.py,sha256=RfyhCe-TdNEG-FOtoYdqA1Rc5S0gv9RJwbl4y32xFMg,2455
+sitzungsdienst/regex.py,sha256=j0QSNvhtXkcSypTyFdltYtJTF-rDc2m8H1omNB1SzDk,3080
+sitzungsdienst/sta.py,sha256=A9wEUU02yh20wWn-dosIPhyks0hXDpHgdz67vKBCv64,9041
+sitzungsdienst/utils.py,sha256=tSPSLWwmbnPphfS77NVPyJFUVo8OeZU9nWPLee0GksU,1891
+sitzungsdienst-2.2.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sitzungsdienst-2.2.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+sitzungsdienst-2.2.0.dist-info/METADATA,sha256=qN2-teD8Vwxr9t23upxADN6phUGfadcVbIe3QTgTQOA,2858
+sitzungsdienst-2.2.0.dist-info/RECORD,,
