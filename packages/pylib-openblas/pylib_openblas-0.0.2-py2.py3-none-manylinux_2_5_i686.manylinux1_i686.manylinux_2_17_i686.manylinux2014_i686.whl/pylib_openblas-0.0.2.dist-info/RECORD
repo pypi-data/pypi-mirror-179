@@ -1,0 +1,14 @@
+pylib_openblas-0.0.2.dist-info/top_level.txt,sha256=3bSUbJc9hyn0SFuj3S1cRMRqu49rihVJxaFh4FYnSEQ,15
+pylib_openblas-0.0.2.dist-info/METADATA,sha256=oJKQZR7BW3NT0zMYvNUPVcBMucpfvt9Yguh3jYhHMw8,227
+pylib_openblas-0.0.2.dist-info/RECORD,,
+pylib_openblas-0.0.2.dist-info/WHEEL,sha256=TmxZc0IIxGMau6EvfyAvrPoYzUoVtr_z3M8dJvK-uyo,335
+pylib_openblas/placeholder.cpython-36m-i386-linux-gnu.so,sha256=L_28-tarNXKsuZmGC1DRtdOev3jFlptaVh0iAPNyFpg,23324
+pylib_openblas/__init__.py,sha256=2IZ-mt4zCw5dxaTZbbd3mF_9e3peQ1qTyQ7BlChTBJI,326
+pylib_openblas/include/openblas/openblas_config.h,sha256=OQllHcjxtILQKjfMqu8ulyA47ma1Ukx_JuUzikskNNo,5151
+pylib_openblas/include/openblas/cblas.h,sha256=yZzc-w6GJ1sfj6EU6aiikylgYKAZYw5FkYSS_O7cAZA,49488
+pylib_openblas/share/cmake/OpenBLAS/OpenBLASTargets-release.cmake,sha256=DfvFNr0bz7cWDn0iaVJLjxe9panqzqAL5K44y9on4MY,925
+pylib_openblas/share/cmake/OpenBLAS/OpenBLASTargets.cmake,sha256=3DOdH5j1ggHbJnnQJx_xNAMb-CMgOBJkQIM48a0gF9k,3925
+pylib_openblas/share/cmake/OpenBLAS/OpenBLASConfigVersion.cmake,sha256=GWgWA0OGxOGo6EckkcejUmxp4CAjLL2dvqdXzpBeIlI,1978
+pylib_openblas/share/cmake/OpenBLAS/OpenBLASConfig.cmake,sha256=uhD9mcXzcMAvYZREiMlbIEg9UmDSoBMEmaSL1ERiSew,3622
+pylib_openblas/lib/libopenblas.a,sha256=PAx4qGnilzgu1E55MDqfQ1zn4tm29jpmtfy3bwve31w,30939892
+pylib_openblas/lib/pkgconfig/openblas.pc,sha256=CS5bg_2X8vo5LdC0jITyVHZ0p0LJbO0KCAN5FtTXG4E,516
