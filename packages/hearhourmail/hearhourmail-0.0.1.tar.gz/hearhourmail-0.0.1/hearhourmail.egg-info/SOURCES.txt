@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hearhourmail/__int__.py
+hearhourmail.egg-info/PKG-INFO
+hearhourmail.egg-info/SOURCES.txt
+hearhourmail.egg-info/dependency_links.txt
+hearhourmail.egg-info/requires.txt
+hearhourmail.egg-info/top_level.txt
