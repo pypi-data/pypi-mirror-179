@@ -1,0 +1,7 @@
+docker_registry_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docker_registry_py/container_registry.py,sha256=s7pI1H_55iA9L8Fbbck99k8cjmcOmh_9OgMHZu2L0v0,5621
+docker_registry_py-0.1.1.dist-info/LICENSE.txt,sha256=IOzTDvUFR4dP_4VqcCR3iijXMuXyo5Rdw0H0WCXeBdo,34449
+docker_registry_py-0.1.1.dist-info/METADATA,sha256=l9qbEZ6hr4nK2rxQE7--KJ4hPzLdc4r6tg_HD2AeuxU,1502
+docker_registry_py-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+docker_registry_py-0.1.1.dist-info/entry_points.txt,sha256=WsBlO5T_mn0IdwUCRNfrwCRV4gT9RsT74XHorDBBJyk,89
+docker_registry_py-0.1.1.dist-info/RECORD,,
