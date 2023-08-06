@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CyberBookInterpreter
+Version: 0.0.2
+Summary: Utilizes CyberBook as a CLI utility.
+Home-page: https://github.com/ClutchTech/CyberBookInterpreter
+Author: Clutch_Reboot
+Author-email: clutchshadow26@gmail.com
+License: GNU General Public License v3.0
+Keywords: cyberbook encoders tools cli
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CyberBookInterpreter
+Turns CyberBook into a CLI utility
+
+
