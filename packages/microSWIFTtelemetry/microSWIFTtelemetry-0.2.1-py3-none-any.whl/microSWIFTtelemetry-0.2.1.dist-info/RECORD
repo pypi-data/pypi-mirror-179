@@ -1,0 +1,12 @@
+microSWIFTtelemetry/__init__.py,sha256=hAADcYsBQTTq3g2WkCafEs1aiIDxkWL5HRcJDzDBnbI,137
+microSWIFTtelemetry/pull_telemetry.py,sha256=r_S2hcTT-1TytLJiitAMfuQuTL3C0KQeLntkMhn1VAY,9109
+microSWIFTtelemetry/version.py,sha256=tUZTU1VxvheWQs9d7qS-Dx6ufylyVjYHJ4KTzz6akgw,2385
+microSWIFTtelemetry/sbd/__init__.py,sha256=ib059vxDgGVgFuMJzTsmFXDuJJ7CUPu_Avj6X4vTJD8,78
+microSWIFTtelemetry/sbd/compile_sbd.py,sha256=i1jz8ObEQ8Yg330WC-563W7ABAHjPTGtFkc9lLDKD0U,3309
+microSWIFTtelemetry/sbd/definitions.py,sha256=_E_WCBUTso9XgGWcWDkov-qtbkFki21ioneyxBshFt4,2844
+microSWIFTtelemetry/sbd/read_sbd.py,sha256=0e1gLiYF4l8afit2fzAtMlZyUSv0Fe7U99B02UnrDnA,4082
+microSWIFTtelemetry-0.2.1.dist-info/LICENSE,sha256=aCSrvtiPxODERO7w8lBALAA6rlIy5BsrgmZniZEZlXc,1068
+microSWIFTtelemetry-0.2.1.dist-info/METADATA,sha256=u9220dDJga0Zjcthj73rDjCR05NAqK1N2DoPZeGkHfE,1453
+microSWIFTtelemetry-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+microSWIFTtelemetry-0.2.1.dist-info/top_level.txt,sha256=KFWyGvW_irXXdnz5SMGVmf_0TlAks9HKTRBC7BQz43g,20
+microSWIFTtelemetry-0.2.1.dist-info/RECORD,,
