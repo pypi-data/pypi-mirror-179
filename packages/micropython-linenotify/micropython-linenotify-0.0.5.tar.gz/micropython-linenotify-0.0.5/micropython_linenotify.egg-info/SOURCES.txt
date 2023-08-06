@@ -1,0 +1,8 @@
+LICENSE.txt
+README.rst
+linenotify.py
+setup.py
+micropython_linenotify.egg-info/PKG-INFO
+micropython_linenotify.egg-info/SOURCES.txt
+micropython_linenotify.egg-info/dependency_links.txt
+micropython_linenotify.egg-info/top_level.txt
