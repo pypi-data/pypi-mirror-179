@@ -1,0 +1,116 @@
+Django Json Rest
+=================
+
+Django Json Rest is a Django app that provides a simple way to json rest api. It is a simple and easy to use.
+Python 3.0+ is required. Django 1.8+ is required.
+
+Features
+--------
+* Api view
+* Response
+* Serializer
+* Lazy response
+* Rate limit
+* Blacklist
+* Token Authentication
+* Permission
+* Pagination
+
+Installation
+------------
+
+::
+
+    pip install djangojr
+
+
+Add ``djangojr.token`` and ``djangojr.ratelimit`` to your ``INSTALLED_APPS`` setting
+
+.. code:: python
+
+    INSTALLED_APPS = (
+        'djangojr.token',
+        'djangojr.ratelimit',
+        ...
+    )
+
+Token Authentication
+--------------------
+``Authorization : asdqwe5423asdqwe23asasd`` like this header is required for token authentication.
+
+Example
+--------
+
+.. code:: python
+
+    from djangojr.authentication import token_authentication
+    from djangojr.permissions import has_permission, has_group
+    from djangojr.pagenation import pagenation
+    from djangojr.ratelimit.utils import ForIp, ForUser, RateTime, Block
+    from djangojr.serializer import JsonSerializer, api_view
+    from djangojr.rate_limit import rate_limit
+    from django.contrib.auth.models import User
+    from itertools import chain
+
+
+    def model_to_dict(instance, fields=None, exclude=None):
+        opts = instance._meta
+        data = dict()
+        for f in chain(opts.concrete_fields, opts.private_fields, opts.many_to_many):
+            if fields is not None and f.name not in fields:
+                continue
+            if exclude and f.name in exclude:
+                continue
+            else:
+                data[f.name] = f.value_from_object(instance)
+        return data
+
+
+    class ExampleSerializer(JsonSerializer):
+
+        model = User
+
+        def get_fields(self):
+            fields = self.model.objects.all()
+            # self.DATA is validated data
+            data, page_info = pagenation(
+                fields, self.DATA["page"], page_size=10, start=1)
+            data = list(map(lambda x: model_to_dict(x), data))
+            data = dict(data=data, page_info=page_info)
+            return self.http_200_ok(data=data)
+
+
+    @api_view(['POST'])  # GET, POST, PUT, DELETE, PATCH
+    @token_authentication(authentication=True)
+    @has_permission(permissions=['add_user'])  # write permission codename
+    @has_group(groups=['admin'])  # write group name
+    # RateTime and Block support day, hour, minute, second
+    @rate_limit(model=ForUser, rate_time=RateTime(count=10, hour=1), block=Block(active=True, minute=5))
+    def get_fields_api(request):
+        serializer = ExampleSerializer(data=request.body)
+        # serializer.MODEL support str int float bool list dict set tuple and "ANY"
+        serializer.MODEL = {'name': str, "number": int, "page": int}  # define api fields and type
+        serializer.OPTIONS = {"number": [1, 2, 3, 4]}  # set options for field
+        serializer.MAX_LENGTH = {"name": 10}  # set max length for field
+        serializer.UNDEFINED_FIELD = False  # if True, undefined field will be ignored
+        if serializer.is_valid():
+            return serializer.get_fields()
+        return serializer.http_404_not_found()
+
+
+    def example(value, arg):
+        ...
+        # do something
+
+
+    @api_view(['POST'])
+    @token_authentication(authentication=True)
+    @rate_limit(model=ForIp, rate_time=RateTime(count=5, hour=2, minute=15), block=Block(active=True, day=1, hour=2, second=30))
+    def get_fields_api(request):
+        serializer = ExampleSerializer(data=request.body)
+        serializer.MODEL = {"foo": str, "numbers": list}
+        serializer.UNDEFINED_FIELD = True
+        if serializer.is_valid():
+            serializer.lazy_response(function=example, parametes=(
+                serializer.DATA["foo"], serializer.DATA["numbers"]), data={})
+        return serializer.http_404_not_found()
