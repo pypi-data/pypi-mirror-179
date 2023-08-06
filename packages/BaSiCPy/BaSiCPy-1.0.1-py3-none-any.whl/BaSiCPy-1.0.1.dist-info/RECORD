@@ -1,0 +1,15 @@
+basicpy/__init__.py,sha256=Y9sa4gksoWCWzMECgHijYkN3Zl_rNGF-GOAap26CewY,402
+basicpy/__main__.py,sha256=G95VjHk4Qyf2S9Yh7MWQWWoB8HVHCGc1-06iCfXdax0,3343
+basicpy/_jax_routines.py,sha256=HBCryvPsZJv_PwflsLNgMDF4I5xPfjI7fp6OPDY_aR4,16365
+basicpy/basicpy.py,sha256=gAezr-X4IF8Uzd_1Hn7-hPpUKcmTf76BSKvJ0ZHnGPE,23420
+basicpy/datasets.py,sha256=Pyb-eTDZQcJmhGa-JJwREkqnUqitnTud3vyeqcruUgo,4827
+basicpy/types.py,sha256=K2T0lY3rDxMrzxJZDeVFEqpU6jCM6myCJjibF9F2UiY,225
+basicpy/tools/__init__.py,sha256=ghQjcYzY9ek18YScxMOKrzkYLN6TX9EPBHKJ2IyxZXQ,110
+basicpy/tools/_jax_idct.py,sha256=Ue6RGaZMETFGcLGRPeLLiELr2riPgpMq4ZluT0AVR0A,1886
+basicpy/tools/dct_tools.py,sha256=Hnne8axI6V9h71eT1XQzOCejMBJek3D2a54RGUiWDc0,2744
+BaSiCPy-1.0.1.dist-info/LICENSE,sha256=jQo8xjPEHFOEmZvuN6zkV7-9eDNKl4aELm2S33G8CPM,1078
+BaSiCPy-1.0.1.dist-info/METADATA,sha256=YHFTdpVY8oCtjXb_Wbd8xKqMr_nXjkHd8lUu88zFF2Q,12510
+BaSiCPy-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BaSiCPy-1.0.1.dist-info/entry_points.txt,sha256=G9Btet-wV_Af4OFKJXT2ze0BJeNFfjjkdAJuRnB3YfQ,50
+BaSiCPy-1.0.1.dist-info/top_level.txt,sha256=gO8wavyc7cCEEFJBzxyfQRU_wltlLO3j47RdKHCdlyk,8
+BaSiCPy-1.0.1.dist-info/RECORD,,
