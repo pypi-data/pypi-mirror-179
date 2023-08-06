@@ -1,0 +1,11 @@
+pytest>=3.3.2
+pytest-cov
+codecov
+pyOpenSSL
+pyDes
+ntlm-auth
+namedlist
+# cryptography 3.4.5 fails build, requires rust compiler
+# see example failure: https://ci.appveyor.com/project/denisenkom/pytds/builds/37803561/job/lln9d25ye5vnljbr
+# requiring older cryptography library to avoid this error
+cryptography < 3.3
