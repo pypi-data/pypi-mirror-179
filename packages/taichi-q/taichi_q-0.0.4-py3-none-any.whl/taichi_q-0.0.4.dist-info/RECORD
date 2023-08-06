@@ -1,0 +1,11 @@
+taichi_q/Engine.py,sha256=Nkm9V5IiQR0NBlMjN66pAiRdOIJcKzRv9TGlDTJRdUU,13378
+taichi_q/Gate.py,sha256=Vu471qrcd3ZXJp7IhR1LX0doHvmyXsc2Ch8hArpqyzg,4974
+taichi_q/Qubits.py,sha256=7A0ktvzkN4sU0SLBMeztiW89TPllOtPkcmJWXMx4P7g,9828
+taichi_q/__init__.py,sha256=6KqPz269fTp4cu_76lkEOirjd5tuQe1RhlvEFIq1gdk,76
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=TX5PQWwUxfn0azgEwoHPhyqC2uLD56Kg3GT6cXKmh-U,1100
+taichi_q-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+taichi_q-0.0.4.dist-info/METADATA,sha256=wTZjT1vl1YKNEK_0sasG7T_Dy6Shyo7DYeJsFq-tSSM,851
+taichi_q-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taichi_q-0.0.4.dist-info/top_level.txt,sha256=VI8b8Kj3OSE3fiJf6NzhegKcub7fmhsEHQzdTZARRYg,15
+taichi_q-0.0.4.dist-info/RECORD,,
