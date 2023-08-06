@@ -1,0 +1,2 @@
+[console_scripts]
+bdtheme = bdtheme.src.main:cmd_bdtheme
