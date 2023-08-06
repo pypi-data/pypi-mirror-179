@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: i_rly_like_lemons
+Version: 1.0
+Summary: a hyper fast sentiment analysis module
+Home-page: https://github.com/marmust/i-really-like-lemons
+Author: 8AAFFF
+Author-email: swingyy2@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+how to use:
+
+1: use get_sentence_sentiment("your sentence here") > to get the sentiment of a single sentence.
+    input > a string sentence
+    output > a float: 0 - neutral
+                      >0 - positive - happy
+                      <0 - negative - angry
+
+2: use get_text_sentiment("your text here, with commas. and also many lines") > to get a list of all sentences sentiments.
+    input > a string text
+    output > a list of each sentences sentiment > [0.2, -1, -0.7, 3,...3, 0.6]
+
+    !!!important!!! each sentence is the text is seperated by commas "," and dots "."
+
+more explanations can be found in github or the documentation
+source code is also on github

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+i_rly_like_lemons/__init__.py
+i_rly_like_lemons/get_words.py
+i_rly_like_lemons/lemons.py
+i_rly_like_lemons.egg-info/PKG-INFO
+i_rly_like_lemons.egg-info/SOURCES.txt
+i_rly_like_lemons.egg-info/dependency_links.txt
+i_rly_like_lemons.egg-info/top_level.txt
