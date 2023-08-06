@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MFAC
+Version: 0.1.1
+Summary: Model Free Adaptive Control
+Home-page: https://Shahindarvishpoor.ir
+Download-URL: https://github.com/shahind/MFAC/archive/v_01.tar.gz
+Author: Shahin Darvishpoor
+Author-email: Shahindarvishpoor@gmail.com
+License: GPLv3
+Keywords: MFAC,Control,Dynamic
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE.txt
