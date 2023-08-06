@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: baytorch
+Version: 0.0.1.dev0
+Summary: BayTorch - Bayesian layers for PyTorch
+Author-email: "Richard D. Paul" <richard@los-paul.eu>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# BayTorch - Bayesian layers in PyTorch
+
+Bayesian layers are probabilistic layers where weights are stochastic and sampled from the posterior distribution
+or an approximation.
+
+So far, this module includes diagonal Gaussian linear and convolutional layers with mean and standard deviation
+of every weight as learnable parameters, as well as an implementation of the variational free energy loss for
+stochastic gradient VI according to the Bayes-by-Backprop algorithm [1].
+
+[1] Blundell et al., Weight Uncertainty in Neural Networks, 2015.
+
+## Installation
+
+Install from PyPI
+```
+pip install baytorch
+```
+or clone the repository, build and install from source
+```
+git clone https://jugit.fz-juelich.de/ias-8/baytorch.git && cd baytorch
+python -m build
+pip install dist/baytorch*whl
+```

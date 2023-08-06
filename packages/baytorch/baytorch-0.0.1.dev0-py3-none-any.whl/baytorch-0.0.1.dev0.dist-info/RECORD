@@ -1,0 +1,6 @@
+baytorch/__init__.py,sha256=hS_GZdhvZlcu1vEqbqO4wqgGD9A81wxjyILqnDr9xr0,19
+baytorch/bnn.py,sha256=dRwigQ85pF-K_F0xrLRwVSr5KBAIH0KzmI6JvA-W364,17340
+baytorch-0.0.1.dev0.dist-info/METADATA,sha256=STgs3_GLn7dZJDZDjulB0upcSpSJwhABgG3mGqVmEt0,1103
+baytorch-0.0.1.dev0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+baytorch-0.0.1.dev0.dist-info/top_level.txt,sha256=-VDdlkiC41Ze0BoSnCCBTGQTWUV523zPFOMFPLAqIEU,9
+baytorch-0.0.1.dev0.dist-info/RECORD,,
