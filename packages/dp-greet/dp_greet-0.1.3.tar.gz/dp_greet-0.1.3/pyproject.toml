@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dp-greet"
+version = "0.1.3"
+description = ""
+authors = ["lukaszziobro89 <lukasz.ziobro.89@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dp_greet"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.7.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dp-greet = "dp_greet.main:app"
