@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: toyml
+Version: 0.2.0
+Summary: ToyML: Machine Learning from Scratch
+Home-page: https://shenxiangzhuang.github.io/ToyML
+License: LGPL v3
+Keywords: machine learning,statistics,engineering
+Author: Xiangzhuang Shen
+Author-email: datahonor@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Hydrology
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: full
+Requires-Dist: tqdm (>=4.0.0,<5.0.0); extra == "full"
+Project-URL: Repository, https://github.com/shenxiangzhuang/ToyML
+Description-Content-Type: text/markdown
+
+<p align="center" style="font-size:40px; margin:0px 10px 0px 10px">
+    <em>ToyML</em>
+</p>
+<p align="center">
+    <em>Machine Learning from Scratch</em>
+</p>
+
+<p align="center">
+<a href="https://codecov.io/gh/shenxiangzhuang/ToyML" target="_blank">
+    <img src="https://codecov.io/gh/shenxiangzhuang/ToyML/branch/master/graph/badge.svg" alt="Coverage">
+</a>
+<a href="https://pypi.org/project/toyml" target="_blank">
+    <img src="https://badge.fury.io/py/toyml.svg" alt="PyPI Package">
+</a>
+</p>
+
+There are some machine learning algorithms implemented from scratch.
+Let's learn machine learning with simple toy code.
+
+
+# Installation
+```bash
+pip install toyml
+```
+
+
+# Links
+- Documentation: [https://datahonor.com/toyml/](https://datahonor.com/toyml)
+- PyPi: [https://pypi.org/project/toyml/](https://pypi.org/project/toyml/)
+- Changelog: [https://datahonor.com/toyml/CHANGELOG/](https://datahonor.com/toyml/CHANGELOG)
+
+
+# RoadMap
+
+- [x] Clustering: DBSCAN, Hierarchical(Agnes&Diana), Kmeans
+- [x] Classification: KNN
+- [x] Ensemble: Boosting(AdaBoost)
+- [ ] Classification: NaiveBayes, DecisionTree, SVM
+- [ ] Association Analysis: Apriori
+- [ ] Ensemble: GBDT
+
