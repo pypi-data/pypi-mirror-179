@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: TwinCAT3_plc_files_to_src
+Version: 0.0.13
+Summary: desc
+Home-page: https://github.com/TobiasFreyermuth/TwinCAT3_plc_files_to_src
+Author: Tobias Freyermuth
+Author-email: Tobias.Freyermuth@posteo.net
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# TwinCAT3_plc_files_to_src
+Simple script to ...
+
+
+
+# Developing TwinCAT3_plc_files_to_src
+
+To install TwinCAT3_plc_files_to_src, along with the tools you
+need to develop and run tests, run the following in your virtualenv:
+
+```bash
+$ pip install -e . [dev]
+```
