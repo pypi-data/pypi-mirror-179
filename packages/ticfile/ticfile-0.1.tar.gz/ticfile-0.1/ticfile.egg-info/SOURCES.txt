@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ticfile.py
+ticfile.egg-info/PKG-INFO
+ticfile.egg-info/SOURCES.txt
+ticfile.egg-info/dependency_links.txt
+ticfile.egg-info/top_level.txt
+ticfile.egg-info/zip-safe
