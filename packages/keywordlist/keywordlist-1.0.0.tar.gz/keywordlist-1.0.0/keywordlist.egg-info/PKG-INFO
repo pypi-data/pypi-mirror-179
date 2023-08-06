@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: keywordlist
+Version: 1.0.0
+Summary: Keyword Wordlist Generator
+Home-page: https://github.com/tibotix/keywordlist
+Author: Tibotix
+Author-email: tizian@seehaus.net
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
