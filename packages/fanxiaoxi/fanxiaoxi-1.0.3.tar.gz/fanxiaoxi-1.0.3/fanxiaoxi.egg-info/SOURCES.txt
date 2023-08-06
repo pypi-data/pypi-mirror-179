@@ -1,0 +1,8 @@
+README.md
+setup.py
+example_package/__init__.py
+example_package/xiaoxi_search.py
+fanxiaoxi.egg-info/PKG-INFO
+fanxiaoxi.egg-info/SOURCES.txt
+fanxiaoxi.egg-info/dependency_links.txt
+fanxiaoxi.egg-info/top_level.txt
