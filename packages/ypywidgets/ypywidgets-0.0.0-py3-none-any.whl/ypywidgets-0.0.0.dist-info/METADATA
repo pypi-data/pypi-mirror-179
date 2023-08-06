@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ypywidgets
+Version: 0.0.0
+Summary: Y-based Jupyter widgets for Python
+Project-URL: Homepage, https://github.com/davidbrochart/ypywidgets
+Author-email: David Brochart <david.brochart@gmail.com>
+Keywords: ipywidgets,jupyter,yjs,ypy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ypywidgets
+
+Y-based Jupyter widgets for Python.
