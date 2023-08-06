@@ -1,0 +1,10 @@
+cpast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpast/__main__.py,sha256=oz-xmwmsoozw7FlzHIaXg43gDwUiVM7722bsb9nyWow,855
+cpast/check.py,sha256=cxweZRhPHYSNa3wj1cR5KwzhmBoyBQ2EglJbT1-22uA,587
+cpast/core.py,sha256=0C8mSodLyOW3avtDKsHOTF5_9f4jMCiztROA38QsUWM,400
+cpast-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cpast-0.0.3.dist-info/METADATA,sha256=05IJuKX5aXPR2Y5w6DvuiYD35c5HurFdo4uh2Vcim9s,2119
+cpast-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cpast-0.0.3.dist-info/entry_points.txt,sha256=OmMzTPXdYKtD5RalmVcPwfgi8LAWgiXYkcTW7icRMn4,37
+cpast-0.0.3.dist-info/top_level.txt,sha256=GNa5pbtB3mqyWW0UT4nF7-mOJVeN4201mWimxIUyk1w,6
+cpast-0.0.3.dist-info/RECORD,,
