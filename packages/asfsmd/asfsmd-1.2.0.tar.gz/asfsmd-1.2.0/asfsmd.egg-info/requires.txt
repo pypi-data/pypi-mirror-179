@@ -1,0 +1,10 @@
+fsspec
+asf-search
+tqdm
+
+[cli]
+argcomplete
+
+[httpio]
+httpio
+requests
