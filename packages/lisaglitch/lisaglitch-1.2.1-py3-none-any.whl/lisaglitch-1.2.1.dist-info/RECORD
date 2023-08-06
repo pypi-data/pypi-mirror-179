@@ -1,0 +1,17 @@
+lisaglitch/__init__.py,sha256=c940E5ZSGBjEYF91OWs4EOOFxBTZDnriP2mWbzgXHWU,935
+lisaglitch/flow.py,sha256=7ODdxzvx1OP6zYmG-sOs33XbpeLgGPWvzZqc_Et4jHk,7136
+lisaglitch/glitch.py,sha256=pC_mIky6fIvGX6uXf8o4kD4qKCW_m3QOM6qChEmlBrM,37830
+lisaglitch/lpfdistrib.py,sha256=Iu3Uz01JSX7fJw3rdDrPwltA2Pc6gO8T5362-Itmibg,7662
+lisaglitch/nsflow.py,sha256=cX4hA41BEJ7Z8R5PLW_0H4XZoKXKnBCXSkf_rXNasOg,10132
+lisaglitch/random.py,sha256=T3YXENB9MxQZUPOhAswkQZ1E07f0VzjhFuOIpmrKsFc,3158
+lisaglitch/resnet.py,sha256=oBljKi7xZf46vs3jIZlnR_txkOUvAOSvi4JHMDoipOI,7274
+lisaglitch/data/2021-04-15-intervals_ordinary.txt,sha256=VBA75mSQhdJc0xSFgAKHOnIddmpgfo9uGNqFumEUV-M,130
+lisaglitch/data/2021-09-17-effective_glitch_parameters_cold.txt,sha256=voDMr8t8sWwjvZVMGS7i7NPAazrLnUrliGetRi-DltM,130
+lisaglitch/data/2021-09-17-effective_glitch_parameters_ordinary.txt,sha256=PRGqvF4_xzt27HZNsBi8d1YpTWcktvNFfYVlEFIw2P8,130
+lisaglitch/data/2021-09-17-intervals_ordinary.txt,sha256=3hNvDekZJ_47Pdi7pa9b_hirh27Qd3Zz0JpOUnZ4mDs,130
+lisaglitch/data/lpf-glitch-library.h5,sha256=2ChFDf6w8rb0SDEi6cQBww1CbTx0lQ-PHEeoPZqBtBE,132
+lisaglitch-1.2.1.dist-info/LICENSE,sha256=LX2W8YtBqihcScn9RP71mH4rY7KHWcjNcHFgT68Y8yw,2080
+lisaglitch-1.2.1.dist-info/METADATA,sha256=WdvyqQY0rBSFu3PBSuzkrctu8yI1HwxepVoDHvJejsQ,4609
+lisaglitch-1.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lisaglitch-1.2.1.dist-info/top_level.txt,sha256=99H5ZiZJ433c7SWagEfFarYwKtkzlUPObJ2QitV4xjg,11
+lisaglitch-1.2.1.dist-info/RECORD,,
