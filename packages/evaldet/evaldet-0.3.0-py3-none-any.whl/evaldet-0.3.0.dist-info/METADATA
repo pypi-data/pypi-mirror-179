@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: evaldet
+Version: 0.3.0
+Summary: Evaluation for Detection and Tracking
+Project-URL: Documentation, https://evaldet.readthedocs.io
+Project-URL: Issues, https://github.com/tadejsv/evaldet/issues
+Project-URL: Source, https://github.com/sasp-ai/evaldet
+Author-email: Tadej <tadej.svetina@gmail.com>
+License-File: LICENSE
+Keywords: computer vision,evaluation,object detection,tracking
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.8
+Requires-Dist: numpy~=1.23
+Requires-Dist: pyarrow~=10.0
+Requires-Dist: scipy~=1.9
+Provides-Extra: ci
+Requires-Dist: black~=22.0.6; extra == 'ci'
+Requires-Dist: flake8~=5.0.4; extra == 'ci'
+Requires-Dist: freezegun~=1.2.2; extra == 'ci'
+Requires-Dist: isort~=5.10.1; extra == 'ci'
+Requires-Dist: mypy~=0.971; extra == 'ci'
+Requires-Dist: pre-commit~=2.20.0; extra == 'ci'
+Requires-Dist: pytest~=7.1.2; extra == 'ci'
+Provides-Extra: docs
+Requires-Dist: pydata-sphinx-theme~=0.9.2; extra == 'docs'
+Requires-Dist: shpinx~=5.1.1; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints~=1.19.1; extra == 'docs'
+Description-Content-Type: text/markdown
+
+# EvalDeT
+
+Evaluation for Detection and Tracking
