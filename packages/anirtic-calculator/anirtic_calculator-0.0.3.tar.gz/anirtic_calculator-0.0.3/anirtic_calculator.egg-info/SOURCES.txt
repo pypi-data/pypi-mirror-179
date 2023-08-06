@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+anirtic_calculator/__init__.py
+anirtic_calculator/calculator.py
+anirtic_calculator.egg-info/PKG-INFO
+anirtic_calculator.egg-info/SOURCES.txt
+anirtic_calculator.egg-info/dependency_links.txt
+anirtic_calculator.egg-info/top_level.txt
