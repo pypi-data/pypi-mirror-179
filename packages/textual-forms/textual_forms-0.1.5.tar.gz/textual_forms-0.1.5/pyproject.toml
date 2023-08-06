@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "textual-forms"
+license = "MIT"
+version = "0.1.5"
+repository = "https://github.com/rhymiz/textual-forms"
+description = "Dynamic forms for Textual TUI Framework"
+keywords = ["tui", "terminal", "form", "widget"]
+authors = ["Lemuel Boyce <lemuelboyce@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "textual_forms", from = "src" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+textual = { extras = ["dev"], version = "^0.4.0" }
+
+
+[tool.poetry.group.dev.dependencies]
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
