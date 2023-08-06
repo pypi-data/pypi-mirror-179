@@ -1,0 +1,9 @@
+sikriml_ner_spacy/__init__.py,sha256=xQB9cV2sinRuqj7v99okKebHgEEv2H83X5HMItquc64,136
+sikriml_ner_spacy/spacy_processor.py,sha256=BPwqqye_UtE9QusQjGl1OlH8wv2eT8sW9stgmVH49zc,783
+sikriml_ner_spacy/spacy_tokenizer.py,sha256=FHaSjYFn4ByvCgZyNt09gJIJD0e3kJsCQAIoJkuCWZc,1439
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_spacy_processor.py,sha256=8K2G9Vc4J-agF8QGFew9rpzKz1LWouR6CRmbljyV5q0,1178
+sikriml_ner_spacy-0.1.2b4.dist-info/METADATA,sha256=xFuxeUhFh4jeMBnSvvyLFeO77QJx_gDXK2P3pJsCBag,1911
+sikriml_ner_spacy-0.1.2b4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sikriml_ner_spacy-0.1.2b4.dist-info/top_level.txt,sha256=4uuHmkN-mGpjlSlhZ5zkIaF5rfUykyuqw82AgUl7QB4,24
+sikriml_ner_spacy-0.1.2b4.dist-info/RECORD,,
