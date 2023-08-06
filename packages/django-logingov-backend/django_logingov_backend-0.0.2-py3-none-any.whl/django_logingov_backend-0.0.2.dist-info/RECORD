@@ -1,0 +1,17 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/runtests.py,sha256=mFssg2jNUKGE9hKqxAy9jBz9CDdt3qLrueGuLs4Nr2s,382
+src/djangooidc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/djangooidc/backends.py,sha256=JvTS4tRf-KAuaOVlBzgpsf31evzBYqyFWBDeM3w-FZc,2886
+src/djangooidc/exceptions.py,sha256=hDL0YEbwOQvZTUoLoFhZ-dRZ-u2ZVccx6Wc7nZ_oAto,1280
+src/djangooidc/oidc.py,sha256=gM83ScLe2Ls30Xv4i0gRQWHlaMJFPN1h6GVS487su70,11182
+src/djangooidc/urls.py,sha256=smI9MGgsWeRZ8Jw1pPvyAx-GC0pwlaV1tbGKquaEDTc,349
+src/djangooidc/views.py,sha256=eeggVniOXjktCJNqt7SXZMZ9kDi-lWTIQ2JUCxBZ_xU,3910
+src/djangooidc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/djangooidc/tests/common.py,sha256=mVipTCOWTQIPPHd1lDU0PgQ32sloOl4FYbj8SfyRlRA,1293
+src/djangooidc/tests/test_settings.py,sha256=LuvOb6qy29yzalZC8YeZbWU-NAWtDJUll9yyt5R-AEQ,1493
+src/djangooidc/tests/test_views.py,sha256=kh-IVvONKqjdMMAyCuTaArETDirEDaKM8ZTkDUmFLD0,4361
+django_logingov_backend-0.0.2.dist-info/LICENSE,sha256=WeG3eIw8aN_dYGMjJuVHxl827iBLbB28_qkm3sEyocI,11340
+django_logingov_backend-0.0.2.dist-info/METADATA,sha256=_Try8Xzs_J0c5OO1NrWjYNm3a6JnX4ioT2jKA5ic3Sc,1404
+django_logingov_backend-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_logingov_backend-0.0.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+django_logingov_backend-0.0.2.dist-info/RECORD,,
