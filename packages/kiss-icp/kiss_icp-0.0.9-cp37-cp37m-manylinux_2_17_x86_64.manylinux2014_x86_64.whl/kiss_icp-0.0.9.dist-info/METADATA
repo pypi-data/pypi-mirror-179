@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kiss-icp
+Version: 0.0.9
+License-File: LICENSE
+Requires-Dist: PyYAML
+Requires-Dist: diskcache (>=5.4.0)
+Requires-Dist: easydict
+Requires-Dist: natsort
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: platformdirs
+Requires-Dist: plyfile
+Requires-Dist: pyntcloud
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: trimesh
+Requires-Dist: typer[all] (>=0.6.0)
+Provides-Extra: all
+Requires-Dist: open3d (>=0.13) ; extra == 'all'
+
