@@ -1,0 +1,13 @@
+redis_file_transfer/__init__.py,sha256=4WAlEbeKUr5TgdVV2xzXk7lZR-whlDl1j-VY_VbuH4c,46
+redis_file_transfer/__main__.py,sha256=Vzt8Ka3gYWbpKJsTCmUp0CfFo5QSIXlsHAAehTQpJR8,4646
+redis_file_transfer/client_id.py,sha256=MKRRJHZG_wqyQ7FXNBhbTlcBBo71M9avAMEVr7Sz0WQ,271
+redis_file_transfer/fetch.py,sha256=EdS7KDbhE67zQ4LrMQjgZEPHsG9DPhuBsgQmWgWlXKQ,2527
+redis_file_transfer/filter.py,sha256=WI99mxZi76_xna3XfsQnjN46tTP7XYx0hEaD201Zla0,185
+redis_file_transfer/receive.py,sha256=DMzyW3wyamWJLp35-sVcj86V3HsImeMnraIG5xs0aiI,3846
+redis_file_transfer/send.py,sha256=AU858jCeSGdQyCSZ8B7AodVkCDJR5sXKxGlTeyFp4ic,2502
+redis_file_transfer-0.0.3.dist-info/LICENSE,sha256=lPMyHeyLcisvs2miRG9dBN8TbSlz7A4fRjqhUmHC7-A,1099
+redis_file_transfer-0.0.3.dist-info/METADATA,sha256=RNQvKkICPu1WUo81DgX7Sp5gMGgr6GKox18ZFM87tcI,1221
+redis_file_transfer-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+redis_file_transfer-0.0.3.dist-info/entry_points.txt,sha256=A6oBKK-2IdBXgAbkS7D3O7HeYaCtz9TiNfBZVzzlsfY,74
+redis_file_transfer-0.0.3.dist-info/top_level.txt,sha256=U_Mj0A8Y1tIelOWiySGEFNib4xjEyBfpTFJOInId0gs,20
+redis_file_transfer-0.0.3.dist-info/RECORD,,
