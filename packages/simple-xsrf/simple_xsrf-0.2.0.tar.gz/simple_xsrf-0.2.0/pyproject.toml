@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "simple-xsrf"
+version = "0.2.0"
+description = "Simple package to protect against CSRF/XSRF attacks"
+authors = ["Sam Newby <sam.newby19@gmail.com>"]
+readme = "README.md"
+packages = [{include = "simple_xsrf"}]
+license = "MIT"
+homepage = "https://github.com/NWBY/simple-xsrf"
+repository = "https://github.com/NWBY/simple-xsrf"
+keywords = ["csrf", "xsrf", "security"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cryptography = "~38.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
