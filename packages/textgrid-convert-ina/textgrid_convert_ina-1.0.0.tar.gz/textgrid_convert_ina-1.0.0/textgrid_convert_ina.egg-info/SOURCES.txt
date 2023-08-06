@@ -1,0 +1,6 @@
+setup.py
+textgrid_convert_ina.egg-info/PKG-INFO
+textgrid_convert_ina.egg-info/SOURCES.txt
+textgrid_convert_ina.egg-info/dependency_links.txt
+textgrid_convert_ina.egg-info/requires.txt
+textgrid_convert_ina.egg-info/top_level.txt
