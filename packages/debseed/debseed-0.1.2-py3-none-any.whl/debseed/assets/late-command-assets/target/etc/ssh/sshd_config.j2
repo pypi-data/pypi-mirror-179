@@ -1,0 +1,19 @@
+# General configuration
+UsePAM yes
+X11Forwarding yes
+PrintMotd no
+Subsystem       sftp    /usr/lib/openssh/sftp-server
+ClientAliveInterval 120
+
+# Authentication
+ChallengeResponseAuthentication no
+PubkeyAuthentication yes
+PasswordAuthentication no
+PermitRootLogin no
+
+# Accepted environment variables
+AcceptEnv LANG LC_* GIT_AUTHOR_* GIT_COMMITTER_*
+
+{% if debian_major_version >= 11 %}# Inclusion of other configuration files
+Include /etc/ssh/sshd_config.d/*.conf
+{% endif %}

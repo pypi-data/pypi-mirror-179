@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# This script runs at first boot, then self-destruct.
+#
+ME=$(readlink -f $0)
+ME_DIR=$(dirname "$ME")
+ME_DIR=${ME_DIR%%/}
+
+if [ -f $ME_DIR/required.top ]; then
+    rm $ME_DIR/required.top
+else
+    logger -t debseed-firstboot "aborted - please ensure debseed-firstboot.service is completely disabled"
+    $ME_DIR/destruct  2>&1 | logger -t debseed-firstboot
+    exit
+fi
+
+run-parts -v $ME_DIR/parts.d  2>&1 | logger -t debseed-firstboot
+
+$ME_DIR/destruct  2>&1 | logger -t debseed-firstboot

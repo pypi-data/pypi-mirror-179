@@ -1,0 +1,31 @@
+" Enable syntax highlighting by default
+syntax on
+
+" Adapt to dark background
+set background=dark
+
+" Jump to the last position when reopening a file
+autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+" Load indentation rules and plugins according to the detected filetype
+filetype plugin indent on
+
+" Highly recommended despite behaving differently from regular Vi
+set showcmd     " Show (partial) command in status line
+set showmatch   " Show matching brackets
+set ignorecase  " Do case insensitive matching
+set smartcase   " Do smart case matching
+set incsearch   " Incremental search
+set autowrite   " Automatically save before commands like :next and :make
+set hidden      " Hide buffers when they are abandoned
+set mouse=a     " Enable mouse usage (all modes)
+
+" Configure tabs
+set tabstop=4       " Make TAB appear as 4 spaces
+set shiftwidth=4    " Indents will have a width of 4
+set softtabstop=4   " Sets the number of columns for a TAB
+set expandtab       " Expand TABs to spaces
+autocmd FileType make set noexpandtab   " Don't expand TABs for Makefiles
+
+" Set filetypes for syslog files
+autocmd BufNewfile,BufRead /var/log/docker/**.log set filetype=messages
