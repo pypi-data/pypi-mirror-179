@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: phyengine
+Version: 1.2.5
+Summary: Pyhton library for simple physics modelation
+Home-page: https://github.com/tacterex/PhyEngine
+Author: tacterex
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# PhyEngine
+
+ABOUT
+
+Something will be here

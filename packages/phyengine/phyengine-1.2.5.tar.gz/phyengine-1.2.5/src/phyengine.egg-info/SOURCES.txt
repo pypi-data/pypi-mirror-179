@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/phyengine.egg-info/PKG-INFO
+src/phyengine.egg-info/SOURCES.txt
+src/phyengine.egg-info/dependency_links.txt
+src/phyengine.egg-info/top_level.txt
