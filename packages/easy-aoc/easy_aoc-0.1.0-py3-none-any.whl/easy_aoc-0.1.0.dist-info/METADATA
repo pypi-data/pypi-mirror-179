@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: easy-aoc
+Version: 0.1.0
+Summary: Tools for the Advent of Code
+License: MIT
+Author: Sebastiaan Zeeff
+Author-email: sebastiaan.zeeff@gmail.nl
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=22.1.0,<23.0.0)
