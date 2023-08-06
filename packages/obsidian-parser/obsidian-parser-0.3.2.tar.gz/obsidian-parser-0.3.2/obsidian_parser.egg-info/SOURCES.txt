@@ -1,0 +1,11 @@
+README.md
+setup.py
+obsidian_parser/__init__.py
+obsidian_parser/multiplication.py
+obsidian_parser/obsidianparser.py
+obsidian_parser/wikiparser.py
+obsidian_parser.egg-info/PKG-INFO
+obsidian_parser.egg-info/SOURCES.txt
+obsidian_parser.egg-info/dependency_links.txt
+obsidian_parser.egg-info/requires.txt
+obsidian_parser.egg-info/top_level.txt
