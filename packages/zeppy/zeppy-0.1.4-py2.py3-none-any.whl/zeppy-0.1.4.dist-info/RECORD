@@ -1,0 +1,14 @@
+zeppy/__init__.py,sha256=utXrKh-qxAq2GXYAj4-j4eAE0BtP_UhFDQM6zdl4S2s,126
+zeppy/eppyREPserver.py,sha256=O_BSGXaAIMnGc1HmXrwuXLQcVw_uHxOBcx9ZYfPCk5c,1040
+zeppy/eppyREQclient.py,sha256=3XU1ZzMZ5OrlV6Y-hU_9OIj5Q7Mbeb33IacmH0OzR-U,2012
+zeppy/ppipes.py,sha256=l5YIrSvUc3zxlC_LTSHR13huoCMxiFUso3wcM-LSZ8s,12606
+zeppy/ptcp.py,sha256=r9GNn52UyJFBRHy2j6yAPHnpNEru5SRAb9CVdOtV0yA,14058
+zeppy/runIDFs.py,sha256=_FvvwtsbYZokiVAEbZleEoNj38y-nUvI5fGSChE_YRg,1915
+zeppy/z_runners.py,sha256=S8gXNk5pWQ__ysvyX41inC5cy7il6uSV5q59BfEH-mY,1230
+zeppy/zeppy.py,sha256=LxPNAEDAPwtVRXfXMIE7nLnxN0xIdjvTm2QYV2FA6qQ,349
+zeppy-0.1.4.dist-info/AUTHORS.rst,sha256=C8Mr5DI50wiXPVT3McRXCSSguRyS8KzepNdOUZrcMvg,159
+zeppy-0.1.4.dist-info/LICENSE,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+zeppy-0.1.4.dist-info/METADATA,sha256=NcFWjneakN1x5kXZlKot4kyMA7goQ8qmEO6N7WLPW7g,3289
+zeppy-0.1.4.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+zeppy-0.1.4.dist-info/top_level.txt,sha256=IKEyNs89VvsVretVJj6ApxFpYm6c9m5ODz2lvvaBJhg,6
+zeppy-0.1.4.dist-info/RECORD,,
