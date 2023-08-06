@@ -1,0 +1,31 @@
+[project]
+name = "zernpy"
+version = "0.0.2"
+authors = [
+    {name = "Sergei Klykov"},
+    {email = "sergej.klykow@gmail.com"}
+]
+description = "Calculation of Zernike polynomial value, their sums and basic plotting of their values in polar coordinates"
+readme = "README.md"
+# license = {file = "LICENSE"}  # includes the whole text in METADATA, maybe not so convienient
+license = {text = "MIT"}  # short descriptive name of the used license
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "matplotlib",
+]
+keywords = ["zernike-polynomials"]
+
+[project.urls]  # seems that METADATA in wheel file doesn't include the links below
+homepage = "https://pypi.org/project/zernpy/"
+repository = "https://github.com/sklykov/zernpy/"
+"Bug Tracker" = "https://github.com/sklykov/zernpy/issues/"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
