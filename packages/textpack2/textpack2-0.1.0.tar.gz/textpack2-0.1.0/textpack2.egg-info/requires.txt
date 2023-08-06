@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+scipy
+numpy
+cython
+sparse-dot-topn

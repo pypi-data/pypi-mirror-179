@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+textpack/__init__.py
+textpack/tp.py
+textpack2.egg-info/PKG-INFO
+textpack2.egg-info/SOURCES.txt
+textpack2.egg-info/dependency_links.txt
+textpack2.egg-info/requires.txt
+textpack2.egg-info/top_level.txt
