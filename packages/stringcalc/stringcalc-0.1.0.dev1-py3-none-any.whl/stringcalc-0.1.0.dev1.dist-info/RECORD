@@ -1,0 +1,10 @@
+stringcalc/__init__.py,sha256=YLlp9mf6jkFGRDk4osiBfLIRmQvEQrRRyQ4TnjuRsIk,77
+stringcalc/cli.py,sha256=ru5vRqdz9GeTJOnZZuf_x_6lNUeDi2L3H7B2PRgae4E,7568
+stringcalc/frets.py,sha256=sSfgdX3DCpx5gORzT759XH3mVahctQv09MgKVOBffeM,3521
+stringcalc/tension.py,sha256=BUf8jdqe6kLQyCdn0tCb6TFjf0nx9rgD2LIiwU004fk,7913
+stringcalc/data/daddario-tension.csv,sha256=syYZsCI-btdGo85XrcbgsmwdMETPT9IgQ--uOuQhs_Y,124809
+stringcalc-0.1.0.dev1.dist-info/entry_points.txt,sha256=0DV5ry2A4YzcRzPmWKPXWSFG_dd2rE1Q17UORWHN9vI,49
+stringcalc-0.1.0.dev1.dist-info/LICENSE,sha256=QJZDkt5nq7Pto8WzgmPHKnpeTyEyyqscYUFlKoyXgZg,1090
+stringcalc-0.1.0.dev1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+stringcalc-0.1.0.dev1.dist-info/METADATA,sha256=E0mSe7743UtW6lE3KgcSUujnke3-1eV4X34atS9tpbY,4843
+stringcalc-0.1.0.dev1.dist-info/RECORD,,
