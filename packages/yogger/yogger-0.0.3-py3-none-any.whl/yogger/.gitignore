@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Except
+!__init__.py
+!__version__.py
+!base.py
+
+!tests/
+!tests/*
+
+!.gitignore
+!.git/
+!.git/*

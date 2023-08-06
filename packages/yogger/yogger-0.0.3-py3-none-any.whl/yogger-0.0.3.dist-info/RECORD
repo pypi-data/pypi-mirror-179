@@ -1,0 +1,10 @@
+yogger/.gitignore,sha256=v62u84w0qmEqb6r0fdiFLax0H1Z7gD5rEF8k2Lw4AWY,116
+yogger/__init__.py,sha256=WzD2vZ2--xXXSpEexDDZMOj9SOQRAUcNU3TH5DFEIIg,363
+yogger/__version__.py,sha256=c25SL1VrAPbVslgbRxdQs7ry_j7fYbCoORyRFVLb63U,404
+yogger/base.py,sha256=XAuiN1FV_1rPuyoRSsIDLP-lCuyZ-yHPstAHmivoZ80,17056
+yogger-0.0.3.dist-info/LICENSE,sha256=yIWKWnZEC7ykhOE0z330Y4XQkN0YssWOZQ-TkliALls,10141
+yogger-0.0.3.dist-info/METADATA,sha256=cDYStkmoLtsTrvxzaD3o1wU4UVdGHV9A8KE39y4RBO4,9722
+yogger-0.0.3.dist-info/NOTICE,sha256=FIp_p2oj6RXd61dp_L59GKcFFJmzUI-3iD8aM0hqGZU,558
+yogger-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+yogger-0.0.3.dist-info/top_level.txt,sha256=CNY4s91SoGxmwWe6aJNO4kFlQ-UG_kVQv9r2ce1_Hvo,7
+yogger-0.0.3.dist-info/RECORD,,
