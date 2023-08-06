@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-mega-drive
+Version: 1.5
+Summary: mega drive storage for django implemented with mega.py package
+Home-page: UNKNOWN
+Author: Rahul Singh
+Author-email: rahulsingh32929@gmail.com
+License: MIT
+Keywords: django python django_mega_drive
+Platform: UNKNOWN
+License-File: LICENSE
+
+django mega upload 
+
+``` 
+from mega_drive import MegaDriveStorage
+```
+
