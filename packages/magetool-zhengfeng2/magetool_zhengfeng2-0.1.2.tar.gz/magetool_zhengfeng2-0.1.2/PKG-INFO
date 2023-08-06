@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: magetool_zhengfeng2
+Version: 0.1.2
+Summary: time and path tool
+Home-page: https://github.com/fengmm521/pipProject
+Author: zhengfeng
+Author-email: mage@woodcol.com
+License: MIT Licence
+Description: time and path tool
+Keywords: pip,pathtool,timetool,magetool_zhengfeng,mage
+Platform: any
