@@ -1,0 +1,5 @@
+Pillow
+pyautogui
+pyobjc
+pyobjc-core
+pasteboard
