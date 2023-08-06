@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/lsdyna_parser/__init__.py
+src/lsdyna_parser/lsdyna_parser.py
+src/lsdyna_parser.egg-info/PKG-INFO
+src/lsdyna_parser.egg-info/SOURCES.txt
+src/lsdyna_parser.egg-info/dependency_links.txt
+src/lsdyna_parser.egg-info/top_level.txt
