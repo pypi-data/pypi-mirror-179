@@ -1,0 +1,8 @@
+opentelemetry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/resourcedetector/gcp_resource_detector/__init__.py,sha256=OmOgXbJYQiVmTBeGaYKJ1pxXfZx-NP9aKfao8LBPrP8,6400
+opentelemetry/resourcedetector/gcp_resource_detector/version.py,sha256=dJ1bsE2SVpMyAvGFvkEi98PmI93DU0fhXlSlFvwnqtY,614
+opentelemetry_resourcedetector_gcp-1.4.0a0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_resourcedetector_gcp-1.4.0a0.dist-info/METADATA,sha256=zBDZCqhz0cajefSJPJqs-HnC8tBQHto-y_RbzsQWLkw,1820
+opentelemetry_resourcedetector_gcp-1.4.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+opentelemetry_resourcedetector_gcp-1.4.0a0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_resourcedetector_gcp-1.4.0a0.dist-info/RECORD,,
