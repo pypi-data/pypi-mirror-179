@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: jupyternb-setup
+Version: 1.3.3b2
+Summary: Fabric Jupyter Notebook Container Setup
+Home-page: https://github.com/fabric-testbed/jupyternb-setup
+Author: Komal Thareja
+Author-email: kthare10@renci.org
+Keywords: Fabric Jupyter Notebook Container Setup
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nbgitpuller
+Requires-Dist: fabric-fss-utils
+Requires-Dist: atomicwrites
+Requires-Dist: gitpython
+Requires-Dist: wget
+
+# JupyterHub Notebook Container Setup
+This repository contains the software responsible for setting up Jupyter Hub Container for a FABRIC user.
+
+## Overview
+This package installs a startup script on the JH Container and configures the container as below:
+- **Tokens**:
+  <p>
+  Creates a token file using the CI LOGON Refresh Token environment variable. This file is then used by Fablib to get tokens from the Credential Manager. The file is only created if it does not exist.
+  </p>
+- **Config Directory** `fabric_config`:
+  <p>Creates the **fabric_config** directory if does not exist already. A default **fabric_rc** file is also created in the config directory with all the environment variables set to the defaults</p>
+- **Requirements** `requirements.txt`
+- **Config** `fabric_config.json`
+- **Notebooks**
+- **SSH Keys**
+- **Custom Python Packages**
+## Requirements
+Python 3.9+
+
+## Pre-requisites
+Ensure that following are installed
+```
+virtualenv
+virtualenvwrapper
+```
+## Installation
+Multiple installation options possible. For CF development the recommended method is to install from GitHub MASTER branch:
+```
+$ mkvirtualenv fabrictestbed
+$ workon fabrictestbed
+$ pip install git+https://github.com/fabric-testbed/fabric-cli.git
+```
+For inclusion in tools, etc, use PyPi
+```
+$ mkvirtualenv fabrictestbed
+$ workon fabrictestbed
+$ pip install fabrictestbed
+```
