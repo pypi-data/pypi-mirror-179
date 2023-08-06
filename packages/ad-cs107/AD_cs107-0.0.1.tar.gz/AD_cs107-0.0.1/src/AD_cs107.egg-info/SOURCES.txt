@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/AD_cs107.egg-info/PKG-INFO
+src/AD_cs107.egg-info/SOURCES.txt
+src/AD_cs107.egg-info/dependency_links.txt
+src/AD_cs107.egg-info/requires.txt
+src/AD_cs107.egg-info/top_level.txt
+src/project/Function.py
+src/project/Operations.py
+src/project/__init__.py
+src/project/__main__.py
