@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: qui-server
+Version: 1.16.1
+Summary: QUI server-side
+Author: Calin Crisan
+Author-email: ccrisan@gmail.com
+License: Apache 2.0
+License-File: LICENSE.txt
