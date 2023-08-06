@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nidinfo/__init__.py
+src/nidinfo/nid.py
+src/nidinfo/nidinfo.py
+src/siamnidbot.egg-info/PKG-INFO
+src/siamnidbot.egg-info/SOURCES.txt
+src/siamnidbot.egg-info/dependency_links.txt
+src/siamnidbot.egg-info/top_level.txt
