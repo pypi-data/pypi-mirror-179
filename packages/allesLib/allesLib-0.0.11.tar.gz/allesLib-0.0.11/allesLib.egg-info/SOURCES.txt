@@ -1,0 +1,7 @@
+setup.py
+Biblio/__init__.py
+Biblio/testinLib.py
+allesLib.egg-info/PKG-INFO
+allesLib.egg-info/SOURCES.txt
+allesLib.egg-info/dependency_links.txt
+allesLib.egg-info/top_level.txt
