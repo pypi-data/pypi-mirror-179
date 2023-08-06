@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vdict/__init__.py
+vdict/version.py
+vdict.egg-info/PKG-INFO
+vdict.egg-info/SOURCES.txt
+vdict.egg-info/dependency_links.txt
+vdict.egg-info/requires.txt
+vdict.egg-info/top_level.txt
