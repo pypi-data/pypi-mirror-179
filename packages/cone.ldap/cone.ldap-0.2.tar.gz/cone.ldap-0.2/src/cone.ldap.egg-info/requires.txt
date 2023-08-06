@@ -1,0 +1,11 @@
+setuptools
+node.ext.ldap
+cone.ugm
+yafowil.widget.array
+yafowil.widget.dict
+yafowil.yaml
+
+[test]
+lxml
+yafowil.yaml
+zope.testrunner
