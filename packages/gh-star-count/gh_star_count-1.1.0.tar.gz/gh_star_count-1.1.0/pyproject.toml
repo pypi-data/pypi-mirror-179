@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "gh_star_count"
+version = "1.1.0"
+description = "python program to interact with Github and retrieve data"
+authors = ["Adnene_wsl <adnen.guessoum@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "gh_star_count"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+beautifulsoup4 = "^4.11.1"
+rich = "^12.6.0"
+types-requests = "^2.28.11.2"
+typer = {extras = ["all"], version = "^0.6.1"}
+pygithub = "^1.56"
+python-graphql-client = "^0.4.3"
+graphqlclient = "^0.2.4"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^5.0.4"
+pylint = "^2.15.5"
+black = "^22.10.0"
+mypy = "^0.982"
+lice = "^0.6"
+twine = "^4.0.1"
+pytest = "^7.2.0"
+mkdocs = "^1.4.1"
+mkdocs-material = "^8.5.7"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+pytest-cov = "^4.0.0"
+mkdocs-coverage = "^0.2.5"
+git-changelog = "^0.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.flake8]
+max-line-length = 100
+
+[tool.black]
+line-length=79
