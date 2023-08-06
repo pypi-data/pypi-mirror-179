@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: spotify-interlude
+Version: 0.1.0
+Summary: Pause Spotify playback when other apps start making noise
+License: MIT
+Author: Hubert Bereś
+Author-email: h.beres@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pycaw (>=20220416,<20220417)
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
+Requires-Dist: pywin32 (>=305,<306)
+Requires-Dist: spotipy (>=2.20.0,<3.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
