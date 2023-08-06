@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/foodfunnel.egg-info/PKG-INFO
+src/foodfunnel.egg-info/SOURCES.txt
+src/foodfunnel.egg-info/dependency_links.txt
+src/foodfunnel.egg-info/requires.txt
+src/foodfunnel.egg-info/top_level.txt
