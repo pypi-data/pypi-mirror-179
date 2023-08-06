@@ -1,0 +1,15 @@
+async_class
+httpx
+playwright
+playwright_stealth
+numpy
+scipy
+Pillow
+scikit_image
+pydub
+yolov5
+opencv_python
+tensorflow
+sentence_transformers
+easyocr
+SpeechRecognition
