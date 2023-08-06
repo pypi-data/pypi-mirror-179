@@ -1,0 +1,12 @@
+wavelength-calibrator/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+wavelength-calibrator/utils.py,sha256=PpWg9NerKDlVzjCUuzh3tYvZy1Mt5ZRZEWnuzV6qHEw,4063
+wavelength-calibrator/wavecal.py,sha256=S9bcyVPntMMUv_0Tq68igliUR6MpgBbEqKG9QtP7Ch4,28326
+wavelength-calibrator/ui/__init__.py,sha256=SdAY8tDNyekWWfY7NteUl2XvK0G2chM7owtp_Vss1lQ,201
+wavelength-calibrator/ui/fonts.py,sha256=oU3TKuC3TrdSqVXfnlmm0ftWeBkYuEN7ZOV447DJul4,100
+wavelength-calibrator/ui/ui_mainwindow.py,sha256=AU-OL0EB8yTGIvGg_jc2xtFF5vPad3uem3jCUfEJEp4,43030
+wavelength-calibrator/ui/widgets.py,sha256=9jgje4eZ7ZLSyBfW5DaNqlQDralrS-G5tCnfxW7JuXI,6154
+wavelength_calibrator-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wavelength_calibrator-0.0.3.dist-info/METADATA,sha256=a59gKHNpFjrjqDoBN2h0Q1BlG4baIu_SkSr7hAemAQY,659
+wavelength_calibrator-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wavelength_calibrator-0.0.3.dist-info/top_level.txt,sha256=gOzGPGSHbPKSwn2ScTmhiKdtbkayLTdHxi2h_o_K6aM,22
+wavelength_calibrator-0.0.3.dist-info/RECORD,,
