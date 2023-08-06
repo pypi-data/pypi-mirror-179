@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mechaFIL
+Version: 1.1
+Summary: Deterministic model for the Filecoin Economy
+Author: Maria Silva, Tom Mellan, Kiran Karra
+Author-email: misilva73@gmail.com, t.mellan@imperial.ac.uk, kiran.karra@gmail.com
+Project-URL: Documentation, https://github.com/protocol/filecoin-mecha-twin
+Project-URL: Source, https://github.com/protocol/filecoin-mecha-twin
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Filecoin Mechanical Twin
+
+Mechanistic model for the Filecoin Economy.
+
+
+## Prerequisites
+
+```
+numpy>=1.23.1
+pandas>=1.4.3
+requests>=2.28.1
+matplotlib>=3.5.2
+seaborn>=0.11.2
+```
+
+## Installing
+
+This package is available on PyPI and thus can be directly installed with pip:
+
+```
+pip install mechafil
+```
+
+Alternatively, this package can be installed from source by cloning this repository and installing it manually with the command:
+
+```
+python setup.py install
+```
+
+## Usage
+
+TBD
+
+
+## References
+
+TBD
