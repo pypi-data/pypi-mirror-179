@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+music_fsl/__init__.py
+music_fsl/backbone.py
+music_fsl/data.py
+music_fsl/evaluate.py
+music_fsl/protonet.py
+music_fsl/train.py
+music_fsl/util.py
+music_fsl.egg-info/PKG-INFO
+music_fsl.egg-info/SOURCES.txt
+music_fsl.egg-info/dependency_links.txt
+music_fsl.egg-info/requires.txt
+music_fsl.egg-info/top_level.txt
