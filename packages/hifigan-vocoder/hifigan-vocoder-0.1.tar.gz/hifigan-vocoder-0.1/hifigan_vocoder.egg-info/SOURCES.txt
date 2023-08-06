@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+hifigan_vocoder/__init__.py
+hifigan_vocoder/models.py
+hifigan_vocoder/sample_mel.pt
+hifigan_vocoder.egg-info/PKG-INFO
+hifigan_vocoder.egg-info/SOURCES.txt
+hifigan_vocoder.egg-info/dependency_links.txt
+hifigan_vocoder.egg-info/requires.txt
+hifigan_vocoder.egg-info/top_level.txt
+test/test.py

@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hifigan-vocoder
+Version: 0.1
+Summary: A wrapped hifi-gan vocoder for easy use.
+Home-page: https://github.com/mushanshanshan/hifigan
+Author: Mushan
+License: MIT
+Keywords: None
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hifigan
+A wrapped hifi-gan vocoder for easy use. 
+
+Source: https://github.com/jik876/hifi-gan
+
+# Usage
+```python
+
+from hifigan_vocoder import hifigan, get_sample_mel
+
+mel = get_sample_mel()
+print(mel.shape) # torch.Size([1, 80, 2062])
+
+model = hifigan(dataset='uni', device='cpu') # dataset in ['uni', 'vctk']
+audio = model.infer(mel)
+print(mel.shape) # (527872,)
+
+```
+
