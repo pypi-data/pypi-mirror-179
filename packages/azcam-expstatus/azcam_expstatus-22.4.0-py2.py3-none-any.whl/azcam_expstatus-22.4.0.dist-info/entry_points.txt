@@ -1,0 +1,3 @@
+[console_scripts]
+expstatus=azcam_expstatus.expstatus:start
+

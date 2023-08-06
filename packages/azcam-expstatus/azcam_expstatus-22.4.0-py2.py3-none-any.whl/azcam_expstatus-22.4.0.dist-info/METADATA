@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: azcam-expstatus
+Version: 22.4.0
+Summary: An Azcam application which displays exposure progress in a GUI window
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Description-Content-Type: text/markdown
+Requires-Dist: azcam
+Requires-Dist: PySide6
+Project-URL: Documentation, https://mplesser.github.io/azcam/
+Project-URL: Repository, https://github.com/mplesser/azcam-expstatus/
+
+# azcam-expstatus
+
+*azcam-expstatus* is an *azcam* application which displays exposure status in a GUI window. The GUI is built with Qt using PySide6.
+
+## Installation
+
+`pip install azcam-expstatus`
+
+Or download from github: https://github.com/mplesser/azcam-expstatus.git.
+
+## Usage:
+
+There are two command line options to specify the connection to **azcamserver**.
+
+- -host *hostname* (default "localhost")
+- -port *portnumber* (default 2402)
+
+
