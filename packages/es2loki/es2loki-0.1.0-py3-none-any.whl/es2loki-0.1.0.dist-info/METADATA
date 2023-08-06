@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: es2loki
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/ktsstudio/es2loki
+License: Apache
+Keywords: elasticsearch,loki
+Author: igorcoding
+Author-email: igorcoding@gmail.com
+Requires-Python: >=3.9,<3.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.3,<4)
+Requires-Dist: elasticsearch (>=8.5.2,<9)
+Requires-Dist: frozendict
+Requires-Dist: protobuf
+Requires-Dist: python-snappy
+Requires-Dist: tortoise-orm[asyncpg]
+Requires-Dist: yarl
+Project-URL: Repository, https://github.com/ktsstudio/es2loki
+Description-Content-Type: text/markdown
+
+# es2loki
+
