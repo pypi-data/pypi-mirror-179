@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xenosite
+Version: 0a1
+Summary: 
+Author: S. Joshua Swamidass
+Author-email: swamidass@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+This is the core package for XenoSite.
+
+This package primarily serves as a namespace package for the xenosite family of packages, while also including an extensible command line interface. All useful functionality requires installing one of the XenoSite subpackages.
