@@ -1,0 +1,17 @@
+matheo/__init__.py,sha256=r-4iw8NpeaPl1LCMFVsq-elwyICwhki1qAsdKzjhKgo,236
+matheo/_version.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+matheo/band_integration/__init__.py,sha256=nwLnEMv9e59TlSl290s46XCQZHox7wvV7dv8DjXQXDk,189
+matheo/band_integration/band_integration.py,sha256=a-p49nWSmD4o7hEeFqT8mSWNUB3NsuiahHlbc0bbejk,38166
+matheo/band_integration/srf_utils.py,sha256=X3UXQF4KOtoGELLypAzq-lPV8r3VirtzDT_8r5wldDs,8944
+matheo/band_integration/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matheo/band_integration/tests/test_band_integration.py,sha256=xOv4WPW0J5uPz-fYRl_Bi8C9e7P6wOHdE9Nbxh_1aAE,27982
+matheo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matheo/utils/function_def.py,sha256=_egNPjbGcwRRBDhnCE9OTxfsqgc7Ny8ugl3nK-Me9k8,7227
+matheo/utils/punpy_util.py,sha256=Ay-iEedaawGoqWnw0p7LxwRLuGflKmdASfMIrT5S_Pc,4087
+matheo/utils/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matheo/utils/tests/test_function_def.py,sha256=_VFxN1a4sUfBxk2mxvvdR0zU4_tv7Ys1fEE0g0TTkn8,4479
+matheo/utils/tests/test_punpy_util.py,sha256=qdf91lYCM_Kssva0czHfZNAk-AEp9AIdTrz0gp1Aus4,2314
+matheo-0.1.0.dist-info/METADATA,sha256=LLOrvFTGXt1bomVY18BDmQ2p-vaaixNE3YagkNxxiSQ,1383
+matheo-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+matheo-0.1.0.dist-info/top_level.txt,sha256=GlM5aPAi_aDYs128x3GetfJeq4Jx6tpiVHnerzfj4Fk,7
+matheo-0.1.0.dist-info/RECORD,,
