@@ -1,0 +1,10 @@
+git_croissant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_croissant/cli.py,sha256=BjYYcbglK1DbIyMdOKyrQFDiv9Pp8AaasDfzse2oAY8,365
+git_croissant/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_croissant/commands/clone.py,sha256=c6bPPFonKeu1ZBJUXSwofBGX7cGSTCHwQc-camqjE48,618
+git_croissant/commands/pousse.py,sha256=PoLhAAWdEx2KkwEPNtQ5hzbw6BkvSFu5rZ0LLvPc5U8,46
+git_croissant/commands/tire.py,sha256=IF-C9DNfIXaARGjad6v8FnewaNo8md-4rMTOxvE4KRg,44
+git_croissant-0.0.1.dist-info/entry_points.txt,sha256=7rfx4nFZ-ZsSGmcqu2BIQH5FEIToKzyGenREG009agA,48
+git_croissant-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+git_croissant-0.0.1.dist-info/METADATA,sha256=nZS4vAHuW9k-Xcr8mwycl-uH5rUOvKnGgz6aS_h_PZk,1123
+git_croissant-0.0.1.dist-info/RECORD,,

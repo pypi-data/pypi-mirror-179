@@ -1,0 +1,3 @@
+[console_scripts]
+abruti=git_croissant.cli:app
+
