@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: quicklookts07
+Version: 0.0.7
+Summary: quicklookts07
+Home-page: https://github.com/stanghong/pypi_publication
+Author: Hong Tang
+Author-email: <stanghong@gmail.com>
+License: UNKNOWN
+Download-URL: https://github.com/stanghong/pypi_publication/archive/refs/tags/v0.07.tar.gz
+Keywords: python,timeseries,plot
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+
+UNKNOWN
+
