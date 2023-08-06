@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0","requests","pynput","pyautogui","bs4","selenium","imagehash","pyperclip"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Utilities-py3"
+version = "0.0.1"
+authors = [
+  { name="Lucas-AV", email="lucasvilela2014@gmail.com" },
+]
+description = "A python package to Scrapy data easily and facilitate some activities like division of list in sub lists to use in a multithreading code for example"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
