@@ -1,0 +1,12 @@
+setuptools
+wheel
+pywin32
+appdirs
+sigmaepsilon==0.0.25c
+dewloosh.mpl
+dewloosh.plotly
+nbformat
+comtypes==1.1.11
+pandas
+latexdocs
+pyvista
