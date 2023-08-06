@@ -1,0 +1,13 @@
+regularizepsf/__init__.py,sha256=2pmIpQVQSNALwMh5aoRJ3OSgqT7XOc8FXAOmmo9XS_c,125
+regularizepsf/corrector.py,sha256=kH3eOO61wftBsCsWc4sUeKxmNktODKiugMZXVaWTqJk,9176
+regularizepsf/exceptions.py,sha256=v1ZQZ_HIyaimMu1LsJSBSxqKjfzXtt4eFdsV-Hlxtgo,348
+regularizepsf/fitter.py,sha256=NKetOXya05W-GAsbPDNDDGpoEVY2xfBvOud8w1IoM20,13787
+regularizepsf/helper.cpython-38-darwin.so,sha256=Yi4HtEn3zYik8BStYoBamPT1AkJVgK4py51WafWpBIc,145456
+regularizepsf/helper.pyx,sha256=zdE9NgMCppzeb7TXgQB7zC5VTqzL0fnfAzGIUODVNgc,4154
+regularizepsf/models.py,sha256=o9KMP4H1CPAXQL0yY9j_uuoDoAzN7DinfSUo1WsVP6c,408
+regularizepsf/psf.py,sha256=0fX1Zu1-TSG_ZdffVw5HB0rbssxSd3Cpr5UmdtXa-MQ,5526
+regularizepsf-0.0.1.dist-info/LICENSE,sha256=YDbCgw7222uqwa4VBm-XbLPZuryplzk_Hc4L-LyUOtY,1070
+regularizepsf-0.0.1.dist-info/METADATA,sha256=_IpUjKjMHWWf6GF-iC8Y3KW7JiqpbHBhFYjHp0I9mPY,1005
+regularizepsf-0.0.1.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+regularizepsf-0.0.1.dist-info/top_level.txt,sha256=2lUDu0JNgLHFAY8WNv4sP12J3WOAld5ZR5xDZOKp3T8,14
+regularizepsf-0.0.1.dist-info/RECORD,,

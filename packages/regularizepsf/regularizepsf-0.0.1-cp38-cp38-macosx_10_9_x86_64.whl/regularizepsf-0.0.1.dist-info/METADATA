@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: regularizepsf
+Version: 0.0.1
+Summary: Point spread function modeling and regularization
+Home-page: https://github.com/punch-mission/regularizepsf
+Author: J. Marcus Hughes
+Author-email: hughes.jmb@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: dill
+Requires-Dist: deepdish
+Requires-Dist: lmfit
+Requires-Dist: sep
+Requires-Dist: cython
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: photutils
+Requires-Dist: scikit-image
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest-runner ; extra == 'test'
+
+# PSFPy
+[![codecov](https://codecov.io/gh/punch-mission/psfpy/branch/main/graph/badge.svg?token=pn4NTO70I9)](https://codecov.io/gh/punch-mission/psfpy)
+
+**UNDER DEVELOPMENT**
+
+A package for manipulating and correcting various point spread functions. 
+
+
+## Getting started
+
+## Usage
+
+## Contributing
+
+## License
+
+## Contact
+
+
