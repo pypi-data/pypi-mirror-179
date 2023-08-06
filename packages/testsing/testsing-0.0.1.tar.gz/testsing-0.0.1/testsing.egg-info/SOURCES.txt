@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.cfg
+setup.py
+testsing.egg-info/PKG-INFO
+testsing.egg-info/SOURCES.txt
+testsing.egg-info/dependency_links.txt
+testsing.egg-info/top_level.txt
+testtool/__init__.py
+testtool/tests.py
