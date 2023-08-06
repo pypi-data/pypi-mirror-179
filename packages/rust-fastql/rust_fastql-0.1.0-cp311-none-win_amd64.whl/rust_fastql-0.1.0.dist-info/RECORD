@@ -1,0 +1,5 @@
+rust_fastql-0.1.0.dist-info/METADATA,sha256=KwxM2wm_R2AYS8_pEe5SCFHnM87Jp5BMA1tpy01oiaE,1244
+rust_fastql-0.1.0.dist-info/WHEEL,sha256=PI_yinHuPssCo943lUdZTaSBEwIUzDPKgEICR1imaRE,96
+rust_fastql/__init__.py,sha256=NbEffXidV3CxU15JP6otugjewmksov40RePuMfWfC8c,127
+rust_fastql/rust_fastql.cp311-win_amd64.pyd,sha256=XM7qEnUYldJdVrTIBca1pSclTX2EjqV_ZqwF0Ys-pto,8829952
+rust_fastql-0.1.0.dist-info/RECORD,,
