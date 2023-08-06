@@ -1,0 +1,41 @@
+# Libreria PM_Elib
+## _Mineria de Procesos_
+
+Esta es una primera versión de una libreria que sirve para realizar analisis de Mineria de Procesos.
+
+## Características
+### Recibe
+- Archivo ".CSV", que contenga cinco (5) columnas:
+-> Id de casos
+-> Nombre de Actividad
+-> Recurso utilizado (Cabe resaltar que al ser esta una primera versión, por el momento solo se acepta un recurso por actividad)
+-> Hora de Inicio de Actividad 
+-> Hora de fin de la Actividad
+- Cantidad de días (int) y la cantidad de horas (str) que dura el proceso sin tiempos muertos, para crear un timeStamp
+- Cuanto cuesta el proceso sin tiempos muertos 
+
+#### Ejemplo
+Se crean las variables de la siguiente manera
+```
+dias = 4
+horas "00:30:14"
+```
+Para que la libreria lo pueda interpretar como timeStamp
+```
+4 days 00:30:14
+```
+
+### Retorna un diccionario de python con:
+-- Generalidades (Cantidad de casos, filas y columnas)
+-- Diccionario con las relaciones entre actividades y grupos de recursos
+-- Mejor Variante
+-- Costo de Mejor Variante
+-- Tiempo de Mejor Variante
+-- Resumen de cuellos de botella
+-- Sugerencias que podrían ayudar a optimizar el proceso para ejecuciones futuras
+
+### Ejemplo
+![](https://raw.githubusercontent.com/edraalfig/prueba/main/Captura.PNG?token=GHSAT0AAAAAAB35WUWDAUCRMYPRNSZ3GDLMY4M4GCQ)
+
+## License
+MIT
