@@ -1,0 +1,2 @@
+[console_scripts]
+cpast = cpast:main
