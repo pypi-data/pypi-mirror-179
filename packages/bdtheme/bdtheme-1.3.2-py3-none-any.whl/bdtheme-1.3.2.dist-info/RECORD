@@ -1,0 +1,11 @@
+bdtheme/__init__.py,sha256=g8B7G4A4i6qCi2mD8TCWtrimQVMqddSRr5q5Iom86GY,18
+bdtheme/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bdtheme/src/curses_app.py,sha256=24cDKUGSyrxJMJd-GxFz7fTXZDQXX1zFb05cNkFntMM,5875
+bdtheme/src/main.py,sha256=RpImFPm3hRmwJXZBW14MbhCkq7PUGRHxooqUMmTZmgU,2603
+bdtheme/src/themes.py,sha256=0XSjLyboSvqmojgMlHj8-7JTSg_ebodGIqRuAqNlA1k,6253
+bdtheme-1.3.2.dist-info/LICENSE,sha256=N3ley-TLrxJ3K_NtZ7WZLzMqhDCHRxKTPG5qEM1_lCc,1096
+bdtheme-1.3.2.dist-info/METADATA,sha256=Zfx65rwYqD5p-6_DSp9HvCKKgcru4_DXQqkxrQKMbuI,291
+bdtheme-1.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bdtheme-1.3.2.dist-info/entry_points.txt,sha256=ahpd9Dz2Su-m3MSMgMCGkOod_weifdy597YRClG0bag,57
+bdtheme-1.3.2.dist-info/top_level.txt,sha256=YcKZY09fK-od6ZggoWMNcsrx2mLYpid5bjBNT5mxH8I,8
+bdtheme-1.3.2.dist-info/RECORD,,
