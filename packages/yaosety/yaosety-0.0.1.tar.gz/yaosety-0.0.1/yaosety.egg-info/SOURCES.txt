@@ -1,0 +1,8 @@
+README
+setup.py
+yaosety/__init__.py
+yaosety/git_yao.py
+yaosety.egg-info/PKG-INFO
+yaosety.egg-info/SOURCES.txt
+yaosety.egg-info/dependency_links.txt
+yaosety.egg-info/top_level.txt
