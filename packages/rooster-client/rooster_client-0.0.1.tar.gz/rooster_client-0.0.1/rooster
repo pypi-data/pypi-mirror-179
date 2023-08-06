@@ -1,0 +1,59 @@
+#!/usr/bin/env python3
+# ----------------------------------------------------------------------------
+# Created By   : Wieger Bontekoe <wieger.bontekoe@productsup.com>
+# Created Date : 2022-12-03
+#
+# Copyright (c) 2022, Products Up GmbH
+#
+# All rights reserved.
+# Unauthorized copying of this file, via any medium is strictly prohibited.
+#
+# ---------------------------------------------------------------------------
+""" FILE DESCRIPTION."""
+# ---------------------------------------------------------------------------
+# Imports from here.
+# ---------------------------------------------------------------------------
+#
+
+# import grpc
+# from rooster_client import api_pb2
+# from rooster_client import api_pb2_grpc
+
+import logging
+
+import click
+
+from rooster_client import rooster
+
+logging.basicConfig(
+    format="%(asctime)s,%(msecs)d %(levelname)-8s [%(filename)s:%(lineno)d] %(message)s",
+    datefmt="%Y-%m-%d:%H:%M:%S",
+    level=logging.DEBUG,
+)
+
+log = logging.getLogger(__name__)
+
+
+@click.group()
+@click.version_option(version="0.0.1", prog_name="rooster")
+def rooster():  # just pass
+    pass
+
+
+@click.command()
+@click.option("--ip", help="find Ip of a machine based on the given pattern")
+@click.option("--v", count=True, help="Enable verbose logging")
+def host(ip, v):
+    if ip != None:
+        print(str(ip))
+
+
+rooster.add_command(host)
+
+
+def main():
+    rooster()
+
+
+if __name__ == "__main__":
+    main()

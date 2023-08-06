@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+rooster
+setup.py
+rooster_client/__init__.py
+rooster_client/api_pb2.py
+rooster_client/api_pb2_grpc.py
+rooster_client/grpc_error_metadata.py
+rooster_client/rooster.py
+rooster_client/test_rooster.py
+rooster_client.egg-info/PKG-INFO
+rooster_client.egg-info/SOURCES.txt
+rooster_client.egg-info/dependency_links.txt
+rooster_client.egg-info/requires.txt
+rooster_client.egg-info/top_level.txt

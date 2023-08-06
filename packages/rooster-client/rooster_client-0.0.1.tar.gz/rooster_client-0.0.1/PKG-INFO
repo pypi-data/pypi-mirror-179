@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rooster_client
+Version: 0.0.1
+Summary: Rooster Python client
+Home-page: https://github.com/productsupcom/rooster-python-sdk
+Author: Yorick Terweijden
+Author-email: yt@productsup.com
