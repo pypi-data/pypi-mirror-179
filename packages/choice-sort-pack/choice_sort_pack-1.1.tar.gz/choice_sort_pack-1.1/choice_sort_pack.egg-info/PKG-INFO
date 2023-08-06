@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: choice-sort-pack
+Version: 1.1
+Summary: Модуль, проводящий сортировку выбором
+License: MIT
+
+Р—Р°РїСѓСЃС‚РёС‚СЊ С‚РµСЃС‚:
+    python -m choice_sort_package -t
+
+Р—Р°РїСѓСЃС‚РёС‚СЊ РґРѕРєС‚РµСЃС‚:
+    python -m choice_sort_package -d
+
+Р—Р°РїСѓСЃС‚РёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ:
+    python -m choice_sort_package 'massive's elements'
