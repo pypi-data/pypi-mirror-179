@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aoc-test
+Version: 0.2
+Summary: Test your Advent of Code solutions
+Home-page: https://github.com/shunlog/aoc-test
+Author: Balan Artiom
+License: MIT
