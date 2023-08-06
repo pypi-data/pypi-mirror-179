@@ -1,0 +1,2 @@
+[console_scripts]
+odn-fit = odeon.cli.fit:main

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: odeon
+Version: 0.0.1
+Summary: odeon stands for object detection with earth observation with neural network
+Home-page: https://github.com/IGNF/odeon
+Author: samy khelifi
+Author-email: samy.khelifi@ign.fr
+Project-URL: Bug Tracker, https://github.com/IGNF/odeon/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
