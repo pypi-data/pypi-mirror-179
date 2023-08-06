@@ -1,0 +1,17 @@
+requests
+numpy
+pandas
+playwright
+tabula-py
+beautifulsoup4
+openpyxl
+rich
+click
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
