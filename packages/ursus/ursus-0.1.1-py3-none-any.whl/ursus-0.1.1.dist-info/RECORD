@@ -1,0 +1,14 @@
+ursus/__init__.py,sha256=s9wrK17vws1IqTWC-bH2CNplrYCs4bxBuoenNuLP21I,96
+ursus/app.py,sha256=1g1CnluriDG2CUVXhYMIXcAeO5iMMrgPpjm-LNAqpZQ,426
+ursus/auth.py,sha256=MhpNq2F7FI4w4HuAp7Pc9oTaXR-yMGtl9VghVeFjya4,2837
+ursus/extensions.py,sha256=A775RXUrp-jM7qrzc26F0kaZziFvkVEzxSehT3w_7Lk,52
+ursus/powerdns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ursus/powerdns/models.py,sha256=ZCTKGnWT8-RbNvBwSV7nbpjtI54Bvrl59NOpxY7MY7E,68
+ursus/powerdns/service.py,sha256=Tlm8IyQIpR4t-nTr-PwNejj8Gg6-NUZE3eMHb0jbC2o,489
+ursus/powerdns/templates/list_domains.html,sha256=-laNDkOEwzNTcuQM-M48CBZZPzTsuBJnknuMPIwUaXQ,340
+ursus/powerdns/views.py,sha256=I0VU1jS4RvQGJIGArNysCjMGPd-dAwPVBIDQLSiM4aU,771
+ursus/utils.py,sha256=4mkmp6CyhQswEzFxBlNLcq0FfqRMSCG5vSLvyyC69uY,876
+ursus-0.1.1.dist-info/LICENSE,sha256=hvtVO8TX1XnZk_hXxyQ_LzKhMCeYuEljxHgaQyb5iKA,1511
+ursus-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ursus-0.1.1.dist-info/METADATA,sha256=5f2eBH1n7HEB4hlGx-JTVHlDrqvKbwjg1BiuE4mlkBs,902
+ursus-0.1.1.dist-info/RECORD,,
