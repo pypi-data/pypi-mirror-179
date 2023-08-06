@@ -1,0 +1,28 @@
+Clear
+
+New Circuit.13BusIEEE
+
+Redirect LineCode_13BusIEEE.dss
+Redirect LoadShape_13BusIEEE.dss
+Redirect GrowthShape_13BusIEEE.dss
+Redirect TCC_Curve_13BusIEEE.dss
+Redirect Spectrum_13BusIEEE.dss
+Redirect Line_13BusIEEE.dss
+Redirect Vsource_13BusIEEE.dss
+Redirect Load_13BusIEEE.dss
+Redirect Transformer_13BusIEEE.dss
+Redirect RegControl_13BusIEEE.dss
+Redirect Capacitor_13BusIEEE.dss
+Redirect Monitor_13BusIEEE.dss
+Redirect Sensor_13BusIEEE.dss
+
+Redirect Voltagebases_13BusIEEE.dss
+
+Buscoords Buscoords_13BusIEEE.dss
+
+solve mode=duty stepsize=0 number=1
+Show monitor 671
+
+Estimate
+
+Export Estimation
