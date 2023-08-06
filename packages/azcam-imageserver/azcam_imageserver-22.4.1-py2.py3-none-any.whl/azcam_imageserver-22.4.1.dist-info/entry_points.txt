@@ -1,0 +1,3 @@
+[console_scripts]
+azcamimageserver=azcam_imageserver.imageserver:start
+
