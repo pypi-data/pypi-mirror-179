@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: git-croissant
+Version: 0.0.1
+Summary: French Git CLI to respect the Toubon Law in France.
+License: AGPL-3.0-or-later
+Author: Christophe Benz
+Author-email: christophe.benz@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Git croissant
+
+French Git CLI to respect the Toubon Law in France.
+
+## Installation
+
+```bash
+pipx install git-croissant
+```
+
+## Usage
+
+Git commands and their options and arguments are translated into French.
+
+For now the coverage is far from being exhaustive, and there is no documentation so please read the source code.
+
+Some examples:
+
+```bash
+abruti clone --profondeur 3 https://github.com/x/y.git
+abruti tire
+abruti pousse
+```
+
+## Development
+
+Install [Poetry](https://python-poetry.org/) then:
+
+```bash
+poetry install
+poetry shell
+
+abruti ...
+```
+
