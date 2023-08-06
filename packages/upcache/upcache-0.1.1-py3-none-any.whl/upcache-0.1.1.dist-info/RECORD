@@ -1,0 +1,10 @@
+upcache/__init__.py,sha256=OyNAz2La_B_F10QHX5g3uOu3raCn2BBJIxR0dyB29Xc,60
+upcache/cache.py,sha256=zl-_JiYS705z46OjS5eoErKoOdc3_XS9HrCuu5_LjdQ,1336
+upcache/daemon.py,sha256=4teLGziCCZ17-LP4e3EEX2R_5-WOBq129w1on5GYCr4,582
+upcache/errors.py,sha256=unguHwlwSxc1YRWewIvMiH84T9qwwhzBXktonkE6F30,469
+upcache/helpers.py,sha256=BTG7dTecZdfwp66EmAawULhAkXJghXu513Mdv6QRtHE,1840
+upcache/networking.py,sha256=OcvKyG5y6ELYCNtOFmUm2auolXLGvdY8qFCwjb9pA4U,10243
+upcache-0.1.1.dist-info/METADATA,sha256=PkcWlWH7m5XjqADaOs42SnayccXNpfD-wckjA4w0oDU,1861
+upcache-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+upcache-0.1.1.dist-info/top_level.txt,sha256=XWEs7c9ubWgJvERCNB8nHI-W1KaAA2bz4PrGDMg3Abs,8
+upcache-0.1.1.dist-info/RECORD,,
