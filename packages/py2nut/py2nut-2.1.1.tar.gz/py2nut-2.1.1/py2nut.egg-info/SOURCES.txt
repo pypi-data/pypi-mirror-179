@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+py2nut.egg-info/PKG-INFO
+py2nut.egg-info/SOURCES.txt
+py2nut.egg-info/dependency_links.txt
+py2nut.egg-info/requires.txt
+py2nut.egg-info/top_level.txt
