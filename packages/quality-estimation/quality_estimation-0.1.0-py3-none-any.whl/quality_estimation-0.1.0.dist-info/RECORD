@@ -1,0 +1,6 @@
+quality_estimation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quality_estimation/engine.py,sha256=qXLtUwM9sS3akVu9gQE4cvoLh2IZRmcrpADSKwQb-X8,1854
+quality_estimation/server.py,sha256=1zwplRRsoEMugrgNOq5BXCeuOU-FQAxWw5qGfeeZiww,1698
+quality_estimation-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+quality_estimation-0.1.0.dist-info/METADATA,sha256=RSyv8q_VHAdD3nzAdcoFYdK9aU3Of09thz9PmHmY36E,696
+quality_estimation-0.1.0.dist-info/RECORD,,
