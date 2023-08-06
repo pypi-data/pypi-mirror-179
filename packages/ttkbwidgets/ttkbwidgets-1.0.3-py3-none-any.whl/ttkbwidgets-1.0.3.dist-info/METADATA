@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ttkbwidgets
+Version: 1.0.3
+Summary: A collection of ttkbootrap based GUI widgets
+Keywords: GUI,widgets,tkinter,ttkbootstrap
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: ttkbootstrap (=="1.9.0")
+
