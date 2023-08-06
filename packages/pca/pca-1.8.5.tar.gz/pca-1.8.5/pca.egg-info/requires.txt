@@ -1,0 +1,10 @@
+wget
+matplotlib
+numpy
+scikit-learn
+scipy
+colourmap
+pandas
+tqdm
+scatterd
+adjustText
