@@ -1,0 +1,12 @@
+matplotlib
+prophet
+numpy
+pandas
+scipy
+scikit_learn
+seaborn
+statsmodels
+
+[test]
+coverage
+pytest
