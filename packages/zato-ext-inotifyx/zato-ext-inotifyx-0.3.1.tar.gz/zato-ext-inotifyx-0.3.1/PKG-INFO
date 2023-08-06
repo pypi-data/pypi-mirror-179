@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zato-ext-inotifyx
+Version: 0.3.1
+Summary: Simple Linux inotify bindings
+Home-page: https://launchpad.net/inotifyx/
+Author: Forest Bond
+Author-email: forest@forestbond.com
+License-File: COPYING
+License-File: AUTHORS
