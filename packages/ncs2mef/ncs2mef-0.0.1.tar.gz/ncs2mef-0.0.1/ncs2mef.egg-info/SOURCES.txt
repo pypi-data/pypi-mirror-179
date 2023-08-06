@@ -1,0 +1,11 @@
+README.md
+setup.py
+ncs2mef/__init__.py
+ncs2mef/ncs_reader.py
+ncs2mef.egg-info/PKG-INFO
+ncs2mef.egg-info/SOURCES.txt
+ncs2mef.egg-info/dependency_links.txt
+ncs2mef.egg-info/requires.txt
+ncs2mef.egg-info/top_level.txt
+ncs2mef/test/__init__.py
+ncs2mef/test/test_ncs_reader.py

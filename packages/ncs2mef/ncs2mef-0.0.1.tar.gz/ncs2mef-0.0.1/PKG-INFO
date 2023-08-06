@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: ncs2mef
+Version: 0.0.1
+Summary: Custom made Python reader for Neuralynx Cheetah NCS files.
+Home-page: https://github.com/mselair/ncs2mef
+Author: Filip Mivalt
+Author-email: mivalt.filip@mayo.edu
+License: UNKNOWN
+Description: Custom made Python reader for binary NCS EEG files generated using Neuralynx Cheetah. Codes were inspired by publicly available codes at https://neuralynx.com/software/category/matlab-netcom-utilities.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.6
