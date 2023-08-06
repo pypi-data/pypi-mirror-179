@@ -1,0 +1,9 @@
+importlib_resources
+huggingface_hub==0.11.1
+tqdm
+pandas
+sentence_transformers
+transformers
+numpy
+torch
+IPython
