@@ -1,0 +1,10 @@
+opentelemetry/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/exporter/cloud_trace/__init__.py,sha256=hb3bDZ2o7tlF7Q-iYHZgpTE1x2xEzNpThCWJ_MmQmuM,19040
+opentelemetry/exporter/cloud_trace/environment_variables.py,sha256=4FN16kUyO12D2RrW6viGJjrcqtlTZHEXc905PdIsqgg,1301
+opentelemetry/exporter/cloud_trace/version.py,sha256=2N78hpg0r-y_Jy9ZmmLCZ2gS6bPN4zf7B4rd-IbHdpw,597
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/METADATA,sha256=PMhYIKUD2QOLMkur8C3dw1lKStWI7aNMTMMfXh6MAXU,2722
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/entry_points.txt,sha256=dclPiNdQEyYxaTsOuI_NF70ifp4h5epuyFnpXGWPJtI,211
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_exporter_gcp_trace-1.4.0.dist-info/RECORD,,
