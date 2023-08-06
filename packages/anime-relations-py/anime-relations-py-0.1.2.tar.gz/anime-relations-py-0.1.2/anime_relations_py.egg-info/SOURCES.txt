@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+anime_relations_py/__init__.py
+anime_relations_py/file_parser.py
+anime_relations_py/rule.py
+anime_relations_py.egg-info/PKG-INFO
+anime_relations_py.egg-info/SOURCES.txt
+anime_relations_py.egg-info/dependency_links.txt
+anime_relations_py.egg-info/requires.txt
+anime_relations_py.egg-info/top_level.txt
