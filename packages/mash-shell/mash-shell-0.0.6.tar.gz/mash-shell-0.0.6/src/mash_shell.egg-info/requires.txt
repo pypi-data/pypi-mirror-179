@@ -1,0 +1,14 @@
+aiohttp
+braceexpand
+django
+dominate
+flask
+mistletoe
+numpy
+pandas
+PyYAML
+quo
+rich
+requests
+scipy
+termcolor
