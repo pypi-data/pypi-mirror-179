@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-aoclib"
+version = "0.2.0"
+description = "A library for solving AdventOfCode problems using Python."
+authors = ["Unknown15082 <trangiahuy15082006@gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [
+    {include = "src/aoclib"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

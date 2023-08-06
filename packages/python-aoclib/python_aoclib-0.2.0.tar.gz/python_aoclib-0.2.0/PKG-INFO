@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-aoclib
+Version: 0.2.0
+Summary: A library for solving AdventOfCode problems using Python.
+License: MIT
+Author: Unknown15082
+Author-email: trangiahuy15082006@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Description-Content-Type: text/markdown
+
+# aoclib
+A library for solving AdventOfCode problems using Python.
+
