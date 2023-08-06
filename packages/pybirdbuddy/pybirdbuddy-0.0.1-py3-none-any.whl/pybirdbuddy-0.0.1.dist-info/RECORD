@@ -1,0 +1,10 @@
+birdbuddy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+birdbuddy/client.py,sha256=kLivC1wJ0l9M1S-hkyhsWT3r5h39-0KlTWjvz4TogBs,4147
+birdbuddy/const.py,sha256=NN-olJi2nPoI3bd0xagM_zMSD6iSj8gom0TF1BTqsAE,68
+birdbuddy/queries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+birdbuddy/queries/auth.py,sha256=0AWgNzNcC_ImDsfHrc28mMn1Y_yvfGYVPNltp0EZ-Qk,2845
+birdbuddy/queries/me.py,sha256=FXtI-Wx9SF6vyntUBGqmKOENrZSmwQXQ3XOzLL_FDtE,6193
+pybirdbuddy-0.0.1.dist-info/METADATA,sha256=n4-N04nCfCTEAP2RpqC0l9yqwEHsupsAxcFIOmb1YMs,1380
+pybirdbuddy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pybirdbuddy-0.0.1.dist-info/top_level.txt,sha256=aYLtRHkZSJz58RDiXiQKVkdkfjnn3XPf3xuVTm7lfjU,10
+pybirdbuddy-0.0.1.dist-info/RECORD,,
