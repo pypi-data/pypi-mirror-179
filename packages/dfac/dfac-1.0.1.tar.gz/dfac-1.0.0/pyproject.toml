@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dfac"
+version = "1.0.0"
+authors = [
+  { name="Abdulrasaq Lawani", email="me@zaqlabs.com" },
+]
+description = "A simple to use python app for generating data of different types and configurations."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sheunl/Data-Factory"
+"Bug Tracker" = "https://github.com/sheunl/Data-Factory/issues"
