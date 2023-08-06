@@ -1,0 +1,10 @@
+motiondetector/__init__.py,sha256=3-cnKJ1tN1ZSdIXS0GtKC7SKGJXw5Z2Dx0AzcBroydk,1793
+motiondetector/__main__.py,sha256=iGAcN1_D3nRqygZs-5isFAEcY4LltxskMP6mWJQmIgM,671
+motiondetector/utils/Class.py,sha256=HJp3Zt8KjU68ytMXdnY7FJrvboMZ7ZOCYqG8IyAyNSI,398
+motiondetector/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+motiondetector/utils/functions.py,sha256=YSX1BiIWBs7BX4e-mTyzBFuCpUqqQDTHBoKr0Ckz-8w,800
+motion_detector-1.0.3.dist-info/LICENSE,sha256=JqLFTp9l7rezjVZgeXdhR1WtKM3YKMXx2oMb9S2BIPc,1077
+motion_detector-1.0.3.dist-info/METADATA,sha256=J5P5UBWTlrZ_-tJ8t80QbQdE4vz9vURI--ArlFz9KFU,680
+motion_detector-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+motion_detector-1.0.3.dist-info/top_level.txt,sha256=Q9xjC7DQqIlgXi1KKce8IYL4Sbzwfg38R4dpyHBjpAI,15
+motion_detector-1.0.3.dist-info/RECORD,,
