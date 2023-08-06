@@ -1,0 +1,8 @@
+mo-dots==9.278.22339
+mo-future==6.265.22338
+
+[tests]
+mo-testing
+mo-times
+mo-json
+mo-threads
