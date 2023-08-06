@@ -1,0 +1,14 @@
+numpy>=1.14.3
+dpdata!=0.2.11,>=0.2.6
+pymatgen>=2022.7.19
+ase
+monty>2.0.0
+paramiko
+custodian
+GromacsWrapper>=0.8.0
+dpdispatcher>=0.3.11
+netCDF4
+dargs>=0.2.9
+h5py
+pymatgen-analysis-defects
+openbabel-wheel
