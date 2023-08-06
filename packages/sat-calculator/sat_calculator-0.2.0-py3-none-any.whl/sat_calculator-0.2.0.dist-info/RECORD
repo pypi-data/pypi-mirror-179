@@ -1,0 +1,11 @@
+calculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculator/__main__.py,sha256=9XjenGu8iEZkSrugnKbTT-geXGVsAIbnvIblf24edeY,58
+calculator/app.py,sha256=l2pb-bmTMLh2WRu1Il-9E8jnU9aNb2MTpoeWB-HnLSs,1204
+calculator/operation.py,sha256=YwN9Vc5C1PWlbYe47IeVAA_WSaaSoAb-YW4s3DuddPI,675
+calculator/utils.py,sha256=EoNlX9WSNF6HjOZLro-6IY93wpSzhHPVW7OayhOPvQM,158
+sat_calculator-0.2.0.dist-info/LICENSE,sha256=1SifRtyRWLtaswx9uJ_ydwVAfm3QqmClFb1tCVScreg,1095
+sat_calculator-0.2.0.dist-info/METADATA,sha256=l4e2yU466HOCtXZKSA_ZO17oZvLh8PSzhPG-zGx6G4o,1626
+sat_calculator-0.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sat_calculator-0.2.0.dist-info/entry_points.txt,sha256=r-n-djCssN25ry2f5TMS2quuNh0W-Z6NM5ZWHJHUhmM,45
+sat_calculator-0.2.0.dist-info/top_level.txt,sha256=7NVeUo1lE_Y5X1yFo5RH_PMguhNYnVEH--xlMHwiOcw,11
+sat_calculator-0.2.0.dist-info/RECORD,,
