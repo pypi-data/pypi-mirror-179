@@ -1,0 +1,56 @@
+Description
+----------
+calculator.py includes a class 'Calculator' which performs basic calculator operations
+
+Installation
+----------
+pip install anirtic_calculator
+
+Importing a package
+----------
+from anirtic_calculator.calculator import Calculator
+
+Attributes
+----------
+memory : float
+    Calculator memory
+
+
+Methods
+----------
+add(number):
+    Takes the number and adds it to calculator memory
+
+subtract(number):
+    Takes the number and subtracts it from calculator memory
+
+multiply(number):
+    Multiplies calculator memory by a given number
+
+divide(number):
+    Divides calculator memory by a given number
+
+root(number):
+    Takes the n root of calculator memory
+
+reset():
+    Resets calculator memory
+----------
+
+Example
+----------
+>from anirtic_calculator import calculator \
+>Calculator.add(2)\
+>2.0
+> 
+>Calculator.multiply(3)\
+>6.0
+>
+>Calculator.divide(3)\
+>2.0
+> 
+>Calculator.root(2)\
+>1.4142135623730951
+> 
+>Calculator.reset()\
+>0.0
