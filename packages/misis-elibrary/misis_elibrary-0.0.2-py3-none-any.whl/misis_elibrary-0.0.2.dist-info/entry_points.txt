@@ -1,0 +1,2 @@
+[console_scripts]
+misis-elibrary = misis_elibrary:main
