@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+emoji_fzf/__init__.py
+emoji_fzf/emoji_fzf.py
+emoji_fzf/emoji_fzf_emojilib.py
+emoji_fzf.egg-info/PKG-INFO
+emoji_fzf.egg-info/SOURCES.txt
+emoji_fzf.egg-info/dependency_links.txt
+emoji_fzf.egg-info/entry_points.txt
+emoji_fzf.egg-info/requires.txt
+emoji_fzf.egg-info/top_level.txt
+emojilib/LICENSE

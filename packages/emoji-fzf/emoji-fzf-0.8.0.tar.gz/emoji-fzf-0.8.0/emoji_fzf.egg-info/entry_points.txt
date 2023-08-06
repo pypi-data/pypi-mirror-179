@@ -1,0 +1,2 @@
+[console_scripts]
+emoji-fzf = emoji_fzf.emoji_fzf:cli
