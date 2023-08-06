@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: inbound
+Version: 0.0.4
+Summary: declarative data ingestion.
+Home-page: https://github.com/navikt/inbound
+Author: Virksomhetsdatalaget
+Author-email: paul.bencze@nav.no
+Keywords: data ingestion,data loading,data pipelines
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: dbt-core
+Requires-Dist: dbt-bigquery
+Requires-Dist: dbt-snowflake
+Requires-Dist: duckdb
+Requires-Dist: click
+Requires-Dist: coloredlogs
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-bigquery-storage
+Requires-Dist: google-cloud-storage
+Requires-Dist: google-auth
+Requires-Dist: google-api-core
+Requires-Dist: google-cloud-core
+Requires-Dist: google-cloud-secret-manager
+Requires-Dist: oracledb
+Requires-Dist: pandas
+Requires-Dist: prefect
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: PyYAML
+Requires-Dist: python-json-logger
+Requires-Dist: psycopg2
+Requires-Dist: requests
+Requires-Dist: schema
+Requires-Dist: snowflake-connector-python[pandas,secure-local-storage]
+Requires-Dist: sqlalchemy
+Requires-Dist: sqlalchemy-bigquery
+Requires-Dist: snowflake-sqlalchemy
+Requires-Dist: types-click
+Provides-Extra: all
+Requires-Dist: Jinja2 (==2.11.3) ; extra == 'all'
+Requires-Dist: cffi (<2.0.0,>=1.9) ; extra == 'all'
+Requires-Dist: click (<9,>=8) ; extra == 'all'
+Requires-Dist: idna (<4,>=2.5) ; extra == 'all'
+Requires-Dist: isodate (<0.7,>=0.6) ; extra == 'all'
+Requires-Dist: logbook (<1.6,>=1.5) ; extra == 'all'
+Requires-Dist: packaging (<22.0,>=20.9) ; extra == 'all'
+Requires-Dist: requests (<3.0.0) ; extra == 'all'
+Requires-Dist: sqlparse (<0.5,>=0.2.3) ; extra == 'all'
+Requires-Dist: typing-extensions (<3.11,>=3.7.4) ; extra == 'all'
+Requires-Dist: dataclasses (<0.9,>=0.6) ; (python_version < "3.8") and extra == 'all'
+Provides-Extra: dbt
+Requires-Dist: Jinja2 (==2.11.3) ; extra == 'dbt'
+Requires-Dist: click (<9,>=8) ; extra == 'dbt'
+Requires-Dist: isodate (<0.7,>=0.6) ; extra == 'dbt'
+Requires-Dist: logbook (<1.6,>=1.5) ; extra == 'dbt'
+Requires-Dist: packaging (<22.0,>=20.9) ; extra == 'dbt'
+Requires-Dist: sqlparse (<0.5,>=0.2.3) ; extra == 'dbt'
+Requires-Dist: typing-extensions (<3.11,>=3.7.4) ; extra == 'dbt'
+Requires-Dist: dataclasses (<0.9,>=0.6) ; (python_version < "3.8") and extra == 'dbt'
+Provides-Extra: snowflake
+Requires-Dist: cffi (<2.0.0,>=1.9) ; extra == 'snowflake'
+Requires-Dist: idna (<4,>=2.5) ; extra == 'snowflake'
+Requires-Dist: requests (<3.0.0) ; extra == 'snowflake'
+
+# Experimental toolkit for declarative data ingestion as a dbt companion
