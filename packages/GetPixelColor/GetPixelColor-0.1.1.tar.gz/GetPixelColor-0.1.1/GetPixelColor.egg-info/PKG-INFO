@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: GetPixelColor
+Version: 0.1.1
+Summary: A cross-platform python library for getting the color of a given pixel on screen.
+Home-page: https://github.com/Bobrobot1/GetPixelColor
+Author: Bobrobot1
+Author-email: bobrobot@zoho.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+
+A cross-platform python library for getting the color of a given pixel on screen. Example usage: `getpixelcolor.get_pixel_color(500, 500)`
