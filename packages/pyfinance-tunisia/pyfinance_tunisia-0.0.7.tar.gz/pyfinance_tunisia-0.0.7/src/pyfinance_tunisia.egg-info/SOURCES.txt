@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/pyfinance_tunisia.py
+src/symbol_recommendation.csv
+src/pyfinance_tunisia.egg-info/PKG-INFO
+src/pyfinance_tunisia.egg-info/SOURCES.txt
+src/pyfinance_tunisia.egg-info/dependency_links.txt
+src/pyfinance_tunisia.egg-info/requires.txt
+src/pyfinance_tunisia.egg-info/top_level.txt
