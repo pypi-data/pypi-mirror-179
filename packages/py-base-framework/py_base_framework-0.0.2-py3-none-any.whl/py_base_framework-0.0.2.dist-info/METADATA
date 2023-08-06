@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-base-framework
+Version: 0.0.2
+Summary: 抖店微应用 python 框架
+License: LGPL
+Author: 陈志峰
+Author-email: chenzhifeng.777@bytedance.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flask (>=2.2.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+抖店微应用 python 框架
