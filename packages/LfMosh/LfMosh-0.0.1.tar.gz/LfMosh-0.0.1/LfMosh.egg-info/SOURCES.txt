@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+LfMosh.egg-info/PKG-INFO
+LfMosh.egg-info/SOURCES.txt
+LfMosh.egg-info/dependency_links.txt
+LfMosh.egg-info/top_level.txt
+xiao_try_publish_a_package/__init__.py
+xiao_try_publish_a_package/main.py
