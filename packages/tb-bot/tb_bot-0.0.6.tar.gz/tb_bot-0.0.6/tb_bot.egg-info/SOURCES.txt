@@ -1,0 +1,8 @@
+LICENCE.txt
+setup.py
+tb_bot/__init__.py
+tb_bot/get_data.py
+tb_bot.egg-info/PKG-INFO
+tb_bot.egg-info/SOURCES.txt
+tb_bot.egg-info/dependency_links.txt
+tb_bot.egg-info/top_level.txt
