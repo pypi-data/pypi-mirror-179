@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ra_pickles
+Version: 0.8.1
+Summary: A simple package that allows creating a pickles dataset and fast random access
+Home-page: https://github.com/shahrukhqasim/ra_pickles
+Author: Shah Rukh Qasim
+Author-email: shah.rukh.qasim@cern.ch
+License: MIT License
+Description: Should be filled in soon
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
