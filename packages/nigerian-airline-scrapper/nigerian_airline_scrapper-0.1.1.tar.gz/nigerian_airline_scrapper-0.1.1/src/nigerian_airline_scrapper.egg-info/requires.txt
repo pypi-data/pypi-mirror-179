@@ -1,0 +1,7 @@
+feedparser>=5.2.0
+html2text
+BeautifulSoup4
+lxml
+
+[:python_version < "3.11"]
+tomli
