@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: hgdb-rtl
+Version: 0.0.1
+Summary: Creating HGDB symbol table from RTL
+Author: Keyi Zhang
+Author-email: keyi@cs.stanford.edu
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+# HGDB RTL
+This is an experimental tool to generate symbol table from SystemVerilog designs.
+It uses [slang](https://github.com/MikePopoloski/slang) as a frontend to parse any SystemVerilog files.
+
+## How to install
+TO install, simply run the following commands
+
+```
+pip install hgdb-rtl
+```
+
+`hgdb-rtl` will show up in your path.
+
+## Limitations
+Since SystemVerilog is a complex language, there are several limitation in the current implementation.
+Notice that none of them are systematic - given enough engineering effort, they can be overcome.
+
+1. No SSA transformation for `always_comb` logic. This means that if you reassign the same variable
+   in the same `always_comb` block, the intermediate result will not show in during debugging.
+2. Local variables declared in the procedural will not be detected.
