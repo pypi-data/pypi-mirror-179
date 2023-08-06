@@ -1,0 +1,10 @@
+linkeddeepdict/__init__.py,sha256=6sT2wUcKo87IuBmlU5PGF82UqZozFCXfJsRANvp0gl8,253
+linkeddeepdict/linkeddeepdict.py,sha256=cn-iEz5x7qCxwf5MzUetmrGwUm7JuzeRpac3wyWD0Js,11338
+linkeddeepdict/tools/__init__.py,sha256=LfmuHaTC4uxOn7S652xxmhaqz23EwdxgOhoqJ4Mpn48,70
+linkeddeepdict/tools/dtk.py,sha256=1-DkHSxbal6l391yvVVAVpz51H21RjalguNQOIeA2TM,2585
+linkeddeepdict/tools/kwargtools.py,sha256=VhpTMYu92-IqkPJHSh3-9YYHjJcdSsrOx8JUruPNOrA,2256
+linkeddeepdict-0.0.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+linkeddeepdict-0.0.1.dist-info/METADATA,sha256=77AFeRwxPhYoEQOCr4yqkeau5UCuUU_FpHHxz-uxWmY,5461
+linkeddeepdict-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+linkeddeepdict-0.0.1.dist-info/top_level.txt,sha256=LcjW5blMmFKGFUJSsrg0U8H4qPMBUJ_suwepJbYz0XM,15
+linkeddeepdict-0.0.1.dist-info/RECORD,,
