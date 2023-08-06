@@ -1,0 +1,13 @@
+klega/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+klega/data_processor.py,sha256=6cSqjYPv-hAaDTFVWJcoELzML086Dgaon2Pul7S9mVc,2847
+klega/data_reader.py,sha256=E9-n6y--XKxtw1sb3o80bufxYAAm-unorziUZOeesnc,1499
+klega/korean_tokenizer.py,sha256=RQv5GYM3KoIuH8Bz0J6yBD8p3v6aG7R3EuTUYMh7pno,5167
+klega/ld_analyser.py,sha256=tZ47S-OF7iYAiZukn0nhhk2wkqO7qb7gmcq8mGqGXUY,4305
+klega/main.py,sha256=baFjmLazhZtxwZB-cKGzdI4h-4slqgMbXywRpfB648M,4886
+klega/util.py,sha256=z8U6XqSVBETwwqddPfpXn2h_bobQ_RPkImoBL5KSVjg,640
+klega/web.py,sha256=kkF39wICaF9it6FkuyZ8wdiz-jMZwo_uTvF7HriXCcc,1935
+klega-1.0.5.dist-info/LICENSE.txt,sha256=tI5Z6JknUTfAkEdZ22YWI2UuC_8efM9_E4hn6qDp8e0,1087
+klega-1.0.5.dist-info/METADATA,sha256=VYRYvgaNcdDD12_4RWvD4A-W8Hjwy9fmvG-MCMynf9I,5874
+klega-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+klega-1.0.5.dist-info/top_level.txt,sha256=AddB_3QyOV76ttn0OxcY6B7Si-2rC_KLPY-mCx51Ka0,6
+klega-1.0.5.dist-info/RECORD,,
