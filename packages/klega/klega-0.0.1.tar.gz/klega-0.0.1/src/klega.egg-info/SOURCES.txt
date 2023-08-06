@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/klega.egg-info/PKG-INFO
+src/klega.egg-info/SOURCES.txt
+src/klega.egg-info/dependency_links.txt
+src/klega.egg-info/top_level.txt
