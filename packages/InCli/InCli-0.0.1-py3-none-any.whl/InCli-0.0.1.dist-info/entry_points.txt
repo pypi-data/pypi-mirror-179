@@ -1,0 +1,2 @@
+[console_scripts]
+InCli = src.InCli:main
