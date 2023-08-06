@@ -1,0 +1,14 @@
+chunkdup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chunkdup/blueprint.py,sha256=DkiSNB4jyh7mKrNNBPYNYF9vjqt1_2Ujb36q8Gi9zmo,3544
+chunkdup/chunkdiff.py,sha256=OOY5nsXLc2ra_5Dmlcz4Y8i0aZj42-kBcNY9oGsbuOg,4614
+chunkdup/chunkdup.py,sha256=cTBv3EfY3_PcZQOz_ey6D8UQbWI_3_Ajpj_0zOaCvMM,5239
+chunkdup/diffbar.py,sha256=fuu3TvtshFkmQGd8J___AwfzJ66U-bPJG1kUlKvZZqw,5096
+chunkdup/differ.py,sha256=Qn-TdaHEsQAyzV0Z4flkExQGzwkXC1vEaWcd3SSLetc,5524
+chunkdup/dire.py,sha256=w9KxxihBp4bRQ1jFeLZTxOBNCeXlK3fa2wO0kaUbMpw,3685
+chunkdup/sums.py,sha256=hcZcVHKRsZ64F1CdnRdEN4sbNRoRG-_VKo8XpLGLsQs,4462
+chunkdup/utils.py,sha256=rRFectLz5z2zaXfUm-s10cRwYMZdfn7zXgiwKPwztxo,1931
+chunkdup-0.5.0.dist-info/entry_points.txt,sha256=D876d3XEAoPlJ2Wk6NQl16zTNCyMyl-UcgUSJflMPN0,85
+chunkdup-0.5.0.dist-info/LICENSE,sha256=mAtRveZ1NYzyo4AXHlKaJ6EAsXJpWwGDi8wXfxFZ4NY,1066
+chunkdup-0.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+chunkdup-0.5.0.dist-info/METADATA,sha256=WzlIqznkE32sAdiUumN5vjbIkacNTPeYdFouYfutzuY,2922
+chunkdup-0.5.0.dist-info/RECORD,,
