@@ -1,0 +1,13 @@
+ceODBC/version.py,sha256=RPmwIiHIdyIha2pNVx43K6912Q6wyY4IlFj7uAK3IT8,150
+ceODBC/constructors.py,sha256=8cXxjhLu-erC6P7crwYf4mLhWqZsyD13ACRMDi2f2Jg,2234
+ceODBC/exceptions.py,sha256=LF-pCVvdhy5bQsoLDsYaNu9ej7McWpEpPMxZ-dRPuRI,1493
+ceODBC/__init__.py,sha256=M-HmOwXQjvcq_jSRLyt6m4X_jMHIAzB0m4eRHWDnj8g,430
+ceODBC/constants.py,sha256=1YfbTiPHyXZtf0RBh-3fGwiUsVygAXzEMxHoovWpDuE,972
+ceODBC/driver.cpython-37m-aarch64-linux-gnu.so,sha256=mTms5cdsDd7LNDYYGwTeKAWEFWBygasgN29btuP7Lek,2100936
+ceODBC/driver.cpython-38-aarch64-linux-gnu.so,sha256=V__TAWqTuZNMiXmrAQwWDFAn120jsnCB3PIuNlrAY9w,2494232
+ceODBC-3.1.dist-info/top_level.txt,sha256=DHi6mG0eKnvXAWCGM9B_F2jdjRE6cGLqzXvtSNrJ_yg,7
+ceODBC-3.1.dist-info/METADATA,sha256=f9OMp_jZbuiPItB5skAsXwX-CaxWGZxtFZI5Ua1JZww,2356
+ceODBC-3.1.dist-info/RECORD,,
+ceODBC-3.1.dist-info/WHEEL,sha256=7ely3ZZDK-Ti4SbIzDQ-8x-LZGL2jcSW9FdL3LLQ8HY,150
+ceODBC.libs/libltdl-b8aba5d6.so.7,sha256=Z03njKMrux3taL0Bq9x-p-7Qj88_V3NKGy2243d2Vis,133344
+ceODBC.libs/libodbc-07cdaf98.so.2.0.0,sha256=jHMIvvit7u6_7-iFalRRjlJ2dCaUHEi47gdtlzEzoRk,527680
