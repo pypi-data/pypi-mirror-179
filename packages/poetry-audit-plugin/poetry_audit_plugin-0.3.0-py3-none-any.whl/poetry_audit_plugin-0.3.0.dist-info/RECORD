@@ -1,0 +1,9 @@
+poetry_audit_plugin/__init__.py,sha256=Ogy4dfZJ9_7qNyC7A3wB5FKG1bzDF1FrfqbsT-QWDJY,97
+poetry_audit_plugin/command.py,sha256=ggoVu0O9EsReNMtguh586HZeMpCoU5DaMRx6LvbD464,6347
+poetry_audit_plugin/plugin.py,sha256=2HvTbtTWmB3yA9a1SROFPrk0FTBSHUdi4SF2VikePcg,343
+poetry_audit_plugin/safety.py,sha256=C6Btx2b3dMNJPKPfGG4NmTBPGFT3M0n9cUnOQV0D15w,3978
+poetry_audit_plugin-0.3.0.dist-info/entry_points.txt,sha256=R5e_VwG8FNx6Fs7RFqIEoY4UN9LlpFa5qUPF7L14dJk,99
+poetry_audit_plugin-0.3.0.dist-info/LICENSE,sha256=CEoG7Iop16Ub3FGsPdRo9B8OpYGTy8UfoJ32FqRm9cc,1064
+poetry_audit_plugin-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+poetry_audit_plugin-0.3.0.dist-info/METADATA,sha256=5ZWBXlkmm4Mxd_vE5H2iOP8X8tZ38a3IIin_F69hgSk,4122
+poetry_audit_plugin-0.3.0.dist-info/RECORD,,
