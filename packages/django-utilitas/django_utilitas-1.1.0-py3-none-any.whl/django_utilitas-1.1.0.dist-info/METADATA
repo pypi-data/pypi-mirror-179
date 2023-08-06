@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-utilitas
+Version: 1.1.0
+Summary: Django package with useful utility classes
+Home-page: https://github.com/ninnroot/utilitas
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: Django (>=4.0)
+Requires-Dist: drf-yasg (>=1.21.4)
+Requires-Dist: djangorestframework (>=3.14.0)
+Requires-Dist: drf-flex-fields (>=1.0.0)
+
+# Django Utilitas
+Django Utilitas is a library that contains many ready-to-use utility classes so that you can just focus on the business logic of your API.
+
+Utilitas itself is built upon many other great Django packages such as drf-ff and drf-yasg.
