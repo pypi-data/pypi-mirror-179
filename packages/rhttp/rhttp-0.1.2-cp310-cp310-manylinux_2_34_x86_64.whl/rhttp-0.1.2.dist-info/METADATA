@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: rhttp
+Version: 0.1.2
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: A http requests library based on requests written in rust
+Keywords: requests,http
+Author-email: Ben-Brady <benbradybusiness@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: changelog, https://github.com/me/spam/blob/master/CHANGELOG.md
+Project-URL: documentation, https://readthedocs.org
+Project-URL: repository, https://github.com
+Project-URL: homepage, https://example.com
+
+# Rhttp
+
+A HTTP library written in rust, based on the requests library.
+
+## Documentation
+
+To come...
