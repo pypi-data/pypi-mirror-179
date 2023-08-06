@@ -1,0 +1,11 @@
+aiohttp~=3.8
+attrs~=22.1
+colorlog~=6.7
+multidict~=6.0
+
+[server]
+pynacl~=1.5
+
+[speedups]
+aiohttp[speedups]~=3.8
+ciso8601~=2.2
