@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+huscy.project_consents.egg-info/PKG-INFO
+huscy.project_consents.egg-info/SOURCES.txt
+huscy.project_consents.egg-info/dependency_links.txt
+huscy.project_consents.egg-info/requires.txt
+huscy.project_consents.egg-info/top_level.txt
+huscy/project_consents/__init__.py
+huscy/project_consents/admin.py
+huscy/project_consents/apps.py
+huscy/project_consents/models.py
+huscy/project_consents/urls.py
+huscy/project_consents/views.py
