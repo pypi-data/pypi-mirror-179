@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+AdventOfCode2022/runner.py
+AdventOfCode2022.egg-info/PKG-INFO
+AdventOfCode2022.egg-info/SOURCES.txt
+AdventOfCode2022.egg-info/dependency_links.txt
+AdventOfCode2022.egg-info/entry_points.txt
+AdventOfCode2022.egg-info/top_level.txt
