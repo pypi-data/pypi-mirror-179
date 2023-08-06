@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: datocms
+Version: 0.1.0
+Summary: Python libary for DatoCMS
+Home-page: https://github.com/rostyq/python-datocms
+Author: Rostyslav Bohomaz
+Author-email: rostyslav.db@gmail.com
+License: MIT License
+Keywords: datocms
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# python-datocms
+
+> Work In Progress
+
+Python Libary for DatoCMS.
