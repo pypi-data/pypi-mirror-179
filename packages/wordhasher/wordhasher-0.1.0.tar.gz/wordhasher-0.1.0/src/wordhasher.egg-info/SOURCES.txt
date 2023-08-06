@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/wordhasher/__init__.py
+src/wordhasher/__main__.py
+src/wordhasher/adjectives.txt
+src/wordhasher/nouns.txt
+src/wordhasher/verbs.txt
+src/wordhasher/wordhasher.py
+src/wordhasher.egg-info/PKG-INFO
+src/wordhasher.egg-info/SOURCES.txt
+src/wordhasher.egg-info/dependency_links.txt
+src/wordhasher.egg-info/entry_points.txt
+src/wordhasher.egg-info/requires.txt
+src/wordhasher.egg-info/top_level.txt

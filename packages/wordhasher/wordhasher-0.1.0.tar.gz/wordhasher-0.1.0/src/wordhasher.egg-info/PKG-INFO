@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: wordhasher
+Version: 0.1.0
+Summary: Make comparing hashes more human friendly by using verb-adj-noun format.
+Author-email: lfrati <lfrati.github@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/lfrati/wordhasher
+Keywords: hashing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# WordHasher
+Hashes are cool. But gosh they are ugly to read...
+
+Let's convert them to verb-noun-adjective form to be more human friendly!
+
+We are going to use [WordNet](https://wordnet.princeton.edu/) to get some words and [hashlib](https://docs.python.org/3/library/hashlib.html) to get some hashes.
+
+# Example
+``` python
+>>> from wordhasher import WordHasher
+>>> wh = WordHasher()
+>>> print(wh)
+WordHasher:
+     nouns: 9698
+adjectives: 3644
+     verbs: 2872
+>>> wh.from_str('This is a test.') 
+catnap-abatic-upshot
+>>> wh.from_str(__file__)
+syphon-abashed-decidua
+>>> wh.sample()
+keep-vain-smugness-247
+>>> wh.sample(mode="an")
+inviting-patrial
+>>> wh.sample(mode="anN")
+unsaved-asshole-908
+```
+
+## Credits
+> Princeton University "About WordNet." WordNet. Princeton University. 2010. 
