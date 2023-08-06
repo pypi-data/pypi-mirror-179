@@ -1,0 +1,9 @@
+eyedlog/__init__.py,sha256=bBvd1rGEvvvsX5WaxqS-dYDm1sXUBzGQx2AE8EjgsCg,180
+eyedlog/__version__.py,sha256=mYBppkGduH9_TxJ2x6edmfvN-B14uI8ZL4mVdTCUs_Y,47
+eyedlog/compress.py,sha256=MpIW9fmC6jXbUDJPdGDVHWhQWhYDO05MOIjaWC5TujI,1243
+eyedlog/logging.py,sha256=msZi7XWp59R3v5YX9zzD5eiHbZ7qrPTbqd36b300NRs,6509
+eyedlog-0.0.7.dist-info/LICENSE,sha256=5u1vXMX2Uy_lctWPLSBNgFyf8OzX0sAEzU6lkjwhqdY,1062
+eyedlog-0.0.7.dist-info/METADATA,sha256=2tiEHaMs8bPozSagbqRICEhR80FhMLEAHKay7hfZm9s,1100
+eyedlog-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eyedlog-0.0.7.dist-info/top_level.txt,sha256=aMI4wi7ODO-zpJGhbkyT4alN2MNppLWhviFeI8gmh9E,8
+eyedlog-0.0.7.dist-info/RECORD,,
