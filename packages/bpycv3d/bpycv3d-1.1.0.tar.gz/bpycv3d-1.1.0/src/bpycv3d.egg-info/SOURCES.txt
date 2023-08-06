@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/bpycv3d/CameraRandomizer.py
+src/bpycv3d/DataCapture.py
+src/bpycv3d/__init__.py
+src/bpycv3d.egg-info/PKG-INFO
+src/bpycv3d.egg-info/SOURCES.txt
+src/bpycv3d.egg-info/dependency_links.txt
+src/bpycv3d.egg-info/top_level.txt
