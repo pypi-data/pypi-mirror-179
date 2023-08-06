@@ -1,0 +1,10 @@
+monoformat/__init__.py,sha256=NlfRr5x4lJtJSJ_K6vSJ6kQVZJHn8Vu-rnhJhw0dWe8,195
+monoformat/__main__.py,sha256=cNHphjtgErj2_lgTvOtTU3FZIGftdHz_RDy-jTPPYUs,2571
+monoformat/exceptions.py,sha256=F_e06c-6UFREsEzUGnd8LIVs1T6N-mIxVg49JgGdnz0,529
+monoformat/explorer.py,sha256=C9GKWL6dY48T9hHJKAlBsUdkTh2VxiB_KbiLuyzGwfk,2176
+monoformat/formatters.py,sha256=KZaaU9S_teoSyFk0pibvHKdsPoANA6euvPMHo0eeOfs,5226
+monoformat-0.1.0b1.dist-info/entry_points.txt,sha256=yX53XCduWalXQNLtE7VF4s_zwKUgVbIc7maEoQTaNtM,59
+monoformat-0.1.0b1.dist-info/LICENSE,sha256=djc4a1-B6KcZyjNiMxSQBeX6KLXmBU6ntn3kk1WwrUA,484
+monoformat-0.1.0b1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+monoformat-0.1.0b1.dist-info/METADATA,sha256=inwBHwZOQbU94s7zOs-qfFUldN_hVLOHZ6ynB_iDF2E,2082
+monoformat-0.1.0b1.dist-info/RECORD,,
