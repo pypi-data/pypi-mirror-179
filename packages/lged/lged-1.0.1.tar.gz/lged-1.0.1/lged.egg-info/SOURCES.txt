@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lged.egg-info/PKG-INFO
+lged.egg-info/SOURCES.txt
+lged.egg-info/dependency_links.txt
+lged.egg-info/entry_points.txt
+lged.egg-info/not-zip-safe
+lged.egg-info/requires.txt
+lged.egg-info/top_level.txt
