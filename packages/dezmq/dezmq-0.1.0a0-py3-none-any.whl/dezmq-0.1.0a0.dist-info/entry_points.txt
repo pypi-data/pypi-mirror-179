@@ -1,0 +1,3 @@
+[console_scripts]
+dezmq=dezmq.__main__:app
+

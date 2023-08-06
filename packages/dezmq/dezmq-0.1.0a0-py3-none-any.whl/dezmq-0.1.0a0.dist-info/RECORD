@@ -1,0 +1,8 @@
+dezmq/__init__.py,sha256=lfu2yVP4O4muxKlRtHKNhBCXqaEaL3yE6EsCxybIqL4,88
+dezmq/__main__.py,sha256=oYRkLRhnelUITA3o7VTCkDDnr9zrWmHXJUE8U5Dbb2w,896
+dezmq/dezmq.py,sha256=MoHsmN3O4FzMpxyisITvjIF1sxKWyIaPXYma_kIuhdY,121
+dezmq-0.1.0a0.dist-info/entry_points.txt,sha256=TfTRcGzMDC7KYu7MUdlEJuBqoCRFG3Szkc_6cPlwGxM,44
+dezmq-0.1.0a0.dist-info/LICENSE,sha256=2Z4g7Eq1bQRfTQoryBnNsyhlWBpAGylKyp1KFJMlTWU,1085
+dezmq-0.1.0a0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+dezmq-0.1.0a0.dist-info/METADATA,sha256=isU_q_LKfJDVM1E9a9Yre8sDlcs6XcM7S7RWGo24V68,1524
+dezmq-0.1.0a0.dist-info/RECORD,,
