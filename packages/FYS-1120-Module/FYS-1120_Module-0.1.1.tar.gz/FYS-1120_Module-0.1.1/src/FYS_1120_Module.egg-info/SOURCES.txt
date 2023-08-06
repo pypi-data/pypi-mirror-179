@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/FYS_1120_Module.egg-info/PKG-INFO
+src/FYS_1120_Module.egg-info/SOURCES.txt
+src/FYS_1120_Module.egg-info/dependency_links.txt
+src/FYS_1120_Module.egg-info/top_level.txt
+src/Oskar_Idland/ELMAG_Module.py
+src/Oskar_Idland/__init__.py
