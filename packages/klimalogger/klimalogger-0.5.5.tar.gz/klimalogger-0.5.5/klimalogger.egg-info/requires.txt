@@ -1,0 +1,4 @@
+influxdb
+injector
+lazy
+adafruit-circuitpython-busdevice
