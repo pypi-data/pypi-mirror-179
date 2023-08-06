@@ -1,0 +1,7 @@
+fastqlapi-0.2.1.dist-info/METADATA,sha256=GfFc01rdkslG4w0fmgxWF-yX0MapwChsT_MEVO1a_MU,1451
+fastqlapi-0.2.1.dist-info/WHEEL,sha256=VCgI3oAHpbER3at1pdnksPhkpDosdwB_Gq3l8AyvxhM,147
+fastqlapi/server.py,sha256=tKSZIYT4TVzufL13OlO8uB9BDiULFnUSrgHTLP0Uu8k,1450
+fastqlapi/__init__.py,sha256=9aQ588_1z-OrgIuBK-AGhomB5fvooZWCalzpZQlha1k,214
+fastqlapi/test_schema.py,sha256=7UcCcnl2RD_cOlPaQLFCS7oBDbZkaLWdZlefDXP6B80,553
+fastqlapi/fastqlapi.cpython-310-darwin.so,sha256=UyLfXJV7m2tXkH9rmUohe1Au3b6g24AnmPZOTzeM6ZY,20105148
+fastqlapi-0.2.1.dist-info/RECORD,,
