@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: speedport-api
+Version: 0.1.0
+Summary: Control Telekom Speedport routers with Python
+Home-page: https://github.com/Andre0512/speedport-api
+Author: Andre Basche
+License: MIT
+Platform: any
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+
