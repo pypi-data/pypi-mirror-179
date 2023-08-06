@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+py2Nut/__init__.py
+py2Nut/_lib.py
+py2Nut/nutDataframe.py
+py2nut.egg-info/PKG-INFO
+py2nut.egg-info/SOURCES.txt
+py2nut.egg-info/dependency_links.txt
+py2nut.egg-info/requires.txt
+py2nut.egg-info/top_level.txt
