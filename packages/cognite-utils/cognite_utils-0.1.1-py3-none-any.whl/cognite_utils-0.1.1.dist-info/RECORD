@@ -1,0 +1,10 @@
+cognite/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cognite/utils/_logging.py,sha256=-77h3UDKpEnQPha8eYFdunid0X8FaqN6-n8mh9ZFBDA,294
+cognite/utils/contextualization/__init__.py,sha256=zH2v0YJAI98-28Oag3aAZ78k1emg4I144Jx28j3BWLA,93
+cognite/utils/contextualization/_entity_match_categorizer.py,sha256=boTCPDjT2bmmNvUWd-1O8_Do-4bJBNeGNyXmBTGQtes,6241
+cognite/utils/infrastructure/__init__.py,sha256=l7MTlhCtiHVJgHaRgYFVSdYSLUlBSaebk6_KbcBgPrk,79
+cognite/utils/infrastructure/_cdf_project_archiver.py,sha256=xwiHpnrPpVUenZTKF67rQ1IAdITfl25RM3ssZfpsiG8,8316
+cognite_utils-0.1.1.dist-info/LICENSE,sha256=YYWU50BJytPD75iLZSEInaZ7UqI9RpJBjt-jc7URxt0,11340
+cognite_utils-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+cognite_utils-0.1.1.dist-info/METADATA,sha256=8sYaBZyza2NNmY9nOQ1WVisfg1TFz02Tv2t5nUIYGnw,3121
+cognite_utils-0.1.1.dist-info/RECORD,,
