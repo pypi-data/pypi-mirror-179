@@ -1,0 +1,85 @@
+@mixin inline {
+
+}
+
+#changelist.smart-logging {
+  width: 100%;
+  .sticky{
+    position: sticky;
+  }
+  .float-right{
+    float: right;
+  }
+
+  label, input[type=checkbox]{
+    cursor:pointer;
+  }
+  table, form{
+    width: 100%;
+  }
+  ul {
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      float: left;
+      display: inline;
+      list-style: none;
+      margin-right: 10px;    }
+  }
+  table.online{
+    tr{
+      &.new{
+        background-color: cornsilk;
+        color: black;
+      }
+      th{
+        text-align: center;
+      }
+      th.rownum, td.rownum{
+        width: 10px;
+      }
+      td.timestamp{
+        white-space: nowrap;
+        width: 140px;
+      }
+      th.timestamp{
+        width: 140px;
+      }
+      th.level{
+        width: 5%;
+      }
+      th.logger{
+        width: 10%;
+      }
+      th.message{
+        width: 95%;
+      }
+    }
+  }
+  table {
+    width: 100%;
+    tr{
+      &.changed{
+        border-left: 3px solid var(--link-fg);
+        border-right: 3px solid var(--link-fg);
+      }
+      td.undo{
+        cursor: pointer;
+      }
+    }
+  }
+  form {
+    input[name=logger] {
+      width: 400px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  //
+  //}
+  //
+
+
+}
+
