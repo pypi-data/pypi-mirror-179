@@ -1,0 +1,5 @@
+colorama~=0.4.3
+scapy~=2.4.5
+
+[dev]
+pylint>=2.15.0
