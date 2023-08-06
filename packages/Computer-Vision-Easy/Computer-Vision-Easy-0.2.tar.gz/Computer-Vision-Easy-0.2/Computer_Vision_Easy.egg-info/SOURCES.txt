@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Computer-Vision-Easy/FaceDetection.py
+Computer-Vision-Easy/Handtracker.py
+Computer-Vision-Easy/PoseDet.py
+Computer-Vision-Easy/Serialconn.py
+Computer_Vision_Easy.egg-info/PKG-INFO
+Computer_Vision_Easy.egg-info/SOURCES.txt
+Computer_Vision_Easy.egg-info/dependency_links.txt
+Computer_Vision_Easy.egg-info/requires.txt
+Computer_Vision_Easy.egg-info/top_level.txt
