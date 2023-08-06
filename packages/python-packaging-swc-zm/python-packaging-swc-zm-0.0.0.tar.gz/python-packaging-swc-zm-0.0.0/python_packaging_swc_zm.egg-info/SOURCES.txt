@@ -1,0 +1,11 @@
+LICENSE.yaml
+MANIFEST.in
+README.md
+pyproject.toml
+python_packaging_swc_zm/__init__.py
+python_packaging_swc_zm/math.py
+python_packaging_swc_zm.egg-info/PKG-INFO
+python_packaging_swc_zm.egg-info/SOURCES.txt
+python_packaging_swc_zm.egg-info/dependency_links.txt
+python_packaging_swc_zm.egg-info/requires.txt
+python_packaging_swc_zm.egg-info/top_level.txt
