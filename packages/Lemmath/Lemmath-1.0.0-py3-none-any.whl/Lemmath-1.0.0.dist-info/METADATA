@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Lemmath
+Version: 1.0.0
+Summary: Un pedazo paquete para matemática
+Home-page: https://lemmgua.dev
+Author: Lemmgua
+Author-email: lemmgua@gmail.com
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+#Lemmath
+
+Paquete para realizar operaciones matematicas increibles
