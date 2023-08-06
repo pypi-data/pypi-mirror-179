@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/extend_inplace/__init__.py
+src/extend_inplace/main.py
+src/extend_inplace/py.typed
+src/extend_inplace.egg-info/PKG-INFO
+src/extend_inplace.egg-info/SOURCES.txt
+src/extend_inplace.egg-info/dependency_links.txt
+src/extend_inplace.egg-info/not-zip-safe
+src/extend_inplace.egg-info/requires.txt
+src/extend_inplace.egg-info/top_level.txt
