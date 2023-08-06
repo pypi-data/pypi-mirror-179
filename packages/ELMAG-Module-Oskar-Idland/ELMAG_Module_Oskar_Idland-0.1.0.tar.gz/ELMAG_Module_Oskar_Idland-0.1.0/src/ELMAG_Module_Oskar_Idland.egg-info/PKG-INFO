@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ELMAG-Module-Oskar-Idland
+Version: 0.1.0
+Summary: Package for calculating fields in the FYS-1120 Course 
+Author-email: Oskar Idland <oskaridland@hotmail.com>
+Project-URL: Homepage, https://github.com/Oskar-Idland/FYS-1120/tree/main/ELMAG_Module
+Project-URL: Bug Tracker, https://github.com/Oskar-Idland/FYS-1120/tree/main/ELMAG_Module
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This package is made to be used in the calculations and plotting of electromagnetic fields and potentials. 
+[Github-flavored Markdown](https://github.com/Oskar-Idland/FYS-1120/tree/main/ELMAG_Module)
