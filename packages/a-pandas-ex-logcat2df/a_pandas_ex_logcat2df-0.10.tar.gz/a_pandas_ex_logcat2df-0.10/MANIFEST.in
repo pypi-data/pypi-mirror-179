@@ -1,0 +1,4 @@
+include a_pandas_ex_logcat2df/requirements.txt
+include a_pandas_ex_logcat2df/thirdparty.json
+include a_pandas_ex_logcat2df/README.MD
+include a_pandas_ex_logcat2df/LICENSE
