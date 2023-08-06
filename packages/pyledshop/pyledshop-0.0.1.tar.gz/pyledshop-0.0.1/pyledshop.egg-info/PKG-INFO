@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyledshop
+Version: 0.0.1
+Summary: A Python library to communicate with LED Shop compatible led strip controllers
+Home-page: https://github.com/blockarchitech/pyledshop
+Author: blockarchitech
+License: MIT
+Keywords: led shop,led strip,light,SP108E
+Classifier: Development Status :: 4 - Beta
+License-File: LICENSE
