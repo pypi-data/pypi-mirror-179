@@ -1,0 +1,12 @@
+node.ext.zodb-1.6-nspkg.pth,sha256=pxdpyNuhNcjU-Q29nqcnNrSi8_bXTB9R8mmVN4Vu3o0,1654
+node/ext/zodb/__init__.py,sha256=4JxCPbSRK-6htAgtHeNAEto2QZfOd1QNWT0iHUU7txE,1535
+node/ext/zodb/behaviors.py,sha256=_czz4uaeEK1b2qHXCnHdKkuqTKTM1-ZwyGMOgKrqOfM,2947
+node/ext/zodb/interfaces.py,sha256=JMAaKfniGEKtm_7pRe4PK3awqtPiNlif0pX8DFhT56k,93
+node/ext/zodb/tests.py,sha256=V6mB6CmdrYQ3e_-6A5pEfSopWHgzk_ZluDIzhErKmdg,24836
+node/ext/zodb/utils.py,sha256=lhocjM9D1bs8inPBCldMUex5HZXhShyGI3ECHZDtR7k,6073
+node.ext.zodb-1.6.dist-info/LICENSE.rst,sha256=DYfZ6u_cF-L85SbCFLdnXq49vGYXajSbvMua954K4Pk,1400
+node.ext.zodb-1.6.dist-info/METADATA,sha256=7mfZSyw_ZfsFgyXPM1qar-_GfykKOauZjTbeTMvZKXo,6077
+node.ext.zodb-1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+node.ext.zodb-1.6.dist-info/namespace_packages.txt,sha256=uhxsfV4otbiU8wWTd9fCwrpB5uZeLpNnCVctg9p35uY,14
+node.ext.zodb-1.6.dist-info/top_level.txt,sha256=OJtG8ERXOPa1F97xZcPkkO-i64glxpW4rIIhVl545Po,5
+node.ext.zodb-1.6.dist-info/RECORD,,
