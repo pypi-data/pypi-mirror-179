@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/dnattend/__init__.py
+src/dnattend/cli.py
+src/dnattend/main.py
+src/dnattend/simulate.py
+src/dnattend/test.py
+src/dnattend/train.py
+src/dnattend/utils.py
+src/dnattend.egg-info/PKG-INFO
+src/dnattend.egg-info/SOURCES.txt
+src/dnattend.egg-info/dependency_links.txt
+src/dnattend.egg-info/entry_points.txt
+src/dnattend.egg-info/requires.txt
+src/dnattend.egg-info/top_level.txt
