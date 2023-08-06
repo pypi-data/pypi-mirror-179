@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: parse-m4
+Version: 0.0.1
+Summary: Parser for M4
+Home-page: https://github.cm/jelmer/m4
+Maintainer: Jelmer Vernooij
+Maintainer-email: jelmer@jelmer.uk
+License: Apachev2 or later
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.8
+License-File: LICENSE
+
+This is a mostly-compatible implementation of M4 in Python. My intent is to write a parser capable of parsing Mozilla's configure.in file with an eye towards converting it away from autoconf.

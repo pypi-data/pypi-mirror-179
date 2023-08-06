@@ -1,0 +1,12 @@
+define(foo,bar)
+foo foo
+foofoo
+foo`foo'foo
+define(bar,xyz)
+foo foo
+foofoo
+foo`foo'foo
+define(abc, 123)
+abc abc
+define( zzz, xxx )
+zzz zzz
