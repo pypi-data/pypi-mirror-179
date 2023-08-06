@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jaxserve
+Version: 0.0.1.dev0
+Summary: Pretty self-explanatory lol
+Project-URL: Documentation, https://alvarobartt.github.io/jaxserve
+Project-URL: Issues, https://github.com/alvarobartt/jaxserve/issues
+Project-URL: Source, https://github.com/alvarobartt/jaxserve
+Author: Alvaro Bartolome
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# 📫 `jaxserve`
