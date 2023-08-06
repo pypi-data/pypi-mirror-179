@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: talkweb
+Version: 1.3
+Summary: A html to object framework
+Home-page: https://www.github.com/madhukumarseshadri/talkweb3
+Author: Madhukumar Seshadri
+Author-email: madhukumarseshadri@gmail.com
+License: MIT License
+Description: ## Talkweb
+        
+        Assemble pages.
+        
+        Talkweb makes a Object tree of html and allows addition, insertion and deletion to the tree like DOM.  
+        
+        ```python
+        from talkweb import *
+        roots = h2o(htmlfile)
+        #assuming htmlfile has &lt;!Doctype html&gt;&lt;html&gt;&lt;div id="x"&gt;&lt;/div&gt;&lt;/html&gt;
+        
+        #cell is a node
+        roots[1].findcellbyid("x") 
+        widget = h2o(widgethtmlfile)
+        roots[1].addcell(widget)
+        
+        html=''
+        for root in roots:
+            html += root.html()
+        print(html)
+        ```
+        
+        Like it, then you will like to develop with talkweb. If not, leave you to templates and it's rules.
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Description-Content-Type: text/markdown
