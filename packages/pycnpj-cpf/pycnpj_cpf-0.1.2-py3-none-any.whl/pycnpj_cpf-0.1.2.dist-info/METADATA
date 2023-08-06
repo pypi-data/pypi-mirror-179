@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pycnpj-cpf
+Version: 0.1.2
+Summary: CNPJ and CPF validator
+Home-page: https://github.com/carlos-moreno/pycnpj-cpf
+Author: Carlos Moreno
+Author-email: omorenodovale@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: rich-click
+Provides-Extra: dev
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: ipython (>=8.5.0) ; extra == 'dev'
+Requires-Dist: pudb ; extra == 'dev'
+Requires-Dist: pytest-watch ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pyproject-flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-forked ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pyproject-flake8 ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+
+# Python CNPJ/CPF
+
+Python CNPJ/CPF is a library created to validate the entered value, indicating whether it is a valid CNPJ or CPF.
+
+## Installation
+
+```py
+pip install pycnpj-cpf
+```
+
+
+## Usage in CLI mode
+
+```py
+#verify CNPJ
+pycnpj-cpf validate --value="37.538.534/0001-86"
+
+#verify CPF
+pycnpj-cpf validate --value="237.491.140-30"
+```
+
+## Usage in Python file
+
+```py
+>>> from pycnpj_cpf.core import cnpj_or_cpf_is_valid
+>>> 
+>>> cnpj_or_cpf_is_valid("31.851.707/0001-35")
+True
+>>> 
+>>> cnpj_or_cpf_is_valid("31.851.707/0001-40")
+False
+>>> 
+>>> cnpj_or_cpf_is_valid("37538026000106")
+True
+>>> 
+>>> cnpj_or_cpf_is_valid("37538036000106")
+False
+>>>
+```
