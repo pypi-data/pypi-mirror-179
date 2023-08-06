@@ -1,0 +1,14 @@
+boto3==1.26.21
+singer-encodings==0.0.*
+pipelinewise-singer-python==1.*
+voluptuous==0.13.1
+ujson==5.4.0
+more_itertools==8.12.*
+
+[dev]
+ipdb==0.13.9
+
+[test]
+pytest==7.1.*
+pylint==2.12.*
+pytest-cov==3.0.*
