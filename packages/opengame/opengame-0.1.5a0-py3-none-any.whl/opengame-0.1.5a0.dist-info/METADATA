@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: opengame
+Version: 0.1.5a0
+Author: stripe-python
+Author-email: stripe-python@139.com
+Maintainer: stripe-python
+Maintainer-email: stripe-python@139.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pygame (~=2.1.2)
+Requires-Dist: requests (~=2.28.1)
+Requires-Dist: PyExecJS (~=1.5.1)
+Requires-Dist: opencv-python (~=3.4.11.45)
+Provides-Extra: glwindow
+Requires-Dist: PyOpenGL ; extra == 'glwindow'
+Provides-Extra: record
+Requires-Dist: pyaudio ; extra == 'record'
+Provides-Extra: windows
+Requires-Dist: pypiwin32 ; extra == 'windows'
+Requires-Dist: pythonnet ; extra == 'windows'
+
