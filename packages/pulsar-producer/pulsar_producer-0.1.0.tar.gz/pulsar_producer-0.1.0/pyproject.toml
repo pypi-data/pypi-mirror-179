@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pulsar-producer"
+version = "0.1.0"
+description = "CLI that help developers to publish messages into any pulsar topic in order to test features (usually, consumers) that relies on a pulsar consumer"
+authors = ["Luiz Filipe <you@example.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/vandaimer/pulsar-producer"
+keywords = ["apache-pulsar", "producer", "python"]
+packages = [{include = "pulsar_producer"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pulsar-client = "^2.10.2"
+typer = "^0.7.0"
+
+[tool.poetry.scripts]
+pulsar-producer = 'pulsar_producer.cli:start'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
