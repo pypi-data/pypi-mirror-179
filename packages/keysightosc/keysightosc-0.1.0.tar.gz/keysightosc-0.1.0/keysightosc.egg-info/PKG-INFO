@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: keysightosc
+Version: 0.1.0
+Summary: Interface for Keysight Oscilloscopes.
+Home-page: https://emt.uni-paderborn.de/
+Author: Leander Claes
+Author-email: claes@emt.uni-paderborn.de
+License: BSD
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+*********************
+Keysight Oscilloscope
+*********************
+
+Interface for Keysight Oscilloscopes.
+
+
+Features
+========
+
+* Basic support for model DSOX1102A
+
+
+Installation
+============
+
+To install the Keysight Oscilloscope Interface, run this command in your terminal::
+
+   $ pip install keysightosc
+
+Note that usage in Windows will require the `IO Libraries Suite`_ by Keysight.
+
+
+
+Usage
+=====
+
+To use Keysight Oscilloscope in a project::
+
+   from keysightosc import Oscilloscope
+
+   osc = Oscilloscope()
+   # Get signal data from first channel
+   data = osc.get_signal('CHAN1')
+
+
+.. _IO Libraries Suite: https://www.keysight.com/us/en/lib/software-detail/computer-software/io-libraries-suite-downloads-2175637.html
+
+
+*********
+Changelog
+*********
+
+This project follows the guidelines of `Keep a changelog`_ and adheres to
+`Semantic versioning`_.
+
+.. _Keep a changelog: http://keepachangelog.com/
+.. _Semantic versioning: https://semver.org/
+
+
+`0.1.0`_ - 2022-12-01
+=====================
+
+Added
+-----
+* First preview release.
+
+
+.. _Unreleased: https://github.com/emtpb/keysightosc
+.. _0.1.0: https://github.com/emtpb/keysightosc/releases/tag/0.1.0
