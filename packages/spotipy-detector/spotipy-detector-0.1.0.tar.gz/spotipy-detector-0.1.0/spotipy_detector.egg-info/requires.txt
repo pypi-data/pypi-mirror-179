@@ -1,0 +1,14 @@
+numpy
+scipy
+tqdm
+tifffile
+imageio
+scikit-image
+csbdeep
+stardist
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-mock
