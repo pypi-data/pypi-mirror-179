@@ -1,0 +1,11 @@
+fore_cloudreach/__init__.py,sha256=RGEM3qj3K7cftmXzKv7pTw1HkmHYuPKZyBVxN3-iDxk,207
+fore_cloudreach/auth.py,sha256=LJRndaxQx4TnPqIQVIhj6g0lDyaUa4nTeZDFs4xmtrE,2495
+fore_cloudreach/errors.py,sha256=WTpvRMcJiVRrQPDvZMtJA5ZGll2hGLCrlynOfA3jovw,472
+fore_cloudreach/ingester.py,sha256=aMeNGxC3GJ0VZquu6vwQpQYDXXf0UU34XqCironkwVs,7600
+fore_cloudreach/rereader.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fore_cloudreach/template.py,sha256=jSWmZhUEVrl6JB74nu2-0LcgO0wkT9A50nfW5awfhvg,9741
+fore_cloudreach-0.0.1.dev8.dist-info/LICENSE,sha256=M8jqB5lyL4ewSItBYICbl43lJvNhVY8tENlpilLvnA4,50
+fore_cloudreach-0.0.1.dev8.dist-info/METADATA,sha256=ncJ1KGgfQSo7OkrkrmgRNUBEVyKfUFkrdWZMPgKrZyY,2641
+fore_cloudreach-0.0.1.dev8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fore_cloudreach-0.0.1.dev8.dist-info/top_level.txt,sha256=z9hjtFhsAM8tsRBsVm7dNDm5QJqRnu-yWfA8y6zspHQ,16
+fore_cloudreach-0.0.1.dev8.dist-info/RECORD,,
