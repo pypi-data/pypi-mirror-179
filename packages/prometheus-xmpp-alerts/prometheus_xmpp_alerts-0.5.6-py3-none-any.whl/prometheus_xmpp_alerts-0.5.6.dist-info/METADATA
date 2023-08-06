@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: prometheus-xmpp-alerts
+Version: 0.5.6
+Summary: Prometheus XMPP Alerts hook
+Home-page: https://jelmer.uk/code/prometheus-xmpp-alerts
+Author: Jelmer Vernooij
+Author-email: jelmer@jelmer.uk
+License: Apachev2
+Project-URL: Bug Tracker, https://github.com/jelmer/prometheus-xmpp-alerts/issues
+Project-URL: Repository, https://github.com/jelmer/prometheus-xmpp-alerts
+Project-URL: GitHub, https://github.com/jelmer/prometheus-xmpp-alerts
+Keywords: prometheus xmpp jabber
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Version Control
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: aiohttp-openmetrics
+Requires-Dist: bs4
+Requires-Dist: jinja2
+Requires-Dist: pytz
+Requires-Dist: pyyaml
+Requires-Dist: slixmpp
+
