@@ -1,0 +1,7 @@
+bentoml_plugins/arize/__init__.py,sha256=mY5rxJ_TYP3RyyK12ODgMu3Mlfx9_cPWw9azPq8uxxY,15375
+bentoml_plugins/arize/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bentoml_plugins/arize/version.py,sha256=h7o-4wIOMvEW6hSPYsfrgQrzJjyIxZu4EBaw7G-_RVA,87
+bentoml_plugins_arize-0.1.0.dist-info/METADATA,sha256=x_v7Q_s6xJwp6lL8tAO6FAWRxB5WoBJWFhiVq1uW8G8,2780
+bentoml_plugins_arize-0.1.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+bentoml_plugins_arize-0.1.0.dist-info/licenses/LICENSE,sha256=w9h0WHlUMSZCx3dy_20ooEVcBfjoZU1TGXtIwnvM8Eg,11347
+bentoml_plugins_arize-0.1.0.dist-info/RECORD,,
