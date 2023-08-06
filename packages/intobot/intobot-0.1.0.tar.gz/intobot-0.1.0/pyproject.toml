@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "intobot"
+version = "0.1.0"
+description = "A tool to make every script into a VK bot. Better than `every_script_is_a_vk_bot`, because `intobot` can serve multiple users simultaneously."
+authors = ["megahomyak <g.megahomyak@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+vkbottle = "^4.3.12"
+loguru = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
