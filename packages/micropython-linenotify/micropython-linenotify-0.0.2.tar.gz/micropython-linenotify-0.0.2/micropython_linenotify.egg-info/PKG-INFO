@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: micropython-linenotify
+Version: 0.0.2
+Summary: Line Notify with MicroPython on ESP32/ESP8266 
+Home-page: https://github.com/PerfecXX/micropython-linenotify
+Author: Teeraphat Kullanankanjana
+Author-email: ku.teeraphat@hotmail.com
+Maintainer: Teeraphat Kullanankanjana
+Maintainer-email: ku.teeraphat@hotmail.com
+License: MIT
+Keywords: linenotify,esp32,esp8266,micropython
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE.txt
+
+Line Notify with MicroPython on ESP32/ESP8266 
+
