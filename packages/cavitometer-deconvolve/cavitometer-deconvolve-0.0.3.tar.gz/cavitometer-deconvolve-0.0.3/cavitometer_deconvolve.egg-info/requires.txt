@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pandas
+pyfftw
+pytest
+PyQT5
+fbs

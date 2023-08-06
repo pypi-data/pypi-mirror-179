@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cavitometer-deconvolve
+Version: 0.0.3
+Summary: Hydrophone voltage to pressure conversion
+Home-page: https://github.com/blebon/cavitometer-deconvolve
+Author: Bruno Lebon
+Author-email: Bruno Lebon <Bruno.Lebon@brunel.ac.uk>
+Project-URL: Homepage, https://github.com/blebon/cavitometer-deconvolve
+Project-URL: Bug Tracker, https://github.com/blebon/cavitometer-deconvolve/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cavitometer Deconvolve
+
+<!-- badges: start -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3976852.svg)](https://doi.org/10.5281/zenodo.3976852)
+[![docs](https://img.shields.io/readthedocs/d?color=green)](https://blebon.com/cavitometer-deconvolve)
+<!-- badges: end -->
+
+Cavitometer Deconvolve is a small library that converts hydrophone voltages into pressures using frequency dependent
+sensitivity values. The library also supports voltage corrections due to pre-amplifiers.
+
+## Installation
+```bash
+pip install cavitometer-deconvolve
+```
+
+## Usage
+See [the documentation example page](https://blebon.com/cavitometer-deconvolve/examples.html) 
+for usage examples.
