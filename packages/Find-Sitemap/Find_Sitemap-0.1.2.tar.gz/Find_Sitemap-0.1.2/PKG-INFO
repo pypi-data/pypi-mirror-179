@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Find_Sitemap
+Version: 0.1.2
+Summary: A set of data tools in Python
+Home-page: https://www.maxlist.xyz/
+Download-URL: https://pypi.org/project/Finde-sitemap/
+Author: HsuanChi Su
+Author-email: a0025071@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Github Actions](https://github.com/hsuanchi/Find-Sitemaps/actions/workflows/python-check.yaml/badge.svg)](https://github.com/hsuanchi/Find-Sitemaps/wayback-machine-saver/actions/workflows/python-check.yaml)
+
+
+# Find-Sitemaps
+
+Short Descirption for Python Project
+
+## Getting Started
+
+### Prerequisites
+* [Python](https://www.python.org/downloads/)
+
+## Usage
+
+
+## Contributing
+See [Contributing](contributing.md)
+
+## Authors
+Max <a0025071@gmail.com>
