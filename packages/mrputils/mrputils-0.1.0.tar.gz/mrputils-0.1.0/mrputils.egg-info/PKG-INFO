@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mrputils
+Version: 0.1.0
+Summary: This is a util module to help with movie revenue prediction
+Home-page: https://github.com/scienclick/pde_cap_mrp_zagros/tree/main/mrputils
+Author: Amir Shamsa
+Author-email: amirshamsa@gmail.com
+License: Apache License 2.0
+Description: # This is a util module to help with movie revenue prediction
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
