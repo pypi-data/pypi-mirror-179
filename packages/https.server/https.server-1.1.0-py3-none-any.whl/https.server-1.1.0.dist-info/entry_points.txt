@@ -1,0 +1,2 @@
+[console_scripts]
+https.server = https.server:main
