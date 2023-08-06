@@ -1,0 +1,11 @@
+bidimensional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidimensional/circumcircle.py,sha256=lYXxEMdDeaGJGWbJlbszSobmPROctU-_EUndyug8x9k,8083
+bidimensional/coordinates.py,sha256=FRnZCn3myZAMEgBpAPwAQSMPds2WiP1prWkOEgugXp8,8537
+bidimensional/operations.py,sha256=QNEVPQIhBa2QUvWexo-whfgmrQqYN58QAs7Mt6r5UPA,2685
+bidimensional/polygons/__init__.py,sha256=gShqYWtnxG54Y85boKoCq4hAFE8Gxt02oYm4x5HWRVk,31
+bidimensional/polygons/triangle.py,sha256=ZwRKRpoMtF_9mh_jIlXiuADI-ot5GSJX5uUgFApY6W8,11308
+bidimensional-1.6.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+bidimensional-1.6.5.dist-info/METADATA,sha256=wD1aWEXt38zf6-vzWP9PsUg6XjqR-Nj1KwQkdmrVn98,1516
+bidimensional-1.6.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bidimensional-1.6.5.dist-info/top_level.txt,sha256=LDmM68Fu6zu8EQOH2kjffLbY1gFq9d8oOmeaKK1iBho,14
+bidimensional-1.6.5.dist-info/RECORD,,
