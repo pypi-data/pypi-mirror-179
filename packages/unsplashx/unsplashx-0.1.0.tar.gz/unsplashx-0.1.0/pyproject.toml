@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "unsplashx"
+version = "0.1.0"
+description = "Unsplash eXplorer for Humans"
+authors = ["Yi Zhang <yizhang.dev@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+homepage = "https://pypi.org/project/unsplashx"
+repository = "https://github.com/imyizhang/unsplashx"
+documentation = "https://github.com/imyizhang/unsplashx#documentation"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
