@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Program Structure &mdash; Stylist 0.3.dev1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Create a Development Environment" href="environment.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Stylist
+            <img src="../_static/stylist.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.3.dev1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user-manual/index.html">User Manual</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Developer Information</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html">API Documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="environment.html">Create a Development Environment</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Program Structure</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rules">Rules</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#writing-a-new-text-rule">Writing a New Text Rule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#writing-a-fortran-rule">Writing a Fortran Rule</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#documenting-the-rule">Documenting the Rule</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#styles">Styles</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="todo.html">Collected To-do items</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Stylist</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Developer Information</a> &raquo;</li>
+      <li>Program Structure</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/developer-information/structure.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="program-structure">
+<h1>Program Structure<a class="headerlink" href="#program-structure" title="Permalink to this headline"></a></h1>
+<p>There are two concepts important to Stylist’s function: Rules and Styles.</p>
+<p>A rule is a single check which may be made against a piece of source code.
+e.g. Has the implicit keyword been specified in all appropriate places?</p>
+<p>A style, on the other hand, is a set of rules of interest to a particular
+group of developers. For instance the LFRic style includes the “missing
+implicit” rule and the “trailing white space rule.”</p>
+<section id="rules">
+<h2>Rules<a class="headerlink" href="#rules" title="Permalink to this headline"></a></h2>
+<p>The abstract base of all rules is <a class="reference internal" href="api/stylist.rule.html#stylist.rule.Rule" title="stylist.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.rule.Rule</span></code></a>. Classes
+derived  from this implement an <a class="reference internal" href="api/stylist.rule.html#stylist.rule.Rule.examine" title="stylist.rule.Rule.examine"><code class="xref py py-func docutils literal notranslate"><span class="pre">stylist.rule.Rule.examine()</span></code></a> method
+which is passed a <a class="reference internal" href="api/stylist.source.html#stylist.source.SourceText" title="stylist.source.SourceText"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.source.SourceText</span></code></a> object. This allows
+the source to be treated as a plain text file.</p>
+<p>Rules relating to Fortran source may be found in the
+<a class="reference internal" href="api/stylist.fortran.html#module-stylist.fortran" title="stylist.fortran"><code class="xref py py-mod docutils literal notranslate"><span class="pre">stylist.fortran</span></code></a> module. An abstract
+<a class="reference internal" href="api/stylist.fortran.html#stylist.fortran.FortranRule" title="stylist.fortran.FortranRule"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.fortran.FortranRule</span></code></a> is provided which requires an
+<a class="reference internal" href="api/stylist.fortran.html#stylist.fortran.FortranRule.examine_fortran" title="stylist.fortran.FortranRule.examine_fortran"><code class="xref py py-meth docutils literal notranslate"><span class="pre">stylist.fortran.FortranRule.examine_fortran()</span></code></a> method which is
+passed a <a class="reference internal" href="api/stylist.source.html#stylist.source.FortranSource" title="stylist.source.FortranSource"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.source.FortranSource</span></code></a> object. Thus the rule may
+examine the Fortran parse tree.</p>
+<section id="writing-a-new-text-rule">
+<h3>Writing a New Text Rule<a class="headerlink" href="#writing-a-new-text-rule" title="Permalink to this headline"></a></h3>
+<p>Just sub-class <a class="reference internal" href="api/stylist.rule.html#stylist.rule.Rule" title="stylist.rule.Rule"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.rule.Rule</span></code></a> and implement the
+<a class="reference internal" href="api/stylist.rule.html#stylist.rule.Rule.examine" title="stylist.rule.Rule.examine"><code class="xref py py-meth docutils literal notranslate"><span class="pre">stylist.rule.Rule.examine()</span></code></a> method. Use the
+<a class="reference internal" href="api/stylist.source.html#stylist.source.SourceText.get_text" title="stylist.source.SourceText.get_text"><code class="xref py py-meth docutils literal notranslate"><span class="pre">stylist.source.SourceText.get_text()</span></code></a> method on the passed
+<a class="reference internal" href="api/stylist.source.html#stylist.source.SourceText" title="stylist.source.SourceText"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.source.SourceText</span></code></a> object to obtain the text of the source
+file.</p>
+<p>The “trailing white space” rule gives an example of using RegEx on the source
+text. Meanwhile the “Fortran characterset” rule shows a more elaborate text
+rule which implements a state-machine to test validity.</p>
+</section>
+<section id="writing-a-fortran-rule">
+<h3>Writing a Fortran Rule<a class="headerlink" href="#writing-a-fortran-rule" title="Permalink to this headline"></a></h3>
+<p>An abstract <code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.rule.FortranRule</span></code> is provided, any new rule
+should inherit from this and implement the
+<code class="xref py py-meth docutils literal notranslate"><span class="pre">stlist.rule.FortranRule.examine_fortran()</span></code> method. Use the
+<a class="reference internal" href="api/stylist.source.html#stylist.source.FortranSource.get_tree" title="stylist.source.FortranSource.get_tree"><code class="xref py py-meth docutils literal notranslate"><span class="pre">stylist.source.FortranSource.get_tree()</span></code></a> method to obtain an fparser2
+parse tree.</p>
+<p>The <a class="reference internal" href="api/stylist.source.html#stylist.source.FortranSource" title="stylist.source.FortranSource"><code class="xref py py-class docutils literal notranslate"><span class="pre">stylist.source.FortranSource</span></code></a> class also provides some methods
+for traversing the parse tree. It is expected that this functionality will
+eventually become available through fparser2 and so will be removed from
+stylist.</p>
+</section>
+<section id="documenting-the-rule">
+<h3>Documenting the Rule<a class="headerlink" href="#documenting-the-rule" title="Permalink to this headline"></a></h3>
+<p>Don’t forget to add your new rule to the user documentation. This is a
+slightly clunky process involving adding some boilerplate to
+<cite>documentation/source/user-manual/rule-list.rst</cite>.</p>
+</section>
+</section>
+<section id="styles">
+<h2>Styles<a class="headerlink" href="#styles" title="Permalink to this headline"></a></h2>
+<p>Styles are defined in stylist/style.py and derive from the abstract Style class. They tend to contain only a constructor which defines a list of rules and passes it up to their parent.
+Extending an Existing Style</p>
+<p>Just add an instance of the rule you want to add to the appropriate list. You may need to import the module it lives in, or not if it is already there.</p>
+<p>For instance:</p>
+<blockquote>
+<div><dl>
+<dt>class LFRicStyle(Style):</dt><dd><p>‘’’
+LFRic project’s list of rules.
+‘’’
+def __init__(self):</p>
+<blockquote>
+<div><dl class="simple">
+<dt>rules = [stylist.fortran.FortranCharacterset(),</dt><dd><p>stylist.rule.TrailingWhitespace(),</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd>
+</dl>
+</div></blockquote>
+<ul class="simple">
+<li><p>stylist.fortran.MissingImplicit(‘none’)</p></li>
+</ul>
+<ul class="simple">
+<li><p>stylist.fortran.MissingImplicit(‘none’),</p></li>
+<li><p>stylist.fortran.MissingOnly(ignore=[‘pfunit_mod’, ‘xios’])]</p></li>
+</ul>
+<blockquote>
+<div><p>super(LFRicStyle, self).__init__(rules)</p>
+</div></blockquote>
+<p>Adding a New Style</p>
+<p>As intimated above, this a simple matter of creating a new class inheriting from the Style parent.</p>
+<dl>
+<dt>class SpecialStyle(Style):</dt><dd><p>‘’’
+LFRic project’s list of rules.
+‘’’
+def __init__(self):</p>
+<blockquote>
+<div><dl class="simple">
+<dt>rules = [stylist.fortran.FortranCharacterset(),</dt><dd><p>stylist.rule.TrailingWhitespace(),
+stylist.fortran.MissingImplicit(‘none’)]</p>
+</dd>
+</dl>
+<p>super(SpecialStyle, self).__init__(rules)</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>With that in place function process(…) in __main__.py needs to be updated. The new style can either replace LFRicStyle or be run in addition.</p>
+<blockquote>
+<div><dl>
+<dt>def process(candidates: List[str]) -&gt; List[Issue]:</dt><dd><p>‘’’
+Examines files for style compliance.</p>
+<p>Any directories specified will be descended looking for files to examine.
+‘’’</p>
+</dd>
+</dl>
+</div></blockquote>
+<ul class="simple">
+<li><p>styles = [LFRicStyle()]</p></li>
+</ul>
+<ul class="simple">
+<li><p>styles = [LFRicStyle(), SpecialStyle()]
+…</p></li>
+</ul>
+<p>Future Work</p>
+<p>Obviously having the styles hardcoded like this is not desirable. It is okay for initial development, to get things going, but eventually we would want to move to a more flexible approach.</p>
+<p>Tickets #8, #13 and #14 cover this work.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="environment.html" class="btn btn-neutral float-left" title="Create a Development Environment" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Crown Copyright.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
