@@ -1,0 +1,13 @@
+
+[devel]
+pytest
+coverage
+tox
+pylint
+flake8
+rstcheck
+flake8-black
+autoflake
+autopep8
+setuptools_scm
+build
