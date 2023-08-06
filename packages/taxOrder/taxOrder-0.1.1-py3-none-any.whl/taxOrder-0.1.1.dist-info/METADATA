@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: taxOrder
+Version: 0.1.1
+Summary: Returns list of species in a phylogenetic tree ordered by increasing taxonomic distance to a reference species
+Author: Felix Langschied
+Author-email: langschied@bio.uni-frankfurt.de
+License: GPL-3.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+License-File: LICENSE
+Requires-Dist: ete3
+Requires-Dist: six
+Requires-Dist: numpy
+
