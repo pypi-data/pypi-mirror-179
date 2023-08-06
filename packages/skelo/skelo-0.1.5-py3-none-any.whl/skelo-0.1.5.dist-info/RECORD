@@ -1,0 +1,16 @@
+skelo/__init__.py,sha256=E9UPK9NMaWvZSY8E2Zww324cGa8r3FUllgK0JjHv8kM,1143
+skelo/model/__init__.py,sha256=Gz43VazBbibGMTuZYsWt4pI94mDR_vZjJJy3-D5ZccA,1138
+skelo/model/base.py,sha256=kTAdNSzcHPLTeCBbG-DfPEEs-suRqzs8nBfk2lmU93U,22075
+skelo/model/elo.py,sha256=HM39skb9ME4C715YC-_5j2Sr79o_aKD-d3EGUPZU_g0,3934
+skelo/model/glicko2.py,sha256=Fc_uWhxrE3o4O2rh4ml4E4UButukbE6kVrZMu5XHWdQ,4225
+skelo/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skelo/utils/elo_data.py,sha256=soyf13H5HvT0bes-qXmn5c62phbmthfe0PEoCSfE2lc,4121
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/skelo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/skelo/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/skelo/model/test_elo.py,sha256=RSmF1cp8D3WgpreNY6aAh2jgmAomHn_k4LLUXPVWaqg,9351
+skelo-0.1.5.dist-info/LICENSE,sha256=Yp0fouMijZD1j7m5HoVDx1yUsVT3OZHQMq55Vf9fwQU,52
+skelo-0.1.5.dist-info/METADATA,sha256=Wrn_r2XygHBZaAhQcTQPUwNdCSaizwF0vWc_89rAGBU,22164
+skelo-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+skelo-0.1.5.dist-info/top_level.txt,sha256=ynqwb4NTE9zI-7cwFtmCIBaMV_W07rIw6V_WMAUQk7I,12
+skelo-0.1.5.dist-info/RECORD,,
