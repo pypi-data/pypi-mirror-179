@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+stimwrap/__init__.py
+stimwrap/_stimwrap.py
+stimwrap.egg-info/PKG-INFO
+stimwrap.egg-info/SOURCES.txt
+stimwrap.egg-info/dependency_links.txt
+stimwrap.egg-info/not-zip-safe
+stimwrap.egg-info/top_level.txt
