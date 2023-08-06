@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pyadvdocx/__init__.py
+pyadvdocx/__main__.py
+pyadvdocx/text.py
+pyadvdocx.egg-info/PKG-INFO
+pyadvdocx.egg-info/SOURCES.txt
+pyadvdocx.egg-info/dependency_links.txt
+pyadvdocx.egg-info/entry_points.txt
+pyadvdocx.egg-info/requires.txt
+pyadvdocx.egg-info/top_level.txt
+test/test_text.py
