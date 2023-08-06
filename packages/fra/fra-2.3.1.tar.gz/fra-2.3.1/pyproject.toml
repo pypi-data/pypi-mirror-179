@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "fra"
+version = "2.3.1"
+description = "Simple Recommendation System, content based."
+authors = ["Eliecer Daza"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/elin3t/fra"
+packages = [
+    { include = "server"},
+    { include = "migrations"},
+    { include = "motor"},
+    { include = "organizations"},
+]
+include = [
+    { path = "docs"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.0"
+flask-rebar = "^2.2.1"
+Flask-Migrate = "^3.1.0"
+psycopg2 = "^2.9.5"
+redis = "^4.3.4"
+celery = "^5.2.7"
+Flask-CeleryExt = "^0.4.3"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+black = "^22.10.0"
+flake8 = "^5.0.4"
+mypy = "^0.982"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
