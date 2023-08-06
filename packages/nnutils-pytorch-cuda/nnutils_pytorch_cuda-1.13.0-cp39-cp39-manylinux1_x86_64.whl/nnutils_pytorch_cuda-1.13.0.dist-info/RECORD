@@ -1,0 +1,10 @@
+nnutils_pytorch/_C.cpython-39-x86_64-linux-gnu.so,sha256=ly-KiDfXHtnf2epj_Ij5QCAP0xYJiTr68r-iQyaNZ8Y,18901368
+nnutils_pytorch/__init__.py,sha256=KDxPGH6uC5rF31iWUTWmLcGIYF1Ke6zrxX9JigggtC0,8198
+nnutils_pytorch/adaptive_avgpool_2d_test.py,sha256=753vGQa3q1eL1bpdoS21xnpdnsUJ6BCxnN49Hg3hyB8,10751
+nnutils_pytorch/adaptive_maxpool_2d_test.py,sha256=TcTCGu2YE36emK5MqTlQ85ipsHqODmJRU07H0tkmRV0,10740
+nnutils_pytorch/mask_image_from_size_test.py,sha256=7eUTNSu4APHsKWQ2Z9opv3hJCxmyk3ACIMf5tjD4sTE,3096
+nnutils_pytorch_cuda-1.13.0.dist-info/LICENSE,sha256=shXk5Yvaz3xXiyzulr_dDiBDdcqAhhVV8gTDf3jwSp0,1072
+nnutils_pytorch_cuda-1.13.0.dist-info/METADATA,sha256=lE1efdN1qitn3qRqT2elHeO-3ZC-NsvXti625tsyQHk,5517
+nnutils_pytorch_cuda-1.13.0.dist-info/WHEEL,sha256=3oXbtF4vYwmQyf0LQIagKtl0VO3gP86556qKiLb0bDc,103
+nnutils_pytorch_cuda-1.13.0.dist-info/top_level.txt,sha256=SIuUV1xmIXx1rh4cd59kDPw4D1fnJrJbNWebvDueoN4,16
+nnutils_pytorch_cuda-1.13.0.dist-info/RECORD,,
