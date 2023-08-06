@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "clustats"
+version = "0.0.9"
+description = ""
+authors = ["runeblaze <runeblaze@excite.co.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+belinda = "0.0.4a8"
+typer = "^0.7.0"
+pandas = "^1"
+structlog = "^22.3.0"
+polars = "^0.15.2"
+
+[tool.poetry.scripts]
+clustats = 'clustats.runstats:entry_point'
+clustats2latex = 'clustats.format_latex:entry_point'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
