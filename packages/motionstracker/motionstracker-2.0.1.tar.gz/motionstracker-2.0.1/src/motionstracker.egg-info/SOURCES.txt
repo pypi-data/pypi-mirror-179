@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/motionstracker/__init__.py
+src/motionstracker/__main__.py
+src/motionstracker.egg-info/PKG-INFO
+src/motionstracker.egg-info/SOURCES.txt
+src/motionstracker.egg-info/dependency_links.txt
+src/motionstracker.egg-info/requires.txt
+src/motionstracker.egg-info/top_level.txt
+src/motionstracker/utils/Class.py
+src/motionstracker/utils/__init__.py
+src/motionstracker/utils/functions.py
+src/motionstracker/utils/variables.py
