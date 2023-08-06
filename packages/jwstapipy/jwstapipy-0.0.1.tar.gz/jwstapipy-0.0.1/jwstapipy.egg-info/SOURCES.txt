@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+jwstapipy/__init__.py
+jwstapipy/jwstapipy.py
+jwstapipy.egg-info/PKG-INFO
+jwstapipy.egg-info/SOURCES.txt
+jwstapipy.egg-info/dependency_links.txt
+jwstapipy.egg-info/requires.txt
+jwstapipy.egg-info/top_level.txt
