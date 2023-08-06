@@ -1,0 +1,13 @@
+yaqn/.vscode/settings.json,sha256=6Vn5k_pjgUBpt3dheMDO-UYYbqCu870RlF5tJzDHcj4,49
+yaqn/__init__.py,sha256=WUm7gWcnsWCmGcDn7YiIOyuqabgjus1Z3C_vrS8jWbE,90
+yaqn/assets/logo.png,sha256=jEc1hLt0OS5udcSeahcGHZClME75KTaKvUTQjtVU1Uw,45805
+yaqn/config.py,sha256=qnFOQJz4b290yShVCBxX2_YhR5GmiqJYq2kg5cUKQJI,3281
+yaqn/gui.py,sha256=AYjHlJzdKQC1ScfD3PaUzLAbVtyNgs1W7HWKzgvKNZI,2900
+yaqn/main.py,sha256=Iu_Pdq_icOF-78JeUndlOB3NvSj9cuLW7NRo9soMdfM,2260
+yaqn/notes.py,sha256=S-GbKg3INemDJ-60BiLljL3zVlX1b7uRUACYyfwa6jk,1621
+yaqn/terminal.py,sha256=cAtLBOFhw7rtLol6ms3X7fvV39aRohwmPx0FW13EmFc,114
+yaqn-1.5.0.dist-info/entry_points.txt,sha256=cHkgLTHp-uhI2C8LqMR3V6RcxRWzcC6wejNuuRi8yQU,39
+yaqn-1.5.0.dist-info/LICENSE.txt,sha256=VvA1bZ3KmaWjPb4oI2AQZQpZh60eq-j-Wj_bYstP6Rs,1061
+yaqn-1.5.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+yaqn-1.5.0.dist-info/METADATA,sha256=0qlaG2dDX24A2XcAHODHZiJk872XQX9qUr-HWJDVxEQ,3245
+yaqn-1.5.0.dist-info/RECORD,,
