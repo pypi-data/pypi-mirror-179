@@ -1,0 +1,2 @@
+[console_scripts]
+hellolmdb = hellolmdb.run:main
