@@ -1,0 +1,3 @@
+[flake8]
+exclude = .git,.eggs,docs,build,dist,test,*__init__.py
+max-line-length = 100
