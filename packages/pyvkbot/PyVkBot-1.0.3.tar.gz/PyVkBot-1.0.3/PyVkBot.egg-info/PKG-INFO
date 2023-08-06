@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PyVkBot
+Version: 1.0.3
+Summary: Chat bot for vk.com
+Home-page: https://github.com/zeph1rrinc/pyvkbot
+Author: zeph1rr
+Author-email: grianton535@gmail.com
+License: MIT
+Requires-Python: >3.10
+Description-Content-Type: text/markdown
