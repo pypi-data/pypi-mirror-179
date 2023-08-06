@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: adept-augmentations
+Version: 0.1.0
+Summary: A Python library aimed at dissecting and augmenting NLP training data.
+Home-page: https://github.com/davidberenstein1957/adept-augmentations
+License: Apache
+Keywords: spacy,explainable AI,xai,nlu,visualization,datasets,nlproc,data-centricity,augmentation,data-augmentation
+Author: david
+Author-email: david.m.berenstein@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: datasets (>=2.5,<3.0)
+Requires-Dist: pydantic (>=1.8,<2.0)
+Requires-Dist: spacy (>=3,<4)
+Project-URL: Documentation, https://github.com/davidberenstein1957/adept-augmentations
+Project-URL: Repository, https://github.com/davidberenstein1957/adept-augmentations
+Description-Content-Type: text/markdown
+
+# adept-augmentations
+A Python library aimed at dissecting and augmenting NLP training data.
+
