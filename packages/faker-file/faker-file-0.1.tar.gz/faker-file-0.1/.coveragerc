@@ -1,0 +1,13 @@
+[run]
+omit =
+    src/faker_file/tests/*
+    examples/simple/project/settings/*
+    examples/django_example/project/wsgi.py
+    examples/django_example/product/migrations/*
+    .tox/*
+relative_files = True
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
