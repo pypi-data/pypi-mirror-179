@@ -1,0 +1,2 @@
+[console_scripts]
+mementoize = mementoizer:cli
