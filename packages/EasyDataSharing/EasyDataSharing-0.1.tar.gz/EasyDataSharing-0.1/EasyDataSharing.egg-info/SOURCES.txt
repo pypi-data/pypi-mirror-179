@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+EasyDataSharing/EasyDataSharing.py
+EasyDataSharing/__init__.py
+EasyDataSharing/data.json
+EasyDataSharing.egg-info/PKG-INFO
+EasyDataSharing.egg-info/SOURCES.txt
+EasyDataSharing.egg-info/dependency_links.txt
+EasyDataSharing.egg-info/top_level.txt
