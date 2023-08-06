@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: unblind
+Version: 0.0.3
+Summary: Unblind is a Python package to create data visualizations from data of the Plataforma Digital Nacional, Sistema Nacional Anticorrupción
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # unblind
+        Datatón anticorrupción 2022
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
