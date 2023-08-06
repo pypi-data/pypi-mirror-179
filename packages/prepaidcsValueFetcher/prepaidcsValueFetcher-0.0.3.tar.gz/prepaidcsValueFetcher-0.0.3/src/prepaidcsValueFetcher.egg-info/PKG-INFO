@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: prepaidcsValueFetcher
+Version: 0.0.3
+Summary: prepaidcs value fetcher
+Home-page: https://github.com/xh-dev-py/prepaidcsValueFetcher
+Author: xethhung
+Author-email: pypi@xethh.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# prepaidcs-value-fetcher
+
+## Installation
+```shell
+pip install prepaidcsValueFetcher
+```
+
+```shell
+pip install git+https://github.com/xh-dev-py/prepaidcsValueFetcher
+```
+
+
+## Build
+```shell
+rm -fr dist
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
