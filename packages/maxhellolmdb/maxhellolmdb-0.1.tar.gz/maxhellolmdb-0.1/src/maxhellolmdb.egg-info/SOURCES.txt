@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/maxhellolmdb.egg-info/PKG-INFO
+src/maxhellolmdb.egg-info/SOURCES.txt
+src/maxhellolmdb.egg-info/dependency_links.txt
+src/maxhellolmdb.egg-info/entry_points.txt
+src/maxhellolmdb.egg-info/requires.txt
+src/maxhellolmdb.egg-info/top_level.txt
