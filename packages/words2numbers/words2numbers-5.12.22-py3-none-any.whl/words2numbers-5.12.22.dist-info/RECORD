@@ -1,0 +1,12 @@
+words2numbers/__init__.py,sha256=l9ICeAXi4foqi_m7rqgoloqImpervtsD9e1zi6c5Zuw,689
+words2numbers/_words2num.py,sha256=TY9mZ7Rz2z9Sz2G-uzHtJFS5f9l6rjEgrnGc1wjd5Yw,6357
+words2numbers/base.py,sha256=zsqLY7G5s_eUkwAV9GzpHPMkIi5Ofd5qQZpZu_CTvzg,17348
+words2numbers/data.py,sha256=GHDJJvQZe4l1vhkgfDtrtGShRNJ2Kp1VU5NkEIS4d9Q,7713
+words2numbers/ejtoken.py,sha256=KuXdgV6vLmUrEfWK1a3KqYGXr1aUOvozSySZwwAM73M,18991
+words2numbers/normalize.py,sha256=Dl6aG-dZBBFu6R2rZ9eWvP-CJwYCKDAhiMOaPII9SEg,4382
+words2numbers/utils.py,sha256=h4sqYuLZHU0SBbpzOT5HsN08J_pZvCoHaZYOSMfb1z8,5279
+words2numbers-5.12.22.dist-info/LICENSE,sha256=UHhZ98ki9jNRKyi2fBpJAMREmA1xbqvZ51OYhy9Atdc,1068
+words2numbers-5.12.22.dist-info/METADATA,sha256=L7OXWICB7XbjuVVUHJh99lGITiYAiNu9Ud94TlCTTnY,2579
+words2numbers-5.12.22.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+words2numbers-5.12.22.dist-info/top_level.txt,sha256=BJvKhEk9mvs7gNq-fSZLUgzRfdJ1Hwi3jkZew0WDcKw,14
+words2numbers-5.12.22.dist-info/RECORD,,
