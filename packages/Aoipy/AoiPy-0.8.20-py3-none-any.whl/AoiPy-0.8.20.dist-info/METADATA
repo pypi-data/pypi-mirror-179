@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: AoiPy
+Version: 0.8.20
+Summary: Pycord made simple for learning
+Home-page: UNKNOWN
+Author: Jade
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+Requires-Dist: Py-cord
+
+# AoiPy - Discord.py made simple (By being very specific) for learning
+Latest Update: 12/05/22
+#### Version: 0.8.20
+### Using AoiPy
+1 - `pip install AoiPy`
+
+2 - Import Client and any other files
+```python
+from aoipy.BotUser import client
+from aoipy.File import * 
+```
+
+3 -  Example:
+
+```python
+from aoipy.BotUser import client
+from aoipy.Messages import *
+from aoipy.Channels import *
+# ---------------Imports--------------------
+act = client.activity("tv", "watching")
+bot = client.Bot(prefix="!", case_insensitive=False, intents=("all",), activity=act)
+
+
+@bot.command()
+async def where(ctx):
+    await sendChannelMessage(ctx, f"This command invoked in...{getCurrentTextChannel(ctx)}")
+
+
+client.run(bot, "*******<<TOKEN>>***********", f"Started on {bot.user}")
+```
+
+## New and still a work in progress
+
