@@ -1,0 +1,3 @@
+[console_scripts]
+lagrang = lagrang_pack.to_sum_of_squares:lagrang
+main = lagrang_pack:main

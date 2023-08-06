@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lagrang_pack/__about__.py
+lagrang_pack/__init__.py
+lagrang_pack/__main__.py
+lagrang_pack/new_diap.py
+lagrang_pack/test_sum.py
+lagrang_pack/to_sum_of_squares.py
+lagrang_pack.egg-info/PKG-INFO
+lagrang_pack.egg-info/SOURCES.txt
+lagrang_pack.egg-info/dependency_links.txt
+lagrang_pack.egg-info/entry_points.txt
+lagrang_pack.egg-info/top_level.txt

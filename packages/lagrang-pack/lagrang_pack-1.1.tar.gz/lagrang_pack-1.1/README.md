@@ -1,0 +1,22 @@
+# Практическая работа №6 – Модульные программы
+
+**Ильина Светлана**,
+**КИ22-16/1Б**,
+**Вариант 15**
+
+`$ python lagrang_pack --help` — вызов интерфейса для демонстрации работы
+
+`$ python lagrang_pack --test` — вызов тестов1
+
+`$ python lagrang_pack/example.py -v` — вызов тестов2
+
+`$ python lagrang_pack/to_sum_of_squares.py -v` — демонстрация работы функции _to_sum_of_squares()_ через тесты
+
+Пример использования пакета:
+
+```python
+from lagrang_pack.to_sum_of_squares  import to_sum_of_squares
+to_sum_of_squares(20, 4)
+```
+
+`[1, 1, 9, 9]`
