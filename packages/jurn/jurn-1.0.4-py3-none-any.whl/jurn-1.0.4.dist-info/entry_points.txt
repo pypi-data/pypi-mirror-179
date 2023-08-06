@@ -1,0 +1,2 @@
+[console_scripts]
+jurn = jurn.cli:cli
