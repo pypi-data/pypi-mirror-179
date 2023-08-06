@@ -1,0 +1,16 @@
+.gitignore
+.gitlab-ci.yml
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+git_annex_metadata_edit/.gitignore
+git_annex_metadata_edit/__init__.py
+git_annex_metadata_edit/__main__.py
+git_annex_metadata_edit/version.py
+git_annex_metadata_edit.egg-info/PKG-INFO
+git_annex_metadata_edit.egg-info/SOURCES.txt
+git_annex_metadata_edit.egg-info/dependency_links.txt
+git_annex_metadata_edit.egg-info/entry_points.txt
+git_annex_metadata_edit.egg-info/top_level.txt

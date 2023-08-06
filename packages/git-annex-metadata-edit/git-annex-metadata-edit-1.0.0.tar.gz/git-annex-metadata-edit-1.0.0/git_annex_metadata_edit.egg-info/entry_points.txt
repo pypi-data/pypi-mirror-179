@@ -1,0 +1,2 @@
+[console_scripts]
+git-annex-metadata-edit = git_annex_metadata_edit.__main__:cli
