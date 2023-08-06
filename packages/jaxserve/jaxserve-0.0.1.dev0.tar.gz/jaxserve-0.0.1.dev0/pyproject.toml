@@ -1,0 +1,77 @@
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[project]
+authors = [{name = "Alvaro Bartolome"}]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+description = "Pretty self-explanatory lol"
+dynamic = ["version"]
+keywords = []
+license = "MIT"
+name = "jaxserve"
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.urls]
+Documentation = "https://alvarobartt.github.io/jaxserve"
+Issues = "https://github.com/alvarobartt/jaxserve/issues"
+Source = "https://github.com/alvarobartt/jaxserve"
+
+[tool.hatch.version]
+path = "src/jaxserve/__init__.py"
+
+[tool.hatch.envs.style]
+dependencies = [
+  "black~=22.6.0",
+  "flake8~=4.0.1",
+  "isort~=5.10.1",
+  "pre-commit~=2.20.0",
+]
+detached = true
+
+[tool.hatch.envs.style.scripts]
+check = [
+  "flake8 src tests",
+  "black --check --diff --preview src tests",
+  "isort --check-only --diff src tests",
+]
+fmt = [
+  "isort src tests",
+  "black --preview src tests",
+  "check",
+]
+
+[tool.hatch.envs.test]
+dependencies = ["pytest~=7.1.2"]
+
+[tool.hatch.envs.test.scripts]
+run = "pytest tests/ --durations 0 -s"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310"]
+
+[tool.isort]
+profile = "black"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "/.github",
+  "/docs",
+  "/.devcontainer",
+  "/Dockerfile",
+  "/.pre-commit-config.yaml",
+  "/.dockerignore",
+  "/.gitignore",
+  "/tests",
+]
