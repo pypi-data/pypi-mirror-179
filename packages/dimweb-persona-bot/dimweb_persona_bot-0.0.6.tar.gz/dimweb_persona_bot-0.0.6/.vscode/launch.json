@@ -1,0 +1,36 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug causal model",
+			"type": "python",
+			"request": "launch",
+			"module": "dimweb_persona_bot.train_scripts.causal_training",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"--debug_status",
+				"1",
+				"--cuda_device",
+				"1",
+			]
+		},
+		{
+			"name": "Debug seq2seq model",
+			"type": "python",
+			"request": "launch",
+			"module": "dimweb_persona_bot.train_scripts.seq2seq_training",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"--debug_status",
+				"1",
+				"--cuda_device",
+				"0",
+			]
+		},
+	]
+}
