@@ -1,0 +1,13 @@
+fuzzy_couscous/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fuzzy_couscous/commands/__init__.py,sha256=5-3iaZ4cN70FWZChrRCzfITUuFf6RILdj00WyE3ns44,165
+fuzzy_couscous/commands/make.py,sha256=KG1NDsN1YzBSUEQS0bhjQsjX6Z1xDmTR6uz3l48Rt1I,2426
+fuzzy_couscous/commands/remove_poetry.py,sha256=m4WAMOm2huhHn8zjUCq2Dh8lzeGIb6Lfxq-Fmcs_hLU,8522
+fuzzy_couscous/commands/work.py,sha256=Qhm4cMwlColLOSjD636NugU1c5LUp5dQI0M0DkcqV_w,742
+fuzzy_couscous/commands/write_env.py,sha256=HuPmyFFFrB_rNKgSasTScxW8RjcbCsh4mSjDzbgMSyE,1634
+fuzzy_couscous/main.py,sha256=Hg8_cXIODZvD4tvkpYVwNebpJLfKo-4UNVNd2lVBfps,797
+fuzzy_couscous/utils.py,sha256=urheyxH4Nmj37JUS8geU0I2kAHhxfZba4Ks01kRlbsM,639
+fuzzy_couscous-2.0.1.dist-info/entry_points.txt,sha256=_LRyV1SFcDuqaC75N7_PYwWPGCCa2XrEbufqqzBLUiE,88
+fuzzy_couscous-2.0.1.dist-info/LICENSE,sha256=l1tIkt_VftfoOJlTn59wzpYc4YzQKTx3hgBGFQsE3j4,1068
+fuzzy_couscous-2.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+fuzzy_couscous-2.0.1.dist-info/METADATA,sha256=lE-DqcMdHqUBmiYT9MxOslh96zSjXa1BYqxy9mDpnyo,5791
+fuzzy_couscous-2.0.1.dist-info/RECORD,,
