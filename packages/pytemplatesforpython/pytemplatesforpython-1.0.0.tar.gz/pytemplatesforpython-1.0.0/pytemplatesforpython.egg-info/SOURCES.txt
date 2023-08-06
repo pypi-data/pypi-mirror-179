@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+pytemplater/__init__.py
+pytemplater/abstract_prerender_zone.py
+pytemplater/abstract_template.py
+pytemplater/file_template.py
+pytemplater/pointer_string.py
+pytemplater/templates_loader.py
+pytemplatesforpython.egg-info/PKG-INFO
+pytemplatesforpython.egg-info/SOURCES.txt
+pytemplatesforpython.egg-info/dependency_links.txt
+pytemplatesforpython.egg-info/top_level.txt
