@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pysmells
+Version: 0.0.1
+Summary: Um pacote em python para analisa vunerabilidades de programas em python
+Home-page: https://github.com/marcos-de-sousa/pysmells
+Author: Marcos Paulo Alves de Sousa, Marco Aurélio Proença Neto
+Author-email: desousa.mpa@gmail.com, marconeto3000@gmail.com
+License: MIT License
+Keywords: Pacote
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pysmells
+
+**pysmells** é um pacote em python para analisa vunerabilidades de programas em python.
+
+## Dependências
+**Python 3.6** ou posterior
+
+Pacotes: **pandas**, **OS**
+
+
+## Começando o uso
+Você vai precisar instalar o pacote **pacotepypi**, para isso basta executar:
+```
+pip install pysmells
+```
+
+
