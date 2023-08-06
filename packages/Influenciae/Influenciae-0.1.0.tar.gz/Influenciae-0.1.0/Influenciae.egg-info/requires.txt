@@ -1,0 +1,12 @@
+tensorflow>=2.7.0
+numpy
+matplotlib
+
+[docs]
+mkdocs
+mkdocs-material
+numkdoc
+
+[tests]
+pytest
+pylint
