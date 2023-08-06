@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "databutton"
+version = "0.27.8a0"
+description = "The CLI for databutton.com"
+authors = ["Databutton <hi@databutton.io>"]
+license = "Databutton"
+readme = "README.md"
+packages = [{ include = "databutton" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.23.0"
+# This is the same as streamlit, hopes it works
+pandas = ">=0.21.0"
+pydantic = "^1.10.2"
+PyJWT = "^2.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+python-semantic-release = "7.28.1"
+pytest-mock = "^3.7.0"
+pytest-asyncio = "^0.20.0"
+pytest-trio = "^0.8.0"
+
+[tool.poetry.scripts]
+databutton = "databutton.cli:cli"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+types-pyyaml = "^6.0.12"
+types-requests = "^2.28.11.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = "databutton/version.py:__version__"
+version_toml = "pyproject.toml:tool.poetry.version"
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "poetry build"
+major_on_zero = false
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest]
+asyncio_mode = "auto"
+
+[[tool.mypy.overrides]]
+# These does not have type stubs. :'(
+# (copied from databutton-api)
+module = [
+  "sendgrid",
+  "bs4",
+  "uvicorn",
+  "databutton_logger.*",
+  "kubernetes.*",
+  "google.oauth2.credentials",
+  "google.cloud.firestore",
+  "google.protobuf",
+  "nanoid",
+  "segment.*",
+  "google.auth.*",
+  "google_crc32c",
+  "pandas",
+  "pyarrow.*",
+  "firebase_admin",
+]
+ignore_missing_imports = "true"
