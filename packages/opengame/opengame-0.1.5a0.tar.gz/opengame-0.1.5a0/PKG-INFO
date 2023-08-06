@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: opengame
+Version: 0.1.5a0
+Author: stripe-python
+Author-email: stripe-python@139.com
+Maintainer: stripe-python
+Maintainer-email: stripe-python@139.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: record
+Provides-Extra: glwindow
+Provides-Extra: windows
+License-File: LICENSE
