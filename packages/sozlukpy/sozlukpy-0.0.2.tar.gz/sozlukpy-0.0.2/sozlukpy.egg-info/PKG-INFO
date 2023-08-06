@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: sozlukpy
+Version: 0.0.2
+Summary: A basic Turkish dictionary
+Home-page: 
+Author: Meinos10
+Author-email: E.tmen2023@gmail.com
+License: MIT
+Keywords: sozlukpy,sozluk,sozluk-python
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sozlukpy
+
+A basic Turkish dictionary
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install sozlukpy
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
