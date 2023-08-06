@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: taichi_q
+Version: 0.0.8
+Summary: Taichi-Q: A quantum circuit simulator for both CPU and GPU
+Home-page: https://github.com/bughht/Taichi-Q
+Author: Haotian Hong
+Author-email: bughht@outlook.com
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Taichi-Q
+
+Quantum Computation Simulator Engine Based on Taichi (available for both GPU and CPU)
+
+**This is a Hackathon Project, Project Introduction available [here](https://bughht.github.io/University_SHU/Taichi-Q%20Introduction)**
+
+## Intall
+
+```
+pip install taichi-q
+```
+
+## Development
+
+Welcome any contribution!
+
+## Example
+
+### Set up 
+
+
+## License
+
+[Apach-2.0](LICENSE)
+
