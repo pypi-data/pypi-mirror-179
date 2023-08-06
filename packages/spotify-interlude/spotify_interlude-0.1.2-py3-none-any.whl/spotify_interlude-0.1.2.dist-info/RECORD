@@ -1,0 +1,10 @@
+spotify_interlude/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_interlude/audio_session.py,sha256=2nzl-GHhRhEmrjlcw6wtuejRH0XdJnhvYliu5lf8ny4,3062
+spotify_interlude/cli.py,sha256=fQCPEtN00aFHYwHHo6qv5t62mvumyPaBlam3FuqpUD8,4052
+spotify_interlude/core.py,sha256=f1SnKdya_2zwYUYb_JaahlnwH2bnVO8Iu3MyP7Jk_qY,2684
+spotify_interlude/spotify.py,sha256=bHXLsDR_ZqbLq7pD73QRJdBGcMOzscr3BIhzGdUaD-8,3947
+spotify_interlude-0.1.2.dist-info/entry_points.txt,sha256=j2Hwjk7xBaFjlLLIyP7uHQkRCBmaXQuHrmLzAta341k,55
+spotify_interlude-0.1.2.dist-info/LICENSE,sha256=2eoSzGVx-wGZrZZcw8C4AWg5h9ScMkm2Rc1iO6VZ-lA,1070
+spotify_interlude-0.1.2.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+spotify_interlude-0.1.2.dist-info/METADATA,sha256=gTpVyrl-8f4n28Jbosx29dT3-n5ntzm1Zce3xNO8ApM,4889
+spotify_interlude-0.1.2.dist-info/RECORD,,

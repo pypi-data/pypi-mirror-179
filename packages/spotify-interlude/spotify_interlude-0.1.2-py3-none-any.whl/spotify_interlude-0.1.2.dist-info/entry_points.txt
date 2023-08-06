@@ -1,0 +1,3 @@
+[console_scripts]
+interlude=spotify_interlude.cli:app
+
