@@ -1,0 +1,14 @@
+SF_Tree_Identifier/Address.py,sha256=1l6kMoWZnoGaXwA8eRHXMtFsSKBTO3uIx0HkwWxE6Qw,9388
+SF_Tree_Identifier/SF_Tree_Identifier.py,sha256=GhOPYcN0pFLxUn7EBBDe-OuJYK2EWhrCLlZ1O4FCFXE,6725
+SF_Tree_Identifier/__init__.py,sha256=pPIGS0I3RTGPW5ODdGlmBUgz89qE8V-VsrPG5JnZKJ0,94
+SF_Tree_Identifier/data/SF_trees.db,sha256=lBLqRR4dKHfaVe9WRiD88yFSzSljNczLi0_96uJJo_s,7585792
+SF_Tree_Identifier/data/SF_trees_by_street.db,sha256=ACa5liC7FD2v08eO65qECzXDkXbUS8Dj1wpEjPwrNBQ,21438464
+SF_Tree_Identifier/data/street_names.json,sha256=mbkykjI1a4Ag1sfoTuoYl_LgA6_YSTcKm4O8LrVVwQ0,33093
+SF_Tree_Identifier/data/street_types.json,sha256=cSuIAZBwDO9uPPBc3ZI8mZMfu9CzDMgZNlf2kTczSdY,566
+url_finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+url_finder/url_finder.py,sha256=AOihBxLbWxtW9skO28WEwzvUJE3cN00bV3yG1zZA-yc,13899
+SF_Tree_Identifier-0.2.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+SF_Tree_Identifier-0.2.1.dist-info/METADATA,sha256=eLHf0O_sshz0EcsYpS5g0kfrmwQAupiOmUuwNMGOiKA,41878
+SF_Tree_Identifier-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+SF_Tree_Identifier-0.2.1.dist-info/top_level.txt,sha256=ggQlE2chXD7GVbIbxGgtjIjg3F2cSLvCRV-sNxGQf9g,30
+SF_Tree_Identifier-0.2.1.dist-info/RECORD,,
