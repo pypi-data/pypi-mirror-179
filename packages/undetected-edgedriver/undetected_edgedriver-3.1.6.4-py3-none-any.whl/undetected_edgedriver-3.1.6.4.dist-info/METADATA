@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: undetected-edgedriver
+Version: 3.1.6.4
+Summary: Undetected EdgeDriver for Selenium based on undetected_chromedriver with some tweaking.
+Home-page: https://github.com/Plorinaa/undetected-edgedriver
+Author: nrwlia
+License: GPL-3.0-only
+Project-URL: Homepage, https://github.com/nrwlia/undetected_edgedriver
+Project-URL: Bug Tracker, https://github.com/nrwlia/undetected_edgedriver/issues
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium (>=4.0.0)
+Requires-Dist: requests
+Requires-Dist: websockets
+
+# undetected_edgedriver
+ Undetected EdgeDriver for Selenium based on undetected_chromedriver with some tweaking.
+ Please refer to [original project](https://github.com/ultrafunkamsterdam/undetected-chromedriver) for details.
