@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: mifa
+Version: 0.1.0
+Summary: mitmproxy for android
+License: MIT
+Author: kin9-0rz
+Author-email: kin9-0rz@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# mifa
+
+### 介绍
+mifa - mitmproxy for android
+
+http/https/web socket
+
+### 要求
+1. 安装Android SDK
+2. 安装mitmproxy
+3. Openssl - Windows下推荐安装Cygwin。
+
+
+### 用法
+
+#### init
+
+指定Android SDKAndroid SDK、mitmproxy的目录。
+
+```shell
+Usage: mifa init [OPTIONS]
+
+  init datas
+
+Options:
+  -a, --android-sdk-path TEXT  The path of the Android SDK.
+  -m, --mitmproxy-path TEXT    The path of the mitmproxy.
+  -p, --package TEXT           Package path of the system image for this AVD
+                               (e.g. 'system-
+                               images;android-19;google_apis;x86').
+  -n, --name TEXT              Name of the new AVD.
+  --help                       Show this message and exit.
+```
+
+#### cfg
+
+创建模拟器、配置模拟器。
+```
+mifa cfg
+```
+
+#### run
+
+直接抓包。
+
+```
+mifa run
+```

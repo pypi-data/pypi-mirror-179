@@ -1,0 +1,3 @@
+[console_scripts]
+mifa=mifa.__cli__:main
+
