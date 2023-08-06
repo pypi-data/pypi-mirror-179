@@ -1,0 +1,8 @@
+setup.py
+robika/__init__.py
+robika.egg-info/PKG-INFO
+robika.egg-info/SOURCES.txt
+robika.egg-info/dependency_links.txt
+robika.egg-info/not-zip-safe
+robika.egg-info/requires.txt
+robika.egg-info/top_level.txt
