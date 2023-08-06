@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: exploratory
+Version: 3.3.0
+Summary: Exploratory Data Analysis
+Author: Ram <kakarlaramcharan@gmail.com>, Abhilash <abhilashmaspalli1996@gmail.com>
+License: UNKNOWN
+Keywords: python,EDA,PDF,Summary Statistics,Distribution Plot
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+Python package to do exploratory data analysis and provide results in PDF
+
