@@ -1,0 +1,14 @@
+can_sontheim/SIECA132.pdf,sha256=Gm5lcig1DZJvwbzxpzcNN6W6_B3J2qB8zmj3lojXSHk,2576637
+can_sontheim/__init__.py,sha256=J0nCI8X6K9xYWWxe2ky1L9USSGluO5_E2Rgp7ujOFHo,176
+can_sontheim/_canlib.py,sha256=VlNBp6rXOxIHlr54_0K260AWfZn4dkUV4zsbkHuIXzI,15563
+can_sontheim/constants.py,sha256=9eCykPg3M5t27jDPd0EnhfpGtx7ghni4HfvSs3LLtyI,6216
+can_sontheim/devices.py,sha256=Hg2XWtNn8koaG2hNiEaRkg8MJvMGRdn7UWI_t3XL4TQ,732
+can_sontheim/interprocess communication.url,sha256=IMT8FV3HungW7gNV0mJpUBPj3RAF1VSSkXwseq40Aek,166
+can_sontheim/structures.py,sha256=2uXjiVbMlyqgVjdsT6aVNdhJy_F_E2GaE1HruKhcgg0,8444
+can_sontheim/version.py,sha256=5xvN_gb61nKeq5TER5dSfcArTP3DVasZGN_MQq5dNpA,23
+python_can_sontheim-0.1.1.dist-info/LICENSE.txt,sha256=6n0EnHcF3BOvwgLdGOGCfzSE-CEv0_p7gvxKDDY0Msk,7816
+python_can_sontheim-0.1.1.dist-info/METADATA,sha256=95EwlXafvZIZMsGb3K86gWUcgcz104XEhJiCZx6qyis,3375
+python_can_sontheim-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+python_can_sontheim-0.1.1.dist-info/entry_points.txt,sha256=twBDyfVUQxlUrh3YI5T7FUi95cySbl7qWiSd5JP9BlY,100
+python_can_sontheim-0.1.1.dist-info/top_level.txt,sha256=Gtak_Za-WVHdSwAttEh4whLyySNL9UmguDOnLBT3oIE,13
+python_can_sontheim-0.1.1.dist-info/RECORD,,
