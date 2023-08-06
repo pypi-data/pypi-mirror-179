@@ -1,0 +1,8 @@
+numpy
+statsmodels
+scipy
+astropy
+colorcet
+healpy
+galpy
+pynverse
