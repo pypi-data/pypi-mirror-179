@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+PyVizyal/__init__.py
+PyVizyal.egg-info/PKG-INFO
+PyVizyal.egg-info/SOURCES.txt
+PyVizyal.egg-info/dependency_links.txt
+PyVizyal.egg-info/top_level.txt
