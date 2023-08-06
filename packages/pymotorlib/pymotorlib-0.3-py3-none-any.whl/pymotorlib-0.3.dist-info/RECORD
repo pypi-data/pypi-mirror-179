@@ -1,0 +1,11 @@
+Motorlib/BaseEncoder.py,sha256=zhkIkr_9p5bIDPavKyju9Ej-dac-wUnHftiI1TiRw7Q,2093
+Motorlib/Motor.py,sha256=rlpF4sNuNWgD33tstxT89tjVbX2n7tzzTB8lUyaiPDA,2855
+Motorlib/MotorType.py,sha256=Z9aXoIotvpaDR4pfMTdzEWtBKlN6iy4zja8AbmqlgRg,159
+Motorlib/PIDController.py,sha256=FeMHJ86R3kCwFrZj7SXp58LyoAS1irqQsDnYn_kz880,4168
+Motorlib/PWMDriver.py,sha256=QUvmDESbISedABDwzLIYygIZ_yYXcaGIilQjyHfbF2A,813
+Motorlib/__init__.py,sha256=sX8ZCMpLZXZghzbEx-GV0HpdctJx2xPOxsVVX3xrGAk,250
+pymotorlib-0.3.dist-info/LICENSE,sha256=LZ9DT_4o4bSKyJ8McitE4kyR5r0pvHXCmOKuTbUJ6jY,1078
+pymotorlib-0.3.dist-info/METADATA,sha256=nrg6BC8ui9dMPVisNcUJMFDy_OBot_LcGPn6nc9H2wE,4151
+pymotorlib-0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pymotorlib-0.3.dist-info/top_level.txt,sha256=0_MDo2OUNpxnhRqKSGtrdFAa25s1nNir1d9T3tOtvfc,9
+pymotorlib-0.3.dist-info/RECORD,,
