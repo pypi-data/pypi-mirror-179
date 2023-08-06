@@ -1,0 +1,3 @@
+[console_scripts]
+dbt-airflow = dbt_airflow.cli.runner:main
+

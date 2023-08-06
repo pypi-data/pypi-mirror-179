@@ -1,0 +1,5 @@
+dbt-core>=1.2.0
+apache-airflow>=2.0.0
+
+[test]
+pytest<8,>=7.1
