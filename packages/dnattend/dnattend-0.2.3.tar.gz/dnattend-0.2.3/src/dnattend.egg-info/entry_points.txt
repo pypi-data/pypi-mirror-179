@@ -1,0 +1,2 @@
+[console_scripts]
+dnattend = dnattend.cli:parseArgs
