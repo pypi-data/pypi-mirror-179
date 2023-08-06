@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_authorization"
+requires-python = ">=3.7"
+dependencies = [
+    "SQLAlchemy~=1.4",
+]
+dynamic = ["version", "description"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+multi_line_output = 3
+include_trailing_comma = true
+
+[project.optional-dependencies]
+dev = [
+    "assertpy==1.1",
+    "black~=22.8.0",
+    "flake8~=5.0.4",
+    "mypy==0.990",
+    "pre-commit~=2.20.0",
+    "pytest~=7.2.0",
+    "pytest-cov~=4.0.0",
+    "setuptools~=65.5.0",
+    "types-setuptools~=65.5.0",
+    "SQLAlchemy==1.4.42",
+]
+
