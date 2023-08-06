@@ -1,0 +1,9 @@
+README.md
+setup.py
+PaperScraper/__init__.py
+PaperScraper/test_object.py
+PaperScraperLib.egg-info/PKG-INFO
+PaperScraperLib.egg-info/SOURCES.txt
+PaperScraperLib.egg-info/dependency_links.txt
+PaperScraperLib.egg-info/requires.txt
+PaperScraperLib.egg-info/top_level.txt
