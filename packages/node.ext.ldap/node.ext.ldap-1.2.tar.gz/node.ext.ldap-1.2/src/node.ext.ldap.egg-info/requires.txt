@@ -1,0 +1,16 @@
+bda.cache
+node>=1.1
+node.ext.ugm>=1.0
+passlib
+python-ldap>=2.4.14
+setuptools
+
+[:python_version < "3.2"]
+argparse
+
+[test]
+coverage
+plone.testing
+zope.configuration
+zope.testing
+zope.testrunner
