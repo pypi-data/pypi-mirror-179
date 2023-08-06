@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lison_technology
+Version: 0.0.9
+Summary: Welcome to lison_technology
+Home-page: https://github.com/
+Author: HuiBuBu
+Author-email: huibubu2022@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
