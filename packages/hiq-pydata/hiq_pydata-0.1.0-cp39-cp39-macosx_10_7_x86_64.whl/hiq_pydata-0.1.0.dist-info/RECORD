@@ -1,0 +1,9 @@
+hiq_pydata-0.1.0.dist-info/METADATA,sha256=oQKAesfC86LttLV6ZEX9GYG7pAzanIIDGSgrMZvyb0o,259
+hiq_pydata-0.1.0.dist-info/WHEEL,sha256=tRaqIqZ53-d_7TRdj0l7TrLOvovqcfAmox0oHjR0ahE,104
+hiq_pydata/__init__.py,sha256=oDuPNx8ElM3ek2ChtDKKYTV1gUp3wciDt416G3sSbGY,137
+hiq_pydata/hiq_pydata.pyi,sha256=6vrwk6iIf8VqMXB1ouYG5i5PX7RRJaL8huPJtywWk48,6715
+hiq_pydata/hiq_sync.py,sha256=Mh3QntVrkwJ9AzntND2sT2AX4OZX2-g8-rnJ755IDU8,2022
+hiq_pydata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hiq_pydata/hiq_mongo.py,sha256=i0JVfSbRtgmHFFK0tsguumQOwqO5v5OfZe9tL1cryOA,16903
+hiq_pydata/hiq_pydata.cpython-39-darwin.so,sha256=ca4R1V2h4KE8JmnaXu4tiCZSYrVGRY8lM5vK28X9eZM,31437144
+hiq_pydata-0.1.0.dist-info/RECORD,,
