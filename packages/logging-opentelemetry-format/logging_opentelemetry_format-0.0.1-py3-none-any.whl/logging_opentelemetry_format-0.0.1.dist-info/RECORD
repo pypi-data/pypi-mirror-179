@@ -1,0 +1,10 @@
+logging_opentelemetry_format/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logging_opentelemetry_format/utils.py,sha256=NNN3WQh8tMZp8uF5beOX7MAJZH2hJXACW135ihRa3B8,5670
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=lrxQqxx1v0UC_2oTNI3eublxcWfvbuPNtGYWRkr0br4,966
+tests/test_logging.py,sha256=Iw4Jf849wcrKEVFgYm_IUvOnZWvoIVviR70uuLzwOnA,2160
+logging_opentelemetry_format-0.0.1.dist-info/LICENSE,sha256=_ARW7JfTlQS4_3az5ykEZpAr6HpeOzuBG74N1Nk--AA,1067
+logging_opentelemetry_format-0.0.1.dist-info/METADATA,sha256=77A40g2739-gHNYhgzkgUlmlBU94Fysj6yaLqgLyTzQ,2575
+logging_opentelemetry_format-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+logging_opentelemetry_format-0.0.1.dist-info/top_level.txt,sha256=TQZJw2b3MSFaI-hx4A7yCGtWovmW-PYmrMiK_EAbRm8,35
+logging_opentelemetry_format-0.0.1.dist-info/RECORD,,
