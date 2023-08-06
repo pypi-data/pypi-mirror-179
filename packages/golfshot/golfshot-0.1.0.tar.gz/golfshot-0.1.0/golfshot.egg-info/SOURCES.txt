@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+golfshot/__init__.py
+golfshot/golf_shot_simulation.py
+golfshot.egg-info/PKG-INFO
+golfshot.egg-info/SOURCES.txt
+golfshot.egg-info/dependency_links.txt
+golfshot.egg-info/requires.txt
+golfshot.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: golfshot
+Version: 0.1.0
+Summary: 2D simulation of a golf ball using basic concepts from kinematics and aerodynamics
+Author: Andrew Van Gerpen
+Author-email: andrew.vangerpen@gmail.com
+License: MIT
+License-File: LICENSE
