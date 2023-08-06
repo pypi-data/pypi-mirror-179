@@ -1,0 +1,13 @@
+ClusterMimsy/__init__.py,sha256=7tWIZvguU2w4Wo0G6WLaKcQvaEGbGpNj6MIQrKI5_qA,112
+ClusterMimsy/hello.py,sha256=FMD_-PjOJJy1rF_XjR7UT-0drETb0HB3j1CIeT_o8JM,150
+ClusterMimsy/smile.py,sha256=HH7wFWyCjMXcbZ8M_cq-ZyUoM5BsIP8JBmVcO13Z190,62
+ClusterMimsy/nest/__init__.py,sha256=X9la0XeeDGdDorIKyoxJiTBxruVO0fdNuahmSyt2znQ,20
+ClusterMimsy/nest/advice.py,sha256=-LPXdA6vDQV2CwCtDHhLiLWDvB2W5wmen25-bZ2VDg8,233
+ClusterMimsy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ClusterMimsy/tests/test_advice.py,sha256=g1uiuN26MKE1YMoDFhA_2GgMATOa80vS4OEA4Z8uvto,703
+ClusterMimsy/tests/test_hello.py,sha256=fZ47PQYA40xHntTluUNhPPvOZBjQp7y5daPbxHWDzl0,252
+ClusterMimsy/tests/test_smiles.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ClusterMimsy-0.0.37.dist-info/METADATA,sha256=mFikWogKB5BpSDqEfV6M9hY8_wYz4YSo05DIFsOJ4NQ,537
+ClusterMimsy-0.0.37.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ClusterMimsy-0.0.37.dist-info/top_level.txt,sha256=pKnG99644Vwq5u5AJsgx2-twZ4QouZY8YmQNjJWEhV4,13
+ClusterMimsy-0.0.37.dist-info/RECORD,,
