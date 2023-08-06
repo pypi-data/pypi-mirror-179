@@ -1,0 +1,2 @@
+[jupyter_serverproxy_servers]
+trame = jupyter_trame_proxy:setup_trame

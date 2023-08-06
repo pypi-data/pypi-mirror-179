@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter_trame_proxy/__init__.py
+jupyter_trame_proxy.egg-info/PKG-INFO
+jupyter_trame_proxy.egg-info/SOURCES.txt
+jupyter_trame_proxy.egg-info/dependency_links.txt
+jupyter_trame_proxy.egg-info/entry_points.txt
+jupyter_trame_proxy.egg-info/not-zip-safe
+jupyter_trame_proxy.egg-info/requires.txt
+jupyter_trame_proxy.egg-info/top_level.txt
+jupyter_trame_proxy/icons/logo.svg
+jupyter_trame_proxy/share/launch_trame.sh
