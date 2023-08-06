@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/openai-spinner/__init__.py
+src/openai-spinner/example.py
+src/openai_spinner.egg-info/PKG-INFO
+src/openai_spinner.egg-info/SOURCES.txt
+src/openai_spinner.egg-info/dependency_links.txt
+src/openai_spinner.egg-info/top_level.txt
