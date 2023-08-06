@@ -1,0 +1,44 @@
+[project]
+name = "fix-future-annotations"
+description = "A CLI and pre-commit hook to upgrade the typing annotations syntax to PEP 585 and PEP 604"
+authors = [
+    { name = "Frost Ming", email = "me@frostming.com" },
+]
+dependencies = [
+    "tokenize-rt>=5.0.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+dynamic = []
+version = "0.3.0"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+fix-future-annotations = "fix_future_annotations._main:main"
+
+[project.urls]
+Homepage = "https://github.com/frostming/fix-future-annotations"
+Releases = "https://github.com/frostming/fix-future-annotations/releases"
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.2.0",
+]
+
+[tool.isort]
+profile = "black"
+atomic = true
+
+[tool.black]
+exclude = "/(\n    \\.eggs\n  | \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | build\n  | dist\n  | tests/samples\n)/\n"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
