@@ -1,0 +1,10 @@
+localizedstringkit/__init__.py,sha256=nXfnQpq7BwADPGKtdfLBCTn16jbqcNSBMBrC2kywKGE,12803
+localizedstringkit/command_line.py,sha256=7YxRnb2lfBTD7BHQbOYKdCeLYSkfh0pzJ2W9ABKsE5M,4735
+localizedstringkit/detection.py,sha256=hGXsbd07xdPJZKL1Z55VUVdOjBW33nFJDmBO0tJmrco,10268
+localizedstringkit/exceptions.py,sha256=6Q_bzRmPA7NufmBER7UQxaFPMoby8_ersE1wU4p_oyQ,140
+localizedstringkit/files.py,sha256=WbWJWkF-fL7XVD3MLhQZgIZIJhsGp_w9dDQsVDYteDo,3114
+localizedstringkit/logger.py,sha256=hu_xdOHELUuWPpEB9pInTR1Wj3bBtpReEw8YqGCKaSg,731
+localizedstringkit-0.2.0.dist-info/entry_points.txt,sha256=ynYdfijYQaOs69WYg3QW8AJ4aYZAEjgfPRtTveWusLo,74
+localizedstringkit-0.2.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+localizedstringkit-0.2.0.dist-info/METADATA,sha256=i_bV8Kpwr9A21441wUYQiI1JJ5Qmj3B6OYDsNIXEvqw,1147
+localizedstringkit-0.2.0.dist-info/RECORD,,
