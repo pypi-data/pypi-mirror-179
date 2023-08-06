@@ -1,0 +1,14 @@
+gppc/__description__.py,sha256=Dac-TUp0xBLJxhqmwZLrco18U6IwRXhOuSnHFaF0UCc,249
+gppc/__init__.py,sha256=7U2jKksgNPmigwVdoopPN4-rBPNgDnZSC1nj8LMHUsk,411
+gppc/__main__.py,sha256=Yyr5XWLSAXYsiVSHoaRlnkq4jiyzZLE5zyQHtOvxwdk,43
+gppc/__version__.py,sha256=NpwmEmEW1qd5Ktq7XXeSIUi1FJ77BvjzhYOcwD82BBw,46
+gppc/_db.py,sha256=9xSvATdEb7SfGMund8WQE4hjyrVJm-K4jowWFlDaYZM,5761
+gppc/_display.py,sha256=zFOcq8FH-AT8s28tayCQMq_Yv5AdC7P65WIOw73lewM,1453
+gppc/_gppc.py,sha256=TSShCaMjbNZBWdZdzh9v1xS33yzIkn3l9DoFiSMZleQ,7543
+gppc/_item.py,sha256=ITFtZ2_rTp-kKIXwNKJMzl2kIhjORzB4DGIruTV_koA,7517
+gppc-0.1.6.dist-info/LICENSE.txt,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+gppc-0.1.6.dist-info/METADATA,sha256=zyYuEzhdXriB5VT1T5GNd3qLdJQBukqiKVs2x6ZAOgI,3433
+gppc-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gppc-0.1.6.dist-info/entry_points.txt,sha256=fHl3r2SkJ8DILVi9rA1wejFaWIvmtW5q8rhpIIYqnrI,36
+gppc-0.1.6.dist-info/top_level.txt,sha256=WrQLZYCZt-4ft7XCXF6bXkjNXpo9X80xKWxZ8o0CuRk,5
+gppc-0.1.6.dist-info/RECORD,,
