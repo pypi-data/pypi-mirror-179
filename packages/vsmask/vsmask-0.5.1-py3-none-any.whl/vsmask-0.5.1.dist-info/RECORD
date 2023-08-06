@@ -1,0 +1,17 @@
+vsmask/__init__.py,sha256=9-JnNFlCKfcogm2pwTXKQUhiu-DfiYlEiy8EHeeRP5M,157
+vsmask/_metadata.py,sha256=0RJ6r135WEU3AGGaGABj9r63U2tzJUjobVyKFeWYFn8,193
+vsmask/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsmask/types.py,sha256=xRd9U7U7LyZjOpMhzN0KX2kE1DSCT21guQ0zAU1IKrs,821
+vsmask/util.py,sha256=HiN3JZW1706BKSFtPTh2KiwV6he16hVWEc0dli52QcM,8612
+vsmask/edge/_1d.py,sha256=nAE0D20UjRiJjk3M_nHyvwJ9AVOdCcplpi5cNdi4Iwc,30231
+vsmask/edge/_2x2.py,sha256=TXMel5TmDQwoJEZhQxRrFilFFKlk6Ehja2hd-avssVU,434
+vsmask/edge/_3x3.py,sha256=HfkUkppQpQFSK7CNSMFeDPlxbm22xg_elunbn-jYzXk,10928
+vsmask/edge/_5x5.py,sha256=I2tVQrKy-tNqJja94BRt2D-LiCVTkJ_XB_9TrUDzoj4,5902
+vsmask/edge/__init__.py,sha256=LP047Jw0P7Qaxl298vFm-2gqlqRM_siswcQZKsPArTs,4446
+vsmask/edge/_abstract.py,sha256=MuMwbfL4rejDiBKCybczX4cxyScGuD10NiztxdazaNU,9680
+vsmask/edge/_misc.py,sha256=ciEjVVbStGRvDKvDfMI7TxkMTIFOSfGY60984jT3z6c,3431
+vsmask-0.5.1.dist-info/LICENSE,sha256=i82O7goSs3n3rSFKqFIertoff1YwNbN-3Gdvo7E_A8Y,1085
+vsmask-0.5.1.dist-info/METADATA,sha256=OTjFLA8HCQLcGgg-JumOSffpS0Ur4sYCotcwwNME_oE,1600
+vsmask-0.5.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vsmask-0.5.1.dist-info/top_level.txt,sha256=3WfOtgC2YTj236XQ0fnSgqAPE4zfhrbMApQTuv8sGE4,7
+vsmask-0.5.1.dist-info/RECORD,,
