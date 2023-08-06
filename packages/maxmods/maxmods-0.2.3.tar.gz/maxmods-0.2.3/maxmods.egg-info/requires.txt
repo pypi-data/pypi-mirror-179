@@ -1,0 +1,9 @@
+requests
+jsonpath-ng
+flask_sqlalchemy
+flask
+flask_restful
+cryptography
+keyboard
+pygame
+numpy
