@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: thermopack
+Version: 2.0.0
+Summary: Python interface to thermopack
+Home-page: https://github.com/thermotools/thermopack
+Author: Morten Hammer
+Author-email: Morten Hammer <morten.hammer@ntnu.no>
+Maintainer-email: Morten Hammer <morten.hammer@ntnu.no>, Vegard Gjeldvik Jervell <vegard.g.jervell@ntnu.no>
+Project-URL: Homepage, https://github.com/thermotools/thermopack
+Project-URL: Bug Tracker, https://github.com/thermotools/thermopack/issues
+Keywords: physics,thermodynamics,equations_of_state,phase_equilibria,SAFT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Fortran
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Dist: matplotlib (>=2.0)
+Requires-Dist: numpy (>=1.1)
+
+# Python interface for Thermopack using ctypes
+
+To get started take a look at the example code provided with the github source code. Also the function headers of the EoS classes, as well as the base class `thermo.py`, will help you understand what Thermopack can do.
