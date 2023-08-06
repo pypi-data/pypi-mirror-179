@@ -1,0 +1,8 @@
+README.md
+setup.py
+sqlalchemize/__init__.py
+sqlalchemize.egg-info/PKG-INFO
+sqlalchemize.egg-info/SOURCES.txt
+sqlalchemize.egg-info/dependency_links.txt
+sqlalchemize.egg-info/requires.txt
+sqlalchemize.egg-info/top_level.txt
