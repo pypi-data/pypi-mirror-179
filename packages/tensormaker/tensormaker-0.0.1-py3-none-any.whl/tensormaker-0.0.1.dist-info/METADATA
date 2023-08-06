@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tensormaker
+Version: 0.0.1
+Summary: tensormaker: a powerful tensorizing toolkit based on Pytorch
+Home-page: https://github.com/tnbar/tensormaker
+Author: tnbar
+Maintainer: tnbar
+License: BSD 3-Clause License
+Platform: any
+License-File: LICENSE
+
+A powerful tensorizing toolkit based on Pytorch.
