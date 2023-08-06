@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyonce.py
+setup.py
+pyonce.egg-info/PKG-INFO
+pyonce.egg-info/SOURCES.txt
+pyonce.egg-info/dependency_links.txt
+pyonce.egg-info/top_level.txt
