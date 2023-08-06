@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: TeraApp
+Version: 0.3.5
+Summary: A very simple app creator
+Home-page: 
+Author: oren
+Author-email: orennadle@gmail.com
+License: MIT
+Keywords: appcreator computerapps exe app apps creator maker appmaker makerapp makerapps creatorapps appscreator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This package is for creating applications.
+TeraApp Platforms - Windows
+
+``# app = TeraApp('title', x, y 'color')``
+
+``# app = TeraAppWIcon('title', x, y 'logo', 'color')``
+
+``app.txt(args)``
+
+``app.icon(args)``
+
+``app.img(args)``
+
+``app.input(args)``
+
+``app.button(args)``
+
+``app.sidebar(args)``
+
+``app.appbar(args)``
+
+``app.buttonf(args) - button with function``
+
+``app.inputr(args) - input with resize``
+
+``app.buttonfr(args) - button with function and resize``
+
+``app.txtc(args) - text with color``
+
+``app.sound(args)``
+
+``app.gif(args)``
+
+`app.loadingscreen(args)`
+
+
+``app.app.exec()``
