@@ -1,0 +1,27 @@
+py_cover_letters/__init__.py,sha256=MjQOimFfA1ab4W6mZGpn7svvQVadA21ffH1-wmlQiik,474
+py_cover_letters/cli.py,sha256=BlbhZlekkwudDVN7npemj9uqy_gyn-XLLuHLKCIaeKI,1035
+py_cover_letters/cli_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cover_letters/cli_commands/about_cmd.py,sha256=HzrzXWK0-enawIeegOd3WqzYiUdiutnv4fIvBX1b6vc,532
+py_cover_letters/cli_commands/configuration_cmd.py,sha256=6fj8O2NhRppuTVdfsO39oNZ_ZnMS35lzFKaBJ1LlNIs,1934
+py_cover_letters/cli_commands/generate_cmd.py,sha256=YkLXwkhMQTm2zK72c2qZYRWUPRSxU9RSvxxYsfoVPpE,1273
+py_cover_letters/cli_commands/sync_cmd.py,sha256=sndhGFEewNrj3ne8vcR011Nee362daV-VblnF_y-mjI,2573
+py_cover_letters/config.py,sha256=N8RuUc4NLTrOnAvjLA-Z8gz8BnlVG7sW485oaR9asI4,4285
+py_cover_letters/constants.py,sha256=_xXBED6jJzN7zfqzBRQzOSIqfynY6Ohxb_x0DniwCPs,1156
+py_cover_letters/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cover_letters/db/excel.py,sha256=o7UhKRd2FGnzOwSf-jGKEBXXCr2FR6M6AYDDZS3j19M,3042
+py_cover_letters/db/managers.py,sha256=3jARhh2sPBrm6uPTh2wJQXOVipOIbJg5NXbHtZ15LF0,4938
+py_cover_letters/db/models.py,sha256=QXGnTSPVe9pw9RdQhINkq3KqPLflUHvjgfxsSUhnJ0A,883
+py_cover_letters/db/sqlite.py,sha256=0zJuAKzU7e91sfC4oiUxXZTF6yRjPsBtSQRlYU_MDHg,3108
+py_cover_letters/db/synchronizers.py,sha256=vk5aYFIC9n6XOx4w1h7xSjFGjOEjGsz4JpugQov5lEc,2384
+py_cover_letters/enums.py,sha256=paCXtxfGHDxuyR-qCRQSqQ6sSZQqZirzYCl6kVp9tUA,204
+py_cover_letters/exceptions.py,sha256=is_i89hJEtr2OcrHNNYnEA2Chppa_vT6zHvEh8lchfk,242
+py_cover_letters/generators.py,sha256=d03egetXCMXoVrS43PVQpIOjnsJNeD7UhOAi1_hyyFQ,3219
+py_cover_letters/mail.py,sha256=fZl0f_-szrZoGYBxVoP6QT_BmaXwrsbPY6fLJxX2038,2553
+py_cover_letters/templates/Cover Letter Template.docx,sha256=c1tOrJ6VtaOTFcst0o1zWY3ctKLq__tNmF5sKQZjy-4,6791
+py_cover_letters/templates/email_static_txt.txt,sha256=VHBhXPl9oE503L9wP7iCGvW6xpWaT30TFCm7IYSDGCI,127
+py_cover_letters/utils.py,sha256=Mxs0DNDwxEQTK_orLHOajkyymD6wl5VSMZ7rh60bxxs,2856
+py_cover_letters-0.3.0.dist-info/entry_points.txt,sha256=GvuBfz4y2MEQTmF0xZ49Nuq_4C4yL8pj4e2B2UjkPTA,62
+py_cover_letters-0.3.0.dist-info/LICENSE,sha256=yYVzfUlGQuL8AEiYWD7ezR6BgYR4_401mwQMw8Eryp0,1074
+py_cover_letters-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+py_cover_letters-0.3.0.dist-info/METADATA,sha256=xI4ujRMtqDa56dp6igE2Z7_CcKvLTFjvYmBRy6D4RNY,2307
+py_cover_letters-0.3.0.dist-info/RECORD,,
