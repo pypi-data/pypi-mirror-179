@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: accutuning-helpers
+Version: 1.0.33
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cleanlab (>=1.0)
+Requires-Dist: conllu (==4.4.1)
+Requires-Dist: ctgan (==0.4.3)
+Requires-Dist: customized-konlpy
+Requires-Dist: datasets (>=2.3.2)
+Requires-Dist: flair (==0.11.3)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: konlpy (==0.6)
+Requires-Dist: langid (>=1.1.6)
+Requires-Dist: lightgbm (==3.3.2)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas (==1.1.4)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: scipy (==1.5.2)
+Requires-Dist: sentence-transformers (>=2.2)
+Requires-Dist: sentencepiece (>=0.1.95)
+Requires-Dist: tweepy (>=3.7.0)
+Requires-Dist: xgboost (==1.6.1)
+
+UNKNOWN
+
+
