@@ -1,0 +1,8 @@
+README.md
+setup.py
+cnfx/__init__.py
+cnfx/cnfx.py
+cnfx.egg-info/PKG-INFO
+cnfx.egg-info/SOURCES.txt
+cnfx.egg-info/dependency_links.txt
+cnfx.egg-info/top_level.txt
