@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: file-writer-MS
+Version: 0.0.1
+Summary: File Writer package
+Home-page: UNKNOWN
+Author: Mohsen Sadi
+Author-email: <mohsen.sadi@gmail.com>
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+
+File writer package written by Mohsen Sadi
+
