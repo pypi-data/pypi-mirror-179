@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "alpinejsstate"
+version = "0.0.1"
+description = ""
+authors = ["Thiago César <k1mbl3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pscript = "^0.7.7"
+jsbeautifier = "^1.14.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
