@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: gqlrequests
+Version: 0.0.2
+Summary: A Python library for making GraphQL requests easier!
+Home-page: https://github.com/BeatsuDev/GraphQLRequests
+Author: BeatsuDev
+Author-email: 
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gqlrequests - A Python library for making GraphQL requests easier!
+Define GraphQL types in Python, then use them to build queries super easy:
+```py
+from gqlrequests import GraphQLType
+from gqlrequests.primitives import *
+
+# All the primitive types available
+# from gqlrequests.primitives import ID
+# from gqlrequests.primitives import Int
+# from gqlrequests.primitives import Float
+# from gqlrequests.primitives import String
+# from gqlrequests.primitives import Boolean
+
+
+class Episode(GraphQLType):
+    name = String
+    length = Float
+
+class Character(GraphQLType):
+    name = String
+    appearsIn = [Episode]
+
+print(Character())
+# type Character {
+#     appearsIn: [Episode]
+#     name: String
+# }
+#
+
+print(Character.query())
+# {
+#     appearsIn {
+#         name
+#         length
+#     }
+#     name
+# } 
+
+print(Character.query("name"))
+# {
+#     name
+# } 
+
+print(Character.query(indent=2)) # Default indent is 4
+# {
+#   appearsIn {
+#     name
+#     length
+#   }
+#   name
+# } 
+```
