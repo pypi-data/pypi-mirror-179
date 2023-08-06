@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/nucwf/__init__.py
+src/nucwf/access.py
+src/nucwf.egg-info/PKG-INFO
+src/nucwf.egg-info/SOURCES.txt
+src/nucwf.egg-info/dependency_links.txt
+src/nucwf.egg-info/requires.txt
+src/nucwf.egg-info/top_level.txt
