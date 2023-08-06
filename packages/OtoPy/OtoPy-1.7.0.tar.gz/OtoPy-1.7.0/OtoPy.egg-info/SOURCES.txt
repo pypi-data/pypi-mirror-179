@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+OtoPy/Branding.py
+OtoPy/UsefulTools.py
+OtoPy/__init__.py
+OtoPy.egg-info/PKG-INFO
+OtoPy.egg-info/SOURCES.txt
+OtoPy.egg-info/dependency_links.txt
+OtoPy.egg-info/top_level.txt
