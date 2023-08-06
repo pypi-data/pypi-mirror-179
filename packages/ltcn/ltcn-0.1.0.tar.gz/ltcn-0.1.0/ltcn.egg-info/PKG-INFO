@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ltcn
+Version: 0.1.0
+Summary: Long-term Cognitive Networks for pattern classification
+Home-page: https://github.com/gnapoles/ltcn-classifier
+Author: Gonzalo Nápoles
+Author-email: g.r.napoles@uvt.nl
+License: MIT License
+Description: This package introduces the Long-Term Cognitive Network (LTCN) model for structured pattern classification problems. This recurrent neural network incorporates a quasi-nonlinear reasoning rule that allows controlling the amount of non-linearity in the reasoning mechanism. Furthermore, this neural classifier uses a recurrence-aware decision model that evades the issues posed by the unique fixed point while introducing a deterministic learning algorithm to compute the tunable parameters. The experiments in the original paper show that this classifier obtains competitive results when compared to state-of-the-art white and black-box models.
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.8
