@@ -1,0 +1,7 @@
+src/aoclib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/aoclib/lib.py,sha256=EQskq2BuU3W-UohUIJhia-SUGCyUYqzuTnrTk5_gjwE,1871
+src/aoclib/load_config.py,sha256=OOMWY9IWehp-47TobXabyapdJrx3nn9qI5Guge3LFHU,221
+python_aoclib-0.1.0.dist-info/LICENSE,sha256=yFJ-nBNKTEphXBQ5QsGd6e4dOR88GWa1n5mc0blNw3w,1064
+python_aoclib-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+python_aoclib-0.1.0.dist-info/METADATA,sha256=M7F5tXRr7UnpAUhh4vhqERJ7eIvAac_oJUvdINtD_4g,537
+python_aoclib-0.1.0.dist-info/RECORD,,
