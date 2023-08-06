@@ -1,0 +1,9 @@
+bolides_bounding_box/__init__.py,sha256=MFpU4ma6ad0JxyJw7xa-jROE4hYxEP6KhS2mK7pKZ8k,69
+bolides_bounding_box/bolide.py,sha256=U9twDgnW1v1uunZtFKdOwDEPaUn3mK9CU6VImYn0i8w,3290
+bolides_bounding_box/bounding_box.py,sha256=biUOCZlVGbQ9iEkJ575vW1mxGFOY2_D-FradQBtegSs,4285
+bolides_bounding_box/utils.py,sha256=IoHEHxDcr7DT7XjD5OGcO61J9bqVl-WH6RtO-OieACE,7410
+bolides_bounding_box-0.0.7.dist-info/LICENSE,sha256=OnxHqOrc-hyLlf_fz0-EmkN6wPp0kt0NeMbtP1OKTvA,1063
+bolides_bounding_box-0.0.7.dist-info/METADATA,sha256=jRNu6VcLyrMcqF5lieJNj8VXh1t2JQAAYw5hzu4qxsk,611
+bolides_bounding_box-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bolides_bounding_box-0.0.7.dist-info/top_level.txt,sha256=-s5Y_CJQ1P9-_sJvLacRBf81M8kEuu267sHiW8sCzLo,21
+bolides_bounding_box-0.0.7.dist-info/RECORD,,
