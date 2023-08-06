@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+core/__init__.py
+core/platform.py
+flowbot/__init__.py
+indicator/__init__.py
+orderflow.egg-info/PKG-INFO
+orderflow.egg-info/SOURCES.txt
+orderflow.egg-info/dependency_links.txt
+orderflow.egg-info/top_level.txt
+platforms/__init__.py
