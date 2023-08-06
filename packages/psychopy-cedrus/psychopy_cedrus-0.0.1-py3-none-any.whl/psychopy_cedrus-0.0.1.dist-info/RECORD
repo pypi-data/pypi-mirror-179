@@ -1,0 +1,15 @@
+psychopy_cedrus/__init__.py,sha256=m9KzJpEcrPk3Vyct_xCBEY_fwZEx9n6vAf-RYSLQbh4,367
+psychopy_cedrus/cedrus.py,sha256=kLQHL7HcQzVmwIE7UPofIbCsnWGJ7EXvAsWIP7AnwEQ,6876
+psychopy_cedrus/cedrusBox/__init__.py,sha256=_wYVp1hQDfcDTbruVDLPTutA4JPbdCQzH14eXCx7tKc,13101
+psychopy_cedrus/cedrusBox/classic/cedrus@2x.png,sha256=PPK3pZauC7em067Qh762dDE2Yd3BFchdT_HzSQnowXU,4997
+psychopy_cedrus/cedrusBox/classic/cedrusBox.png,sha256=Y4Jr5cy0WQtP9AdfL_Uap4rjXFEdkXwro5e0lwZYaWs,1426
+psychopy_cedrus/cedrusBox/dark/cedrusBox.png,sha256=tnDu6uqEIHe9nNISnYSr5Q3xeyB--T-0yOILtoS33Ss,855
+psychopy_cedrus/cedrusBox/dark/cedrusBox@2x.png,sha256=8Tyg6ph2YoCu2DiVsbisc62p0JdKwvnKuX43wafwNfc,1606
+psychopy_cedrus/cedrusBox/light/cedrusBox.png,sha256=eUWVjOhNBctFwtEIRTWi8tpGmuaZzS_BDsH-jNRUVSM,841
+psychopy_cedrus/cedrusBox/light/cedrusBox@2x.png,sha256=Ko713_UomPTZnTEg5ELjYWY5CSzEf9F4CrCJo2EWQS0,1606
+psychopy_cedrus-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+psychopy_cedrus-0.0.1.dist-info/METADATA,sha256=rzbmWcB8Ji4r9-q9PH0yJj5lGTYINNIqF1qnG353NYU,1719
+psychopy_cedrus-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+psychopy_cedrus-0.0.1.dist-info/entry_points.txt,sha256=BAaekTzLzgpDZovyaFTZWWCpFdsHJrdUgXpAVCtKf3g,101
+psychopy_cedrus-0.0.1.dist-info/top_level.txt,sha256=opn3wHlyDYJ1y9lTkle1NRFyl3HocKCS8EcKStENp_E,16
+psychopy_cedrus-0.0.1.dist-info/RECORD,,

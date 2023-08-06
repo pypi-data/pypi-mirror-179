@@ -1,0 +1,2 @@
+[psychopy.experiment.components]
+cedrusButtonBoxComponent = psychopy_cedrus:cedrusButtonBoxComponent
