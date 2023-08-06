@@ -1,0 +1,5 @@
+cazy_webscraper
+biopython
+pandas
+tqdm
+saintbioutils
