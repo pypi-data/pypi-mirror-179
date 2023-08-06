@@ -1,0 +1,6 @@
+README.md
+setup.py
+sanderpdf.egg-info/PKG-INFO
+sanderpdf.egg-info/SOURCES.txt
+sanderpdf.egg-info/dependency_links.txt
+sanderpdf.egg-info/top_level.txt
