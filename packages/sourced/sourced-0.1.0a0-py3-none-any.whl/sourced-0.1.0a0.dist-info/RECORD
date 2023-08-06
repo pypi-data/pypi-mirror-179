@@ -1,0 +1,14 @@
+sourced/__init__.py,sha256=TRUhVzYVs7udTpGk75uLtq0-BVfIu4iFY2Szm6kGUmE,72
+sourced/__main__.py,sha256=qzruQKo7RvIeeZxrZmbhiUIFF1pz45K3a24xCC4e2rI,789
+sourced/analyze.py,sha256=aOn2FciaOD4ww3lzyqzj2YgvdhYsm-GV_U31VJBctZg,3591
+sourced/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sourced/_internal/parallelization.py,sha256=OXAEOGS9ySKH359dfoDac_j-XQaymqEJW-Ox_ZgI_mk,1707
+sourced/dataset/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sourced/dataset/__main__.py,sha256=OVd2baJeN6FmdRnYPd9AG2r-wNygJm7MNs6JOsQjRkE,2387
+sourced/dataset/db.py,sha256=GJ96cbh8IQYv3-PUjfep43SAjcPrp6-S0JcOZEhK1l0,4976
+sourced/dataset/pypi.py,sha256=I-ReRO-gjErn_xLWjAWDxht_OJ-v6Xh1Te0oPclvEEs,6507
+sourced-0.1.0a0.dist-info/METADATA,sha256=SL8GH-U-IkYmlqJmbVd7n76jRp9eE4OCccOBre0KetA,3441
+sourced-0.1.0a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sourced-0.1.0a0.dist-info/entry_points.txt,sha256=r3deIx59KBCOUEukkHK4Tlh2MY2jmOrkAQplOHYDBp8,50
+sourced-0.1.0a0.dist-info/top_level.txt,sha256=wgGi7uba6xhEQ9s0-caxcIPh6cI4JVMhQDe5BljQMRo,8
+sourced-0.1.0a0.dist-info/RECORD,,

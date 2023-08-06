@@ -1,0 +1,2 @@
+[console_scripts]
+sourced = sourced.__main__:main
