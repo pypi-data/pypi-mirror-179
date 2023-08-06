@@ -1,0 +1,10 @@
+CHANGELOG.rst,sha256=PlvOkCwtuWUs9oc8MUIrIL30BwZj-4jaF2MS9mPTMGk,817
+README.rst,sha256=OvE6YAq-FvBpCmePWotkZGp-v1FtXBdf7WK9SfzQAGQ,2931
+pdfje/__init__.py,sha256=sZNxflqaM3VQOW4w4jiZ1LfSSv1yVvtV3FQGUomt_VA,7242
+pdfje/atoms.py,sha256=29PWJnYpk7PJfn23UsRlj8Mo_UJel2edSKQ9LMxMF_Y,5691
+pdfje/common.py,sha256=YLhpU2lvvKhQK753h3PfYz2auAwXPkkVZrk8A48Ligs,1071
+pdfje/fonts.py,sha256=QC4ILfbv01BblXTVUnHQ25Ly9IGq98ctIyOxwHHoVws,12709
+pdfje/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfje-0.3.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+pdfje-0.3.0.dist-info/METADATA,sha256=J_F1OO_cJdjyiyjrwsFTezizw7XpZOogtpbR8w42q7M,4044
+pdfje-0.3.0.dist-info/RECORD,,
