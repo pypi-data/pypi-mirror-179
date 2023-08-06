@@ -1,0 +1,8 @@
+# temporary stuff
+/__pycache__
+t.py
+/.vscode
+
+# package distribution
+/dist
+/build_and_install.sh
