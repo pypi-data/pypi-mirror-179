@@ -1,0 +1,2 @@
+[console_scripts]
+anonymise = dcm_anon.__main__:main
