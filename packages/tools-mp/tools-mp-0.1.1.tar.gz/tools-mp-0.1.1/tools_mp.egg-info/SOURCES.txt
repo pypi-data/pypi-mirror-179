@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tools_mp/__init__.py
+tools_mp/multiprocessor.py
+tools_mp.egg-info/PKG-INFO
+tools_mp.egg-info/SOURCES.txt
+tools_mp.egg-info/dependency_links.txt
+tools_mp.egg-info/requires.txt
+tools_mp.egg-info/top_level.txt
+tools_mp.egg-info/zip-safe

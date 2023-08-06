@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: tools-mp
+Version: 0.1.1
+Summary: Convenient multiprocessing function for Python
+Home-page: https://github.com/paul-krug/tools-mp
+Author: Paul Krug
+Author-email: paul_konstantin.krug@tu-dresden.de
+License: MIT
+Keywords: multiprocessing,Python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tools-mp
+
+This Python library provides a convenient one-line multiprocessing option that can be used as follows:
+
+```Python
+from tools_mp import multiprocess
+
+def any_function( arg_1, arg_2, ..., arg_n ):
+	do something
+	return result
+
+args = [ 
+	{
+		'arg_1': arg_1,
+		'arg_2': arg_2,
+		...
+		'arg_n': arg_n,
+		} for arg_1, arg_2, ..., arg_n in arguments
+	]
+
+data = multiprocess(
+	function = any_function,
+	args = args,
+	return_data = True,
+	verbose = True,
+	workers = 8,
+	)
+```
+
+If verbose=True, the progress of the calculation will be visualized via the [tqdm](https://pypi.org/project/tqdm/) library.
+If workers=None (default) all available CPU cores will be used for processing.
+
+
+# Installation
+
+    pip install tools-mp
+
