@@ -1,0 +1,3 @@
+[console_scripts]
+tapshex=tapshex.cli:cli
+
