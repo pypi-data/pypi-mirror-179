@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+streamlit_img_label_ita/__init__.py
+streamlit_img_label_ita/annotation.py
+streamlit_img_label_ita/manage.py
+streamlit_img_label_ita.egg-info/PKG-INFO
+streamlit_img_label_ita.egg-info/SOURCES.txt
+streamlit_img_label_ita.egg-info/dependency_links.txt
+streamlit_img_label_ita.egg-info/requires.txt
+streamlit_img_label_ita.egg-info/top_level.txt
