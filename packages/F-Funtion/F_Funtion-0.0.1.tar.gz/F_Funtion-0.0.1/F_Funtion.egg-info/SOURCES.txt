@@ -1,0 +1,8 @@
+README.md
+setup.py
+F_Funtion/__init__.py
+F_Funtion/ffunction.py
+F_Funtion.egg-info/PKG-INFO
+F_Funtion.egg-info/SOURCES.txt
+F_Funtion.egg-info/dependency_links.txt
+F_Funtion.egg-info/top_level.txt
