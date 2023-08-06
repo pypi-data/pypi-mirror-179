@@ -1,0 +1,7 @@
+LICENSE
+README.rst
+setup.py
+kangface.egg-info/PKG-INFO
+kangface.egg-info/SOURCES.txt
+kangface.egg-info/dependency_links.txt
+kangface.egg-info/top_level.txt
