@@ -1,0 +1,94 @@
+\section{The [[AutologinSession]] class}
+
+Here we document the [[weblogin]] main module.
+We provide an abstract class, [[weblogin.AutologinSession]], through which we 
+interact with the web page's API.
+This is a subclass to [[requests.Session]] and intercepts responses to check 
+for redirects to the login service.
+If we detect a redirect to the login service, we automatically log in, then 
+return the new response.
+The logging in will become completely invisible, as if it never happened.
+<<init.py>>=
+import requests
+
+<<exceptions>>
+<<classes>>
+
+class AutologinSession(requests.Session):
+  """
+  Maintains an authenticated session to a web system. This class intercepts any 
+  requests made in a requests.Session and ensures that we log in when 
+  redirected to the login page.
+  """
+
+  def __init__(self, handlers):
+    """
+    Takes a list of handlers. A handler should derive from AutologinHandler.
+    """
+    super().__init__()
+    self.__handlers = handlers
+
+  def request(self, *args, **kwargs):
+    """
+    Wrapper around requests.Session.request(...) to check we must log in.
+    """
+    response = super().request(*args, **kwargs)
+    
+    <<log in if necessary>>
+
+    return response
+@
+
+\subsection{The [[AutologinHandler]] abstract class}
+
+A handler should derive from this class:
+<<classes>>=
+class AutologinHandler:
+  """
+  An abstract class for a handler for the AutologinSession class.
+  """
+
+  def login(self, session, response, args=None, kwargs=None):
+    """
+    Performs a login based on the response from a request.
+    - `session` is an instance of requests.Session, most likely an instance of 
+      AutologinSession.
+    - `response` is the response of the latest request.
+    - `args` and `kwargs` are the options from the latest request, this is so 
+      that we can redo that request after logging in.
+
+    Raises an AuthenticationError exception if authentication fails.
+    """
+    raise NotImplementedError()
+
+  def need_login(self, response):
+    """
+    Checks a response to determine if logging in is needed,
+    returns True if needed.
+    """
+    raise NotImplementedError()
+@
+
+\subsection{Errors}
+
+We must report authentication errors.
+For this we need specialized exceptions.
+<<exceptions>>=
+class AuthenticationError(Exception):
+  pass
+@
+
+\subsection{Log in if necessary}
+
+The login procedure is quite straightforward, we simply call each handler.
+Each handler will itself keep track of state if they require several steps when 
+logging in.
+Each handler will possibly update the response for the next handler.
+<<log in if necessary>>=
+for handler in self.__handlers:
+  if handler.need_login(response):
+    response = handler.login(self, response, args, kwargs)
+@
+
+The benefit of this design comes when trying to log in using an SSO:
+We first have a handler for the main service and another handler for the SSO.
