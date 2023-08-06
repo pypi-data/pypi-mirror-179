@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+al_adhan.egg-info/PKG-INFO
+al_adhan.egg-info/SOURCES.txt
+al_adhan.egg-info/dependency_links.txt
+al_adhan.egg-info/requires.txt
+al_adhan.egg-info/top_level.txt
+aladhan/__init__.py
