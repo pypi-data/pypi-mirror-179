@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/MBCalculator/Calc.py
+src/MBCalculator/__init__.py
+src/MBCalculator.egg-info/PKG-INFO
+src/MBCalculator.egg-info/SOURCES.txt
+src/MBCalculator.egg-info/dependency_links.txt
+src/MBCalculator.egg-info/requires.txt
+src/MBCalculator.egg-info/top_level.txt

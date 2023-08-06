@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MBCalculator"
+version = "0.0.2"
+authors = [
+  { name="Murat Bilginer", email="muratbilginer09@gmail.com" },
+]
+description = "Bu Bir Hesap Makinesi Modülüdür - Toplama, Çıkarma, Bölme ve Çarpma İşlemi Yapar"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MuratBilginerSoft/Calc"
+"Bug Tracker" = "https://github.com/MuratBilginerSoft/Calc/issues"
