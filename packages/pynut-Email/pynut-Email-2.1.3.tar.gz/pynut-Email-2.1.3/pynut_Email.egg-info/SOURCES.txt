@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pyNutEmail/__init__.py
+pyNutEmail/_lib.py
+pyNutEmail/nutEmail.py
+pynut_Email.egg-info/PKG-INFO
+pynut_Email.egg-info/SOURCES.txt
+pynut_Email.egg-info/dependency_links.txt
+pynut_Email.egg-info/requires.txt
+pynut_Email.egg-info/top_level.txt
+test/test_nutEmail.py
