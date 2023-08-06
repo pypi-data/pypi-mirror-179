@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: jobs_supervisor
+Version: 0.2.1
+Summary: Common tools used by Yan
+Home-page: UNKNOWN
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Setup Guide
+
+1. Get webhook from your Feishu Bot. 
+
+2. Export and set webhook 'JOBS_SUPERVISOR_WEBHOOK' in your ~/.basrc. For example:
+``export JOBS_SUPERVISOR_WEBHOOK=https://open.feishu.cn/your-webhook``
+
+3. Export and set the directory 'JOBS_SUPERVISOR_LOGDIR' to save your sbatch output in your ~/.basrc. For example:
+``export JOBS_SUPERVISOR_LOGDIR=path_to_log_files``
+
+3. Run `source ~/.basrc`
+
+4. Install this python package by `pip istall jobs_supervisor`
+
+## Usage
+
+Assume 'jobid_start' and 'jobid_end' are int.
+
+In terminal:
+``supervise_jobs jobid_start jobid_end``
+
+You can run `supervise_jobs --help` for more configs
+
+
+
+
+
