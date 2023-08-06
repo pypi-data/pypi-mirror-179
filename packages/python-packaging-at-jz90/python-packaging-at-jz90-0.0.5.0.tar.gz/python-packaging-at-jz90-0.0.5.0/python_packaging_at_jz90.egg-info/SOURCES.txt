@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+python_packaging_at_jz90/__init__.py
+python_packaging_at_jz90/maths.py
+python_packaging_at_jz90.egg-info/PKG-INFO
+python_packaging_at_jz90.egg-info/SOURCES.txt
+python_packaging_at_jz90.egg-info/dependency_links.txt
+python_packaging_at_jz90.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+[project]
+name = "python-packaging-at-jz90"
+authors = [{name="JoeZiminski", email="j.ziminski@ucl.ac.uk"}]
+description = "A test python package"
+readme = "README.md"
+requires-python = ">=3.8.0"
+dynamic = ["version"]
+
+license = {text = "BSD-3-Clause"}
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "setuptools.build_meta"
+[tool.setuptools_scm]
