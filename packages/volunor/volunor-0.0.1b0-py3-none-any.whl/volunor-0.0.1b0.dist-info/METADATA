@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: volunor
+Version: 0.0.1b0
+Summary: Command line tools, with ease
+License: MIT
+Author: Thomas Mahe
+Author-email: contact@tmahe.dev
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://i.postimg.cc/15sX0dQZ/test.png" alt="Logo" width="125" height="125">
+  </a>
+
+  <h3><b>Völunðr</b></h3>
+  <i>Command Line Tools with ease</i>
+</div>
+
+## Run tests
+
+### Install dependencies
+
+```shell
+sudo apt install "^python3\.(7|8|9|10|11)-venv$"
+pip install poetry tox
+```
+
