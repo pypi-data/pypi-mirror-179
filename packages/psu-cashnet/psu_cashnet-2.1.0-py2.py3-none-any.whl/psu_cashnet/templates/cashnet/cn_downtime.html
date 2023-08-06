@@ -1,0 +1,27 @@
+{% load base_taglib %}
+{%if cn_next_fye_downtime%}
+    {%if cn_next_fye_downtime.is_active%}
+        <div class="alert alert-danger" id="cn_alert_message">
+            <b>{%fa fa-credit-card fa-fw%} Credit card payments are disabled for fiscal year end processing.</b>
+            <em class="indent" style="display:block;margin-top:7px;">
+                Credit card payments will become available {{cn_next_fye_downtime.until_date_display}}
+                ({{cn_next_fye_downtime.end_cd.humanized}})
+            </em>
+
+        </div>
+    {%elif cn_next_fye_downtime.minutes_until_start < 30%}
+        <div class="alert alert-info" id="cn_alert_message">
+            <b>{%fa fa-credit-card fa-fw%} Credit card processing will be disabled</b>
+            for fiscal year end processing at {{cn_next_fye_downtime.from_date_display}}
+            <em>({{cn_next_fye_downtime.from_date_description}})</em>
+            <em class="indent" style="display:block;margin-top:7px;">
+                Payments will be unavailable
+                {{cn_next_fye_downtime.from_date_description}} until {{cn_next_fye_downtime.until_date_display}}
+            </em>
+        </div>
+    {%endif%}
+
+    <script type="text/javascript">
+        $("#cn_alert_message").insertAfter(".header-container");
+    </script>
+{%endif%}
