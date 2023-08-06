@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: zwjira
+Version: 0.1.1
+Summary: A JIRA workflow automation toolset for personal use
+Home-page: https://github.com/neothenil/zwjira
+License: MIT
+Keywords: automation
+Author: neothenil
+Author-email: 727549953@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: atlassian-python-api (>=3.31.1,<4.0.0)
+Requires-Dist: jira (>=3.4.1,<4.0.0)
+Project-URL: Repository, https://github.com/neothenil/zwjira
+Description-Content-Type: text/markdown
+
+A JIRA workflow automation toolset for personal use.
+
