@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sharez
+Version: 0.1.0
+Summary: Share files easily inside your local network
+Home-page: https://github.com/mbroton/sharez
+Author: Michal Broton
+Author-email: michal@broton.dev
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sharez
+
+sharez allows to share directories to your local network from your terminal.
+
+![demo](https://user-images.githubusercontent.com/50829834/205449576-61926b53-c855-464c-9fbf-4caa75b99c88.png)
+
+This is basically a copy of [parvardegr/sharing](https://github.com/parvardegr/sharing), but written in Python. Also, it's less advanced. I kept it as simple as possible.
+
+## Installation
+
+```sh
+pip install sharez
+```
+
+## Usage
+
+```sh
+sharez <directory_path>
+```
+
+Use `sharez -h` for more details.
+
+## License
+
+Distributed under the MIT License. See LICENSE for more information.

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sharez/__init__.py
+sharez/__main__.py
+sharez.egg-info/PKG-INFO
+sharez.egg-info/SOURCES.txt
+sharez.egg-info/dependency_links.txt
+sharez.egg-info/entry_points.txt
+sharez.egg-info/requires.txt
+sharez.egg-info/top_level.txt
