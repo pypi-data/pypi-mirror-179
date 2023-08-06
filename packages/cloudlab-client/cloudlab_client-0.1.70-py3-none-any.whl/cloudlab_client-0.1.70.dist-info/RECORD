@@ -1,0 +1,6 @@
+cloudlab_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudlab_client/client.py,sha256=HTpG3iclLWq7a6OyinKdXdRhtxB9ovqWGyiaQKakh2E,8203
+cloudlab_client/test_client.py,sha256=aZ15bZFw_6VpRJar3H9uZLFgcnv5aXRSKe1TMzHACZg,1635
+cloudlab_client-0.1.70.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+cloudlab_client-0.1.70.dist-info/METADATA,sha256=PMUbD0cSLhxIeoMEDqlOVGmO9HdvDqbl_IKGnz0B1Xs,1563
+cloudlab_client-0.1.70.dist-info/RECORD,,
