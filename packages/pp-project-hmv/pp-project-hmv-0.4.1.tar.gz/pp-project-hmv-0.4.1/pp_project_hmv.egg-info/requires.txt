@@ -1,0 +1,10 @@
+numpy
+pandas
+
+[dev]
+pytest
+setuptools_scm
+flake8
+black
+mypy
+pre-commit

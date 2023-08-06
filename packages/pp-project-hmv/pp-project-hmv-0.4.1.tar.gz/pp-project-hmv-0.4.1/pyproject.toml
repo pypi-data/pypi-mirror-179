@@ -1,0 +1,54 @@
+[project]
+name = "pp-project-hmv"
+authors = [{name = "Hernando M Vergara", email= "code@hmv.com"}]
+description = "Example of how to package Python projects"
+readme = "README.md"
+requires-python = ">=3.8.0"
+dynamic = ["version"] # this means it will get infered automatically
+license = {text = "BSD-3-Clause"}
+dependencies = [
+    "numpy",
+    "pandas",
+]
+
+
+[build-system]
+requires = [
+    "setuptools>=45",
+    "wheel",
+    "setuptools_scm[toml]>=6.2",
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools_scm]
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "setuptools_scm",
+    "flake8",
+    "black",
+    "mypy",
+    "pre-commit"
+]
+
+
+[tool.black]
+target-version = ['py38', 'py39', 'py310']
+skip-string-normalization = false
+line-length = 79
+exclude = '''
+(
+  /(
+      \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | _build
+    | build
+    | dist
+  )/
+)
+'''
