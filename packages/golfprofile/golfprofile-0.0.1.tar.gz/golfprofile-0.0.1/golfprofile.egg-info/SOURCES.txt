@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+golfprofile/__init__.py
+golfprofile/myprofile.py
+golfprofile.egg-info/PKG-INFO
+golfprofile.egg-info/SOURCES.txt
+golfprofile.egg-info/dependency_links.txt
+golfprofile.egg-info/top_level.txt
