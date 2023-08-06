@@ -1,0 +1,6 @@
+README.md
+setup.py
+frf_xmap_coordinates.egg-info/PKG-INFO
+frf_xmap_coordinates.egg-info/SOURCES.txt
+frf_xmap_coordinates.egg-info/dependency_links.txt
+frf_xmap_coordinates.egg-info/top_level.txt
