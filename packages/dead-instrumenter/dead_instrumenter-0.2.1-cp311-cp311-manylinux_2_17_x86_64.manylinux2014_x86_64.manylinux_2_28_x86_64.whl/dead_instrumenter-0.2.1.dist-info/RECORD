@@ -1,0 +1,10 @@
+dummy.cpython-311-x86_64-linux-gnu.so,sha256=-ujxhjQRMDtVTvaMPoduQKukvy7YgN-LJVkwhcRQ1jc,695032
+dead_instrumenter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dead_instrumenter/instrumenter.py,sha256=KeGz0kq7RqIxwai6ouA-Mz5_O4xCjgK0fqIQyLRS67s,7178
+dead_instrumenter/dead-instrument,sha256=S0ClGnAC4ixpw5wjUW-94edbVDFq2X_fV-t1eRjOvMg,46824152
+dead_instrumenter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dead_instrumenter-0.2.1.dist-info/WHEEL,sha256=CDxWsmsqGHhhtQPwEBZukRpX9g76_V5FHB3Ff2-I2C8,191
+dead_instrumenter-0.2.1.dist-info/METADATA,sha256=B4FzJiu4YEgmCJDSNNTiP6Ma632_Xl3S95eR46854wE,2738
+dead_instrumenter-0.2.1.dist-info/RECORD,,
+dead_instrumenter-0.2.1.dist-info/LICENSE,sha256=5IAmkMizIfpnNp7HQwsZrGMD7jXl5oq2c_hdJRnu1y4,11351
+dead_instrumenter-0.2.1.dist-info/top_level.txt,sha256=d0VT5QPn4oDTsjKgVOybFFn0cZcKpYRjMV9wDElvgD8,24
