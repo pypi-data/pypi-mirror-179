@@ -1,0 +1,64 @@
+<!---
+SPDX-FileCopyrightText: 2022 Dominik Vilsmeier
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
+
+[![Documentation Status](https://readthedocs.org/projects/accinv/badge/?version=latest)](https://accinv.readthedocs.io/en/latest/)
+[![PyPI versions](https://img.shields.io/pypi/v/accinv.svg)](https://pypi.org/project/accinv/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/accinv.svg)](https://pypi.org/project/accinv/)
+
+
+# (acc)<sup>-1</sup>
+
+*accinv - Python project for inverse modeling of accelerator lattices*
+
+-----
+
+**Note:** This project is in proof-of-concept stage and therefore lacks more advanced features
+of some of the implemented methods.
+
+-----
+
+In its current state, the package provides functionality for inverse modeling of linear optics
+via fitting of orbit response matrix (ORM) data, typically referred to as linear optics
+from closed orbits. It supports [`cpymad`](https://pypi.org/project/cpymad/) as a backend.
+
+The main class is `accinv.loco.Loco` which requires one of the models from `accinv.model`, as well as
+a method for computing Jacobians, as an argument.
+Two methods for Jacobian computation are available.
+
+* `AnalyticalJacobianMethod`: This method uses an analytical formula to compute the Jacobian of the ORM
+  with respect to quadrupole gradient errors and BPM and steerer gain errors. The data for the
+  analytical formula is obtained from a single Twiss call for the current lattice configuration.
+* `NumericalMJacobianMethod`: This method uses a finite difference approximation scheme to compute the Jacobian of
+  the ORM with respect to the quadrupole gradient errors. Thus, the number of ORMs that will be computed 
+  is proportional to the number of quadrupoles.
+
+The inverse modeling process can be started by creating a `Loco` object and calling its `run` method:
+
+```py
+from accinv.jacobian import AnalyticalJacobianMethod
+from accinv.loco import Loco, OrmMeasurement
+from accinv.model import Madx
+
+model = Madx(path='path/to/script.madx')
+loco = Loco(
+    model_and_jacobian_method=(model, AnalyticalJacobianMethod),
+    quadrupoles=[...],  # names of quadrupoles
+    hbpms=[...],        # names of horizontal BPMs
+    hsteerers=[...],    # names of horizontal steerers
+    vbpms=[...],        # names of vertical BPMs
+    vsteerers=[...],    # names of vertical steerers
+    orm_measurement=OrmMeasurement(
+      orm=np.load('path/to/measured_orm.npy'),
+      uncertainty=np.load('path/to/orm_uncertainty.npy'),
+  ),
+)
+result = loco.run()
+```
+
+Please consider the documentation of the
+[`Loco` class](https://accinv.readthedocs.io/en/latest/api/accinv.loco.html#accinv.loco.Loco)
+for more details.

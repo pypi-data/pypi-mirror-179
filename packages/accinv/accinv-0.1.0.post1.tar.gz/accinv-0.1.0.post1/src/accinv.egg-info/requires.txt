@@ -1,0 +1,17 @@
+click
+cpymad
+numpy
+scipy
+typing_extensions>=4.0.0
+
+[develop]
+flake8
+mypy
+pre-commit
+reuse
+
+[docs]
+sphinx
+
+[tests]
+pytest
