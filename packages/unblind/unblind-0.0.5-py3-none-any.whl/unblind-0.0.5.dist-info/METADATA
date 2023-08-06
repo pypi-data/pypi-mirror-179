@@ -1,0 +1,221 @@
+Metadata-Version: 2.1
+Name: unblind
+Version: 0.0.5
+Summary: Unblind is a Python package to create data visualizations from data of the Plataforma Digital Nacional, Sistema Nacional Anticorrupción
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow (==9.3.0)
+Requires-Dist: Pygments (==2.13.0)
+Requires-Dist: SecretStorage (==3.3.3)
+Requires-Dist: asttokens (==2.2.0)
+Requires-Dist: autopep8 (==2.0.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: bleach (==5.0.1)
+Requires-Dist: build (==0.9.0)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: contourpy (==1.0.6)
+Requires-Dist: cryptography (==38.0.4)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: debugpy (==1.6.4)
+Requires-Dist: decorator (==5.1.1)
+Requires-Dist: docutils (==0.19)
+Requires-Dist: entrypoints (==0.4)
+Requires-Dist: executing (==1.2.0)
+Requires-Dist: fonttools (==4.38.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: importlib-metadata (==5.1.0)
+Requires-Dist: ipykernel (==6.17.1)
+Requires-Dist: ipython (==8.7.0)
+Requires-Dist: jaraco.classes (==3.2.3)
+Requires-Dist: jedi (==0.18.2)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: joblib (==1.2.0)
+Requires-Dist: jupyter-client (==7.4.7)
+Requires-Dist: jupyter-core (==5.1.0)
+Requires-Dist: keyring (==23.11.0)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: matplotlib-inline (==0.1.6)
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: more-itertools (==9.0.0)
+Requires-Dist: nest-asyncio (==1.5.6)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.5.2)
+Requires-Dist: parso (==0.8.3)
+Requires-Dist: pep517 (==0.13.0)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pkginfo (==1.9.2)
+Requires-Dist: platformdirs (==2.5.4)
+Requires-Dist: prompt-toolkit (==3.0.33)
+Requires-Dist: psutil (==5.9.4)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pure-eval (==0.2.2)
+Requires-Dist: pycodestyle (==2.10.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.6)
+Requires-Dist: pyzmq (==24.0.1)
+Requires-Dist: readme-renderer (==37.3)
+Requires-Dist: requests-toolbelt (==0.10.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==12.6.0)
+Requires-Dist: scikit-learn (==1.1.3)
+Requires-Dist: scipy (==1.9.3)
+Requires-Dist: seaborn (==0.12.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: stack-data (==0.6.2)
+Requires-Dist: threadpoolctl (==3.1.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: tornado (==6.2)
+Requires-Dist: traitlets (==5.6.0)
+Requires-Dist: twine (==4.0.2)
+Requires-Dist: typing-extensions (==4.4.0)
+Requires-Dist: urllib3 (==1.26.13)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wget (==3.2)
+Requires-Dist: zipp (==3.11.0)
+
+# Unblind
+Protecto para el Datatón anticorrupción 2022 ✨.
+
+# Descripción 📄
+Librería en Python 🐍 que ayuda en el tratamiento de datos, creación de visualizaciones, y desarrollo de modelos predictivos, para los datos de la Plataforma Digital Nacional. También se creó una página web dinámica con ayuda de [streamlit](https://streamlit.io/) (Véase la rama de [streamlit](https://github.com/Dataket/unblind/tree/streamlit)).
+
+# Requerimientos para el paquete 📦
+- python 3.8+
+- python-env
+
+# Estructura de carpetas 📁
+A continuación ser verá la estructura de carpetas utilizada en nuestro proyecto así como las descripciones de cada uno de los archivos.
+
+```
+.
+├── data
+│   └── process_data
+├── unblind
+│   ├── __init__.py
+│   ├── dataviz.py
+│   ├── etl.py
+│   └── utils.py
+├── LICENSE
+├── README.md
+├── pyproject.toml
+├── requirements.txt
+└── setup.py
+```
+
+- data: Carpeta que guarda todos los datos que son utilizados para los análisis y graficas.
+	- process_data: Los datos de la __PDN__ procesados por nuestro módulo **unblind**. 
+- unblind: Carpeta que alberga todo el código y lógica del paquete.
+	- dataviz.py: Script donde se encuentra toda la lógica de la visualización de datos para el paquete.
+	- etl.py: Script de Python donde está todo lo que tiene que ver con Extracción, Transformación y Carga de los datos para ser utilizados de manera más sencilla y comprensible (sirve mucho para encontrar errores).
+	- utils.py: Script que contiene funciones *"helpers"* que ayudan en la obtención de datos a partir de la API de la PDN.
+
+
+# Setup 🛠
+Para poder correr el código del paquete y ser capaz de hacer cambios en él, se necesitará seguir los siguientes pasos.
+
+1. [¡Haz fork al repositorio!](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+
+2. Clona tu repositorio (sustituye la URL de abajo por la URL de tu fork)
+```bash
+git clone https://github.com/Dataket/unblind.git
+
+cd unblind
+```
+
+3. Crea un ambiente de trabajo con Python-env
+```bash
+python -m venv venv
+```
+y actívalo con
+
+```bash
+# IOS
+source venv/bin/activate
+```
+o con conda de la siguiente manera
+```bash
+conda create -n unblind-env
+```
+
+y actívalo con:
+```bash
+conda activate unblind-env
+```
+
+4. Instala las librerías requeridas: 
+```bash
+pip install -r requirements.txt
+```
+
+5. Y ahora puedes testear todas estas funcionalidades en un notebook, script o lo que quieras necesites.
+
+# Ejemplo de uso 🔎
+
+Vamos a aprender cómo hacer una visualización para el Sistema 2 de la PDN:
+
+1. Importamos la librería y definimos los caminos:
+```python
+# Se importa el módulo unblind
+from unblind import utils, etl, dataviz
+
+# Se define el path de trabajo
+working_path = '/working_path/'
+root_path = working_path+'data/'
+pdn_system = 's2'
+```
+
+2. Descargamos los archivos de los sistemas de la PDN:
+```python
+# Se descargan los sistemas de la PDN
+utils.get_datasets(to_path=root_path)
+```
+
+3. Extraemos y tratamos los datos que nos interesan:
+```python
+# Se definen las palabras clave que nos interesa tomar del Sistema 2
+keywords = ['Procedimiento']
+
+# Se define el objeto de extracción de datos y se realiza la extracción de datos
+extraction = etl.FeatureEngineering(pdn_system=pdn_system, root_path=root_path, keywords=keywords, metadata_columns=[])
+extraction.extractData('extracted_data')
+
+# Posteriormente se realiza la normalización de la tabla para evitar traer listas o diccionarios dentro de la extracción
+extraction.normalizeData('extracted_data', 'normalized')
+
+# Se sustituyen los valores missings por un cero
+extraction.missingData(0, 'normalized_data', 'missing_data')
+
+# Se guarda la tabla
+extraction.tables['missing_data'].to_csv(root_path+system+'/ut_ug_m_data.csv', index=False) # El nombre es por Un-Tokenized + Un-Grouped + Missing-treated data
+```
+
+4. Creamos la visualización:
+```python
+# Una vez que ya tenemos guardado el csv tratado, podemos definir la clase de visualizaciones
+dataviz = dataviz.DataViz(pdn_system=pdn_system, root_path=root_path)
+
+# Realizamos nuestra primer gráfica
+file_path = 'ut_ug_m' # Es el nombre del archivo que guardamos, en al convensión que usamos pero sin el sufijo '_data.csv'
+dataviz.createGraph(group_data=[True], file_path=file_path, variables=['tipoProcedimiento_1_clave'])
+
+# Mostramos la gráfica
+plt.show()
+```
+
+# Quieres contribuir 🤔
+Nosotros somos Dataket y nos puedes contactar por medio de los siguientes correos:
+- david.pedroza.segoviano@gmail.com
+
+
