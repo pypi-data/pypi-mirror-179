@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Assignment10
+Version: 0.0.1
+Summary: Assignment 10
+Author: Milo Moore
+Author-email: <mmoore35@g.emporia.edu>
+Keywords: python,Assignment10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+This package can read a file and determine the value of the tweets
