@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+blender_plot.egg-info/PKG-INFO
+blender_plot.egg-info/SOURCES.txt
+blender_plot.egg-info/dependency_links.txt
+blender_plot.egg-info/requires.txt
+blender_plot.egg-info/top_level.txt

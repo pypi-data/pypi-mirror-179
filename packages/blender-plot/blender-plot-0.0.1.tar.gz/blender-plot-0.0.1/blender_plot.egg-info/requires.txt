@@ -1,0 +1,11 @@
+bpy==3.4.0b2
+fake-bpy-module-latest
+
+[dev]
+jupyterlab~=3.5.0
+numpy~=1.23.5
+matplotlib~=3.6.2
+
+[test]
+coverage~=6.5.0
+pytest~=7.2.0
