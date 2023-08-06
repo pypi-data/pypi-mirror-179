@@ -1,0 +1,2 @@
+[console_scripts]
+generate-csv = src.stock_contributor_csv_descriptors.populate_file_names_to_main_csv:cli
