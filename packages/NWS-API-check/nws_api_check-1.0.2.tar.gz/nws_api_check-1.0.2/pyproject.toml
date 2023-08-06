@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NWS_API_check"
+version = "1.0.2"
+authors = [
+  { name="Katie Grzybowski", email="katherine.dadamo@noaa.gov" },
+]
+description = "Endpoint check for api.weather.gov"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+#[project.urls]
+#"Homepage" = "https://github.com/pypa/sampleproject"
+#"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
