@@ -1,0 +1,11 @@
+souper-1.1.2-nspkg.pth,sha256=CbxGiB0s95waoh7-iEJGc10EZ-6LrLDwrOxAC8SC60c,539
+souper/interfaces.py,sha256=nAUc7dMs310iczvv46yq-lsFlrvBjIu8Jtrxx8x93ps,2139
+souper/soup.py,sha256=cA2k0CyLlMnGUEgNHTpIEdM2pv_Wv3o3zqYYSBr0ZbU,6322
+souper/soup.rst,sha256=iCSp3kZl4N2cwUFHwTngdqRGZCZojUyPJNmpQSydIYY,7614
+souper/tests.py,sha256=qiV8gxZWoiMP89_SitI17538hk6cmz4GSZBtdmvBGi4,1181
+souper-1.1.2.dist-info/LICENSE.rst,sha256=_v8yIgWhIpunLkxL5dvsCBowDUvZStX_oOHXcYjQl0w,1537
+souper-1.1.2.dist-info/METADATA,sha256=0iVD25ggQBzuFmDd1cHfni7JQL_4noW9rF0ctUhLxe8,10019
+souper-1.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+souper-1.1.2.dist-info/namespace_packages.txt,sha256=OesSFooHh2xVEASHtvobyr-nUo953RLR3VxuVshiCkw,7
+souper-1.1.2.dist-info/top_level.txt,sha256=OesSFooHh2xVEASHtvobyr-nUo953RLR3VxuVshiCkw,7
+souper-1.1.2.dist-info/RECORD,,
