@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: userefuzz
+Version: 2.0.1
+Summary: User-Agent, X-Forwarded-For and Referer Header SQLI Fuzzer
+Home-page: https://github.com/root-tanishq/userefuzz
+Author: Tanishq Rathore
+License: MIT
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Security
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/root-tanishq/userefuzz/main/images/userefuzz_icon.png">
+</p>
+<h1 align="center">
+<b>UseReFuzz</b>
+</h1>
+
+> User-Agent , X-Forwareded-For , Referer and other http headers SQLI Fuzzer
+
+- [USAGE of UseReFuzz](https://github.com/root-tanishq/userefuzz)
+
+
