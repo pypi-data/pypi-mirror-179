@@ -1,0 +1,10 @@
+django_filter_drf_camel_case/__init__.py,sha256=_KwvvO8hNA4Kz6Hv0WmHpi3F5fLhh9GkBueMjLZFlrE,177
+django_filter_drf_camel_case/backend.py,sha256=4SeBUSgWn9Rj1rPtwTHFw0bUGO7mOSCXpTbviWoWg1M,481
+django_filter_drf_camel_case/filters.py,sha256=LQtrOuWzK2seAq3tItgOHGl2g4OVonXO7b2eB_H-7mA,855
+django_filter_drf_camel_case/regex.py,sha256=xG901aDsmGwUbNluBjc2r7hS40n8V09TuOc9vfIMWMY,65
+django_filter_drf_camel_case/spectacular/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_filter_drf_camel_case/spectacular/extensions.py,sha256=bUwo2ie0-A6qU_xF2Z_0gmi910N_Cym30mwN1s9m5o8,755
+django_filter_drf_camel_case-0.1.0.dist-info/LICENSE,sha256=v9FlElu3GHerB3Da9Ik5QxSCNeL_AEwXmSzR87N0eyA,1069
+django_filter_drf_camel_case-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+django_filter_drf_camel_case-0.1.0.dist-info/METADATA,sha256=Pou43LTcXTfshCRcS_00N2JTOqjhvgWBoBvcW9NhBpM,4877
+django_filter_drf_camel_case-0.1.0.dist-info/RECORD,,
