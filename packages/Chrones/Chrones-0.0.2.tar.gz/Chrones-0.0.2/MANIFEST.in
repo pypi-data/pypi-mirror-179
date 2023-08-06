@@ -1,0 +1,3 @@
+include requirements.txt
+include Chrones/instrumentation/c++/chrones.hpp
+include Chrones/instrumentation/shell/chrones.sh
