@@ -1,0 +1,996 @@
+test_autoclasstoc:
+  -
+    id: baseline
+    tmp_files:
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]//td[last()]/p: Method docstring
+  -
+    id: inheritance
+    tmp_files:
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Child
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+  -
+    id: inheritance-no-child-members
+    tmp_files:
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Child
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >     
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+
+    forbidden:
+      index.html:
+        - //div[contains(@class,'autoclasstoc')]/table
+  -
+    id: inheritance-no-parent-members
+    tmp_files:
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Child
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+    forbidden:
+      index.html:
+        - //div[contains(@class,'autoclasstoc')]/details
+  -
+    id: directive-options-infer-class-from-autodoc
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Class
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]//td[last()]/p: Method docstring
+  -
+    id: directive-options-infer-class-from-py-domain
+    tmp_files:
+      index.rst:
+        > .. py:module:: mock_project
+        >
+        > .. py:class:: Class
+        > 
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]//td[last()]/p: Method docstring
+  -
+    id: directive-options-missing-class-name-error
+    tmp_files:
+      index.rst:
+        > .. py:module:: mock_project
+        >
+        > .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    stderr:
+      - .*no class name
+  -
+    id: directive-options-missing-module-name-error
+    tmp_files:
+      index.rst:
+        > .. py:class:: Class
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    stderr:
+      - .*no module name
+  -
+    id: directive-options-sections
+    tmp_files:
+      conf.py:
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        > autoclasstoc_sections = []
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+        >   :sections: public-methods,private-methods
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def public_method(self):
+        >         "Public method docstring"
+        >
+        >     def _private_method(self):
+        >         "Private method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: public_method\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Public method docstring
+
+        //div[contains(@class,'autoclasstoc')][2]/p: Private Methods
+        //div[contains(@class,'autoclasstoc')][2]/table//td[1]/p: _private_method\(\)
+        //div[contains(@class,'autoclasstoc')][2]/table//td[2]/p: Private method docstring
+  -
+    id: directive-options-exclude-sections
+    tmp_files:
+      conf.py:
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        > autoclasstoc_sections = [
+        >     'public-methods',
+        >     'private-methods',
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+        >   :exclude-sections: public-methods
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def public_method(self):
+        >         "Public method docstring"
+        >
+        >     def _private_method(self):
+        >         "Private method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Private Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: _private_method\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Private method docstring
+  -
+    id: custom-section-name
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomMethods(PublicMethods):
+        >     key = 'custom-methods'
+        >     title = 'Custom Methods'
+        >
+        >     def predicate(self, name, attr, meta):
+        >         return name.startswith('custom')
+        >
+        > class PublicMethods(PublicMethods):
+        >     exclude_section = CustomMethods
+        >
+        > autoclasstoc_sections = [
+        >     'custom-methods',
+        >     'public-methods',
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+        >
+        >     def custom_method(self):
+        >         "Custom method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Custom Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: custom_method\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Custom method docstring
+
+        //div[contains(@class,'autoclasstoc')][2]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')][2]/table//td[1]/p: method\(\)
+        //div[contains(@class,'autoclasstoc')][2]/table//td[2]/p: Method docstring
+  -
+    id: custom-section-attr
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomMethods(PublicMethods):
+        >     key = 'custom-methods'
+        >     title = 'Custom Methods'
+        >
+        >     def predicate(self, name, attr, meta):
+        >         return getattr(attr, 'custom', False)
+        >
+        > class PublicMethods(PublicMethods):
+        >     exclude_section = CustomMethods
+        >
+        > autoclasstoc_sections = [
+        >     'custom-methods',
+        >     'public-methods',
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > def custom(f):
+        >     f.custom = True
+        >     return f
+        >
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     @custom
+        >     def method_1(self):
+        >         "Method 1 docstring"
+        >
+        >     def method_2(self):
+        >         "Method 2 docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Custom Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: method_1\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Method 1 docstring
+
+        //div[contains(@class,'autoclasstoc')][2]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')][2]/table//td[1]/p: method_2\(\)
+        //div[contains(@class,'autoclasstoc')][2]/table//td[2]/p: Method 2 docstring
+  -
+    id: custom-section-meta-key
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomMethods(PublicMethods):
+        >     key = 'custom-methods'
+        >     title = 'Custom Methods'
+        >
+        >     def predicate(self, name, attr, meta):
+        >         return 'custom' in meta
+        >
+        > class PublicMethods(PublicMethods):
+        >     exclude_section = CustomMethods
+        >
+        > autoclasstoc_sections = [
+        >     'custom-methods',
+        >     'public-methods',
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method_1(self):
+        >         """
+        >         Method 1 docstring
+        >
+        >         :meta custom:
+        >         """
+        >
+        >     def method_2(self):
+        >         "Method 2 docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Custom Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: method_1\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Method 1 docstring
+
+        //div[contains(@class,'autoclasstoc')][2]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')][2]/table//td[1]/p: method_2\(\)
+        //div[contains(@class,'autoclasstoc')][2]/table//td[2]/p: Method 2 docstring
+  -
+    id: custom-section-meta-value
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomMethods(PublicMethods):
+        >     key = 'custom-methods'
+        >     title = 'Custom Methods'
+        >
+        >     def predicate(self, name, attr, meta):
+        >         return meta.get('section') == 'custom'
+        >
+        > class PublicMethods(PublicMethods):
+        >     exclude_section = CustomMethods
+        >
+        > autoclasstoc_sections = [
+        >     'custom-methods',
+        >     'public-methods',
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method_1(self):
+        >         """
+        >         Method 1 docstring
+        >
+        >         :meta section: custom
+        >         """
+        >
+        >     def method_2(self):
+        >         "Method 2 docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')][1]/p: Custom Methods
+        //div[contains(@class,'autoclasstoc')][1]/table//td[1]/p: method_1\(\)
+        //div[contains(@class,'autoclasstoc')][1]/table//td[2]/p: Method 1 docstring
+
+        //div[contains(@class,'autoclasstoc')][2]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')][2]/table//td[1]/p: method_2\(\)
+        //div[contains(@class,'autoclasstoc')][2]/table//td[2]/p: Method 2 docstring
+  -
+    id: custom-section-exclude-inherited
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class PublicMethods(PublicMethods):
+        >     include_inherited = False
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Child
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+    forbidden:
+      index.html:
+        - //div[contains(@class,'autoclasstoc')]/details
+  -
+    id: custom-section-open-details-node
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import PublicMethods
+        > from autoclasstoc.utils import make_inherited_details
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class OpenPublicMethods(PublicMethods):
+        >     def _make_inherited_details(self, parent):
+        >         return make_inherited_details(self.state, parent, True)
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Child
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >       "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+        //div[contains(@class,'autoclasstoc')]/details/@open: ^$
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+  -
+    id: custom-section-missing-key-error
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import Section
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomSection(Section):
+        >     pass
+        >
+        > autoclasstoc_sections = [
+        >     CustomSection,
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    stderr:
+      - .*no key specified for 'CustomSection'
+  -
+    id: custom-section-missing-title-error
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import Section
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        >
+        > class CustomSection(Section):
+        >     key = 'custom-section'
+        >
+        > autoclasstoc_sections = [
+        >     CustomSection,
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    stderr:
+      - .*no title specified for 'CustomSection'
+  -
+    id: custom-section-wrong-key-type
+    tmp_files:
+      conf.py:
+        > from autoclasstoc import Section
+        >
+        > extensions = [
+        >         'autoclasstoc',
+        >         'sphinx.ext.autosummary',
+        > ]
+        > autoclasstoc_sections = [
+        >     None,
+        > ]
+
+      index.rst:
+        > .. autoclasstoc:: mock_project.Class
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    stderr:
+      - .*cannot interpret None as a section
+  -
+    id: link-method
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Class
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     def method(self):
+        >         "Method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]//td[1]/p/a/@href: #mock_project.Class.method
+        //div[contains(@class,'autoclasstoc')]//td[2]/p: Method docstring
+        //dl[@class='py method']/dt/@id: mock_project.Class.method
+  -
+    id: link-data-attr
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Class
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     data_attr = None
+        >     "Data attr docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Data Attributes
+        //div[contains(@class,'autoclasstoc')]//td[1]/p/a/@href: #mock_project.Class.data_attr
+        //div[contains(@class,'autoclasstoc')]//td[2]/p: Data attr docstring
+        //dl[@class='py attribute']/dt/@id: mock_project.Class.data_attr
+  -
+    id: link-data-attr-annotation-only
+    # Attributes that only have annotations (no values) are a special case, 
+    # because they don't appear in `__dict__`.
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Class
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Class:
+        >     "Class docstring"
+        >   
+        >     data_attr: int
+        >     "Data attr docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Data Attributes
+        //div[contains(@class,'autoclasstoc')]//td[1]/p/a/@href: #mock_project.Class.data_attr
+        //div[contains(@class,'autoclasstoc')]//td[2]/p: Data attr docstring
+        //dl[@class='py attribute']/dt/@id: mock_project.Class.data_attr
+  -
+    id: link-parent-method
+    tmp_files:
+      index.rst:
+        > .. toctree::
+        >   parent
+        >   child
+
+      parent.rst:
+        > Parent
+        > ======
+        > .. autoclass:: mock_project.Parent
+        >   :members:
+
+      child.rst:
+        > Child
+        > =====
+        > .. autoclass:: mock_project.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      child.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.Child.child_method
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details/summary/a/@href: parent.html#mock_project.Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a/@href: parent.html#mock_project.Parent.parent_method
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+
+        //dl[@class='py method']/dt/@id: mock_project.Child.child_method
+
+      parent.html:
+        //dl[@class='py class']/dt/@id: mock_project.Parent
+        //dl[@class='py method']/dt/@id: mock_project.Parent.parent_method
+  -
+    id: link-parent-method-undocumented
+    # Test the case where there should be links to a base class, but they can't 
+    # be made because the base class is not included in the documentation.  
+    # This should not cause any errors; the links just won't be present.
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.Child.child_method
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+
+        //dl[@class='py method']/dt/@id: mock_project.Child.child_method
+
+    forbidden:
+      index.html:
+        - //div[contains(@class,'autoclasstoc')]/details/summary/a
+        - //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a
+  -
+    id: link-parent-method-cant-import
+    # Test the case where autodoc can't import the parent class.  This is an 
+    # attempt to reporduce #33.
+    tmp_files:
+      index.rst:
+        > .. autoclass:: mock_project.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > def parent_factory():
+        >     class Parent:
+        >         "Parent class docstring"
+        >       
+        >         def parent_method(self):
+        >             "Parent method docstring"
+        >
+        >     return Parent
+        >
+        > class Child(parent_factory()):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      index.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.Child.child_method
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+
+        //dl[@class='py method']/dt/@id: mock_project.Child.child_method
+
+    forbidden:
+      index.html:
+        - //div[contains(@class,'autoclasstoc')]/details/summary/a
+        - //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a
+  -
+    id: link-parent-diff-module
+    # This tests one of the bugs fixed by #31.
+    tmp_files:
+      index.rst:
+        > .. toctree::
+        >   parent
+        >   child
+
+      parent.rst:
+        > Parent
+        > ======
+        > .. autoclass:: mock_project.parent.Parent
+        >   :members:
+
+      child.rst:
+        > Child
+        > =====
+        > .. autoclass:: mock_project.child.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project/__init__.py:
+
+      mock_project/parent.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     def parent_method(self):
+        >         "Parent method docstring"
+        >
+
+      mock_project/child.py:
+        > from .parent import Parent
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     def child_method(self):
+        >         "Child method docstring"
+
+    expected:
+      child.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Methods
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_method\(\)
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.child.Child.child_method
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child method docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details/summary/a/@href: parent.html#mock_project.parent.Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_method\(\)
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a/@href: parent.html#mock_project.parent.Parent.parent_method
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent method docstring
+
+        //dl[@class='py method']/dt/@id: mock_project.child.Child.child_method
+
+      parent.html:
+        //dl[@class='py class']/dt/@id: mock_project.parent.Parent
+        //dl[@class='py method']/dt/@id: mock_project.parent.Parent.parent_method
+  -
+    id: link-parent-data-attr
+    tmp_files:
+      index.rst:
+        > .. toctree::
+        >   parent
+        >   child
+
+      parent.rst:
+        > Parent
+        > ======
+        > .. autoclass:: mock_project.Parent
+        >   :members:
+
+      child.rst:
+        > Child
+        > =====
+        > .. autoclass:: mock_project.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     parent_data_attr = None
+        >     "Parent data attr docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     child_data_attr = None
+        >     "Child data attr docstring"
+
+    expected:
+      child.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Data Attributes
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_data_attr
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.Child.child_data_attr
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child data attr docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details/summary/a/@href: parent.html#mock_project.Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_data_attr
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a/@href: parent.html#mock_project.Parent.parent_data_attr
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent data attr docstring
+
+        //dl[@class='py attribute']/dt/@id: mock_project.Child.child_data_attr
+
+      parent.html:
+        //dl[@class='py class']/dt/@id: mock_project.Parent
+        //dl[@class='py attribute']/dt/@id: mock_project.Parent.parent_data_attr
+  -
+    id: link-parent-data-attr-annotation-only
+    tmp_files:
+      index.rst:
+        > .. toctree::
+        >   parent
+        >   child
+
+      parent.rst:
+        > Parent
+        > ======
+        > .. autoclass:: mock_project.Parent
+        >   :members:
+
+      child.rst:
+        > Child
+        > =====
+        > .. autoclass:: mock_project.Child
+        >   :members:
+        >
+        >   .. autoclasstoc::
+
+      mock_project.py:
+        > class Parent:
+        >     "Parent class docstring"
+        >   
+        >     parent_data_attr: int
+        >     "Parent data attr docstring"
+        >
+        > class Child(Parent):
+        >     "Child class docstring"
+        >
+        >     child_data_attr: int
+        >     "Child data attr docstring"
+
+    expected:
+      child.html:
+        //div[contains(@class,'autoclasstoc')]/p: Public Data Attributes
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p: child_data_attr
+        //div[contains(@class,'autoclasstoc')]/table//td[1]/p/a/@href: #mock_project.Child.child_data_attr
+        //div[contains(@class,'autoclasstoc')]/table//td[2]/p: Child data attr docstring
+
+        //div[contains(@class,'autoclasstoc')]/details/summary: Inherited from Parent
+        //div[contains(@class,'autoclasstoc')]/details/summary/a/@href: parent.html#mock_project.Parent
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p: parent_data_attr
+        //div[contains(@class,'autoclasstoc')]/details//td[1]/p/a/@href: parent.html#mock_project.Parent.parent_data_attr
+        //div[contains(@class,'autoclasstoc')]/details//td[2]/p: Parent data attr docstring
+
+        //dl[@class='py attribute']/dt/@id: mock_project.Child.child_data_attr
+
+      parent.html:
+        //dl[@class='py class']/dt/@id: mock_project.Parent
+        //dl[@class='py attribute']/dt/@id: mock_project.Parent.parent_data_attr
+
+    # This test case triggers the following warning:
+    #   
+    #   WARNING: autosummary: failed to import mock_project.Child.parent_data_attr.
+    #
+    # The documentation is built correctly, but presumably the warning is 
+    # issued because the attribute is only annotated; it doesn't actually 
+    # exist.  This is a case that autodoc needs to detect and handle more 
+    # gracefully.  We can't avoid the warning without getting rid of the 
+    # links altogether, so instead we have to just ignore the usual stderr 
+    # tests by matching anything.
+    stderr: 
+      - .*
+
