@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+dycode/__init__.py
+dycode/evaluate.py
+dycode/functions.py
+dycode/get_value.py
+dycode/set_value.py
+dycode/types.py
+dycode/utils.py
+dycode.egg-info/PKG-INFO
+dycode.egg-info/SOURCES.txt
+dycode.egg-info/dependency_links.txt
+dycode.egg-info/top_level.txt
