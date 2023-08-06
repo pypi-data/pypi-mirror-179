@@ -1,0 +1,93 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:107c1658-9ef9-41de-a11e-dbed8d991933",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-12-05T19:07:47.459737+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.7.2"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "2.7.1",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "fc5d0193-b6c0-4cd7-854d-b026543548bf",
+      "name": "PyYAML",
+      "version": "6.0",
+      "purl": "pkg:pypi/pyyaml@6.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "8bec8dd3-3eac-49f2-8b22-b79edf3d5521",
+      "name": "treelib",
+      "version": "1.6.1",
+      "purl": "pkg:pypi/treelib@1.6.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "d0540667-4802-4740-b5e5-afe9a827b4b1",
+      "name": "typer",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/typer@0.7.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "fc5d0193-b6c0-4cd7-854d-b026543548bf",
+      "dependsOn": []
+    },
+    {
+      "ref": "8bec8dd3-3eac-49f2-8b22-b79edf3d5521",
+      "dependsOn": []
+    },
+    {
+      "ref": "d0540667-4802-4740-b5e5-afe9a827b4b1",
+      "dependsOn": []
+    }
+  ]
+}
