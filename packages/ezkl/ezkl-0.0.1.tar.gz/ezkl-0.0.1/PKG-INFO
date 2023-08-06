@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ezkl
+Version: 0.0.1
+Summary: Easy zero-knowledge learning in Python
+Project-URL: Homepage, https://github.com/zkonduit/pyezkl
+Project-URL: Bug Tracker, https://github.com/zkonduit/pyezkl/issues
+Author-email: Jason Morton <jason@zkonduit.com>, Dante Camuto <jason@zkonduit.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ezkl_python
+A library for using and testing ezkl from Python. The main purpose of this repository is to create simple tools for generating `.onnx` and `.json` input files that can be ingested 
+
+
+```
+pyezkl/
+├── src/
+|   └── ezkl/ (pending: python bindings for calling ezkl)
+└── examples/
+    └── tutorial/ (a tutorial for generating ezkl .onnx and .json inputs)
+```
+
+For samples of onnx files generated using python see [this](https://github.com/zkonduit/onnx-examples) repo. 
+
+
