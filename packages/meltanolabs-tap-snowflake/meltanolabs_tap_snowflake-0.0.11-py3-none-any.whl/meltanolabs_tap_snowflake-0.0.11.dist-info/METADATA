@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: meltanolabs-tap-snowflake
+Version: 0.0.11
+Summary: `tap-snowflake` is a Singer tap for Snowflake, built with the Meltano SDK for Singer Taps.
+License: Apache 2.0
+Keywords: ELT,Snowflake
+Author: Ken Payne
+Requires-Python: >=3.7.1,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: singer-sdk (>=0.14.0,<0.15.0)
+Requires-Dist: snowflake-connector-python (>=2.8.0,<3.0.0)
+Requires-Dist: snowflake-sqlalchemy (>=1.4.3,<2.0.0)
