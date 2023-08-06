@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_adb_execute_activities/LICENSE
+a_pandas_ex_adb_execute_activities/README.MD
+a_pandas_ex_adb_execute_activities/__init__.py
+a_pandas_ex_adb_execute_activities/requirements.txt
+a_pandas_ex_adb_execute_activities/thirdparty.json
+a_pandas_ex_adb_execute_activities.egg-info/PKG-INFO
+a_pandas_ex_adb_execute_activities.egg-info/SOURCES.txt
+a_pandas_ex_adb_execute_activities.egg-info/dependency_links.txt
+a_pandas_ex_adb_execute_activities.egg-info/requires.txt
+a_pandas_ex_adb_execute_activities.egg-info/top_level.txt
