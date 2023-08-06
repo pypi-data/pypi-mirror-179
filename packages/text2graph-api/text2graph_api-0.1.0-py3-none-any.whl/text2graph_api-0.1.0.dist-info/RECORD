@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text2graph-api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text2graph-api/main.py,sha256=X4R7mm_lMToqZpP3EXXPiCDfwC2VrVOhutUZ_dd8PJY,2355
+text2graph-api/src/Cooccurrence.py,sha256=w_U8nt4iBpCQjZw1364e8lFWUZyJNQ0gDfeRyMBV0j8,5456
+text2graph-api/src/Graph.py,sha256=7JBTNuUGI6InOU3BBxP45jAWzWLl1SuGtbmH34r_iWY,1056
+text2graph-api/src/GraphTransformation.py,sha256=_Ddh9SEMyq_5wUcyEkWhBHKulPOT4TaknD3IpDWkosY,1018
+text2graph-api/src/Preprocessing.py,sha256=q7WjP3BmswEZ6ixomh2gdkkX6aLBSOk8AAUbRKv4CB4,6412
+text2graph-api/src/Utils.py,sha256=jNlwhTiAmmiQWmyC8NGwXfz8k7IbEtwms4e6o9ACH8s,409
+text2graph-api/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+text2graph_api-0.1.0.dist-info/METADATA,sha256=5ykpEqaLrMMKuTNG5dlTjSP8IEfB1FtsrcDf3rKGNLM,839
+text2graph_api-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+text2graph_api-0.1.0.dist-info/top_level.txt,sha256=xKiAms0DfJDPb3PmFivDpD1QqlTkSbFspMAqvxBT0ag,21
+text2graph_api-0.1.0.dist-info/RECORD,,

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: text2graph-api
+Version: 0.1.0
+Summary: Use this library to transform raw text into differents graph representations.
+Home-page: UNKNOWN
+Author: PLN-disca-iimas
+Author-email: andric.valdez@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: contractions
+Requires-Dist: emoji
+Requires-Dist: emot
+Requires-Dist: flashtext
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: setuptools
+Requires-Dist: spacy
+Requires-Dist: sphinx
+
+# text2graph-API
+Libreria para pasar texto a grafo
+
+
