@@ -1,0 +1,191 @@
+Metadata-Version: 2.1
+Name: MainFuncLib
+Version: 0.3.8
+Summary: Demo library
+Home-page: https://MainFuncLib.readthedocs.io/
+Author: Rob Windey
+Author-email: rw3333@nyu.edu
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: sqlalchemy
+Requires-Dist: polygon
+
+# MainFuncLib
+
+This code extends HW1 and HW2 from the Data Engineering course with implementing a trailing stop to minimize the risk of significant losses and to protect our profits. It keeps track in real time of max, min, mean, VOL (volatility), FD (fractal dimension) and the returns per 6 minute interval. Additionally, the code keeps track of the balance of a currency pair at each hour and also the profit (or loss).
+
+
+
+
+
+The code does this by calculating the volatility as a first order calculation (max – min). After that, 200 Keltner Channels are created in the next interval using the mean and the volatility from the previous interval:
+
+
+
+Keltner Channel Upper Band = Mean Value + n0.025VOL, n in range(1,100)
+
+
+
+Keltner Channel Lower Band = Mean Value - n0.025VOL, \ n \in range(1,100)
+
+
+
+The number of crosses with the Keltner bands get counted during the 6 minute interval and then the fractal dimension is calculated as: nb_cross/VOL.
+
+   
+
+Extra info: this is based on brownian montion with the Mean Value as the best approximation for the next 6 minutes and the 0.025 is the step size. 
+
+
+
+
+
+The returns are calculated using the following formula:
+
+r_i = (P_i - P_i-1)/P_i-1 with P_i the mean price in the current interval and P_(i-1) the mean price in the previous interval (see HWK 3 explanation).
+
+
+
+
+
+ A trade can have up to four layers. After each hour we check, if our stop loss is reached. If the position is doing well, we add 100 extra currency units to our trade until after the fourth layer then we stop buying or selling. The stop loss also decreases with each layer to protect our profits: 0.250% &rarr; 0.150% &rarr; 0.100% &rarr; 0.050%.
+
+
+
+ This stop loss gets compared with an approximation of the returns, using the last 10 return values. For example: r_10 = sum(r_i, i=2..10)
+
+
+
+
+
+The code also keeps tracks of the average buy or sell price to be able to calculate the exact profits when closing a trade.
+
+
+
+
+
+Note that the first 6 minute checkpoint doesn't yield a FD or a return value and these are set to Null, because there is no previous information yet.
+
+
+
+
+
+The code also implements a sanity check to see if the provided data by Polygon makes sense and is correct and a check for when a certain pair has low liquidity (VOL=0)
+
+
+
+
+
+### Installation
+
+```
+
+pip install MainFuncLib==0.3.8
+
+```
+
+
+
+### Get started
+
+Make sure the latest version of Polygon-api-client is installed. Example of how to use this library in Max's code, delete main() in Max's code and replace with the library:
+
+
+
+```Python
+
+# # To have HW3 fully extend HW1 and HW2, I made a new and updated version of the library
+
+# # This library can be found at: https://pypi.org/project/MainFuncLib/0.3.8/
+
+# # This will now also return extra tables for the returns for each currency pair and their profit/loss on top of
+
+# # the parameters for the Keltner Channels (HW2) and will hide the API key as stated in HW1
+
+
+
+import os
+
+import random
+
+from threading import Thread
+
+from sqlalchemy import create_engine
+
+
+
+# Always check if the final db is removed, to prevent already exists errors during initialization
+
+if os.path.lexists("./sqlite/final2.db"):
+
+    os.remove("./sqlite/final2.db")
+
+
+
+from MainFuncLib import mainFunc
+
+
+
+# Create an engine to connect to the database; setting echo to false should stop it from logging in std.out
+
+engine = create_engine("sqlite+pysqlite:///sqlite/final2.db", echo=False, future=True)
+
+
+
+# Insert currency pairs here
+
+pair_list = [("USD", "AUD"), ("USD", "GBP"), ("USD", "CAD"), ("USD", "JPY"), ("USD", "MXN"),
+
+             ("USD", "EUR"), ("USD", "CNY"), ("USD", "CZK"), ("USD", "PLN"), ("USD", "CHF")]
+
+
+
+random.shuffle(pair_list)  # Randomly shuffle the pairs in the list
+
+
+
+buy_list = pair_list[:5]  # First 5 currency pairs we take a long position on
+
+sell_list = pair_list[-5:]  # Last 5 currency pairs we take a short position on
+
+
+
+# create threads for LONG positions
+
+# see READme for the benefits of using these threads
+
+threads_buy = [Thread(target=mainFunc, args=(pair, engine, 36120, "LONG")) for pair in buy_list]
+
+
+
+# create threads for SHORT positions
+
+threads_sell = [Thread(target=mainFunc, args=(pair, engine, 36120, "SHORT")) for pair in sell_list]
+
+
+
+threads = threads_buy + threads_sell
+
+
+
+# start the threads
+
+for thread in threads:
+
+    thread.start()
+
+
+
+# wait for the threads to complete
+
+for thread in threads:
+
+    thread.join()
+
+```
