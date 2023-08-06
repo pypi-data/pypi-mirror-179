@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: adventlibs_SNOLDINATOR
+Version: 0.0.1
+Summary: Libraries containing some simple convenience functions for use in solving Advent of Code challenges.
+Project-URL: Homepage, https://github.com/snoldinator/adventlibs
+Project-URL: Bug Tracker, https://github.com/snoldinator/adventlibs/issues
+Author-email: Thor Richard Hansen <chaoz@gale-huset.net>, Simon Bruce-Cassidy <simon@gale-huset.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Adventlibs
+
+This package contains some convenience functions for solving Advent of Code challenges. https://adventofcode.com.
+
+NOTE: This package is in no way related to, endorsed by, or quite frankly, known by the creator of Advent of Code. 
+
