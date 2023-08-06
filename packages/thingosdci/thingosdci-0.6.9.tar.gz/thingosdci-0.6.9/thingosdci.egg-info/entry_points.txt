@@ -1,0 +1,2 @@
+[console_scripts]
+thingosdci = thingosdci.main:main
