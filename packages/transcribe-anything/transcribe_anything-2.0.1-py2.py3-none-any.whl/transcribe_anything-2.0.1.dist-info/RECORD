@@ -1,0 +1,13 @@
+transcribe_anything/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcribe_anything/api.py,sha256=Wg2AFumjWyF2ZVSguIzZXaDTWXMEz5NT6V-U-EbMFsM,2627
+transcribe_anything/audio.py,sha256=2uSPXkNPt89QR1ohoGQp_QXrSCXhRLUJDmVSWEUd2o4,2750
+transcribe_anything/cmd.py,sha256=51n3QpMftnG1BAtuS10lif47oLrN8FH44b48kUo22z4,1683
+transcribe_anything/logger.py,sha256=dLtr9JBzeFzgA56qQ1Gza-z5uTppoMxvt_hgZrr4QDA,613
+transcribe_anything/parse_whisper_options.py,sha256=1j8h1RNRcmrjfeJbLDxeM3aIwo7vvkYqqdWnkpm3bxg,1210
+transcribe_anything/util.py,sha256=UR_2pbCd6C7rmrvffNPHEMcOf8BBes52_b8LSozAu8I,2184
+transcribe_anything-2.0.1.dist-info/LICENSE,sha256=4GL3bniwdvm2phW-aKJQ6zPKeu0O9Y0HqbfE7tbxZls,1064
+transcribe_anything-2.0.1.dist-info/METADATA,sha256=86wZDLoo4UgZegm5Koal-qFuw6aS4Q4q8guRwUT7WsM,3102
+transcribe_anything-2.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+transcribe_anything-2.0.1.dist-info/entry_points.txt,sha256=GeBO0JYDJ0y7Cnm2K580hYQvygOxAsFiATVs3j9nkLg,69
+transcribe_anything-2.0.1.dist-info/top_level.txt,sha256=IKQEh1ZJHdMgz4bn86vm7c9ac1xoAlnmBCLGs0WamGs,20
+transcribe_anything-2.0.1.dist-info/RECORD,,
