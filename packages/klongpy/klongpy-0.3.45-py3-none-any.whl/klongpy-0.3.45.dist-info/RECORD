@@ -1,0 +1,16 @@
+klongpy/__init__.py,sha256=Gp4ac7py_7pjHQamunDx-fTSHl3CRgYJV0WnlO9nxrM,73
+klongpy/adverbs.py,sha256=FVwm1-H7ms5dW6v8f-_Q_dUBBiiAbhbOAFW_UU4n3aU,12617
+klongpy/backend.py,sha256=_HVyr8MErOcApMnqFhf8WbGtQuCnxRKEs1bcsTgFJBc,249
+klongpy/core.py,sha256=EdJolEXjM2wS3nJw-LfMm1uBD1gc4VebO3vvIZDZ3RI,21702
+klongpy/dyads.py,sha256=jAYDg45lDiANZ7gk8Amw9uxVY7TpU47W2Mozh_PotkQ,30433
+klongpy/interpreter.py,sha256=-3-a1ietqdydjP4RZiWn1hbLnOBd9rlAPMRniLnHmPA,19313
+klongpy/monads.py,sha256=JvTVP5Eb7zd0_jT0UMYW7Ki6ECR4xb4mHnsD103CQu8,12781
+klongpy/sys_fn.py,sha256=G6aEjYj6ezV1o9dh5GrUQgxmR91Q4Cnb8tWn49RGvQ8,11357
+klongpy/sys_var.py,sha256=x4Jq5JwnQrwdU54vxh03JuunKBb6nQoAGOoxvQAk1w4,4322
+klongpy/utils.py,sha256=U3FBqbFRgAz3pVGQDGCX10y6BqUjUPHArBQOqiAp-u0,801
+klongpy-0.3.45.data/scripts/kgpy,sha256=ji_0iq_fygWkZQJcH4zoATnprxH4YDKCGPBq5d302VI,4124
+klongpy-0.3.45.dist-info/LICENSE,sha256=Nk1iW-tI7n0z8R2jMqVm9SuFIoa8iukXsFcJoPqQgns,1071
+klongpy-0.3.45.dist-info/METADATA,sha256=gS4JfFZJ--o0WJdIQmzn6TA8-uziCBUZ2v_WArLzFeA,6070
+klongpy-0.3.45.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+klongpy-0.3.45.dist-info/top_level.txt,sha256=SSws_hriUGsSg6v83cEO4VQ7RmKv6rjQnx9mtG1TLRo,8
+klongpy-0.3.45.dist-info/RECORD,,
