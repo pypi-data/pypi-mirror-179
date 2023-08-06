@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: bdtheme
+Version: 1.3.2
+Summary: Console BeautifulDiscord theme manager
+Author: TheAmmiR
+License: MIT
+Requires-Python: >=3.8
+License-File: LICENSE
