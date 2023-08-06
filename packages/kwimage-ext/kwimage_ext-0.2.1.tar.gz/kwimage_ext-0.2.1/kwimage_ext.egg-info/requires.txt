@@ -1,0 +1,338 @@
+
+[:python_version < "3.10" and python_version >= "3.9"]
+numpy
+
+[:python_version < "3.11" and python_version >= "3.10"]
+numpy
+
+[:python_version < "3.7" and python_version >= "3.6"]
+numpy
+
+[:python_version < "3.8" and python_version >= "3.7"]
+numpy
+
+[:python_version < "3.9" and python_version >= "3.8"]
+numpy
+
+[:python_version >= "3.11"]
+numpy
+
+[:python_version >= "3.6"]
+ubelt
+
+[all]
+xdoctest
+pytest-timeout
+codecov
+
+[all-strict]
+xdoctest==0.14.0
+pytest-timeout==1.4.2
+codecov==2.0.15
+
+[all-strict:python_version < "2.7" and python_version >= "2.6"]
+coverage==4.5
+
+[all-strict:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[all-strict:python_version < "3.10" and python_version >= "3.9"]
+numpy==1.19.3
+coverage==5.3.1
+torch==1.9.0
+
+[all-strict:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest==4.6.0
+
+[all-strict:python_version < "3.11" and python_version >= "3.10"]
+numpy==1.21.6
+torch==1.11.0
+
+[all-strict:python_version < "3.4" and python_version >= "2.7"]
+coverage==5.3.1
+
+[all-strict:python_version < "3.5" and python_version >= "3.4"]
+coverage==4.3.4
+
+[all-strict:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[all-strict:python_version < "3.6" and python_version >= "3.5"]
+coverage==5.3.1
+
+[all-strict:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest<=6.1.2,==4.6.0
+pytest-cov==2.9.0
+
+[all-strict:python_version < "3.7" and python_version >= "3.6"]
+numpy==1.19.2
+coverage==6.1.1
+
+[all-strict:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest==4.6.0
+
+[all-strict:python_version < "3.8" and python_version >= "3.7"]
+numpy==1.19.2
+coverage==6.1.1
+
+[all-strict:python_version < "3.9" and python_version >= "3.6"]
+torch==1.6.0
+
+[all-strict:python_version < "3.9" and python_version >= "3.8"]
+numpy==1.19.2
+coverage==6.1.1
+
+[all-strict:python_version < "4.0" and python_version >= "3.11"]
+torch==1.13.0
+
+[all-strict:python_version >= "3.10"]
+coverage==6.1.1
+
+[all-strict:python_version >= "3.10.0"]
+pytest==6.2.5
+
+[all-strict:python_version >= "3.11"]
+numpy==1.23.2
+
+[all-strict:python_version >= "3.6"]
+ubelt==1.2.1
+
+[all-strict:python_version >= "3.6.0"]
+pytest-cov==3.0.0
+
+[all:python_version < "2.7" and python_version >= "2.6"]
+coverage
+
+[all:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.10" and python_version >= "3.9"]
+numpy
+coverage
+torch
+
+[all:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[all:python_version < "3.11" and python_version >= "3.10"]
+numpy
+torch
+
+[all:python_version < "3.4" and python_version >= "2.7"]
+coverage
+
+[all:python_version < "3.5" and python_version >= "3.4"]
+coverage
+
+[all:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6" and python_version >= "3.5"]
+coverage
+
+[all:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.7" and python_version >= "3.6"]
+numpy
+coverage
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[all:python_version < "3.8" and python_version >= "3.7"]
+numpy
+coverage
+
+[all:python_version < "3.9" and python_version >= "3.6"]
+torch
+
+[all:python_version < "3.9" and python_version >= "3.8"]
+numpy
+coverage
+
+[all:python_version < "4.0" and python_version >= "3.11"]
+torch
+
+[all:python_version >= "3.10"]
+coverage
+
+[all:python_version >= "3.10.0"]
+pytest
+
+[all:python_version >= "3.11"]
+numpy
+
+[all:python_version >= "3.6"]
+ubelt
+
+[all:python_version >= "3.6.0"]
+pytest-cov
+
+[optional]
+
+[optional-strict]
+
+[optional-strict:python_version < "3.10" and python_version >= "3.9"]
+torch==1.9.0
+
+[optional-strict:python_version < "3.11" and python_version >= "3.10"]
+torch==1.11.0
+
+[optional-strict:python_version < "3.9" and python_version >= "3.6"]
+torch==1.6.0
+
+[optional-strict:python_version < "4.0" and python_version >= "3.11"]
+torch==1.13.0
+
+[optional:python_version < "3.10" and python_version >= "3.9"]
+torch
+
+[optional:python_version < "3.11" and python_version >= "3.10"]
+torch
+
+[optional:python_version < "3.9" and python_version >= "3.6"]
+torch
+
+[optional:python_version < "4.0" and python_version >= "3.11"]
+torch
+
+[runtime-strict]
+
+[runtime-strict:python_version < "3.10" and python_version >= "3.9"]
+numpy==1.19.3
+
+[runtime-strict:python_version < "3.11" and python_version >= "3.10"]
+numpy==1.21.6
+
+[runtime-strict:python_version < "3.7" and python_version >= "3.6"]
+numpy==1.19.2
+
+[runtime-strict:python_version < "3.8" and python_version >= "3.7"]
+numpy==1.19.2
+
+[runtime-strict:python_version < "3.9" and python_version >= "3.8"]
+numpy==1.19.2
+
+[runtime-strict:python_version >= "3.11"]
+numpy==1.23.2
+
+[runtime-strict:python_version >= "3.6"]
+ubelt==1.2.1
+
+[tests]
+xdoctest
+pytest-timeout
+codecov
+
+[tests-strict]
+xdoctest==0.14.0
+pytest-timeout==1.4.2
+codecov==2.0.15
+
+[tests-strict:python_version < "2.7" and python_version >= "2.6"]
+coverage==4.5
+
+[tests-strict:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[tests-strict:python_version < "3.10" and python_version >= "3.9"]
+coverage==5.3.1
+
+[tests-strict:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest==4.6.0
+
+[tests-strict:python_version < "3.4" and python_version >= "2.7"]
+coverage==5.3.1
+
+[tests-strict:python_version < "3.5" and python_version >= "3.4"]
+coverage==4.3.4
+
+[tests-strict:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest<=4.6.11,==4.6.0
+pytest-cov==2.8.1
+
+[tests-strict:python_version < "3.6" and python_version >= "3.5"]
+coverage==5.3.1
+
+[tests-strict:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest<=6.1.2,==4.6.0
+pytest-cov==2.9.0
+
+[tests-strict:python_version < "3.7" and python_version >= "3.6"]
+coverage==6.1.1
+
+[tests-strict:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest==4.6.0
+
+[tests-strict:python_version < "3.8" and python_version >= "3.7"]
+coverage==6.1.1
+
+[tests-strict:python_version < "3.9" and python_version >= "3.8"]
+coverage==6.1.1
+
+[tests-strict:python_version >= "3.10"]
+coverage==6.1.1
+
+[tests-strict:python_version >= "3.10.0"]
+pytest==6.2.5
+
+[tests-strict:python_version >= "3.6.0"]
+pytest-cov==3.0.0
+
+[tests:python_version < "2.7" and python_version >= "2.6"]
+coverage
+
+[tests:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.10" and python_version >= "3.9"]
+coverage
+
+[tests:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[tests:python_version < "3.4" and python_version >= "2.7"]
+coverage
+
+[tests:python_version < "3.5" and python_version >= "3.4"]
+coverage
+
+[tests:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.6" and python_version >= "3.5"]
+coverage
+
+[tests:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.7" and python_version >= "3.6"]
+coverage
+
+[tests:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[tests:python_version < "3.8" and python_version >= "3.7"]
+coverage
+
+[tests:python_version < "3.9" and python_version >= "3.8"]
+coverage
+
+[tests:python_version >= "3.10"]
+coverage
+
+[tests:python_version >= "3.10.0"]
+pytest
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
