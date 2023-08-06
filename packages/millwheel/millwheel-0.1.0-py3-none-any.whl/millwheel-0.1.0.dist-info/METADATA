@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: millwheel
+Version: 0.1.0
+Summary: Python scheduler library
+Author: Uwe Schmitt
+Author-email: schmittu@ethz.ch
+License: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-regtest ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-pynpoint-theme ; extra == 'dev'
+Requires-Dist: myst-parser ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-pynpoint-theme ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+
+# millwheel
+
+Python scheduler library.
+
+
+## Features
+
+* persists state between executions
+* runs jobs in separate threads
+* captures output and errors consistently in log output
