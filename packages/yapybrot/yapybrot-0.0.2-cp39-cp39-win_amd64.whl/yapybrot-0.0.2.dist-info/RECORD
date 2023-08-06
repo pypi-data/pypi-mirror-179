@@ -1,0 +1,8 @@
+_yapybrot.cp39-win_amd64.pyd,sha256=MJ7uV1wJvQQ2iXy_NrbyX_cZj-K7FRPOOf13xs9zLZg,131072
+yapybrot/__init__.py,sha256=5TUQrAgjsb8eMVg9PrrWf71C23pGJjdxu3MVKMbVM24,36
+yapybrot/mandelbrot.py,sha256=kfIjhJL9k2gmCzeqbcO3BJeMXBkV210nSaoJMppBEQ4,1304
+yapybrot-0.0.2.dist-info/LICENSE,sha256=Go0O9cCp-9Qw9XKP5GsVGCFGJQf6lZTOwy2LJKlP4Vk,1089
+yapybrot-0.0.2.dist-info/METADATA,sha256=-HQ7WlLs8LNUlmCzixFi_saNjibcRc02_T4NwZj-zzo,1292
+yapybrot-0.0.2.dist-info/WHEEL,sha256=J_4V_gB-O6Y7Pn6lk91K27JaIhI-q07YM5J8Ufzqla4,100
+yapybrot-0.0.2.dist-info/top_level.txt,sha256=CLlmO_gCpTqZDTPD2MLpqekDagZyrc3iIPcNFqh3Nhc,19
+yapybrot-0.0.2.dist-info/RECORD,,
