@@ -1,0 +1,2 @@
+[console_scripts]
+pylint-reenable = pylint_reenable:main
