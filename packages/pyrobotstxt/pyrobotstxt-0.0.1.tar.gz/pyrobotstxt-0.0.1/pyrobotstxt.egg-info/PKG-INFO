@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyrobotstxt
+Version: 0.0.1
+Summary: Python Package to Generate and Analyse Robots.txt files
+Home-page: https://www.seowings.org/
+Author: Faisal Shahzad
+Author-email: seowingsorg@gmail.com
+Project-URL: Bug Tracker, https://github.com/seowings/pyrobotstxt/issues
+Project-URL: Documentation, https://pyrobotstxt.seowings.org/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyrobotstxt
+
+```python
+nm = mrt.robots_name(robot_details="Google")
+print(nm)
+```
