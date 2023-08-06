@@ -1,0 +1,69 @@
+### Creates a DataFrame/Series from duplicates 
+
+```python
+pip install a-pandas-ex-duplicates-to-df
+
+from a_pandas_ex_duplicates_to_df import pd_add_duplicates_to_df
+import pandas as pd
+pd_add_duplicates_to_df()
+df = pd.read_csv("https://github.com/pandas-dev/pandas/raw/main/doc/data/titanic.csv")
+df2 = pd.read_csv("https://github.com/pandas-dev/pandas/raw/main/doc/data/titanic.csv")[
+    :50
+]
+df = pd.concat([df, df2], ignore_index=True)
+dupl = df.ds_get_duplicates()
+
+
+dupl
+Out[5]: 
+    PassengerId  Survived  Pclass  ... Cabin Embarked  DUPLICATEINDEX
+0             1         0       3  ...   NaN        S        (0, 891)
+1             1         0       3  ...   NaN        S        (0, 891)
+2            10         1       2  ...   NaN        C        (9, 900)
+3            10         1       2  ...   NaN        C        (9, 900)
+4            11         1       3  ...    G6        S       (10, 901)
+..          ...       ...     ...  ...   ...      ...             ...
+95            7         0       1  ...   E46        S        (6, 897)
+96            8         0       3  ...   NaN        S        (7, 898)
+97            8         0       3  ...   NaN        S        (7, 898)
+98            9         1       3  ...   NaN        S        (8, 899)
+99            9         1       3  ...   NaN        S        (8, 899)
+[100 rows x 13 columns]
+
+
+dupl2=df.ds_get_duplicates(subset=['Survived'])
+dupl2
+Out[7]: 
+     PassengerId  ...                                     DUPLICATEINDEX
+0              1  ...  (0, 4, 5, 6, 7, 12, 13, 14, 16, 18, 20, 24, 26...
+1              5  ...  (0, 4, 5, 6, 7, 12, 13, 14, 16, 18, 20, 24, 26...
+2              6  ...  (0, 4, 5, 6, 7, 12, 13, 14, 16, 18, 20, 24, 26...
+3              7  ...  (0, 4, 5, 6, 7, 12, 13, 14, 16, 18, 20, 24, 26...
+4              8  ...  (0, 4, 5, 6, 7, 12, 13, 14, 16, 18, 20, 24, 26...
+..           ...  ...                                                ...
+936           37  ...  (1, 2, 3, 8, 9, 10, 11, 15, 17, 19, 21, 22, 23...
+937           40  ...  (1, 2, 3, 8, 9, 10, 11, 15, 17, 19, 21, 22, 23...
+938           44  ...  (1, 2, 3, 8, 9, 10, 11, 15, 17, 19, 21, 22, 23...
+939           45  ...  (1, 2, 3, 8, 9, 10, 11, 15, 17, 19, 21, 22, 23...
+940           48  ...  (1, 2, 3, 8, 9, 10, 11, 15, 17, 19, 21, 22, 23...
+[941 rows x 13 columns]
+
+
+df.Embarked.ds_get_duplicates()
+
+    Embarked                                     DUPLICATEINDEX
+0        NaN                                          (61, 829)
+1        NaN                                          (61, 829)
+2          C  (1, 9, 19, 26, 30, 31, 34, 36, 39, 42, 43, 48,...
+3          C  (1, 9, 19, 26, 30, 31, 34, 36, 39, 42, 43, 48,...
+4          C  (1, 9, 19, 26, 30, 31, 34, 36, 39, 42, 43, 48,...
+..       ...                                                ...
+936        S  (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, ...
+937        S  (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, ...
+938        S  (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, ...
+939        S  (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, ...
+940        S  (0, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 15, ...
+[941 rows x 2 columns]
+
+```
+
