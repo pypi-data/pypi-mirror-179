@@ -1,0 +1,11 @@
+prefix=D:/a/pylib-fftw3f/pylib-fftw3f/build/lib.win-amd64-3.6/pylib_fftw3f
+exec_prefix=D:/a/pylib-fftw3f/pylib-fftw3f/build/lib.win-amd64-3.6/pylib_fftw3f
+libdir=D:/a/pylib-fftw3f/pylib-fftw3f/build/lib.win-amd64-3.6/pylib_fftw3f/lib
+includedir=D:/a/pylib-fftw3f/pylib-fftw3f/build/lib.win-amd64-3.6/pylib_fftw3f/include
+
+Name: FFTW
+Description: fast Fourier transform library
+Version: 3.3.9
+Libs: -L${libdir} -lfftw3f 
+Libs.private: -lm
+Cflags: -I${includedir}
