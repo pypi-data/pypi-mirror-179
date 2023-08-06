@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Danial Behzadi <dani.behzi@ubuntu.com>, 2022 -->
+<interface>
+  <!-- interface-name bridges.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <requires lib="libadwaita" version="1.1"/>
+  <object class="GtkStringList" id="bridge_list">
+    <items>
+      <item translatable="yes">None</item>
+      <item translatable="yes">Vanilla</item>
+      <item translatable="yes">Obfuscated</item>
+    </items>
+  </object>
+</interface>

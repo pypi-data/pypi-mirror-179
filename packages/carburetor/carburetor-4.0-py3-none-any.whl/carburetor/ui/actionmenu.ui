@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Danial Behzadi <dani.behzi@ubuntu.com>, 2022 -->
+<interface>
+  <!-- interface-name actionmenu.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <menu id="ActionMenu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_New ID</attribute>
+        <attribute name="action">app.new_id</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Check connection</attribute>
+        <attribute name="action">app.check_connection</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">_Toggle proxy on system</attribute>
+        <attribute name="action">app.toggle_proxy</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>
