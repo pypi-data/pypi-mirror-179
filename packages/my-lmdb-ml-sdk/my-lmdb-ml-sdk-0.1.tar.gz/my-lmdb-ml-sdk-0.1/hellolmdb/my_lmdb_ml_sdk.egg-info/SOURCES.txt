@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+hellolmdb/my_lmdb_ml_sdk.egg-info/PKG-INFO
+hellolmdb/my_lmdb_ml_sdk.egg-info/SOURCES.txt
+hellolmdb/my_lmdb_ml_sdk.egg-info/dependency_links.txt
+hellolmdb/my_lmdb_ml_sdk.egg-info/entry_points.txt
+hellolmdb/my_lmdb_ml_sdk.egg-info/requires.txt
+hellolmdb/my_lmdb_ml_sdk.egg-info/top_level.txt
