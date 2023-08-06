@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+discord_ext/__init__.py
+discord_ext/about.py
+discord_ext/api.py
+discord_ext/cli.py
+discord_ext/utils.py
+discord_feed_bot.egg-info/PKG-INFO
+discord_feed_bot.egg-info/SOURCES.txt
+discord_feed_bot.egg-info/dependency_links.txt
+discord_feed_bot.egg-info/requires.txt
+discord_feed_bot.egg-info/top_level.txt
