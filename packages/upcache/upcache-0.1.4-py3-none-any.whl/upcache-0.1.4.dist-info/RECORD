@@ -1,0 +1,15 @@
+upcache/__init__.py,sha256=hS-09KcvcnTNRX4T5J9ZTaZkPtDxE7WclvnG674K4TY,175
+upcache/cache.py,sha256=ovwovxJbZmD4cCLd2fAzcuPiO2IDbg31Eyi1Pqk0oOo,3459
+upcache/daemon.py,sha256=G3wfytcTAQx6_9U5IplqhqfLIyaSqV7CGkUUpTtSZJk,243
+upcache/errors.py,sha256=jt4DxKkNsbOTWvRx970pZ5XZAbeGOqSJin4ruWvEeJM,783
+upcache/helpers.py,sha256=6dLx-CtbCzHWXbahCyq0lw50kDiKYj_Zh8jFUgUVuSM,2911
+upcache/networking.py,sha256=O4FfNCOKFUt3eX0MrPFjPMeuTCA5DXItg40xj3rMu6A,72
+upcache/server.py,sha256=2wrZVVlvgI8wUcaHOonA7VLzDVy8dpFjlXbvAhTjp8c,232
+upcache/internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upcache/internal/cache.py,sha256=ovwovxJbZmD4cCLd2fAzcuPiO2IDbg31Eyi1Pqk0oOo,3459
+upcache/internal/errors.py,sha256=jt4DxKkNsbOTWvRx970pZ5XZAbeGOqSJin4ruWvEeJM,783
+upcache/internal/tcp.py,sha256=IAPBOSWuTE7j1YkxZrJjYhfx_4yQ4G_Tq4t9JiuznFY,11192
+upcache-0.1.4.dist-info/METADATA,sha256=uBt6KEGD9x9bwtCtuP56Rqppf8fcT_S2i56bBadInKs,1916
+upcache-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+upcache-0.1.4.dist-info/top_level.txt,sha256=XWEs7c9ubWgJvERCNB8nHI-W1KaAA2bz4PrGDMg3Abs,8
+upcache-0.1.4.dist-info/RECORD,,
