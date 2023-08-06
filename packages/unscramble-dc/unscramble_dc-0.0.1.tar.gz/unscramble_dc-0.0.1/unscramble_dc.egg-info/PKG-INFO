@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: unscramble-dc
+Version: 0.0.1
+Summary: Finds words from scrambled letters
+Author: Brahmani Nutakki
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Unscrambler
+
+* Sample code to test python packaging.
+* Python tool to find words from scrambled letters, cos I wanted to solve scramble in Deccan Chronicle.
+* Returns a list of words that can be formed using all the letters in the scrambled word.
+* Uses Wordnet to get complete vocabulary.

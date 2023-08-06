@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+unscramble_dc.egg-info/PKG-INFO
+unscramble_dc.egg-info/SOURCES.txt
+unscramble_dc.egg-info/dependency_links.txt
+unscramble_dc.egg-info/requires.txt
+unscramble_dc.egg-info/top_level.txt
