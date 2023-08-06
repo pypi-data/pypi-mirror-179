@@ -1,0 +1,12 @@
+yafowil.yaml-2.0-nspkg.pth,sha256=nQvxJRlHRDyhcXLJ-LpqizpkewXrZHiJl5gah3PnE0I,544
+yafowil/yaml/__init__.py,sha256=H_2IGjn_yM6ZUdvkyHt0sgaizSlGvihlbMfo_GkwwCQ,173
+yafowil/yaml/demo_form.yaml,sha256=opq8LLAuWIA4nH7tPQX9sZygBZ3Jn1uiEhx2539xvkg,555
+yafowil/yaml/parser.py,sha256=Waf-JqODHpkMBQd_h75zfNdRprZzxjAYeVU7dMTvzjI,7507
+yafowil/yaml/sphinx.rst,sha256=OJ__h52HxrOuhLBC7uLMeJH5MNH9F2g-sKuI6rijF5U,8265
+yafowil/yaml/tests.py,sha256=YgXeJoDKcwN4KMepZlvpb19gZxAn8ivQ-a-UWWY93xc,20590
+yafowil.yaml-2.0.dist-info/LICENSE.rst,sha256=voySO5bColCbsIXQyWy4yWhSk5DULUYHeiQ121Vh3fU,1403
+yafowil.yaml-2.0.dist-info/METADATA,sha256=qG7reMfAk1JYbjyJBtkduYI5vBWTBuYSER6659d39Tw,5061
+yafowil.yaml-2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+yafowil.yaml-2.0.dist-info/namespace_packages.txt,sha256=cJz5CZEzEKmMv88hkEh5t8fW1bRvd7Dv6VZ7l6RpqUA,8
+yafowil.yaml-2.0.dist-info/top_level.txt,sha256=cJz5CZEzEKmMv88hkEh5t8fW1bRvd7Dv6VZ7l6RpqUA,8
+yafowil.yaml-2.0.dist-info/RECORD,,
