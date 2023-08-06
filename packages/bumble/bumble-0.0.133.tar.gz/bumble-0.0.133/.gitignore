@@ -1,0 +1,8 @@
+.eggs/
+build/
+dist/
+*.egg-info/
+*~
+docs/mkdocs/site
+test-results.xml
+__pycache__
