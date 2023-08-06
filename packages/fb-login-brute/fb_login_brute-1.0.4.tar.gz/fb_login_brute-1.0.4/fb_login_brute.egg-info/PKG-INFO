@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fb-login-brute
+Version: 1.0.4
+Summary: Facebook login Brute force Attack
+Home-page: https://github.com/tibotix/fb_login_brute
+Author: Tibotix
+Author-email: tizian@seehaus.net
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
