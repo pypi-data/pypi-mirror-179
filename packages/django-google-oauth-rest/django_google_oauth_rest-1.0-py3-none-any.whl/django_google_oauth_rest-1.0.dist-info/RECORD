@@ -1,0 +1,11 @@
+django_google_oauth_rest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_google_oauth_rest/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_google_oauth_rest/apps.py,sha256=rGp7nzk6e_IgV6AG3Bs-0tkr8416RU9HpSnN0c_RzTc,153
+django_google_oauth_rest/generate_url.py,sha256=TgTazG93OAb9NLD5oB9eKWCaawZGl4Vv52FtaFc3EXU,803
+django_google_oauth_rest/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_google_oauth_rest/views.py,sha256=C_yJhmNQnKmqDsdF90dsUd8VVE38PY4XLPw_nQVORBU,2733
+django_google_oauth_rest-1.0.dist-info/LICENSE,sha256=vfvfuGEEW3EqE7Rvx6c28lvMXD4IMVUc2y3OA7vSwp8,1054
+django_google_oauth_rest-1.0.dist-info/METADATA,sha256=lHwYxo0kpNDeh2ScFaI1QniRJt02guP50O2h6hEnHJc,3698
+django_google_oauth_rest-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_google_oauth_rest-1.0.dist-info/top_level.txt,sha256=-sNGnD6-E_CzPJj5Ypure_WrXmEoIZv6p2snmvOi9CY,25
+django_google_oauth_rest-1.0.dist-info/RECORD,,
