@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: animaltrackingdata
+Version: 1.0.2
+Summary: Animal tracking data source & formatter
+Author: Karel Douda
+Author-email: karel.douda@anitra.cz
+Keywords: anitra,movebank,animal tracking,animal data
+Classifier: Development Status :: 3 - Alpha
+License-File: LICENSE
+
+Python package that sources animal tracking data from the Movebank and Anitra platforms
