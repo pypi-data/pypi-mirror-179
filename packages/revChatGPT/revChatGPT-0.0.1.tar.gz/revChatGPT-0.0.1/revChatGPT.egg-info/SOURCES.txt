@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+revChatGPT.egg-info/PKG-INFO
+revChatGPT.egg-info/SOURCES.txt
+revChatGPT.egg-info/dependency_links.txt
+revChatGPT.egg-info/requires.txt
+revChatGPT.egg-info/top_level.txt
