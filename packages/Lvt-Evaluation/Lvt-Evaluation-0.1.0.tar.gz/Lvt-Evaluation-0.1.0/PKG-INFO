@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: Lvt-Evaluation
+Version: 0.1.0
+Summary: Lvt evaluation of image object detection.
+Home-page: 
+Author: JiajiaLiao, KeleiJiang
+Author-email: jiajialiao_08@163.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+# lvt-eval
+
+* 温馨提示：不要有中文路径！！！
+* lvt-eval代码库里包含【基础评估模块】
+
+****
+## 安装
+1. python>=3.8, (windows: need c++ env, https://airesources.oss-cn-hangzhou.aliyuncs.com/jkl/%E8%BE%B9%E7%BC%98%E5%8D%A1/VisualStudioSetup.exe)
+
+2. pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+****
+## Lvt-eval基础评估模块 使用指南
+
+### 调用studio aiport的评估方式
+1. 编写你的config文件存入 "configs/{你的config文件名}.json". ( e.g. config_cat.json )
+
+例子:
+```
+(1) 多类别目标检测的配置文件:
+{
+    "label":[{"objectLabel":["烟"], "attrLabel":[], "id":0, "prediction":"smoke"},{"objectLabel":["火"], "attrLabel":[], "id":1, "prediction":"fire"}],
+    "aiport": "http://192.1.2.238:8893/vql/v1/serving/process",
+    "rawdata": "data/yh.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8893.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json"
+}
+
+(2) 多目标映射单目标检测的配置文件:
+{
+    "label":[{"objectLabel":["人"], "attrLabel":["躺", "趴"], "id":0, "prediction":"睡岗"}],
+    "aiport": "http://192.1.2.238:8324/vql/v1/serving/process",
+    "rawdata": "data/sleep_test_json_0621.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8324.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json"
+}
+
+(3) 单类别目标检测的配置文件:
+{
+    "label":[{"objectLabel":["person"], "attrLabel":[], "id":0, "prediction":"person"}],
+    "aiport": "http://192.1.2.238:8312/vql/v1/serving/process",
+    "rawdata": "data/xingren.json",
+    "draw": false,
+    "download": false,
+    "raw_prediction_path": "prediction_dirs/raw_predictions_8312.json",
+    "save_gt_coco": "gt_dirs/coco_groundtruth.json",
+    "save_pred_path": "prediction_dirs/prediction_results.json"
+}
+==================================================================
+参数描述:
+
+"label":
+    "objectLabel": studio-json中类别标签，用[str]表示，可添加多个类别 
+    "attrLabel": studio-json中属性标签，用[str]表示，可添加多种属性
+    "id": 默认从0开始，多个类别需按顺序添加 
+    "prediction": 模型返回的类别标签
+"aiport": 模型serving接口
+"rawdata": studio-json格式的原数据
+"draw": 默认为false, true表示绘制真实框和预测框
+"download": 下载图片, 如果draw=True，则需要download=True
+"raw_prediction_path": 保存接口的原始输出，文件名为“raw_predictions_{模型serving接口的端口号}.json”
+"save_gt_coco": 将studio-json格式保存为coco-json真实标注格式
+"save_pred_path": 将接口的原始输出保存为coco-json预测格式
+```
+
+2. 在终端执行
+```python
+python od_evaluator.py --mode studio_json --config {your config files} 
+```
+
+### 使用coco-json格式的评估
+
+1. 准备数据coco-json格式的groundtruth和prediction
+
+2. 在终端执行
+```python
+python od_evaluator.py --mode coco_json --gt_json {groundtruth的路径}  --pred_json {prediction的路径} 
+```
+
+
+## 如何使用lvt-eval基础评估模块
+
+1.  使用 mode = studio aiport:
+```
+python od_evaluator.py --mode studio_json --config configs/config_hat.json
+```
+2.  使用 mode = coco json:
+```
+python od_evaluator.py --mode coco_json --gt_json example_data/only_no_glove.json --pred_json example_data/only_no_glove_pred.json
+```
+
+## 输出返回值
+```
+[{
+'threshold': 0.1,
+'metrics': {
+    'labels': [{
+        'name': 'no_gloves',
+        'AP': 0.44738234431641344,
+        'AR': 0.9758064516129032,
+        'P': 0.8539707196022313,
+        'R': 0.9435483870967742,
+        'AP50': 0.9208848985211565,
+        'AR50': 0.5604838709677418
+    }],
+    'AP': 0.44738234431641344,
+    'AP50': 0.9208848985211565,
+    'AP75': 0.33124699279215397,
+    'APs': 0.3775518845889323,
+    'APm': 0.546416568798659,
+    'APl': nan,
+    'AR_50_95_all_1': 0.39919354838709686,
+    'AR_50_95_all_10': 0.5604838709677418,
+    'AR_50_95_all_100': 0.5604838709677418,
+    'ARs': 0.5054054054054054,
+    'ARm': 0.6419999999999999,
+    'ARl': nan,
+    'P': 0.8539707196022313,
+    'R': 0.9435483870967742
+}
+}]
+```
+

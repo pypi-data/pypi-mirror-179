@@ -1,0 +1,13 @@
+jsonpath==0.82
+matplotlib==3.5.1
+numpy>=1.22.2
+opencv-python-headless
+openpyxl==3.0.9
+pycocotools==2.0.4
+requests==2.27.1
+setuptools==63.1.0
+tqdm>=4.63.0
+terminaltables>=3.1.10
+uvicorn==0.17.6
+PyYAML==6.0
+fastapi~=0.76.0
