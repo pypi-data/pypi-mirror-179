@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cnfx
+Version: 0.0.1
+Summary: CNFX - A base -i - 1 CNF encoder for complex field operations.
+Home-page: https://twitter.com/maxtuno
+Author: Oscar Riveros
+License: Proprietary
+License-File: LICENSE
