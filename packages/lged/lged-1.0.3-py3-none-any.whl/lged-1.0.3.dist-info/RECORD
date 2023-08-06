@@ -1,0 +1,11 @@
+lged/__init__.py,sha256=jAcqGbSAIho-wWsgme_-Rey1rtAR8-rApd5VHnzTvbs,2244
+lged/app.py,sha256=mIlD2LGJV2sPQwXiK71FmBa35zR28UnLiVArgvwoH6A,4959
+lged/config.py,sha256=uZXIngwfxr6S_yxaHNBzFw02dXFpLP-TvkoxAufOog8,128
+lged/downloader.py,sha256=ek8RX3gOdVT5ukDt53DcsdCv8cd4yGPakNusvM8sDY0,1218
+lged/settings.py,sha256=2BxdXwflnQ0YdInBtmwpRriT3yhaaEI8Xle1YIJn2dY,1330
+lged-1.0.3.dist-info/LICENSE,sha256=T3fyLuItlFGLhn9aszQJ3pxj7TSCnWKlCzq7DlwDLb8,1068
+lged-1.0.3.dist-info/METADATA,sha256=Kvjo6YxoEN_A7IeBrEgYgP8A2R2llUtAysC5-ilZDQw,2106
+lged-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+lged-1.0.3.dist-info/entry_points.txt,sha256=FM26tzekdIuy78DmaRD9mBVEVG01brA-ZnC1Dw2P4mM,35
+lged-1.0.3.dist-info/top_level.txt,sha256=OrrvCHz4i2Z1ZiYe36yvMXZlN2sMl-eHnjxoDw6LuUo,5
+lged-1.0.3.dist-info/RECORD,,
