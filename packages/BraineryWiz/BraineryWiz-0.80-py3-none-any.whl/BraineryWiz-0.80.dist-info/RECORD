@@ -1,0 +1,14 @@
+BraineryWiz/FEMWiz.pyd,sha256=oPsyElufBKMnxSArBdKNvlFPCsaMQMcuYqJIRGB1S0E,77312
+BraineryWiz/PlotAnimation.pyd,sha256=kY82gOIIQK9xxDBPGj00UWcgSnAJq4Id5B_Ts0rleOI,212992
+BraineryWiz/PlotDefo.pyd,sha256=0XeaaiSGUpPTACKWqM1q1ZB25dUGmWyrNYG-UAIykzA,128512
+BraineryWiz/PlotModeShape.pyd,sha256=j4dYrnlqgCzjsmPtHN17zT2qVJk5LgDPJUznTbQCEk0,130048
+BraineryWiz/PlotModel.pyd,sha256=4koKnIBEO-k78X69IL8iN9sTSqfnbTe_vxqpG2QMHzY,140288
+BraineryWiz/RealTime.pyd,sha256=j6g_kel22MKpkgMdgRQi3uKXUiPSIGbeFPAw6BjB4cA,159232
+BraineryWiz/_DFunctions.pyd,sha256=y7Qm0fCzAA9AsAtgPqUZkhEiUQgoWe8S5_etY_igtP8,632832
+BraineryWiz/_PlotData.pyd,sha256=hTG0Ty2ZSNR2uKXYkRzDjhnGS8GplLez6u8wRuZ6qiY,796672
+BraineryWiz/__init__.py,sha256=SSmcENkOEIhFio72eme4_hPJoEqiOEmsewagnW7KlJM,1781
+BraineryWiz/version.py,sha256=rpALuCmRjYFW59vWDMLvmsq8WPP4aisZkpUO8JkzsYU,279
+BraineryWiz-0.80.dist-info/METADATA,sha256=CRr4Om0vvyax9agAmZmV3_pv6_itLsE6VFYKtq8QsWo,2164
+BraineryWiz-0.80.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BraineryWiz-0.80.dist-info/top_level.txt,sha256=EPi3Ek3j3QurNmAqCXLFY54OTA-4XDd2e9Hnw52O0-Q,12
+BraineryWiz-0.80.dist-info/RECORD,,
