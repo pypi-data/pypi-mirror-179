@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+picture/Picture.py
+pictureda.egg-info/PKG-INFO
+pictureda.egg-info/SOURCES.txt
+pictureda.egg-info/dependency_links.txt
+pictureda.egg-info/top_level.txt
