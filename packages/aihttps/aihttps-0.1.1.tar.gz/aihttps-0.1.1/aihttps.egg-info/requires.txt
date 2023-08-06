@@ -1,0 +1,5 @@
+psutil
+colorama
+aiohttp
+requests
+discum
