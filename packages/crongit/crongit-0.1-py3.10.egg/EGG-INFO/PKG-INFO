@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: crongit
+Version: 0.1
+Summary: Executes git commands at specified intervals
+Home-page: https://github.com/luismedel/crongit
+Author: Luis Medel
+Author-email: luis@luismedel.com
+Keywords: git,automation,cron,crontab,development
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
