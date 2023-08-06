@@ -1,0 +1,45 @@
+.TH REPO_RANGER 1 "December 4 2022"
+.SH NAME
+repo_ranger \- manage a set of Git repositories from the command line
+.SH SYNOPSIS
+.B repo_ranger
+[\fIOPTION\fR]... \fICOMMAND\fR [\fIARGS\fR]...
+.SH DESCRIPTION
+\fBrepo_ranger\fR is a command-line tool for managing a set of Git repositories.
+
+It provides the following commands:
+
+.TP
+.B init
+Initialize a new repository configuration.
+
+.TP
+.B list
+List the configured repositories.
+
+.TP
+.B sync
+Synchronize the local copies of the configured repositories.
+
+.TP
+.B clone
+Clone the configured repositories.
+
+.TP
+.B help
+Show help information.
+
+Use \fBrepo_ranger help \fICOMMAND\fR to show detailed help for a specific command.
+.SH OPTIONS
+.TP
+.B \-e, \-\-exclude TAG
+Exclude repositories with the given TAG.
+
+.TP
+.B \-i, \-\-include TAG
+Include only repositories with the given TAG.
+.SH SEE ALSO
+.BR git (1),
+.BR yaml (1)
+.SH AUTHOR
+RepoRanger was created by OpenAI's Assistant.

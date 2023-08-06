@@ -1,0 +1,15 @@
+repo_ranger/__init__.py,sha256=ESPIPdK-2fN_ieXVKgrlAhlP0WQ8ghzQ_o3AbDqkuoU,27
+repo_ranger/repo_ranger.py,sha256=YagyukWnIsAJ1IzmZDD22dHDcAXIeuRUYuxmnLimL6w,6605
+repo_ranger-0.1.0.data/data/man/man1/repo_ranger.1,sha256=ouDG9tibyWldMfO9vbjk7_5Kx0v_6R60OKKOPqFaIdU,924
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_clone.py,sha256=cq7ZDWGCK41gRHo9hOcf9gA6tZfXT1TmU8JUCLzvVRo,2675
+tests/test_filter_repos.py,sha256=mpgTHk3vsviTi6qN3y9u4dxCZTgLGeBOGJcdGDWUvf0,2132
+tests/test_help.py,sha256=CbvmvtBALwYJRNFEminmrkZtC_dDNUuq_SiRZWzDqmo,908
+tests/test_init.py,sha256=xRyBmi0wq3aoVVFvRIJ16KZeUCEcFO3wdbna5Ju4ieo,1815
+tests/test_list.py,sha256=GrWuL1X0QsWHuxzHfpEj0X40Z3Y7qkvKLik-IrzpU5I,2984
+tests/test_pull.py,sha256=Vdx9Bj-3WdLcirdqBnpkcP2t7K6nx-xVyI6A8lUBuJk,5984
+repo_ranger-0.1.0.dist-info/METADATA,sha256=rYy9WUuPbgR1TGN7FnMcfXO-eN_q1dFjT1ctuhbsasg,443
+repo_ranger-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+repo_ranger-0.1.0.dist-info/entry_points.txt,sha256=fDmRxLzUMBvE6glRgFXe0Dn1_z1FXt_7G9j7p61bDNQ,50
+repo_ranger-0.1.0.dist-info/top_level.txt,sha256=UQ2iXANTmJIERD_3_P2wc5VGCgB_jKSlfBINoboLVsI,18
+repo_ranger-0.1.0.dist-info/RECORD,,
