@@ -1,0 +1,3 @@
+[console_scripts]
+pulsar-producer=pulsar_producer.cli:start
+
