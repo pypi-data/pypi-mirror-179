@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pip-jump-to
+Version: 0.0.1
+Summary: pip-jump-to - a quick navigation tool for the PyPI packages.
+Home-page: https://github.com/volopivoshenko/pip-jump-to
+License: MIT
+Keywords: python,pypi,poetry,cli,command-line-tool,cross-platform,hacktoberfest
+Author: Volodymyr Pivoshenko
+Author-email: volodymyr.pivoshenko@gmail.com
+Maintainer: Volodymyr Pivoshenko
+Maintainer-email: volodymyr.pivoshenko@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Documentation, https://github.com/volopivoshenko/pip-jump-to
+Project-URL: Issues, https://github.com/volopivoshenko/pip-jump-to/issues
+Project-URL: Repository, https://github.com/volopivoshenko/pip-jump-to
+Project-URL: Releases, https://github.com/volopivoshenko/pip-jump-to/releases
+Project-URL: Say Thanks!, https://www.buymeacoffee.com/volopivoshenko
+Description-Content-Type: text/markdown
+
+<div align="center">
+    <a href="https://pypi.org/project/poetry-dotenv">
+        <img alt="logo" src="https://github.com/volopivoshenko/poetry-dotenv/blob/main/docs/static/assets/logo.svg?raw=True" height=200>
+    </a>
+</div>
+
