@@ -1,0 +1,16 @@
+.gitignore
+README.md
+pyproject.toml
+test_anchorer.py
+.github/workflows/ci.yml
+.github/workflows/publish.yml
+src/anchorer.egg-info/PKG-INFO
+src/anchorer.egg-info/SOURCES.txt
+src/anchorer.egg-info/dependency_links.txt
+src/anchorer.egg-info/entry_points.txt
+src/anchorer.egg-info/requires.txt
+src/anchorer.egg-info/top_level.txt
+src/anchorer.egg-info/zip-safe
+src/virtualenvwrapper/anchorer/_version.py
+src/virtualenvwrapper/anchorer/fix.py
+src/virtualenvwrapper/anchorer/plugin.py

@@ -1,0 +1,8 @@
+# this file is generted as a part of the bulid process, but not required
+src/virtualenvwrapper/anchorer/_version.py
+
+venv
+dist
+__pycache__
+.idea
+*.egg-info
