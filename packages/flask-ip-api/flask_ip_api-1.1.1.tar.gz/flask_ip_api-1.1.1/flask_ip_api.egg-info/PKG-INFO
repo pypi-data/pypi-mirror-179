@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: flask-ip-api
+Version: 1.1.1
+Summary: Gives access to client IP information.
+Home-page: https://github.com/EpicCodeWizard/Flask-IP-Info-Extension
+Author: EpicCodeWizard
+Author-email: epiccodewizard@gmail.com
+License: UNKNOWN
+Description: # The Unofficial Flask IP Info Extension
+        This library provides simple access to the client's IP in `flask`.
+        ```python
+        from flask import Flask, request
+        from flask_ip_api import IPInfo
+        
+        app = Flask(__name__)
+        IPInfo(app)
+        
+        @app.route("/")
+        def index():
+          return request.ip["ip"]
+        
+        if __name__ == "__main__":
+          app.run()
+        ```
+        Uses the [https://ipapi.com/](https://ipapi.com/) and [https://ipinfo.io/](https://ipinfo.io/) `IP` APIs.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
