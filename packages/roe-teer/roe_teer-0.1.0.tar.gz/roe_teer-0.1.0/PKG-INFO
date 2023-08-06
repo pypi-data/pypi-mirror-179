@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: roe-teer
+Version: 0.1.0
+Summary: 
+Author: cheetahbyte
+Author-email: 40123243+cheetahbyte@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# RoeTeer
+
+RoeTeer is a simple router using radix trees.
+
+> Big thanks to [DreamTexX](https://github.com/DreamTexX) who coded most of this.
+
+
