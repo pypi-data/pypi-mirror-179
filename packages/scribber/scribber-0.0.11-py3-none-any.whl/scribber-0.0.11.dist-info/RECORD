@@ -1,0 +1,16 @@
+core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+core/document.py,sha256=7f_HgAZPUNBJ_sOfd18otPueQCuhRQEIVYxQvNNAdVU,2586
+formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formats/excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formats/excel/excel_document.py,sha256=8e7108yNpU0uncKrW-iBwMWGxiiB7F-jZZjsc1nuwN4,2900
+formats/markdown/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formats/markdown/markdown_document.py,sha256=J4zjL--NM_InkQmu9hltrvMPISrPhSpe8geL1cv57gc,4604
+formats/text/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formats/text/text_document.py,sha256=yPwpwaHwSG2bh_ZNydlpwWJ7h-zwtVqWLrUKtIJ7BEw,3609
+formats/word/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formats/word/word_document.py,sha256=ti0MKE7NRGGrgsqSqXAEnxIs38I_Re22SENKlE_k440,2541
+scribber-0.0.11.dist-info/LICENSE,sha256=IQHaOO4ktsj3vBo9t9LFmKzmWSzzvZQX30sQy8vsqAY,1072
+scribber-0.0.11.dist-info/METADATA,sha256=gJXLN3VbYfWQOHOlTei9YLgTV6lK1eB-s2_QkA-_Dkc,3257
+scribber-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scribber-0.0.11.dist-info/top_level.txt,sha256=IV13cezt0s0FLj8hJ0NGpnYc80-dwUWea6ndZtpfUEc,13
+scribber-0.0.11.dist-info/RECORD,,
