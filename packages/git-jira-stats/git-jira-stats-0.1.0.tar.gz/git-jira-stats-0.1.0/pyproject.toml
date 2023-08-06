@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "git-jira-stats"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Putilov <Mikhail.Putilov@dimoco.eu>"]
+packages = [
+    { include = "git_jira_stats" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jsonpickle = "^3.0.0"
+fire = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+rtd = "git_jira_stats.main:fire_main"
