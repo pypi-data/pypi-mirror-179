@@ -1,0 +1,3 @@
+[musictoolbox.transcoding.codecs]
+copy = musictoolbox.transcoding.codecs.basic:Copy
+

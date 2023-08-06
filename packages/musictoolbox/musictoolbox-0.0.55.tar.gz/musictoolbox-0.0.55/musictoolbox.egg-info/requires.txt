@@ -1,0 +1,6 @@
+mutagen
+Twisted
+packaging
+networkx
+pyxdg
+psutil

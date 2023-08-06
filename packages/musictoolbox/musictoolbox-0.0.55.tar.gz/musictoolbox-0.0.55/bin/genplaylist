@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+import sys
+import musictoolbox.cmd.genplaylist
+
+sys.exit(musictoolbox.cmd.genplaylist.main())

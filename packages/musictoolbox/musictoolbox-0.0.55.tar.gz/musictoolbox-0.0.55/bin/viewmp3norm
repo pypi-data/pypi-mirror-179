@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+
+import sys, os
+
+import musictoolbox.cmd.view
+from musictoolbox.logging import basicConfig
+
+basicConfig(main_module_name="musictoolbox.cmd.view", level=logging.DEBUG)
+
+args = sys.argv[1:]
+musictoolbox.cmd.view.viewmp3norm(args)
