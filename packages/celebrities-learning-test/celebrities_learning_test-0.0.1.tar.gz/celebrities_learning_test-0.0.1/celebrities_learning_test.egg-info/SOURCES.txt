@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+celebrities_learning_test.egg-info/PKG-INFO
+celebrities_learning_test.egg-info/SOURCES.txt
+celebrities_learning_test.egg-info/dependency_links.txt
+celebrities_learning_test.egg-info/requires.txt
+celebrities_learning_test.egg-info/top_level.txt
+project/__init__.py
+project/example.py
+project/moduel_1.py
+project/module_2.py
+test/test_module_1.py
+test/test_module_2.py
+test/test_project.py
