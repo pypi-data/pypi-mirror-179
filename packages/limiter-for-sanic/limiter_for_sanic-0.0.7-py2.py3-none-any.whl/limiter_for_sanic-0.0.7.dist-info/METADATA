@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: limiter-for-sanic
+Version: 0.0.7
+Summary: Limiter for Sanic.
+Home-page: https://github.com/kingchao1024/sanic_limiter
+Author: kingchao
+Author-email: kingchao1024@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aioredis (==2.0.1)
+Requires-Dist: sanic (==22.9.1)
+
+
+# sanic_limiter
+
+```shell
+pip install git+https://github.com/kingchao1024/sanic_limiter.git
+```
