@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "freesound-api"
+version = "1.1.0"
+description = "A Python client for the Freesound APIv2. Clone of freesound-python."
+authors = ["Universitat Pompeu Fabra"]
+maintainers = ["Alexandre Gravel-Raymond <alex@ndre.gr>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "freesound.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+requests = "<3.0,>2.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
