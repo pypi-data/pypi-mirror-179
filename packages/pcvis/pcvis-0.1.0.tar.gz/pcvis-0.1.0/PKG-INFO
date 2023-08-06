@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pcvis
+Version: 0.1.0
+Summary: 
+Author: Yue Ni
+Author-email: niyue.com@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pcvis
+Simple scripts for visualizing page cache of a given file
+
+# prerequisites
+* install `pcstat` (Page Cache stat: get page cache stats for files, https://github.com/tobert/pcstat)
+  * it has both Linux and macOS binaries since v0.0.1
+
+# installation
+1. Copy the `pcvis/pcvis.py` from this repo
+2. Move `pcvis.py` into your `$PATH` (e.g. `/usr/local/bin`)
+```
+mv pcvis.py /usr/local/bin/pcvis
+chmod +x /usr/local/bin/pcvis
+```
+
+# usage
+Visualize a given file's page cache status like below. In the visualized image, the white dots indicate the part of the file that is in the page cache.
+```
+pcstat -json -pps /path/to/my_file | pcvis
+```
+
+<img width="1719" alt="image" src="https://user-images.githubusercontent.com/27754/204122521-c17c5b32-82ee-4326-8d15-b39192889eec.png">
+
+# notes
+Before running the above command for visualization, you need to clean page cache so that the above result is accurate
+
+```
+# for linux
+sync; echo 1 > /proc/sys/vm/drop_caches 
+# for macOS
+sudo purge
+```
+
+
+
