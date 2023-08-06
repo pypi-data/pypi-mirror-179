@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tensormaker/__init__.py
+tensormaker.egg-info/PKG-INFO
+tensormaker.egg-info/SOURCES.txt
+tensormaker.egg-info/dependency_links.txt
+tensormaker.egg-info/top_level.txt
