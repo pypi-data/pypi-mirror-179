@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "urlx"
+version = "1.0.1"
+description = "The purpose of this package is to standardize URL declaration in the codebase"
+authors = ["volodymyrb <volodymyr.borysiuk0@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://volodymyrbor.github.io/urlx/"
+repository = "https://github.com/VolodymyrBor/urlx"
+documentation = "https://volodymyrbor.github.io/urlx/"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = ">=4.0.1,<5.0.0"
+pytest-asyncio = "^0.20.2"
+pytest-flake8 = "^1.1.1"
+pytest-mypy = "^0.10.1"
+mkdocs-material = "^8.5.10"
+mkdocstrings = {extras = ["python"], version = "^0.19.0"}
+pytest-cov = "^4.0.0"
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
