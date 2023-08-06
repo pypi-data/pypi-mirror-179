@@ -1,0 +1,3 @@
+[console_scripts]
+build-conda-vdf-env = mx06.bin.__init__:main
+
