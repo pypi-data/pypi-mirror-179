@@ -1,0 +1,13 @@
+absl-py
+chex
+distrax>=0.1.2
+dm-haiku
+flax
+jax
+matplotlib
+ml-collections
+numpy
+optax
+pandas
+tensorflow; sys_platform != 'darwin' or platform_machine != 'arm64'
+tensorflow-macos; sys_platform == 'darwin' and platform_machine == 'arm64'
