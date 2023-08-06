@@ -1,0 +1,11 @@
+inmanta_ext/ui/__init__.py,sha256=2eZZwUhAxrZeNXcxHCnNAZtb3g8gIxn7PHhSzzH8Qlw,627
+inmanta_ext/ui/extension.py,sha256=76S5FTofycbw9LUtbzlwQZzrsIJBir6xsel0OX5aEmM,815
+inmanta_ui/__init__.py,sha256=2eZZwUhAxrZeNXcxHCnNAZtb3g8gIxn7PHhSzzH8Qlw,627
+inmanta_ui/config.py,sha256=DySColB18Vafit1TT16EryCWBV69foQTw7BFsSh7mIo,1765
+inmanta_ui/const.py,sha256=bRDqiATGZSJjZnXJl_mTFtazRlSmnRIFdcmPQ5-ipHc,646
+inmanta_ui/ui.py,sha256=cEU7HDko8PwOv3CH7wNKJgzfwL7VyB12P9lDraOxiH4,4114
+inmanta_ui-4.0.0.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+inmanta_ui-4.0.0.dist-info/METADATA,sha256=sST2GcIZpWZ03sF8NW9uMFhvAoKB36OPfv9ZJOOBnJI,395
+inmanta_ui-4.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+inmanta_ui-4.0.0.dist-info/top_level.txt,sha256=mwhX92KFku37pvV156gCapyBTSnLPSGdj2RRvxVeBKk,23
+inmanta_ui-4.0.0.dist-info/RECORD,,
