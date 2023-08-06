@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: induct
+Version: 0.0.1
+Summary: short package description
+Home-page: https://github.com/induct-ai/induct
+Author: author
+Author-email: author@example.com
+Project-URL: Bug Tracker, https://github.com/induct-ai/induct/issues
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# induct
