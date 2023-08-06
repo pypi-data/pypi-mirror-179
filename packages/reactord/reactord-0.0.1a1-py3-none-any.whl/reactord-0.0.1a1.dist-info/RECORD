@@ -1,0 +1,16 @@
+reactord/__init__.py,sha256=X7I-JM2N8vp-BguXNydqEIAQx0LIzbjNJTZX3IjDr3A,336
+reactord/kinetics.py,sha256=-PBNGXGxND4HCXomCCOuHtHhCEzhoL-7UkdZtOMx88g,8146
+reactord/reactorbase.py,sha256=sAbfjLiy-Hy6RlbdOtCExO-_3VE67VvadSVzhy6p-00,18484
+reactord/substance.py,sha256=kugwDZKhJZzpcoaAoGvMD0mep2-EoGalB5Pl1XoyE4Y,14747
+reactord/utils.py,sha256=Afj17n7v2SoarkXhk1LDLrcERxn5rVqdIMZiJyY_iWg,1192
+reactord/idealreactor/__init__.py,sha256=SaW35Tb5MDKZreXLSe4ya_acGaeujAvk_r5_iQCdB5s,200
+reactord/idealreactor/stationary_pfr.py,sha256=WSAOXZ_ieE5wD8zJzfX7kGWk0P-lJpuOLBZ2CvGlblg,37194
+reactord/mix/__init__.py,sha256=N57iK47PoLtMCs5DT1d0rxD1zltK__FbVlVkJHXCt8M,179
+reactord/mix/abstract_mix.py,sha256=0mnl4QFq6g8uq0YRZoqAE9BNGjSm-Z_TI8YpVyqPe3Q,4999
+reactord/mix/ideal_gas.py,sha256=guwQITbejyYaimls-ZuyX_J-g4eZF3qiCWQHl7gfUgM,3748
+reactord/mix/ideal_solution.py,sha256=Eom2byJOJAqQQitH-EhNpe8t5hRn1wPJsGYTjh8Wlm0,4420
+reactord-0.0.1a1.dist-info/LICENCE,sha256=_tuAQ8SrotJHlyQleqLZkYnAWWYNm0XUVBUy1YjUa3Q,1179
+reactord-0.0.1a1.dist-info/METADATA,sha256=mw8uQw-swHvhvyDC0xYvmN0Fh7dGTyDb1OCz7_GuGlk,1117
+reactord-0.0.1a1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+reactord-0.0.1a1.dist-info/top_level.txt,sha256=4KIxxDZ9Iw_7TgrM9UyP6px_JDLwFgiKxq4AveF91Co,9
+reactord-0.0.1a1.dist-info/RECORD,,
