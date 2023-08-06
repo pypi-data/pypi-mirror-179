@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "norske-kommuner"
+version = "0.1.1"
+description = "Pydantic models on Norwegian municipalities (Norske kommuner)."
+authors = ["Anders Steen <anders.steen@knowit.no>"]
+readme = "README.md"
+packages = [{include = "norske_kommuner"}]
+repository = "https://github.com/AndersSteenNilsen/norske-kommuner"
+keywords = ["kommuner", "municipalities", "norway"]
+classifiers = ["Development Status :: 3 - Alpha"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^1.10.2"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+datamodel-code-generator = "^0.14.0"
+
+[tool.black]
+skip-string-normalization = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
