@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+krank/krank.egg-info/PKG-INFO
+krank/krank.egg-info/SOURCES.txt
+krank/krank.egg-info/dependency_links.txt
+krank/krank.egg-info/top_level.txt

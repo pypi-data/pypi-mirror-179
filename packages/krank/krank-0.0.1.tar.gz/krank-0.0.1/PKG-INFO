@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: krank
+Version: 0.0.1
+Summary: Fetch sleep and dream data from public repositories
+Home-page: https://github.com/remrama/krank
+Author: Remington Mallett
+Author-email: mallett.remy@gmail.com
+Project-URL: Homepage, https://github.com/remrama/krank
+Project-URL: Source, https://github.com/remrama/krank
+Project-URL: Bug Tracker, https://github.com/remrama/krank/issues
+Project-URL: Release Notes, https://github.com/remrama/krank/releases
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# krank
+
+Steal sleep and dreams from other researchers.
+
+Uses [Pooch](https://www.fatiando.org/pooch) for simple and reliable downloading. Similar to [Ensaio](https://www.fatiando.org/ensaio) but for sleep.
