@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metadata_schema",
+  "title": "Collection metadata",
+  "description": "A collection of data sets",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "Unique name of the data set",
+      "type": "string"
+    },
+    "display_name": {
+      "description": "Name of the data set as it will appear in plots",
+      "type": "string"
+    },
+    "version": {
+      "description": "Version number for the data set",
+      "type": "string"
+    },
+    "variable": {
+      "description": "Name of the variable",
+      "type": "string"
+    },
+    "units": {
+      "description": "Units of the variable",
+      "enum": [
+        "1","degC", "zJ",
+        "ppm", "ppm/year", "ppb", "ppb/year",
+        "mm", "%", "millionkm2", "Gt", "ph", "mwe"
+      ]
+    },
+    "citation": {
+      "description": "List of citations for the papers related to the data in the data collection",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "citation_url": {
+      "description": "List of citation urls for the papers related to the data in the data collection",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "data_citation": {
+      "description": "List of citations for the data in the data collection",
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "colour": {
+      "description": "Colour to be used when plotting data from this collection",
+      "type": "string"
+    },
+    "zpos": {
+      "description": "Determines order in which lines are plotted",
+      "type": "integer"
+    },
+    "datasets": {
+      "description": "List holding metadata for a range of data sets in this collection",
+      "type": "array",
+      "items": {
+        "$ref": "dataset_schema.json"
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "name",
+    "display_name",
+    "version",
+    "variable",
+    "units",
+    "citation",
+    "citation_url",
+    "data_citation",
+    "colour",
+    "zpos"
+  ]
+}

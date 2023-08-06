@@ -1,0 +1,30 @@
+{
+  "name": "MCS",
+  "display_name": "Marine cold spells",
+  "version": "",
+  "variable": "mcs",
+  "units": "%",
+  "citation": ["Hobday, A.J.; Oliver, E. C. J.; Sen Gupta, A. et al. Categorizing and naming marine heatwaves. Oceanography 2018, 31 (2), 1–13. https://doi.org/10.5670/oceanog.2018.205."],
+  "citation_url": ["https://doi.org/10.5670/oceanog.2018.205"],
+  "data_citation": [""],
+  "acknowledgement": "",
+  "colour": "#0072b2",
+  "zpos": 10,
+  "datasets": [
+    {
+      "url": ["https://raw.githubusercontent.com/robwschlegel/MHWapp/master/data/annual_summary/OISST_MCS_cat_daily_1982-2011_total.csv"],
+      "filename": ["OISST_MCS_cat_daily_1982-2011_total.csv"],
+	  "type": "timeseries",
+      "long_name": "Global ocean area affected by marine cold spells",
+	  "time_resolution": "annual",
+	  "space_resolution": 999,
+	  "climatology_start": 1981,
+	  "climatology_end": 2010,
+	  "actual": true,
+	  "derived": false,
+	  "history": [],
+      "reader": "reader_mhw_ts",
+	  "fetcher": "fetcher_standard_url"
+    }
+  ]
+}
