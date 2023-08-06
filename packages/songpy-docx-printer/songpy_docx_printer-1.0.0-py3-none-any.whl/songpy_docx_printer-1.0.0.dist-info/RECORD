@@ -1,0 +1,9 @@
+docxprinter/__init__.py,sha256=0ryA1UfdaZoQNgUMfcpkVJ9BOJPHCGg-JqJPG1y2neQ,33
+docxprinter/generator.py,sha256=IcVhX93fHEwJKfKl4Iqps8b9zrZuhmjYDu9hQ89jTSw,4427
+resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+resources/prayer.json,sha256=6ZVxZ0zF8pkCoGzoSRdfgT7vEpO1L60Yxxf31h0bDIQ,256
+resources/template.docx,sha256=7NHZSSxf-Kem2RgT4B2f-S9ytWMcd3HrSUBfY_GsQSk,13887
+songpy_docx_printer-1.0.0.dist-info/METADATA,sha256=S1_VuOF0Bntagu6421QAhv_FomrL6B-0SO-y1YU6IsU,249
+songpy_docx_printer-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+songpy_docx_printer-1.0.0.dist-info/top_level.txt,sha256=T2uSClkgiXGkPqL043BunHrbXlbu58nOOvhTvxEuthw,22
+songpy_docx_printer-1.0.0.dist-info/RECORD,,
