@@ -1,0 +1,7 @@
+setup.py
+love2.egg-info/PKG-INFO
+love2.egg-info/SOURCES.txt
+love2.egg-info/dependency_links.txt
+love2.egg-info/top_level.txt
+love_run/__init__.py
+love_run/love.py
