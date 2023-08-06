@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: voicem
+Version: 0.0.1
+Summary: python voice based authentication
+Home-page: https://github.com/Py-Contributors/voicem
+Author: PyContributors
+Author-email: deepak008@live.com
+License: UNKNOWN
+Keywords: rssfeed,rssfeedcli,rssfeed-cli,discord-bot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+
+# voicem
+Python Voice Based Authentication
+
+
