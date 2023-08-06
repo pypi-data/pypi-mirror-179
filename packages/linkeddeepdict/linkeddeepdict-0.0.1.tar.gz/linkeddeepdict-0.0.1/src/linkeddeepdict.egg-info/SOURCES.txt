@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/linkeddeepdict/__init__.py
+src/linkeddeepdict/linkeddeepdict.py
+src/linkeddeepdict.egg-info/PKG-INFO
+src/linkeddeepdict.egg-info/SOURCES.txt
+src/linkeddeepdict.egg-info/dependency_links.txt
+src/linkeddeepdict.egg-info/not-zip-safe
+src/linkeddeepdict.egg-info/requires.txt
+src/linkeddeepdict.egg-info/top_level.txt
+src/linkeddeepdict/tools/__init__.py
+src/linkeddeepdict/tools/dtk.py
+src/linkeddeepdict/tools/kwargtools.py
