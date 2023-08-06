@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: unceg
+Version: 0.0.1
+Summary: unceg - Uncertainty in Cell Segmentations
+Author-email: "Richard D. Paul" <richard@los-paul.eu>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# unceg - Uncertainty in Cell sEGmentations
