@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+studentresume/__init__.py
+studentresume/json_validator.py
+studentresume/resume.py
+studentresume/run.py
+studentresume.egg-info/PKG-INFO
+studentresume.egg-info/SOURCES.txt
+studentresume.egg-info/dependency_links.txt
+studentresume.egg-info/entry_points.txt
+studentresume.egg-info/requires.txt
+studentresume.egg-info/top_level.txt
