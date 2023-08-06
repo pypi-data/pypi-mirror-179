@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "yaqn"
+version = "1.0.0"
+description = "A quicknotes app made in python and tkinter."
+authors = ["kutu-dev"]
+license = "MIT License"
+readme = "README.md"
+keywords = ["notes"]
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/kutu-dev/yaqn"
+"Bug Tracker" = "https://github.com/kutu-dev/yaqn/issues"
+
+[tool.poetry.scripts]
+yaqn = "yaqn.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
