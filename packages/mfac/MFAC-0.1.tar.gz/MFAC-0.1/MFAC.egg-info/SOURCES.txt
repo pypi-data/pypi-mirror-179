@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.cfg
+setup.py
+MFAC/__init__.py
+MFAC/mfac.py
+MFAC.egg-info/PKG-INFO
+MFAC.egg-info/SOURCES.txt
+MFAC.egg-info/dependency_links.txt
+MFAC.egg-info/requires.txt
+MFAC.egg-info/top_level.txt
