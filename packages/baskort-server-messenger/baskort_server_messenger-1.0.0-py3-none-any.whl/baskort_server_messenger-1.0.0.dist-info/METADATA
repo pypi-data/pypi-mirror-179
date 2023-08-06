@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: baskort-server-messenger
+Version: 1.0.0
+Summary: messenger_server
+Home-page: UNKNOWN
+Author: MadEngine
+Author-email: scorpio-84@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt6
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
