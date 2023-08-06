@@ -1,0 +1,10 @@
+setup.py
+kxflv-distributions/Binomialdistribution.py
+kxflv-distributions/Gaussiandistribution.py
+kxflv-distributions/Generaldistribution.py
+kxflv-distributions/__init__.py
+kxflv_distributions.egg-info/PKG-INFO
+kxflv_distributions.egg-info/SOURCES.txt
+kxflv_distributions.egg-info/dependency_links.txt
+kxflv_distributions.egg-info/not-zip-safe
+kxflv_distributions.egg-info/top_level.txt
