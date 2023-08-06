@@ -1,0 +1,11 @@
+pytemplatesforpython/__init__.py,sha256=kRrMICAlI3gzueiVD3RRWsGjBm82iAhvMoJNhK2ZbSA,86
+pytemplatesforpython/abstract_prerender_zone.py,sha256=fmhKUPxlHl1-lWe7bYr0STPc0TDGzmEkol6Z3E1Peo4,5001
+pytemplatesforpython/abstract_template.py,sha256=mH8JJiaKMFbz7NXned0z_F1U-wUuJn2qVKFIIhRr5Sk,8660
+pytemplatesforpython/file_template.py,sha256=7Ir_LX5-qbExoH-UQuiecGcsci-q2CL0WQKI6uQVF2E,452
+pytemplatesforpython/pointer_string.py,sha256=jIDn4Nb39hApkj0tSKCQ0kufEY0Rl_muE1L-AwXj8ug,1237
+pytemplatesforpython/templates_loader.py,sha256=qebWgUAS2vXzkhlZxIyj0AVRKoOlwvW7nj5l-8C3bkY,1717
+pytemplatesforpython-1.1.1.dist-info/LICENSE,sha256=WjDl7lWjNVUXchMzRlPIDkbtLYfuky1-2n-jpEj0Uyg,1093
+pytemplatesforpython-1.1.1.dist-info/METADATA,sha256=YGfJHhAzJhaIuPAqhZre9KoiWZnkorNk8CiG-N_NnQo,4960
+pytemplatesforpython-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytemplatesforpython-1.1.1.dist-info/top_level.txt,sha256=MbYWpBfSUeKIcgG399VWZd3DuexGADEiihV5j6AvZdk,21
+pytemplatesforpython-1.1.1.dist-info/RECORD,,
