@@ -1,0 +1,13 @@
+midas_dev/__init__.py,sha256=U4S_2y3zgLZVfMenHRaJFBW8yqh2mUBuI291LGQVOJ8,35
+midas_dev/common_pyproject.toml,sha256=2rIGOcQZb4mGZSXqSV8cA1p5Ge5Lp2sZZMGIvSZr-Z4,1779
+midas_dev/deploy.py,sha256=gfVBXJBDhLQhFOvxLu9eIQpH0enw5jyfh8WHo9TwCfE,18357
+midas_dev/deploy_data/health_alarm_notify.conf,sha256=g9AJUY7Jc16T5O46QaWkNNOU37hbHow4unLN3oVPrT4,45478
+midas_dev/deploy_data/health_alarm_notify.source.conf,sha256=-uZ552-9-B00yDYYyokehyrVhuKgW-J1oy7ZZbMwwXs,47824
+midas_dev/deploy_data/netdata_python_custom_sender.py,sha256=IiSw4BdSf0c3y8ynStIrhoRhaTKumL0H-af7bgSOQ_0,5092
+midas_dev/main.py,sha256=hRHNLX27fU08oT872mtTGkzwDjFMEZspvyaadVia-W0,7535
+midas_dev/utils.py,sha256=0BF7jt4Nn2ZGHWR8TWxKgmpp0eYzJTIi0gqInaugR3Q,3020
+midas_dev-0.42.0.dist-info/entry_points.txt,sha256=TXzQkJoqgQYSfi-hOQ4a319DBqQXZ45VMXcGX32CaHo,373
+midas_dev-0.42.0.dist-info/METADATA,sha256=iqo9-T0U0AhXFayoTEaF6_AMcpEvE6M6Jr6q90ReJMI,2210
+midas_dev-0.42.0.dist-info/LICENSE,sha256=lgRLxDnAsBd1at83iu22tm4L7oVtxukZ73NE4nIQNJc,1067
+midas_dev-0.42.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+midas_dev-0.42.0.dist-info/RECORD,,
