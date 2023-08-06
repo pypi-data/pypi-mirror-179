@@ -1,0 +1,9 @@
+ncs2mef/__init__.py,sha256=OvFHVMknJ6ownXYcFJEg3z8vbW8uD5ARxTjJHp4JdSc,332
+ncs2mef/ncs_reader.py,sha256=bZzYr8LD3E-G26nXaQ4L13Dm-0eBrV5Ga2MtiRRscik,2514
+ncs2mef/test/__init__.py,sha256=9hpKYIrGOtOZMGFCkap3hpBlvW2gH5tm7ha_o3R7KaA,267
+ncs2mef/test/test_ncs_reader.py,sha256=QpEoaGOqg16qEbXFmYS2ednJybasNwOVYr83Xrk5IOQ,72266
+ncs2mef-0.0.1.dist-info/LICENSE,sha256=IDIRBKcH2AJS-bLCEE8b3iftHRGJWVsco-2l1zKUTjE,11358
+ncs2mef-0.0.1.dist-info/METADATA,sha256=r_swVoTyv_ZYWZtKez597Yb4d9FC0ubJkXDLA77K86o,882
+ncs2mef-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ncs2mef-0.0.1.dist-info/top_level.txt,sha256=KZW2uILnq8k8T3CMeWYYmWoy4wwvVyFk6T3YuoQezTo,8
+ncs2mef-0.0.1.dist-info/RECORD,,
