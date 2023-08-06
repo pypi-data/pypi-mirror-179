@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: meshlab-pickedpoints
+Version: 4.0.0
+Summary: Read and write MeshLab picked point (.pp) files
+Home-page: https://github.com/lace/meshlab-pickedpoints
+License: BSD-2-Clause
+Author: Paul Melnikow
+Author-email: github@paulmelnikow.com
+Requires-Python: >=3.8.1,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Provides-Extra: cli
+Requires-Dist: click (>=8.0.3,<9.0.0); extra == "cli"
+Project-URL: Documentation, https://meshlab-pickedpoints.netlify.app/
+Project-URL: Repository, https://github.com/lace/meshlab-pickedpoints
