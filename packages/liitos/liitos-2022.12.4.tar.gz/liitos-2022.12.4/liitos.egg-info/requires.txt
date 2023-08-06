@@ -1,0 +1,13 @@
+PyYAML>=6.0
+treelib>=1.6.1
+typer>=0.7.0
+
+[dev]
+black
+coverage
+flake8
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
