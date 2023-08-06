@@ -1,0 +1,17 @@
+django_devops/__init__.py,sha256=idYovU-p-0SF8aYGCSip9BW6r_GyrhJJMAjOEqXv1bg,38
+django_devops/guides/__init__.py,sha256=_iaFjcLMRpSJIVi3VVV3iZ2XD3vNFMUIuYvGf22HV_8,50
+django_devops/guides/auth.py,sha256=AbP-jH4QGT9_jcpwGqoFbB3WJyw_qbfDRetVqc3oyEc,3118
+django_devops/management/__init__.py,sha256=YvgSX9q8utrOqJcdMtQfgdFsjvECGJdUjBiM7wJH9eU,62
+django_devops/management/commands/__init__.py,sha256=Uxtu-DnTTlXAsVocRewzS6EEscQPB2d2zimV60J5bvQ,36
+django_devops/management/commands/devops.py,sha256=a2vMBo47T6X8Nr8yhAmz7hgRggVJ1MvJYT98VaW3jFo,5722
+django_devops/management/commands/prep_celery.py,sha256=bxyue2VlVZ3zB7KTxBFKLiNiqbjwCkyy3P2VC6rqqkM,5732
+django_devops/management/commands/prep_gunicorn.py,sha256=CuErwnS_w5nv0pB5a02jzuXqtUiTka3qZghio1mlR7E,2756
+django_devops/management/commands/prep_nginx.py,sha256=ediaDfhTZXOeE4UcApXx91d9PeNl8svNfXtedMMQ-jQ,2309
+django_devops/management/commands/update_services.py,sha256=fxlxEaeWHNXHlS8-vHKktwzlE7j_zlpKcx0ivaLnL9I,4987
+django_devops/utils/__init__.py,sha256=nrRXydC_WtgwkbGjCl7MfRJ3Bd2KA5CfQovTLIYwALM,34
+django_devops/utils/user_input.py,sha256=1oVILM6Fpya07o0YGfNZSiKMCIsirl8z9l2tPgJcMkM,1163
+django_DevOps-0.2.10.dist-info/LICENSE,sha256=aiwBNjFDPE9e58st6-il2fdEU2hBsJGFbd4-M5aRkp4,1071
+django_DevOps-0.2.10.dist-info/METADATA,sha256=uTNjMJjPjU1llKvSqdHqlrYxlJNgVoXbG6LbqlKDuOA,4360
+django_DevOps-0.2.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_DevOps-0.2.10.dist-info/top_level.txt,sha256=M1sR1wi3eF1GuZ472AopMq99TcT5OfYzw3cfAgn0D_8,14
+django_DevOps-0.2.10.dist-info/RECORD,,
