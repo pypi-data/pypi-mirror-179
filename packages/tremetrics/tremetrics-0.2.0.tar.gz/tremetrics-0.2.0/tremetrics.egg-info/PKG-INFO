@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: tremetrics
+Version: 0.2.0
+Summary: Tremendous Metrics
+Home-page: https://gitlab.com/BCLegon/tremetrics
+Author: B.C. Legon
+Author-email: pypi@legon.it
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Tremetrics
+
+[![PyPi](https://img.shields.io/pypi/v/tremetrics)](https://pypi.org/project/tremetrics/)
+
+Tremendous Metrics.
+
+## Installation
+
+You can install Tremetrics from [PyPi](https://pypi.org/project/tremetrics/) using `pip`.
+
+```
+pip install tremetrics
+```
+
+## Usage
+
+### ConfusionMatrix
+
+```python
+from tremetrics import ConfusionMatrix
+
+y_true, y_pred = ...                            # Generate predictions
+cm = ConfusionMatrix.from_pred(y_true, y_pred)  # Create a new confusion matrix object
+
+print(cm)                                       # Print the confusion matrix
+array_for_further_use = cm.array                # Get the matrix as a numpy array
+print(cm.tp, cm.fn, cm.fp, cm.tn)               # Get the individual quadrant values
+
+print(cm.get_latex_table(multirow=True))        # Get the matrix as code for a Latex table
+
+print(cm.recall_score(average='micro'))         # Call any sklearn.metrics function using the data in the matrix
+```
+
+### ROCCurve
+
+```python
+from tremetrics import ROCCurve
+import matplotlib.pyplot as plt
+
+y_true, y_pred_prob = ...                       # Generate prediction probabilities
+
+curve = ROCCurve.from_pred_prob(y_true, y_pred_prob)  # Create a new roc curve object
+print(curve.roc_auc)                            # Print the area under the roc curve
+
+curve.plot()                                    # plot the roc curve
+plt.show()                                      # show the curve plot
+
+# generating convex roc curves
+curve = ROCCurve.from_pred_prob(y_true, y_pred_prob, convex=True)  # Create a convex roc curve object
+print(curve.roc_auc)                            # Print the area under the roc curve
+
+curve.plot()                                    # plot the roc curve
+plt.show()                                      # show the curve plot
+
+# static methods meant as sklearn drop-in replacement
+fpr, tpr, thresholds = ROCCurve.roc_curve(y_true, y_pred_prob)
+fpr, tpr, thresholds = ROCCurve.convex_roc_curve(y_true, y_pred_prob)
+
+# exploiting pyplot state to draw both standard and convex roc curves
+curve = ROCCurve.from_pred_prob(y_true, y_pred_prob)
+curve.plot()
+curve = ROCCurve.from_pred_prob(y_true, y_pred_prob, convex=True)
+curve.plot()
+plt.show()
+```
+
+#### Why should I make my ROC curve convex?
+
+A nice explanation is given in [this paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2897827/).
+
+In essence, ROC points below the convex hull are suboptimal classifiers,
+which can be outperformed by interpolating nearby classifiers that are on the convex hull.
+Practically, this interpolation is a random choice
+(i.e. without considering input data or predictions made)
+between such better classifiers,
+where the probability of picking one over the other
+determines the position on the line segment between their ROC points.
