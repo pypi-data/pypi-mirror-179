@@ -1,0 +1,21 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+can_sontheim/SIECA132.pdf
+can_sontheim/__init__.py
+can_sontheim/canlib.py
+can_sontheim/constants.py
+can_sontheim/devices.py
+can_sontheim/interprocess communication.url
+can_sontheim/structures.py
+can_sontheim/version.py
+python_can_sontheim.egg-info/PKG-INFO
+python_can_sontheim.egg-info/SOURCES.txt
+python_can_sontheim.egg-info/dependency_links.txt
+python_can_sontheim.egg-info/entry_points.txt
+python_can_sontheim.egg-info/requires.txt
+python_can_sontheim.egg-info/top_level.txt
+test/test_interface_sontheim.py
