@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: talkweb
+Version: 1.2
+Summary: A html to object framework
+Home-page: https://www.github.com/madhukumarseshadri/talkweb3
+Author: Madhukumar Seshadri
+Author-email: madhukumarseshadri@gmail.com
+License: MIT License
+Description: # talkweb
+        
+        https://youtu.be/aDU1JluxNFU
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
