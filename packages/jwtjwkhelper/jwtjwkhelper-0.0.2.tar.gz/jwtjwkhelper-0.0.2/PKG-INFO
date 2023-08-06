@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jwtjwkhelper
+Version: 0.0.2
+Summary: JWTJWKHelper
+Project-URL: Homepage, https://github.com/vroomfondel/jwtjwkhelper
+Author-email: Henning Thieß <ht@xomox.cc>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: jwcrypto==1.4.2
+Requires-Dist: loguru==0.6.0
+Requires-Dist: pyjwt==2.6.0
+Description-Content-Type: text/markdown
+
+# JWTJWKHelper
+
+https://github.com/vroomfondel/jwtjwkhelper
+
+This package is a simple Helper to work with JWT also using RSA-signatures and different keys.
+May or may it not be helpfull for you. But since I already used this more than three times, it just made it 
+easier for me to wrap it in a package for PyPI.
+
+## Examples
+...
+# jwtjwkhelper
