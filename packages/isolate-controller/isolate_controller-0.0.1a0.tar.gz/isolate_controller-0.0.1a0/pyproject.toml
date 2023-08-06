@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "isolate_controller"
+version = "0.0.1-alpha.0"
+readme = "README.md"
+description = "Managed isolated environments for Python"
+authors = ["Features & Labels <hello@fal.ai>"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+grpcio = ">=1.49"
+protobuf = "*"
+dill = "0.3.5.1"
+isolate = "0.5.0"
+kubernetes = "^25.3.0"
+kubernetes-asyncio = "^24.2.2"
+redis = "^4.3.4"
+psycopg = "^3.1.4"
+google-cloud-storage = "^2.6.0"
+typing-extensions = "^4.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
