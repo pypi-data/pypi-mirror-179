@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pymotorlib/BaseEncoder.py
+src/pymotorlib/Motor.py
+src/pymotorlib/MotorType.py
+src/pymotorlib/PIDController.py
+src/pymotorlib/PWMDriver.py
+src/pymotorlib/__init__.py
+src/pymotorlib.egg-info/PKG-INFO
+src/pymotorlib.egg-info/SOURCES.txt
+src/pymotorlib.egg-info/dependency_links.txt
+src/pymotorlib.egg-info/top_level.txt
