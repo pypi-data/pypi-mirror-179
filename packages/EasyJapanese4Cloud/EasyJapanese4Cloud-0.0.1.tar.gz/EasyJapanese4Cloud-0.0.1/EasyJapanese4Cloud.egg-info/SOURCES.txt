@@ -1,0 +1,13 @@
+setup.py
+EasyJapanese4Cloud/__init__.py
+EasyJapanese4Cloud.egg-info/PKG-INFO
+EasyJapanese4Cloud.egg-info/SOURCES.txt
+EasyJapanese4Cloud.egg-info/dependency_links.txt
+EasyJapanese4Cloud.egg-info/requires.txt
+EasyJapanese4Cloud.egg-info/top_level.txt
+EasyJapanese4Cloud/changepath/__init__.py
+EasyJapanese4Cloud/changepath/change.py
+EasyJapanese4Cloud/easyjapanese/__init__.py
+EasyJapanese4Cloud/easyjapanese/complete.py
+EasyJapanese4Cloud/easyjapanese/easy.py
+EasyJapanese4Cloud/easyjapanese/regular.py

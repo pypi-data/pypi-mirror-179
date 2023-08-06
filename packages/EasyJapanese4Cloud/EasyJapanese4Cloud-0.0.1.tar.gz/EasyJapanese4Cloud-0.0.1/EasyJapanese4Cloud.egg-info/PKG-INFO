@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: EasyJapanese4Cloud
+Version: 0.0.1
+Summary: copy of easyjapanese, edited for cloud.
+Home-page: https://github.com/yuki-cossy/easyjapanese4cloud
+Author: Yuki Cossy
+Author-email: domokomod5@gmail.com
+Maintainer: Yuki Cossy
+Maintainer-email: domokomod5@gmail.com
+Requires-Python: >=3.6
+
+copy of easyjapanese, edited for cloud
