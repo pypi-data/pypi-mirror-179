@@ -1,0 +1,5 @@
+setup.py
+moduleforkul.egg-info/PKG-INFO
+moduleforkul.egg-info/SOURCES.txt
+moduleforkul.egg-info/dependency_links.txt
+moduleforkul.egg-info/top_level.txt
