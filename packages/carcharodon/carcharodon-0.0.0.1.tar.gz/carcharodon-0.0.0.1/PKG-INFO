@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: carcharodon
+Version: 0.0.0.1
+Summary: Just a simple BBS system
+Home-page: UNKNOWN
+Author: sherekhan at pypi.org
+Author-email: sherekhan@jungle.tes
+License: GNU GPL3+
+Description: # Carcharodon BBS
+        
+        Carcharodon BBS is a primitive BBS written in Python 3.
+        
+        ## Using
+        
+        ### Starting
+        
+            carcharodon
+        
+        ### Connecting
+        
+            telnet localhost 9090
+        
+        ## Changelog
+        
+        ### Version 0.0.0.1
+        
+        - First version
+        - It can show an example file (Lorem ipsum 
+        text) and play game of dice
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Topic :: Communications :: BBS
+Classifier: Development Status :: 2 - Pre-Alpha
+Description-Content-Type: text/markdown
