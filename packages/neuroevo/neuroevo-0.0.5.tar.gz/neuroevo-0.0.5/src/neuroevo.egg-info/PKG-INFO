@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: neuroevo
+Version: 0.0.5
+Summary: Training neural networks with evolutionary and particle swarm algorithms
+Author-email: Philip Schroeder <pschroe9@jhu.edu>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/NeuroEvo/neuroevo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# About
+#### NeuroEvo is a platform for automated design and training of neural networks using evolutionary and particle swarm algorithms. The neuroevo Python package implements the algorithms used in the web application ([neuroevo.io](https://neuroevo.io)).
+#### Developed by Philip Schroeder (pschroe9@jhu.edu, pschroed@broadinstitute.org)
+
+# Example
+```
+from neuroevo import models
+import uci_dataset as dataset
+
+# Load example dataset
+df=dataset.load_cardiotocography()
+
+# Define dataset parameters
+first_feature_column_number, last_feature_column_number, class_col_number, has_header = 1, 22, 23, False
+
+# Define training method
+train_method='PSO'
+
+# Execute training
+data=df.values.tolist()
+res=models.train(data, first_feature_column_number, last_feature_column_number, class_col_number, has_header, train_method, n_hidden_nodes=[3,3], n_iterations=10, NP=10)
+
+# View fitted weights of best candidate
+nn1=res['best_candidate']
+print(nn1.nn_weights)
+
+# View previous class labels (based on given dataset) and new class labels (the labels used by the classifier)
+print(res['old_class_labels'])
+print(res['new_class_labels'])
+
+# Example of using returned classifier to make a prediction 
+example_input=[125.0, 0.004838709677419355, 0.0, 0.0016129032258064516, 0.0032258064516129032, 0.0, 0.0, 25.0, 1.7, 6.0, 11.6, 93.0, 72.0, 165.0, 3.0, 0.0, 133.0, 128.0, 132.0, 10.0, 0.0, 6.0]
+print("Predicted class: " + str(nn1.predict_class(example_input)))
+print("Activation function output for each class: " + str(nn1.get_last_class_act_funct_output()))
+print("Input: " + str(nn1.get_last_input()))
+```
