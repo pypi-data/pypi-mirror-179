@@ -1,0 +1,5 @@
+global-exclude *.py[cod]
+include api/api_data/*
+include appoint_parser/tools/*
+include pravo_api/api/api_data/*
+include pravo_api/appoint_parser/tools/*
