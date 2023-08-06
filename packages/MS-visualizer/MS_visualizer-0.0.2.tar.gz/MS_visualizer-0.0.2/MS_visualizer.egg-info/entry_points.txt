@@ -1,0 +1,3 @@
+[console_scripts]
+MS_visualizer = bin.run:main
+

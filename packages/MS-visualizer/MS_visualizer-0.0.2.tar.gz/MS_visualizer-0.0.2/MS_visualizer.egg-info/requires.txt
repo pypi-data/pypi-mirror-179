@@ -1,0 +1,6 @@
+dash
+plotly
+pandas
+jsonschema
+opentimspy
+opentims_bruker_bridge
