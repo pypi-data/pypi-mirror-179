@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/tempyest/__init__.py
+src/tempyest.egg-info/PKG-INFO
+src/tempyest.egg-info/SOURCES.txt
+src/tempyest.egg-info/dependency_links.txt
+src/tempyest.egg-info/requires.txt
+src/tempyest.egg-info/top_level.txt
