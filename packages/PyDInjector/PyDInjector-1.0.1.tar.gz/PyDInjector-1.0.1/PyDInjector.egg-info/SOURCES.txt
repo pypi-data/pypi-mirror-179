@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyDInjector/PyDInjector.py
+PyDInjector/__init__.py
+PyDInjector.egg-info/PKG-INFO
+PyDInjector.egg-info/SOURCES.txt
+PyDInjector.egg-info/dependency_links.txt
+PyDInjector.egg-info/top_level.txt
