@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+busywork/__init__.py
+busywork/__main__.py
+busywork/ci.py
+busywork/install.py
+busywork/pyproject.py
+busywork/utils.py
+busywork.egg-info/PKG-INFO
+busywork.egg-info/SOURCES.txt
+busywork.egg-info/dependency_links.txt
+busywork.egg-info/entry_points.txt
+busywork.egg-info/requires.txt
+busywork.egg-info/top_level.txt

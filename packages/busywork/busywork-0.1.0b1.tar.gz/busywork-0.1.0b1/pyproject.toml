@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "busywork"
+description = "A package for managing dependency groups."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "GPL-v2" }
+classifiers = ["Programming Language :: Python :: 3"]
+dependencies = ["pip", "tomli>=2.0.0", "dahlia>=2.1.2"]
+version = "0.1.0b1"
+
+[project.urls]
+Repository = "https://github.com/Lunarmagpie/busywork"
+
+[tool.setuptools]
+packages = ["busywork"]
+
+[tool.busywork.groups.dev]
+requires = ["nox>=2022.11.21"]
+requires-groups = ["linting", "typing"]
+
+[tool.busywork.groups.linting]
+requires = ["black>=22.10.0", "isort>=5.10.1"]
+
+[tool.busywork.groups.typing]
+requires = ["mypy>=0.991"]
+
+[project.scripts]
+busywork = "busywork.__main__:main"
