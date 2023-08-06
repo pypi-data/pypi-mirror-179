@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+guacli/__init__.py
+guacli/cli.py
+guacli/guacamoleClient.py
+guacli.egg-info/PKG-INFO
+guacli.egg-info/SOURCES.txt
+guacli.egg-info/dependency_links.txt
+guacli.egg-info/entry_points.txt
+guacli.egg-info/top_level.txt
