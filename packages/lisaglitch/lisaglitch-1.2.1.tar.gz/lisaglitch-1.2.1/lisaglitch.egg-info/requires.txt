@@ -1,0 +1,7 @@
+h5py
+numpy
+scipy
+matplotlib
+torch
+importlib_resources
+importlib_metadata
