@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+pydstir/__init__.py
+pydstir/colors.json
+pydstir/main.py
+pydstir/ops.py
+pydstir.egg-info/PKG-INFO
+pydstir.egg-info/SOURCES.txt
+pydstir.egg-info/dependency_links.txt
+pydstir.egg-info/entry_points.txt
+pydstir.egg-info/requires.txt
+pydstir.egg-info/top_level.txt

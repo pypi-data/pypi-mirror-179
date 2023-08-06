@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pydstir
+Version: 1.2.3
+Summary: a module for pydstir tool from discord
+Home-page: https://anarchydev.com
+Author: Bernard Namou
+Author-email: zalkoweb@anarchydev.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# string-color   
+   
+pydstir Module for pydstir too
+   
+### Installation   
+   
+`$ pip install blackcat`   
