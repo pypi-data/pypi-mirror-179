@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gqlrequests/__init__.py
+gqlrequests/gqltype.py
+gqlrequests/primitives.py
+gqlrequests.egg-info/PKG-INFO
+gqlrequests.egg-info/SOURCES.txt
+gqlrequests.egg-info/dependency_links.txt
+gqlrequests.egg-info/top_level.txt
