@@ -1,0 +1,12 @@
+address_formatter/__init__.py,sha256=3e8um1-lzVyp4LEDX_nV5yrFnPLEnmDOgCQDRkhXkEY,143
+address_formatter/main.py,sha256=_xHyp9tH1vbFeJoI5fSW3yr-VZ_TTh5M7_R76uRO91A,6608
+address_formatter/version.py,sha256=Q8raD6k02z4DoYniAz3iui5d6EdM1el95SMTLXJbeCA,18
+cwaddressformatter/__init__.py,sha256=3e8um1-lzVyp4LEDX_nV5yrFnPLEnmDOgCQDRkhXkEY,143
+cwaddressformatter/main.py,sha256=68AbbBRkmA_ePn1HzznX2ARmyXQjF3lGPaHbPem69RE,7684
+cwaddressformatter/opendata111road.csv,sha256=CpDjO5XYqhxQEBmVg1PWcn1PN5Yc_T0l7xApinkxw34,1416653
+cwaddressformatter/version.py,sha256=QjIw4lGF4XrIrKfGwfvDqjh8WMYrSyOSoMK25o3xX2M,18
+cwaddressformatter-0.0.8.dist-info/METADATA,sha256=YuI4sjKnDVkJxNOgKMLUIPzVFRWSbHfv5bVL6SyqdFw,3172
+cwaddressformatter-0.0.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cwaddressformatter-0.0.8.dist-info/entry_points.txt,sha256=SzSsF6xZgE_59LUH_nQXhpD7blm2vD-xRZtdhioysGY,63
+cwaddressformatter-0.0.8.dist-info/top_level.txt,sha256=8bk29FtgxiLt5rjWSr9mzI7cAeReWxaOiyU1UbYiAeo,19
+cwaddressformatter-0.0.8.dist-info/RECORD,,
