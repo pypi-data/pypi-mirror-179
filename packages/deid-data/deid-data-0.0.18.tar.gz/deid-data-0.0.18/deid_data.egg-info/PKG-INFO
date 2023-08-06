@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: deid-data
+Version: 0.0.18
+Summary: data to support deid, best effort deidentify dicom with python and pydicom
+Home-page: https://github.com/pydicom/deid-data
+Author: Vanessa Sochat
+Author-email: vsoch@users.noreply.github.com
+License: LICENSE
+Keywords: open source,python,anonymize,dicom
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.md
+
+# Deidentify (deid) Data
+
+Data for best effort anonymization for medical images in Python.
+
+[![DOI](https://zenodo.org/badge/94163984.svg)](https://zenodo.org/badge/latestdoi/94163984)
+
+This data is supplementary to the [Deid](https://github.com/pydicom/deid) library and can be installed alongside it.
+It's required for tests and supplementary datasets, and you are free to use it for your own purposes! To install:
+
+```bash
+$ pip install deid-data
+```
+
+Please see our main [Documentation](https://pydicom.github.io/deid/).
+
+## Issues
+
+If you have an issue with the data or want to request a new dataset, please do so on our [issues board](https://www.github.com/pydicom/deid-data/issues).
+For all other issues, please post to [deid-issues](https://www.github.com/pydicom/deid/issues)
+
+
