@@ -1,0 +1,2 @@
+[flaskbb_plugins]
+atom = atom

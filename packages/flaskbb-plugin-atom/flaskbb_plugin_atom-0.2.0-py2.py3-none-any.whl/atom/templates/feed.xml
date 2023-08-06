@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ project_title }}</title>
+  <link href="{{ base_url }}"/>
+  <updated>{{ feed_date_modified.strftime("%Y-%m-%dT%H:%M:%S")+"Z" }}</updated>
+  <author><name>{{ project_title }}</name></author>
+  <id>{{ base_url }}</id>
+  {% for post, post_url in posts %}
+  <entry>
+    <title>{{ post.topic.title }}</title>
+    <category term="{{ post.topic.forum.title }}" />
+    <author><name>{{ post.username }}</name></author>
+    <link href="{{ base_url + post_url }}"/>
+    <id>{{ base_url + post_url }}</id>
+    <published>{{ post.date_created.strftime("%Y-%m-%dT%H:%M:%S")+"Z" }}</published>
+    {% if post.date_modified != None %}<updated>{{ post.date_modified.strftime("%Y-%m-%dT%H:%M:%S")+"Z" }}</updated>{% endif %}
+    {% if output_html %}
+    <content type="html" xml:base="{{ base_url + post_url }}">{{ post.content|markup|forceescape }}</content>
+    {% else %}
+    <content>{{ post.content|markup|striptags }}</content>
+    {% endif %}
+  </entry>
+  {% endfor %}
+</feed>
