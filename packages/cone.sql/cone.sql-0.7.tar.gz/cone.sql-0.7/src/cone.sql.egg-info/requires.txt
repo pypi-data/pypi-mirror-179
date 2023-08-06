@@ -1,0 +1,13 @@
+cone.app>=1.0.3
+node.ext.ugm>=0.9.13
+pyramid_retry
+pyramid_tm
+setuptools
+zope.sqlalchemy
+
+[test]
+cone.ugm
+zope.testrunner
+
+[ugm]
+cone.ugm
