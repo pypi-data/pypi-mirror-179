@@ -1,0 +1,84 @@
+{
+  "app": "spotrix",
+  "entrypoints": {
+    "preamble": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/preamble.2cc56418.entry.js"
+      ]
+    },
+    "theme": {
+      "css": [],
+      "js": [
+        "/static/assets/theme.2cc56418.entry.js"
+      ]
+    },
+    "menu": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/menu.2cc56418.entry.js"
+      ]
+    },
+    "spa": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/mathjs.2cc56418.chunk.js",
+        "/static/assets/thumbnail.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/4.2cc56418.chunk.js",
+        "/static/assets/5.2cc56418.chunk.js",
+        "/static/assets/spa.2cc56418.entry.js"
+      ]
+    },
+    "addSlice": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/mathjs.2cc56418.chunk.js",
+        "/static/assets/thumbnail.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/4.2cc56418.chunk.js",
+        "/static/assets/addSlice.2cc56418.entry.js"
+      ]
+    },
+    "explore": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/mathjs.2cc56418.chunk.js",
+        "/static/assets/thumbnail.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/4.2cc56418.chunk.js",
+        "/static/assets/5.2cc56418.chunk.js",
+        "/static/assets/explore.2cc56418.entry.js"
+      ]
+    },
+    "sqllab": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/sqllab.2cc56418.entry.js"
+      ]
+    },
+    "profile": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/3.2cc56418.chunk.js",
+        "/static/assets/profile.2cc56418.entry.js"
+      ]
+    },
+    "showSavedQuery": {
+      "css": [],
+      "js": [
+        "/static/assets/vendors.2cc56418.chunk.js",
+        "/static/assets/showSavedQuery.2cc56418.entry.js"
+      ]
+    }
+  }
+}

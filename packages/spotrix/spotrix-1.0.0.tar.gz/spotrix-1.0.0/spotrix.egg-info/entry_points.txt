@@ -1,0 +1,2 @@
+[console_scripts]
+spotrix = spotrix.cli:spotrix
