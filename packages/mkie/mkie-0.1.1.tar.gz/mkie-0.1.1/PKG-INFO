@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mkie
+Version: 0.1.1
+Summary: A useful tool for control clis in terminal.
+Home-page: https://github.com/cbb23021/mkie
+Author: Michael Chou
+Author-email: snoopy02m@gmail.com
+License: MIT
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Terminals
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# mkie
+
+A useful tool for control clis in terminal.
+
+## Installation
+
+If you already know how to install python packages, then you can install it via pip.
+
+```
+pip install mkie
+```
+
+## Features
+
+`mkie` is control clis:
+- Git
+  - `gitadd`: Auto add all files to git and ignore submodules.
+  - `gitfetch`: Sort out local branchs.
+  - `gitpull`: Pull latest update from git repo.
+  - `s`: Swap current branch to target branch.
+
