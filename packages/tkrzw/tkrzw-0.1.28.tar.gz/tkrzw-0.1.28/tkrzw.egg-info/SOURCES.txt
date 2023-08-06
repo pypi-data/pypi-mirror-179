@@ -1,0 +1,7 @@
+README
+setup.py
+tkrzw.cc
+tkrzw.egg-info/PKG-INFO
+tkrzw.egg-info/SOURCES.txt
+tkrzw.egg-info/dependency_links.txt
+tkrzw.egg-info/top_level.txt
