@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hlem_framework
+Version: 0.0.2
+Summary: A Process Mining Framework for High-Level Event Mining
+Author-email: Bianka Bakullari <bianka.bakullari@pads.rwth-aachen.de>
+Project-URL: Homepage, https://github.com/biankabakullari/hlem-framework
+Project-URL: Bug Tracker, https://github.com/biankabakullari/hlem-framework/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# High-Level-Event-Mining: A Framework (ICPM 2022)
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+Save your event log in the same directory as `main.py` and name it `log.xes`. 
+Alternatively, you can use the provided file which is the simulated log used in the paper.
+
+To execute:
+```bash
+python main.py 
+```
