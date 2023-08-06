@@ -1,0 +1,11 @@
+qt_command_palette/__about__.py,sha256=j7895T8JfsWQAOvxm8SAdESs5iFmIuAqKpyfjSAfKZ4,23
+qt_command_palette/__init__.py,sha256=jmRvWwFGGwATIZSLdWXt6v-n-bCxDnekITkpjAc2OV4,194
+qt_command_palette/_api.py,sha256=hqJTju2yp-YusJBTJ5j5BkC04j-khhvtgxUndb4TuTM,7472
+qt_command_palette/_commands.py,sha256=oPwQjs-pjY82bIbdIdANOWX-5p9Z11-JaznooMOBV8k,813
+qt_command_palette/_list.py,sha256=h7aZh4l1tqjgcHuuG-dbAg1TxTxn9qqgdmkFu5UFEqc,6548
+qt_command_palette/_storage.py,sha256=bsbucJTu_DqLLTYw8YrGeoOVDDGzIfUcKVGCbwIHTNI,1377
+qt_command_palette/_widget.py,sha256=dSyJdGCRmBfnr8pR0T9zhPM0vX7VqkZw9PZ4evPffzM,2852
+qt_command_palette-0.0.2.dist-info/METADATA,sha256=ta-VYsUJ37FXgGc8OdU-yuqdhcQzmaybBfGKZGV3TyE,3410
+qt_command_palette-0.0.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+qt_command_palette-0.0.2.dist-info/licenses/LICENSE.txt,sha256=r3OArdhD_ia_BFpImT1zYZlPkYi4s9sYCl2QAsCXSw8,1116
+qt_command_palette-0.0.2.dist-info/RECORD,,
