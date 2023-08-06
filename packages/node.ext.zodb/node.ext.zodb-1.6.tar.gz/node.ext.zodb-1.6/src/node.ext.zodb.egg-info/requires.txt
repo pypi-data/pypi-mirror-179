@@ -1,0 +1,3 @@
+ZODB
+node>=1.0
+setuptools
