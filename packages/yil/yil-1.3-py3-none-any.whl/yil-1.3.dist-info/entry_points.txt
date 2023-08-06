@@ -1,0 +1,3 @@
+[console_scripts]
+yil = yil.yil:main
+
