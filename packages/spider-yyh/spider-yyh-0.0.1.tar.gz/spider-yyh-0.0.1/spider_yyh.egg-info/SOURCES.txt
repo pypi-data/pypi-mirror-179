@@ -1,0 +1,7 @@
+setup.py
+ezface/__init__.py
+ezface/my_spider.py
+spider_yyh.egg-info/PKG-INFO
+spider_yyh.egg-info/SOURCES.txt
+spider_yyh.egg-info/dependency_links.txt
+spider_yyh.egg-info/top_level.txt
