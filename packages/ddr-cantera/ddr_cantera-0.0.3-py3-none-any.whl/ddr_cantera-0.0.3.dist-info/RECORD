@@ -1,0 +1,10 @@
+ddr_cantera/__init__.py,sha256=nQUkXlRoAGRVgKLt78zLDLhISvk0kat--K31QqWlBcc,242
+ddr_cantera/fuel_data.py,sha256=pLC_VjD_pNqZbp2RI_1p7TJdnPIvXUzOeN06cE6I-rA,3129
+ddr_cantera/pipe.py,sha256=S75Rm4r6ZCmL1NTgEtfCBs2Q_xfKyyM8ChPB1CeWuDU,5110
+ddr_cantera/shared.py,sha256=d6_u75TQwpQN5fSg14aeJKaAgPzTACerK5QUguztrPU,254
+ddr_cantera/utils.py,sha256=1FeScpYE69jin_9IVLYoDJg3j4uuLi4J0TrIC-Lb_Ho,2668
+ddr_cantera/version.py,sha256=kyMZLXr0cYQNefe7bnTWCFvegTkzLUJmgK94k_upW_0,40
+ddr_cantera-0.0.3.dist-info/METADATA,sha256=J4Avxc6hdUahkLbJCNA0xW2c9ywc_Gc1Sa2hTnRlBi8,2150
+ddr_cantera-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ddr_cantera-0.0.3.dist-info/top_level.txt,sha256=fi0dLzooYyx-yJm1ZQwr087x-oVgYVq_HMZjjobJV5k,12
+ddr_cantera-0.0.3.dist-info/RECORD,,
