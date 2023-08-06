@@ -1,0 +1,14 @@
+ailiga/APNPucky/DQNFighter/DQNFighter_v0.py,sha256=d2bNtzefZoPBa64KuITYvYp17F-dasrFxEgxm5V0rm8,4708
+ailiga/APNPucky/DQNFighter/DQNFighter_v1.py,sha256=SEBnTZV4pnMnTOr3GAN9bofYmUAFm1wsPCdgcsggPGY,1234
+ailiga/APNPucky/DQNFighter/DQNFighter_v2.py,sha256=1nfOmvn3ghBXecAF7UXy4OVG-4c43-l5WM8VKgrzs9I,3600
+ailiga/APNPucky/DRDQNFighter/DRDQNFighter_v0.py,sha256=EbVs4MTqb_CfssT50hq-NN4fTGLkIKjy_TAbOodV1Rs,4717
+ailiga/APNPucky/PPOFighter/PPOFighter_v0.py,sha256=quSyDwvaMtTu6rUJh-RU7BX-awxvMOr-boZ-OOxklOM,4889
+ailiga/APNPucky/RandomFigher/RandomFighter_v0.py,sha256=NPmfXpuNP1wyB-jN-15iqZwTiHHyPhNdOeI60zLWhp0,349
+ailiga/Arena.py,sha256=swYJyj-8ljsRZzJ5J6QaYOZ36SkcpVkUnL7Fi8W6SUY,2191
+ailiga/Fighter.py,sha256=x5M6AotYasxNI1tsmIGg03uY2Q66NLCiWGSnlIILJQA,884
+ailiga/TrainedFighter.py,sha256=_VpO7YokYDNShlWlkIykPIj8IbhuOOZsYq32DqiUPh4,2670
+ailiga/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ailiga-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ailiga-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ailiga-0.1.0.dist-info/METADATA,sha256=ITHwB0PbOZjj95TIbW0t3Q_uv1o5measal9W62RUw88,1691
+ailiga-0.1.0.dist-info/RECORD,,
