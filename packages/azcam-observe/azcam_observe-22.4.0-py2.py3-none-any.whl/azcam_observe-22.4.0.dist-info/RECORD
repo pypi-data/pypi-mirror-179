@@ -1,0 +1,17 @@
+azcam_observe/__init__.py,sha256=7f2TIMVR3k_dnD_P7O2tybuKf2TgZegWGFfLRAs4m1U,160
+azcam_observe/observe.py,sha256=B60uqGCmllaVUSuQQWL74L_Xs0ovfHgHY_iPsQ_4pUk,647
+azcam_observe/observe_common.py,sha256=gumQEKr9wjQvgR0xz4n2oq8fhqiuLpQOw5M-0NPw5DQ,27071
+azcam_observe/observing_script_example.txt,sha256=dIgZtQBr0XwY_9RMaWzUrFFn33U3WaPfXBneqTcvzQI,126
+azcam_observe/test_script.txt,sha256=57wnuAAiS77pTMd953urb0DMtPubYGAAFlsSIFU44SQ,118
+azcam_observe/observe_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azcam_observe/observe_cli/observe_cli.py,sha256=AAg9l2Z83-KldXJ_WHceYyDl4x5URVl2p9Q_9NZeY6s,3725
+azcam_observe/observe_qt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azcam_observe/observe_qt/make_gui.bat,sha256=mJNIAKv2qPVA94_37nQjUG-gtAk3LiVseWXd1bpDySI,108
+azcam_observe/observe_qt/observe_gui.ui,sha256=slSeYesYxwGKveX9eNIGPIhp7EAF1MxE1_AT2DF3MSk,12890
+azcam_observe/observe_qt/observe_gui_ui.py,sha256=6c_7h270kRUNtd3iYn2h2RUEvAV0vDLZWL_9A_FKUgQ,17822
+azcam_observe/observe_qt/observe_qt.py,sha256=ah1gJJHe-BslCc1yP9dmIfBP4DtjovS4QHVjEwhvB3c,15595
+azcam_observe-22.4.0.dist-info/entry_points.txt,sha256=pVVrVYxAKsAJK0gSFDJzmNFI-eMfAEUy5USWEqNhWFU,55
+azcam_observe-22.4.0.dist-info/LICENSE,sha256=PS_ZlV-IPpFrsMJ3UKgSaOC-2jpMsH-qO5h_IImZdCM,1092
+azcam_observe-22.4.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+azcam_observe-22.4.0.dist-info/METADATA,sha256=29_c6TTU9oJrhVG6M11ytLOlDc-5hVDIncmY8vPBe6A,2843
+azcam_observe-22.4.0.dist-info/RECORD,,
