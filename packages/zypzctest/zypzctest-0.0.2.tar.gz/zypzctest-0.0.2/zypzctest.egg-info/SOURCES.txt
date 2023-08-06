@@ -1,0 +1,9 @@
+LICENSE.lic
+README.md
+setup.py
+zypzctest/__init__.py
+zypzctest/get_haha.py
+zypzctest.egg-info/PKG-INFO
+zypzctest.egg-info/SOURCES.txt
+zypzctest.egg-info/dependency_links.txt
+zypzctest.egg-info/top_level.txt
