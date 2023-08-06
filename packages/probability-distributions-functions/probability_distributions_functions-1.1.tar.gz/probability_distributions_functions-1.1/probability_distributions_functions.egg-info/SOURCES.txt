@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+probability_distributions_functions/Binomialdistribution.py
+probability_distributions_functions/Gaussiandistribution.py
+probability_distributions_functions/Generaldistribution.py
+probability_distributions_functions/__init__.py
+probability_distributions_functions.egg-info/PKG-INFO
+probability_distributions_functions.egg-info/SOURCES.txt
+probability_distributions_functions.egg-info/dependency_links.txt
+probability_distributions_functions.egg-info/not-zip-safe
+probability_distributions_functions.egg-info/requires.txt
+probability_distributions_functions.egg-info/top_level.txt
