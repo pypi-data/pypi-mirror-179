@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: s3-folder-backup
+Version: 0.1.0
+Summary: Backup Folders to S3
+Home-page: https://s3-folder-backup.readthedocs.io/
+Author: BugsCreator
+Author-email: jay@BugsCreator.tech
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+#here is something
+
