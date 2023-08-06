@@ -1,0 +1,12 @@
+zga/__init__.py,sha256=O0JA4lv0TKzoO7EVwK3DRNDTNoVjogIaROuHioUzjmI,22
+zga/assemblers.py,sha256=sBdhxSxrcIcLoh3tBsTaKkSBedv-jNnpnSSDIftyeD4,7992
+zga/essential.py,sha256=MxPsA-Eo3_96AbNJJ_WYAH1aNBl2c3ljsBple52WG6w,903
+zga/zga.py,sha256=bS0RcgMdchgK2L-VAK5El6caFSDd9tafX3-cuZhGB1Q,38495
+zga/data/phiX174.fasta,sha256=nY07Qdj3NGKwenknmabmh0I_7ODXoTwS6GWJ1jHcXBU,5545
+zga/data/sr.adapters.fasta,sha256=P6Fq4tTKiRg5Z4nDkylHmXbwGtw2kgWJPGx5VxX4MEI,603
+zga-0.1b3.dist-info/LICENSE,sha256=JehASvwsWzmoeea--n03RNMzgjAH5mupXiltyOvbEsw,1496
+zga-0.1b3.dist-info/METADATA,sha256=fyd3cLogwJ99an8D3hPVZVJlKWrcsReu6yR-XTZkjfc,13211
+zga-0.1b3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+zga-0.1b3.dist-info/entry_points.txt,sha256=80we-U9eCnBeq2L-bQBJmh0PPSSg0uPBHo_4SJ2XTu4,37
+zga-0.1b3.dist-info/top_level.txt,sha256=771puRFiIAK8_lqPF18NpIbni7-shbRuZNXP7ceVFj4,4
+zga-0.1b3.dist-info/RECORD,,
