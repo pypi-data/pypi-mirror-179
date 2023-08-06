@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/simple-web/__init__.py
+src/simple-web/simpleweb.py
+src/simpleui_web.egg-info/PKG-INFO
+src/simpleui_web.egg-info/SOURCES.txt
+src/simpleui_web.egg-info/dependency_links.txt
+src/simpleui_web.egg-info/top_level.txt
