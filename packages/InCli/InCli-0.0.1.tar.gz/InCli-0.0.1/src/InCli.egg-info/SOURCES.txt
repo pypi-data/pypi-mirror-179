@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/InCli.egg-info/PKG-INFO
+src/InCli.egg-info/SOURCES.txt
+src/InCli.egg-info/dependency_links.txt
+src/InCli.egg-info/entry_points.txt
+src/InCli.egg-info/top_level.txt
+src/SFAPI/__init__.py
+src/SFAPI/restClient.py
+src/SFAPI/util.py
+test/test_InCli.py
