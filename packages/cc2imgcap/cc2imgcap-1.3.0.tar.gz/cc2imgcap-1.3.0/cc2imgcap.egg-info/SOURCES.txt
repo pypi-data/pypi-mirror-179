@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+cc2imgcap/__init__.py
+cc2imgcap/main.py
+cc2imgcap/spark_session_builder.py
+cc2imgcap.egg-info/PKG-INFO
+cc2imgcap.egg-info/SOURCES.txt
+cc2imgcap.egg-info/dependency_links.txt
+cc2imgcap.egg-info/requires.txt
+cc2imgcap.egg-info/top_level.txt
