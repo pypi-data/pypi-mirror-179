@@ -1,0 +1,2 @@
+[console_scripts]
+kgn = kgn.cli:cli
