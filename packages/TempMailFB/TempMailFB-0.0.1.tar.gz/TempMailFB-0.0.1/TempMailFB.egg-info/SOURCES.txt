@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+TempMailFB/__int__.py
+TempMailFB.egg-info/PKG-INFO
+TempMailFB.egg-info/SOURCES.txt
+TempMailFB.egg-info/dependency_links.txt
+TempMailFB.egg-info/top_level.txt
