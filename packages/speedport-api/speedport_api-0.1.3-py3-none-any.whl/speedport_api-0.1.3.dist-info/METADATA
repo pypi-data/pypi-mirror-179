@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: speedport-api
+Version: 0.1.3
+Summary: Control Telekom Speedport routers with Python
+Home-page: https://github.com/Andre0512/speedport-api
+Author: Andre Basche
+License: MIT
+Platform: any
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+
+**This python package is unofficial and is not related in any way to Telekom. It was developed by reversed engineered http requests and can stop working at anytime!**
+  
+# Speedport-API
+Control Telekom Speedport routers with Python!
+### Supported Devices
+* Speedport Smart 4
+### Installation
+```commandline
+pip install speedport-api
+```
+## Commandline tool
+With this shipped commandline tool can a speedport in your network be controlled.
+#### Turn wifi off
+```commandline
+speedport wifi off
+```
+#### Turn guest wifi on
+```commandline
+speedport guest-wifi on
+```
+#### Reconnect for new ip address
+```commandline
+speedport reconnect
+```
+#### Enable wps connect
+```commandline
+speedport wps
+```
+## Library
