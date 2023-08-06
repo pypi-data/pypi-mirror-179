@@ -1,0 +1,11 @@
+video_scene_detect/SceneDetect.py,sha256=Y-lXod7d3eQeytuIkA6H2QvfjPVJ2FIK8bxnzMXGSDo,6082
+video_scene_detect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+video_scene_detect/estimate_scenes_count.py,sha256=r0REsZkp40FyavLeeSjCtrP5vHGc5RsnYRDbvyBQTdI,1222
+video_scene_detect/evaluation.py,sha256=_X9WURr5muYoPD4SY4LSGkw7DZqu02sg20xbPXGJX5M,4492
+video_scene_detect/h_add.py,sha256=N_GwuairF0-9-dNadgKxCGbPHNovoLbpAd_FU8SoifY,1565
+video_scene_detect/h_nrm.py,sha256=yXh1nYr2IX0DavidUuvwpWXgTcN1lxf6mHqo4wsSGVQ,3468
+video_scene_detect/video_multiprocess.py,sha256=1ItlM91kreDwO9CSOJV8YqL0rnFQDWLy68brELG0eRQ,2655
+video_scene_detect-0.2.dist-info/METADATA,sha256=IU_OYTGGD6ifycv2qVoi5hJikTmdBiZAS-rAn23CgfU,171
+video_scene_detect-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_scene_detect-0.2.dist-info/top_level.txt,sha256=Cxbd_tFSHYnGxp32GwgEQpVo0ZHEBoZewV8ms1VXb3Y,19
+video_scene_detect-0.2.dist-info/RECORD,,
