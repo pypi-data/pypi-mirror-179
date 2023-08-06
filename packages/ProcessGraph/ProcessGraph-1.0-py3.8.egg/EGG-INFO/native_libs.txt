@@ -1,0 +1,5 @@
+Pgraph/solver/libgcc_s_dw2-1.dll
+Pgraph/solver/libgcc_s_seh-1.dll
+Pgraph/solver/libgomp-1.dll
+Pgraph/solver/libstdc++-6.dll
+Pgraph/solver/libwinpthread-1.dll
