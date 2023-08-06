@@ -1,0 +1,10 @@
+fronts/D.py,sha256=DehJQiLODeOlty9AWPhz6dPSj3jsumfgTFt_L7_DkWU,23782
+fronts/__init__.py,sha256=27uekM5yBzTFKHUkXSylAjUA4CNYANAc7EqWKlGQIEY,713
+fronts/_boltzmann.py,sha256=6eSaVqCAG8j_5aCRlfZjXhHl-qsGgCKpVA2sDI_yHVo,17050
+fronts/_rootfinding.py,sha256=dLz4rXGBOKDes4sD8fsBkfSKJ2HeLNdSj9_wF96G1yc,11053
+fronts/_semiinfinite.py,sha256=faM058nk3VIlVCRX44-i-4Rny1pr6UJXVjg6EmEn2KA,48970
+fronts-0.9.11.dist-info/LICENSE.txt,sha256=Esvp329gepyyzmWKzyOTppZA_rK2dtdVSDPY3shyMrI,1531
+fronts-0.9.11.dist-info/METADATA,sha256=4a_Qrk9c7tRHtGpvDvxRLrspJ9YVAHrIpmyzl_hz2yU,11402
+fronts-0.9.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+fronts-0.9.11.dist-info/top_level.txt,sha256=C3SrvM9jeQjnv8SvGd0zP_lJJndUTrhRlJskUgOqTJo,7
+fronts-0.9.11.dist-info/RECORD,,
