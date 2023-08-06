@@ -1,0 +1,8 @@
+README.md
+setup.py
+CulturedLad/Spider.py
+CulturedLad/__init__.py
+CulturedLad.egg-info/PKG-INFO
+CulturedLad.egg-info/SOURCES.txt
+CulturedLad.egg-info/dependency_links.txt
+CulturedLad.egg-info/top_level.txt
