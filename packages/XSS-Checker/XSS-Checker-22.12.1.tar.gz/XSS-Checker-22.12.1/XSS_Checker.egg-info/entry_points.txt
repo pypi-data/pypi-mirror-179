@@ -1,0 +1,2 @@
+[console_scripts]
+XSS-Checker = XSS_Checker:vFaT3_jrF1FN30CA_o46KQ432mUyxGsUjjQqkXNFQzO0iHoX

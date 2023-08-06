@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+XSS_Checker/__init__.py
+XSS_Checker.egg-info/PKG-INFO
+XSS_Checker.egg-info/SOURCES.txt
+XSS_Checker.egg-info/dependency_links.txt
+XSS_Checker.egg-info/entry_points.txt
+XSS_Checker.egg-info/requires.txt
+XSS_Checker.egg-info/top_level.txt
