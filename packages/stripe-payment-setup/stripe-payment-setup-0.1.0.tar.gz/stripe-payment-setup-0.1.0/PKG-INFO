@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: stripe-payment-setup
+Version: 0.1.0
+Summary: Small app used to save payment details for future usage (for ex subscriptions)
+Home-page: https://github.com/ldgeo/stripe-payment-setup
+Author: Ludovic Delauné
+Author-email: message@cartodev.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi (>=0.88.0,<0.89.0)
+Requires-Dist: pydantic[email] (>=1.9.0,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: stripe (>=5.0.0,<6.0.0)
+Requires-Dist: uvicorn[standard] (>=0.20.0,<0.21.0)
+Project-URL: Repository, https://github.com/ldgeo/stripe-payment-setup
+Description-Content-Type: text/markdown
+
+# Stripe - setup payment methods
+
+Useful to generate a `checkout` session needed to save customers payment methods for recurring payments (in particular SEPA debits)
+
+
+## Requirements
+
+    poetry
+    python >= 3.9
+
+## Installation
+
+    poetry install
+
+## Config
+
+Copy `.env.sample` to `.env` and customize it
+
+## Launch the service
+
+    poetry run stripe-setup-payment
+
+Jump to [http://localhost:4242/](http://localhost:4242/)
