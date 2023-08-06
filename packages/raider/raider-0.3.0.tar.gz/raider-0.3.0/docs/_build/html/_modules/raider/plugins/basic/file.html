@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>raider.plugins.basic.file &mdash; raider 0.2.3 documentation</title>
+      <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/sphinx_highlight.js"></script>
+        <script src="../../../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.2.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/tutorials.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/definitions.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../user/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Configuration</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/flows.html">Flows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/operations.html">Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/attacks.html">Fuzzing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/api.html">User API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../dev/api.html#internal-api-reference">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">raider.plugins.basic.file</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for raider.plugins.basic.file</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright (C) 2022 DigeeX</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by</span>
+<span class="c1"># the Free Software Foundation, either version 3 of the License, or</span>
+<span class="c1"># (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU General Public License</span>
+<span class="c1"># along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span>
+<span class="sd">&quot;&quot;&quot;Plugin to read from files.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">partial</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span><span class="p">,</span> <span class="n">Union</span>
+
+<span class="kn">from</span> <span class="nn">raider.plugins.common</span> <span class="kn">import</span> <span class="n">Plugin</span>
+
+
+<div class="viewcode-block" id="File"><a class="viewcode-back" href="../../../../dev/plugins.html#raider.plugins.basic.File">[docs]</a><span class="k">class</span> <span class="nc">File</span><span class="p">(</span><span class="n">Plugin</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;:class:`Plugin &lt;raider.plugins.common.Plugin&gt;` used for getting</span>
+<span class="sd">    data from the filesystem.</span>
+
+<span class="sd">    Use :class:`File`: :class:`Plugin &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">    when needing to upload something, or sending a :term:`Request`</span>
+<span class="sd">    with lots of data that would better be stored on the filesystem</span>
+<span class="sd">    instead of :term:`hyfiles`.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">      name:</span>
+<span class="sd">        A String with the :class:`Plugin&#39;s</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;` name. For :class:`File`</span>
+<span class="sd">        objects that&#39;s the ``path`` to the file.</span>
+<span class="sd">      function:</span>
+<span class="sd">        A Callable which will be called to extract the ``value`` of</span>
+<span class="sd">        the :class:`Plugin` when used as an input in a :ref:`Flow</span>
+<span class="sd">        &lt;flows&gt;`. The function should set ``self.value`` and also</span>
+<span class="sd">        return it. By default for :class:`File` :class:`Plugins</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;` it puts the unmodified</span>
+<span class="sd">        contents of the :class:`File` found in the ``path``.</span>
+<span class="sd">      name_function:</span>
+<span class="sd">        A Callable which will be called to extract the ``name`` of the</span>
+<span class="sd">        :class:`Plugin` when it&#39;s not known in advance and the flag</span>
+<span class="sd">        ``NAME_NOT_KNOWN_IN_ADVANCE`` is set. :class:`File` doesn&#39;t</span>
+<span class="sd">        use this.</span>
+<span class="sd">      plugins:</span>
+<span class="sd">        A List of :class:`Plugins &lt;Plugin&gt;` whose ``value`` needs to be</span>
+<span class="sd">        extracted first before current :class:`Cookie&#39;s &lt;Cookie&gt;`</span>
+<span class="sd">        value can be extracted. Used when the flag</span>
+<span class="sd">        ``DEPENDS_ON_OTHER_PLUGINS`` is set.</span>
+<span class="sd">      value:</span>
+<span class="sd">        A string containing the :class:`File&#39;s &lt;File&gt;` output</span>
+<span class="sd">        ``value`` to be used as input in the HTTP :term:`Requests</span>
+<span class="sd">        &lt;Request&gt;` which is just the :class:`File` contents.</span>
+<span class="sd">      flags:</span>
+<span class="sd">        An integer containing the flags that define the</span>
+<span class="sd">        :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">        behaviour. For :class:`File` :class:`Plugins no flags are set</span>
+<span class="sd">        by default.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="File.__init__"><a class="viewcode-back" href="../../../../dev/plugins.html#raider.plugins.basic.File.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">function</span><span class="p">:</span> <span class="n">Callable</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">]]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">flags</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+
+        <span class="sd">&quot;&quot;&quot;Initializes the :class:`File` :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`.</span>
+
+<span class="sd">        Creates a :class:`File` :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`, and populates its ``value``</span>
+<span class="sd">        with the contents of a :class:`File`` from the filesystem.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          path:</span>
+<span class="sd">            A String with the path of the :class:`File`.</span>
+<span class="sd">          function:</span>
+<span class="sd">            An Optional Callable which is used to get the ``value`` of</span>
+<span class="sd">            the :class:`File` on runtime.</span>
+<span class="sd">          flags:</span>
+<span class="sd">            An integer containing the ``flags`` that define the</span>
+<span class="sd">           :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">           behaviour. By default no flag is set.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">path</span> <span class="o">=</span> <span class="n">path</span>
+
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">function</span><span class="p">:</span>
+            <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> <span class="n">function</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">read_file</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">path</span><span class="p">,</span> <span class="n">function</span><span class="o">=</span><span class="n">function</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="File.read_file"><a class="viewcode-back" href="../../../../dev/plugins.html#raider.plugins.basic.File.read_file">[docs]</a>    <span class="k">def</span> <span class="nf">read_file</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bytes</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Sets the :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">        ``value`` to the file contents.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          A Bytes string containing the raw file contents.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">finput</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">finput</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">value</span></div>
+
+<div class="viewcode-block" id="File.replace"><a class="viewcode-back" href="../../../../dev/plugins.html#raider.plugins.basic.File.replace">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">replace</span><span class="p">(</span>
+        <span class="bp">cls</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">old_value</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">new_value</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="n">Plugin</span><span class="p">]</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;File&quot;</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Read a :class:`File` and replace strings with new ``value``s.</span>
+
+<span class="sd">        Use this in case the :class:`File` is a template that needs</span>
+<span class="sd">        some part of it replaced with a new string, for example:</span>
+
+<span class="sd">        If we have the file ``data.json``:</span>
+
+<span class="sd">        .. code-block::</span>
+
+<span class="sd">           {&quot;data&quot;:</span>
+<span class="sd">              &quot;username&quot;: $USERNAME$,</span>
+<span class="sd">              &quot;nickname&quot;: &quot;nickname&quot;,</span>
+<span class="sd">              [...]</span>
+<span class="sd">           }</span>
+
+<span class="sd">        And we want to replace ``$USERNAME$`` with the real username,</span>
+<span class="sd">        we can use:</span>
+
+<span class="sd">        .. code-block::</span>
+
+<span class="sd">           (File.replace &quot;/path/to/data.json&quot;</span>
+<span class="sd">              &quot;$USERNAME$&quot;</span>
+<span class="sd">              &quot;admin&quot;)</span>
+
+<span class="sd">        To replace every instance of ``$USERNAME$`` with our chosen</span>
+<span class="sd">        ``value`` in ``new_value``.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          path:</span>
+<span class="sd">            A String with the ``path`` of the :class:`File`.</span>
+<span class="sd">          old_value:</span>
+<span class="sd">            A String with the old ``value`` to be replaced.</span>
+<span class="sd">          new_value:</span>
+<span class="sd">            A String with the new ``value`` to be replaced.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">replace_string</span><span class="p">(</span>
+            <span class="n">original</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">,</span> <span class="n">old</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">new</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">,</span> <span class="n">Plugin</span><span class="p">]</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bytes</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">new</span><span class="p">,</span> <span class="n">Plugin</span><span class="p">):</span>
+                <span class="k">if</span> <span class="ow">not</span> <span class="n">new</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="kc">None</span>
+                <span class="k">return</span> <span class="n">original</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+                    <span class="n">old</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">),</span> <span class="n">new</span><span class="o">.</span><span class="n">value</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+                <span class="p">)</span>
+            <span class="k">return</span> <span class="n">original</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+                <span class="n">old</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">),</span> <span class="nb">str</span><span class="p">(</span><span class="n">new</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s2">&quot;utf-8&quot;</span><span class="p">)</span>
+            <span class="p">)</span>
+
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">&quot;rb&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">finput</span><span class="p">:</span>
+            <span class="n">file_contents</span> <span class="o">=</span> <span class="n">finput</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+        <span class="n">file_replace_plugin</span> <span class="o">=</span> <span class="bp">cls</span><span class="p">(</span>
+            <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span>
+            <span class="n">function</span><span class="o">=</span><span class="n">partial</span><span class="p">(</span>
+                <span class="n">replace_string</span><span class="p">,</span>
+                <span class="n">original</span><span class="o">=</span><span class="n">file_contents</span><span class="p">,</span>
+                <span class="n">old</span><span class="o">=</span><span class="n">old_value</span><span class="p">,</span>
+                <span class="n">new</span><span class="o">=</span><span class="n">new_value</span><span class="p">,</span>
+            <span class="p">),</span>
+            <span class="n">flags</span><span class="o">=</span><span class="n">Plugin</span><span class="o">.</span><span class="n">DEPENDS_ON_OTHER_PLUGINS</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">new_value</span><span class="p">,</span> <span class="n">Plugin</span><span class="p">):</span>
+            <span class="n">file_replace_plugin</span><span class="o">.</span><span class="n">plugins</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_value</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">file_replace_plugin</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

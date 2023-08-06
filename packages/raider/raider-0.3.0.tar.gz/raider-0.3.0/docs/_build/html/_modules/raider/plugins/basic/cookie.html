@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>raider.plugins.basic.cookie &mdash; raider 0.2.3 documentation</title>
+      <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/sphinx_highlight.js"></script>
+        <script src="../../../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.2.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/glossary.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../tutorials/reddit.html">Tutorials</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../examples/example.html">Example</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/api.html">User API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/api.html#internal-api-reference">Internal API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/flows.html">Flows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/operations.html">Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api/attacks.html">Fuzzing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../../../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">raider.plugins.basic.cookie</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for raider.plugins.basic.cookie</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright (C) 2022 DigeeX</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by</span>
+<span class="c1"># the Free Software Foundation, either version 3 of the License, or</span>
+<span class="c1"># (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU General Public License</span>
+<span class="c1"># along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span>
+<span class="sd">&quot;&quot;&quot;Plugin to work with cookies.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">from</span> <span class="nn">functools</span> <span class="kn">import</span> <span class="n">partial</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="kn">import</span> <span class="nn">requests</span>
+
+<span class="kn">from</span> <span class="nn">raider.plugins.common</span> <span class="kn">import</span> <span class="n">Plugin</span>
+
+
+<div class="viewcode-block" id="Cookie"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie">[docs]</a><span class="k">class</span> <span class="nc">Cookie</span><span class="p">(</span><span class="n">Plugin</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;:class:`Plugin &lt;raider.plugins.common.Plugin&gt;` dealing with the</span>
+<span class="sd">    :class:`Cookies &lt;raider.plugins.basic.Cookie&gt;` in HTTP</span>
+<span class="sd">    :term:`Requests &lt;Request&gt;` and :term:`Responses &lt;Response&gt;`.</span>
+
+<span class="sd">    Use the :class:`Cookie` :class:`Plugin` when working with the data</span>
+<span class="sd">    found in :class:`Cookie` headers.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">      name:</span>
+<span class="sd">        A String with the :class:`Cookie&#39;s &lt;Cookie&gt;` name. Also used</span>
+<span class="sd">        as an identifier for the :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">      function:</span>
+<span class="sd">        A Callable which will be called to extract the ``value`` of</span>
+<span class="sd">        the :class:`Cookie` when used as an input in a :ref:`Flow</span>
+<span class="sd">        &lt;flows&gt;`. The function should set ``self.value`` and also</span>
+<span class="sd">        return it.</span>
+<span class="sd">      name_function:</span>
+<span class="sd">        A Callable which will be called to extract the ``name`` of the</span>
+<span class="sd">        :class:`Cookie` when it&#39;s not known in advance and the flag</span>
+<span class="sd">        ``NAME_NOT_KNOWN_IN_ADVANCE`` is set.</span>
+<span class="sd">      plugins:</span>
+<span class="sd">        A List of :class:`Plugins &lt;Plugin&gt;` whose ``value`` needs to</span>
+<span class="sd">        be extracted first before current :class:`Cookie&#39;s &lt;Cookie&gt;`</span>
+<span class="sd">        value can be extracted. Used when the flag</span>
+<span class="sd">        ``DEPENDS_ON_OTHER_PLUGINS`` is set.</span>
+<span class="sd">      value:</span>
+<span class="sd">        A string containing the :class:`Cookie&#39;s &lt;Cookie&gt;` output</span>
+<span class="sd">        ``value`` to be used as input in the HTTP :term:`Requests</span>
+<span class="sd">        &lt;Request&gt;`.</span>
+<span class="sd">      flags:</span>
+<span class="sd">        An integer containing the ``flags`` that define the</span>
+<span class="sd">        :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;` behaviour.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="Cookie.__init__"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="n">value</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">function</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">Callable</span><span class="p">[</span><span class="o">...</span><span class="p">,</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">flags</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">Plugin</span><span class="o">.</span><span class="n">NEEDS_RESPONSE</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Initializes the :class:`Cookie` :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`.</span>
+
+<span class="sd">        Creates a :class:`Cookie` :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`, either with predefined</span>
+<span class="sd">        ``value``, or by using a ``function`` defining how the</span>
+<span class="sd">        ``value`` should be generated on runtime.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          name:</span>
+<span class="sd">            A String with the name of the :class:`Cookie`.</span>
+<span class="sd">          value:</span>
+<span class="sd">            An Optional String with the ``value`` of the</span>
+<span class="sd">            :class:`Cookie` in case it&#39;s already known.</span>
+<span class="sd">          function:</span>
+<span class="sd">            A Callable which is used to get the ``value`` of the</span>
+<span class="sd">            :class:`Cookie` on runtime.</span>
+<span class="sd">          flags:</span>
+<span class="sd">            An integer containing the ``flags`` that define the</span>
+<span class="sd">           :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;`</span>
+<span class="sd">           behaviour. By default only ``NEEDS_RESPONSE`` flag is set.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">function</span> <span class="ow">and</span> <span class="p">(</span><span class="n">flags</span> <span class="o">&amp;</span> <span class="n">Plugin</span><span class="o">.</span><span class="n">NEEDS_RESPONSE</span><span class="p">):</span>
+            <span class="n">function</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">extract_cookie_from_response</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span>
+            <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">function</span><span class="o">=</span><span class="n">function</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">value</span><span class="p">,</span> <span class="n">flags</span><span class="o">=</span><span class="n">flags</span>
+        <span class="p">)</span></div>
+
+<div class="viewcode-block" id="Cookie.extract_cookie_from_response"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie.extract_cookie_from_response">[docs]</a>    <span class="k">def</span> <span class="nf">extract_cookie_from_response</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span> <span class="n">response</span><span class="p">:</span> <span class="n">requests</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Response</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Returns the :class:`Cookie` with the specified name from</span>
+<span class="sd">        the response.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          response:</span>
+<span class="sd">            A :class:`requests.models.Response` object containing the</span>
+<span class="sd">            HTTP :term:`Response`.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          An Optional String with the :class:`Cookie`</span>
+<span class="sd">          ``value``. Returns None if no such :class:`Cookie` found.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Cookie.__str__"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie.__str__">[docs]</a>    <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Returns a string representation of the :class:`Cookie`.</span>
+
+<span class="sd">        Used for logging purposes only.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">str</span><span class="p">({</span><span class="bp">self</span><span class="o">.</span><span class="n">name</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">value</span><span class="p">})</span></div>
+
+<div class="viewcode-block" id="Cookie.regex"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie.regex">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">regex</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">regex</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Cookie&quot;</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Extracts the :class:`Cookie` using regular expressions.</span>
+
+<span class="sd">        When the name of the :class:`Cookie` is unknown in advance,</span>
+<span class="sd">        but can be matched against a regular expression, you can use</span>
+<span class="sd">        ``Cookie.regex`` to extract it. The ``name`` of the</span>
+<span class="sd">        :class:`Cookie` should be supplied as a regular expression</span>
+<span class="sd">        inside a group, i.e. between ``(`` and ``)``.</span>
+
+<span class="sd">        For example the following code will match the :class:`Cookie`</span>
+<span class="sd">        whose ``name`` is a 10 character string containing letters and</span>
+<span class="sd">        digits:</span>
+
+<span class="sd">        .. code-block:: hylang</span>
+
+<span class="sd">           (setv csrf_token</span>
+<span class="sd">                   (Cookie.regex &quot;([a-zA-Z0-9]{10})&quot;))</span>
+
+
+<span class="sd">        Args:</span>
+<span class="sd">          regex:</span>
+<span class="sd">            A String with the regular expression to match the name of</span>
+<span class="sd">            the :class:`Cookie`.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          A :class:`Cookie` object configured to match the regular</span>
+<span class="sd">          expression.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">extract_cookie_value_regex</span><span class="p">(</span>
+            <span class="n">response</span><span class="p">:</span> <span class="n">requests</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Response</span><span class="p">,</span>
+            <span class="n">regex</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;str&quot;</span><span class="p">]:</span>
+            <span class="sd">&quot;&quot;&quot;Finds the :class:`Cookie` ``value`` matching the given</span>
+<span class="sd">            ``regex``.</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">              response:</span>
+<span class="sd">                A :class:`requests.models.Response` object with the</span>
+<span class="sd">                HTTP :term:`Response`.</span>
+<span class="sd">              regex:</span>
+<span class="sd">                A String containing the regular expression to match for.</span>
+
+<span class="sd">            Returns:</span>
+<span class="sd">              An Optional String with the ``value`` extracted from the</span>
+<span class="sd">              :class:`Cookie` matching the ``name`` with the supplied</span>
+<span class="sd">              ``regex``.</span>
+
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">regex</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                    <span class="k">return</span> <span class="n">value</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+        <span class="k">def</span> <span class="nf">extract_cookie_name_regex</span><span class="p">(</span>
+            <span class="n">response</span><span class="p">:</span> <span class="n">requests</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Response</span><span class="p">,</span>
+            <span class="n">regex</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Optional</span><span class="p">[</span><span class="s2">&quot;str&quot;</span><span class="p">]:</span>
+            <span class="sd">&quot;&quot;&quot;Find the :class:`Cookie` ``name`` matching the given</span>
+<span class="sd">            ``regex``.</span>
+
+<span class="sd">            Args:</span>
+<span class="sd">              response:</span>
+<span class="sd">                A :class:`requests.models.Response` object with the</span>
+<span class="sd">                HTTP :term:`Response`.</span>
+<span class="sd">              regex:</span>
+<span class="sd">                A String containing the regular expression to match for.</span>
+
+<span class="sd">            Returns:</span>
+<span class="sd">              An Optional String with the ``name`` extracted from the</span>
+<span class="sd">              :class:`Cookie` matching the ``name`` with the supplied</span>
+<span class="sd">              ``regex``.</span>
+
+<span class="sd">            &quot;&quot;&quot;</span>
+            <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                <span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="n">regex</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+                    <span class="k">return</span> <span class="n">name</span>
+            <span class="k">return</span> <span class="kc">None</span>
+
+        <span class="n">cookie</span> <span class="o">=</span> <span class="bp">cls</span><span class="p">(</span>
+            <span class="n">name</span><span class="o">=</span><span class="n">regex</span><span class="p">,</span>
+            <span class="n">function</span><span class="o">=</span><span class="n">partial</span><span class="p">(</span><span class="n">extract_cookie_value_regex</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="n">regex</span><span class="p">),</span>
+            <span class="n">flags</span><span class="o">=</span><span class="n">Plugin</span><span class="o">.</span><span class="n">NEEDS_RESPONSE</span> <span class="o">|</span> <span class="n">Plugin</span><span class="o">.</span><span class="n">NAME_NOT_KNOWN_IN_ADVANCE</span><span class="p">,</span>
+        <span class="p">)</span>
+
+        <span class="n">cookie</span><span class="o">.</span><span class="n">name_function</span> <span class="o">=</span> <span class="n">partial</span><span class="p">(</span><span class="n">extract_cookie_name_regex</span><span class="p">,</span> <span class="n">regex</span><span class="o">=</span><span class="n">regex</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">cookie</span></div>
+
+<div class="viewcode-block" id="Cookie.from_plugin"><a class="viewcode-back" href="../../../../api/plugins.html#raider.plugins.basic.Cookie.from_plugin">[docs]</a>    <span class="nd">@classmethod</span>
+    <span class="k">def</span> <span class="nf">from_plugin</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">parent_plugin</span><span class="p">:</span> <span class="n">Plugin</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s2">&quot;Cookie&quot;</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Creates a :class:`Cookie` from another :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;`.</span>
+
+<span class="sd">        Given another :class:`Plugin &lt;raider.plugins.common.Plugin&gt;`,</span>
+<span class="sd">        and a ``name``, create a :class:`Cookie</span>
+<span class="sd">        &lt;raider.plugins.basic.Cookie&gt;`.</span>
+
+<span class="sd">        For example, if we need to extract the ``access_token`` from JSON:</span>
+
+<span class="sd">        .. code-block:: hylang</span>
+
+<span class="sd">           (setv access_token</span>
+<span class="sd">             (Json</span>
+<span class="sd">               :name &quot;access_token&quot;</span>
+<span class="sd">               :extract &quot;token&quot;))</span>
+
+<span class="sd">           (setv get_token</span>
+<span class="sd">              (Flow</span>
+<span class="sd">                :request</span>
+<span class="sd">                  (Request</span>
+<span class="sd">                    :method &quot;POST&quot;</span>
+<span class="sd">                    :url &quot;https://www.example.com/login&quot;</span>
+<span class="sd">                    :data {&quot;username&quot; &quot;username&quot;</span>
+<span class="sd">                           &quot;password&quot; &quot;password&quot;})</span>
+<span class="sd">                 :outputs [access_token]))</span>
+
+<span class="sd">        And use it later as a :class:`Cookie`:</span>
+
+<span class="sd">        .. code-block:: hylang</span>
+
+<span class="sd">           (setv my_function</span>
+<span class="sd">             (Flow</span>
+<span class="sd">               :request (Request</span>
+<span class="sd">                          :method &quot;GET&quot;</span>
+<span class="sd">                          :url &quot;https://www.example.com/my_function&quot;</span>
+
+<span class="sd">                          ;; Sends the cookie `mycookie` with the value of</span>
+<span class="sd">                          ;; `access_token` extracted from JSON.</span>
+<span class="sd">                          :cookies [(Cookie.from_plugin</span>
+<span class="sd">                                      access_token</span>
+<span class="sd">                                      &quot;mycookie&quot; )])))</span>
+
+
+<span class="sd">        Args:</span>
+<span class="sd">          name:</span>
+<span class="sd">            The :class:`Cookie` ``name`` to use.</span>
+<span class="sd">          plugin:</span>
+<span class="sd">            The :class:`Plugin &lt;raider.plugins.common.Plugin&gt;` which</span>
+<span class="sd">            will contain the ``value`` we need.</span>
+
+<span class="sd">        Returns:</span>
+<span class="sd">          A :class:`Cookie` object with the ``name`` and the</span>
+<span class="sd">          :class:`Plugin&#39;s &lt;raider.plugins.common.Plugin&gt;` ``value``.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">cookie</span> <span class="o">=</span> <span class="bp">cls</span><span class="p">(</span>
+            <span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span>
+            <span class="n">value</span><span class="o">=</span><span class="n">parent_plugin</span><span class="o">.</span><span class="n">value</span><span class="p">,</span>
+            <span class="n">flags</span><span class="o">=</span><span class="n">Plugin</span><span class="o">.</span><span class="n">DEPENDS_ON_OTHER_PLUGINS</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="k">return</span> <span class="n">cookie</span></div></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Users &mdash; raider 0.2.3 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.2.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/prerequisites.html">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/getting_started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Reddit authentication</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/example.html">Example</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Case Studies</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../case_studies/lisp.html">Why LISP/Hylang?</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cli.html">CLI reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user.html">User API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../internal.html">Internal API reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Users</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/api/user/users.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <span class="target" id="module-raider.user"><span id="users"></span></span><section id="id1">
+<h1>Users<a class="headerlink" href="#id1" title="Permalink to this heading"></a></h1>
+<p>Use the <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> class when setting up your users in <a class="reference internal" href="../../overview/glossary.html#term-hyfiles"><span class="xref std std-term">hyfiles</span></a>
+like this:</p>
+<div class="highlight-hylang notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="kd">setv </span><span class="nv">users</span><span class="w"></span>
+<span class="w">      </span><span class="p">(</span><span class="nf">Users</span><span class="w"></span>
+<span class="w">        </span><span class="p">[{</span><span class="s">&quot;admin&quot;</span><span class="w">             </span><span class="c1">;; username</span><span class="w"></span>
+<span class="w">          </span><span class="s">&quot;password&quot;</span><span class="w">          </span><span class="c1">;; password</span><span class="w"></span>
+<span class="w">          </span><span class="ss">:nickname</span><span class="w"> </span><span class="s">&quot;admin&quot;</span><span class="p">}</span><span class="w">  </span><span class="c1">;; extra optional data</span><span class="w"></span>
+<span class="w">         </span><span class="p">{</span><span class="s">&quot;user1&quot;</span><span class="w"> </span><span class="s">&quot;password1&quot;</span><span class="w"></span>
+<span class="w">         </span><span class="ss">:attribute</span><span class="w"> </span><span class="s">&quot;blah&quot;</span><span class="w"></span>
+<span class="w">         </span><span class="ss">:nickname</span><span class="w"> </span><span class="s">&quot;mynickname&quot;</span><span class="w"></span>
+<span class="w">         </span><span class="ss">:email</span><span class="w"> </span><span class="s">&quot;admin@example.com&quot;</span><span class="p">}]))</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Create the Users object by giving it a <a class="reference external" href="https://docs.hylang.org/en/stable/syntax.html#hy.models.List">list</a> where
+each list item is a <a class="reference external" href="https://docs.hylang.org/en/stable/syntax.html#dictionary-literals">dictionary</a>
+with user data. Each user entry is required to have at least on
+<code class="docutils literal notranslate"><span class="pre">key:value</span></code> pair which is assumed to be <code class="docutils literal notranslate"><span class="pre">username:password</span></code> and
+can therefore be accessed by the <a class="reference internal" href="plugins.html#raider.plugins.basic.Variable" title="raider.plugins.basic.Variable"><code class="xref py py-class docutils literal notranslate"><span class="pre">Variable</span></code></a> <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> as <code class="docutils literal notranslate"><span class="pre">(Variable</span> <span class="pre">&quot;username&quot;)</span></code> and
+<code class="docutils literal notranslate"><span class="pre">(Variable</span> <span class="pre">&quot;password&quot;)</span></code> respectively.</p>
+<p>To use the optional user data, do the same but replace
+username/password with the symbol name you specified earlier, for
+example <code class="docutils literal notranslate"><span class="pre">(Variable</span> <span class="pre">&quot;nickname&quot;)</span></code> will return <code class="docutils literal notranslate"><span class="pre">admin</span></code> if the first
+user is active and <code class="docutils literal notranslate"><span class="pre">mynickname</span></code> if the second one is.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.user.Users">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">Users</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">users</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">active_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'DEFAULT'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#Users"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.Users" title="Permalink to this definition"></a></dt>
+<dd><p>Class holding all the users of the application.</p>
+<p>Users inherits from <a class="reference internal" href="../internal.html#raider.structures.DataStore" title="raider.structures.DataStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataStructure</span></code></a>, and contains the users set up in
+<a class="reference internal" href="../../overview/glossary.html#term-hyfiles"><span class="xref std std-term">hyfiles</span></a>. Each user is an <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object. The data
+from a <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> object can be accessed same way like from
+the <a class="reference internal" href="../internal.html#raider.structures.DataStore" title="raider.structures.DataStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataStore</span></code></a>.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.Users.active_user">
+<span class="sig-name descname"><span class="pre">active_user</span></span><a class="headerlink" href="#raider.user.Users.active_user" title="Permalink to this definition"></a></dt>
+<dd><p>A string with the <code class="docutils literal notranslate"><span class="pre">username</span></code> attribute of the currently
+active <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a>.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.Users.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">users</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">active_user</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'DEFAULT'</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#Users.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.Users.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes the <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> object.</p>
+<p>Given a <a class="reference external" href="https://docs.hylang.org/en/stable/syntax.html#hy.models.List">list</a>
+of <a class="reference external" href="https://docs.hylang.org/en/stable/syntax.html#dictionary-literals">dictionaries</a>,
+map them to a <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object and store them in this
+<a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>users</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">List</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">Keyword</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]]]) – A list of dictionaries. Dictionary’s data is mapped to a
+<a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object.</p></li>
+<li><p><strong>active_user</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – An optional string specifying the default <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a>.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.Users.to_dict">
+<span class="sig-name descname"><span class="pre">to_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#Users.to_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.Users.to_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> object data in dictionary format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="raider.user.Users.active">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">active</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#raider.user.User" title="raider.user.User"><span class="pre">User</span></a></em><a class="headerlink" href="#raider.user.Users.active" title="Permalink to this definition"></a></dt>
+<dd><p>Returns the active <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> as an <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a></p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<p>The <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a> class inherits from <a class="reference internal" href="../internal.html#raider.structures.DataStore" title="raider.structures.DataStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataStore</span></code></a> where each element is a <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a>
+class containing data about a single user:</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="raider.user.User">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">User</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User" title="Permalink to this definition"></a></dt>
+<dd><p>Class holding user related information.</p>
+<p><a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> objects are created inside the <a class="reference internal" href="#raider.user.Users" title="raider.user.Users"><code class="xref py py-class docutils literal notranslate"><span class="pre">Users</span></code></a>. Each
+<a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object contains at least the <code class="docutils literal notranslate"><span class="pre">username</span></code> and the
+<code class="docutils literal notranslate"><span class="pre">password</span></code>. Every time a <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> generates an output, it is saved
+in the <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object. If the <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> is a <a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code></a> or a <a class="reference internal" href="plugins.html#raider.plugins.basic.Header" title="raider.plugins.basic.Header"><code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code></a>, the output will be stored in the
+the <code class="docutils literal notranslate"><span class="pre">cookies</span></code> and <code class="docutils literal notranslate"><span class="pre">headers</span></code> attributes respectively. Otherwise
+they’ll be saved inside <code class="docutils literal notranslate"><span class="pre">data</span></code>.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.User.username">
+<span class="sig-name descname"><span class="pre">username</span></span><a class="headerlink" href="#raider.user.User.username" title="Permalink to this definition"></a></dt>
+<dd><p>A string containing the user’s email or username used to log in.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.User.password">
+<span class="sig-name descname"><span class="pre">password</span></span><a class="headerlink" href="#raider.user.User.password" title="Permalink to this definition"></a></dt>
+<dd><p>A string containing the user’s password.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.User.cookies">
+<span class="sig-name descname"><span class="pre">cookies</span></span><a class="headerlink" href="#raider.user.User.cookies" title="Permalink to this definition"></a></dt>
+<dd><p>A <a class="reference internal" href="../internal.html#raider.structures.CookieStore" title="raider.structures.CookieStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">CookieStore</span></code></a> object
+containing all of the collected cookies for this user. The
+<a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code></a> plugin only
+writes here.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.User.headers">
+<span class="sig-name descname"><span class="pre">headers</span></span><a class="headerlink" href="#raider.user.User.headers" title="Permalink to this definition"></a></dt>
+<dd><p>A <a class="reference internal" href="../internal.html#raider.structures.HeaderStore" title="raider.structures.HeaderStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">HeaderStore</span></code></a> object
+containing all of the collected headers for this user. The
+<a class="reference internal" href="plugins.html#raider.plugins.basic.Header" title="raider.plugins.basic.Header"><code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code></a> plugin only
+writes here.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="raider.user.User.data">
+<span class="sig-name descname"><span class="pre">data</span></span><a class="headerlink" href="#raider.user.User.data" title="Permalink to this definition"></a></dt>
+<dd><p>A <a class="reference internal" href="../internal.html#raider.structures.DataStore" title="raider.structures.DataStore"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataStore</span></code></a> object
+containing the rest of the data collected from plugins for
+this user.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.__init__" title="Permalink to this definition"></a></dt>
+<dd><p>Initializes a <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object.</p>
+<p>Creates an object for easy access to user specific
+information. It’s used to store the <code class="docutils literal notranslate"><span class="pre">username</span></code>,
+<code class="docutils literal notranslate"><span class="pre">password</span></code>, <code class="docutils literal notranslate"><span class="pre">cookies</span></code>, <code class="docutils literal notranslate"><span class="pre">headers</span></code>, and other <code class="docutils literal notranslate"><span class="pre">data</span></code>
+extracted from the <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> objects.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>username</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A string with the username used for the login process.</p></li>
+<li><p><strong>password</strong> (<code class="xref py py-data docutils literal notranslate"><span class="pre">Optional</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A string with the password used for the login process.</p></li>
+<li><p><strong>**kwargs</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A dictionary with additional data about the user.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_cookie">
+<span class="sig-name descname"><span class="pre">set_cookie</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cookie</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_cookie"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_cookie" title="Permalink to this definition"></a></dt>
+<dd><p>Sets the <code class="docutils literal notranslate"><span class="pre">cookies</span></code> for the user.</p>
+<p>Given a <a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code></a> object,
+update the user’s <code class="docutils literal notranslate"><span class="pre">cookies</span></code> attribute to include this
+<a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie's</span></code></a> value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>cookie</strong> (<a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.cookie.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code></a>) – A <a class="reference internal" href="plugins.html#raider.plugins.basic.Cookie" title="raider.plugins.basic.Cookie"><code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code></a>
+<a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> object with
+the data to be added.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_cookies_from_dict">
+<span class="sig-name descname"><span class="pre">set_cookies_from_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_cookies_from_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_cookies_from_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Set user’s <code class="docutils literal notranslate"><span class="pre">cookies</span></code> from a dictionary.</p>
+<p>Given a dictionary of cookie values as strings, convert them
+to <code class="xref py py-class docutils literal notranslate"><span class="pre">Cookie</span></code> objects, and load
+them in the <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object
+respectively.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A dictionary of strings corresponding to cookie keys and
+values.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_header">
+<span class="sig-name descname"><span class="pre">set_header</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">header</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_header"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_header" title="Permalink to this definition"></a></dt>
+<dd><p>Sets the <code class="docutils literal notranslate"><span class="pre">headers</span></code> for the user.</p>
+<p>Given a <a class="reference internal" href="plugins.html#raider.plugins.basic.Header" title="raider.plugins.basic.Header"><code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code></a> object,
+update the user’s <code class="docutils literal notranslate"><span class="pre">headers</span></code> attribute to include this header
+value.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>header</strong> (<a class="reference internal" href="plugins.html#raider.plugins.basic.Header" title="raider.plugins.basic.header.Header"><code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code></a>) – A <a class="reference internal" href="plugins.html#raider.plugins.basic.Header" title="raider.plugins.basic.Header"><code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code></a>
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span> <span class="pre">&lt;raider.plugins.common.Plugin</span></code> object with
+the data to be added.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_headers_from_dict">
+<span class="sig-name descname"><span class="pre">set_headers_from_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_headers_from_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_headers_from_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Set user’s <code class="docutils literal notranslate"><span class="pre">headers</span></code> from a dictionary.</p>
+<p>Given a dictionary of header values as strings, convert them
+to <code class="xref py py-class docutils literal notranslate"><span class="pre">Header</span></code> objects, and load
+them in the <a class="reference internal" href="#raider.user.User" title="raider.user.User"><code class="xref py py-class docutils literal notranslate"><span class="pre">User</span></code></a> object
+respectively.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A dictionary of strings corresponding to header keys and
+values.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_data">
+<span class="sig-name descname"><span class="pre">set_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_data"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_data" title="Permalink to this definition"></a></dt>
+<dd><p>Sets the <code class="docutils literal notranslate"><span class="pre">data</span></code> for the user.</p>
+<p>Given a <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a>, update
+the user’s <code class="docutils literal notranslate"><span class="pre">data</span></code> attribute to include this data.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a>) – A <a class="reference internal" href="plugins.html#raider.plugins.common.Plugin" title="raider.plugins.common.Plugin"><code class="xref py py-class docutils literal notranslate"><span class="pre">Plugin</span></code></a> object
+with the data to be added.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.set_data_from_dict">
+<span class="sig-name descname"><span class="pre">set_data_from_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.set_data_from_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.set_data_from_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Set user’s <code class="docutils literal notranslate"><span class="pre">data</span></code> from a dictionary.</p>
+<p>Given a dictionary of data items made out of strings, update
+the <code class="docutils literal notranslate"><span class="pre">data</span></code> attribute accordingly.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>data</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]) – A dictionary of strings corresponding to data keys and
+values.</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="raider.user.User.to_dict">
+<span class="sig-name descname"><span class="pre">to_dict</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/raider/user.html#User.to_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#raider.user.User.to_dict" title="Permalink to this definition"></a></dt>
+<dd><p>Returns this object’s data in a dictionary format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Dict</span></code>[<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>]</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
