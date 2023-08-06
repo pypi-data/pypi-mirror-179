@@ -1,0 +1,7 @@
+onnxruntime-gpu
+numpy
+requests
+opencv-python-headless
+shapely
+pyclipper
+Pillow
