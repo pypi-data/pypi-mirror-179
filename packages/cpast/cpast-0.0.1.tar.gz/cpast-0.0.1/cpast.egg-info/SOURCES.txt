@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+cpast/__init__.py
+cpast/__main__.py
+cpast/cpast.py
+cpast.egg-info/PKG-INFO
+cpast.egg-info/SOURCES.txt
+cpast.egg-info/dependency_links.txt
+cpast.egg-info/entry_points.txt
+cpast.egg-info/requires.txt
+cpast.egg-info/top_level.txt
