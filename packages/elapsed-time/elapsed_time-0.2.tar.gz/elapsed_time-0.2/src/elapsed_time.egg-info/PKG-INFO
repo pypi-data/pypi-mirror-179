@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: elapsed-time
+Version: 0.2
+Summary: Measure time of excec
+Home-page: https://github.com/Estebandotpy/elapsed_time
+Author: Esteban Osorio
+Author-email: estebandmp17@gmail.com
+License: MIT
+Keywords: testing,example
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# elapsed_time
+
+```Python
+
+from elapsed_time import elapsed
+
+@elapsed
+def test():
+    for _ in range(0,10000000):
+        pass
+
+test()
+
+>>> Elapsed time: 0.16048717498779297
+
+```
