@@ -1,0 +1,10 @@
+pygqlc>=3.0.1
+pydash
+pytz
+tzlocal
+colorama
+termcolor
+python-dateutil
+singleton-decorator
+redis
+velebit-useful-logs
