@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: CustomProxy
+Version: 1.0.0
+Summary: Just simple random proxy rotating package
+Home-page: https://github.com/dyseo/custom-proxy
+Download-URL: https://github.com/dyseo/custom-proxy
+Author: Alnyz
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Provides-Extra: ujson
+Requires-Dist: ujson ; extra == 'ujson'
+
+# custom-proxy
+ 
+## installing
+`pip install custom-proxy`
+or
+`pip install custom-proxy[ujson]` for use ujson
