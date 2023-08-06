@@ -1,0 +1,2 @@
+[console_scripts]
+pispy = pispy.app:run
