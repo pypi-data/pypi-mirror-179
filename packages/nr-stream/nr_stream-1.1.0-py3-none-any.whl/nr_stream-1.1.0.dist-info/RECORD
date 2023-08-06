@@ -1,0 +1,11 @@
+nr/stream/__init__.py,sha256=VhlRGX78WWYxhP19VnSXxoO_bVJ_cjY0uCLyWyfjTfI,275
+nr/stream/_notset.py,sha256=awStxeYk17Dfy_3zz6A_wD31hh94hROf4GxdvIbADqg,170
+nr/stream/_optional.py,sha256=DUrC6zO44CqoA8pWqy1JgX9mQU-6-pZkTSz56XCsifU,1433
+nr/stream/_refreshable.py,sha256=YJ25iH3x5_NMEua3C8jBByt_wKb9gwkcFPccRSZQQ6s,1777
+nr/stream/_stream.py,sha256=Ciz1YwhZWapfg-90a_yXMJRaWVu2V-PBQfm89Av7Vw0,11837
+nr/stream/_supplier.py,sha256=OUm3I0OmprVQn07QAm5YpI-sJnnFI21M3QKvx9-UwDY,6454
+nr/stream/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nr_stream-1.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nr_stream-1.1.0.dist-info/LICENSE,sha256=bDVcEAS5rCEemhGT133WyYPEWhviXjCvQ46Pi_1gInQ,998
+nr_stream-1.1.0.dist-info/METADATA,sha256=lhaRTurjIZHeyA0pM4s8j-hXDlV4Wu1pJiCz7s3RYEA,3646
+nr_stream-1.1.0.dist-info/RECORD,,
