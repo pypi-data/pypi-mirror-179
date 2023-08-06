@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: utils_autozone
+Version: 0.0.10
+Summary: Datalake ingestion utilities for autozone
+Project-URL: Homepage, https://gitlab.autozone.com/it/data-management/data-engineering/cloud/datalake
+Project-URL: Bug Tracker, https://gitlab.autozone.com/it/data-management/data-engineering/cloud/datalake/-/error_tracking
+Author-email: Pamela Sanan <pamela.sanan@autozone.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
