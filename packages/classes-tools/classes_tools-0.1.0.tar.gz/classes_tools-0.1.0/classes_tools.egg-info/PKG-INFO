@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: classes-tools
+Version: 0.1.0
+Summary: 一些关于Python类的工具。
+Home-page: https://gitee.com/xcpcn/classes_tools
+Author: XCreeperPa
+Author-email: 499574564@qq.com
+License: UNKNOWN
+Description: 一些关于Python类的工具。
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
