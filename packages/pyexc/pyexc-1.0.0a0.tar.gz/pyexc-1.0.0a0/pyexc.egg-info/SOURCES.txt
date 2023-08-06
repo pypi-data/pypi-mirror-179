@@ -1,0 +1,8 @@
+README.md
+setup.py
+/home/awolverp/Projects/pyexc/pyexc/pyexc.c
+/home/awolverp/Projects/pyexc/pyexc/pyexc.pyi
+pyexc.egg-info/PKG-INFO
+pyexc.egg-info/SOURCES.txt
+pyexc.egg-info/dependency_links.txt
+pyexc.egg-info/top_level.txt
