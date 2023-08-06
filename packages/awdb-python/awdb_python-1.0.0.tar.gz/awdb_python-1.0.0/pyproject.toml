@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "awdb-python"
+version = "1.0.0"
+description = ""
+authors = ["ipplus360"]
+readme = "README.md"
+packages = [
+    { include = "awdb" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
