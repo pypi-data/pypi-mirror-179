@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "discover-daily"
+version = "0.1.0"
+authors = ["Robert Kossendey <robert.kossendey@protonmail.ch>"]
+description = "discover-daily is a CLI tool for all the music nerds out there."
+packages = [
+    { include = "src", from="." },
+]
+include = ["src/albums.json"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+[tool.poetry.scripts]
+discover-daily = 'src.main:recommend_album'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
