@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+quicklookts.egg-info/PKG-INFO
+quicklookts.egg-info/SOURCES.txt
+quicklookts.egg-info/dependency_links.txt
+quicklookts.egg-info/requires.txt
+quicklookts.egg-info/top_level.txt
