@@ -1,0 +1,13 @@
+.gitattributes
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+CustomProxy.egg-info/PKG-INFO
+CustomProxy.egg-info/SOURCES.txt
+CustomProxy.egg-info/dependency_links.txt
+CustomProxy.egg-info/requires.txt
+CustomProxy.egg-info/top_level.txt
+simple_proxy/__init__.py
+simple_proxy/proxy.py
