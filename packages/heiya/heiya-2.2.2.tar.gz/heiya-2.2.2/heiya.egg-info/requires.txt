@@ -1,0 +1,5 @@
+piexif
+pillow_heif
+pyperclip
+pathlib
+Pillow
