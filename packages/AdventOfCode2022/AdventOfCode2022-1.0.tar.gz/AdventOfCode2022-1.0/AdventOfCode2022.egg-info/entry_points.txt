@@ -1,0 +1,2 @@
+[console_scripts]
+AdventOfCode2022 = AdventOfCode2022.runner:main
