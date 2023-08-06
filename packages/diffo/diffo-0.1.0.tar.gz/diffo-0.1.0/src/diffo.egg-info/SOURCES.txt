@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/diffo/__about__.py
+src/diffo/__init__.py
+src/diffo/_cli.py
+src/diffo/_paths.py
+src/diffo/_strings.py
+src/diffo.egg-info/PKG-INFO
+src/diffo.egg-info/SOURCES.txt
+src/diffo.egg-info/dependency_links.txt
+src/diffo.egg-info/entry_points.txt
+src/diffo.egg-info/requires.txt
+src/diffo.egg-info/top_level.txt

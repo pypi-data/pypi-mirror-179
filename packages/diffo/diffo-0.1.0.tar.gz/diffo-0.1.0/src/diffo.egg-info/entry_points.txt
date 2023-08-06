@@ -1,0 +1,2 @@
+[console_scripts]
+diffo = diffo._cli:main
