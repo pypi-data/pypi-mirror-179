@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sachac-plover-retro-stroke
+Version: 0.1.0
+Summary: Converts the last X translations to their stroke form
+Home-page: https://github.com/sachac/plover_retro_stroke
+Author: sachac
+License: GNU General Public License v3 (GPLv3)
+Description: uploading sachac's open source work to pypi to make installation easier
+        all credits to sachac for their work into this project
+        
+Keywords: plover
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown

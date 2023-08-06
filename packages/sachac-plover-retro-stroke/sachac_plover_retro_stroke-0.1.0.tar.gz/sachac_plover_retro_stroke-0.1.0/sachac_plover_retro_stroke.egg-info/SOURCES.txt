@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sachac_plover_retro_stroke/__init__.py
+sachac_plover_retro_stroke.egg-info/PKG-INFO
+sachac_plover_retro_stroke.egg-info/SOURCES.txt
+sachac_plover_retro_stroke.egg-info/dependency_links.txt
+sachac_plover_retro_stroke.egg-info/entry_points.txt
+sachac_plover_retro_stroke.egg-info/requires.txt
+sachac_plover_retro_stroke.egg-info/top_level.txt
+sachac_plover_retro_stroke.egg-info/zip-safe
