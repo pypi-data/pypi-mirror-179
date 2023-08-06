@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: coti-wallet
+Version: 0.0.1b5
+Home-page: https://github.com/coti-io/coti-sdk-python
+Author: coti team
+Author-email: support@coti.io
+License: MIT
+Keywords: coti wallet sdk
