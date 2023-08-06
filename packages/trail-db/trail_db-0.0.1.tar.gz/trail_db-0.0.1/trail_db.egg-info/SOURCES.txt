@@ -1,0 +1,9 @@
+README.md
+setup.py
+trail_db/__init__.py
+trail_db/db_import.py
+trail_db.egg-info/PKG-INFO
+trail_db.egg-info/SOURCES.txt
+trail_db.egg-info/dependency_links.txt
+trail_db.egg-info/requires.txt
+trail_db.egg-info/top_level.txt

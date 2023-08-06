@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: trail_db
+Version: 0.0.1
+Summary: Demo library
+Home-page: https://medium-multiply.readthedocs.io/
+Author: NP
+Author-email: nikolaus@trail-ml.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Trail db
+
+A small demo library to add a JSON object to a mongodb.
+
+# Installation
+'''
+pip install trail_db
+'''
+# Get started
+
+How to multiply one number by another with this lib:
+'''
+from trail_db import DB_import
+
+# Instantiate a DB_import object
+db_imp = DB_import(URI, database_name)
+
+# Call the add_db method
+result = db_imp.add_db(data)
+'''
+
