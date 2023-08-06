@@ -1,0 +1,14 @@
+dewi_logparsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dewi_logparsers/loghandler.py,sha256=w0Ka_twcvAQuinoZXGe2IEk6EbryWYpkYUAmHwfJOG8,7237
+dewi_logparsers/syslog.py,sha256=CMoC31_DE8z6J25GljmRZbPWjxU982mBzLv2xrA1e-8,2431
+dewi_logparsers/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dewi_logparsers/modules/ha.py,sha256=qlbW47VPrV1Hn7w9V2d7tGwrH5b4RsSW4--dGN05U3w,1019
+dewi_logparsers/modules/kernel.py,sha256=07o3lhga-3DZ9rj_zrSZe_DoKCj163R14B1DsyFDpeY,1439
+dewi_logparsers/modules/reboot.py,sha256=bVZ7DAKzYrdtwTMSNBmdsvRbkLsduxqi57ul7lfcRdI,1098
+dewi_logparsers/modules/web.py,sha256=egt5b21VzuzqibuAbXtaOCLMRIbRfaqxlDDgtYJpIEA,1383
+dewi_logparsers-2.1.0.dist-info/COPYING,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+dewi_logparsers-2.1.0.dist-info/METADATA,sha256=PzzEgVNhqJz6LncbPMNdPtNbWkrCCL7j3g8_kweHsUg,1387
+dewi_logparsers-2.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dewi_logparsers-2.1.0.dist-info/top_level.txt,sha256=Rcq_5B-IbpfZIjEPv_i4R7KgJNFM4eSgA5q0tKTfi5s,16
+dewi_logparsers-2.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dewi_logparsers-2.1.0.dist-info/RECORD,,
