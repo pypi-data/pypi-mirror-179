@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tweetSentimentAnalysis_MP
+Version: 0.0.1
+Summary: Assignment #10
+Author-email: Matthew Postel <mpostel@g.emporia.edu>
+Project-URL: Homepage, https://github.com/BadWolf22
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tweet Sentiment Analysis
+
+This is Assignment #10 as a PyPi package. To use, you must install the package, import it and call `assignment10.analyze(<tweet_csv_file_path>)`.
