@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tubeConverter/__init__.py
+tubeConverter/module.py
+tubeConverter.egg-info/PKG-INFO
+tubeConverter.egg-info/SOURCES.txt
+tubeConverter.egg-info/dependency_links.txt
+tubeConverter.egg-info/requires.txt
+tubeConverter.egg-info/top_level.txt
