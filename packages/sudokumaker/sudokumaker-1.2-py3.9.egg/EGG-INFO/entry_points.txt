@@ -1,0 +1,6 @@
+[console_scripts]
+sudoku = sudokumaker.sudoku:main
+sudoku_as_tex = sudokumaker.sudoku_as_tex:main
+sudokumaker = sudokumaker.maker:main
+sumsudoku = sudokumaker.sumsudoku:main
+

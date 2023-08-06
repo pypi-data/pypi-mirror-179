@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+Version.py
+__init__.py
+maker.py
+setup.py
+sudoku.py
+sudoku_as_tex.py
+sumsudoku.py
+sudokumaker.egg-info/PKG-INFO
+sudokumaker.egg-info/SOURCES.txt
+sudokumaker.egg-info/dependency_links.txt
+sudokumaker.egg-info/entry_points.txt
+sudokumaker.egg-info/requires.txt
+sudokumaker.egg-info/top_level.txt
