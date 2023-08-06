@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: jiale
+Version: 0.1.0
+Summary: Jia Le's Python Library
+Author: Jia Le
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Jia Le's Library for Python
+
+## Installation
+
+```
+pip3 install jiale
+```
+
+## Upgrade Library
+
+```
+pip3 install jiale --upgrade
+```
+
+## Usage
+
+```
+from jiale import *
+```
+
+## Get Started
+Here's the basic command to get started :
+```
+1. info()    - The library information.
+2. version() - The library current version, release date.
+3. index()   - The entire index in this library version.
+4. formula() - The math formula in this library version.
+5. help()    - The short note for the library.
+```

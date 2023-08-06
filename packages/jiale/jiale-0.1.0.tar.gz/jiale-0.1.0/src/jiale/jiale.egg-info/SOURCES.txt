@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/jiale/jiale.egg-info/PKG-INFO
+src/jiale/jiale.egg-info/SOURCES.txt
+src/jiale/jiale.egg-info/dependency_links.txt
+src/jiale/jiale.egg-info/top_level.txt
+src/jiale/jiale.py
+src/jiale/jiale.egg-info/SOURCES.txt
