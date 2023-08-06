@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bheEASyMesh/bhemeshing.py
+bheEASyMesh.egg-info/PKG-INFO
+bheEASyMesh.egg-info/SOURCES.txt
+bheEASyMesh.egg-info/dependency_links.txt
+bheEASyMesh.egg-info/requires.txt
+bheEASyMesh.egg-info/top_level.txt
