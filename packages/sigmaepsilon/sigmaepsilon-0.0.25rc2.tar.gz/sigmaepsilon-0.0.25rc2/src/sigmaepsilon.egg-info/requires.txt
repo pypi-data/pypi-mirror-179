@@ -1,0 +1,10 @@
+setuptools
+wheel
+numpy
+scipy
+numba
+sympy
+awkward
+sectionproperties
+polymesh>=0.0.11
+latexdocs
