@@ -1,0 +1,6 @@
+README.md
+setup.py
+ezwork.egg-info/PKG-INFO
+ezwork.egg-info/SOURCES.txt
+ezwork.egg-info/dependency_links.txt
+ezwork.egg-info/top_level.txt
