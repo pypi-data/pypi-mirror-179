@@ -1,0 +1,12 @@
+# uDMXController
+pyusb
+udmx-pyusb
+
+# OpenDMXController
+pyftdi
+
+# Serial Controller
+pyserial
+
+# Web
+flask

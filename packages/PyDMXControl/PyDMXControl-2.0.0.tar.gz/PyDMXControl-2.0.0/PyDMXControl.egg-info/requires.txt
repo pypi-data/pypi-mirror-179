@@ -1,0 +1,8 @@
+pyusb
+udmx-pyusb
+pyftdi
+pyserial
+flask
+
+[audio]
+pygame
