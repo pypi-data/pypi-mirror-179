@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: odhpy
+Version: 0.0.1
+Summary: A collection of splashings to master that which has no form and count that which is uncountable.
+Home-page: https://bitbucket.org/odhydrology/odhpy.git
+Author: Chas Egan
+Author-email: chas@odhydrology.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# odhpy
+
+## Installation
+
+```bash
+pip install git+https://bitbucket.org/odhydrology/odhpy.git
+```
+
+## Usage
+
+```python
+import odhpy
+
+# returns the package version
+odhpy.__version__
+
+# prints 'Hello world!' to the console
+odhpy.hello_world()
+```
+
+## License
+
+None.
