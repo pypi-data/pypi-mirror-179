@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: farmworld
+Version: 0.0.3
+Summary: Reinforcement Learning for Agriculture
+Home-page: https://github.com/tomgrek/farmworld
+Keywords: reinforcement,machine,learning,farming,agriculture
+Author: Tom Grek
+Author-email: tom.grek@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=22.10.0,<23.0.0)
+Requires-Dist: gym (==0.21.0)
+Requires-Dist: nvidia-cudnn-cu11 (==8.6.0.163)
+Requires-Dist: pillow (==9.3.0)
+Requires-Dist: polygenerator (>=0.2.0,<0.3.0)
+Requires-Dist: pygame (>=2.1.2,<3.0.0)
+Requires-Dist: sb3-contrib (>=1.6.2,<2.0.0)
+Requires-Dist: stable-baselines3[extra] (>=1.6.2,<2.0.0)
+Project-URL: Repository, https://github.com/tomgrek/farmworld
+Description-Content-Type: text/markdown
+
+# FarmWorld
+
+A reinforcement learning library for agriculture.
+
+# HOWTO
+
+```python
+pip install farmworld
+```
+
+# Install from source
+
+```
+make venv
+make install
+```
+
+# Build/Publish
+
+Put a new release on Github
+
+```shell
+poetry build
+poetry publish
+```
+
+# Test
+
+```python
+PYTHONPATH=. python test/test_env.py
+```
+
+# Current Status
+
+DQN basically solves it after 100k steps.
+
+* Normalized the easy way using vecnormalize.
+* Added a zeroth action and trimmed the action space a bit
+
+# TODO
+
+* complicate the problem! multiple crops, and they need to start dieing off at some point
+
+# make env realistic -- add different plants
+# fix planting density
+# add different plants which have different maturities, weather needs etc. 
+# plus weather forecast, soil quality(split into attributes)
