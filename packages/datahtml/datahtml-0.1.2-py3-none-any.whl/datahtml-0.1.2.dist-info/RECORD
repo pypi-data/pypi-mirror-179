@@ -1,0 +1,17 @@
+datahtml/__about__.py,sha256=JnWnrGSHvP3b8UlAjxpEoPjlnWRQ0U09gP7lAgbuBms,120
+datahtml/__init__.py,sha256=wYYVuzFE1JMzoeMXQBadZbssN8JZ4frKHCC2WKklQhI,98
+datahtml/base.py,sha256=bsfjaQ_Msh7ck4UvcA3EiwvpQqIPs64I04QKtoDT3c8,1245
+datahtml/crawler.py,sha256=kJhpe6qjGafGX1yhGfcRqWjFABTm15BJYejbU4im6eM,2009
+datahtml/defaults.py,sha256=wbsjFs5nAwY44BeG0SKS1BdSu0MtDsz_KOtCwVZ_REA,646
+datahtml/errors.py,sha256=R6sHq86zxnJTz8efZvkQq7SemkOSAkmJ5LMWA4gfYsw,619
+datahtml/news.py,sha256=FkxvS1qoC3kXLmVr9SEm-aSkhnNHRaS4QHDYnU8AkoI,785
+datahtml/parsers.py,sha256=8H00Ds_PbRr30pdUuM-RrOGgSIdJHnAfsaYSQtlnbx0,5578
+datahtml/root.py,sha256=p9G3MYViwml78_n-AW53C4TWd1gYjoFOaDmFZBAr6s8,2938
+datahtml/rss.py,sha256=ndLRJfUTkSXAZm9oNB7Lfr7Bw7C0QPBfNs2T7UMYw24,3310
+datahtml/types.py,sha256=bgZMtGe5QrcrfALJ9EPti8mEt5f-sUhbHjEsU6ZyIkY,589
+datahtml/web.py,sha256=pWb98GVyHqiczdBFss_tHX9YjDvBBd1LMwown7fAH4c,1117
+datahtml/youtube.py,sha256=awntdorKUVdPw9mAJy9kYK4HK8Sxt9OQ52VKtXjZ-9M,10626
+datahtml-0.1.2.dist-info/METADATA,sha256=TcdeyRXBb4f8RpdTVy_vFvs1zvZuhKmyEsascDz4uOI,1605
+datahtml-0.1.2.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+datahtml-0.1.2.dist-info/licenses/LICENSE,sha256=vvF0ftqIue1G6UgwsNl4w0mdrV3-ONNklxdgiBkB2t0,15977
+datahtml-0.1.2.dist-info/RECORD,,
