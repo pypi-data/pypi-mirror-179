@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pycnpj-cpf
+Version: 0.1.1
+Summary: CNPJ and CPF validator
+Home-page: https://github.com/carlos-moreno/pycnpj-cpf
+Author: Carlos Moreno
+Author-email: omorenodovale@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+License-File: LICENSE
+
+# pycpf-cnpj
+CPF and CNPJ validator
