@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+marvellous.py
+setup.py
+MIDupFileRemove.egg-info/PKG-INFO
+MIDupFileRemove.egg-info/SOURCES.txt
+MIDupFileRemove.egg-info/dependency_links.txt
+MIDupFileRemove.egg-info/entry_points.txt
+MIDupFileRemove.egg-info/requires.txt
+MIDupFileRemove.egg-info/top_level.txt
+app/__init__.py
+app/__main__.py
+app/application.py
