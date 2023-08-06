@@ -1,0 +1,15 @@
+README.md
+license.txt
+setup.py
+KingDataGenerators/__init__.py
+KingDataGenerators/cnpjs.py
+KingDataGenerators/cpfs.py
+KingDataGenerators/emails.py
+KingDataGenerators/names.py
+KingDataGenerators/passwords.py
+KingDataGenerators/phone_numbers.py
+KingDataGenerators/variables.py
+KingDataGenerators.egg-info/PKG-INFO
+KingDataGenerators.egg-info/SOURCES.txt
+KingDataGenerators.egg-info/dependency_links.txt
+KingDataGenerators.egg-info/top_level.txt
