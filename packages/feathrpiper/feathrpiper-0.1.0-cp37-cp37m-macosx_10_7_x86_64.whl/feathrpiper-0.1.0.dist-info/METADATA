@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: feathrpiper
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Home-Page: https://github.com/windoze/piper
+Author: Chen Xu <windoze@0d0a.com>
+Author-email: Chen Xu <windoze@0d0a.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Source Code, https://github.com/windoze/piper
+Project-URL: Issues, https://github.com/windoze/piper/issues
+
+README
+======
+
+This is the Python wrapper of the Feathr online transformation service.
+
+There are 2 major classes in this package:
+
+* `PiperService`, this is the service class, it is used to start a HTTP service to handle the transformation requests. It doesn't support HTTPS and authentication, so you may need to setup gateway or proxy to handle the security issues.
+
+* `Piper`, this is the transformation engine, it can be use to transform data directly, mainly for development and testing purpose. User may also use this class to implement their own transformation service as long as the performance is not the concern.
+
+Both above classes support UDF written in Python.
+
+NOTE: Because of the GIL, pure Python code cannot run concurrently, that means using Python UDF could slow down the transformation service, especially on heavy load.
