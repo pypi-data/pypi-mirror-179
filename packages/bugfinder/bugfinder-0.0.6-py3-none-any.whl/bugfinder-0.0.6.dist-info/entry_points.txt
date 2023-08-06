@@ -1,0 +1,7 @@
+[console_scripts]
+clear_asr_records = bugfinder:clear_asr_records
+dbinstall = bugfinder:dbinstall
+esyncfile = bugfinder:esyncfile
+osssync = bugfinder:osssync
+save_record = bugfinder:save_record
+syncfile = bugfinder:syncfile
