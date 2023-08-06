@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+src/surround_text_jumble_4VxP/__init__.py
+src/surround_text_jumble_4VxP/example.py
+src/surround_text_jumble_4VxP.egg-info/PKG-INFO
+src/surround_text_jumble_4VxP.egg-info/SOURCES.txt
+src/surround_text_jumble_4VxP.egg-info/dependency_links.txt
+src/surround_text_jumble_4VxP.egg-info/top_level.txt

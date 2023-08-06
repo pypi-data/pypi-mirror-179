@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: surround-text-jumble-4VxP
+Version: 0.0.1
+Summary: A small package that can surround text with jumbled symbols to create a glitchy effect
+Author-email: 4VxP <author@example.com>
+Project-URL: Homepage, https://github.com/python-jpg/python_text_jumbler
+Project-URL: Bug Tracker, https://github.com/python-jpg/python_text_jumbler/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
