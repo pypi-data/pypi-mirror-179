@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: computer-vision-python
+Version: 0.2
+Summary: IT IS A VERY GOOD LIBRARY FOR COMPUTER VISION AND WHEN YOURE ARE MAKING THE PROJECT TRING
+Home-page: https://github.com/user/reponame
+Download-URL: https://github.com/Om-Nirmalkar1000/COMPUTERVISION/blob/main/ComputerVision.zip
+Author: OM NIRMALKAR
+Author-email: info.craftfox@gmail.com
+License: MIT
+Keywords: cv2,cv,tring,computer vision
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
