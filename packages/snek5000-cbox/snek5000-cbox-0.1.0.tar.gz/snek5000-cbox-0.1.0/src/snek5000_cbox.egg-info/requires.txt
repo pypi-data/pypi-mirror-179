@@ -1,0 +1,4 @@
+snek5000>=0.8.0rc1
+
+[tests]
+scipy
