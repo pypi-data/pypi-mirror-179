@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pysitemaps
+Version: 0.0.1
+Summary: Python Package for Sitemaps
+Home-page: https://github.com/seowings/pysitemaps/
+Author: Faisal Shahzad
+Author-email: seowingsorg@gmail.com
+Project-URL: Bug Tracker, https://github.com/seowings/pysitemaps/issues
+Project-URL: Documentation, https://pysitemaps.seowings.org/
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: mkdocs-gen-files ; extra == 'dev'
+Requires-Dist: mkdocstrings[python] ; extra == 'dev'
+Requires-Dist: pymdown-extensions ; extra == 'dev'
+
+![pysitemaps feature image](docs/img/feature-image.png)
+
+# pysitemaps: Python Package for Sitemaps
+
+``pysitemaps`` package can be used to (systematically) generate and analyze sitemaps.
+
+## Whats in pysitemaps?
+
+We believe in monolithic software development and created this tiny package that does its job without any bloat. 
+
+## How to Use pysitemaps?
+
+You can find detailed tutorial on [pysitemaps website](https://pysitemaps.seowings.org).
+
+## Contribute
+
+Pull Requests, Feature Suggestions, and collaborations are welcome.
