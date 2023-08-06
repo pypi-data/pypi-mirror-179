@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+Regexes/__init__.py
+Regexes/regexes.py
+Regexes.egg-info/PKG-INFO
+Regexes.egg-info/SOURCES.txt
+Regexes.egg-info/dependency_links.txt
+Regexes.egg-info/top_level.txt
+Regexes/utils/__init__.py
+Regexes/utils/strings.py
