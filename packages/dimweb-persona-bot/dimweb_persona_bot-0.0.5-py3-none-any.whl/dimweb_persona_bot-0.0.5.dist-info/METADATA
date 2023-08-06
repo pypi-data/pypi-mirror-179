@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: dimweb_persona_bot
+Version: 0.0.5
+Summary: A dialogue bot with a personality
+Project-URL: Github page, https://github.com/dmitrymailk/persona_bot
+Author-email: dimweb <dimweb.tech@mail.ru>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.6
+Requires-Dist: absl-py==1.3.0
+Requires-Dist: aiohttp==3.8.3
+Requires-Dist: aiosignal==1.3.1
+Requires-Dist: async-timeout==4.0.2
+Requires-Dist: attrs==22.1.0
+Requires-Dist: black==22.10.0
+Requires-Dist: cachetools==5.2.0
+Requires-Dist: certifi==2022.9.24
+Requires-Dist: charset-normalizer==2.1.1
+Requires-Dist: click==8.1.3
+Requires-Dist: datasets==2.4.0
+Requires-Dist: docker-pycreds==0.4.0
+Requires-Dist: filelock==3.8.0
+Requires-Dist: frozenlist==1.3.3
+Requires-Dist: fsspec==2022.11.0
+Requires-Dist: gitdb==4.0.10
+Requires-Dist: gitpython==3.1.29
+Requires-Dist: google-auth-oauthlib==0.4.6
+Requires-Dist: google-auth==2.14.1
+Requires-Dist: grpcio==1.51.1
+Requires-Dist: huggingface-hub==0.11.1
+Requires-Dist: idna==3.4
+Requires-Dist: markdown==3.4.1
+Requires-Dist: markupsafe==2.1.1
+Requires-Dist: multidict==6.0.2
+Requires-Dist: mypy-extensions==0.4.3
+Requires-Dist: numpy==1.23.5
+Requires-Dist: nvidia-cublas-cu11==11.10.3.66
+Requires-Dist: nvidia-cuda-nvrtc-cu11==11.7.99
+Requires-Dist: nvidia-cuda-runtime-cu11==11.7.99
+Requires-Dist: nvidia-cudnn-cu11==8.5.0.96
+Requires-Dist: oauthlib==3.2.2
+Requires-Dist: packaging==21.3
+Requires-Dist: pathspec==0.10.2
+Requires-Dist: pathtools==0.1.2
+Requires-Dist: pillow==9.3.0
+Requires-Dist: platformdirs==2.5.4
+Requires-Dist: promise==2.3
+Requires-Dist: protobuf==3.20.3
+Requires-Dist: psutil==5.9.4
+Requires-Dist: pyasn1-modules==0.2.8
+Requires-Dist: pyasn1==0.4.8
+Requires-Dist: pydeprecate==0.3.2
+Requires-Dist: pyparsing==3.0.9
+Requires-Dist: pytorch-lightning==1.7.6
+Requires-Dist: pyyaml==6.0
+Requires-Dist: regex==2022.10.31
+Requires-Dist: requests-oauthlib==1.3.1
+Requires-Dist: requests==2.28.1
+Requires-Dist: rouge-score==0.0.4
+Requires-Dist: rsa==4.9
+Requires-Dist: sentry-sdk==1.11.1
+Requires-Dist: setproctitle==1.3.2
+Requires-Dist: shortuuid==1.0.11
+Requires-Dist: six==1.16.0
+Requires-Dist: smmap==5.0.0
+Requires-Dist: tensorboard-data-server==0.6.1
+Requires-Dist: tensorboard-plugin-wit==1.8.1
+Requires-Dist: tensorboard==2.11.0
+Requires-Dist: tokenizers==0.13.2
+Requires-Dist: tomli==2.0.1
+Requires-Dist: torch==1.13.0
+Requires-Dist: torchaudio==0.13.0
+Requires-Dist: torchmetrics==0.11.0
+Requires-Dist: torchmetrics==0.7.0
+Requires-Dist: torchvision==0.14.0
+Requires-Dist: tqdm==4.64.1
+Requires-Dist: transformers==4.24.0
+Requires-Dist: typing-extensions==4.4.0
+Requires-Dist: urllib3==1.26.13
+Requires-Dist: wandb==0.13.5
+Requires-Dist: werkzeug==2.0.3
+Requires-Dist: yarl==1.8.1
+Description-Content-Type: text/markdown
+
+### Dataset
+- [original_dataset](https://s3.amazonaws.com/datasets.huggingface.co/personachat/personachat_self_original.json)
+
+#### hypothesis 1
+```text
+использовал CausalLM и Seq2Seq. Seq2Seq показал себя лучше.
+Seq2Seq:
+входная последовательность: сконкатенированная персона + chat: + последняя реплика от пользователя
+таргет: ответ от пользователя
+CausalLM:
+входная последовательность: сконкатенированная персона + последняя реплика от пользователя+ответ от пользователя
+таргет: входная последовательность сдвинутая на 1 вправо
+```
+
+#### hypothesis 2
+```text
+Seq2Seq:
+входная последовательность:
+<bos> <persona> persona_fact[0]<p_sep>persona_fact[1]<p_sep>persona_fact[2]<p_sep>persona_fact[3]<p_sep>persona_fact[4]<p_sep> <chat> реплика[-6]<с_sep>реплика[-5]<с_sep>реплика[-4]<с_sep>реплика[-3]<с_sep>реплика[-2]<response>
+таргет: реплика[-1] <eos>
+
+CausalLM:
+входная последовательность:
+<bos> <persona> persona_fact[0]<p_sep>persona_fact[1]<p_sep>persona_fact[2]<p_sep>persona_fact[3]<p_sep>persona_fact[4]<p_sep> <chat> реплика[-6]<с_sep>реплика[-5]<с_sep>реплика[-4]<с_sep>реплика[-3]<с_sep>реплика[-2]<response>реплика[-1]<eos_token>
+таргет: входная последовательность сдвинутая на 1 вправо
+
+<с_sep> - специальный токен, который разделяет реплики.
+<p_sep> - специальный токен, который разделяет персону.
+<chat> - специальный токен, который разделяет реплики от персоны.
+<persona> - специальный токен, который разделяет персону от реплик.
+<response> - специальный токен, который разделяет реплики от ответа.
+
+```
+
+#### hypothesis 3
+```text
+попробовать случайно перемешать порядок предложений в персоне. в остальном все остальное также как и в hypothesis 2
+```
+
+#### hypothesis 4
+```text
+Seq2Seq:
+входная последовательность:
+<bos> <persona> persona_fact[0]persona_fact[1]persona_fact[2]persona_fact[3]persona_fact[4]<sep>реплика[-6] реплика[-5] ... <query>реплика[-2]<query/><eos>
+таргет:<bos><response>реплика[-1]<response/><eos>
+
+<sep> - специальный токен, раздедяющий токен
+<query> - специальный токен, который оборачивает последнюю реплику пользователя
+<query/> - 
+<response> - специальный токен, оборачивает ответ пользователя
+<response/> 
+```
+
+
+#### hypothesis 5
+```text
+тоже самое что и в hypothesis 4, но теперь исполььзую датасет FoCus	
+```
+
+- [package project](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [install project from git](https://stackoverflow.com/questions/15268953/how-to-install-python-package-from-github)
+
+```bash
+python3 -m build
+```
+
+```bash
+twine upload dist/*
+```
