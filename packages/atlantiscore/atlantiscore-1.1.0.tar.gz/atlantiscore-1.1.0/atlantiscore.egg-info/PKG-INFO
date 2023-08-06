@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: atlantiscore
+Version: 1.1.0
+Summary: atlantiscore
+Author-email: Atlantis Labs <r00tail@protonmail.com>
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# Atlantis Labs - Core
