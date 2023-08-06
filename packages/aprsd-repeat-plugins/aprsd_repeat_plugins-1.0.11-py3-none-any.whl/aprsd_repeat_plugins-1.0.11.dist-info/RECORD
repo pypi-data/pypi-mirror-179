@@ -1,0 +1,10 @@
+aprsd_repeat_plugins/__init__.py,sha256=QLI-NTkFZBWexPDfluYiDX8-yUoVeX7wmWtvrq-LuD0,100
+aprsd_repeat_plugins/lat_lon.py,sha256=-wuEee2s2C3rBXEhfa_BgiGLAGZcd_87t-fNw6GKk6Y,30189
+aprsd_repeat_plugins/nearest.py,sha256=wmnXFhpMks2P76OjlsUVDWma5kfI-7Fdrvb1NfmP8j8,15243
+aprsd_repeat_plugins/version.py,sha256=rl2FQpn5vnY2qicC9NqpXPrfEU4Ui-8m848fObqAuUY,726
+aprsd_repeat_plugins-1.0.11.dist-info/LICENSE,sha256=1ARpzk3UKqSWLhH9vNnQEPpxjoSHK6ELyJdQZ4D590g,1087
+aprsd_repeat_plugins-1.0.11.dist-info/METADATA,sha256=Drrp-8UAlYkRfHSS7Ik3PWaBn4XMeU_UE82Zpqy3-jY,3428
+aprsd_repeat_plugins-1.0.11.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aprsd_repeat_plugins-1.0.11.dist-info/pbr.json,sha256=ZpiGH8X0MpouglITv62Iwe3hH3EQTddrvhWifiufsis,47
+aprsd_repeat_plugins-1.0.11.dist-info/top_level.txt,sha256=60XWCiRrZ94-jOkiJyvBuKQBuG4Lhso1qhcXlEZW0-0,21
+aprsd_repeat_plugins-1.0.11.dist-info/RECORD,,
