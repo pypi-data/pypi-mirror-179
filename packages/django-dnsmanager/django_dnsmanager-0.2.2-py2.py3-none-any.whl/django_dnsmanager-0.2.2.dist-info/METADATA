@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: django-dnsmanager
+Version: 0.2.2
+Summary: Django app to manage DNS zones
+Home-page: https://gitlab.crans.org/nounous/django-dnsmanager
+Download-URL: https://gitlab.crans.org/nounous/django-dnsmanager/-/releases
+Author: Alexandre Iooss
+Author-email: erdnaxe@crans.org
+Maintainer: Alexandre Iooss
+Maintainer-email: erdnaxe@crans.org
+License: BSD
+Keywords: django,dns,manager
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: Django (<5.0,>=2.2)
+Requires-Dist: django-polymorphic (~=3.0)
+
+Django DNS manager
+==================
+
+|travis| |coverage| |github_version| |pypi_version| |django_version| |doc|
+
+This is a DNS manager Django app.
+
+Installation
+------------
+
+The following lines creates a Python3 virtualenv and installs
+``django-dnsmanager`` inside.
+
+.. code:: bash
+
+   $ python3 -m venv venv
+   $ source venv/bin/activate
+   $ pip install django-dnsmanager
+
+Features
+--------
+
+* Polymorphic models based on
+  `Django Polymorphic <https://github.com/django-polymorphic/django-polymorphic>`_ ;
+* Integration with Django Contrib Admin and AdminDocs ;
+* Integration with Django Rest Framework ;
+* Generation of ready to use zone files.
+
+This app targets Django 2.2 (last LTS and current Debian version (from Debian 11 Bullseye)), 3.2 and 4.1.
+It runs on Python 3.7 to 3.10.
+
+Running a demo project
+----------------------
+
+We assume this package is installed in your Python 3 environment.
+
+Clone the project and go to ``example`` directory.
+
+Now we need to create the database tables and an admin user. Run the
+following and follow the instructions:
+
+.. code:: bash
+
+   $ ./manage.py migrate
+   $ ./manage.py createsuperuser
+
+Now you may run the Django development server:
+
+.. code:: bash
+
+   $ ./manage.py runserver
+
+You should then be able to open your browser on http://127.0.0.1:8000
+and see this app running.
+
+License
+-------
+
+Django-dnsmanager uses the same license as Django (BSD-like)
+because we believe in open development.
+Please see LICENSE file for more details.
+
+.. |travis| image:: https://img.shields.io/travis/com/constellation-project/django-dnsmanager/master?style=flat-square
+    :target: https://travis-ci.com/constellation-project/django-dnsmanager
+
+.. |coverage| image:: https://img.shields.io/codecov/c/github/constellation-project/django-dnsmanager/master.svg?style=flat-square
+    :target: https://codecov.io/github/constellation-project/django-dnsmanager?branch=master
+
+.. |github_version| image:: https://img.shields.io/github/v/tag/constellation-project/django-dnsmanager?style=flat-square
+    :target: https://github.com/constellation-project/django-dnsmanager/releases/latest
+
+.. |pypi_version| image:: https://img.shields.io/pypi/v/django-dnsmanager?style=flat-square
+    :target: https://pypi.org/project/django-dnsmanager/
+
+.. |django_version| image:: https://img.shields.io/pypi/djversions/django-dnsmanager?style=flat-square
+    :target: https://pypi.org/project/django-dnsmanager/
+
+.. |doc| image:: https://img.shields.io/readthedocs/django-dnsmanager?style=flat-square
+    :target: http://django-dnsmanager.readthedocs.io
