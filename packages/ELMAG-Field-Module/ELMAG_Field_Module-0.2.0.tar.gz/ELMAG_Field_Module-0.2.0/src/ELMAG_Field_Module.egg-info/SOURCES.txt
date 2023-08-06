@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ELMAG_Field_Module/Field.py
+src/ELMAG_Field_Module/__init__.py
+src/ELMAG_Field_Module.egg-info/PKG-INFO
+src/ELMAG_Field_Module.egg-info/SOURCES.txt
+src/ELMAG_Field_Module.egg-info/dependency_links.txt
+src/ELMAG_Field_Module.egg-info/top_level.txt
