@@ -1,0 +1,13 @@
+OdooLocust/OdooLocustUser.py,sha256=63IW_oYRdand1O-Jml_aZGMNIK5bnA5cbnuxQ8H3TWA,3431
+OdooLocust/OdooTaskSet.py,sha256=zsooM8jkb5d-t-gq3aF7pA9w-cnbgsskTi2pQc_1--M,5960
+OdooLocust/__init__.py,sha256=pbmPdMdulNCpSJOEyHv0DjAzN7tBM-BkF-TFkySSz-Y,1707
+OdooLocust/crm/__init__.py,sha256=hsTzb98NQa6ziAjhWds_YcuQ_dU9rvHyIGFhuAVrmtY,1584
+OdooLocust/crm/lead.py,sha256=NAnvnHkVoauu078r_w4_IIGxRJk-pcmr2LzImsGCdFk,7145
+OdooLocust/crm/partner.py,sha256=ikBib4S2EnTTWy4plLxaoqejmp9gkShYQJezsS-5yjg,1854
+OdooLocust/crm/quotation.py,sha256=19dzfU09bMZlQfxR02Em_duivTYN0SC7nGOA8EErcE4,7493
+OdooLocust/generic/OdooTaskSet.py,sha256=zsooM8jkb5d-t-gq3aF7pA9w-cnbgsskTi2pQc_1--M,5960
+OdooLocust/generic/__init__.py,sha256=iyhXbBPzB0-yd-NNNOSPuJbe5lKUyItGVqTJRJwf6nI,1545
+OdooLocust-1.6.1.dist-info/METADATA,sha256=4o9ptQ3ufgmeb7oHOj_9Qy8kcfhB0gbAr-a6HdAAEkA,554
+OdooLocust-1.6.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+OdooLocust-1.6.1.dist-info/top_level.txt,sha256=a7ZHTq2uUVvdZ1qimLMACNcLS2kuy87y-8F9yKlbFtE,11
+OdooLocust-1.6.1.dist-info/RECORD,,
