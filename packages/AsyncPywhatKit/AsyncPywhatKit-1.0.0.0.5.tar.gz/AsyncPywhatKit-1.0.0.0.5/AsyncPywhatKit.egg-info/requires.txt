@@ -1,0 +1,6 @@
+Pillow
+pyautogui
+requests
+wikipedia
+aiohttp
+asyncio
