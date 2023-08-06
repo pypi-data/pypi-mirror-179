@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: AOCRla
+Version: 0.1.0
+Summary: A simple package to help with Advent of Code input downloads and result posting.
+Project-URL: Homepage, https://github.com/tonyrla/AOCUtil
+Author-email: Tony Rintala <rintala.tony@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: requests==2.28.1
+Description-Content-Type: text/markdown
+
+# AOCUtil
+Input downloader for Advent of Code
+
+## Usage
+### Session cookie to fetch inputs and submit answers
+*  Get your session cookie from [Advent of Code](https://adventofcode.com/) and save it in [./data/.secret_session_cookie](./data/.secret_session_cookie)
+*  Inputs are cached to ./inputs, a session cookie lasts for a month, and that's how long the inputs are valid.
+*  Inputs and answers are fetched and submitted by parsing the folder structure and filenames, so make sure they are named correctly.
+   * `20\d{2}` for the year. Yes, you can break this. Do you have to?
+   * `[^0-9]` for the day from the filename. `666_superclever_day01` is not the intended usage <3
+   * `aoc2022/day01.py`, `aoc/python/2022/day01.py` etc.
+
+To generate the puzzle .py files for every day:
+```bash
+python -m AOCRla.aoc
+```
+
+To run a specific day's puzzle:
+```bash
+python ./dayXX.py
+```
+
+To open a web browser with the correct puzzle selected, add anything after the python file:
+```bash
+python ./day01.py  asdf
+```
