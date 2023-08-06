@@ -1,0 +1,54 @@
+# craigslist-reposter
+
+## Simple automation of craigslist listing renewal and reposting:
+
+- Selenium to access craigslist.com, IMAPClient package to authenticate login
+- User information is imported from environment variables
+- Pings an optional Discord webhook when reposts are completed
+
+## Installation
+
+```shell
+git clone https://github.com/PorkyC/craigslist-reposter.git
+cd craigslist-reposter
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Set environment variables (e.g. for Windows)
+
+```shell
+SETX CL_USER craigslist_login@gmail.com
+SETX CL_PASS craigslistpassword123
+SETX CL_EMAIL_PASS gmailpassword123
+
+# Optional: if using a webhook:
+SETX DISCORD_WEBHOOK discord.com/webhook-address
+```
+
+2. Change CLICK_TYPE in craigslist.py depending on whether script is running on Windows or Mac
+
+```python
+# CLICK_TYPE configures which key is used to open the post in a new tab
+CLICK_TYPE = Keys.COMMAND # Use this if you are on a Mac
+CLICK_TYPE = Keys.CONTROL # Use this if you are on a PC
+```
+
+3. Set maximum days a post can be active before reposting, and imap address in reposter.py
+
+```python
+# MAX_POST_DAYS configures the maximum number of days after posting before reposting
+MAX_POST_DAYS = 11
+
+# IMAP_SERVER for email provider, default for gmail
+IMAP_SERVER = 'imap.gmail.com'
+```
+
+4. Run reposter.py (can also be scheduled, e.g. Launchd on MacOS)
+
+## TODO:
+
+- Improve repost process so that no additional configuration needed between MacOS and Windows
+- Save and reload Selenium browser session to reduce new logins and verifications
+- Filter verification emails by subject 
