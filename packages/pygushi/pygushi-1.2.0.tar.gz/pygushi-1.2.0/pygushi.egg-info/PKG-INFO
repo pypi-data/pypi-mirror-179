@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pygushi
+Version: 1.2.0
+Summary: 一个关于爬取古诗文的Python3 API
+Home-page: https://github.com/stripepython/pygushi
+Download-URL: https://github.com/stripepython/pygushi
+Author: stripe-python
+Author-email: stripe-python@139.com
+Maintainer: stripe-python
+Maintainer-email: stripe-python@139.com
+License: Apache License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Python古诗API免费开源版
+## 当前版本为1.2.0
+详细的文档说明见[https://stripepython.github.io/pygushi/](https://stripepython.github.io/pygushi/)
+
+### 安装
+使用`pip`:
+```shell
+pip install pygushi
+```
+使用`git`:
+```shell
+git clone https://github.com/stripepython/pygushi
+cd pygushi
+python setup.py install
+```

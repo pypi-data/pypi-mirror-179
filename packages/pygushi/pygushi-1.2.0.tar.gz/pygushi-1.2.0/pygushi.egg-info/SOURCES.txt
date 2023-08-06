@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pygushi/__init__.py
+pygushi/__main__.py
+pygushi/author.py
+pygushi/datas.py
+pygushi/login.py
+pygushi/poetry.py
+pygushi/version.py
+pygushi.egg-info/PKG-INFO
+pygushi.egg-info/SOURCES.txt
+pygushi.egg-info/dependency_links.txt
+pygushi.egg-info/requires.txt
+pygushi.egg-info/top_level.txt
