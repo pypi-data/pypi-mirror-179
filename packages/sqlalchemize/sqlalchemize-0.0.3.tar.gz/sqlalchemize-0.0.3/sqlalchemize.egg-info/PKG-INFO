@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sqlalchemize
+Version: 0.0.3
+Summary: Make changes to sql tables using SqlAlchmey
+Home-page: https://github.com/eddiethedean/sqlalchemize
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
