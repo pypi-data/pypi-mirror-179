@@ -1,0 +1,3 @@
+include src/lidia/index.html
+include src/lidia/pfd.html
+graft src/lidia/static
