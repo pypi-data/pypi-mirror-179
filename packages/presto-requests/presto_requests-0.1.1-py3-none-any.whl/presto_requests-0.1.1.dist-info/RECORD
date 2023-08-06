@@ -1,0 +1,13 @@
+presto/__init__.py,sha256=DNWmSO15LsQLmQYKDXouN61DnmnSn99vzkkDed_IOsE,27
+presto/adict.py,sha256=-GcmhsyGTacXVjxjsNYS2edpfohfJZ_qvVtkDcf9DhU,789
+presto/handler.py,sha256=Cs2EaVt1bUTxd-uPGJGrT2SGW-VkpZ547zQGXKKCrRg,1884
+presto/presto.py,sha256=ifZyy3qEAxrE2j_KZ6YRMy9XfMQhGIy9R3xNZ_h1U6s,2558
+presto/request.py,sha256=HFstyK-UTnBh8pJCZyK9Kfl-zKMKzdroHl4L6A4znu0,4089
+presto/response.py,sha256=jOGlVW0QZRd9bzszgvg6lddwibYXqJO4zI9Kapjc8qg,494
+presto/typing/__init__.py,sha256=ZjXqaVGFOdEIvsGbp6f-dqjcsz_Bqx6NTKxo3b3v0bw,270
+presto/typing/attr.py,sha256=mC1YeS1F56K82AR3K4mQZgtdDTgVAlT31CNK-QUl0ik,2409
+presto/typing/copyable.py,sha256=yGUylmGA4vxBaoON7jsIBENV4bTL2ExesQMv0A3PsSY,479
+presto/typing/serializable.py,sha256=6oVKIJFAM16qQo0SUAB2OKrZU4EzyCi0MeeBxchypcg,5421
+presto_requests-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+presto_requests-0.1.1.dist-info/METADATA,sha256=eQa3rxXXCSznPUAHikwkq41naHYUjT4uUJBYg_uiMuU,2156
+presto_requests-0.1.1.dist-info/RECORD,,
