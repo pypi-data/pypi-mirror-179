@@ -1,0 +1,5 @@
+setup.py
+TweetSentim.egg-info/PKG-INFO
+TweetSentim.egg-info/SOURCES.txt
+TweetSentim.egg-info/dependency_links.txt
+TweetSentim.egg-info/top_level.txt
