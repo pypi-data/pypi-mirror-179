@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ciciautoapi
+Version: 1.0.9
+Summary: 增加了关联参数的提取和复制功能
+Home-page: http://10.0.50.18:8888/root/automated-testing/tree/yk_base/yk_base_auto2.0
+Author: 郑珊珊
+Author-email: zheng11071107@qq.com
+License: MIT License
+Keywords: 接口自动化,pytest
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pandas
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: pymongo
+Requires-Dist: allure-python-commons
+Requires-Dist: allure-pytest
+Requires-Dist: paho-mqtt
+Requires-Dist: pytest
+Requires-Dist: pytest-base-url
+Requires-Dist: pytest-forked
+Requires-Dist: pytest-html
+Requires-Dist: pytest-metadata
+Requires-Dist: pytest-ordering
+Requires-Dist: requests
+Requires-Dist: urllib3
+Requires-Dist: xlrd (==1.2)
+Requires-Dist: xlwt (==1.3)
+
