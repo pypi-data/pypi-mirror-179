@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: exokheia
+Version: 0.1.0
+Summary: Abstraction layer for modeling sources of opinion
+Home-page: https://github.com/datagazing/exokheia
+Author: Brendan Strejcek
+Author-email: brendan@datagazing.com
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Classifier: License :: OSI Approved :: MIT License
+
+========
+exokheia
+========
+
+
+.. image:: https://img.shields.io/pypi/v/exokheia.svg
+        :target: https://pypi.python.org/pypi/exokheia
+
+.. image:: https://img.shields.io/travis/datagazing/exokheia.svg
+        :target: https://travis-ci.com/datagazing/exokheia
+
+.. image:: https://readthedocs.org/projects/exokheia/badge/?version=latest
+        :target: https://exokheia.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+Abstraction layer for modeling sources of opinion
+
+- Placeholder
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
