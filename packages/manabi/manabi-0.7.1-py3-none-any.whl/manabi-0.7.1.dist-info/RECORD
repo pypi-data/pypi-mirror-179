@@ -1,0 +1,17 @@
+CHANGELOG.md,sha256=h8XdnZYDU5AHbbG0M5lAKfI0R7MZGOVYBBVu_7K_S5s,2037
+manabi/__init__.py,sha256=cfxEMzs7El4mmJhvwZgUsgHE2UgNsBy9VDFu877zbLM,1388
+manabi/auth.py,sha256=9eGYSNjkksqn4Lzo6vFkk4iYSjCOQlVALIV_KPl_Wew,4316
+manabi/filesystem.py,sha256=h_tH3NLHugcef_eI96fEF7dbQgUtv-_wUZHqcWnUpDo,2407
+manabi/lock.py,sha256=UfJnnTab87QgzmrU0So7iteOyLEnwqk--JaVT5bP9a0,8768
+manabi/log.py,sha256=BYGwfiJ2DGaRF8Zls26HziZh1pztAp4ETFI8_Wn3mpY,2730
+manabi/token.py,sha256=cAp9kHBxBIbiNMXJ8HB7gHMd-LecDg6LQBnQ1tvSD1s,3839
+manabi/util.py,sha256=Mh2_SaWmD5SA75Wlhd01QhPyPrOax8vmhDNMwAMyefQ,2166
+manabi_migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manabi_migrations/apps.py,sha256=yPRkKvFPimGEl4EDIizcv4X0fI2Q9wE98XNhZ5AbpRE,165
+manabi_migrations/migrations/0001_initial.py,sha256=SfLayYqwgO38DaVqMdgDnsrd2SVosC9tekoSrFGB3rA,532
+manabi_migrations/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+manabi_migrations/models.py,sha256=6GJtypRcjKD3q0Df-IoyfDHjv_nW5XyGnJtVbsauPmo,200
+manabi-0.7.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+manabi-0.7.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+manabi-0.7.1.dist-info/METADATA,sha256=IS5LR0DWG2GujKuy2OOFXCBEnqSipepPCk1ztJUsU88,3356
+manabi-0.7.1.dist-info/RECORD,,
