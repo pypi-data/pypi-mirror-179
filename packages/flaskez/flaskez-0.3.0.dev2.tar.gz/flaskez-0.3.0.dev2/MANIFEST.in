@@ -1,0 +1,4 @@
+global-include *.txt *.py *.md *.html *.css
+graft flaskez
+global-exclude *.pyc
+global-exclude __pycache__
