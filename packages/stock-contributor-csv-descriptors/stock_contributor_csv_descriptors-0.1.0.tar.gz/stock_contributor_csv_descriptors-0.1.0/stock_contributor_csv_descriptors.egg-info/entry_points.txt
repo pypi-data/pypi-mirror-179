@@ -1,0 +1,2 @@
+[console_scripts]
+generate-csv = src.populate_file_names_to_main_csv:cli
