@@ -1,0 +1,11 @@
+AUTHORS
+COPYING
+README.md
+setup.py
+inotifyx/__init__.py
+inotifyx/binding.c
+inotifyx/distinfo.py
+zato_ext_inotifyx.egg-info/PKG-INFO
+zato_ext_inotifyx.egg-info/SOURCES.txt
+zato_ext_inotifyx.egg-info/dependency_links.txt
+zato_ext_inotifyx.egg-info/top_level.txt
