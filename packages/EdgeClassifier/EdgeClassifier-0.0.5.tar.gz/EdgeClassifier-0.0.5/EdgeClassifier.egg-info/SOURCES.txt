@@ -1,0 +1,7 @@
+README.md
+setup.py
+EdgeClassifier.egg-info/PKG-INFO
+EdgeClassifier.egg-info/SOURCES.txt
+EdgeClassifier.egg-info/dependency_links.txt
+EdgeClassifier.egg-info/requires.txt
+EdgeClassifier.egg-info/top_level.txt

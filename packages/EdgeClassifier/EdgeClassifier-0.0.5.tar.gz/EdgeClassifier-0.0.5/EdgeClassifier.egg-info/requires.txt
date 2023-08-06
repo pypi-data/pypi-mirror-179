@@ -1,0 +1,7 @@
+networkx
+pytorch
+matplotlib
+numpy
+scikit-learn
+tqdm
+graph-measures==0.1.51
