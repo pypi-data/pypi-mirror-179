@@ -1,0 +1,15 @@
+Screen {
+    layout: vertical;
+}
+
+RuntimePanel {
+    height: auto;
+}
+
+ImagesPanel {
+    height: auto;
+}
+
+ContainersPanel {
+    height: auto;
+}
