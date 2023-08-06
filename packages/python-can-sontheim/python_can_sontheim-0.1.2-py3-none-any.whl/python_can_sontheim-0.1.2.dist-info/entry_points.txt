@@ -1,0 +1,3 @@
+[can.interface]
+CANfox = can_sontheim._canlib:SontheimBus
+sontheim = can_sontheim._canlib:SontheimBus
