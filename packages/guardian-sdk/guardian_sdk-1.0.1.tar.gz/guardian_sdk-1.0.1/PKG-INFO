@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: guardian_sdk
+Version: 1.0.1
+Summary: python sdk for guardian
+Home-page: https://www.ihotel.cn
+Author: callmejake
+Author-email: ljh@greencloud.com.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+python sdk for guardian
+
+[联系作者](mailto: ljh@greencloud.com.cn)
