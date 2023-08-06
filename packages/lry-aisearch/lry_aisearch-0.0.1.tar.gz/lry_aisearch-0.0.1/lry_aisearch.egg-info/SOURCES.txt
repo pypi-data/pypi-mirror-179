@@ -1,0 +1,6 @@
+README.md
+setup.py
+lry_aisearch.egg-info/PKG-INFO
+lry_aisearch.egg-info/SOURCES.txt
+lry_aisearch.egg-info/dependency_links.txt
+lry_aisearch.egg-info/top_level.txt
