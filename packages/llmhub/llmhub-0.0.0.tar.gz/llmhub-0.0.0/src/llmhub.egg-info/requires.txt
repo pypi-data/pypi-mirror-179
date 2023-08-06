@@ -1,0 +1,14 @@
+requests
+
+[dev]
+requests
+black
+flake8
+isort
+mypy
+pytest
+sphinx
+twine
+
+[prod]
+requests
