@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: milkman-py
+Version: 0.1.1
+Summary: Python SDK for interacting with Milkman, a smart contract system that allows smart contracts (incl. Gnosis Safes) to swap assets through the CoW protocol.
+Author: charlesndalton
+Author-email: charles.n.dalton@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: eth_abi (==2.1.1)
+Description-Content-Type: text/markdown
+
+
