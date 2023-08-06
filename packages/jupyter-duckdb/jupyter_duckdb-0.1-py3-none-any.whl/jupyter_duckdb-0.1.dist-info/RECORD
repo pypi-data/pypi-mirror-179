@@ -1,0 +1,7 @@
+duckdb_kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duckdb_kernel/__main__.py,sha256=Z3GwHEBWoQjNm2Y84ijnbA0Lk66L7nsFREuqhZ_ptk0,165
+duckdb_kernel/kernel.py,sha256=Ghq5Bul9MAxwO0UGu7fHgLrGJf_M0LluPcBOVHUbY38,6074
+jupyter_duckdb-0.1.dist-info/METADATA,sha256=w_EGqRC4Io2BJWSF-ntRmKnSi0_qz6DlY__LldDi55s,586
+jupyter_duckdb-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+jupyter_duckdb-0.1.dist-info/top_level.txt,sha256=KvRRPMnmkQNuhyBsXoPmwyt26LRDp0O-0HN6u0Dm5jA,14
+jupyter_duckdb-0.1.dist-info/RECORD,,
