@@ -1,0 +1,2 @@
+[console_scripts]
+logToTopo = src.logToTopo.logToTopo:main
