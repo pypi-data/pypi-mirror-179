@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Utilities-py3
+Version: 0.0.1
+Summary: A python package to Scrapy data easily and facilitate some activities like division of list in sub lists to use in a multithreading code for example
+Author-email: Lucas-AV <lucasvilela2014@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
