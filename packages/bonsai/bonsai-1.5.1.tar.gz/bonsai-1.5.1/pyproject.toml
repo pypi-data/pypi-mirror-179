@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "bonsai"
+version = "1.5.1"
+description = "Python 3 module for accessing LDAP directory servers."
+authors = ["noirello <noirello@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7.2"
+gevent = { version = "^22.10.2", optional = true }
+tornado = { version = "^6.2", optional = true }
+trio = { version = "<1.0", optional = true }
+typing-extensions = { version = ">=4.0.0", python = "<3.8" }
+
+[tool.poetry.extras]
+gevent = ["gevent"]
+tornado = ["tornado"]
+trio = ["trio"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+pytest-cov = "^4.0.0"
+pytest-timeout = "^2.1.0"
+codecov = "^2.1.11"
+sphinx = "^5.3.0"
+furo = "2022.9.29"
+pylint = "^2.14.5"
+mypy = "^0.991"
+black = "22.10.0"
+pydivert = { version = "^2.1", markers = "sys_platform == 'win32'" }
+# The following two are delocate dependencies,
+# that need to be specified to make poetry happy.
+machomachomangler = { version = "0.0.1", markers = "sys_platform == 'darwin'" }
+bindepend = { version = "^0.1", markers = "sys_platform == 'darwin'" }
+delocate = { version = "^0.10", markers = "sys_platform == 'darwin'" }
+
+[build-system]
+requires = [
+    "setuptools >= 40.6.2",
+    "wheel >= 0.30.0",
+]
+build-backend = "setuptools.build_meta"

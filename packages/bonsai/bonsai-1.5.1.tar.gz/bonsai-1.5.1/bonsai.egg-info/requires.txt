@@ -1,0 +1,12 @@
+
+[:python_version < "3.8"]
+typing-extensions>=4.0.0
+
+[gevent]
+gevent>=1.4.0
+
+[tornado]
+tornado>=5.1.1
+
+[trio]
+trio>=0.16.0
