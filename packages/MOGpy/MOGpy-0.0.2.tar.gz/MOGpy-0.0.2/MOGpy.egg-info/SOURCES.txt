@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+MOGpy/BioChromosome.py
+MOGpy/BioNucleotide.py
+MOGpy/Chromosome.py
+MOGpy/Colors.py
+MOGpy/DummyNucleotide.py
+MOGpy/__init__.py
+MOGpy.egg-info/PKG-INFO
+MOGpy.egg-info/SOURCES.txt
+MOGpy.egg-info/dependency_links.txt
+MOGpy.egg-info/requires.txt
+MOGpy.egg-info/top_level.txt
