@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: obsidian-parser
+Version: 0.3.0
+Summary: Demo library
+Home-page: https://obsidian-parser.readthedocs.io/
+Author: Damian Flynn
+Author-email: example@email.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Obsidian Parser
+
+A small library for a Obsidian Vaults to parse its content. One example is to prepare the content to publishing with static site generators, Hugo as an example.
+
+## Installation
+
+```bash
+pip install obsidian-parser
+```
+
+## Get started
+
+How to multiply one number by another with this lib:
+
+```python
+# Import Multiplication from your library
+from obsidian_parser import Multiplication
+
+# Instantiate a Multiplication object
+multiplication = Multiplication(2)
+
+# Call the multiply method
+print(multiplication.multiply(5))
+```
