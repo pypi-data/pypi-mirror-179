@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pcvis"
+version = "0.2.0"
+description = "2022-12-01"
+authors = ["Yue Ni <niyue.com@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pcvis = 'pcvis.pcvis:main'
