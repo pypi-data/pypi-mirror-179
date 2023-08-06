@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+src/modelset/__init__.py
+src/modelset/dataset.py
+src/modelset/deduplication.py
+src/modelset/downloader.py
+src/modelset/word2vec.py
+src/modelset_py.egg-info/PKG-INFO
+src/modelset_py.egg-info/SOURCES.txt
+src/modelset_py.egg-info/dependency_links.txt
+src/modelset_py.egg-info/requires.txt
+src/modelset_py.egg-info/top_level.txt
