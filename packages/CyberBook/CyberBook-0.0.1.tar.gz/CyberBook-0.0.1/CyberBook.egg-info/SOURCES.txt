@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+CyberBook.egg-info/PKG-INFO
+CyberBook.egg-info/SOURCES.txt
+CyberBook.egg-info/dependency_links.txt
+CyberBook.egg-info/not-zip-safe
+CyberBook.egg-info/top_level.txt
+CyberBook/interpreter/__init__.py
+CyberBook/interpreter/main.py
+CyberBook/modules/__init__.py
