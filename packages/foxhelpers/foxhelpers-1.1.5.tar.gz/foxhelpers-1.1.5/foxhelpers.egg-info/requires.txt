@@ -1,0 +1,8 @@
+loguru
+termcolor
+pandas
+numpy
+omegaconf
+prettytable
+torch
+ipdb
