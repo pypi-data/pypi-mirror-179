@@ -1,0 +1,8 @@
+biomapy/__init__.py,sha256=e9AP6aTZ16tD4Maam36OsvUyrh5fZfu7wVUV71bA5lk,99
+biomapy/biomapy.py,sha256=-skXfEeT03NoFg1ymM1Id7iJeNnyGpBwq-g0OC9TZH8,3162
+biomapy/datasets/HUMAN_9606_idmapping.dat.gz,sha256=waZV7wlH6B_AfHtFzJ46PnFNxpp3_eKs5HCvIwI2qX8,37625041
+biomapy/datasets/Homo_sapiens.gene_info.gz,sha256=qLP7Z9W8mWTn2ehcyP9lQzX6sM-h_Nv5VXh4RB4xfYg,4169335
+biomapy-0.1.9.dist-info/METADATA,sha256=J9ZDtJWzBewZWxjN5gs5ZqoMO296L5814utI15lJKCw,612
+biomapy-0.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+biomapy-0.1.9.dist-info/top_level.txt,sha256=wjuACoJZAeHh6I7SqwlcTTSgI66pG-1zd9QhhacX9ME,8
+biomapy-0.1.9.dist-info/RECORD,,
