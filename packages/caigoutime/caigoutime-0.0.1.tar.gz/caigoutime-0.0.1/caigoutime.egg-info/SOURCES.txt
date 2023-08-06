@@ -1,0 +1,5 @@
+setup.py
+caigoutime.egg-info/PKG-INFO
+caigoutime.egg-info/SOURCES.txt
+caigoutime.egg-info/dependency_links.txt
+caigoutime.egg-info/top_level.txt
