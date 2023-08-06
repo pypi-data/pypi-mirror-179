@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gTixi
+Version: 0.0.2
+Summary: 高效演示机系列
+Home-page: https://gitee.com/lxwk1spectre/walartminstar
+Author: Spectre Lee
+Author-email: lxwk1spectre@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+高效碳基演示机体系基础包
+gTixi适用于高效碳基芯片测试的函数库
+由魏楠和李若铭开发
