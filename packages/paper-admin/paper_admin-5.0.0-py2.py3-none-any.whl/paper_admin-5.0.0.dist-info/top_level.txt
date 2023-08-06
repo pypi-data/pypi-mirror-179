@@ -1,0 +1,4 @@
+cache
+docs
+node_modules
+paper_admin
