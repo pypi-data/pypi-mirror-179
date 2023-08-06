@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: MIDupFileRemove
+Version: 0.0.3
+Summary: Duplicate file removal packages
+Home-page: UNKNOWN
+Author: Vijay Thorat
+Author-email: vijaythorat0804@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Click (==7.0)
+Requires-Dist: psutil (==5.9.4)
+Requires-Dist: setuptools (==45.2.0)
+
+# MIDupFileRemove
+    MIDupFileRemove package is used to remove duplicate files from the given directory.
+
+# Requirements
+    This package requires Python3.
+
+# Installing
+    To install this CLI tool you can run the below command:
+
+    Linux:
+    pip3 install MIDupFileRemove
+
+    Windows:
+    pip install MIDupFileRemove
+
+# How to use
+
+
+    run below command to remove duplicate files from the given directory:
+
+    removedupfile <directory name>
+
+    Note: You should run this command at specific  location.
+    example:
+
+    /home/User/Downloads/Test1/Test2
+
+    if you want to remove duplicate files from the Test2 directory , you should run this command at below location:
+
+    /home/User/Downloads/Test1
+
+    command : removedupfile Test2
+
+
+# IMP NOTE: This command is remove duplicate files permanently. Use this command carefully.
+
