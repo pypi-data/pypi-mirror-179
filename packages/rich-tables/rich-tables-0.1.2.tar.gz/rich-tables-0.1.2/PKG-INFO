@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: rich-tables
+Version: 0.1.2
+Summary: Ready-made rich tables for various purposes
+Home-page: https://github.com/snejus/rich-tables
+License: MIT
+Keywords: json,pretty,rich,console,terminal
+Author: Šarūnas Nejus
+Author-email: snejus@pm.me
+Requires-Python: >=3.6.3,<4
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: multimethod
+Requires-Dist: rgbxy (>=0.5)
+Requires-Dist: rich (>=12.3.0)
+Project-URL: Repository, https://github.com/snejus/rich-tables
+Description-Content-Type: text/markdown
+
+# Rich tables
+
+* [Album](#album)
+* [Calendar](#calendar)
+* [Emails](#emails)
+* [Hue](#hue)
+* [Nested json](#nested_json)
+* [Pr](#pr)
+* [Simple json](#simple_json)
+* [Tasks](#tasks)
+* [Timed](#timed)
+
+
+## Album
+![image](svgs/album.svg)
+## Calendar
+![image](svgs/calendar.svg)
+## Emails
+![image](svgs/emails.svg)
+## Hue
+![image](svgs/hue.svg)
+## Nested json
+![image](svgs/nested_json.svg)
+## Pr
+![image](svgs/pr.svg)
+## Simple json
+![image](svgs/simple_json.svg)
+## Tasks
+![image](svgs/tasks.svg)
+## Timed
+![image](svgs/timed.svg)
+
