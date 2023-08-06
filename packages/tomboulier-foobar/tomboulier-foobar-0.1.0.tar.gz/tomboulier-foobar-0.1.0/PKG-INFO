@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tomboulier-foobar
+Version: 0.1.0
+Summary: This is a simple 'Hello, world!' example for the purpose of
+Author-email: Thomas Boulier <boulier.thomas@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/tomboulier/flit-demo
+
+# flit-demo
+A simple example on how to use Flit
+
