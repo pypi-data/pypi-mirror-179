@@ -1,0 +1,94 @@
+CHANGES
+=======
+
+0.3.20
+------
+
+* meh
+
+0.3.19
+------
+
+* moved to explicite mutlipart request
+
+0.3.18
+------
+
+* fixed description content type
+
+0.3.17
+------
+
+* updated API
+* publish only the last buld with the stable python
+
+0.3.16
+------
+
+* depricated 3.4 and fixed build
+
+0.3.15
+------
+
+* 3.9-dev is not yet in the loop
+
+0.3.14
+------
+
+* bump version
+
+0.3.13
+------
+
+* deploy with twine..
+
+0.4.0
+-----
+
+* added test
+* ..
+* added automated deployment ..
+
+0.3.12
+------
+
+* disabled warnings
+
+0.3.11
+------
+
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+
+0.3.9
+-----
+
+* fixed dependencies..
+
+0.3.8
+-----
+
+* fixed descrtipion..
+
+0.3.4
+-----
+
+* added pbr..
+
+0.3.3
+-----
+
+* Fix bug: open README.md raises UnicodeDecodeError
+* ignore cets..
+* disable certificate verification..
+* Update README.md
+* Update README.md
+* fixed cli..
+* fixed source..
+* ..
+* Create LICENSE
+* Delete LICENSE
+* Update LICENSE
+* Initial commit
