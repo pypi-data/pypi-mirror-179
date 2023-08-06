@@ -1,0 +1,13 @@
+cloud2sql/__init__.py,sha256=LFQJ7lYrReFl1RdRnw2C-sJeqV5HUvCEtZSdBn6yoLs,476
+cloud2sql/__main__.py,sha256=IhKzdaeqfw2hlnvuTkfv_GMMgPZQOKOxiUj-H5-S6FU,1514
+cloud2sql/collect_plugins.py,sha256=jstOZ3XhatRos8p9hTPEcq3r9EJC_AgPALnUN3BgCjg,5982
+cloud2sql/collect_resoto.py,sha256=QnzzDt-tzNcr670cgAc7cUFkY2tIYp6zcvmPJHd94fU,660
+cloud2sql/show_progress.py,sha256=CYGa2Wwq8SiSn4rXeM6gzSIm2vWVwEMY8nVP_DAbhEA,2674
+cloud2sql/sql.py,sha256=Kzh2m8sIQ-aaRDxLXkHtNBc2gZlSyjmbbC9HKMXIMow,8663
+cloud2sql/util.py,sha256=8Ay-RuHV0I53O5mbgEx8mbUC7_-kPXLSSUjvAIBocOg,620
+cloud2sql-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloud2sql-0.4.1.dist-info/METADATA,sha256=wMDX_AJiWXL7prtZI_nRX-pFQLU6Y_y5P0c5tMIukyQ,2840
+cloud2sql-0.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cloud2sql-0.4.1.dist-info/entry_points.txt,sha256=1WtVhQkWINENB3pEb9PLMZrnVggKe_xzFHM0NKHk5JE,54
+cloud2sql-0.4.1.dist-info/top_level.txt,sha256=dDilfeSpIQW2QJujBhyXIJOMBIkm9DmJRCJO_Kgb-6s,10
+cloud2sql-0.4.1.dist-info/RECORD,,
