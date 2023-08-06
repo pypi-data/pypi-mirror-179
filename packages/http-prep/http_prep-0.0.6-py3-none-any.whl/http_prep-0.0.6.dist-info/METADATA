@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: http-prep
+Version: 0.0.6
+Summary: A tool to easily create complicated and dynamic URLs and headers
+Author-email: "Tanner B. Corcoran" <tannerbcorcoran@gmail.com>
+Project-URL: Homepage, https://github.com/tanrbobanr/http-prep
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: prepr (>=0.0.6)
+
+# A tool to easily create complicated and dynamic URLs and headers.
+
+## Install
+`pip install http-prep`
+
+##
+```py
+import httpprep
+
+
+URL = httpprep.URL(
+    protocol="https",
+    subdomain="www",
+    domain="httpbin",
+    top_level_domain="org",
+    path_segments=["post"]
+)
+URL.components.queries["a", "b", "b" "c", "c"] = [1, 2, ..., 4, 5]
+print(URL.build(query_check=...)) # any queries whose value is equal to ... will not be included
+>>> 'https://www.httpbin.org/post?a=1&b=2&c=4'
+
+
+HEADERS = httpprep.Headers()
+HEADERS.Accept = "*/*"
+HEADERS.Authorization = "abc123"
+HEADERS.Content_Disposition = ...
+HEADERS["Some-Non-Standard-Header"] = 1234
+print(HEADERS.format_dict(...)) # any headers whose value is equal to ... will not be included
+>>> {'Accept': '*/*', 'Authorization': 'abc123', 'Some-Non-Standard-Header': 1234}
+print(HEADERS.format_list(...)) # any headers whose value is equal to ... will not be included
+>>> [('Accept', '*/*'), ('Authorization', 'abc123'), ('Some-Non-Standard-Header', 1234)]
+print(HEADERS.format_lines(...)) # any headers whose value is equal to ... will not be included
+>>> ['Accept: */*', 'Authorization: abc123', 'Some-Non-Standard-Header: 1234']
+```
