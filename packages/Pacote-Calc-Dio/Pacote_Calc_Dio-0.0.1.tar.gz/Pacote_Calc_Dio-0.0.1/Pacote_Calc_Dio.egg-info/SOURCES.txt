@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+Calculadora_gilmar/__init__.py
+Calculadora_gilmar/app.py
+Pacote_Calc_Dio.egg-info/PKG-INFO
+Pacote_Calc_Dio.egg-info/SOURCES.txt
+Pacote_Calc_Dio.egg-info/dependency_links.txt
+Pacote_Calc_Dio.egg-info/top_level.txt

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Pacote-Calc-Dio
+Version: 0.0.1
+Summary: Calculadora
+Author: Gilmar_Alexandre
+Author-email: gilmar.alexandre.sc@outlook.com
+License: MIT License
+Keywords: Calculadora_gilmar
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Calculadora simples
+
+- Informe qual operaÃ§Ã£o deseja realizar, e informe 2 valores.
+
+- Efetua os calculos simples como:
+    - soma
+    - subtraÃ§Ã£o
+    - multiplicaÃ§Ã£o
+    - divisÃ£o
