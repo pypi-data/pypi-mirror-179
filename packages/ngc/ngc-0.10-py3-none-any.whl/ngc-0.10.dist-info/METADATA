@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ngc
+Version: 0.10
+Summary: Python New General Common Tool
+Home-page: https://github.com/ngc5139/pyngc
+Author: NGC5139
+Author-email: cencrx@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.11
+Requires-Dist: requests
+
+UNKNOWN
+
