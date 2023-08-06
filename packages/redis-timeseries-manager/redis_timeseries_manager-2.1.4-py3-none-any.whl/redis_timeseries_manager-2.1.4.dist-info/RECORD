@@ -1,0 +1,7 @@
+redis_timeseries_manager/__init__.py,sha256=SI3s7cLfE2jC8dl6joQk1zSInInd1kmxe-gLB4TISZI,73
+redis_timeseries_manager/redis_timeseries_manager.py,sha256=RfmbxxahE9kSD6rAgMu9FULlgxviFrfOZUTFXqxX1g4,40097
+redis_timeseries_manager-2.1.4.dist-info/LICENSE,sha256=sgVNOzxvctrjVT4gNwbsUK5HBSipYVBnLP_3dDMmsBw,1089
+redis_timeseries_manager-2.1.4.dist-info/METADATA,sha256=xk2jMsMG7Kfe9dDA4sWu1CS2ef022Gw6ubKRe2E9abk,14645
+redis_timeseries_manager-2.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+redis_timeseries_manager-2.1.4.dist-info/top_level.txt,sha256=imVmLURap8mhPrdgZLeCqiWMDTLjjfLWic0YrwrCMYU,25
+redis_timeseries_manager-2.1.4.dist-info/RECORD,,
