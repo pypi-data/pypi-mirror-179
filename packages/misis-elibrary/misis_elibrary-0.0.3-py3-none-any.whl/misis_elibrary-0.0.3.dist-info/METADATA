@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: misis-elibrary
+Version: 0.0.3
+Summary: Программа для загрузки книг из электронной библиотеки МИСИС.
+Home-page: https://github.com/Layerex/misis-elibrary
+Author: Layerex
+Author-email: layerex@dismail.de
+Classifier: Development Status :: 6 - Mature
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: img2pdf
+Requires-Dist: beautifulsoup4
+
+# misis-elibrary
+
+Программа для загрузки книг из электронной библиотеки МИСИС.
+
+## Установка
+
+```sh
+pip install misis-elibrary
+```
+
+## Использование
+
+```
+usage: misis-elibrary [-h] -l Логин -p Пароль [-i ID] [-d Директория] [Запрос ...]
+
+Программа для загрузки книг из электронной библиотеки МИСИС.
+
+positional arguments:
+  Запрос                Запрос для поиска
+
+options:
+  -h, --help            show this help message and exit
+  -l Логин, --login Логин
+  -p Пароль, --password Пароль
+  -i ID, --id ID        ID книги
+  -d Директория, --directory Директория
+                        Директория для загрузки книг. Если не указана, то используется текущая
+```
