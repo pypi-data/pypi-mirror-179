@@ -1,0 +1,8 @@
+TMotorCANControl/__init__.py,sha256=UmMEi0R_eui14eS53QX7vpJU9VSfJhmIpo2V0u8LTV0,190
+TMotorCANControl/mit_can.py,sha256=rt-VBc_mFHCfgakv897juCi5Uj2zPK1c4vIRN3OmLAE,50393
+TMotorCANControl/servo_can.py,sha256=5C9rGn2YPZtiOCPTddwT5CA0ngb8vaD6JGODO2BkIl0,42234
+TMotorCANControl/servo_serial.py,sha256=_96weyYPGhsM9AniMNEuPEraIfJd-QhnlzHnbLoYXb0,51029
+TMotorCANControl-1.2.4.dist-info/METADATA,sha256=h7hwFA7iMj4VwvX8nSPZAky7oXDreHVIovdB4KIpzpA,9697
+TMotorCANControl-1.2.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+TMotorCANControl-1.2.4.dist-info/top_level.txt,sha256=jxeJdv6exzBMB-icp0qL4nR0zfBYvzpRVdGEeOWqtr8,17
+TMotorCANControl-1.2.4.dist-info/RECORD,,
