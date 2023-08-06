@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+src/skylight_gui/__init__.py
+src/skylight_gui.egg-info/PKG-INFO
+src/skylight_gui.egg-info/SOURCES.txt
+src/skylight_gui.egg-info/dependency_links.txt
+src/skylight_gui.egg-info/requires.txt
+src/skylight_gui.egg-info/top_level.txt
+src/skylight_gui/data/icon.png
