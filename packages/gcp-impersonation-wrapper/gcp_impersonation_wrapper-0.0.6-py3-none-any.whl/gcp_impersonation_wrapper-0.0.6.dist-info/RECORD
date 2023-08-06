@@ -1,0 +1,7 @@
+gcp_impersonation_wrapper/__init__.py,sha256=cjGA-RJxXxfasMPxTctFmHsBbTHdM82vGPuHW8qP32Q,121
+gcp_impersonation_wrapper/impersonated_service_account.py,sha256=W2MO9St5TGg-CDff0VA1h0O3ufNTnih2x9UBNV5Dscw,793
+gcp_impersonation_wrapper/service_account.py,sha256=u-E5P6hJ4Rll52u-4ifaKwiORJgilpQBU_81WCcnVFo,3139
+gcp_impersonation_wrapper-0.0.6.dist-info/METADATA,sha256=IIi-k-ak57HCaCCouFEroZxWqZVuzNtJ_WtLlKaPl_Q,2628
+gcp_impersonation_wrapper-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gcp_impersonation_wrapper-0.0.6.dist-info/top_level.txt,sha256=LOeNCbA9qnmg64nqiExZkZQbZmmY71qyigGVxAKBPM8,26
+gcp_impersonation_wrapper-0.0.6.dist-info/RECORD,,
