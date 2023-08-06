@@ -1,0 +1,47 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-12-01 14:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.easyformplugin.filemailer\n"
+
+#: ../mailer.py:42
+msgid "Attachment"
+msgstr ""
+
+#: ../mailer.py:112
+msgid "File is larger than 8 MB, this is too large as an attachment to E-mails."
+msgstr ""
+
+#: ../mailer.py:105
+msgid "File object cannot be found"
+msgstr ""
+
+#: ../mailer.py:107
+msgid "File object has no file data"
+msgstr ""
+
+#: ../mailer.py:35
+msgid "URL path to a private File in the CMS."
+msgstr ""
+
+#: ../mailer.py:36
+msgid "Use the format: /path/to/item . This is most likely a PDF you want to attach. Don't publish the content item if you want to keep it exclusive to form submissions."
+msgstr ""
+
+#. Default: "File Mailer"
+#: ../mailer.py:120
+msgid "label_mailer_action"
+msgstr ""
