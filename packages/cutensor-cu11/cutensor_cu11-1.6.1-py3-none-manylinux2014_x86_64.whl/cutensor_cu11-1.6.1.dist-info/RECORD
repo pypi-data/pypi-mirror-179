@@ -1,0 +1,10 @@
+cutensor/LICENSE,sha256=7mVMmmsz69Mi0yMAEIL1cMYGKmsWh4YnMKCTsfI2u1s,17789
+cutensor/include/cutensor.h,sha256=NsTItrH3be0kVQfuK4_60G_K1DeZyo_NQyFt5ahYHwo,55216
+cutensor/include/cutensorMg.h,sha256=RVJwj-jTt6Cq4L_Rw225I9y3HMyYfl6H5zMa3COxXYo,29485
+cutensor/include/cutensor/types.h,sha256=r9lQrq7F4kFGR56VAZ0Av470ApR4MQ93Y17iOZPczMQ,11977
+cutensor/lib/libcutensor.so.1,sha256=4Vrd04OEQDJkg9FOp4JjZYcTsgJv6U4UtWD13HMLlNY,210121225
+cutensor/lib/libcutensorMg.so.1,sha256=-8QY7XYHALgqr5dzLWYuW0xR8q20Wq-giFziFMsO_c4,4223073
+cutensor_cu11-1.6.1.dist-info/METADATA,sha256=IaP7TC3H6MKIRoTgKXsY8lBj16fswKLTVc6k-6l8Ctw,2292
+cutensor_cu11-1.6.1.dist-info/WHEEL,sha256=a_9LHE5U6r6sBNiPZK7vE1OXUdBACM1n3vSh-GTgjpo,109
+cutensor_cu11-1.6.1.dist-info/top_level.txt,sha256=T2b8AsqjjAnjHSVQLjOfwvRxAuwvFzYos2RxmwsOzhY,9
+cutensor_cu11-1.6.1.dist-info/RECORD,,
