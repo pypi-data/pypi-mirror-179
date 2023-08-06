@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: unidev
+Version: 0.0.3
+Summary: Library for universal connecting to VISA or Serial devices
+Home-page: UNKNOWN
+Author: Alexander Gorbunov
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyvisa
+Requires-Dist: pyserial
+
+UNKNOWN
+
