@@ -1,0 +1,3 @@
+[console_scripts]
+adap-exercice=adap_exercice.main:app
+
