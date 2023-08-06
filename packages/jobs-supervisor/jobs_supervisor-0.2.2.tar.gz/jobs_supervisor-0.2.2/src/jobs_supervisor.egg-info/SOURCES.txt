@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jobs_supervisor.egg-info/PKG-INFO
+src/jobs_supervisor.egg-info/SOURCES.txt
+src/jobs_supervisor.egg-info/dependency_links.txt
+src/jobs_supervisor.egg-info/entry_points.txt
+src/jobs_supervisor.egg-info/requires.txt
+src/jobs_supervisor.egg-info/top_level.txt
+src/jobs_supervisor.egg-info/zip-safe
