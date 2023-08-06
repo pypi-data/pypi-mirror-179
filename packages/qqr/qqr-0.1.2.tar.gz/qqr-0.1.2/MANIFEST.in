@@ -1,0 +1,7 @@
+graft src
+
+include LICENSE
+
+prune exp
+
+global-exclude __pycache__ *.py[cod]
