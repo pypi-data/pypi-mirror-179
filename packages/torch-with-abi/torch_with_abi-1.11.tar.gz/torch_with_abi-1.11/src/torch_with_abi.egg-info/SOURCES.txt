@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/dummy_publish_pypi/__init__.py
+src/dummy_publish_pypi/example/__init__.py
+src/dummy_publish_pypi/example/pass.py
+src/torch_with_abi.egg-info/PKG-INFO
+src/torch_with_abi.egg-info/SOURCES.txt
+src/torch_with_abi.egg-info/dependency_links.txt
+src/torch_with_abi.egg-info/top_level.txt
