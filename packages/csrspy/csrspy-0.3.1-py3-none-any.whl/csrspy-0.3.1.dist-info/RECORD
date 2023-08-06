@@ -1,0 +1,7 @@
+csrspy/__init__.py,sha256=-Q1FwiIkSkyNIhXrW0WFfv8YMeM5cktP3HNnK4hCsI4,130
+csrspy/enums.py,sha256=y8z3GGRi1U1dEgLKsbuTlJlTwceNyn6qK9_JOY0w_d0,1014
+csrspy/factories.py,sha256=6T5sp7Yh1ZX9C9nqp_fSlk_cIWgA3j0aDcEoVIUW2II,5271
+csrspy/main.py,sha256=hj25Ge-SFNsQDLyBX86AreMPyRxmQ1Ldb-UJar4OrpM,10830
+csrspy-0.3.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+csrspy-0.3.1.dist-info/METADATA,sha256=xsmw2H6uBRM3f2yg_ZUtpVzJyCtO2tL8_RLzBmQQDf4,486
+csrspy-0.3.1.dist-info/RECORD,,
