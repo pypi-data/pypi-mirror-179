@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: my-dataclass-is-a-dict
+Version: 0.2
+Summary: Give a dictionary interface to a dataclass
+License: MIT License
+        
+        Copyright (c) 2022 Jason Bouchard, Dypabo
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/dypabo/my-dataclass-is-a-dict
+Project-URL: documentation, https://github.com/dypabo/my-dataclass-is-a-dict
+Project-URL: repository, https://github.com/dypabo/my-dataclass-is-a-dict
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black (>=22.10.0) ; extra == 'dev'
+Requires-Dist: flake8 (>=6.0.0) ; extra == 'dev'
+Requires-Dist: mypy (>=0.991) ; extra == 'dev'
+Requires-Dist: pylint (>=2.15.7) ; extra == 'dev'
+Requires-Dist: pytest (>=7.2.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# my-dataclass-is-a-dict
+
+my-dataclass-is-a-dict is a library to force a dataclass to act like a dictionary
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install my-dataclass-is-a-dict.
+
+```bash
+pip install my-dataclass-is-a-dict
+```
+
+## Usage
+
+```python
+from dataclasses import dataclass
+from my_dataclass_is_a_dict import DictionaryMixin
+
+@dataclass
+class MyDataclass(DictionaryMixin):
+    attribute1: str
+    attribute2: str
+
+instance = MyDataclass("attr1", 123)
+assert instance["attribute1"] == "attr1"
+assert instance["attribute2"] == 123
+repr(instance)  # "MyDataclass(attribute1='attr1', attribute2=123)"
+```
+
+### dunder repr
+
+Calling repr on the dataclass will be in the format of a dataclass.
+If you need to have the dictionary repr output, add repr=False when creating your dataclass
+
+
+```python
+from dataclasses import dataclass
+from my_dataclass_is_a_dict import DictionaryMixin
+
+@dataclass(repr=False)
+class MyDataclass(DictionaryMixin):
+    attribute1: str
+    attribute2: str
+
+instance = MyDataclass("attr1", 123)
+repr(instance)  # "{attribute1='attr1', attribute2=123}"
+```
+
+
