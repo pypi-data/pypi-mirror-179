@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: iFileIntersection
+Version: 1.0.4
+Summary: Holds the utility finding common integers between two files
+Home-page: UNKNOWN
+Author: Nikhil K Madhusudhan (nikhilkmdev)
+Author-email: nikhilkmdev@gmail.com
+License: MIT
+Description: https://gitlab.com/nikhilkmdev/i-file-utils/-/blob/master/README.md
+Keywords: intersection,huge,files,python3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
