@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: iguanaio
+Version: 0.0.1
+Summary: Python scraper for Iguana-IDM public library websites
+License: Apache
+Project-URL: Bug Tracker, https://github.com/lesensei/iguanaio/issues
+Project-URL: Source Code, https://github.com/lesensei/iguanaio
+Keywords: Iguana-IDM,Public library,scraping
+Classifier: Framework :: aiohttp
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp
+
+aiohttp-based library for Iguana-IDM

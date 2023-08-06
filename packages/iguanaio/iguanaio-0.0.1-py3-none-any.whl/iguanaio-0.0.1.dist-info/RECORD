@@ -1,0 +1,11 @@
+iguanaio/__init__.py,sha256=FvobBtPOZprDUApTMTSLJ9c7Pm1izm97cD0JoloVyjU,178
+iguanaio/access.py,sha256=TROfQKKR_au_yC5HejCurGqs_y6syumfPCtSieNcHG0,5859
+iguanaio/iguanaclient.py,sha256=A-mv-2PeEkfJD-Z4knFHMClJpTfnuI71xaYKVrmBA9M,1719
+iguanaio/api/__init__.py,sha256=A2BTQi5RoEvqCmnMUqI7fBS-zh-DbAAHyT4qaJsdkwE,176
+iguanaio/api/loans.py,sha256=bVMAt4CYB9fbBPgi4GzfZhEvCoaeTDFg1DC21Hk-2VY,2527
+iguanaio/api/reservations.py,sha256=9F-8p2evvC71GwMioI7mkEb-p0JGIsg40lkJ01iYEIU,1951
+iguanaio/api/userinfo.py,sha256=1IPVIn27PKe33ZpXxNPJEaFbsyWhPr5_6ShSaKV6Kbo,2730
+iguanaio-0.0.1.dist-info/METADATA,sha256=unyxmjMhhcmMTrHzE42rlEkqMe7GBvPyI_I9ooLxDtg,451
+iguanaio-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+iguanaio-0.0.1.dist-info/top_level.txt,sha256=AfiEwfUHibVuqVVAAh7Nv-dHywnwkug2krbejblSVig,9
+iguanaio-0.0.1.dist-info/RECORD,,
