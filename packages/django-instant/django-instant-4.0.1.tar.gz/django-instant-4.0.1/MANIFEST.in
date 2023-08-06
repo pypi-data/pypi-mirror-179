@@ -1,0 +1,2 @@
+recursive-include instant/migrations *
+recursive-include instant/management *
