@@ -1,0 +1,2 @@
+[console_scripts]
+dnattend = dnattend.parseArgs:parseArgs
