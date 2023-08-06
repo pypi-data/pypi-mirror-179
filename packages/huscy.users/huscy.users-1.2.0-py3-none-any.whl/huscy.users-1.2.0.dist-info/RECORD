@@ -1,0 +1,11 @@
+huscy/users/__init__.py,sha256=cZkkaOhSVTPqET7969YKIhlkDwm1XtoA5O28idXLHAQ,89
+huscy/users/api_urls.py,sha256=QkGSM-0nHCOBW_i13X0aYFETjEKx6BPEYoMLP_lghgE,178
+huscy/users/apps.py,sha256=jKEdIxfYFUTADZu9zrqipU9qSh_5BNudbhLr0mo8Pyc,183
+huscy/users/serializer.py,sha256=21gcvE09noVBc2oiSielrAMBMjHYuEXfQZfLC-X7A-8,649
+huscy/users/urls.py,sha256=tC7uIINiY76GfyKUJr9H2ZhD_BFEEJKWsmB5TXR0bHc,353
+huscy/users/views.py,sha256=iASSuEP0gRcxEuSa6JrBkX9Nk61oTfMm66am3862PEc,711
+huscy.users-1.2.0.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+huscy.users-1.2.0.dist-info/METADATA,sha256=cW6-rE5s4st6fRTk0TmTWyvs03t7uX5PmZJT904tsCc,2627
+huscy.users-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+huscy.users-1.2.0.dist-info/top_level.txt,sha256=yP1xCBOAxbmweO3NrSrdrgzzsSyrcuj2pA4XvOekNAM,6
+huscy.users-1.2.0.dist-info/RECORD,,
