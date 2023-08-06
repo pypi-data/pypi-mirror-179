@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/amusing.egg-info/PKG-INFO
+src/amusing.egg-info/SOURCES.txt
+src/amusing.egg-info/dependency_links.txt
+src/amusing.egg-info/requires.txt
+src/amusing.egg-info/top_level.txt

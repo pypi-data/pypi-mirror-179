@@ -1,0 +1,4 @@
+audio2numpy
+numpy
+opencv-python
+scipy
