@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.cfg
+setup.py
+addup.egg-info/PKG-INFO
+addup.egg-info/SOURCES.txt
+addup.egg-info/dependency_links.txt
+addup.egg-info/requires.txt
+addup.egg-info/top_level.txt
+libname/__init__.py
+libname/addup.py
+libname/quicklookts09.py
