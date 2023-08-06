@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "koo-api"
+version = "0.0.2"
+description = "API client wrapper for Koo micro-blogging platform"
+authors = ["loudercake <jxzk@protonmail.com>", "Matheus Fillipe <matheusfillipeag@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "koo_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.10.2"
+requests = "^2.28.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+black = "^22.10.0"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tests = "scripts:test"
+format = "scripts:format"
+
+[tool.black]
+line-length = 120
+target-version = ['py38', 'py39', 'py310']
+
+[tool.isort]
+line_length = 120
+profile = "black"
