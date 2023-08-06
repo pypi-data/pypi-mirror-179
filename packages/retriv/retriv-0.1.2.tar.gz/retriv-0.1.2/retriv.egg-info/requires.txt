@@ -1,0 +1,12 @@
+numpy
+nltk
+numba>=0.54.1
+tqdm
+optuna
+krovetzstemmer
+pystemmer
+cyhunspell
+unidecode
+ranx
+indxr
+oneliner_utils
