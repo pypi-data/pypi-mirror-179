@@ -1,0 +1,5 @@
+setup.py
+client_chat_pyct_December.egg-info/PKG-INFO
+client_chat_pyct_December.egg-info/SOURCES.txt
+client_chat_pyct_December.egg-info/dependency_links.txt
+client_chat_pyct_December.egg-info/top_level.txt
