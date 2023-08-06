@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zwjira
+Version: 0.1.0
+Summary: 
+Author: neothenil
+Author-email: 727549953@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: atlassian-python-api (>=3.31.1,<4.0.0)
+Requires-Dist: jira (>=3.4.1,<4.0.0)

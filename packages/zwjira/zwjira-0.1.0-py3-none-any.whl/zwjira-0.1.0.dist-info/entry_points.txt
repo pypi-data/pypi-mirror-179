@@ -1,0 +1,3 @@
+[console_scripts]
+zwjira=zwjira.cli:main
+
