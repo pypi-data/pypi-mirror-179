@@ -1,0 +1,16 @@
+dewi_realtime_sync/__init__.py,sha256=hKcRUNyu7TJn8w7IzzpZkD0vASFPIs7N3nemMgCoIy8,569
+dewi_realtime_sync/app.py,sha256=A8Ry9J9v45Wtwb86Ud5muIdPQDG0dc7mdNPzwyXRJFA,2793
+dewi_realtime_sync/context.py,sha256=apJtVSSRZuqBSV7FKpDIdj8vPulbHvKSat0BWoMOL5s,283
+dewi_realtime_sync/filesync_data.py,sha256=utZ1GvlE7VgUHfm56__Pi73MbtbV-5tZMiod7l_3uEo,4195
+dewi_realtime_sync/filesystem.py,sha256=QNd4DjpfrZPz0MAmZQNPHaHdXN8fAr4mSFBDMx9Rb-g,4696
+dewi_realtime_sync/loader.py,sha256=ywqsDdbXvupEdYOnwxGCPN6-ICinpEKf-ImeUEb_Bco,2364
+dewi_realtime_sync/syncers.py,sha256=j2GK9sVD9nrlNn2QF8iEH_QCa2IoNCtYDjYI0YahCsw,1304
+dewi_realtime_sync/watchers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dewi_realtime_sync/watchers/watchdog.py,sha256=czKx2xqwjbSDHqxQxmy2axRHlujORoc4qUEMVPPlmcY,2277
+dewi_realtime_sync/watchers/watchers.py,sha256=LSa2D-XjyPMtg_h-ysGTbqcMgb_wGvfaR4OdgrsWsKM,5978
+dewi_realtime_sync-2.2.0.dist-info/COPYING,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+dewi_realtime_sync-2.2.0.dist-info/METADATA,sha256=F9q5TWBZ_R0fpTxJPDlcuzXopKTcazR7i18U1uFT1w4,1509
+dewi_realtime_sync-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dewi_realtime_sync-2.2.0.dist-info/top_level.txt,sha256=8JHqnUxPs6QV3nErVulp-wkfZIU5zQF9-xI3_wqtL_c,19
+dewi_realtime_sync-2.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dewi_realtime_sync-2.2.0.dist-info/RECORD,,
