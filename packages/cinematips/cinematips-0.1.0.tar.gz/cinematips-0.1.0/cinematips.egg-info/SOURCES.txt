@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+cinematips/__init__.py
+cinematips/imdbrating.py
+cinematips/imdbrequest.py
+cinematips/movie.py
+cinematips/response.py
+cinematips.egg-info/PKG-INFO
+cinematips.egg-info/SOURCES.txt
+cinematips.egg-info/dependency_links.txt
+cinematips.egg-info/requires.txt
+cinematips.egg-info/top_level.txt
