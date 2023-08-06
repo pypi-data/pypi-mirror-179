@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: grove
+Version: 0.0.0
+Author: HashiCorp Security (Security Engineering)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tests
