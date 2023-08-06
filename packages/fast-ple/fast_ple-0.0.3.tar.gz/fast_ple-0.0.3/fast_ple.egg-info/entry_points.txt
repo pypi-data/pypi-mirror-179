@@ -1,0 +1,2 @@
+[console_scripts]
+ple_trainer = ple.trainer:train
