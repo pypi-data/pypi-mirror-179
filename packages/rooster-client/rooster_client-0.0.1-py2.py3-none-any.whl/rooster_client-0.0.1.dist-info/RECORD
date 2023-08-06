@@ -1,0 +1,11 @@
+rooster_client/__init__.py,sha256=rD_jVUUQnwF_qCtcYb-dx9yUmFSHGQPyToezS7V2e84,622
+rooster_client/api_pb2.py,sha256=7j2lNUrIs1oB70M1UTDZl52f-XxDyNNPaMdeSvgImC0,8456
+rooster_client/api_pb2_grpc.py,sha256=zV1KcQRYARqHneELngkD9NShlCU1pGHDc9s0ooEjJQ0,28664
+rooster_client/grpc_error_metadata.py,sha256=CiV4BRiVFSt48wXrGCUadRJuDV5Se_7sJU6ZhZZwgBg,3919
+rooster_client/rooster.py,sha256=9Cy8HPYP5I9NnbOsuk47gSXKTpbS9Foyh2e61WtFeoE,3525
+rooster_client/test_rooster.py,sha256=RLrjA7Ym7UvAB0cFoMDHXtJGht403HzTdE2Ks7jaaIo,3239
+rooster_client-0.0.1.data/scripts/rooster,sha256=Qg1BzZheftbQKADLiuLtuuE-dgwHgAxYF0zG7IDnVIs,1405
+rooster_client-0.0.1.dist-info/METADATA,sha256=OTCyUr0z0A0copBPWC3yDieaSxBUC6Ao7mcCB0KZT6I,2323
+rooster_client-0.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+rooster_client-0.0.1.dist-info/top_level.txt,sha256=OrGmWt_leomDsVzwy3NM_GUntruFGIB9PC8iWew19aI,15
+rooster_client-0.0.1.dist-info/RECORD,,
