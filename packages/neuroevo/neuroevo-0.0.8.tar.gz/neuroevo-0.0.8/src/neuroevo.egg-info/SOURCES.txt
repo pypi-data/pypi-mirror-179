@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/neuroevo/__init__.py
+src/neuroevo/models.py
+src/neuroevo.egg-info/PKG-INFO
+src/neuroevo.egg-info/SOURCES.txt
+src/neuroevo.egg-info/dependency_links.txt
+src/neuroevo.egg-info/top_level.txt
