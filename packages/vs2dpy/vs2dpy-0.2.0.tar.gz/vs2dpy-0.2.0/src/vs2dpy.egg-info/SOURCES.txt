@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/vs2dpy/__init__.py
+src/vs2dpy/model.py
+src/vs2dpy/read.py
+src/vs2dpy.egg-info/PKG-INFO
+src/vs2dpy.egg-info/SOURCES.txt
+src/vs2dpy.egg-info/dependency_links.txt
+src/vs2dpy.egg-info/requires.txt
+src/vs2dpy.egg-info/top_level.txt
