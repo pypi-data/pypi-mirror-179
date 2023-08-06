@@ -1,0 +1,3 @@
+[console_scripts]
+bdfr = bdfr.__main__:cli
+
