@@ -1,0 +1,11 @@
+kinguin_client/__init__.py,sha256=AeDhtKyfgla0ZJBbeSddcQQKIsocFSkasDmGWPTCE6E,52
+kinguin_client/clients/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kinguin_client/clients/balance_client.py,sha256=hUzDWLt_-Asaso1rzgHrsfFBjk06WWzum-HdZ1DnH9w,122
+kinguin_client/clients/base_client.py,sha256=IARG656Zakm1QS7rvzgzez7jCqhAZsAP-qV6PALaI_Y,1789
+kinguin_client/clients/order_client.py,sha256=wjZsRWtguAkDsDbTwQJ3Io94Yar53Hrn_6Ldhr6bazE,142
+kinguin_client/clients/products_client.py,sha256=pfIl0F59MvUGI_x5Hdb3AXoQ53ucBDNRXwqrJxs9JXw,124
+kinguin_client/kinguin.py,sha256=3-Oouli6nAQUjRQkq6_3OI7DB9QUEf6QbnfcQbuwRwQ,679
+kinguin_client-0.1.2.dist-info/LICENSE.md,sha256=Y5ZVMKL5V3guR4Ngv1kaKWY4wTkquhPl8il3xxWDIVc,1067
+kinguin_client-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kinguin_client-0.1.2.dist-info/METADATA,sha256=rT5ERZ4BpRsKD46ZYX0E-whlN946EOKGFAtdyKPpL4g,1081
+kinguin_client-0.1.2.dist-info/RECORD,,
