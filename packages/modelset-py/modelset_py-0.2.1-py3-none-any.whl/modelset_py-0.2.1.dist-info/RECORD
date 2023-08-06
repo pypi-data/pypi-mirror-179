@@ -1,0 +1,10 @@
+modelset/__init__.py,sha256=xnkw0Odmtsha346sZau5VodvQxoYTqBS_P4hTf5q8uA,82
+modelset/dataset.py,sha256=13KC1oZ4tkwK3XAwHrmMZsthY7J9Js7TofDGSNFOt4Y,11236
+modelset/deduplication.py,sha256=lU2QE4H01-AHSnrUS5t7eIcINMzHKoUD5fy8OWcqEdc,2102
+modelset/downloader.py,sha256=Yg49ncbq1_Nwil7RFa_4MBXO8ohzKgf_xfxFGTMh-n4,1446
+modelset/word2vec.py,sha256=HY_eFf9wCCQqqxCw6budsdMVv1ZCLOs3PkDuXuaVgWY,440
+modelset_py-0.2.1.dist-info/LICENSE.md,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+modelset_py-0.2.1.dist-info/METADATA,sha256=WgoE0G3GbBEZva4GLuURlb60QOPNRH0MHePaiuoTHTE,2617
+modelset_py-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modelset_py-0.2.1.dist-info/top_level.txt,sha256=pS0eaXzj47T16oIMXU7EpUjgfVUiCt2yb9wbo7_EhY4,9
+modelset_py-0.2.1.dist-info/RECORD,,
