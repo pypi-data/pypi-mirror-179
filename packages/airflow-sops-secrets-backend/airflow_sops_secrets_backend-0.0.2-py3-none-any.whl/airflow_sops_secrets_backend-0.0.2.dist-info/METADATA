@@ -1,0 +1,133 @@
+Metadata-Version: 2.1
+Name: airflow-sops-secrets-backend
+Version: 0.0.2
+Summary: A airflow_sops secrets backend with sops
+Home-page: https://github.com/paulvitic/airflow-sops-secrets-backend
+Author: Paul Vitic
+Author-email: pvitic@comatch.com
+Project-URL: Bug Reports, https://github.com/paulvitic/airflow-sops-secrets-backend/issues
+Project-URL: Source, https://github.com/paulvitic/airflow-sops-secrets-backend
+Keywords: airflow,sops,secrets-backend
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: apache-airflow (>=2.2.3)
+Requires-Dist: google-cloud-kms (>=2.10.1)
+Requires-Dist: google-cloud-storage (>=1.43.0)
+Requires-Dist: ruamel.yaml (>=0.17.21)
+Requires-Dist: markupsafe (==2.0.1)
+Provides-Extra: dev
+Requires-Dist: setuptools (>=40.8.0) ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: keyrings.google-artifactregistry-auth ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: python-dotenv ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+
+# Airflow SOPS Secrets Backend for GCP KMS
+This packages enables Airflow to pull connections and variables
+from files in GCP bucket that are encrypted by [SOPS](https://github.com/mozilla/sops) 
+using GCP KMS.
+
+## Configure Airflow
+Add following to *airflow.cfg*.
+```text
+[secrets]
+backend = airflow_sops.secrets_backend.GcsSopsSecretsBackend
+backend_kwargs = {"project_id": "your-project-id"}
+```
+Available parameters to backend_kwargs:
+* project_id: Optional. GCP project id where the GCS bucket which holds the encrypted connections/variables files reside., 
+* bucket_name: Optional. If not submitted tries retrieving from Composer GCS_BUCKET environment variable 
+* connections_prefix. Optional. Default is "sops/connections". The folder in GCS bucket that holds encrypted connections.
+* variables_prefix: Optional. Default is "sops/variables". The folder in GCS bucket that holds encrypted variables., 
+* encrypted_file_ext: Optional. Default is "enc". The file extension for encrypted sops files. The format is <connection_id or variable_key>.<encrypted_file_ext>.yaml
+* ignore_mac: Optional. Default is True. Ignores file checksum when true.
+
+## GCP Config
+```terraform
+locals {
+  gcp_project_id = "your-project-id"
+  service_account_name = "your-composer-service-account-name"
+}
+
+resource "google_service_account" "composer" {
+  account_id   = local.service_account_name
+  display_name = local.service_account_name
+  project      = local.gcp_project_id
+}
+
+resource "google_project_iam_member" "composer_worker" {
+  project = local.gcp_project_id
+  role   = "roles/composer.worker"
+  member = "serviceAccount:${google_service_account.composer.email}"
+}
+
+resource "google_kms_key_ring" "secrets" {
+  name     = local.gcp_project_id
+  location = "europe-west1"
+  project  = local.gcp_project_id
+}
+
+resource "google_kms_crypto_key" "secrets_sops" {
+  name            = "secrets_sops"
+  key_ring        = google_kms_key_ring.secrets.id
+  rotation_period = "7776000s" // 90 days
+}
+
+resource "google_kms_crypto_key_iam_member" "composer_sops_decrypter" {
+  crypto_key_id = google_kms_crypto_key.secrets_sops.id
+  role          = "roles/cloudkms.cryptoKeyDecrypter"
+  member        = "serviceAccount:${google_service_account.composer.email}"
+}
+
+# some mandatory attributes omitted
+resource "google_composer_environment" "composer" {
+  name     = "your-composer-environment-name"
+  region   = "europe-west1"
+  project  = local.gcp_project_id
+  config {
+    software_config {
+      airflow_config_overrides = {
+        secrets-backend                          = "airflow_sops.secrets_backend.GcsSopsSecretsBackend"
+      }
+      pypi_packages = {
+        airflow-secrets-sops                   = "==0.0.1"
+      }
+    }
+    node_config {
+      service_account = google_service_account.composer.email
+    }
+  }
+}
+```
+
+## SOPS
+Install [SOPS](https://github.com/mozilla/sops). Encrypt files
+using GCP KMS and upload to GCP bucket sops/connections directory
+```shell
+export KMS_PATH=$(gcloud kms keys list --location europe-west1 --keyring your-keyring --project your-gcp-project | awk 'FNR == 2 {print $1}')
+sops --encrypt --encrypted-regex '^(password|extra)$' --gcp-kms $KMS_PATH some-connection.yaml > some-connection.enc.yaml
+```
+
+## Setup
+```shell
+python -m venv .venv
+source .venv/bin/activate
+pip config set --site global.extra-index-url https://pypi.org/simple
+pip install -r requirements.txt
+```
+
+## Test
+```shell
+pip install . airflow-sops-secrets-backend[test]
+pytest
+```
+
+## Build
+```shell
+pip install airflow-sops-secrets-backend[dev]
+python -m build
+```
