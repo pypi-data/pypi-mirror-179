@@ -1,0 +1,16 @@
+-r requirements.txt
+
+# testing requirements
+pytest>=6.2.3,<6.3.0
+
+# repo maintenance tooling
+# they are run with tox
+
+# code styling enforcement tool
+black==22.3.0
+# linting tool to tell us if we're not adhereing to good python conventions
+flake8>=5.0.0,<5.0.4
+# type checking tool
+mypy==0.812
+# make sure our imports are in the correct order
+isort==5.8.0
