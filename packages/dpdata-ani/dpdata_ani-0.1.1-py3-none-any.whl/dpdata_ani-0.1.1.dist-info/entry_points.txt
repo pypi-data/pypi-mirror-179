@@ -1,0 +1,8 @@
+[dpdata.plugins]
+aiqm1 = dpdata_ani.aiqm1:AIQM1Driver
+aiqm1nn = dpdata_ani.aiqm1:AIQM1NNDriver
+ani1xload = dpdata_ani.ani1x:ANI1xFormat
+anidriver = dpdata_ani.anidriver:ANIDriver
+comp6load = dpdata_ani.comp6:COMP6Format
+dftd4 = dpdata_ani.dftd4:DFTD4Driver
+odm2driver = dpdata_ani.odm2:ODM2Driver

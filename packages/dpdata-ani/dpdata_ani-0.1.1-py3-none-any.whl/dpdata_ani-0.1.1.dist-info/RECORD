@@ -1,0 +1,14 @@
+dpdata_ani/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dpdata_ani/aiqm1.py,sha256=4_Q6kiX4tfDr-x6fWtbTDP056dJWAoI7FI6Y-dBg_Y8,2539
+dpdata_ani/ani1x.py,sha256=Uv-GD9DhhoKnuWWvw36as0SAcWx-jzTa96WrGMWPoxM,1648
+dpdata_ani/anidriver.py,sha256=DBXaU4oH_3K2W0PFVLpzFL7emFwrshjMsh8pChYMQt4,2556
+dpdata_ani/auto_batch_size.py,sha256=wi8c7Mjd5FEzd58W__9ICj0_Nrg5F9CvjoqfdNQAsz0,6223
+dpdata_ani/comp6.py,sha256=EgkyXKH8JBRelECp0E9ZNVdGe_oKJH_eyIQ-3t07klE,1483
+dpdata_ani/dftd4.py,sha256=vm5yQuPFTILUcIQvk3iLfAITQ2XIB4n_wXMrLuL7iEE,358
+dpdata_ani/odm2.py,sha256=XyppYCNP7yuwgYRmYK_lafCUEuRLTvM-ZeibsVM1CJc,3342
+dpdata_ani-0.1.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+dpdata_ani-0.1.1.dist-info/METADATA,sha256=2yuDg-e_jQNH7q6HNPnbM5_9Lx32Aksp6UY_fJka_Mw,1527
+dpdata_ani-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dpdata_ani-0.1.1.dist-info/entry_points.txt,sha256=3l8WCmDCWaDDQNhWJfvSUx1Gxm5y7ZMpYFaEL5rsPUA,297
+dpdata_ani-0.1.1.dist-info/top_level.txt,sha256=rXeRBlVy-GZGGKnTkYXMbHf_NkYRk2_r4h-zvTxIdpU,11
+dpdata_ani-0.1.1.dist-info/RECORD,,
