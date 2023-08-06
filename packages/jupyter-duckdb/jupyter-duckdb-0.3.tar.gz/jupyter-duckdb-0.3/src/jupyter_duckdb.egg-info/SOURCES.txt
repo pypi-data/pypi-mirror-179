@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/duckdb_kernel/__init__.py
+src/duckdb_kernel/__main__.py
+src/duckdb_kernel/kernel.json
+src/duckdb_kernel/kernel.py
+src/jupyter_duckdb.egg-info/PKG-INFO
+src/jupyter_duckdb.egg-info/SOURCES.txt
+src/jupyter_duckdb.egg-info/dependency_links.txt
+src/jupyter_duckdb.egg-info/requires.txt
+src/jupyter_duckdb.egg-info/top_level.txt
