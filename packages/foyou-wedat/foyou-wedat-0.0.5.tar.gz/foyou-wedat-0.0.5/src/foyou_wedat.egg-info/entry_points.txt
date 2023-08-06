@@ -1,0 +1,4 @@
+[console_scripts]
+weamr = wedat:main2
+wedat = wedat:main
+
