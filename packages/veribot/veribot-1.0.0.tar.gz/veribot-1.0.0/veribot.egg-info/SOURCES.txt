@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+veribot/__init__.py
+veribot/bot.py
+veribot/checks.py
+veribot/commands.py
+veribot/database.py
+veribot/errors.py
+veribot/events.py
+veribot/views.py
+veribot.egg-info/PKG-INFO
+veribot.egg-info/SOURCES.txt
+veribot.egg-info/dependency_links.txt
+veribot.egg-info/requires.txt
+veribot.egg-info/top_level.txt
