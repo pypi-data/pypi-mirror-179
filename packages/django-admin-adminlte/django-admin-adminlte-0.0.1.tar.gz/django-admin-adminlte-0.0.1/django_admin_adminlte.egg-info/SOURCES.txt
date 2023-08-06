@@ -1,0 +1,11 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+admin_adminlte/__init__.py
+django_admin_adminlte.egg-info/PKG-INFO
+django_admin_adminlte.egg-info/SOURCES.txt
+django_admin_adminlte.egg-info/dependency_links.txt
+django_admin_adminlte.egg-info/not-zip-safe
+django_admin_adminlte.egg-info/top_level.txt
+docs/blank.txt
