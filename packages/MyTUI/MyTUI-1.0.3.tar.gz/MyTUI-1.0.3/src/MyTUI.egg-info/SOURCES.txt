@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+src/colors.py
+src/exemple.py
+src/mytui.py
+src/window.py
+src/MyTUI.egg-info/PKG-INFO
+src/MyTUI.egg-info/SOURCES.txt
+src/MyTUI.egg-info/dependency_links.txt
+src/MyTUI.egg-info/top_level.txt

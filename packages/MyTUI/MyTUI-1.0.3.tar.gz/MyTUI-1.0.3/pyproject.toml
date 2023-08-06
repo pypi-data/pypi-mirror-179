@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=44.1.1", "getkey>=0.6.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MyTUI"
+version = "1.0.3"
+authors = [
+  { name="Paulin-Dev" },
+]
+description = "Easily create terminal user interface containing menus, text boxes and input fields for your projects"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Paulin-Dev/TUI"
