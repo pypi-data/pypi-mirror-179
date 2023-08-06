@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-packaging-ch
+Version: 0.1.3
+Summary: Example of how to package Python projects
+Author-email: Chang Huan Lo <changhuan.lo@ucl.ac.uk>
+License: BSD-3-Clause
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+### python-packaging-ch
+
+:construction_worker: Python code packaging demo
