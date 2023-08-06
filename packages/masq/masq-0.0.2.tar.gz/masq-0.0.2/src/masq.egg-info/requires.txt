@@ -1,0 +1,8 @@
+opensimplex>=0.4.3
+numpy>=1.22
+
+[build]
+tox==3.24.3
+build
+twine
+pylint
