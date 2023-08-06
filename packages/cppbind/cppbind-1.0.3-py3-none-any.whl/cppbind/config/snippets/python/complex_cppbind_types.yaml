@@ -1,0 +1,385 @@
+# Copyright (c) 2022 PicsArt, Inc.
+# All rights reserved. Use of this source code is governed by a
+# MIT-style license that can be found in the LICENSE file.
+
+char:
+  std::__cxx11::basic_string
+
+std::string:
+  std::__cxx11::basic_string
+
+std::basic_string<char>:
+  std::__cxx11::basic_string
+
+std::__ndk1::shared_ptr:
+  std::shared_ptr
+
+std::__ndk1::vector:
+  std::vector
+
+std::__ndk1::map:
+  std::map
+
+std::__ndk1::unordered_map:
+  std::map
+
+std::__ndk1::function:
+  std::function
+
+std::__ndk1::basic_string:
+  std::__cxx11::basic_string
+
+std::__ndk1::pair:
+  std::pair
+
+std::__ndk1::array:
+  std::array
+
+std::__1::shared_ptr:
+  std::shared_ptr
+
+std::__1::vector:
+  std::vector
+
+std::__1::map:
+  std::map
+
+std::__1::unordered_map:
+  std::map
+
+std::__1::function:
+  std::function
+
+std::__1::basic_string:
+  std::__cxx11::basic_string
+
+std::__1::pair:
+  std::pair
+
+std::__1::array:
+  std::array
+
+std::__1::optional:
+  std::optional
+
+$Object:
+  custom:
+    pname: object
+    tpostfix: |
+      {#- this is an internal section no need to define in user defined custom converters #}
+      {%- for name in template_args_postfixes or [] -%}
+      {%-   if name != None %}{{name}}{% else %}{{get_type_converter(template_args[loop.index - 1]).custom.tname if template_args_kinds[loop.index - 1] != ElementKind.TEMPLATE_NON_TYPE_PARAMETER else template_args[loop.index - 1]}}{% endif -%}
+      {%- endfor -%}
+    tname: |
+      {#- if template_instance is specified but name is not provided then use vars.name -#}
+      {%- if vars.template_instance is not defined or not template_args_postfixes -%}
+      {{vars.name}}
+      {%- endif -%}
+      {{custom.tpostfix}}
+  types:
+    python: |
+      {#- this should go to shared macro gen_namespace -#}
+      {%- if full_package is defined -%}
+      {%-   set parent_converter = get_type_converter(cxx.parent_type, error=False) if cxx.parent_type else none -%}
+      {%-   if parent_converter -%}
+      {{parent_converter.python.get_target_type_name(full_package=full_package)}}.
+      {%-   else -%}
+      {#-     this is common for include and target type name do not change one without other -#}
+      {%-     if vars.full_package != full_package -%}
+      {{cppbind_helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}.
+      {%-     endif -%}
+      {%-   endif -%}
+      {%- endif -%}
+      {%- if interface_class|default(False) -%}
+      {{vars.interface_impl_class_name}}{{custom.tpostfix}}
+      {%- else -%}
+      {{custom.tname}}
+      {%- endif -%}
+    pybind: |
+      {%- if interface_class|default(False) -%}
+      {{vars.interface_impl_class_name}}{{custom.tpostfix}}
+      {%- else -%}
+      {{custom.tname}}
+      {%- endif -%}
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {#- this is common for include and target type name do not change one without other -#}
+        {%- if full_package is defined and vars.full_package != full_package -%}
+        {{marker}}import {{vars.full_package}} as {{cppbind_helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}
+        {%- endif -%}
+        {{- gen_template_args_snippets(template_args|zip(template_args_kinds)|rejectattr('_2', 'equalto', ElementKind.TEMPLATE_NON_TYPE_PARAMETER)|map(attribute='_1'), 'python_include', full_package) -}}
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {% if vars.is_proj_type %}{{marker}}#include "{{vars.prj_rel_file_name}}"{% endif %}
+        {{- gen_template_args_snippets(template_args|zip(template_args_kinds)|rejectattr('_2', 'equalto', ElementKind.TEMPLATE_NON_TYPE_PARAMETER)|map(attribute='_1'), 'cxx_include') -}}
+
+
+$Enum:
+  custom:
+    pname: int
+    tname: "{{vars.name}}"
+  types:
+    python: |
+      {#- this should go to shared macro gen_namespace -#}
+      {%- if full_package is defined -%}
+      {%-   set parent_converter = get_type_converter(cxx.parent_type, error=False) if cxx.parent_type else none -%}
+      {%-   if parent_converter -%}
+      {{parent_converter.python.get_target_type_name(full_package=full_package)}}.
+      {%-   else -%}
+      {#-     this is common for include and target type name do not change one without other -#}
+      {%-     if vars.full_package != full_package -%}
+      {{cppbind_helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}.
+      {%-     endif -%}
+      {%-   endif -%}
+      {%- endif -%}
+      {{custom.tname}}
+    pybind: "{{custom.tname}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include: |
+      {#- this is common for include and target type name do not change one without other -#}
+      {%- if full_package is defined and vars.full_package != full_package -%}
+      import {{vars.full_package}} as {{cppbind_helper.relative_package(vars.full_package, full_package)|replace('.', '_')}}
+      {%- endif -%}
+    cxx_include: |
+      {% if vars.is_proj_type %}#include "{{vars.prj_rel_file_name}}"{% endif %}
+
+$FunctionProto:
+  custom:
+    tname: Callable
+  types:
+    python: |
+      {%- set comma = joiner(', ') -%}Callable[[{%- for arg in template_args[:-1] -%}{{comma()}}{{get_type_converter(arg).python.get_target_type_name(full_package=full_package)}}{%- endfor -%}], {{get_type_converter(template_args|last).python.get_target_type_name(full_package=full_package)}}]
+    pybind: |
+      {%- set comma = joiner(', ') -%}Callable[[{%- for arg in template_args[:-1] -%}{{comma()}}{{get_type_converter(arg).pybind.target_type_name}}{%- endfor -%}], {{get_type_converter(template_args|last).pybind.target_type_name}}]
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args, 'python_include', full_package) -}}
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args, 'cxx_include') -}}
+
+std::__cxx11::basic_string:
+  custom:
+    tname: String
+  types:
+    python: str
+    pybind: str
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    pybind_to_python:
+    python_to_pybind: |
+      {{target_name}} = {{target_type_name}}({{name}})
+
+std::string_view:
+  std::__cxx11::basic_string
+
+std::vector:
+  custom:
+    tname: List[{{get_type_converter(template_args[0]).custom.tname}}]
+  types:
+    python: |
+      {%- set value_converter = get_type_converter(template_args[0]) -%}
+      List[{{value_converter.python.get_target_type_name(full_package=full_package|default(value_converter.type_info.vars.full_package))}}]
+    pybind: list
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'python_include', full_package) -}}
+
+std::function:
+  custom:
+    tname: "Function"
+  types:
+    python: "{{get_type_converter(template_args[0]).python.get_target_type_name(full_package=full_package)}}"
+    pybind: "{{get_type_converter(template_args[0]).pybind.target_type_name}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args, 'python_include', full_package) -}}
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args, 'cxx_include') -}}
+
+std::map:
+  custom:
+    tname: "Map{{get_type_converter(template_args[0]).custom.tname}}{{get_type_converter(template_args[1]).custom.tname}}"
+  types:
+    python: |
+      {%- set key_converter = get_type_converter(template_args[0]) -%}
+      {%- set value_converter = get_type_converter(template_args[1]) -%}
+      {%- set key_package = full_package|default(key_converter.type_info.vars.full_package) -%}
+      {%- set value_package = full_package|default(value_converter.type_info.vars.full_package) -%}
+      Dict[{{key_converter.python.get_target_type_name(full_package=key_package)}}, {{value_converter.python.get_target_type_name(full_package=value_package)}}]
+    pybind: dict
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:2], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:2], 'python_include', full_package) -}}
+
+std::unordered_map:
+  std::map
+
+std::shared_ptr:
+  custom:
+    tname: "{{get_type_converter(template_args[0]).custom.tname}}"
+  types:
+    python: |
+      {%- set object_converter = get_type_converter(template_args[0]) -%}
+      {{object_converter.python.get_target_type_name(full_package=full_package|default(object_converter.type_info.vars.full_package))}}
+    pybind: "{{get_type_converter(template_args[0]).pybind.target_type_name}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'python_include', full_package) -}}
+
+nlohmann::json:
+  custom:
+    pname: json
+  types:
+    python: dict
+    pybind: dict
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+
+json:
+  nlohmann::json
+
+std::pair:
+  custom:
+    tname: "Pair{{get_type_converter(template_args[0]).custom.tname}}{{get_type_converter(template_args[1]).custom.tname}}"
+  types:
+    python: |
+      {%- set first_converter = get_type_converter(template_args[0]) -%}
+      {%- set second_converter = get_type_converter(template_args[1]) -%}
+      {%- set first_package = full_package|default(first_converter.type_info.vars.full_package) -%}
+      {%- set second_package = full_package|default(second_converter.type_info.vars.full_package) -%}
+      Tuple[{{first_converter.python.get_target_type_name(full_package=first_package)}}, {{second_converter.python.get_target_type_name(full_package=second_package)}}]
+    pybind: tuple
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:2], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:2], 'python_include', full_package) -}}
+
+std::array:
+  custom:
+    tname: List[{{get_type_converter(template_args[0]).custom.tname}}]
+  types:
+    python: "{{get_type_converter('std::vector<{}>'.format(get_type_converter(template_args[0]).type_info.cxx.type_name)).python.target_type_name}}"
+    pybind: "{{get_type_converter('std::vector<{}>'.format(get_type_converter(template_args[0]).type_info.cxx.type_name)).pybind.target_type_name}}"
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(['std::vector<{}>'.format(template_args[0].type_name)], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(['std::vector<{}>'.format(template_args[0].type_name)], 'python_include', full_package) -}}
+
+std::optional:
+  custom:
+    tname: "Optional{{get_type_converter(template_args[0]).custom.tname}}"
+  types:
+    python: |
+      {%- set value_converter = get_type_converter(template_args[0]) -%}
+      {%- set arg_package = full_package|default(value_converter.type_info.vars.full_package) -%}
+      Optional[{{value_converter.python.get_target_type_name(full_package=arg_package)}}]
+  converters:
+    pybind_to_cxx:
+    cxx_to_pybind:
+    python_to_pybind:
+    pybind_to_python:
+    cxx_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'cxx_include') -}}
+    python_include:
+      !concat
+      - !include common_macros.yaml&templates
+      - |
+        {{- gen_template_args_snippets(template_args[:1], 'python_include', full_package) -}}
