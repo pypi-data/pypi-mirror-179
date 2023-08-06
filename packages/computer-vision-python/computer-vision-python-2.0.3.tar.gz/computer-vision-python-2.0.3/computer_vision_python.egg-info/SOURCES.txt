@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+computer_vision_python/FaceDetection.py
+computer_vision_python/Facemeshmodule.py
+computer_vision_python/Handtracker.py
+computer_vision_python/PoseDet.py
+computer_vision_python/Serialconn.py
+computer_vision_python/__init__.py
+computer_vision_python.egg-info/PKG-INFO
+computer_vision_python.egg-info/SOURCES.txt
+computer_vision_python.egg-info/dependency_links.txt
+computer_vision_python.egg-info/requires.txt
+computer_vision_python.egg-info/top_level.txt
