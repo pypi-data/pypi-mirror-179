@@ -1,0 +1,67 @@
+# pyproject.toml
+
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 65", "wheel", "versioneer[toml]"]
+
+[project]
+authors = [
+  {name = "lipi", email = "lipicoder@qq.com"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering"
+]
+dependencies = ["pytz>=2022.6"]
+description = "A library of tools to aid in development"
+name = 'magicbag'
+readme = "README.md"
+dynamic = ["version"]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/lipicoder/magicbag/issues"
+"Homepage" = "https://github.com/lipicoder/magicbag"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+# See the docstring in versioneer.py for instructions. Note that you must
+# re-run 'versioneer.py setup' after changing this section, and commit the
+# resulting files.
+[tool.versioneer]
+VCS = "git"
+style = "pep440"
+versionfile_source = "src/magicbag/_version.py"
+versionfile_build = "magicbag/_version.py"
+tag_prefix = ""
+parentdir_prefix = "magicbag-"
+
+[tool.isort]
+profile = 'black'
+
+[tool.pylint]
+jobs = 2
+
+[tool.black]
+line-length = 88
+target-version = ['py310', 'py311']
+# We use preview style for formatting Black itself. If you
+# want stable formatting across releases, you should keep
+# this off.
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | build
+  | dist
+  # The following are specific to Black, you probably don't want those.
+  | blib2to3
+  | tests/data
+  | profiling
+)/
+'''
+preview = true
