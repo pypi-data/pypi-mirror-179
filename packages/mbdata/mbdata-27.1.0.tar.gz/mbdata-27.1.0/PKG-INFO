@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mbdata
+Version: 27.1.0
+Summary: 
+License: MIT
+Author: Lukáš Lalinský
+Author-email: lalinsky@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: models
+Provides-Extra: replication
+Provides-Extra: search
+Requires-Dist: SQLAlchemy (>=1.4.29,<2.0.0); extra == "models"
+Requires-Dist: lxml (>=4.9.1,<5.0.0); extra == "search"
+Requires-Dist: psycopg2 (>=2.9.2,<3.0.0); extra == "replication"
+Requires-Dist: six (>=1.16.0,<2.0.0)
