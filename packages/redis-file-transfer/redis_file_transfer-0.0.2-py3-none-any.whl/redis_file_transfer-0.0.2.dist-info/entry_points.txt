@@ -1,0 +1,2 @@
+[console_scripts]
+redis-file-transfer = redis_file_transfer.__main__:main
