@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pylib-openblas
+Version: 0.0.2
+Summary: Python packaging of OpenBLAS 0.3.20
+Home-page: UNKNOWN
+Author: chenkui164
+License: UNKNOWN
+Platform: UNKNOWN
+
+Binary distribution of OpenBLAS static libraries
+
