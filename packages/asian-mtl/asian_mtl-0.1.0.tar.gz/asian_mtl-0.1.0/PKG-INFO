@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: asian-mtl
+Version: 0.1.0
+Summary: 
+Author: Joseph Chen
+Author-email: jchen42703@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.21.40,<2.0.0)
+Requires-Dist: botocore (>=1.24.43,<2.0.0)
+Requires-Dist: dacite (>=1.6.0,<2.0.0)
+Requires-Dist: datasets (>=2.1.0,<3.0.0)
+Requires-Dist: gdown (>=4.4.0,<5.0.0)
+Requires-Dist: optimum (>=1.1.0,<2.0.0)
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: pyquery (>=1.4.3,<2.0.0)
+Requires-Dist: sentencepiece (>=0.1.96,<0.2.0)
+Requires-Dist: torch (>=1.11.0,<2.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Requires-Dist: transformers (>=4.18.0,<5.0.0)
