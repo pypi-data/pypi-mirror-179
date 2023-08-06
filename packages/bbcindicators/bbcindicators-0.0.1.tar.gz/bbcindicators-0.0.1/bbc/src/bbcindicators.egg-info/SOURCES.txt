@@ -1,0 +1,7 @@
+setup.py
+bbc/src/bbcindicators.egg-info/PKG-INFO
+bbc/src/bbcindicators.egg-info/SOURCES.txt
+bbc/src/bbcindicators.egg-info/dependency_links.txt
+bbc/src/bbcindicators.egg-info/top_level.txt
+bbc/src/bbc.py
+bbc/src/bbcindicators.egg-info/SOURCES.txt
