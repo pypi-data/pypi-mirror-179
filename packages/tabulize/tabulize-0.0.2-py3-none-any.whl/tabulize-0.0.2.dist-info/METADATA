@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tabulize
+Version: 0.0.2
+Summary: Make changes to sql tables using a Table object with SqlAlchmey and alembic back end.
+Home-page: https://github.com/eddiethedean/tabulize
+Author: Odos Matthews
+Author-email: odosmatthews@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: tinytable
+Requires-Dist: alterize
+Requires-Dist: sessionize
+Requires-Dist: sqlalchemize (>=0.0.3)
+
