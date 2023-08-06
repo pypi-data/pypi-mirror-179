@@ -1,0 +1,12 @@
+nonebot-plugin-bilibili-image/__init__.py,sha256=NPLdivBeVOO5_tI9qZ2YU3ibo-cF8E99XqieWkynyeY,507
+nonebot-plugin-bilibili-image/article.py,sha256=L8ua9kC6-O6fhPioaXerQau4I3xLaS7lhaJR8cn7Ks8,2058
+nonebot-plugin-bilibili-image/config.py,sha256=8NiLeORMfmA_YrbjM-5_OLn0JjXKOyS6IGjom-7VKCA,454
+nonebot-plugin-bilibili-image/dynamic.py,sha256=ad8XCXIqiUoFg-5Wqei_MTslgZ6y6gE3Le8kirNIdyw,1446
+nonebot-plugin-bilibili-image/matchers.py,sha256=WJzeY23K4eV1ggx4pQEZFMciVvGzXlx_IePG5PE4RPc,5358
+nonebot-plugin-bilibili-image/utils.py,sha256=lfCx-cleuawW98TM6c9oc154JRldIVC8EK7Bnle44mk,1139
+nonebot-plugin-bilibili-image/video.py,sha256=8E72QUPGV9FVoZSBY5_yL3LRdn-uQgyoNOdR-7lqSO8,1130
+nonebot_plugin_bilibili_image-0.0.1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+nonebot_plugin_bilibili_image-0.0.1.dist-info/METADATA,sha256=3zBKWvqRj-n9sKPi4-LmDMTmXOBc_u8C6PpU-IQj-9o,4311
+nonebot_plugin_bilibili_image-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+nonebot_plugin_bilibili_image-0.0.1.dist-info/top_level.txt,sha256=zpQSoy58SDQX7fpWuJWCjsmCQnkpHUNjtPsJ42BbwFI,30
+nonebot_plugin_bilibili_image-0.0.1.dist-info/RECORD,,
