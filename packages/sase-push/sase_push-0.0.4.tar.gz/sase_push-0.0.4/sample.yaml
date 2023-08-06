@@ -1,0 +1,12 @@
+ALTDEV:
+  CERT: true
+  URL: https://something.com
+DEV:
+  CERT: true
+  URL: https://dev.something.com
+PROD:
+  CERT: true
+  URL: https://prod.something.com
+QA:
+  CERT: true
+  URL: https://qa.something.com

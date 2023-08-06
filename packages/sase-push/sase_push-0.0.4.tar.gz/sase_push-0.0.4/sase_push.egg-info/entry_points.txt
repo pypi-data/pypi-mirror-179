@@ -1,0 +1,4 @@
+[console_scripts]
+sase_commit = sase_push.__main__:main
+sase_commit_generate = sase_push.generate_yaml:gen_yaml
+
