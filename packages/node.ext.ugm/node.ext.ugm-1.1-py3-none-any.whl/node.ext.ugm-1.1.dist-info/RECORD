@@ -1,0 +1,14 @@
+node.ext.ugm-1.1-nspkg.pth,sha256=pxdpyNuhNcjU-Q29nqcnNrSi8_bXTB9R8mmVN4Vu3o0,1654
+node/ext/ugm/__init__.py,sha256=RAoRMlsZBgdMhTsMt2f5fEGA61OatjtgSyzT4Rnmm0U,315
+node/ext/ugm/_api.py,sha256=s_uAhHjlkNBv2WJLu2gyLEy5Hot0Hlrxo4j0JxnwwQc,6302
+node/ext/ugm/file.py,sha256=oDGBinYh8pbBuWeFeBSnrOk0GY8dI3z1n6TYWCO66U4,23419
+node/ext/ugm/interfaces.py,sha256=fDZgJASct4F-6aUngZUB9gztulcK9q_zmdMXJSwWRUA,5156
+node/ext/ugm/tests/__init__.py,sha256=5zgqs-kIJPDBLPWZzDzSkqp_D3PCtw0y4gQanMz6o1U,504
+node/ext/ugm/tests/test_api.py,sha256=oT6JwecRQgqUsho-MLLVCYi-32v6SfC2kLQZ-xHDxak,13165
+node/ext/ugm/tests/test_file.py,sha256=f4OzVMYyhSVMYIdVXOeOrvOHE_jCz-U9S8QZBu_Wcoc,32954
+node.ext.ugm-1.1.dist-info/LICENSE.rst,sha256=JTX8HGeSWhn5jNkBaWTQ7OZPVShszFyUn-T1hxYfays,1378
+node.ext.ugm-1.1.dist-info/METADATA,sha256=Q1liS23pdzs_5qyEY_ZJeqdnyFdxBgSn1iGen7NgfN8,8579
+node.ext.ugm-1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+node.ext.ugm-1.1.dist-info/namespace_packages.txt,sha256=uhxsfV4otbiU8wWTd9fCwrpB5uZeLpNnCVctg9p35uY,14
+node.ext.ugm-1.1.dist-info/top_level.txt,sha256=OJtG8ERXOPa1F97xZcPkkO-i64glxpW4rIIhVl545Po,5
+node.ext.ugm-1.1.dist-info/RECORD,,
