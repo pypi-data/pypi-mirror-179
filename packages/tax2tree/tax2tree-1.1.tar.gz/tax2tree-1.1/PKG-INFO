@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tax2tree
+Version: 1.1
+Summary: Taxonomy to tree decoration tools
+Home-page: https://github.com/biocore/tax2tree
+Author: Daniel McDonald
+Author-email: mcdonadt@colorado.edu
+Maintainer: Daniel McDonald
+Maintainer-email: mcdonadt@colorado.edu
+License: UNKNOWN
+Description: The tax2tree project
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: doc

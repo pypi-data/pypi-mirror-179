@@ -1,0 +1,452 @@
+#!/usr/bin/env python
+
+from skbio import TreeNode
+import click
+import json
+from io import StringIO
+from random import shuffle
+
+import numpy as np
+import bp
+import skbio
+import pandas as pd
+
+import t2t
+import t2t.nlevel as nl
+import t2t.util as ut
+import t2t.remap as rmap
+import t2t.consistency as con
+import t2t.cli as t2tcli
+
+
+def print_version(ctx, param, value):
+    if not value or ctx.resilient_parsing:
+        return
+    click.echo('Version %s' % t2t.__version__)
+    ctx.exit()
+
+
+CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
+
+
+@click.group(context_settings=CONTEXT_SETTINGS)
+@click.option('--version', is_flag=True, callback=print_version,
+              expose_value=False, is_eager=True)
+@click.pass_context
+def cli(ctx):
+    pass
+
+
+def _add_nameholders(tree):
+    """Add single descendent nodes without length to hold names
+
+    Backbone trees may not have nodes allocated for representing lineage
+    names, particularly if the tree is constructed with single members
+    per lineage.
+
+    Tax2tree does not place lineage information on tips. As such, we miss out
+    on lineage data if there is a conflict in the parent of a tip as would 
+    occur with "(flexneri, coli)escherichia;". In this case, the tips 
+    "flexneri" and "coli" are where labels should go, but tax2tree needs 
+    the labels to the the actual identifiers.
+
+    So, instead, we had a node inbetween the tip and parent, which can hold 
+    tax information. Rather, we do "((X)flexneri, (Y)coli)escherichia);"
+    """
+    for n in list(tree.tips()):
+        new_node = TreeNode(length=0.0)
+        parent = n.parent
+        n.parent.remove(n)
+        n.parent = None
+        new_node.append(n)
+        parent.append(new_node)
+
+
+@cli.command()
+@click.option('--consensus-map', '-m', required=True,
+              help='Input consensus map', type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Output basename')
+@click.option('--tree', '-t', required=False, 
+              help='Input tree, if specified, this tree will be used, this is '
+                   'mutually exclusive with --placement',
+              type=click.File('U'))
+@click.option('--placement', '-p', required=False, 
+              help='Placement data, if specified, the tree will be sourced '
+                   'from the jplace data')
+@click.option('--no-suffix', '-n',
+              help="Don't append suffixes (e.g. _1, _2) to polyphyletic " +
+                   "groups",
+              is_flag=True, default=False)
+@click.option('--suffix-char', '-s',
+              help="Use a different char (instead of underscore) for " +
+                   "polyphyletic group suffixes",
+              required=False, default="_", type=str)
+@click.option('--min-count', default=2, type=int,
+              help="Minimum number of times a name needs to be represented")
+@click.option('--add-nameholder', is_flag=True, default=False,
+              help="Add nameholder nodes if tips likely to be named")
+@click.option('--secondary-taxonomy', type=click.File('U'),
+              help="For backfilling with a secondary taxonomic system",
+              required=False)
+@click.option('--recover-polyphyletic', is_flag=True, default=False,
+              help="Attempt to map ambiguous to unambiguous polyphyletic names",  # noqa
+              required=False)
+@click.option('--correct-binomials', is_flag=True, default=False,
+              help="Attempt to correct species binomals",  # noqa
+              required=False)
+def decorate(tree, consensus_map, output, no_suffix, suffix_char, min_count,
+             placement, add_nameholder, secondary_taxonomy,
+             recover_polyphyletic, correct_binomials):
+    """Decorate a taxonomy onto a tree"""
+    if tree is not None and placement is not None:
+        raise ValueError("Cannot specify --tree and --placement")
+    if tree is None and placement is None:
+        raise ValueError("Must specify --tree or --placement")
+
+    if secondary_taxonomy:
+        secondary_taxonomy = list(nl.load_consensus_map(secondary_taxonomy, False).items())  # noqa
+        secondary_taxonomy = skbio.TreeNode.from_taxonomy(secondary_taxonomy)
+        for n in secondary_taxonomy.non_tips(include_self=False):
+            n.Rank = nl.RANK_ORDER.index(n.name[0])
+
+    if placement:
+        placement = json.loads(open(placement).read())
+        tree = bp.to_skbio_treenode(bp.parse_newick(placement['tree']))
+    else:
+        tree = bp.to_skbio_treenode(bp.parse_newick(tree.read()))
+
+    if placement or add_nameholder:
+        _add_nameholders(tree)
+
+    append_rank = False
+
+    # get desired ranks from first line of consensus map
+    seed_con = consensus_map.readline().strip().split('\t')[1]
+    nl.determine_rank_order(seed_con)
+    consensus_map.seek(0)
+
+    tipname_map = nl.load_consensus_map(consensus_map, append_rank)
+    tree_ = nl.load_tree(tree, tipname_map)
+    counts = nl.collect_names_at_ranks_counts(tree_)
+
+    nl.decorate_ntips(tree_)
+    nl.decorate_name_relative_freqs(tree_, counts, min_count)
+    nl.set_ranksafe(tree_)
+    nl.pick_names(tree_)
+    scores = nl.name_node_score_fold(tree_)
+
+    nl.set_preliminary_name_and_rank(tree_)
+
+    contree, contree_lookup = nl.make_consensus_tree(tipname_map.values())
+    nl.backfill_names_gap(tree_, contree_lookup)
+
+    if secondary_taxonomy:
+        nl.backfill_from_secondary(tree_, secondary_taxonomy)
+
+    nl.commonname_promotion(tree_)
+
+    if recover_polyphyletic:
+        tree_ = nl.recover_from_polyphyletic_sibling(tree_, verbose=True)
+
+    nl.correct_decorated(tree_, contree, verbose=True)
+
+    if not no_suffix:
+        nl.make_names_unique(tree_, suffix_glue_char=suffix_char)
+    
+    if correct_binomials:
+        tree_ = nl.correct_species_binomial(tree_)
+
+    constrings = nl.pull_consensus_strings(tree_)
+
+    f = open(output + '-consensus-strings', 'w')
+    f.write('\n'.join(constrings))
+    f.close()
+
+    nl.save_bootstraps(tree_)
+    tree_.write(output)
+
+    f = open(output + '-fmeasures', 'w')
+    f.write('#taxon\tscore\n')
+    for rank in scores:
+        for name, score in sorted(scores[rank])[::-1]:
+            f.write("%s\t%f\n" % (name, score))
+    f.close()
+
+    # replace the backbone tree with our decorated one
+    if placement:
+        ut._edge_label(tree_)
+        tree_ = bp.from_skbio_treenode(tree_)
+        buf = StringIO()
+        bp.write_newick(tree_, buf, include_edge=True)
+        buf.seek(0)
+        placement['tree'] = buf.read()
+        with open(output + '.jplace', 'w') as fp:
+            fp.write(json.dumps(placement))
+
+
+@cli.command()
+@click.option('--tree', '-t', required=False, help='Input tree',
+              type=click.File('U'))
+@click.option('--tips', '-n', required=True, help='Tip names',
+              type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Result',
+              type=click.File('w'))
+@click.option('--out-of-target', required=False, help='initial outgroup')
+@click.option('--placement', '-p', required=False, 
+              help='Placement data, if specified, the tree will be sourced '
+                   'from the jplace data')
+def reroot(tree, tips, output, placement, out_of_target):
+    """Reroot a tree"""
+    if tree is not None and placement is not None:
+        raise ValueError("Cannot specify --tree and --placement")
+    if tree is None and placement is None:
+        raise ValueError("Must specify --tree or --placement")
+
+    if placement:
+        placement = json.loads(open(placement).read())
+        tree_ = bp.to_skbio_treenode(bp.parse_newick(placement['tree']))
+    else:
+        tree_ = bp.to_skbio_treenode(bp.parse_newick(tree.read()))
+
+    tipnames = [l.strip() for l in tips]
+    tipnames_set = set(tipnames)
+    tipnames = list(tipnames_set & {n.name for n in tree_.tips()})
+
+    # based on discussion with siavash, find a small set of out-of-target 
+    # tips, root with them first, and then root with the target
+    if out_of_target is not None:
+        out_of_target = {n.strip() for n in open(out_of_target)}
+        tree_names = {n.name for n in tree_.tips()}
+        out_of_target = out_of_target & tree_names
+        rerooted_1 = ut.reroot(tree_, out_of_target)
+    else:
+        rerooted_1 = tree_
+    rerooted = ut.reroot(rerooted_1, tipnames)
+
+    if placement:
+        ut._edge_label(tree_)
+        rerooted = bp.from_skbio_treenode(rerooted)                                
+        buf = StringIO()                                                           
+        bp.write_newick(rerooted, buf, True)                                       
+        buf.seek(0)                                                                
+        placement['tree'] = buf.read()                                             
+        output.write(json.dumps(placement))
+    else:
+        output.write(str(rerooted))
+
+
+@cli.command()
+@click.option('--otus', '-i', required=True,
+              help='Input OTU map', type=click.File('U'))
+@click.option('--consensus-map', '-m', required=True,
+              help='Input consensus map', type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Result',
+              type=click.File('w'))
+def remap(otus, consensus_map, output):
+    """Remap the taxonomy to diff reps"""
+    tmp = [l.strip().split('\t') for l in consensus_map]
+    mapping = {k: v.split('; ') for k, v in tmp}
+    otu_map = rmap.parse_otu_map(otus)
+    result = rmap.remap_taxonomy(otu_map, mapping)
+
+    for k, v in result.iteritems():
+        output.write("%s\t%s\n" % (k, '; '.join(v)))
+
+
+@cli.command()
+@click.option('--tree', '-t', required=True, help='Input tree',
+              type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Result',
+              type=click.File('w'))
+@click.option('--as-tree', is_flag=True, default=False,
+              help='save output as tree')
+def fetch(tree, output, as_tree):
+    """Fetch the taxonomy off the tree"""
+    result, error = t2tcli.fetch(tree, as_tree)
+    if error:
+        click.echo('\n'.join(result))
+    else:
+        if as_tree:
+            output.write(str(result))
+        else:
+            output.write('\n'.join(result))
+
+@cli.command()
+@click.option('--taxonomy', '-t', required=True, help='Input tree',
+              type=click.File('U'))
+@click.option('--limit', '-l', required=False, help='Limit output',
+              default=10, type=int)
+@click.option('--flat-errors/--no-flat-errors', default=True)
+@click.option('--hierarchy-errors/--no-hierarchy-errors', default=True)
+def validate(taxonomy, limit, flat_errors, hierarchy_errors):
+    """Validate a taxonomy"""
+    lines = taxonomy.readlines()
+    result, err = t2t.cli.validate(lines, limit, flat_errors, hierarchy_errors)
+
+    click.echo('\n'.join(result))
+    click.echo('Validation complete.')
+
+@cli.command()
+@click.option('--consensus-map', '-m', required=True,
+              help='Input consensus map', type=click.File('U'))
+@click.option('--output-file', '-o', required=True, help='Output file')
+@click.option('--tree', '-t', required=True, help='Input tree',
+              type=click.File('U'))
+@click.option('--rooted/--unrooted', default=True, help='Treat tree as rooted or unrooted')
+@click.option('--verbose', is_flag=True, default=False, help='Provide detailed output')
+def consistency(tree, consensus_map, output_file, rooted, verbose):
+    """Consistency of a tree relative to taxonomy"""
+    if verbose:
+        click.echo('Determining taxonomic consistency of: ')
+        click.echo('  tree = ' + tree.name)
+        click.echo('  consensus-map = ' + consensus_map.name)
+        click.echo('  rooted = ' + str(rooted))
+        click.echo('')
+
+    # dynamically determine taxonomic ranks
+    seed_con = consensus_map.readline().strip().split('\t')[1]
+    nl.determine_rank_order(seed_con)
+
+    tipname_map = nl.load_consensus_map(consensus_map, append_rank=False)
+    tree = nl.load_tree(tree, tipname_map)
+
+    counts = nl.collect_names_at_ranks_counts(tree)
+    nl.decorate_ntips_rank(tree)
+    nl.decorate_name_counts(tree)
+
+    # determine taxonomic consistency of tree
+    c = con.Consistency(counts, len(nl.RANK_ORDER))
+    consistency_index = c.calculate(tree, rooted)
+    c.write(output_file, consistency_index)
+    if verbose:
+        click.echo('Consistency written to: ' + output_file)
+
+
+@cli.command()
+@click.option('--tree', '-t', required=True, help='Input tree',
+              type=click.File('U'))
+@click.option('--fragments', '-f', required=True, 
+              help='List of which tips are fragments',
+              type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Result')
+def promote_multifurcation(tree, fragments, output):
+    """Fetch the taxonomy off the tree"""
+    fragments = {n.strip() for n in fragments}
+    tree = bp.to_skbio_treenode(bp.parse_newick(tree.read()))
+    result = t2tcli.promote_multifurcation(tree, fragments, True)
+    result.write(output)
+
+
+@cli.command()
+@click.option('--tree', '-t', required=True, help='Input tree',
+              type=click.File('U'))
+@click.option('--labels', '-m', required=True, help='to remove',
+              type=click.File('U'))
+@click.option('--output', '-o', required=True, help='Result')
+def filter(tree, labels, output):
+    """Remove tips from a phylogeny"""
+    tree = bp.parse_newick(tree.read())
+    labels = {n.strip() for n in labels}
+    names = {tree.name(i) for i, v in enumerate(tree.B) if v}
+    tree = tree.shear(names - labels)
+    with open(output, 'w') as fp:
+        bp.write_newick(tree, fp, False)
+
+import pandas as pd
+import click
+
+
+@cli.command()
+@click.option('--backbone-taxonomy', type=click.Path(exists=True), 
+              required=True)
+@click.option('--decorated-taxonomy', type=click.Path(exists=True), 
+              required=True)
+@click.option('--level', type=int, default=1, required=True,
+              help='The taxonomic level, e.g., 1 = phylum')
+@click.option('--examine', type=str, required=False,
+              help='An optional group to briefly summarize in stdout')
+@click.option('--output', type=click.Path(exists=False), required=True,
+              help='Where to write the output too')
+@click.option('--get-records', is_flag=True, required=False, default=False)
+def compare_to_decorated(backbone_taxonomy, decorated_taxonomy, level, 
+                         examine, output, get_records):
+    """Compare an existing taxonomy to decorated. Assumes common taxonomy"""
+    def load(f):
+        df = pd.read_csv(f, sep='\t', names=['id', 'taxon']).set_index('id')
+        df['target'] = df['taxon'].apply(lambda x: x.split('; ')[level])
+        return df
+
+    def tp_fp_fn(obs, exp):
+        tp = len(set(obs.index) & set(exp.index))
+        fp = len(set(obs.index) - set(exp.index))
+        fn = len(set(exp.index) - set(obs.index))
+        return tp, fp, fn
+
+    backbone = load(backbone_taxonomy)
+    decorated = load(decorated_taxonomy)
+
+    decorated = decorated.loc[set(backbone.index) & set(decorated.index)]
+    backbone = backbone.loc[set(backbone.index) & set(decorated.index)]
+
+    results = []
+    for name, grp in backbone.groupby('target'):
+        obs = decorated[decorated['target'] == name]
+        tp, fp, fn = tp_fp_fn(obs, grp)
+        results.append((name, len(grp), tp, fp, fn))
+
+    df = pd.DataFrame(results, columns=['name',
+                                        'grpsize',
+                                        'true positive',
+                                        'false positive',
+                                        'false negative'])
+    df['precision'] = df['true positive'] / (df['true positive'] +
+                                             df['false positive'])
+    df['recall'] = df['true positive'] / (df['true positive'] +
+                                          df['false negative'])
+    df['fmeasure'] = 2 * ((df['precision'] * df['recall']) /
+                          (df['precision'] + df['recall']))
+
+    df.to_csv(output, sep='\t', index=False, header=True)
+
+    if examine:
+        df = df[df['fmeasure'] < 0.95]
+        df.sort_values('grpsize', ascending=False, inplace=True)
+        
+        bb = backbone[backbone['target'] == examine]
+        obs = decorated[decorated['target'] == examine]
+
+        with pd.option_context('display.max_colwidth', 1000, 
+                               'display.max_columns', None):
+            fp = set(obs.index) - set(bb.index)
+            click.echo('false positive examples:')
+            x = list(fp)[:5]
+            if x:
+                click.echo(backbone.loc[x, 'taxon'])
+                click.echo('---')
+                click.echo(decorated.loc[x, 'taxon'])
+            fn = set(bb.index) - set(obs.index)
+            click.echo()
+            click.echo('false negative examples:')
+            x = list(fn)[:5]
+            if x:
+                click.echo(backbone.loc[x, 'taxon'])
+                click.echo('---')
+                click.echo(decorated.loc[x, 'taxon'])
+
+    if get_records:
+        results = []
+        for n in df['name']:
+            bbname = backbone[backbone['target'] == n]
+            decname = decorated[decorated['target'] == n]
+
+            for id in set(decname.index) - set(bbname.index):
+                exp = backbone.loc[id, 'target']
+                results.append((id, n, exp))
+
+        results = pd.DataFrame(results, columns=['id', 'observed', 'expected'])
+        results.to_csv(f'{output}.false_positive.records.tsv', sep='\t',
+                       index=False, header=True)
+
+
+if __name__ == '__main__':
+    cli()

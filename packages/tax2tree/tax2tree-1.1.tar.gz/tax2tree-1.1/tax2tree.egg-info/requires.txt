@@ -1,0 +1,12 @@
+numpy>=1.7
+future>=0.13.1
+scikit-bio
+Click
+iow
+
+[doc]
+Sphinx>=1.2.2
+
+[test]
+nose>=0.10.1
+pep8
