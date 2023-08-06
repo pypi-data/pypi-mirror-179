@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+iias_project_cli.egg-info/PKG-INFO
+iias_project_cli.egg-info/SOURCES.txt
+iias_project_cli.egg-info/dependency_links.txt
+iias_project_cli.egg-info/entry_points.txt
+iias_project_cli.egg-info/top_level.txt
+project_cli/__init__.py
+project_cli/__main__.py
+project_cli/templates.py
