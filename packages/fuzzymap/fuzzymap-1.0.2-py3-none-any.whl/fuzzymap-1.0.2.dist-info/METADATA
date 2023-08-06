@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fuzzymap
+Version: 1.0.2
+Summary: Python dictionary with a FUZZY key-matching opportunity
+Home-page: https://github.com/pysnippet/fuzzymap
+Author: Artyom Vancyan
+Author-email: artyom@pysnippet.org
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: fuzzywuzzy (>=0.3.0)
+Requires-Dist: python-Levenshtein (>=0.12.1)
+
