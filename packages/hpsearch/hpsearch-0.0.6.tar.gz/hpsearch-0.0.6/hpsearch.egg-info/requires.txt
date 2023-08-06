@@ -1,0 +1,14 @@
+pip
+packaging
+pandas
+numpy
+scikit-learn
+scikit-optimize
+optuna
+cloudpickle
+dill
+plotly
+visdom
+matplotlib
+
+[dev]
