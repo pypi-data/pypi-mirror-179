@@ -1,0 +1,12 @@
+pydantic_dydb/__init__.py,sha256=DG-hW9U_IyzCQDSMb1QolY78V8t9dSC46XNLowPbBo8,531
+pydantic_dydb/_async_initialization.py,sha256=QKokH3fmbcqEORZzVsQpya0ZA6_PzTHC9wVf6xnWUkQ,2601
+pydantic_dydb/_async_model.py,sha256=8DucrkkAVhUtPX84IQTZlm7qGSzskdN29t76PpSN3T4,19794
+pydantic_dydb/_config.py,sha256=vU7QiGSy_AJuJFmClUocqIJ-Ltku_8C24ZU8L6fLJR0,53
+pydantic_dydb/_constants.py,sha256=l51IL2rswdPkQ5acKX1Pg0KoB_aw1Cu2dY2Lew8f-ms,869
+pydantic_dydb/_initialization.py,sha256=greaevuD2E46eZBrLEL-78crq7WftyDypv0UDa96qck,2576
+pydantic_dydb/_json.py,sha256=2lW7gOJZdvx2WdNIpjnIanPhtyRWG4KlfolH6KJ7rD4,987
+pydantic_dydb/_model.py,sha256=UlEfVxspF-3IOlyNmQWxhjRGsHylVagppZL5WGkNRPE,19587
+pydantic_dydb-0.1.21.dist-info/LICENSE.md,sha256=E72rtkDXfNoQs3FTPXapUQsbP3tZtnTlrdj4awx3TaY,1520
+pydantic_dydb-0.1.21.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pydantic_dydb-0.1.21.dist-info/METADATA,sha256=6KHmYbjU3-E3A-uJKCd4ktCGGMWQ1R_uq3HTwynRO_Q,635
+pydantic_dydb-0.1.21.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydantic-dydb
+Version: 0.1.21
+Summary: 
+License: BSD-3-Clause
+Author: bobby
+Author-email: bobby.heyer@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: all
+Provides-Extra: cysimdjson
+Provides-Extra: orjson
+Requires-Dist: cysimdjson (>=21.11,<22.0); extra == "cysimdjson" or extra == "all"
+Requires-Dist: minimal-dydb (>=0.1.13,<0.2.0)
+Requires-Dist: orjson (>=3.7.8,<4.0.0); extra == "orjson" or extra == "all"
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)
