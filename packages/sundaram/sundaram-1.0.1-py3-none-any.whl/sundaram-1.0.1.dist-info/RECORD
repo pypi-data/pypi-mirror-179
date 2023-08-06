@@ -1,0 +1,11 @@
+sundaram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sundaram/__main__.py,sha256=Ck5tiM9dXn47J76LtpDZC35O5RjLh6XX2vCZuF2Cbz4,1570
+sundaram/calculate.py,sha256=iE194UYY_AC3q8GPnZwngWGllOroMBXRsMmkKS8Cf8w,916
+sundaram/validate.py,sha256=rd6rCJOzzPsifU1r6W22mPtqpDzi6-m_5FQ2Do-fnMI,623
+sundaram/test/test_sundaram.py,sha256=GVXG6vPXBmwLMSQ6r2vyewgHHdU1pq-FattxtebmfQA,200
+sundaram-1.0.1.data/scripts/sundaram_script.py,sha256=e1uKurM91qVqYJTJIwE8tINMZYgXF1yraUXbcIal7uI,80
+sundaram-1.0.1.data/scripts/test_sundaram.py,sha256=GVXG6vPXBmwLMSQ6r2vyewgHHdU1pq-FattxtebmfQA,200
+sundaram-1.0.1.dist-info/METADATA,sha256=wWf9S4aV8duTRXsXsloUfsb0W5w3X7e37_jzYimheW4,228
+sundaram-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sundaram-1.0.1.dist-info/top_level.txt,sha256=1umN0AVTeXqEcPeLMWvsOJDrcQ4JsYQpqAnU24Qvj1U,9
+sundaram-1.0.1.dist-info/RECORD,,
