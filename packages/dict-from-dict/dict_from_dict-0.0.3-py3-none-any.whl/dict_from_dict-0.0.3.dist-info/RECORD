@@ -1,0 +1,10 @@
+dict_from_dict/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+dict_from_dict/argparse_helper.py,sha256=tOTKYYyhKo8LeSFEE63NOjFN2Gj66mmvErhuw0hcACo,6979
+dict_from_dict/cli.py,sha256=HYTmCebVFqoC0A5C9Y_cHwG19pp_QA7zOC7-uz82FDk,2026
+dict_from_dict/main.py,sha256=43pb27z_B43sEmlUcJ5k0-KKLN0G3Qotjl2TXRiorJg,7875
+dict_from_dict-0.0.3.dist-info/LICENSE,sha256=eu_EojY-yOBFiUJjoOpAyoguAqCfopYosNabwxz6fLc,1071
+dict_from_dict-0.0.3.dist-info/METADATA,sha256=Kw9XpeTb__nk01tqvlKVU6ModJETVlN_fgAXnvJ5UEk,4544
+dict_from_dict-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+dict_from_dict-0.0.3.dist-info/entry_points.txt,sha256=1VObZyRzzx_fifmxUelYJULdWNO0hVJvBRI3KDW1bX8,62
+dict_from_dict-0.0.3.dist-info/top_level.txt,sha256=dZGdaTvOCE_gGQEsVkBpZbGqqGhQP2uUpuenNsakl1E,15
+dict_from_dict-0.0.3.dist-info/RECORD,,
