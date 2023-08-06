@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gen_msmask"
+version = "1.2.9"
+authors = [
+  { name="Harishguna Satgunarajah", email="satgu7@gmail.com" },
+  { name="Saumik Khan", email="saumik.13@gmail.com" },
+]
+description = "A tool to generate masks for images of multispectrum"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "ipython==8.7.0",
+    "matplotlib==3.5.1",
+    "numpy==1.23.5",
+    "opencv_python==4.6.0.66",
+    "pandas==1.4.1",
+    "rembg==2.0.29",
+    "scikit_image==0.19.3",
+    "skimage>=0.0",
+]
+
+[project.scripts]
+genmask = "gen_msmask.gen_mask:main"
+
+[project.urls]
+"Homepage" = "https://github.com/saumik13/multi-spectral-mask-generator"
+"Bug Tracker" = "https://github.com/saumik13/multi-spectral-mask-generator"

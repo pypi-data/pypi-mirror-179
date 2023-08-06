@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/gen_msmask/__init__.py
+src/gen_msmask/gen_mask.py
+src/gen_msmask.egg-info/PKG-INFO
+src/gen_msmask.egg-info/SOURCES.txt
+src/gen_msmask.egg-info/dependency_links.txt
+src/gen_msmask.egg-info/entry_points.txt
+src/gen_msmask.egg-info/requires.txt
+src/gen_msmask.egg-info/top_level.txt
