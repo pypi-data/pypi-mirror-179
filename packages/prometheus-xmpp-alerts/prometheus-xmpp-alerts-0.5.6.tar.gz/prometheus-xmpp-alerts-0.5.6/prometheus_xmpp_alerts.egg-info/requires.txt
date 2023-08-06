@@ -1,0 +1,7 @@
+aiohttp
+aiohttp_openmetrics
+bs4
+jinja2
+pytz
+pyyaml
+slixmpp
