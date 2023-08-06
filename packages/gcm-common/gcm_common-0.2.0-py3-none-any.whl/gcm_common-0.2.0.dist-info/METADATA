@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gcm_common
+Version: 0.2.0
+Summary: GCM common package
+Author-email: Batkhishig Dulamsurankhor <batkhishign55@gmail.com>
+Keywords: common,flask,gcm,python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
