@@ -1,0 +1,4 @@
+pronunciation-dictionary>=0.0.5
+pronunciation-dictionary-utils>=0.0.2
+word-to-pronunciation>=0.0.1
+ordered-set>=4.1.0
