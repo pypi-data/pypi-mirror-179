@@ -1,0 +1,2 @@
+energy-monitor>=0.7.5
+tensorflow>=2.10.0
