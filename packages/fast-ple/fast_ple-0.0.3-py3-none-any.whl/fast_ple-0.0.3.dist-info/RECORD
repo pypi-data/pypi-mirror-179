@@ -1,0 +1,15 @@
+ple/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+ple/_modidx.py,sha256=zG5DD-khx2erNbEqMytUk6y-I_MK_4S2bO9yUnpR0Ks,11291
+ple/all.py,sha256=p6E8HvGXQAAO3FyqRKjrYGWy64g9fa_BZW4IMKm7zKM,245
+ple/base_exp.py,sha256=p1_cSxdR0VVmen-qUbXgGT9dLlwKZI2t4ancF_hjHUk,6088
+ple/datasets.py,sha256=OFpo-Ok7br64XGiGNzggGvZXvjep9zoYY9yiEKjrmDU,1969
+ple/lit_model.py,sha256=AusDUx8kq9sjsUjGqE75Zx_8CAiy4eVYG1WX6pxDISE,6228
+ple/loss.py,sha256=TYb-F9JxwCyWV-MPcFgFzqUPndRUPiwmKq3voxfXDG8,10047
+ple/persistance.py,sha256=5YS2UBFAahZzM7Kmg6dRtV36j4-VC99KrQuWgDCXfYs,26516
+ple/trainer.py,sha256=CuxhUzrqy4Q-O4zQ9d305toxqV5WCiJ3_088WvSosyk,4864
+fast_ple-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fast_ple-0.0.3.dist-info/METADATA,sha256=mk9r4E-Fqxzcb7xYEo-RZiGD-q6iFRSTRCf2ELDrNkI,1437
+fast_ple-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fast_ple-0.0.3.dist-info/entry_points.txt,sha256=bNfS7fLMj3aDC32TzaG4SWBLYNSuF_ofeHGfIC4Vn-w,50
+fast_ple-0.0.3.dist-info/top_level.txt,sha256=pzQaJKBnKsqe58CY3po1-UlT8OqFPOY9lqw8yPSsVUg,4
+fast_ple-0.0.3.dist-info/RECORD,,
