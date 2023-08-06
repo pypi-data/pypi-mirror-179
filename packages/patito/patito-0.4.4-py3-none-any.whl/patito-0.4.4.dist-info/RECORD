@@ -1,0 +1,12 @@
+patito/__init__.py,sha256=BSTuaflPBdcoJKJTMGDAa7fvoJVduWb28N6Fnw_Gpns,1079
+patito/_docs.py,sha256=bobkmo8-RRdz80_KY53y_i1Gcp1WWTH5-D5ZHGidpok,161
+patito/duckdb.py,sha256=I-KZ41R1nXI4F1J5LT-irLDV8dmuGEdEnKLgKHby3NY,113624
+patito/exceptions.py,sha256=4WuaQJoc5wLUehhBRQPvL59LVFLcn_K806Z9fg0KBss,1262
+patito/polars.py,sha256=U-yeFvp2umYRA_Ih76i9IQzsOVyq1hk278Fv_8bMMrI,26850
+patito/pydantic.py,sha256=Ofr6z_05RdZsvbOjV8NiyG83_DOgBtY0-H5sl01OEW4,55016
+patito/sql.py,sha256=XB9T6HB1q0SYEKP4f3-ljyt-Oa_IGaaOpGx6pqLLXxw,3263
+patito/validators.py,sha256=YhDMgua8c7Hs97pmscX3vIs-kqzq3vrAjAomYR42IfI,8061
+patito-0.4.4.dist-info/LICENSE,sha256=0LkhXGFNXIt9gW0zs6_9YZynb4DDt3OZaRXz7DpD0qQ,1077
+patito-0.4.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+patito-0.4.4.dist-info/METADATA,sha256=6pOuKKEIydr_WhOW7_LSibpAYOTdoAPfw7XGP4KZdPU,14551
+patito-0.4.4.dist-info/RECORD,,
