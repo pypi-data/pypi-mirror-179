@@ -1,0 +1,10 @@
+_mecab.cpython-39-darwin.so,sha256=TdX1dZbSVtvUWTPZx4ynV_9miM4GHACG6wuovozTtH8,830824
+mecab/__init__.py,sha256=CFMBb98bRmy9aR_Zv1fI8TXi3HCL9J_HuJuWB3BJAlw,54
+mecab/mecab.py,sha256=2Pg60TRHS-24SpDI6Jp5SXKPhfyb7QA0DhwATnB18uQ,2837
+mecab/mecabrc,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_mecab_ko-1.2.1.data/data/scripts/build-mecab-ko.py,sha256=YNDHP7l1lf_9zQJflpzFfR3AyesDqSPXSr6N374mzMk,3045
+python_mecab_ko-1.2.1.dist-info/LICENSE,sha256=2nSpg-6mORA7XxTcEp1DzHM4vtjYHfcDUHMCGQr8qlE,1476
+python_mecab_ko-1.2.1.dist-info/METADATA,sha256=s5kjgK9yX39w1n9gayJpgAGfHgY0bMLdBfj5OiMgGoA,2727
+python_mecab_ko-1.2.1.dist-info/WHEEL,sha256=C_UN2A-Q94yg5uF00Lizg2aQEZjfzpeyFE_wdLoeYLk,108
+python_mecab_ko-1.2.1.dist-info/top_level.txt,sha256=Lf8XT2zNJYT5il6pTUd9pbfHEiuUp-0mQUBnr3UIFec,13
+python_mecab_ko-1.2.1.dist-info/RECORD,,
