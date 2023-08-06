@@ -1,0 +1,12 @@
+pyproject_api/__init__.py,sha256=VkPpYBQpOLwQH8SmJ3qfypb21yjYkh2N2DfulwAJE4A,855
+pyproject_api/_backend.py,sha256=KnomSCH2IczAY2vgalS82WSjUehf6bGQXMeO2OjZA_M,4740
+pyproject_api/_backend.pyi,sha256=3Yb33lKYBrHf1jTkId2ov69yXTSkZO-byvRY-s0a4RQ,637
+pyproject_api/_frontend.py,sha256=Q2mywtU4a4v8-yz5r3J6WTLYxlwedVcISKnkvdFaMpc,20752
+pyproject_api/_util.py,sha256=1-ih12u3DAJHTap0-urvL9L4r8V5v9x7CDoCa-nEoMU,526
+pyproject_api/_version.py,sha256=4q8_sylp0L-BPur66cws4hHWElHjorBkNlk1qnKAgrY,176
+pyproject_api/_via_fresh_subprocess.py,sha256=Hxos5d_vWr219QdMKT0h7w4PyE0qc4wu0jMubxKVk5g,2729
+pyproject_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyproject_api-1.2.0.dist-info/METADATA,sha256=17F_QHNDv6Omkop3clzyGvlBKSI1Q5huwcmwHmyfl7o,2858
+pyproject_api-1.2.0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+pyproject_api-1.2.0.dist-info/licenses/LICENSE,sha256=kOJeH68qSq6o2V7o5_VziwUqGswMnFgGgQH5Mahr1Yg,1023
+pyproject_api-1.2.0.dist-info/RECORD,,
