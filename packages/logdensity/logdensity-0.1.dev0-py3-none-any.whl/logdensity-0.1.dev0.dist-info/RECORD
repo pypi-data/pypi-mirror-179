@@ -1,0 +1,11 @@
+logdensity/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logdensity/__main__.py,sha256=YrccC5BNrqcx29meN90OUygdur4AP7ZjM27h8uKyG5I,157
+logdensity/arguments.py,sha256=djNMCUJanqZ8jMNzdEo3rrm05aRKJNQC5us164u_5rs,1534
+logdensity/runner.py,sha256=HP_THHH7JN-nTofhTtUHgLltxS9kCpJJXSAFN6CKouM,1671
+logdensity-0.1.dev0.dist-info/COPYING,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logdensity-0.1.dev0.dist-info/LICENSE,sha256=ve-m46cPoEm1vX8TIk_pL954D3LS7DNbP-PL5Jhj6xg,35079
+logdensity-0.1.dev0.dist-info/METADATA,sha256=Gcr06sQ4yFZOii3YhLPiTM1JqbMOR2k-gl3FNPccRLk,1018
+logdensity-0.1.dev0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+logdensity-0.1.dev0.dist-info/entry_points.txt,sha256=ucyyjFURF5NoK4_iaqKaQxXWiGvLwwUyIiBxCS3tnNQ,53
+logdensity-0.1.dev0.dist-info/top_level.txt,sha256=M52PXBZSth4SGpeeAxzjU8GUliMEC13yAXNcOCOgtwY,11
+logdensity-0.1.dev0.dist-info/RECORD,,
