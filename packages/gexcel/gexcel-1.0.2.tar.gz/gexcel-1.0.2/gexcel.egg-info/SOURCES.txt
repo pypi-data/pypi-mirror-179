@@ -1,0 +1,8 @@
+setup.py
+gexcel/__init__.py
+gexcel/gexcel.py
+gexcel.egg-info/PKG-INFO
+gexcel.egg-info/SOURCES.txt
+gexcel.egg-info/dependency_links.txt
+gexcel.egg-info/requires.txt
+gexcel.egg-info/top_level.txt
