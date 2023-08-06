@@ -1,0 +1,8 @@
+
+[dev]
+tqdm
+bumpver
+pip-tools
+build
+twine
+pytest
