@@ -1,0 +1,3 @@
+[console_scripts]
+ostop=ostop.main:main
+

@@ -1,0 +1,10 @@
+ostop/__init__.py,sha256=kSUZ9gKJkMNkjoEz-nXmuMCB_nzPMm4vBW1INsEivMs,76
+ostop/linux.py,sha256=5FLet5JU4XhhtjG1jgDaO3AjcvphwJM_QLvOk2D9-e0,5562
+ostop/mac.py,sha256=2DgxH2gx9s8Rv-Zr156A4jTYra0mYG6b3Pu9hhDTGT0,5796
+ostop/main.py,sha256=bRRhw72HtRHSTmIeSvmTFAlIxIFF0-XfdDbiFi2_9iA,1036
+ostop/windows.py,sha256=oDOxpffDkL2V6bWc5FaTd9ygOphQx3SThEEGzepDWq4,5214
+ostop-1.5.dist-info/entry_points.txt,sha256=ZPwjon-KQiabc5lraDnrAYgY7cMt_fcOcOxd4TFrYqU,41
+ostop-1.5.dist-info/LICENSE,sha256=BcXWuw6n_No46-ZR5moI-Ml_n1Mt69sIo0o-cLSpFUc,1070
+ostop-1.5.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+ostop-1.5.dist-info/METADATA,sha256=pa4JJOIz7dHq5pwM1zoIx-aCKwbNQRfgzzkK_swGLno,3141
+ostop-1.5.dist-info/RECORD,,
