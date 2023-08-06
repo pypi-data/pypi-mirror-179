@@ -1,0 +1,35 @@
+This is a tori name entity recognizer using spacy splitting names into FORENAMES and SURNAMES
+
+| Feature | Description |
+| --- | --- |
+| **Name** | `es_tori_sep` |
+| **Version** | `0.0.1` |
+| **spaCy** | `>=3.4.3,<3.5.0` |
+| **Default Pipeline** | `tok2vec`, `ner` |
+| **Components** | `tok2vec`, `ner` |
+| **Vectors** | 0 keys, 0 unique vectors (0 dimensions) |
+| **Sources** | n/a |
+| **License** | `MIT` |
+| **Author** | [emptor]() |
+
+### Label Scheme
+
+<details>
+
+<summary>View label scheme (2 labels for 1 components)</summary>
+
+| Component | Labels |
+| --- | --- |
+| **`ner`** | `FORENAMES`, `SURNAMES` |
+
+</details>
+
+### Accuracy
+
+| Type | Score |
+| --- | --- |
+| `ENTS_F` | 98.88 |
+| `ENTS_P` | 98.88 |
+| `ENTS_R` | 98.89 |
+| `TOK2VEC_LOSS` | 768.33 |
+| `NER_LOSS` | 2213.93 |

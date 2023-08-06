@@ -1,0 +1,60 @@
+{
+  "lang":"es",
+  "name":"tori_sep",
+  "version":"0.0.1",
+  "description":"This is a tori name entity recognizer using spacy splitting names into FORENAMES and SURNAMES",
+  "author":"emptor",
+  "email":"",
+  "url":"",
+  "license":"MIT",
+  "spacy_version":">=3.4.3,<3.5.0",
+  "spacy_git_version":"63673a792",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "FORENAMES",
+      "SURNAMES"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.9888282541,
+    "ents_p":0.988751631,
+    "ents_r":0.988904889,
+    "ents_per_type":{
+      "FORENAMES":{
+        "p":0.9880911909,
+        "r":0.988199882,
+        "f":0.9881455335
+      },
+      "SURNAMES":{
+        "p":0.9894120117,
+        "r":0.9896098961,
+        "f":0.989510944
+      }
+    },
+    "tok2vec_loss":7.6832795116,
+    "ner_loss":22.1393216656
+  },
+  "requirements":[
+
+  ]
+}

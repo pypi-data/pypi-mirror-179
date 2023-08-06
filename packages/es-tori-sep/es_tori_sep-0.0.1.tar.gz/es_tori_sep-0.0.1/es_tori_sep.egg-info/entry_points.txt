@@ -1,0 +1,3 @@
+[spacy_models]
+es_tori_sep = es_tori_sep
+
