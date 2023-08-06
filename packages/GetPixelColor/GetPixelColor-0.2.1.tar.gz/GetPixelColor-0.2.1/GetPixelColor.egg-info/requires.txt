@@ -1,0 +1,8 @@
+Pillow
+numpy
+pyautogui
+
+[:platform_system == "darwin"]
+pyobjc
+pyobjc-core
+pasteboard
