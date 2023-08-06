@@ -1,0 +1,11 @@
+ypy_websocket/__init__.py,sha256=KYXgPxIJ91v_vvmUSyK0lhfcEKxLSd7gBCbLAV16qvA,183
+ypy_websocket/awareness.py,sha256=cYe5s4LfXZHfbNhlIElYu4V84bDgiqbRrX7hsvLIRwU,2313
+ypy_websocket/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ypy_websocket/websocket_provider.py,sha256=T-nKXE5KdrTazoELsM7y9yzOcIxu5qAT1xNzVhkA9ss,1256
+ypy_websocket/websocket_server.py,sha256=vtoyAtwkaIlD1H-m3XqjEE3ANcEK8Jo_FJkxRLriS6g,5382
+ypy_websocket/ystore.py,sha256=6DoB0I-H8lOVHywRYCRdpT8qQv7rtw4a4L3X_BhFsrk,10115
+ypy_websocket/yutils.py,sha256=d3ParzboULnmPgfFnxr2T95LlCFK8NI5ROiKf1JDsGs,4020
+ypy_websocket-0.8.1.dist-info/METADATA,sha256=AgWFlUVEcxdUkQtdjXf_z5mWEMqmh-383CL18wlz3Mk,2539
+ypy_websocket-0.8.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+ypy_websocket-0.8.1.dist-info/licenses/LICENSE,sha256=pmG-JVX79jHySF7yebLqNCfMiqZA1UK6I_15iW47NlM,1071
+ypy_websocket-0.8.1.dist-info/RECORD,,
