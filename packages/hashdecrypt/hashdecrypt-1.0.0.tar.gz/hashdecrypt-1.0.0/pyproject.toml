@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hashdecrypt"
+version = "1.0.0"
+description = "Decrypt Metamask, Brawe, Ronin, BinanceChain vault data via Python"
+authors = ["M16"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
