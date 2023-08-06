@@ -1,0 +1,3 @@
+[console_scripts]
+palmiche_gmxtrjconv = palmiche.utils.gmxtrjconv:main
+palmiche_job_launch = palmiche.utils.tools:job_launch
