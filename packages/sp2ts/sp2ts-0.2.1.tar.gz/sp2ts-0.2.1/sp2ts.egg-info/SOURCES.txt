@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Tests/__init__.py
+Tests/test_sp2ts.py
+sp2ts/__init__.py
+sp2ts/sp2ts.py
+sp2ts.egg-info/PKG-INFO
+sp2ts.egg-info/SOURCES.txt
+sp2ts.egg-info/dependency_links.txt
+sp2ts.egg-info/entry_points.txt
+sp2ts.egg-info/requires.txt
+sp2ts.egg-info/top_level.txt
