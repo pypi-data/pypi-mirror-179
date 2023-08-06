@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+musclex_ccp13.egg-info/PKG-INFO
+musclex_ccp13.egg-info/SOURCES.txt
+musclex_ccp13.egg-info/dependency_links.txt
+musclex_ccp13.egg-info/top_level.txt
+musclexflibs/ccp13/BCKSMOOTH.f
+musclexflibs/ccp13/BGCSYM2.f
+musclexflibs/ccp13/BGWSRT2.f
+musclexflibs/ccp13/BLUR.f
+musclexflibs/ccp13/BLURLIMITS.f
+musclexflibs/ccp13/fitpack.f
+musclexflibs/ccp13/sort.f
