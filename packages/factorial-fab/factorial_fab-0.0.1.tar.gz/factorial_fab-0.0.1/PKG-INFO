@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: factorial_fab
+Version: 0.0.1
+Summary: Calculo fatorial utilizando o modulo fatorial da lib math
+Home-page: https://github.com/fabricioeirim/package-template
+Author: Fabricio
+Author-email: fabricioeirim@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# package_name
+
+Description. 
+The package factorial is used to:
+	calculo:
+	- calculo fatorial
+	saÃ­da:
+	- f
+	
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install factorial
+```
+
+## Author
+Fabricio
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

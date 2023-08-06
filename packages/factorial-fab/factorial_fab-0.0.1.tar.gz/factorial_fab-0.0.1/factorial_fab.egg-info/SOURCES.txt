@@ -1,0 +1,14 @@
+README.md
+setup.py
+calculo_fatorial/__init__.py
+calculo_fatorial/fatorial/__init__.py
+calculo_fatorial/fatorial/fatorial_fab.py
+calculo_fatorial/fatorial/file2_name.py
+calculo_fatorial/module2_name/__init__.py
+calculo_fatorial/module2_name/file1_name.py
+calculo_fatorial/module2_name/file2_name.py
+factorial_fab.egg-info/PKG-INFO
+factorial_fab.egg-info/SOURCES.txt
+factorial_fab.egg-info/dependency_links.txt
+factorial_fab.egg-info/requires.txt
+factorial_fab.egg-info/top_level.txt
