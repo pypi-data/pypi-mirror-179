@@ -1,0 +1,3 @@
+[console_scripts]
+metaai-compiler=metaai_compiler.main:main
+

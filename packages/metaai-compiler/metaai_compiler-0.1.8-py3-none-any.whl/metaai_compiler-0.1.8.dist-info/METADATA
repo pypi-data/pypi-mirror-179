@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: metaai-compiler
+Version: 0.1.8
+Summary: kfp component compiler with metaai
+License: MIT
+Author-email: zt <zt@zjuici.com>
+Requires-Python: >=3.6
+Requires-Dist: kfp==1.8.13
