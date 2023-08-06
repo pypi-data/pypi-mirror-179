@@ -1,0 +1,23 @@
+[
+  "tests/test_collections.py::test_create_collections_01",
+  "tests/test_collections.py::test_create_collections_multiple",
+  "tests/test_collections.py::test_create_collections_multiple01",
+  "tests/test_collections.py::test_create_collections_multiple02",
+  "tests/test_collections.py::test_create_single_collection",
+  "tests/test_collections.py::test_create_single_collection02",
+  "tests/test_collections.py::test_delete_collection",
+  "tests/test_collections.py::test_delete_collections_recursively",
+  "tests/test_collections.py::test_delete_collections_recursively02",
+  "tests/test_collections.py::test_list_colls",
+  "tests/test_collections.py::test_list_colls_only_names",
+  "tests/test_collections.py::test_list_colls_only_names_pprint",
+  "tests/test_collections.py::test_list_colls_pprint",
+  "tests/test_colls.py::test_coll1",
+  "tests/test_colls.py::test_create_collections_01",
+  "tests/test_colls.py::test_create_collections_multiple",
+  "tests/test_colls.py::test_list_colls",
+  "tests/test_colls.py::test_list_colls_only_names",
+  "tests/test_colls.py::test_list_colls_only_names_pprint",
+  "tests/test_colls.py::test_list_colls_pprint",
+  "tests/test_colls.py::test_test3"
+]
