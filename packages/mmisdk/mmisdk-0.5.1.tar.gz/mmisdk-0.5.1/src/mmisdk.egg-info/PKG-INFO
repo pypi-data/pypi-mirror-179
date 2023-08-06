@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mmisdk
+Version: 0.5.1
+Summary: The package `mmisdk` has been renamed `metamask-institutional.sdk`, and is no longer maintained under the name `mmisdk`. Use instead https://pypi.org/project/metamask-institutional.sdk.
+Home-page: https://pypi.org/project/metamask-institutional.sdk/
+Author: Xavier Brochard
+Author-email: xavier.brochard@consensys.net
+Project-URL: Documentation, https://consensys.gitlab.io/codefi/products/mmi/mmi-sdk-py/sdk-python/
+Keywords: python sdk custodian interact get create transaction
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.6
+Provides-Extra: dev
+License-File: AUTHORS.md
