@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/test_package/__init__.py
+src/test_package/inputer.py
+src/test_package/output/__init__.py
+src/test_package/output/printer.py
+src/test_package_9991.egg-info/PKG-INFO
+src/test_package_9991.egg-info/SOURCES.txt
+src/test_package_9991.egg-info/dependency_links.txt
+src/test_package_9991.egg-info/requires.txt
+src/test_package_9991.egg-info/top_level.txt
+test/test.py
