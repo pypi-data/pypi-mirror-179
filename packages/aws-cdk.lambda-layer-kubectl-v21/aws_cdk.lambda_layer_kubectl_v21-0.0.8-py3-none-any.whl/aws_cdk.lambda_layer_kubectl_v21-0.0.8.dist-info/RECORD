@@ -1,0 +1,10 @@
+aws_cdk/lambda_layer_kubectl_v21/__init__.py,sha256=RmiaET2IHGrEhheaNIx3rQYSHOicenoKbW-Htg8NRWI,1997
+aws_cdk/lambda_layer_kubectl_v21/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/lambda_layer_kubectl_v21/_jsii/__init__.py,sha256=r0b-jl8Q2iYbnGi_PfcX_DG_bsRuXV_UdgxEDuweHow,437
+aws_cdk/lambda_layer_kubectl_v21/_jsii/lambda-layer-kubectl-v21@0.0.8.jsii.tgz,sha256=MW2goP1KtAkxNjWn7FQpxKG25rzEkjhC3yWfCjN2EVA,27290773
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/METADATA,sha256=UZk_x9XGElFaZjM1Rh8yjU1yNu4yg_tmJdX0_DgiTKc,2152
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/NOTICE,sha256=1CkO1kwu3Q_OHYTj-d-yiBJA_lNN73a4zSntavaD4oc,67
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.lambda_layer_kubectl_v21-0.0.8.dist-info/RECORD,,
