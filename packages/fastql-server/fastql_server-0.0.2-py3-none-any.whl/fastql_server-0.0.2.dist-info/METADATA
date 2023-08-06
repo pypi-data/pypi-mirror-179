@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fastql-server
+Version: 0.0.2
+Summary: first
+Home-page: https://github.com/happy-machine/FastQL
+Author: happy-machine
+Author-email: freshbbk@me.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: rdflib
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: psycopg2-binary
+Requires-Dist: jinja2
+Requires-Dist: jprops
+
