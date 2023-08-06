@@ -1,0 +1,2 @@
+[console_scripts]
+zefactor = zefactor.run.runner_manager:main
