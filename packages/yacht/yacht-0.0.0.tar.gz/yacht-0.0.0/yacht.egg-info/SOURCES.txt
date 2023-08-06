@@ -1,0 +1,10 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+yacht/__init__.py
+yacht.egg-info/PKG-INFO
+yacht.egg-info/SOURCES.txt
+yacht.egg-info/dependency_links.txt
+yacht.egg-info/top_level.txt

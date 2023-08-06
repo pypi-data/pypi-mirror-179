@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: yacht
+Version: 0.0.0
+Summary: A WIP project management utility.
+Home-page: https://github.com/parafoxia/yacht
+Author: Ethan Henderson
+Author-email: ethan.henderson.1998@gmail.com
+License: BSD 3-Clause 'New' or 'Revised' License
+Project-URL: Documentation, https://parafoxia.github.io/yacht/
+Project-URL: Source, https://github.com/parafoxia/yacht
+Project-URL: Bug Tracker, https://github.com/parafoxia/yacht/issues
+Project-URL: CI, https://github.com/parafoxia/yacht/actions
+Project-URL: Changelog, https://github.com/parafoxia/yacht/releases
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.0,<3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Yacht
+
+## License
+
+The Yacht module for Python is licensed under the [BSD 3-Clause License](https://github.com/parafoxia/yacht/blob/main/LICENSE).
