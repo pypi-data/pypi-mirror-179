@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+change_sequence/__main__.py
+change_sequence/change_seq.py
+change_sequence/test_convs.py
+change_sequence.egg-info/PKG-INFO
+change_sequence.egg-info/SOURCES.txt
+change_sequence.egg-info/dependency_links.txt
+change_sequence.egg-info/top_level.txt
