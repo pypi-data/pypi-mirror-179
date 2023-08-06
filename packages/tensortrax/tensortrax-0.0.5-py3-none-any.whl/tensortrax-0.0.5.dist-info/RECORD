@@ -1,0 +1,14 @@
+tensortrax/__init__.py,sha256=3HSoNMv7aSvi5Xf_RgWvMX2KlXzU3R9kAVI5vRt-k9c,942
+tensortrax/_helpers.py,sha256=gpyqOjhzDNj87n_qVLBoNdNnUKblwdiZbV4guQgY6g0,1045
+tensortrax/_tensor.py,sha256=nW_OaChYpRmDVLyY7nAEcsG1VRpTNHIy_ixj1LTHKuI,6506
+tensortrax/math/__init__.py,sha256=0aV7LsYgNin-w1FPjjDRbAtO9171uYQ7UZUxUCvT8Do,1021
+tensortrax/math/_array.py,sha256=eHiVRwzPUYaOIOuSIeTEOMFA8LOxDgKbNnfGn_4u--Q,2442
+tensortrax/math/_tensor.py,sha256=gQz_BbcPKfXztBvEqq-RiSNqA8icXYfQR6ncgyHVgwg,5915
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hessian.py,sha256=JfvenEOTcd6LdDHJbvcGID9ZK1dMk14MgR4o6vpe1ds,2166
+tests/test_hessian_vector_product.py,sha256=JB29Nfpp6ca7QIOLyiuAsPAjgBbZgYQ8wXFE3lA6r0w,833
+tensortrax-0.0.5.dist-info/LICENSE,sha256=prjaSibx57r8FiM2zsGzvtWZz6KTUkWjMC8S2JoBaL8,35144
+tensortrax-0.0.5.dist-info/METADATA,sha256=WzZ7z3ZClR2YKbJBim7GdsGVA8pPYTsEpi4L6TV3_SI,48751
+tensortrax-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tensortrax-0.0.5.dist-info/top_level.txt,sha256=LpcT02mCaOZ-m6cBVu1POqUoAEANFyEhbWrdOEn7WNQ,17
+tensortrax-0.0.5.dist-info/RECORD,,
