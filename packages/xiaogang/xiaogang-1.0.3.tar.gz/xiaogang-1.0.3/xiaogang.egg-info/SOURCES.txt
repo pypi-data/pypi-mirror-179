@@ -1,0 +1,6 @@
+README.md
+setup.py
+xiaogang.egg-info/PKG-INFO
+xiaogang.egg-info/SOURCES.txt
+xiaogang.egg-info/dependency_links.txt
+xiaogang.egg-info/top_level.txt
