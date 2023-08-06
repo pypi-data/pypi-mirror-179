@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "GSAE"
+version = "0.2"
+authors = [
+  { name="Egbert Castro", email="egbert.castro@yale.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/KrishnaswamyLab/GSAE"
+"Bug Tracker" = "https://github.com/KrishnaswamyLab/GSAE/issues"
