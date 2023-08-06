@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gcm_common"
+version = "0.2.0"
+license = "MIT"
+authors = [
+  { name="Batkhishig Dulamsurankhor", email="batkhishign55@gmail.com" },
+]
+description = "GCM common package"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["gcm", "common", "flask", "python"]
+packages=[{ include = "gcm_common" }]

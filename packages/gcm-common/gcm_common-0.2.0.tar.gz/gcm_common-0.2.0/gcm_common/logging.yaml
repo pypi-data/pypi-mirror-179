@@ -1,0 +1,19 @@
+---
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s [%(process)d] : %(message)s"
+handlers:
+    customLog:
+        class: gcm_common.mplog.MultiProcessingLog
+        level: DEBUG
+        formatter: simple
+        name: error
+        mode: a+
+        maxsize: 10485760
+        rotate: 99
+loggers:
+    fileLogger:
+        level: DEBUG
+        handlers: [customLog]
