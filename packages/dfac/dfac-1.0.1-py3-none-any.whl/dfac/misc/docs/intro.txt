@@ -1,0 +1,18 @@
+Features
+A. String s string
+1. AlphaNumeric n alphanumeric
+2. Alphabet a alphabet
+3. Alphabet Upper u upper
+4. Alphabet Lower l lower
+5. AlphaSymbolic y alphasymbolic
+B.Arrays  a array
+1. AlphaNumeric n alphanumeric
+2. Alphabet a alphabet
+3. Alphabet Upper u upper
+4. Alphabet Lower l lower
+5. AlphaSymbolic y alphasymbolic
+6. Integer i integer
+7. Decimal d decimal
+8. Symbolic o symbolic
+
+-t --datatype -v --valuetype -0 --length -L --low -H --high -x --file
