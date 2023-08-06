@@ -1,0 +1,12 @@
+wordhasher/__init__.py,sha256=oYI4lsAl66h9iLi6oOFPTnbP3d6LAU0xQp92xAjRqNM,58
+wordhasher/__main__.py,sha256=N596ekYhlvPsBul_CtX2dgLkScw3fBl9zV8OobjvrQk,407
+wordhasher/adjectives.txt,sha256=xVe1h7wTNzSS9RuwrGGogQIJkQOVYBDfOa_vrcdGjeo,18365
+wordhasher/nouns.txt,sha256=wp74FPlHWaVEGQuXRNK-he9lDkv4OwHJ1qRBba_9DQU,60741
+wordhasher/verbs.txt,sha256=n29CIfjWrZ1p6l6OaMrHOWBYXtk25PUz6sIw40h-ar0,22277
+wordhasher/wordhasher.py,sha256=_bTsn7cF71K_lv3SAvR1vd-7zXvs35jM6uH9hreyD-8,1828
+wordhasher-0.1.0.dist-info/LICENSE,sha256=C_YGd76YRfqJzcg2sB1JFmT-KjAA-yAGXxlypZyV72Q,1067
+wordhasher-0.1.0.dist-info/METADATA,sha256=NYU5qkGZKipNrnC07kCgIeDazAxqaPjk1XtyvQ-A0dk,1501
+wordhasher-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+wordhasher-0.1.0.dist-info/entry_points.txt,sha256=R44-_QyUxWkHuRKdodPerzTA7zrhpUPezO1qyL3J0js,56
+wordhasher-0.1.0.dist-info/top_level.txt,sha256=w6CP7e9jPsPKipDhlqYDjj1qiZZ2QCjksSM2IEifnP8,11
+wordhasher-0.1.0.dist-info/RECORD,,
