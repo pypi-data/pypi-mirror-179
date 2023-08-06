@@ -1,0 +1,10 @@
+pixpy/__init__.py,sha256=BUSNlCFIjbfH0g-RWKtTXSE6sW4ddOGF1DNQCtLcm3U,96
+pixpy/__main__.py,sha256=5jzaImf7BD5pGPCelpiHtaTQYKn6l6A5Ph8UDc0alWU,41
+pixpy/editor.py,sha256=v3e__cJYkxJeZJ_fKgB8EvHlUKUf_nzh6vOGWeAB3tc,4932
+pixpy/pixpy.cpython-38-darwin.so,sha256=wiUYrB7hD6nq37MnGRvJLZdzueQv6HbSzHQiwqE0tl8,1694088
+pixpy/repl.py,sha256=Uj1tgnGKpA0IHx19XZHtB7s-0q1ApAzFMorHFph4VpY,2928
+pixpy-0.1.3.dist-info/LICENSE.md,sha256=nturymKlOQNKDnN_6Lk9kGPZWxhqevp0AItiJov6_PQ,1053
+pixpy-0.1.3.dist-info/METADATA,sha256=fGKZ2VYXH04EI5_XuHblsg8e0KsEbu1qPz0_7GbVH8A,4647
+pixpy-0.1.3.dist-info/WHEEL,sha256=puIwz0cfHyPAiPBppYaNASot-btuXEgMfsO5iVTKUzY,102
+pixpy-0.1.3.dist-info/top_level.txt,sha256=SveNhvLGcEfnlVPRFn8hM5bctMIrMKuBi8RKfcl5QE8,6
+pixpy-0.1.3.dist-info/RECORD,,
