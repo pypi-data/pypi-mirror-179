@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+eternalblu/__init__.py
+eternalblu/faculty.py
+eternalblu/printer.py
+eternalblu/student.py
+eternalblu/test.py
+eternalblu.egg-info/PKG-INFO
+eternalblu.egg-info/SOURCES.txt
+eternalblu.egg-info/dependency_links.txt
+eternalblu.egg-info/requires.txt
+eternalblu.egg-info/top_level.txt
