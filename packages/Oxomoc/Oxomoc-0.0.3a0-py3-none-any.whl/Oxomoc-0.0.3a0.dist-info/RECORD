@@ -1,0 +1,11 @@
+Oxomoc-0.0.3a0.data/scripts/oxomoc_run,sha256=_7DHiaZvxXxDlpnwu7ish1S1F90zzFpkg1g4uVpZtuY,3604
+oxomoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oxomoc/_version.py,sha256=B2UuY8FtmNrU2g-gXNKrmPcy0a0P7GTzcAgeMDJXp0I,87
+oxomoc/checkpoint.py,sha256=X3UTul13HjP_ZdbuGCG7ii2o7a8QbfXWQwqcAM51LY4,7100
+oxomoc/ckpselective.py,sha256=heeJEqVgbpnSkNE5dB-HjAU7AivfOO5gPMumYKo3Hr4,11306
+oxomoc/harvester.py,sha256=qm5mav2Eik7lYWAcZqmLSYNLbALycUEi3_SOPRFgFmE,7725
+Oxomoc-0.0.3a0.dist-info/LICENSE,sha256=ozk0vJKCp_odiH4zuxo1F9LhMTucZyCgyMt5Fo1Oi6o,1513
+Oxomoc-0.0.3a0.dist-info/METADATA,sha256=dBo14zO7QL9F8Gc6z5cRfPs7Np0ydu9e_hxSVIJqLtc,4913
+Oxomoc-0.0.3a0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+Oxomoc-0.0.3a0.dist-info/top_level.txt,sha256=8kt9d52hZh0bRJCOuwEydRVu7X_rrl_YXgnSVjgfzFU,7
+Oxomoc-0.0.3a0.dist-info/RECORD,,
