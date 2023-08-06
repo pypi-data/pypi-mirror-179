@@ -1,0 +1,15 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycodya/__init__.py,sha256=gTm2o5FTS9XE3saJ-LZIhXKjdEPiUiagK2XCCeCMhGo,72
+pycodya/codya.py,sha256=XWIAzlRuLk36cUtQn7Z_qSNXIQGGbSJ5z-_maPs52s4,7020
+pycodya/codya_api.py,sha256=qMG42H1Glx4wdCa2hnWF4eD7co38VgCpAou1l_Y59hA,6833
+pycodya/config.py,sha256=KS6_4FHMJfK1jo9Kq6pHlX_7mQjsI1D4fahB8hNb7Ck,464
+pycodya/main.py,sha256=Ary56hq3W6Y92moxsD-RbTJDKs1hRbwJjZm3Kk7V5a4,928
+pycodya/run_tests.py,sha256=c_QRSd_clbLUj-lmAxWMrW0V784TbWGRuy8qQVS97vA,3326
+pycodya/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycodya/helpers/tools.py,sha256=rqfKvwTRS-DAfrEp9TRWgGMD45qH2GK9YP9ll9OZsLo,1371
+pycodya-0.2.1.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+pycodya-0.2.1.dist-info/METADATA,sha256=vVgwA6K8Y6H-xZwcRp1JN6qlnnCozS27wy1XB2037kI,12393
+pycodya-0.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pycodya-0.2.1.dist-info/entry_points.txt,sha256=Fd0FC47ip8fvPiazOgBVmpEPwlqw9KHi25JYEmNwlQk,46
+pycodya-0.2.1.dist-info/top_level.txt,sha256=MBR-vvWFp0Q1iFdS958cOMHuy7ZGtKgSaodMjImVi1U,17
+pycodya-0.2.1.dist-info/RECORD,,
