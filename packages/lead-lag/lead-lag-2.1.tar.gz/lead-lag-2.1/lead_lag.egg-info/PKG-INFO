@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: lead-lag
+Version: 2.1
+Summary: Lead lag estimation with a O(n log n) complexity.
+Author: Philippe Remy
+License: Open Source
+License-File: LICENSE
