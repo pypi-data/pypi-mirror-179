@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+coeffs/HamakerHBACoeff.h5
+coeffs/HamakerLBACoeff.h5
+coeffs/element_beam_HBA.coeff
+coeffs/element_beam_LBA.coeff
+coeffs/oskar.h5
+everybeam.egg-info/PKG-INFO
+everybeam.egg-info/SOURCES.txt
+everybeam.egg-info/dependency_links.txt
+everybeam.egg-info/not-zip-safe
+everybeam.egg-info/top_level.txt
