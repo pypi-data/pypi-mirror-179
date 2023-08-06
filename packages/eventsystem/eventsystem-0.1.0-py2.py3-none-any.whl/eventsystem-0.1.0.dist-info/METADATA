@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eventsystem
+Version: 0.1.0
+Summary: Convenient Event System
+Keywords: pymitter,event,system
+Author-email: baterflyrity <baterflyrity@yandex.ru>
+Description-Content-Type: text/markdown
+Classifier: Operating System :: OS Independent
+Requires-Dist: pymitter >=0.4.0
+Project-URL: Documentation, https://pypi.org/project/eventsystem
+Project-URL: Home, https://pypi.org/project/eventsystem
+
+
