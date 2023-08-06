@@ -1,0 +1,7 @@
+README.md
+naquadria.py
+setup.py
+naquadria.egg-info/PKG-INFO
+naquadria.egg-info/SOURCES.txt
+naquadria.egg-info/dependency_links.txt
+naquadria.egg-info/top_level.txt
