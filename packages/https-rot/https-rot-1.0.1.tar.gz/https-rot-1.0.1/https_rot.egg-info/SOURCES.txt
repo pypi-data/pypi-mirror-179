@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+https_rot.egg-info/PKG-INFO
+https_rot.egg-info/SOURCES.txt
+https_rot.egg-info/dependency_links.txt
+https_rot.egg-info/requires.txt
+https_rot.egg-info/top_level.txt
