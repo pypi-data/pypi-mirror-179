@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: h2o-nitro-plotly
+Version: 0.1.0
+Summary: Plotly plugin for H2O Nitro
+Home-page: https://github.com/h2oai/nitro-plotly
+Author: Prithvi Prabhu
+Author-email: prithvi.prabhu@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/h2oai/nitro-plotly
+Project-URL: Source, https://github.com/h2oai/nitro-plotly
+Project-URL: Issues, https://github.com/h2oai/nitro-plotly/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Widget Sets
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: plotly
+Requires-Dist: h2o-nitro (>=0.9.2)
+
+# Plotly plugin for H2O Nitro
+
+This plugin lets you use [Plotly](https://plotly.com/python/) visualizations in [Nitro](https://github.com/h2oai/nitro)
+apps.
+
+## Demo
+
+![Demo](demo.gif)
+
+[View source](examples/plotly_basic.py).
+
+## Install
+
+```
+pip install h2o-nitro-plotly
+```
+
+## Usage
+
+1. Import the plugin:
+
+```py 
+from h2o_nitro_plotly import plotly_plugin, plotly_box
+```
+
+2. Register the plugin:
+
+```py 
+nitro = View(main, title='My App', caption='v1.0', plugins=[plotly_plugin()])
+```
+
+3. Use the plugin:
+
+```py 
+# Make a plot
+df = px.data.iris()
+fig = px.scatter(df, x="sepal_width", y="sepal_length", color="species")
+
+# Display the plot
+view(plotly_box(fig))
+```
+
+## Change Log
+
+- v0.1.0 - Dec 1, 2022
+    - Initial Version
+
+
+
