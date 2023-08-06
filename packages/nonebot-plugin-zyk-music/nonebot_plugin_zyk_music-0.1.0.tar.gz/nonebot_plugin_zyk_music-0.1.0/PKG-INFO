@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nonebot_plugin_zyk_music
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/ZYKsslm/nonebot_plugin_zyk_music
+Author: ZSSLM
+Author-email: 3119964735@qq.com
+License: MIT License
+Platform: UNKNOWN
+Requires: fake_useragent
+Requires: httpx
+Requires: aiohttp
+Requires: colorama
+Requires: nonebot2
+Requires: nonebot_adapter_onebot
+
+This is a simple plugin to pick up music
+
