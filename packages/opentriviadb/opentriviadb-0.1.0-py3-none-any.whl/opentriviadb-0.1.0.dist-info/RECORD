@@ -1,0 +1,9 @@
+opentriviadb/__init__.py,sha256=xPCvM8zVbA2-9N5E784sTgwTZUyBQFLs2f2uIab1xzY,2453
+opentriviadb/client.py,sha256=hqE7a3nDvLccbf50K5QHB8n60znwau2EN0DE12B43sE,9508
+opentriviadb/errors.py,sha256=Nu1uT87lqUQKNRkze1t004nzxljLCnAr3ow7nuecR00,2860
+opentriviadb/questions.py,sha256=bQiYHRDt-d5CVUxoIMQZsvr2dwL2RKXDclPPBCbvpG4,2988
+opentriviadb-0.1.0.dist-info/LICENSE,sha256=FxBpWPFLS4xYrbxBrdGADNdhnMQRyGnjkxyndZHbt4Q,1531
+opentriviadb-0.1.0.dist-info/METADATA,sha256=DLuaeOWjGS45hTMlkAwQ0-hAxSXHVOFbR18OGdRwZKs,3722
+opentriviadb-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+opentriviadb-0.1.0.dist-info/top_level.txt,sha256=wpVrzj-JPh43sdlmK8NaZfHyBV9hf92zTdccII09vhA,13
+opentriviadb-0.1.0.dist-info/RECORD,,
