@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zato-ext-simple-rbac
+Version: 0.1.1
+Summary: A simple role based access control utility
+Home-page: http://github.tonyseek.com/simple-rbac/
+Author: Jiangge Zhang
+Author-email: tonyseek@gmail.com
+License: MIT License
+Keywords: rbac permission acl access-control
+Platform: Any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
