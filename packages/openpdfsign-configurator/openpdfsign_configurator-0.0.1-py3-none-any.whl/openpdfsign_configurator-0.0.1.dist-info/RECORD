@@ -1,0 +1,13 @@
+opsconfig/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opsconfig/installer.py,sha256=rQGCxg-WQUJn6qyYls7UwsgrHWf3qG7QJ9KGjTmVdxA,628
+opsconfig/menu.py,sha256=IQn9FStfCeroswtBrFfJJ6Aua6ynIZNx4jG3dZruH6g,1568
+opsconfig/nginxConfigManipulator.py,sha256=G65Ms2LjgZJSDF8pZmHJlkYewtodFSyzBBZ8MWmN6jY,3025
+opsconfig/nginxInstaller.py,sha256=HR_QZtcMTe8qz4f12Sg0GZ7pmzAnrKiEGWErYGeNNGs,1265
+opsconfig/nginxparser.py,sha256=KbPUImxMFajvVcm-BBPkD3eDfhi0EUglzShI1OTiI2s,11336
+opsconfig/utils.py,sha256=g6uRYN3pBvRAxfgQnxNAgR26DGCY8ifESjMXX72uYPA,2561
+openpdfsign_configurator-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openpdfsign_configurator-0.0.1.dist-info/METADATA,sha256=MqvuGCd12VTwFnem45uRl_Vdj5e0SgC1M2IlKYjNJiE,14554
+openpdfsign_configurator-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openpdfsign_configurator-0.0.1.dist-info/entry_points.txt,sha256=edo0ZnsjQR4XqT_3zMfDfSAGzMsx9l3d85pj9ES1-rI,55
+openpdfsign_configurator-0.0.1.dist-info/top_level.txt,sha256=Qvjf1o5aBum45ExVbIoNB_Ss5SF_2ZnfoTf3gkns_8I,10
+openpdfsign_configurator-0.0.1.dist-info/RECORD,,
