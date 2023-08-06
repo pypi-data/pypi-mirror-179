@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: personal-ledger
+Version: 0.1.5
+Summary: Personal ledger is a collection of financial tools to model earnings from capital or savings
+Home-page: https://github.com/MihaiBlebea/personal-ledger
+Author: Mihai Blebea
+Author-email: mihaiserban.blebea@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: black (==22.10.0)
+Requires-Dist: bleach (==5.0.1)
+Requires-Dist: certifi (==2022.9.24)
+Requires-Dist: charset-normalizer (==2.1.1)
+Requires-Dist: click (==8.1.3)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: CurrencyConverter (==0.17.1)
+Requires-Dist: docutils (==0.19)
+Requires-Dist: idna (==3.4)
+Requires-Dist: importlib-metadata (==5.1.0)
+Requires-Dist: jaraco.classes (==3.2.3)
+Requires-Dist: keyring (==23.11.0)
+Requires-Dist: more-itertools (==9.0.0)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: numpy (==1.23.4)
+Requires-Dist: pandas (==1.5.1)
+Requires-Dist: pathspec (==0.10.2)
+Requires-Dist: pkginfo (==1.9.2)
+Requires-Dist: platformdirs (==2.5.4)
+Requires-Dist: Pygments (==2.13.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.6)
+Requires-Dist: readme-renderer (==37.3)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-toolbelt (==0.10.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==12.6.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: twine (==4.0.2)
+Requires-Dist: urllib3 (==1.26.13)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.11.0)
+
+# Personal Ledger
+
+![example branch parameter](https://github.com/MihaiBlebea/personal-ledger/actions/workflows/tests.yml/badge.svg?branch=master)
+
+## Steps
+
+- [x] Fetch balance from Monzo
+- [x] Create Google sheet
+- [x] Send telegram message with Google sheet link
+- [x] Save all transactions into the database
+- [ ] Save all accounts into the database
+- [ ] Add transactions to the database from telegram
+
+
+
