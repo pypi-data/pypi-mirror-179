@@ -1,0 +1,8 @@
+setup.py
+coinmarketcap_scraper_hp/__init__.py
+coinmarketcap_scraper_hp/coinmarketcap.py
+coinmarketcap_scraper_hp.egg-info/PKG-INFO
+coinmarketcap_scraper_hp.egg-info/SOURCES.txt
+coinmarketcap_scraper_hp.egg-info/dependency_links.txt
+coinmarketcap_scraper_hp.egg-info/requires.txt
+coinmarketcap_scraper_hp.egg-info/top_level.txt
