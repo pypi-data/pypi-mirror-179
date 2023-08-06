@@ -1,0 +1,34 @@
+2021-12-06 12:58:21.065 interchange:165 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55678,55624,55771
+2021-12-06 12:58:21.067 interchange:179 [INFO]  Connected to client
+2021-12-06 12:58:21.092 interchange:214 [INFO]  Bound to ports 54700,54506 for incoming worker connections
+2021-12-06 12:58:21.092 interchange:229 [INFO]  Platform info: {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'}
+2021-12-06 12:58:21.092 interchange:347 [INFO]  Incoming ports bound
+2021-12-06 12:58:21.094 interchange:264 [INFO]  [TASK_PULL_THREAD] Starting
+2021-12-06 12:58:22.434 interchange:408 [INFO]  [MAIN] Adding manager: b'3359df0d676b' to ready queue
+2021-12-06 12:58:22.435 interchange:410 [INFO]  [MAIN] Registration info for manager b'3359df0d676b': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '3', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 12, 58, 22)}
+2021-12-06 12:58:22.435 interchange:430 [INFO]  [MAIN] Manager b'3359df0d676b' has compatible Parsl version 1.0.0
+2021-12-06 12:58:22.435 interchange:431 [INFO]  [MAIN] Manager b'3359df0d676b' has compatible Python version 3.8
+2021-12-06 12:58:22.474 interchange:408 [INFO]  [MAIN] Adding manager: b'46a0a7cd8252' to ready queue
+2021-12-06 12:58:22.475 interchange:410 [INFO]  [MAIN] Registration info for manager b'46a0a7cd8252': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '1', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 12, 58, 22)}
+2021-12-06 12:58:22.475 interchange:430 [INFO]  [MAIN] Manager b'46a0a7cd8252' has compatible Parsl version 1.0.0
+2021-12-06 12:58:22.475 interchange:431 [INFO]  [MAIN] Manager b'46a0a7cd8252' has compatible Python version 3.8
+2021-12-06 12:58:22.551 interchange:408 [INFO]  [MAIN] Adding manager: b'0671707b70c8' to ready queue
+2021-12-06 12:58:22.551 interchange:410 [INFO]  [MAIN] Registration info for manager b'0671707b70c8': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 12, 58, 22)}
+2021-12-06 12:58:22.551 interchange:430 [INFO]  [MAIN] Manager b'0671707b70c8' has compatible Parsl version 1.0.0
+2021-12-06 12:58:22.552 interchange:431 [INFO]  [MAIN] Manager b'0671707b70c8' has compatible Python version 3.8
+2021-12-06 12:58:22.566 interchange:408 [INFO]  [MAIN] Adding manager: b'246d8276db19' to ready queue
+2021-12-06 12:58:22.566 interchange:410 [INFO]  [MAIN] Registration info for manager b'246d8276db19': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '2', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 12, 58, 22)}
+2021-12-06 12:58:22.566 interchange:430 [INFO]  [MAIN] Manager b'246d8276db19' has compatible Parsl version 1.0.0
+2021-12-06 12:58:22.566 interchange:431 [INFO]  [MAIN] Manager b'246d8276db19' has compatible Python version 3.8
+2021-12-06 12:59:02.283 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'0671707b70c8'
+2021-12-06 12:59:02.284 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'0671707b70c8'
+2021-12-06 12:59:02.284 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'0671707b70c8'
+2021-12-06 12:59:02.286 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'46a0a7cd8252'
+2021-12-06 12:59:02.286 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'46a0a7cd8252'
+2021-12-06 12:59:02.286 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'46a0a7cd8252'
+2021-12-06 12:59:02.288 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'246d8276db19'
+2021-12-06 12:59:02.289 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'246d8276db19'
+2021-12-06 12:59:02.289 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'246d8276db19'
+2021-12-06 12:59:02.292 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'3359df0d676b'
+2021-12-06 12:59:02.293 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'3359df0d676b'
+2021-12-06 12:59:02.293 interchange:317 [INFO]  [CMD] Received HOLD_WORKER for b'3359df0d676b'

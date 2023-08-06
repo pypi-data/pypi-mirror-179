@@ -1,0 +1,27 @@
+2022-02-28 23:19:27.238 parsl:634 Rank:0 [INFO]  Python version: 3.8.12 | packaged by conda-forge | (default, Oct 12 2021, 21:59:51) 
+[GCC 9.4.0]
+2022-02-28 23:19:27.238 parsl:635 Rank:0 [INFO]  Debug logging: False
+2022-02-28 23:19:27.238 parsl:636 Rank:0 [INFO]  Log dir: /home/mehdi/work/gitscc/wfgenes/intro_examples/foreach_sample/inputs/runinfo/004/frontera_htex
+2022-02-28 23:19:27.239 parsl:637 Rank:0 [INFO]  Manager ID: a50d3ab56d8a
+2022-02-28 23:19:27.239 parsl:638 Rank:0 [INFO]  Block ID: 0
+2022-02-28 23:19:27.239 parsl:639 Rank:0 [INFO]  cores_per_worker: 1
+2022-02-28 23:19:27.239 parsl:640 Rank:0 [INFO]  mem_per_worker: None
+2022-02-28 23:19:27.239 parsl:641 Rank:0 [INFO]  task_port: 54843
+2022-02-28 23:19:27.239 parsl:642 Rank:0 [INFO]  result_port: 54353
+2022-02-28 23:19:27.239 parsl:643 Rank:0 [INFO]  addresses: SCC-th7356-01
+2022-02-28 23:19:27.239 parsl:644 Rank:0 [INFO]  max_workers: 10
+2022-02-28 23:19:27.239 parsl:645 Rank:0 [INFO]  poll_period: 10
+2022-02-28 23:19:27.239 parsl:646 Rank:0 [INFO]  address_probe_timeout: 30
+2022-02-28 23:19:27.239 parsl:647 Rank:0 [INFO]  Prefetch capacity: 0
+2022-02-28 23:19:27.239 parsl:648 Rank:0 [INFO]  Heartbeat threshold: 120
+2022-02-28 23:19:27.239 parsl:649 Rank:0 [INFO]  Heartbeat period: 30
+2022-02-28 23:19:27.239 parsl:650 Rank:0 [INFO]  CPU affinity: none
+2022-02-28 23:19:27.239 parsl:120 Rank:0 [INFO]  Manager started
+2022-02-28 23:19:27.250 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on SCC-th7356-01
+2022-02-28 23:19:27.250 parsl:127 Rank:0 [INFO]  Connection to Interchange successful on SCC-th7356-01
+2022-02-28 23:19:27.250 parsl:130 Rank:0 [INFO]  Task url : tcp://SCC-th7356-01:54843
+2022-02-28 23:19:27.250 parsl:131 Rank:0 [INFO]  Result url : tcp://SCC-th7356-01:54353
+2022-02-28 23:19:27.251 parsl:149 Rank:0 [INFO]  Manager connected
+2022-02-28 23:19:27.251 parsl:175 Rank:0 [INFO]  Manager will spawn 8 workers
+2022-02-28 23:19:27.277 parsl:229 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2022-02-28 23:19:27.278 parsl:419 Rank:0 [INFO]  Loop start

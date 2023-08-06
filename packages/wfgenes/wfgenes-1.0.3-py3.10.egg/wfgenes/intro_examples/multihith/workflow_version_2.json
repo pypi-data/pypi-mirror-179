@@ -1,0 +1,264 @@
+{
+   "workflow_name": "energy_slab_ver_2",
+   "nodes": [
+      {
+         "name": "Relax_structure_o_two",
+         "id": 0,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "build_structure_generic"
+               ],
+               "inputs": [
+                  "parameters_id0"
+               ],
+               "outputs": [
+                  "structure_id0"
+               ],
+               "kwargs": {}
+            },
+            {
+               "func": [
+                  "ueffumax",
+                  "structure_relaxation"
+               ],
+               "inputs": [
+                  "parameters_id0",
+                  "structure_id0"
+               ],
+               "outputs": [
+                  "relaxed_structure_id0",
+                  "energy_id0",
+                  "forces_id0",
+                  "dipole_id0"
+               ],
+               "kwargs": {}
+            },
+            {
+               "func": [
+                  "BUILTIN",
+                  "MERGE"
+               ],
+               "inputs": [
+                  "energy_id0",
+                  "zero_point_energy_id0",
+                  "total_entropy_term_id0",
+                  "energy_minimum_id0"
+               ],
+               "outputs": [
+                  "o_two_id0"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Build_structure_star_O",
+         "id": 1,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "build_structure"
+               ],
+               "inputs": [
+                  "parameters_id1"
+               ],
+               "outputs": [
+                  "structure_id1"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Relax_structure_star_O",
+         "id": 2,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "structure_relaxation"
+               ],
+               "inputs": [
+                  "parameters_id2",
+                  "structure_id1"
+               ],
+               "outputs": [
+                  "relaxed_structure_id2",
+                  "energy_id2",
+                  "forces_id2",
+                  "dipole_id2"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Normal_mode_analysis_star_O",
+         "id": 3,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "vibrations"
+               ],
+               "inputs": [
+                  "parameters_id3",
+                  "relaxed_structure_id2"
+               ],
+               "outputs": [
+                  "vibrational_energies_id3",
+                  "vibrational_entropy_id3",
+                  "vibrational_entropy_term_id3",
+                  "vibrational_partition_func_id3",
+                  "zero_point_energy_id3",
+                  "transition_state_id3",
+                  "energy_minimum_id3"
+               ],
+               "kwargs": {}
+            },
+            {
+               "func": [
+                  "BUILTIN",
+                  "MERGE"
+               ],
+               "inputs": [
+                  "energy_minimum_id3",
+                  "energy_id2",
+                  "zero_point_energy_id3",
+                  "vibrational_entropy_term_id3",
+                  "rotational_entropy_term_id3",
+                  "translational_entropy_term_id3"
+               ],
+               "outputs": [
+                  "star_o_id3"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Build_structure_star",
+         "id": 4,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "build_structure"
+               ],
+               "inputs": [
+                  "parameters_id4"
+               ],
+               "outputs": [
+                  "structure_id4"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Relax_structure_star",
+         "id": 5,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "structure_relaxation"
+               ],
+               "inputs": [
+                  "parameters_id5",
+                  "structure_id4"
+               ],
+               "outputs": [
+                  "relaxed_structure_id5",
+                  "energy_id5",
+                  "forces_id5",
+                  "dipole_id5"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Normal_mode_analysis_star",
+         "id": 6,
+         "tasks": [
+            {
+               "func": [
+                  "ueffumax",
+                  "vibrations"
+               ],
+               "inputs": [
+                  "parameters_id6",
+                  "relaxed_structure_id5"
+               ],
+               "outputs": [
+                  "vibrational_energies_id6",
+                  "vibrational_entropy_id6",
+                  "vibrational_entropy_term_id6",
+                  "vibrational_partition_func_id6",
+                  "zero_point_energy_id6",
+                  "transition_state_id6",
+                  "energy_minimum_id6"
+               ],
+               "kwargs": {}
+            },
+            {
+               "func": [
+                  "BUILTIN",
+                  "MERGE"
+               ],
+               "inputs": [
+                  "energy_minimum_id6",
+                  "energy_id5",
+                  "zero_point_energy_id6",
+                  "vibrational_entropy_term_id6",
+                  "rotational_entropy_term_id6",
+                  "translational_entropy_term_id6"
+               ],
+               "outputs": [
+                  "star_id6"
+               ],
+               "kwargs": {}
+            }
+         ]
+      },
+      {
+         "name": "Adsorption_energies",
+         "id": 7,
+         "tasks": [
+            {
+               "func": [
+                  "BUILTIN",
+                  "MERGE"
+               ],
+               "inputs": [
+                  "star_id6",
+                  "star_o_id3",
+                  "o_two_id0"
+               ],
+               "outputs": [
+                  "properties"
+               ],
+               "kwargs": {}
+            },
+            {
+               "func": [
+                  "ueffumax",
+                  "reaction_energies"
+               ],
+               "inputs": [
+                  "properties",
+                  "reactions"
+               ],
+               "outputs": [
+                  "reaction_properties"
+               ],
+               "kwargs": {}
+            }
+         ]
+      }
+   ]
+}

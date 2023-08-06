@@ -1,0 +1,58 @@
+workflow_name: parallel data jupyter EMBEDDED
+nodes:
+- name: plus_minus
+  id: 1
+  tasks:
+  - func:
+    - myfunctions
+    - plus_minus
+    - FOREACH
+    - data
+    - '10'
+    inputs:
+    - data
+    - constant_y
+    outputs:
+    - datax
+    - datay
+    kwargs: {}
+- name: sum_square
+  id: 2
+  tasks:
+  - func:
+    - myfunctions
+    - sum_square
+    - FOREACH
+    - datax
+    - '10'
+    - zip_inputs:
+      - datay
+    inputs:
+    - datax
+    - datay
+    - constant_z
+    outputs:
+    - results
+    kwargs: {}
+- name: average
+  id: 3
+  tasks:
+  - func:
+    - myfunctions
+    - average_list
+    inputs:
+    - results
+    outputs:
+    - midpoint
+    kwargs: {}
+- name: data_generator
+  id: 4
+  tasks:
+  - func:
+    - myfunctions
+    - data_generator
+    inputs:
+    - list_length
+    outputs:
+    - data
+    kwargs: {}   

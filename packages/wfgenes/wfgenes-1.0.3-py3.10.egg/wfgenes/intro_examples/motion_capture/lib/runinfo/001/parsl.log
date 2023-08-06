@@ -1,0 +1,374 @@
+2021-12-06 12:58:20.979 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir=None, 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 12:58:20.979 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 12:58:20.979 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 12:58:20.979 parsl.dataflow.dflow:114 [INFO]  Run id is: e2f06a3d-35bf-4017-9082-2d178ab16795
+2021-12-06 12:58:21.049 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 12:58:21.049 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 12:58:21.051 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 12:58:21.051 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 12:58:21.051 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 12:58:21.094 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140703455766272)>
+2021-12-06 12:58:21.094 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54700 --result_port=54506 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 12:58:21.094 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 12:58:21.100 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:21.108 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->128547
+2021-12-06 12:58:21.109 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:21.117 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->128565
+2021-12-06 12:58:21.118 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:21.128 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->128577
+2021-12-06 12:58:21.129 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:21.140 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->128584
+2021-12-06 12:58:21.143 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 12:58:22.050 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:22.050 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:22.050 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:27.050 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:27.052 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:27.052 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:32.050 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:37.050 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:37.050 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:37.050 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:42.051 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:42.052 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:42.053 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:45.795 parsl.addresses:63 [DEBUG]  Finding address by using local hostname
+2021-12-06 12:58:45.795 parsl.addresses:65 [DEBUG]  Address found: SCC-th7356-01
+2021-12-06 12:58:45.796 parsl.executors.high_throughput.executor:186 [DEBUG]  Initializing HighThroughputExecutor
+2021-12-06 12:58:45.797 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir: runinfo/002
+2021-12-06 12:58:45.806 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/submit_scripts', 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 12:58:45.807 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 12:58:45.807 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 12:58:45.807 parsl.dataflow.dflow:114 [INFO]  Run id is: 489fc9f7-cee6-410c-a4e8-43fd3589a23f
+2021-12-06 12:58:45.827 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 12:58:45.828 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 12:58:45.865 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 12:58:45.866 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 12:58:45.866 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 12:58:45.880 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140703447373568)>
+2021-12-06 12:58:45.880 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54551 --result_port=54724 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/002/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 12:58:45.880 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 12:58:45.889 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:45.902 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->129419
+2021-12-06 12:58:45.902 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:45.915 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->129425
+2021-12-06 12:58:45.916 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:45.927 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->129431
+2021-12-06 12:58:45.928 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:45.941 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->129437
+2021-12-06 12:58:45.941 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 12:58:46.828 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:46.828 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:46.829 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['129419', '129425', '129431', '129437']
+2021-12-06 12:58:47.051 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:51.828 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:52.051 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:52.051 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:52.051 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:56.534 parsl.addresses:63 [DEBUG]  Finding address by using local hostname
+2021-12-06 12:58:56.534 parsl.addresses:65 [DEBUG]  Address found: SCC-th7356-01
+2021-12-06 12:58:56.535 parsl.executors.high_throughput.executor:186 [DEBUG]  Initializing HighThroughputExecutor
+2021-12-06 12:58:56.536 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir: runinfo/003
+2021-12-06 12:58:56.547 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/submit_scripts', 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 12:58:56.548 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 12:58:56.548 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 12:58:56.548 parsl.dataflow.dflow:114 [INFO]  Run id is: 2cecd570-d24f-47fa-86b3-7a7fbe1d228e
+2021-12-06 12:58:56.566 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 12:58:56.567 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 12:58:56.568 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 12:58:56.569 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 12:58:56.569 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 12:58:56.587 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140702767892224)>
+2021-12-06 12:58:56.587 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54575 --result_port=54880 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/003/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 12:58:56.587 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/001/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 12:58:56.597 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:56.607 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->129984
+2021-12-06 12:58:56.608 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:56.618 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->129990
+2021-12-06 12:58:56.619 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:56.629 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->129996
+2021-12-06 12:58:56.629 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:58:56.642 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->130002
+2021-12-06 12:58:56.643 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 12:58:56.828 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:56.828 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:56.829 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['129419', '129425', '129431', '129437']
+2021-12-06 12:58:57.051 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:57.051 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:57.052 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:58:57.567 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:58:57.567 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:58:57.568 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['129984', '129990', '129996', '130002']
+2021-12-06 12:59:01.829 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:59:01.829 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:59:01.830 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['129419', '129425', '129431', '129437']
+2021-12-06 12:59:01.988 parsl.dataflow.dflow:913 [INFO]  DFK cleanup initiated
+2021-12-06 12:59:01.988 parsl.dataflow.dflow:816 [INFO]  Summary of tasks in DFK:
+2021-12-06 12:59:01.989 parsl.dataflow.dflow:835 [INFO]  End of summary
+2021-12-06 12:59:01.989 parsl.dataflow.dflow:937 [INFO]  Terminating flow_control and strategy threads
+2021-12-06 12:59:01.991 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 2689b356f3ca
+2021-12-06 12:59:01.993 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 2689b356f3ca
+2021-12-06 12:59:01.995 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 9f1b9322ad42
+2021-12-06 12:59:01.998 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 9f1b9322ad42
+2021-12-06 12:59:02.000 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 25cdd0c6d702
+2021-12-06 12:59:02.004 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 25cdd0c6d702
+2021-12-06 12:59:02.008 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: db4051c5ff7f
+2021-12-06 12:59:02.013 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: db4051c5ff7f
+2021-12-06 12:59:02.014 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129984
+2021-12-06 12:59:02.052 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:59:02.054 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:59:02.054 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['128547', '128565', '128577', '128584']
+2021-12-06 12:59:02.083 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129990
+2021-12-06 12:59:02.124 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129996
+2021-12-06 12:59:02.150 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 130002
+2021-12-06 12:59:02.174 parsl.executors.high_throughput.executor:642 [INFO]  Attempting HighThroughputExecutor shutdown
+2021-12-06 12:59:02.174 parsl.executors.high_throughput.executor:644 [INFO]  Finished HighThroughputExecutor shutdown attempt
+2021-12-06 12:59:02.175 parsl.executors.threads:105 [DEBUG]  Done with executor shutdown
+2021-12-06 12:59:02.175 parsl.dataflow.dflow:960 [INFO]  DFK cleanup complete
+2021-12-06 12:59:02.175 parsl.dataflow.dflow:913 [INFO]  DFK cleanup initiated
+2021-12-06 12:59:02.175 parsl.dataflow.dflow:816 [INFO]  Summary of tasks in DFK:
+2021-12-06 12:59:02.175 parsl.dataflow.dflow:835 [INFO]  End of summary
+2021-12-06 12:59:02.175 parsl.dataflow.dflow:937 [INFO]  Terminating flow_control and strategy threads
+2021-12-06 12:59:02.177 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: b4a3a25607d2
+2021-12-06 12:59:02.178 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: b4a3a25607d2
+2021-12-06 12:59:02.179 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 2acbc51f40aa
+2021-12-06 12:59:02.180 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 2acbc51f40aa
+2021-12-06 12:59:02.181 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 8cd4a2a15a9a
+2021-12-06 12:59:02.182 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 8cd4a2a15a9a
+2021-12-06 12:59:02.183 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 23ca85e7871f
+2021-12-06 12:59:02.183 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 23ca85e7871f
+2021-12-06 12:59:02.183 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129419
+2021-12-06 12:59:02.207 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129425
+2021-12-06 12:59:02.232 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129431
+2021-12-06 12:59:02.256 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 129437
+2021-12-06 12:59:02.280 parsl.executors.high_throughput.executor:642 [INFO]  Attempting HighThroughputExecutor shutdown
+2021-12-06 12:59:02.280 parsl.executors.high_throughput.executor:644 [INFO]  Finished HighThroughputExecutor shutdown attempt
+2021-12-06 12:59:02.280 parsl.executors.threads:105 [DEBUG]  Done with executor shutdown
+2021-12-06 12:59:02.280 parsl.dataflow.dflow:960 [INFO]  DFK cleanup complete
+2021-12-06 12:59:02.281 parsl.dataflow.dflow:913 [INFO]  DFK cleanup initiated
+2021-12-06 12:59:02.281 parsl.dataflow.dflow:816 [INFO]  Summary of tasks in DFK:
+2021-12-06 12:59:02.281 parsl.dataflow.dflow:835 [INFO]  End of summary
+2021-12-06 12:59:02.281 parsl.dataflow.dflow:937 [INFO]  Terminating flow_control and strategy threads
+2021-12-06 12:59:02.283 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 0671707b70c8
+2021-12-06 12:59:02.284 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 0671707b70c8
+2021-12-06 12:59:02.285 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 46a0a7cd8252
+2021-12-06 12:59:02.287 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 46a0a7cd8252
+2021-12-06 12:59:02.288 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 246d8276db19
+2021-12-06 12:59:02.289 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 246d8276db19
+2021-12-06 12:59:02.292 parsl.executors.high_throughput.executor:510 [DEBUG]  [HOLD_BLOCK]: Sending hold to manager: 3359df0d676b
+2021-12-06 12:59:02.293 parsl.executors.high_throughput.executor:479 [DEBUG]  Sent hold request to worker: 3359df0d676b
+2021-12-06 12:59:02.293 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 128547
+2021-12-06 12:59:02.317 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 128565
+2021-12-06 12:59:02.340 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 128577
+2021-12-06 12:59:02.364 parsl.providers.local.local:191 [DEBUG]  Terminating job/proc_id: 128584
+2021-12-06 12:59:02.388 parsl.executors.high_throughput.executor:642 [INFO]  Attempting HighThroughputExecutor shutdown
+2021-12-06 12:59:02.388 parsl.executors.high_throughput.executor:644 [INFO]  Finished HighThroughputExecutor shutdown attempt
+2021-12-06 12:59:02.389 parsl.executors.threads:105 [DEBUG]  Done with executor shutdown
+2021-12-06 12:59:02.389 parsl.dataflow.dflow:960 [INFO]  DFK cleanup complete

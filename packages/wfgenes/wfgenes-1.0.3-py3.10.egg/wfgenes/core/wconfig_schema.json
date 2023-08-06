@@ -1,0 +1,147 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/WConfig",
+    "WConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "workflow_name": {
+          "$ref": "#/Name"
+        },
+        "nodes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Node"
+          },
+          "minItems": 1
+        },
+        "metadata":{
+          "type":"object" 
+        }
+      },
+      "required": [
+        "workflow_name",
+        "nodes"
+      ],
+      "optional": [
+        "metadata"
+      ]
+    },
+    "Node": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "link": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Number"
+          },
+          "minItems": 0
+        },
+        "name": {
+          "$ref": "#/Name"
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Task"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "tasks"
+      ],
+      "optional": [
+        "link"
+      ]
+    },
+    "Task": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "func": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Implement"
+          },
+          "minItems": 2,
+          "maxItems": 6  
+        },
+        "script": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Implement"
+          },
+          "minItems": 1,
+          "maxItems": 2  
+        },
+        "inputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Name"
+          },
+          "minItems": 0 
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/Name"
+          },
+          "minItems": 0 
+        },
+        "kwargs": {
+          "type": "object"
+        },
+        "resource": {
+          "type": "object"
+        }
+
+      },
+      "optional": [
+        "func",
+        "inputs",
+        "outputs",
+        "script",
+        "kwargs",
+        "resource"
+      ]
+    },
+  
+    "Implement": {
+      "type": ["object", "string", "number", "array"],
+      "minLength": 1 ,
+      "maxProperties": 1,
+      "properties": {
+        "zip_inputs": {
+          "$ref": "#/Zip"
+        }
+      }
+    },
+
+    "Zip": {
+      "type": ["array"] ,
+      "items": {
+        "$ref": "#/Name"
+      },
+      "minItems": 1
+  },
+
+    "Name": {
+      "anyOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "object"}
+      ]
+      
+    },
+
+    "Number": {
+      "type": "number",
+      "minLength": 1
+    }
+  }

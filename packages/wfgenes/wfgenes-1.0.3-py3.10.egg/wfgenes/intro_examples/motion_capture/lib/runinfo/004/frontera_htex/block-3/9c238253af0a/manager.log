@@ -1,0 +1,26 @@
+2021-12-06 13:00:04.760 parsl:607 Rank:0 [INFO]  Python version: 3.8.5 | packaged by conda-forge | (default, Jul 31 2020, 02:39:48) 
+[GCC 7.5.0]
+2021-12-06 13:00:04.760 parsl:608 Rank:0 [INFO]  Debug logging: False
+2021-12-06 13:00:04.760 parsl:609 Rank:0 [INFO]  Log dir: /home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/004/frontera_htex
+2021-12-06 13:00:04.760 parsl:610 Rank:0 [INFO]  Manager ID: 9c238253af0a
+2021-12-06 13:00:04.760 parsl:611 Rank:0 [INFO]  Block ID: 3
+2021-12-06 13:00:04.760 parsl:612 Rank:0 [INFO]  cores_per_worker: 1
+2021-12-06 13:00:04.760 parsl:613 Rank:0 [INFO]  mem_per_worker: None
+2021-12-06 13:00:04.760 parsl:614 Rank:0 [INFO]  task_port: 54613
+2021-12-06 13:00:04.760 parsl:615 Rank:0 [INFO]  result_port: 54390
+2021-12-06 13:00:04.760 parsl:616 Rank:0 [INFO]  addresses: SCC-th7356-01
+2021-12-06 13:00:04.760 parsl:617 Rank:0 [INFO]  max_workers: 4
+2021-12-06 13:00:04.761 parsl:618 Rank:0 [INFO]  poll_period: 10
+2021-12-06 13:00:04.761 parsl:619 Rank:0 [INFO]  address_probe_timeout: 30
+2021-12-06 13:00:04.761 parsl:620 Rank:0 [INFO]  Prefetch capacity: 0
+2021-12-06 13:00:04.761 parsl:621 Rank:0 [INFO]  Heartbeat threshold: 120
+2021-12-06 13:00:04.761 parsl:622 Rank:0 [INFO]  Heartbeat period: 30
+2021-12-06 13:00:04.761 parsl:122 Rank:0 [INFO]  Manager started
+2021-12-06 13:00:04.772 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on SCC-th7356-01
+2021-12-06 13:00:04.773 parsl:129 Rank:0 [INFO]  Connection to Interchange successful on SCC-th7356-01
+2021-12-06 13:00:04.773 parsl:132 Rank:0 [INFO]  Task url : tcp://SCC-th7356-01:54613
+2021-12-06 13:00:04.773 parsl:133 Rank:0 [INFO]  Result url : tcp://SCC-th7356-01:54390
+2021-12-06 13:00:04.774 parsl:151 Rank:0 [INFO]  Manager connected
+2021-12-06 13:00:04.774 parsl:177 Rank:0 [INFO]  Manager will spawn 4 workers
+2021-12-06 13:00:04.798 parsl:228 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2021-12-06 13:00:04.800 parsl:414 Rank:0 [INFO]  Loop start

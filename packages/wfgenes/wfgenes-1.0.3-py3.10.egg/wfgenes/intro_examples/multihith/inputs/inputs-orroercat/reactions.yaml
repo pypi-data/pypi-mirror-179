@@ -1,0 +1,38 @@
+- electrons: -1
+  equation:
+  - coefficient: -1.0
+    species: '*'
+  - coefficient: -1.0
+    species: o2
+  - coefficient: -0.5
+    species: h2
+  - coefficient: 1.0
+    species: '*ooh'
+- electrons: -1
+  equation:
+  - coefficient: -1.0
+    species: '*ooh'
+  - coefficient: -0.5
+    species: h2
+  - coefficient: 1.0
+    species: '*o'
+  - coefficient: 1.0
+    species: h2o
+- electrons: -1
+  equation:
+  - coefficient: -1.0
+    species: '*o'
+  - coefficient: -0.5
+    species: h2
+  - coefficient: 1.0
+    species: '*oh'
+- electrons: -1
+  equation:
+  - coefficient: -1.0
+    species: '*oh'
+  - coefficient: -0.5
+    species: h2
+  - coefficient: 1.0
+    species: '*'
+  - coefficient: 1.0
+    species: h2o

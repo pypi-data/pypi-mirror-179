@@ -1,0 +1,5 @@
+2022-03-05 13:31:42.142 worker_log:503 Rank:4 [INFO]  Worker 4 started
+2022-03-05 13:31:42.359 worker_log:533 Rank:4 [INFO]  Received task 5
+2022-03-05 13:31:52.372 worker_log:551 Rank:4 [INFO]  Completed task 5
+2022-03-05 13:32:02.632 worker_log:533 Rank:4 [INFO]  Received task 14
+2022-03-05 13:32:12.646 worker_log:551 Rank:4 [INFO]  Completed task 14

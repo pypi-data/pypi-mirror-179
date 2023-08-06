@@ -1,0 +1,6 @@
+
+    - electrons: 0
+      equation:
+      - {coefficient: -1.0, species: star}
+      - {coefficient: -0.5, species: o_two}
+      - {coefficient: 1.0, species: star_o}

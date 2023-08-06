@@ -1,0 +1,11 @@
+
+      substrate:
+        construct:
+          method:
+            name: fcc111
+            args: [Ni, [2, 2, 3]]
+            kwargs: {a: 3.518, orthogonal: false, vacuum: 12.0}
+          type: surface
+        constraints:
+          layers: [3]
+      adsorbates: []

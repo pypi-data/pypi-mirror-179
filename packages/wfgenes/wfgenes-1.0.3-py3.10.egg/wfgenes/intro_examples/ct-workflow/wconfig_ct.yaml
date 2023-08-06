@@ -1,0 +1,67 @@
+workflow_name: charge_transport_simulation
+nodes:
+- name: find_pairs
+  id: 2
+  tasks:
+  - func:
+    - ct_par
+    - find_pairs
+    inputs:
+    - morphology
+    - parameters
+    outputs:
+    - hopping_sites
+    - hopping_pairs
+    kwargs: {}
+
+- name: site_energies
+  id: 3
+  tasks:
+  - func:
+    - ct_par
+    - site_energies
+    - FOREACH
+    - hopping_sites
+    - '2'
+    inputs:
+    - hopping_sites
+    - morphology
+    - parameters
+    outputs:
+    - updated_hopping_sites
+    kwargs: {}
+
+- name: electronic_couplings
+  id: 4
+  tasks:
+  - func:
+    - ct_par
+    - electronic_couplings
+    - FOREACH
+    - hopping_pairs
+    - '2'
+    inputs:
+    - hopping_pairs
+    - updated_hopping_sites
+    - morphology
+    - parameters
+    outputs:
+    - updated_hopping_pairs
+    kwargs: {}
+
+- name: analyses
+  id: 5
+  tasks:
+  - func:
+    - BUILTIN
+    - MERGE
+    inputs:
+    - parameters
+    - morphology
+    - updated_hopping_sites
+    - updated_hopping_pairs
+    - reorganization_energy
+    outputs:
+    - simulation
+    kwargs: {}
+

@@ -1,0 +1,26 @@
+2021-12-06 13:03:34.118 interchange:165 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55639,55951,55595
+2021-12-06 13:03:34.120 interchange:179 [INFO]  Connected to client
+2021-12-06 13:03:34.120 interchange:214 [INFO]  Bound to ports 54269,54961 for incoming worker connections
+2021-12-06 13:03:34.121 interchange:229 [INFO]  Platform info: {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'}
+2021-12-06 13:03:34.121 interchange:347 [INFO]  Incoming ports bound
+2021-12-06 13:03:34.121 interchange:264 [INFO]  [TASK_PULL_THREAD] Starting
+2021-12-06 13:03:35.178 interchange:408 [INFO]  [MAIN] Adding manager: b'9b7d8934ab0d' to ready queue
+2021-12-06 13:03:35.179 interchange:410 [INFO]  [MAIN] Registration info for manager b'9b7d8934ab0d': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 3, 35)}
+2021-12-06 13:03:35.179 interchange:430 [INFO]  [MAIN] Manager b'9b7d8934ab0d' has compatible Parsl version 1.0.0
+2021-12-06 13:03:35.179 interchange:431 [INFO]  [MAIN] Manager b'9b7d8934ab0d' has compatible Python version 3.8
+2021-12-06 13:03:35.219 interchange:408 [INFO]  [MAIN] Adding manager: b'9b855dc4f96d' to ready queue
+2021-12-06 13:03:35.220 interchange:410 [INFO]  [MAIN] Registration info for manager b'9b855dc4f96d': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '2', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 3, 35)}
+2021-12-06 13:03:35.220 interchange:430 [INFO]  [MAIN] Manager b'9b855dc4f96d' has compatible Parsl version 1.0.0
+2021-12-06 13:03:35.220 interchange:431 [INFO]  [MAIN] Manager b'9b855dc4f96d' has compatible Python version 3.8
+2021-12-06 13:03:35.220 interchange:408 [INFO]  [MAIN] Adding manager: b'c2471412214a' to ready queue
+2021-12-06 13:03:35.220 interchange:410 [INFO]  [MAIN] Registration info for manager b'c2471412214a': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '1', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 3, 35)}
+2021-12-06 13:03:35.220 interchange:430 [INFO]  [MAIN] Manager b'c2471412214a' has compatible Parsl version 1.0.0
+2021-12-06 13:03:35.220 interchange:431 [INFO]  [MAIN] Manager b'c2471412214a' has compatible Python version 3.8
+2021-12-06 13:03:35.265 interchange:408 [INFO]  [MAIN] Adding manager: b'1e2ab6d7e546' to ready queue
+2021-12-06 13:03:35.265 interchange:410 [INFO]  [MAIN] Registration info for manager b'1e2ab6d7e546': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '3', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 3, 35)}
+2021-12-06 13:03:35.265 interchange:430 [INFO]  [MAIN] Manager b'1e2ab6d7e546' has compatible Parsl version 1.0.0
+2021-12-06 13:03:35.265 interchange:431 [INFO]  [MAIN] Manager b'1e2ab6d7e546' has compatible Python version 3.8
+2021-12-06 13:07:58.635 interchange:515 [WARNING]  [MAIN] Too many heartbeats missed for manager b'9b7d8934ab0d'
+2021-12-06 13:07:58.677 interchange:515 [WARNING]  [MAIN] Too many heartbeats missed for manager b'9b855dc4f96d'
+2021-12-06 13:07:58.678 interchange:515 [WARNING]  [MAIN] Too many heartbeats missed for manager b'c2471412214a'
+2021-12-06 13:07:58.730 interchange:515 [WARNING]  [MAIN] Too many heartbeats missed for manager b'1e2ab6d7e546'

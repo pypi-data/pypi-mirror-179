@@ -1,0 +1,14 @@
+workflow_name: simple_test
+nodes:
+- name: plus_minus
+  id: 1
+  tasks:
+  - func:
+    - parallel_data_jupyter_dask_EMBEDDED
+    - main
+    kwargs: 
+      pool: 'local_threads'
+      threads_number: '10'
+
+      
+

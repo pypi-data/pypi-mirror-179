@@ -1,0 +1,30 @@
+
+      temperature: 298.15
+      calculator:
+        name: vasp
+        optimize: false
+        parameters:
+          algo: Fast
+          ediff: 1.0e-08
+          encut: 400.0
+          ibrion: 5
+          icharg: 2
+          ismear: 1
+          ispin: 2
+          istart: 0
+          kpts: [5, 5, 1]
+          lcharg: false
+          lreal: Auto
+          lwave: false
+          nelm: 250
+          nfree: 2
+          nsw: 1
+          potim: 0.005
+          prec: Normal
+          sigma: 0.2
+      normal mode analysis:
+        constraints:
+        - kwargs:
+            indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+          name: FixAtoms
+        parameters: {}

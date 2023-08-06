@@ -1,0 +1,434 @@
+workflow_name: Critical potentials and Bader charges
+
+nodes:
+- id: 1
+  name: Relax structure *
+  tasks:
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - relaxation parameters
+    - Mstar structure
+    outputs:
+    - Mstar relaxed structure
+    - Mstar energy
+    - Mstar forces
+    - Mstar dipole
+    kwargs: {}
+
+- id: 2
+  name: Normal mode analysis *
+  tasks:
+  - func:
+    - ueffumax
+    - vibrations
+    inputs:
+    - normal mode analysis parameters
+    - Mstar relaxed structure
+    outputs:
+    - Mstar vibrational energies
+    - Mstar vibrational entropy
+    - Mstar vibrational entropy term
+    - Mstar vibrational partition function
+    - Mstar zero-point energy
+    - Mstar transition state
+    - Mstar energy minimum
+    kwargs: {}
+
+- id: 3
+  name: Merge properties *
+  tasks:
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - Mstar energy minimum
+    - Mstar energy
+    - Mstar zero-point energy
+    - Mstar vibrational entropy term
+    - rotational entropy term
+    - translational entropy term
+    outputs: ['*']
+    kwargs: {}
+
+- id: 4
+  name: Relax structure *O
+  tasks:
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - relaxation parameters
+    - structure *O
+    outputs:
+    - relaxed structure id4
+    - energy_id4
+    - forces
+    - dipole
+    kwargs: {}
+
+- id: 5
+  name: Normal mode analysis *O
+  tasks:
+  - func:
+    - ueffumax
+    - vibrations
+    inputs:
+    - normal mode analysis parameters
+    - relaxed structure id4
+    outputs:
+    - vibrational energies
+    - vibrational entropy
+    - vibrational entropy term id5
+    - vibrational partition function
+    - zero-point energy id5
+    - transition state
+    - energy minimum id5
+    kwargs: {}
+
+- id: 6
+  name: Merge properties *O
+  tasks:
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - energy minimum id5
+    - energy_id4
+    - zero-point energy id5
+    - vibrational entropy term id5
+    - rotational entropy term
+    - translational entropy term
+    outputs: ['*o']
+    kwargs: {}
+
+- id: 7
+  name: Relax structure *OH
+  tasks:
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - relaxation parameters
+    - structure *OH
+    outputs:
+    - relaxed structure id7
+    - energy id7
+    - forces
+    - dipole
+    kwargs: {}
+
+- id: 8
+  name: Normal mode analysis *OH
+  tasks:
+  - func:
+    - ueffumax
+    - vibrations
+    inputs:
+    - normal mode analysis parameters
+    - relaxed structure id7
+    outputs:
+    - vibrational energies
+    - vibrational entropy
+    - vibrational entropy term id8
+    - vibrational partition function
+    - zero-point energy id8
+    - transition state
+    - energy minimum id8
+    kwargs: {}
+
+- id: 9
+  name: Merge properties *OH
+  tasks:
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - energy minimum id8
+    - energy id7
+    - zero-point energy id8
+    - vibrational entropy term id8
+    - rotational entropy term
+    - translational entropy term
+    outputs: ['*oh']
+    kwargs: {}
+
+- id: 10
+  name: Relax structure *OOH
+  tasks:
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - relaxation parameters
+    - structure *OOH
+    outputs:
+    - relaxed structure id10
+    - energy id10
+    - forces
+    - dipole
+    kwargs: {}
+
+- id: 11
+  name: Normal mode analysis *OOH
+  tasks:
+  - func:
+    - ueffumax
+    - vibrations
+    inputs:
+    - normal mode analysis parameters
+    - relaxed structure id10
+    outputs:
+    - vibrational energies
+    - vibrational entropy
+    - vibrational entropy term id11
+    - OOH vibrational partition function
+    - zero-point energy id11
+    - OOH transition state
+    - energy minimum id11
+    kwargs: {}
+
+- id: 12
+  name: Merge properties *OOH
+  tasks:
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - energy minimum id11
+    - energy id10
+    - zero-point energy id11
+    - vibrational entropy term id11
+    - rotational entropy term
+    - translational entropy term
+    outputs: ['*ooh']
+    kwargs: {}
+
+- id: 13
+  name: Relax structure H2
+  tasks:
+  - func:
+    - ueffumax
+    - build_structure_generic
+    inputs:
+    - parameters H2
+    outputs:
+    - structure id13
+    kwargs: {}
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - parameters H2
+    - structure id13
+    outputs:
+    - relaxed structure
+    - energy id13
+    - forces
+    - dipole
+    kwargs: {}
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - energy id13
+    outputs: [h2]
+    kwargs: {}
+
+- id: 14
+  name: Relax structure H2O
+  tasks:
+  - func:
+    - ueffumax
+    - build_structure_generic
+    inputs:
+    - parameters H2O
+    outputs:
+    - structure id14
+    kwargs: {}
+  - func:
+    - ueffumax
+    - structure_relaxation
+    inputs:
+    - parameters H2O
+    - structure id14
+    outputs:
+    - relaxed structure
+    - energy id14
+    - forces
+    - dipole
+    kwargs: {}
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - energy id14
+    outputs: [h2o]
+    kwargs: {}
+
+- id: 15
+  name: Electrochemical_potentials
+  tasks:
+  - func:
+    - builtin
+    - MERGE
+    inputs:
+    - '*'
+    - '*o'
+    - '*oh'
+    - '*ooh'
+    - h2
+    - h2o
+    outputs: [properties 1]
+    kwargs: {}
+  - func:
+    - ueffumax
+    - get_gas_props
+    inputs:
+    - properties 1
+    - temperature
+    outputs:
+    - properties 2
+    kwargs: {}
+  - func:
+    - ueffumax
+    - potentials_generic
+    inputs:
+    - properties 2
+    - reactions
+    outputs:
+    - reaction properties
+    - rate determining stage
+    - free energy barrier at U0
+    - effective reversible potential
+    - critical potential
+    kwargs: {}
+
+- id: 16
+  name: Bader charges *
+  tasks:
+  - func:
+    - ueffumax
+    - single_point_calculation
+    inputs:
+    - bader parameters 
+    - Mstar relaxed structure
+    outputs:
+    - bader Mstar energy
+    - bader Mstar forces
+    - bader Mstar dipole
+#  - script:
+#    - chgsum.pl AECCAR0 AECCAR2
+#    - bader CHGCAR -ref CHGCAR_sum
+  - func:
+    - ueffumax
+    - get_bader_charges
+    inputs: []
+    outputs:
+    - Mstar charges
+#  - _fw_name: FileDeleteTask
+#      files_to_delete:
+#    - CHGCAR
+#    - CHG
+#    - CHGCAR_sum
+#    - AECCAR0
+#    - AECCAR1
+#    - AECCAR2
+#  - script: rm CHGCAR CHG CHGCAR_sum AECCAR0 AECCAR1 AECCAR2
+
+- id: 17
+  name: Bader charges *O
+  tasks:
+  - func:
+    - ueffumax
+    - single_point_calculation
+    inputs:
+    - bader parameters 
+    - relaxed structure id17
+    outputs:
+    - bader MO energy
+    - bader MO forces
+    - bader MO dipole
+#  - script:
+#    - chgsum.pl AECCAR0 AECCAR2
+#    - bader CHGCAR -ref CHGCAR_sum
+  - func:
+    - ueffumax
+    - get_bader_charges
+    inputs: []
+    outputs:
+    - MO charges
+#  - _fw_name: FileDeleteTask
+#      files_to_delete:
+#    - CHGCAR
+#    - CHG
+#    - CHGCAR_sum
+#    - AECCAR0
+#    - AECCAR1
+#    - AECCAR2
+#  - script: rm CHGCAR CHG CHGCAR_sum AECCAR0 AECCAR1 AECCAR2
+
+- id: 18
+  name: Bader charges *OH
+  tasks:
+  - func:
+    - ueffumax
+    - single_point_calculation
+    inputs:
+    - bader parameters 
+    - relaxed structure id18
+    outputs:
+    - bader MOH energy
+    - bader MOH forces
+    - bader MOH dipole
+#  - script:
+#    - chgsum.pl AECCAR0 AECCAR2
+#    - bader CHGCAR -ref CHGCAR_sum
+  - func:
+    - ueffumax
+    - get_bader_charges
+    inputs: []
+    outputs:
+    - MOH charges
+#  - _fw_name: FileDeleteTask
+#      files_to_delete:
+#    - CHGCAR
+#    - CHG
+#    - CHGCAR_sum
+#    - AECCAR0
+#    - AECCAR1
+#    - AECCAR2
+#  - script: rm CHGCAR CHG CHGCAR_sum AECCAR0 AECCAR1 AECCAR2
+
+- id: 19
+  name: Bader charges *OOH
+  tasks:
+  - func:
+    - ueffumax
+    - single_point_calculation
+    inputs:
+    - bader parameters 
+    - relaxed structure id19
+    outputs:
+    - bader MOOH energy
+    - bader MOOH forces
+    - bader MOOH dipole
+#  - script:
+#    - chgsum.pl AECCAR0 AECCAR2
+#    - bader CHGCAR -ref CHGCAR_sum
+  - func:
+    - ueffumax
+    - get_bader_charges
+    inputs: []
+    outputs:
+    - MOOH charges
+#  - _fw_name: FileDeleteTask
+#      files_to_delete:
+#    - CHGCAR
+#    - CHG
+#    - CHGCAR_sum
+#    - AECCAR0
+#    - AECCAR1
+#    - AECCAR2
+#  - script: rm CHGCAR CHG CHGCAR_sum AECCAR0 AECCAR1 AECCAR2

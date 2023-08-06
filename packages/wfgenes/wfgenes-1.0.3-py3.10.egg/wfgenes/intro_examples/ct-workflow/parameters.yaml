@@ -1,0 +1,25 @@
+title: benzene
+morphology type: amorphous
+morphology scale: atomistic
+carrier: hole
+cell size: 30.0
+trials: 10000
+clash distance: 2.5
+hopping threshold: 5.0
+rdf cutoff radius: 15.0
+rdf number of bins: 50
+rng seed: 7
+temperature: 298.15
+charge: 0
+multiplicity: 1
+calculator:
+  name: turbomole
+  parameters:
+    title: benzene
+    basis set name: sto-3g hondo
+    density functional: b3-lyp
+    total charge: 0
+    multiplicity: 1
+    scf iterations: 60
+    force convergence: 0.001
+    geometry optimization iterations: 50

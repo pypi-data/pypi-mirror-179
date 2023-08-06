@@ -1,0 +1,45 @@
+calculator:
+  name: vasp
+  parameters:
+    algo: Fast
+    ediff: 1e-06
+    ediffg: -0.01
+    encut: 550.0
+    ibrion: 1
+    icharg: 2
+    isif: 0
+    ismear: 0
+    ispin: 2
+    istart: 0
+    kpts: [1, 1, 1]
+    lbeefens: true
+    lcharg: false
+    lreal: Auto
+    lwave: false
+    nelm: 250
+    nsw: 600
+    potim: 0.3
+    prec: Normal
+    sigma: 0.1
+    xc: beef-vdw
+structure:
+  atoms:
+    cell:
+    - [12.0, 0.0, 0.0]
+    - [0.0, 12.0, 0.0]
+    - [0.0, 0.0, 12.0]
+    constraints:
+    - kwargs:
+        a: 0
+        direction: [0.0, 0.0, 1.0]
+      name: FixedLine
+    - kwargs:
+        a: 1
+        direction: [0.0, 0.0, 1.0]
+      name: FixedLine
+    numbers: [1, 1]
+    pbc: [true, true, true]
+    positions:
+    - [0.0, 0.0, 0.0]
+    - [0.0, 0.0, 1.0]
+  initial magnetic moments: [-1, 1]

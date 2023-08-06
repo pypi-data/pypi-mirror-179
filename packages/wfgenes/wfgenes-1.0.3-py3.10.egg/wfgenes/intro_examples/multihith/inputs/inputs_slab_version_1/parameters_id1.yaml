@@ -1,0 +1,42 @@
+
+      substrate:
+        construct:
+          method:
+            name: fcc111
+            args: [Ni, [2, 2, 3]]
+            kwargs: {a: 3.518, orthogonal: false, vacuum: 12.0}
+          type: surface
+        constraints:
+          layers: [3]
+      adsorbates:
+      - adsorbate:
+          numbers: [8]
+          positions:
+          - [0.0, 0.0, 0.0]
+        height: 1.3
+        offset: [0, 0]
+        position: fcc
+      calculator:
+        name: vasp
+        optimize: true
+        parameters:
+          algo: Fast
+          ediff: 1.0e-06
+          ediffg: -0.05
+          encut: 400.0
+          ibrion: 2
+          icharg: 2
+          ismear: 1
+          ispin: 2
+          istart: 0
+          kpts: [5, 5, 1]
+          lcharg: false
+          lreal: Auto
+          lwave: false
+          ncore: 20
+          nelm: 250
+          nsw: 500
+          potim: 0.2
+          prec: Normal
+          sigma: 0.2
+          xc: PBE

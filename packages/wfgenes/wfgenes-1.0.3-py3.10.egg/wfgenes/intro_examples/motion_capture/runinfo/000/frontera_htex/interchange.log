@@ -1,0 +1,22 @@
+2021-12-06 13:35:15.152 interchange:165 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55194,55724,55063
+2021-12-06 13:35:15.158 interchange:179 [INFO]  Connected to client
+2021-12-06 13:35:15.171 interchange:214 [INFO]  Bound to ports 54079,54209 for incoming worker connections
+2021-12-06 13:35:15.172 interchange:229 [INFO]  Platform info: {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture'}
+2021-12-06 13:35:15.172 interchange:347 [INFO]  Incoming ports bound
+2021-12-06 13:35:15.174 interchange:264 [INFO]  [TASK_PULL_THREAD] Starting
+2021-12-06 13:35:16.218 interchange:408 [INFO]  [MAIN] Adding manager: b'7d12b29a6e1e' to ready queue
+2021-12-06 13:35:16.218 interchange:410 [INFO]  [MAIN] Registration info for manager b'7d12b29a6e1e': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 35, 16)}
+2021-12-06 13:35:16.218 interchange:430 [INFO]  [MAIN] Manager b'7d12b29a6e1e' has compatible Parsl version 1.0.0
+2021-12-06 13:35:16.218 interchange:431 [INFO]  [MAIN] Manager b'7d12b29a6e1e' has compatible Python version 3.8
+2021-12-06 13:35:16.249 interchange:408 [INFO]  [MAIN] Adding manager: b'c28b2b956df6' to ready queue
+2021-12-06 13:35:16.249 interchange:410 [INFO]  [MAIN] Registration info for manager b'c28b2b956df6': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '1', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 35, 16)}
+2021-12-06 13:35:16.249 interchange:430 [INFO]  [MAIN] Manager b'c28b2b956df6' has compatible Parsl version 1.0.0
+2021-12-06 13:35:16.249 interchange:431 [INFO]  [MAIN] Manager b'c28b2b956df6' has compatible Python version 3.8
+2021-12-06 13:35:16.287 interchange:408 [INFO]  [MAIN] Adding manager: b'35316d209c5c' to ready queue
+2021-12-06 13:35:16.287 interchange:410 [INFO]  [MAIN] Registration info for manager b'35316d209c5c': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '2', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 35, 16)}
+2021-12-06 13:35:16.287 interchange:430 [INFO]  [MAIN] Manager b'35316d209c5c' has compatible Parsl version 1.0.0
+2021-12-06 13:35:16.287 interchange:431 [INFO]  [MAIN] Manager b'35316d209c5c' has compatible Python version 3.8
+2021-12-06 13:35:16.299 interchange:408 [INFO]  [MAIN] Adding manager: b'a9dbff0b8a39' to ready queue
+2021-12-06 13:35:16.299 interchange:410 [INFO]  [MAIN] Registration info for manager b'a9dbff0b8a39': {'parsl_v': '1.0.0', 'python_v': '3.8.5', 'worker_count': 4, 'block_id': '3', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 35, 16)}
+2021-12-06 13:35:16.299 interchange:430 [INFO]  [MAIN] Manager b'a9dbff0b8a39' has compatible Parsl version 1.0.0
+2021-12-06 13:35:16.299 interchange:431 [INFO]  [MAIN] Manager b'a9dbff0b8a39' has compatible Python version 3.8

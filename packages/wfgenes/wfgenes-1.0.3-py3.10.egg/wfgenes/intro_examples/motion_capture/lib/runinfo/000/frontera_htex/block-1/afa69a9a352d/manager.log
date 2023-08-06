@@ -1,0 +1,37 @@
+2021-12-06 12:49:06.167 parsl:607 Rank:0 [INFO]  Python version: 3.8.5 | packaged by conda-forge | (default, Jul 31 2020, 02:39:48) 
+[GCC 7.5.0]
+2021-12-06 12:49:06.167 parsl:608 Rank:0 [INFO]  Debug logging: False
+2021-12-06 12:49:06.167 parsl:609 Rank:0 [INFO]  Log dir: /home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/000/frontera_htex
+2021-12-06 12:49:06.167 parsl:610 Rank:0 [INFO]  Manager ID: afa69a9a352d
+2021-12-06 12:49:06.167 parsl:611 Rank:0 [INFO]  Block ID: 1
+2021-12-06 12:49:06.167 parsl:612 Rank:0 [INFO]  cores_per_worker: 1
+2021-12-06 12:49:06.167 parsl:613 Rank:0 [INFO]  mem_per_worker: None
+2021-12-06 12:49:06.167 parsl:614 Rank:0 [INFO]  task_port: 54703
+2021-12-06 12:49:06.168 parsl:615 Rank:0 [INFO]  result_port: 54295
+2021-12-06 12:49:06.168 parsl:616 Rank:0 [INFO]  addresses: SCC-th7356-01
+2021-12-06 12:49:06.168 parsl:617 Rank:0 [INFO]  max_workers: 4
+2021-12-06 12:49:06.168 parsl:618 Rank:0 [INFO]  poll_period: 10
+2021-12-06 12:49:06.168 parsl:619 Rank:0 [INFO]  address_probe_timeout: 30
+2021-12-06 12:49:06.168 parsl:620 Rank:0 [INFO]  Prefetch capacity: 0
+2021-12-06 12:49:06.168 parsl:621 Rank:0 [INFO]  Heartbeat threshold: 120
+2021-12-06 12:49:06.168 parsl:622 Rank:0 [INFO]  Heartbeat period: 30
+2021-12-06 12:49:06.168 parsl:122 Rank:0 [INFO]  Manager started
+2021-12-06 12:49:06.179 parsl.executors.high_throughput.probe:47 Rank:0 [INFO]  Connected to interchange on SCC-th7356-01
+2021-12-06 12:49:06.180 parsl:129 Rank:0 [INFO]  Connection to Interchange successful on SCC-th7356-01
+2021-12-06 12:49:06.180 parsl:132 Rank:0 [INFO]  Task url : tcp://SCC-th7356-01:54703
+2021-12-06 12:49:06.180 parsl:133 Rank:0 [INFO]  Result url : tcp://SCC-th7356-01:54295
+2021-12-06 12:49:06.180 parsl:151 Rank:0 [INFO]  Manager connected
+2021-12-06 12:49:06.181 parsl:177 Rank:0 [INFO]  Manager will spawn 4 workers
+2021-12-06 12:49:06.202 parsl:228 Rank:0 [INFO]  [TASK PULL THREAD] starting
+2021-12-06 12:49:06.205 parsl:414 Rank:0 [INFO]  Loop start
+2021-12-06 12:56:04.156 parsl:294 Rank:0 [CRITICAL]  [TASK_PULL_THREAD] Missing contact with interchange beyond heartbeat_threshold
+2021-12-06 12:56:04.156 parsl:296 Rank:0 [CRITICAL]  [TASK_PULL_THREAD] Exiting
+2021-12-06 12:56:04.157 parsl:419 Rank:0 [CRITICAL]  [MAIN] Received kill event, terminating worker processes
+2021-12-06 12:56:04.158 parsl:333 Rank:0 [CRITICAL]  [RESULT_PUSH_THREAD] Exiting
+2021-12-06 12:56:26.579 parsl:375 Rank:0 [CRITICAL]  [WORKER_WATCHDOG_THREAD] Exiting
+2021-12-06 12:56:26.580 parsl:426 Rank:0 [CRITICAL]  Terminating worker <Process name='HTEX-Worker-0' pid=110531 parent=110424 started>:True
+2021-12-06 12:56:26.589 parsl:426 Rank:0 [CRITICAL]  Terminating worker <Process name='HTEX-Worker-1' pid=110532 parent=110424 started>:True
+2021-12-06 12:56:26.600 parsl:426 Rank:0 [CRITICAL]  Terminating worker <Process name='HTEX-Worker-2' pid=110534 parent=110424 started>:True
+2021-12-06 12:56:26.608 parsl:426 Rank:0 [CRITICAL]  Terminating worker <Process name='HTEX-Worker-3' pid=110536 parent=110424 started>:True
+2021-12-06 12:56:26.623 parsl:435 Rank:0 [INFO]  process_worker_pool ran for 440.4414224624634 seconds
+2021-12-06 12:56:26.624 parsl:644 Rank:0 [INFO]  process_worker_pool exiting

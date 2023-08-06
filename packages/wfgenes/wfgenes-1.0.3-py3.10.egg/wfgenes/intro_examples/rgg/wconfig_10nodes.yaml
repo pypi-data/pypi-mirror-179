@@ -1,0 +1,158 @@
+nodes:
+- id: 1
+  name: node_id1
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs: []
+    kwargs:
+      id: 1
+      len_output: 2
+      sleep_time: 10
+    outputs:
+    - link_1_to_5
+    - link_1_to_10
+- id: 2
+  name: node_id2
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs: []
+    kwargs:
+      id: 2
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_2_to_3
+- id: 3
+  name: node_id3
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_2_to_3
+    kwargs:
+      id: 3
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_3_to_9
+- id: 4
+  name: node_id4
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs: []
+    kwargs:
+      id: 4
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_4_to_6
+- id: 5
+  name: node_id5
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_1_to_5
+    - link_10_to_5
+    kwargs:
+      id: 5
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_5_to_11
+- id: 6
+  name: node_id6
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_4_to_6
+    kwargs:
+      id: 6
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_6_to_8
+- id: 7
+  name: node_id7
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs: []
+    kwargs:
+      id: 7
+      len_output: 2
+      sleep_time: 10
+    outputs:
+    - link_7_to_8
+    - link_7_to_9
+- id: 8
+  name: node_id8
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_6_to_8
+    - link_7_to_8
+    kwargs:
+      id: 8
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_8_to_11
+- id: 9
+  name: node_id9
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_3_to_9
+    - link_7_to_9
+    kwargs:
+      id: 9
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_9_to_11
+- id: 10
+  name: node_id10
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_1_to_10
+    kwargs:
+      id: 10
+      len_output: 1
+      sleep_time: 10
+    outputs:
+    - link_10_to_5
+- id: 11
+  name: node_id11
+  tasks:
+  - func:
+    - my_function
+    - weighted_sleep
+    inputs:
+    - link_5_to_11
+    - link_8_to_11
+    - link_9_to_11
+    kwargs:
+      id: 11
+      len_output: 0
+      sleep_time: 10
+    outputs: []
+workflow_name: random_graph

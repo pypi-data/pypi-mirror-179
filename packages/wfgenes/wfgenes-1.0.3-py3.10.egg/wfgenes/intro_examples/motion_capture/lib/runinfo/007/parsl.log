@@ -1,0 +1,485 @@
+2021-12-06 13:13:40.830 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir=None, 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 13:13:40.830 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 13:13:40.830 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 13:13:40.831 parsl.dataflow.dflow:114 [INFO]  Run id is: b9fd6ff6-583c-4584-99e8-3ec7111468ab
+2021-12-06 13:13:40.976 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 13:13:40.976 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 13:13:40.978 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 13:13:40.978 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 13:13:40.978 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 13:13:41.014 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140305451333376)>
+2021-12-06 13:13:41.014 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54639 --result_port=54580 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/007/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 13:13:41.014 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/007/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 13:13:41.021 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:13:41.029 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->159766
+2021-12-06 13:13:41.030 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:13:41.039 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->159772
+2021-12-06 13:13:41.040 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:13:41.052 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->159783
+2021-12-06 13:13:41.052 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:13:41.065 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->159792
+2021-12-06 13:13:41.066 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 13:13:41.067 parsl.dataflow.dflow:533 [DEBUG]  Adding output dependencies
+2021-12-06 13:13:41.067 parsl.dataflow.dflow:772 [INFO]  Task 0 submitted for App count_cameras, not waiting on any dependency
+2021-12-06 13:13:41.067 parsl.dataflow.dflow:780 [DEBUG]  Task 0 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f9b6c192430 state=pending>>
+2021-12-06 13:13:41.067 parsl.dataflow.memoization:196 [DEBUG]  Task 0 will not be memoized
+2021-12-06 13:13:41.067 parsl.executors.high_throughput.executor:546 [DEBUG]  Pushing function <function count_cameras at 0x7f9b6c340ca0> to queue with args ()
+2021-12-06 13:13:41.068 parsl.dataflow.dflow:500 [INFO]  Task 0 launched on executor frontera_htex
+2021-12-06 13:13:41.976 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:13:41.977 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:13:41.977 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:13:42.305 parsl.app.errors:123 [DEBUG]  Reraising exception of type <class 'ModuleNotFoundError'>
+2021-12-06 13:13:42.306 parsl.dataflow.dflow:266 [DEBUG]  Task 0 failed
+2021-12-06 13:13:42.306 parsl.dataflow.dflow:279 [ERROR]  Task 0 failed after 0 retry attempts
+Traceback (most recent call last):
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/dataflow/dflow.py", line 261, in handle_exec_update
+    res = future.result()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/executors/high_throughput/executor.py", line 395, in _queue_management_worker
+    s.reraise()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/app/errors.py", line 128, in reraise
+    reraise(t, v, tb)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/bin/process_worker_pool.py", line 516, in worker
+    result = execute_task(req['buffer'])
+  File "/home/mehdi/tools/anaconda3/envs/myenv/bin/process_worker_pool.py", line 447, in execute_task
+    f, args, kwargs = unpack_apply_message(bufs, user_ns, copy=False)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/serialize.py", line 198, in unpack_apply_message
+    f, bufs = deserialize_object(bufs, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/serialize.py", line 158, in deserialize_object
+    newobj = uncan(canned, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 438, in uncan
+    return uncanner(obj, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 491, in <lambda>
+    CannedObject : lambda obj, g: obj.get_object(g),
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 200, in get_object
+    __import__(self.module)
+ModuleNotFoundError: No module named 'motion_detector'
+2021-12-06 13:13:46.977 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:13:46.978 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:13:46.978 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:13:51.978 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:13:51.979 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:13:51.979 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:13:56.978 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:01.978 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:01.978 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:01.979 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:06.979 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:06.980 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:06.981 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:11.978 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:16.979 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:16.980 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:16.980 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:21.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:21.981 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:21.982 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:26.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:31.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:31.980 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:31.981 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:36.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:36.982 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:36.982 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:41.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:46.980 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:46.981 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:46.981 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:51.981 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:51.983 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:51.983 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:14:56.982 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:14:56.983 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:14:56.984 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:01.982 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:01.983 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:01.984 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:06.982 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:06.984 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:06.984 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:11.982 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:16.983 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:16.984 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:16.984 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:21.984 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:21.985 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:21.985 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:26.984 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:26.985 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:26.986 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:31.984 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:31.986 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:31.986 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:36.984 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:41.985 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:41.985 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:41.986 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:46.985 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:46.986 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:46.986 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:15:51.985 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:56.986 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:15:56.986 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:15:56.987 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:01.986 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:01.988 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:01.988 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:06.986 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:11.986 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:11.987 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:11.987 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:16.987 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:16.988 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:16.989 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:21.987 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:26.987 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:26.988 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:26.989 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:31.988 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:31.989 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:31.995 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:36.988 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:36.990 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:36.990 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:41.988 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:41.990 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:41.990 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:46.988 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:51.989 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:16:51.990 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:16:51.990 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:16:56.989 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:01.989 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:01.989 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:01.989 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:06.990 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:06.992 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:06.992 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:11.991 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:11.992 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:11.993 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:16.991 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:21.991 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:21.992 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:21.992 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:26.992 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:26.993 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:26.994 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:31.992 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:36.992 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:36.992 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:36.992 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:41.993 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:41.994 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:41.995 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:46.992 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:51.993 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:51.993 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:51.994 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:17:56.993 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:17:56.995 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:17:57.000 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:01.993 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:06.993 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:06.994 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:06.995 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:11.994 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:11.995 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:11.996 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:16.994 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:21.996 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:21.996 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:21.996 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:26.996 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:26.996 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:26.996 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:31.997 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:31.998 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:31.999 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:36.997 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:36.999 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:36.999 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:37.180 parsl.addresses:63 [DEBUG]  Finding address by using local hostname
+2021-12-06 13:18:37.180 parsl.addresses:65 [DEBUG]  Address found: SCC-th7356-01
+2021-12-06 13:18:37.181 parsl.executors.high_throughput.executor:186 [DEBUG]  Initializing HighThroughputExecutor
+2021-12-06 13:18:37.182 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir: runinfo/002
+2021-12-06 13:18:37.189 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/007/submit_scripts', 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 13:18:37.190 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 13:18:37.190 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 13:18:37.190 parsl.dataflow.dflow:114 [INFO]  Run id is: 60637dd0-0a26-4563-ae7c-1c84ba319db7
+2021-12-06 13:18:37.212 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 13:18:37.212 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 13:18:37.236 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 13:18:37.236 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 13:18:37.237 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 13:18:37.249 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140304963331840)>
+2021-12-06 13:18:37.249 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54368 --result_port=54328 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/wfGenes_output/runinfo/002/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 13:18:37.249 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/007/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 13:18:37.256 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:18:37.268 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->168862
+2021-12-06 13:18:37.268 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:18:37.278 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->168868
+2021-12-06 13:18:37.279 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:18:37.292 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->168874
+2021-12-06 13:18:37.292 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:18:37.305 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->168880
+2021-12-06 13:18:37.305 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 13:18:37.306 parsl.dataflow.dflow:533 [DEBUG]  Adding output dependencies
+2021-12-06 13:18:37.307 parsl.dataflow.dflow:772 [INFO]  Task 0 submitted for App count_cameras, not waiting on any dependency
+2021-12-06 13:18:37.307 parsl.dataflow.dflow:780 [DEBUG]  Task 0 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f9b91380100 state=pending>>
+2021-12-06 13:18:37.307 parsl.dataflow.memoization:196 [DEBUG]  Task 0 will not be memoized
+2021-12-06 13:18:37.307 parsl.executors.high_throughput.executor:546 [DEBUG]  Pushing function <function count_cameras at 0x7f9b6c340ca0> to queue with args ()
+2021-12-06 13:18:37.308 parsl.dataflow.dflow:500 [INFO]  Task 0 launched on executor frontera_htex
+2021-12-06 13:18:38.213 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:38.213 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:38.213 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['168862', '168868', '168874', '168880']
+2021-12-06 13:18:38.427 parsl.app.errors:123 [DEBUG]  Reraising exception of type <class 'ModuleNotFoundError'>
+2021-12-06 13:18:38.428 parsl.dataflow.dflow:266 [DEBUG]  Task 0 failed
+2021-12-06 13:18:38.428 parsl.dataflow.dflow:279 [ERROR]  Task 0 failed after 0 retry attempts
+Traceback (most recent call last):
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/dataflow/dflow.py", line 261, in handle_exec_update
+    res = future.result()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/executors/high_throughput/executor.py", line 395, in _queue_management_worker
+    s.reraise()
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/parsl/app/errors.py", line 128, in reraise
+    reraise(t, v, tb)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/bin/process_worker_pool.py", line 516, in worker
+    result = execute_task(req['buffer'])
+  File "/home/mehdi/tools/anaconda3/envs/myenv/bin/process_worker_pool.py", line 447, in execute_task
+    f, args, kwargs = unpack_apply_message(bufs, user_ns, copy=False)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/serialize.py", line 198, in unpack_apply_message
+    f, bufs = deserialize_object(bufs, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/serialize.py", line 158, in deserialize_object
+    newobj = uncan(canned, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 438, in uncan
+    return uncanner(obj, g)
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 491, in <lambda>
+    CannedObject : lambda obj, g: obj.get_object(g),
+  File "/home/mehdi/tools/anaconda3/envs/myenv/lib/python3.8/site-packages/ipyparallel/serialize/canning.py", line 200, in get_object
+    __import__(self.module)
+ModuleNotFoundError: No module named 'motion_detector'
+2021-12-06 13:18:41.997 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:43.213 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:43.213 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:43.213 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['168862', '168868', '168874', '168880']
+2021-12-06 13:18:46.998 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:47.000 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:47.001 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:48.214 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:48.216 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:48.216 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['168862', '168868', '168874', '168880']
+2021-12-06 13:18:51.033 parsl.dataflow.rundirs:36 [DEBUG]  Parsl run initializing in rundir: runinfo/003
+2021-12-06 13:18:51.034 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[ThreadPoolExecutor(
+        label='frontera_htex', 
+        managed=True, 
+        max_threads=1, 
+        storage_access=None, 
+        thread_name_prefix='', 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 13:18:51.034 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 13:18:51.035 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 13:18:51.035 parsl.dataflow.dflow:114 [INFO]  Run id is: 8cafb4b5-6bac-4689-87f5-7f0d6a31f8b5
+2021-12-06 13:18:51.058 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 13:18:51.058 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 13:18:51.059 parsl.dataflow.dflow:533 [DEBUG]  Adding output dependencies
+2021-12-06 13:18:51.059 parsl.dataflow.dflow:772 [INFO]  Task 0 submitted for App count_cameras, not waiting on any dependency
+2021-12-06 13:18:51.059 parsl.dataflow.dflow:780 [DEBUG]  Task 0 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f9b913045e0 state=pending>>
+2021-12-06 13:18:51.059 parsl.dataflow.memoization:196 [DEBUG]  Task 0 will not be memoized
+2021-12-06 13:18:51.060 parsl.dataflow.dflow:500 [INFO]  Task 0 launched on executor frontera_htex
+2021-12-06 13:18:51.596 parsl.dataflow.dflow:289 [INFO]  Task 0 completed
+2021-12-06 13:18:51.598 parsl.dataflow.dflow:533 [DEBUG]  Adding output dependencies
+2021-12-06 13:18:51.599 parsl.dataflow.dflow:772 [INFO]  Task 1 submitted for App motion_control, not waiting on any dependency
+2021-12-06 13:18:51.599 parsl.dataflow.dflow:780 [DEBUG]  Task 1 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f9b91304d30 state=pending>>
+2021-12-06 13:18:51.600 parsl.dataflow.memoization:196 [DEBUG]  Task 1 will not be memoized
+2021-12-06 13:18:51.600 parsl.dataflow.dflow:500 [INFO]  Task 1 launched on executor frontera_htex
+2021-12-06 13:18:51.602 parsl.dataflow.dflow:533 [DEBUG]  Adding output dependencies
+2021-12-06 13:18:51.602 parsl.dataflow.dflow:772 [INFO]  Task 2 submitted for App motion_control, not waiting on any dependency
+2021-12-06 13:18:51.603 parsl.dataflow.dflow:780 [DEBUG]  Task 2 set to pending state with AppFuture: <AppFuture super=<AppFuture at 0x7f9b91385730 state=pending>>
+2021-12-06 13:18:51.603 parsl.dataflow.memoization:196 [DEBUG]  Task 2 will not be memoized
+2021-12-06 13:18:51.604 parsl.dataflow.dflow:500 [INFO]  Task 2 launched on executor frontera_htex
+2021-12-06 13:18:51.998 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:52.059 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:53.214 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:56.998 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:56.998 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:56.998 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:18:57.061 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:58.214 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:18:58.214 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:18:58.214 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['168862', '168868', '168874', '168880']
+2021-12-06 13:19:01.998 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:19:01.999 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:19:01.999 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:19:02.061 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:19:03.214 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:19:03.214 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:19:03.214 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['168862', '168868', '168874', '168880']
+2021-12-06 13:19:06.999 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:19:07.000 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:19:07.000 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['159766', '159772', '159783', '159792']
+2021-12-06 13:19:07.061 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling

@@ -1,0 +1,11 @@
+2021-12-06 13:40:43.320 interchange:166 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55529,55064,55250
+2021-12-06 13:40:43.322 interchange:180 [INFO]  Connected to client
+2021-12-06 13:40:43.323 interchange:210 [INFO]  Bound to ports 54917,54500 for incoming worker connections
+2021-12-06 13:40:43.323 interchange:225 [INFO]  Platform info: {'parsl_v': '1.1.0', 'python_v': '3.8.12', 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture'}
+2021-12-06 13:40:43.324 interchange:373 [INFO]  Incoming ports bound
+2021-12-06 13:40:43.326 interchange:261 [INFO]  [TASK_PULL_THREAD] Starting
+2021-12-06 13:40:43.733 interchange:437 [INFO]  [MAIN] Adding manager: b'499173280527' to ready queue
+2021-12-06 13:40:43.733 interchange:439 [INFO]  [MAIN] Registration info for manager b'499173280527': {'parsl_v': '1.1.0', 'python_v': '3.8.12', 'worker_count': 4, 'uid': '499173280527', 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 4, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture', 'cpu_count': 4, 'total_memory': 8137764864, 'reg_time': datetime.datetime(2021, 12, 6, 13, 40, 43)}
+2021-12-06 13:40:43.733 interchange:457 [INFO]  [MAIN] Manager b'499173280527' has compatible Parsl version 1.1.0
+2021-12-06 13:40:43.733 interchange:458 [INFO]  [MAIN] Manager b'499173280527' has compatible Python version 3.8
+2021-12-06 13:41:51.820 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'499173280527'

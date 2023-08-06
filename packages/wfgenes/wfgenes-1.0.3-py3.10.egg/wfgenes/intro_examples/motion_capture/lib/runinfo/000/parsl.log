@@ -1,0 +1,249 @@
+2021-12-06 12:49:04.771 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir=None, 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 12:49:04.771 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 12:49:04.771 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 12:49:04.771 parsl.dataflow.dflow:114 [INFO]  Run id is: 296bf381-6fef-4e38-b408-82c2617ac47c
+2021-12-06 12:49:04.916 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 12:49:04.916 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 12:49:04.918 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 12:49:04.918 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 12:49:04.918 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 12:49:04.958 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 140604528908032)>
+2021-12-06 12:49:04.958 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54703 --result_port=54295 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/000/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 12:49:04.959 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib/runinfo/000/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/lib'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 12:49:04.965 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:49:04.974 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->110413
+2021-12-06 12:49:04.975 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:49:04.984 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->110419
+2021-12-06 12:49:04.984 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:49:04.995 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->110425
+2021-12-06 12:49:04.996 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 12:49:05.007 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->110431
+2021-12-06 12:49:05.009 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 12:49:05.916 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:05.916 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:05.917 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:10.917 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:10.918 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:10.918 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:15.917 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:20.917 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:20.918 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:20.918 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:25.918 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:25.920 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:25.920 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:30.918 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:35.918 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:35.919 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:35.920 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:40.919 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:40.921 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:40.921 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:45.919 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:50.920 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:50.920 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:50.921 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:49:55.920 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:49:55.922 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:49:55.927 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:00.920 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:05.920 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:05.921 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:05.921 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:10.921 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:10.923 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:10.923 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:15.921 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:20.922 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:20.922 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:20.923 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:25.923 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:25.924 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:25.924 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:30.923 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:30.924 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:30.925 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:35.923 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:35.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:35.925 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:40.924 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:40.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:40.926 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:45.924 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:50.924 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:50.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:50.925 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:50:55.924 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:50:55.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:50:55.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:00.924 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:00.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:00.925 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:05.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:05.926 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:05.927 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:10.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:15.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:15.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:15.926 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:20.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:25.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:25.925 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:25.925 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:30.925 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:30.926 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:30.926 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:35.926 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:35.927 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:35.928 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:40.926 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:45.926 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:45.927 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:45.928 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:51:50.926 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:55.926 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:51:55.926 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:51:55.926 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:00.927 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:00.929 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:00.929 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:05.927 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:05.929 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:05.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:10.927 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:15.927 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:15.928 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:15.934 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:20.928 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:20.929 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:20.934 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:25.928 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:30.928 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:30.928 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:30.928 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:35.928 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:35.928 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:35.933 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:40.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:40.930 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:40.931 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:45.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:45.930 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:45.931 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:52:50.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:55.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:52:55.929 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:52:55.929 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:00.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:00.929 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:00.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:05.929 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:05.930 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:05.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:10.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:10.932 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:10.933 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:15.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:20.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:20.930 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:20.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:25.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:25.931 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:25.931 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:30.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:35.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:35.930 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:35.930 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:40.930 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:40.931 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:40.931 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:45.931 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:45.931 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:45.931 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:53:50.931 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:55.931 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:53:55.932 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:53:55.933 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:54:00.931 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:05.932 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:05.933 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:54:05.933 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:54:10.932 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:15.932 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:15.932 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:54:15.932 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:54:20.932 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:20.933 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:54:20.933 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']
+2021-12-06 12:54:25.933 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 12:54:25.934 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 12:54:25.935 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['110413', '110419', '110425', '110431']

@@ -1,0 +1,40 @@
+workflow_name: simple_test
+nodes:
+- name: plus_minus
+  id: 1
+  tasks:
+  - func:
+    - myfunctions
+    - plus_minus
+    inputs:
+    - data
+    - constant_y
+    outputs:
+    - datax
+    - datay
+    kwargs: {}
+- name: sum_square
+  id: 2
+  tasks:
+  - func:
+    - myfunctions
+    - sum_square
+    inputs:
+    - datax
+    - datay
+    - constant_z
+    outputs:
+    - results
+    kwargs: {}
+- name: average
+  id: 3
+  tasks:
+  - func:
+    - myfunctions
+    - average_list
+    inputs:
+    - results
+    outputs:
+    - midpoint
+    kwargs: {}    
+

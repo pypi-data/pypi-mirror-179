@@ -1,0 +1,42 @@
+workflow_name: simple_workflow 
+nodes:
+- name: callpython
+  id: 1
+  tasks:
+  - func:
+    - my_functions
+    - callpython
+    inputs:
+    - message
+    outputs:
+    - received_id1
+    kwargs: {}
+- name: callscript
+  id: 2
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    kwargs:
+      command: "./testscript"
+      arguments: 2
+    inputs: []  
+    outputs:
+    - received_id2
+- name: argumentscript
+  id: 3
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - received_id1
+      - received_id2
+    kwargs:
+      command: "echo workflow is finished sucessfully"
+metadata: 
+  name: test
+  category: introduction example
+  feature: python and bash script
+
+

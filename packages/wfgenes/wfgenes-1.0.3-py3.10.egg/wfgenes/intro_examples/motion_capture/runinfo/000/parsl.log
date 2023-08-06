@@ -1,0 +1,111 @@
+2021-12-06 13:35:15.032 parsl.dataflow.dflow:82 [DEBUG]  Starting DataFlowKernel with config
+Config(
+    app_cache=True, 
+    checkpoint_files=None, 
+    checkpoint_mode=None, 
+    checkpoint_period=None, 
+    data_management_max_threads=10, 
+    executors=[HighThroughputExecutor(
+        address='SCC-th7356-01', 
+        address_probe_timeout=None, 
+        cores_per_worker=1, 
+        heartbeat_period=30, 
+        heartbeat_threshold=120, 
+        interchange_port_range=(55000, 56000), 
+        label='frontera_htex', 
+        launch_cmd='process_worker_pool.py {debug} {max_workers} -a {addresses} -p {prefetch_capacity} -c {cores_per_worker} -m {mem_per_worker} --poll {poll_period} --task_port={task_port} --result_port={result_port} --logdir={logdir} --block_id={{block_id}} --hb_period={heartbeat_period} {address_probe_timeout_string} --hb_threshold={heartbeat_threshold} ', 
+        managed=True, 
+        max_workers=4, 
+        mem_per_worker=None, 
+        poll_period=10, 
+        prefetch_capacity=0, 
+        provider=LocalProvider(
+            channel=LocalChannel(
+                envs={}, 
+                script_dir=None, 
+                userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture'
+            ), 
+            cmd_timeout=30, 
+            init_blocks=4, 
+            launcher=SingleNodeLauncher(), 
+            max_blocks=10, 
+            min_blocks=0, 
+            move_files=None, 
+            nodes_per_block=1, 
+            parallelism=1, 
+            walltime='00:15:00', 
+            worker_init=''
+        ), 
+        storage_access=None, 
+        worker_debug=False, 
+        worker_logdir_root=None, 
+        worker_port_range=(54000, 55000), 
+        worker_ports=None, 
+        working_dir=None
+    )], 
+    initialize_logging=True, 
+    max_idletime=120.0, 
+    monitoring=None, 
+    retries=0, 
+    run_dir='runinfo', 
+    strategy=None, 
+    usage_tracking=False
+)
+2021-12-06 13:35:15.032 parsl.dataflow.dflow:87 [INFO]  Parsl version: 1.0.0
+2021-12-06 13:35:15.032 parsl.dataflow.usage_tracking.usage:126 [DEBUG]  Tracking status: False
+2021-12-06 13:35:15.032 parsl.dataflow.dflow:114 [INFO]  Run id is: f26e4434-e2c3-43d2-8581-7f708a5285b0
+2021-12-06 13:35:15.144 parsl.dataflow.memoization:128 [INFO]  App caching initialized
+2021-12-06 13:35:15.144 parsl.dataflow.strategy:128 [DEBUG]  Scaling strategy: None
+2021-12-06 13:35:15.146 parsl.executors.high_throughput.executor:457 [DEBUG]  Starting queue management thread
+2021-12-06 13:35:15.146 parsl.executors.high_throughput.executor:341 [DEBUG]  [MTHREAD] queue management worker starting
+2021-12-06 13:35:15.146 parsl.executors.high_throughput.executor:461 [DEBUG]  Started queue management thread
+2021-12-06 13:35:15.174 parsl.executors.high_throughput.executor:304 [DEBUG]  Created management thread: <Thread(HTEX-Queue-Management-Thread, started daemon 139905959171840)>
+2021-12-06 13:35:15.174 parsl.executors.high_throughput.executor:280 [DEBUG]  Launch command: process_worker_pool.py  --max_workers=4 -a SCC-th7356-01 -p 0 -c 1 -m None --poll 10 --task_port=54079 --result_port=54209 --logdir=/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/runinfo/000/frontera_htex --block_id={block_id} --hb_period=30  --hb_threshold=120 
+2021-12-06 13:35:15.174 parsl.executors.high_throughput.executor:283 [DEBUG]  Starting HighThroughputExecutor with provider:
+LocalProvider(
+    channel=LocalChannel(
+        envs={}, 
+        script_dir='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture/runinfo/000/submit_scripts', 
+        userhome='/home/mehdi/work/gitscc/wfgenes/intro_examples/motion_capture'
+    ), 
+    cmd_timeout=30, 
+    init_blocks=4, 
+    launcher=SingleNodeLauncher(), 
+    max_blocks=10, 
+    min_blocks=0, 
+    move_files=None, 
+    nodes_per_block=1, 
+    parallelism=1, 
+    walltime='00:15:00', 
+    worker_init=''
+)
+2021-12-06 13:35:15.180 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:35:15.190 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 0->202484
+2021-12-06 13:35:15.191 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:35:15.200 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 1->202490
+2021-12-06 13:35:15.200 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:35:15.210 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 2->202496
+2021-12-06 13:35:15.210 parsl.providers.local.local:165 [DEBUG]  Launching in remote mode
+2021-12-06 13:35:15.227 parsl.executors.high_throughput.executor:581 [DEBUG]  Launched block 3->202502
+2021-12-06 13:35:15.229 parsl.dataflow.task_status_poller:74 [DEBUG]  Adding executor frontera_htex
+2021-12-06 13:35:16.145 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:16.145 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:16.145 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:21.145 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:21.146 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:21.146 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:26.145 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:31.145 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:31.145 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:31.146 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:36.146 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:36.148 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:36.149 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:41.146 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:46.146 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:46.146 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:46.146 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:51.147 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling
+2021-12-06 13:35:51.149 parsl.dataflow.task_status_poller:26 [DEBUG]  Polling frontera_htex
+2021-12-06 13:35:51.149 parsl.providers.local.local:77 [DEBUG]  Checking status of: ['202484', '202490', '202496', '202502']
+2021-12-06 13:35:56.147 parsl.dataflow.task_status_poller:62 [DEBUG]  Polling

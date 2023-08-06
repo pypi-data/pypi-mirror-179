@@ -1,0 +1,33 @@
+sworkflow_name: reference_wconfig 
+nodes:
+- name: plus_minus
+  id: 1
+  tasks:
+  - func:
+    {module: mymodule, func: plus_minus, flow: FOREACH, split_array: data, factor: 10}
+    inputs:
+    - {name: data}
+    - {name: constant_y}
+    outputs:
+    - { name: datax, log: True}
+    - { name: datay, log: False }
+    kwargs: {}
+    resources: {}
+    resources: {pool: local_threads, max_threads: 4}
+- name: sum_square
+  id: 2
+  tasks:
+  - func:
+    {module: mymodule, func: sum_square, flow: FOREACH, split_array: datax, factor: 10, zip_inputs: [data_y]}
+    inputs:
+    - {name: datax }
+    - {name: datay}
+    - {name: constant_z}
+    outputs:
+    - {name: results, log: True}
+    kwargs: {}
+    resources: {pool: local_threads, max_threads: 4}
+metadata: 
+  name: WConfig 
+  category: introduction example
+  description: This WConfig intends to be a reference for wfGenes base class. 

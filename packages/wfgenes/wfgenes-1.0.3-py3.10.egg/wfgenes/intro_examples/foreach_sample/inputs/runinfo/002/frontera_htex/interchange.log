@@ -1,0 +1,11 @@
+2022-02-28 23:16:36.470 interchange:166 [INFO]  Attempting connection to client at 127.0.0.1 on ports: 55015,55364,55842
+2022-02-28 23:16:36.471 interchange:180 [INFO]  Connected to client
+2022-02-28 23:16:36.472 interchange:210 [INFO]  Bound to ports 54493,54932 for incoming worker connections
+2022-02-28 23:16:36.472 interchange:225 [INFO]  Platform info: {'parsl_v': '1.1.0', 'python_v': '3.8.12', 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/foreach_sample/inputs'}
+2022-02-28 23:16:36.473 interchange:373 [INFO]  Incoming ports bound
+2022-02-28 23:16:36.474 interchange:261 [INFO]  [TASK_PULL_THREAD] Starting
+2022-02-28 23:16:36.883 interchange:437 [INFO]  [MAIN] Adding manager: b'c1c7b29c098d' to ready queue
+2022-02-28 23:16:36.883 interchange:439 [INFO]  [MAIN] Registration info for manager b'c1c7b29c098d': {'parsl_v': '1.1.0', 'python_v': '3.8.12', 'worker_count': 2, 'uid': 'c1c7b29c098d', 'block_id': '0', 'prefetch_capacity': 0, 'max_capacity': 2, 'os': 'Linux', 'hostname': 'SCC-th7356-01', 'dir': '/home/mehdi/work/gitscc/wfgenes/intro_examples/foreach_sample/inputs', 'cpu_count': 4, 'total_memory': 8133021696, 'reg_time': datetime.datetime(2022, 2, 28, 23, 16, 36)}
+2022-02-28 23:16:36.883 interchange:457 [INFO]  [MAIN] Manager b'c1c7b29c098d' has compatible Parsl version 1.1.0
+2022-02-28 23:16:36.883 interchange:458 [INFO]  [MAIN] Manager b'c1c7b29c098d' has compatible Python version 3.8
+2022-02-28 23:18:19.305 interchange:342 [INFO]  [CMD] Received HOLD_WORKER for b'c1c7b29c098d'

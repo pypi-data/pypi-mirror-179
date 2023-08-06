@@ -1,0 +1,28 @@
+workflow_name: simple_workflow 
+nodes:
+- name: count cameras
+  id: 1
+  tasks:
+  - func:
+    - motion_detector
+    - count_cameras
+    outputs:
+    - cameras_count
+    - cameras_index
+    kwargs: {}
+- name: capture motion
+  id: 2
+  tasks:
+  - func:
+    - motion_detector
+    - motion_control
+    inputs:
+    -camera_index
+    kwargs: {}  
+    outputs:
+metadata: 
+  name: motion control
+  category: introduction exampl
+  feature: opencv, python
+
+

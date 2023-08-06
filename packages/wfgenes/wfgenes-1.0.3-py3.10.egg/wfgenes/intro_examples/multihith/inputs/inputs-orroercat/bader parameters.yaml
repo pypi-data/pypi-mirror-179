@@ -1,0 +1,21 @@
+calculator:
+  name: vasp
+  parameters:
+    algo: Fast
+    ediff: 1e-06
+    encut: 550.0
+    ibrion: -1
+    icharg: 2
+    ismear: 0
+    ispin: 2
+    istart: 0
+    kpts: [5, 5, 1]
+    laechg: true
+    lbeefens: true
+    lcharg: true
+    lreal: Auto
+    lwave: false
+    nelm: 250
+    prec: Accurate
+    sigma: 0.1
+    xc: beef-vdw

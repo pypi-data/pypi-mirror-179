@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo The script is finished with the argument of $1

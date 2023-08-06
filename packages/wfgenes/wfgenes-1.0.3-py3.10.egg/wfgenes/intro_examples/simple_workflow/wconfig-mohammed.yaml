@@ -1,0 +1,106 @@
+workflow_name: simple_workflow 
+nodes:
+- name: Start Locally
+  id: 1
+  tasks:
+  - func:
+    - my_functions
+    - callpython
+    outputs:
+    - start
+- name: create_data_set
+  id: 2
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    kwargs:
+      command: "./testscript"
+    inputs: 
+    - start  
+    outputs:
+    - remote directory is created
+- name: File Tranfer
+  id: 3
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - remote directory is created
+    outputs:
+      - files
+- name: Equlibriate
+  id: 4
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - files
+- name: create_data_set
+  id: 5
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    kwargs:
+      command: "./testscript"
+    inputs: 
+    - start  
+    outputs:
+    - remote directory is created_id5
+- name: File Tranfer
+  id: 6
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - remote directory is created_id5
+    outputs:
+      - files_id6
+- name: Equlibriate
+  id: 7
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - files_id6
+- name: create_data_set
+  id: 8
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    kwargs:
+      command: "./testscript"
+    inputs: 
+    - start  
+    outputs:
+    - remote directory is created_id8
+- name: File Tranfer
+  id: 9
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - remote directory is created_id8
+    outputs:
+      - files_id9
+- name: Equlibriate
+  id: 10
+  tasks:
+  - func:
+    - glueblue
+    - callscript
+    inputs:
+      - files_id9      
+metadata: 
+  name: mohammed model
+  category: MD workflow
+  feature: python and bash script
+
+

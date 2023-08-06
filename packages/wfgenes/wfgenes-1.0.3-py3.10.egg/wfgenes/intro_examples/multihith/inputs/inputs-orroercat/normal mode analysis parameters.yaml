@@ -1,0 +1,30 @@
+calculator:
+  name: vasp
+  parameters:
+    algo: Fast
+    ediff: 1e-07
+    encut: 550.0
+    ibrion: 5
+    icharg: 2
+    ismear: 0
+    ispin: 2
+    istart: 0
+    kpts: [5, 5, 1]
+    lbeefens: true
+    lcharg: false
+    lreal: Auto
+    lwave: false
+    nelm: 250
+    nfree: 2
+    nsw: 1
+    potim: 0.005
+    prec: Normal
+    sigma: 0.1
+    xc: beef-vdw
+normal mode analysis:
+  constraints:
+  - kwargs:
+      indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+    name: FixAtoms
+  parameters: {}
+temperature: 298.15

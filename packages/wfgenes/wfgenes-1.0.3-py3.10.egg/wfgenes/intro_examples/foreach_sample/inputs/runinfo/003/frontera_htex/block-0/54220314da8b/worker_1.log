@@ -1,0 +1,7 @@
+2022-02-28 23:18:29.146 worker_log:503 Rank:1 [INFO]  Worker 1 started
+2022-02-28 23:18:29.368 worker_log:533 Rank:1 [INFO]  Received task 2
+2022-02-28 23:18:39.379 worker_log:551 Rank:1 [INFO]  Completed task 2
+2022-02-28 23:18:39.604 worker_log:533 Rank:1 [INFO]  Received task 11
+2022-02-28 23:18:49.617 worker_log:551 Rank:1 [INFO]  Completed task 11
+2022-02-28 23:18:49.653 worker_log:533 Rank:1 [INFO]  Received task 18
+2022-02-28 23:18:59.663 worker_log:551 Rank:1 [INFO]  Completed task 18

@@ -1,0 +1,4 @@
+2021-12-06 13:00:04.501 worker_log:496 Rank:0 [INFO]  Worker 0 started
+2021-12-06 13:00:04.512 worker_log:507 Rank:0 [INFO]  Received task 1
+2021-12-06 13:00:04.513 worker_log:519 Rank:0 [INFO]  Caught an exception: No module named 'motion_detector'
+2021-12-06 13:00:04.655 worker_log:525 Rank:0 [INFO]  Completed task 1

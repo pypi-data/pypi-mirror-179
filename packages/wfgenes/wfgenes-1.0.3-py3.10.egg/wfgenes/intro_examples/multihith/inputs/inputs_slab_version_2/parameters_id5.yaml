@@ -1,0 +1,25 @@
+ 
+      calculator:
+        name: vasp
+        optimize: true
+        parameters:
+          algo: Fast
+          ediff: 1.0e-06
+          ediffg: -0.05
+          encut: 400.0
+          ibrion: 2
+          icharg: 2
+          ismear: 1
+          ispin: 2
+          istart: 0
+          kpts: [5, 5, 1]
+          lcharg: false
+          lreal: Auto
+          lwave: false
+          ncore: 20
+          nelm: 250
+          nsw: 500
+          potim: 0.2
+          prec: Normal
+          sigma: 0.2
+          xc: PBE
