@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "demo-dec5"
+version = "0.1.0"
+description = ""
+authors = ["krushna Panchvishe <krushnap@cdac.in>"]
+readme = "README.md"
+packages = [{include = "demo_dec5"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+nano = "^0.10.0"
+streamlit = {version = "^1.15.2", source = "nexus_pypi"}
+
+
+[[tool.poetry.source]]
+name = "nexus_pypi"
+url = "http://192.168.181.139:8081/repository/pypi-all/simple"
+default = false
+secondary = false
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
