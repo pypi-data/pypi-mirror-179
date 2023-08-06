@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streamlit-pandas
+Version: 0.0.1
+Summary: Create a Streamlit Pandas App
+Author: WJB Mattingly
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas (<2.0.0,>=1.0.0)
+
+UNKNOWN
+
