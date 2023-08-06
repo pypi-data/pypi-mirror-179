@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cli-tarot
+Version: 1.0
+Summary: A convenient way to get a tarot reading on your terminal!
+Requires-Python: >=3.9
+License-File: LICENSE.md
