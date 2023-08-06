@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bracketeering
+Version: 0.1.0
+Summary: Library to calculate withholdings based on tiered brackets
+Home-page: https://github.com/austin1howard/bracketeering
+License: MIT
+Keywords: taxes
+Author: Austin Howard
+Author-email: austin@ahoward.io
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: clearcut (>=0.2.1,<0.3.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Project-URL: Repository, https://github.com/austin1howard/bracketeering
+Description-Content-Type: text/markdown
+
+# `bracketeering`

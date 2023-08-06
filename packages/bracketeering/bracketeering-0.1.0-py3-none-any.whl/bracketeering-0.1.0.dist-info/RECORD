@@ -1,0 +1,9 @@
+bracketeering/__init__.py,sha256=8xxtLothXspAPUkDJc04BN51AyXj3W_6bk3UHgBzW8w,104
+bracketeering/brackets.py,sha256=tOjlT-1PKmLQkSViP8iZ-4Mti_I8gcxvZrPs7f9x9wQ,1874
+bracketeering/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bracketeering/data/us_2022.csv,sha256=pZkyeTdAEMurRn3lqmZCUD0ub-x2gY5h0E-HKD67LLA,225
+bracketeering/data/us_2023.csv,sha256=j7Tj3wFc4E0d1KelslJofQtthSVcmwbxDnsfxxeXsDc,225
+bracketeering/domain.py,sha256=oRFAnkqlR18JE2dLRwWqrLFFsBREBn3VEqrYv7pO1cw,481
+bracketeering-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+bracketeering-0.1.0.dist-info/METADATA,sha256=b-VREgcGSQXEMon4vJt7tg8GbuuyQEF9fcK1soGlHY0,803
+bracketeering-0.1.0.dist-info/RECORD,,
