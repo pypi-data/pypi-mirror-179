@@ -1,0 +1,2 @@
+[console_scripts]
+pydstir-color = pydstir.main:main
