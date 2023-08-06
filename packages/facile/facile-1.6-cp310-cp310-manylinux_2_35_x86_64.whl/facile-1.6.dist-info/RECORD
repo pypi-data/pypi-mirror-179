@@ -1,0 +1,8 @@
+facile/.gitignore,sha256=7vIdx_5lFuGNouvToOYjCeI7ITbQp8PNkJNMP269apw,8
+facile/__init__.py,sha256=BH57gprM9pwkQ0q9wTDwnbwXpgfXLziJDDXCeAsyWoA,169
+facile/core.cpython-310-x86_64-linux-gnu.so,sha256=bDyyYXlPRs9wsrrNDBDBz0Ib_MA9Mv3zBpnG3bMaK60,7476792
+facile/core.pyi,sha256=4LeJjZej00J2W9ryLCLY8E6APNrCCQBeRcVHiDz7-nY,7766
+facile/core.pyx,sha256=GjmgGSJVXya9x9lUoGZj3h06P2whPKBwiVrB6TRaEJ0,64910
+facile-1.6.dist-info/WHEEL,sha256=A32-AnITah9vVYPDN6GDlBmZ1pgH0amueaBkGdcRMwQ,105
+facile-1.6.dist-info/METADATA,sha256=91tzFRSCzL8DZXPVh7iW6_48tJ_agCllVcMe7kyh6mM,1260
+facile-1.6.dist-info/RECORD,,
