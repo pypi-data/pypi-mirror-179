@@ -1,0 +1,4 @@
+core
+flowbot
+indicator
+platforms
