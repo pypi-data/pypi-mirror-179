@@ -1,0 +1,14 @@
+allennlp==2.8.0
+datasets==1.12.1
+dill==0.3.4
+multiprocess==0.70.12.2
+numpy==1.21.2
+pytorch-lightning==1.4.8
+scikit-learn
+seaborn==0.11.2
+setuptools==59.5.0
+tokenizers==0.10.3
+torch==1.9.1
+torchmetrics==0.5.1
+tqdm==4.62.2
+transformers==4.10.3
