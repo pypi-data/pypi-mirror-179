@@ -1,0 +1,10 @@
+maniviz/__init__.py,sha256=hhN0fxwtCtfBxRM9eKGhHQkwZ3O9im11cR6HjNgY9OA,51
+maniviz/__main__.py,sha256=1OqarRPWKrXf6LLa0PiBYkSh4BRggBjVpi5j-rx7X5s,87
+maniviz/cli.py,sha256=Qex9_dx5BkA1Ogy9kKvuNxoZlxZHaNBHn_WohwcNQSA,550
+maniviz/maniplot.py,sha256=KccAb1-EkqHHWDn91tRmemLGzwrKHZ7L-JY6UuxOOKI,6783
+maniviz-0.0.1.dist-info/LICENSE.txt,sha256=Kj3-xkGR6EIJzkXAcXLjQqNWc5pc1MvIeLWwen3YdMI,1066
+maniviz-0.0.1.dist-info/METADATA,sha256=KCdoYCVcWse4TXZtxrFce0U-WZBigirVtbRhhg1IUiw,933
+maniviz-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+maniviz-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+maniviz-0.0.1.dist-info/top_level.txt,sha256=PjwhZQCAL7AxwgM_a4HRGRMXAfEjMZljFm8qLYoKKZ4,8
+maniviz-0.0.1.dist-info/RECORD,,

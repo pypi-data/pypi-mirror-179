@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: maniviz
+Version: 0.0.1
+Summary: maniviz: A simple visualizer of a manipulator
+Home-page: https://github.com/MizuhoAOKI/maniviz
+Author: MizuhoAOKI
+Author-email: mizuhoaoki1998@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/MizuhoAOKI/maniviz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Framework :: Matplotlib
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: typing (>=3.7.4.3)
+Requires-Dist: rich (>=12.6.0)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: matplotlib (>=3.4.0)
+
+# Maniviz
+Simple visualizer of a manipulator.
+
+# Visualization Example
+```
+$ cd /path/to/maniviz
+$ python -m maniviz
+```
+
+![](./media/result.png)
+
+
+
