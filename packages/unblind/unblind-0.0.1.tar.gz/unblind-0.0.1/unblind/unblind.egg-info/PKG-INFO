@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: unblind
+Version: 0.0.1
+Summary: Unblind is a Python package to create data visualizations from data of the Plataforma Digital Nacional, Sistema Nacional Anticorrupción
+Author-email: Gabriel Missael Barco <missaelgabo@gmail.com>, Gil Estéfano Rodríguez Rivera <ge.rodriguezrivera@ugto.mx>, Estefanía Saucedo Tamayo <estefaniasaucedo@hotmail.com>, Hector Fernando Nieto Soto <hectorfernandonietosoto@gmail.com>, David Pedroza Segoviano <david.pedroza.segoviano@gmail.com>
+Project-URL: Homepage, https://github.com/Dataket/unblind
+Project-URL: Bug Tracker, https://github.com/Dataket/unblind/issues
+Keywords: data visualization,hackathon,anticorrupción,plataforma digital nacional
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# unblind
+Datatón anticorrupción 2022
