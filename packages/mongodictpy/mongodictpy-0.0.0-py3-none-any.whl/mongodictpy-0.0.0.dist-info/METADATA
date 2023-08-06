@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mongodictpy
+Version: 0.0.0
+Summary: MongoDB to python.dict translation
+Home-page: https://github.com/nevalicjus/mongodictpy/issues
+Author: Nevalicjus
+Author-email: nevalicjus@gmail.com
+Project-URL: Author, https://n3v.xyz
+Project-URL: Bug Tracker, https://github.com/nevalicjus/mongodictpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: pymongo
+
+# mongodictpy
+
+MongoDB Collection to Python dict translation
+
+### Installation
+
+```
+python3 -m pip install mongodictpy
+```
