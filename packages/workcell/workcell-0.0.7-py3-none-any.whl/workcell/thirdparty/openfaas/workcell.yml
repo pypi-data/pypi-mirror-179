@@ -1,0 +1,11 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: https://faas.weanalyze.co
+workcell:
+  function:
+    lang: python3-workcell
+    handler: ./workcell
+    image: workcell:latest
+    build_options:
+      - dev
