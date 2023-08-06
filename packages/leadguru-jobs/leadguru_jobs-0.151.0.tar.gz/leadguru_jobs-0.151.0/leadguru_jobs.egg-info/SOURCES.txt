@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+leadguru_jobs.egg-info/PKG-INFO
+leadguru_jobs.egg-info/SOURCES.txt
+leadguru_jobs.egg-info/dependency_links.txt
+leadguru_jobs.egg-info/not-zip-safe
+leadguru_jobs.egg-info/requires.txt
+leadguru_jobs.egg-info/top_level.txt
+tests/__init__.py
+tests/job_data_test.py
