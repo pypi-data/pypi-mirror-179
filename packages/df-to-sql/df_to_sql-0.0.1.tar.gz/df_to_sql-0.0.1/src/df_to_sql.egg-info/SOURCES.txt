@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/df_to_sql/__init__.py
+src/df_to_sql/df_to_sql.py
+src/df_to_sql/logger.py
+src/df_to_sql.egg-info/PKG-INFO
+src/df_to_sql.egg-info/SOURCES.txt
+src/df_to_sql.egg-info/dependency_links.txt
+src/df_to_sql.egg-info/top_level.txt
