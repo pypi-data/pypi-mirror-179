@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+uonet_fslogin/__init__.py
+uonet_fslogin/errors.py
+uonet_fslogin/main.py
+uonet_fslogin/utils.py
+uonet_fslogin.egg-info/PKG-INFO
+uonet_fslogin.egg-info/SOURCES.txt
+uonet_fslogin.egg-info/dependency_links.txt
+uonet_fslogin.egg-info/requires.txt
+uonet_fslogin.egg-info/top_level.txt

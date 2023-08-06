@@ -1,0 +1,8 @@
+asyncio
+aiohttp
+bs4
+beautifulsoup4
+
+[testing]
+pytest
+python-dotenv
