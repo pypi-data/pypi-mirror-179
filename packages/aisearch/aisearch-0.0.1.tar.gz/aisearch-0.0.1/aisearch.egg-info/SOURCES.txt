@@ -1,0 +1,8 @@
+README.md
+setup.py
+aisearch/__init__.py
+aisearch/ai_search.py
+aisearch.egg-info/PKG-INFO
+aisearch.egg-info/SOURCES.txt
+aisearch.egg-info/dependency_links.txt
+aisearch.egg-info/top_level.txt
