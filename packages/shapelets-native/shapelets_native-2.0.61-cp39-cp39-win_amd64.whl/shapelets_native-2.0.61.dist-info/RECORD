@@ -1,0 +1,11 @@
+shapelets_native/__init__.py,sha256=02Fs6rxo4XxpTfdKmMPgecJwnuhEgHcdXxAZwTEgevA,250
+shapelets_native/__init__.pyi,sha256=65zESK5cTUfYZjlcu--7QYATrd1xHxasp2gkDy9-2Q0,95123
+shapelets_native/_shapelets_extension.cp39-win_amd64.pyd,sha256=NLHqCxR9iHRoEDzWv15ViI4OwfqvPqtepjTxPDEWET8,30919680
+shapelets_native/_version.py,sha256=Ixf4Y7OYSgl9yC_nU3AxLxkCJ8i5rq2WbM8j-RwPepA,183
+shapelets_native/_version.pyi,sha256=EhZqK9ILGWqaBdBaMJa21MYgoMVbndEC4PCq_mfMTiA,253
+shapelets_native/py.typed,sha256=S4MESMY2h1FTeF2pk08yejbD-NhKnOl6RZrvZ6HCrRo,133
+shapelets_native-2.0.61.dist-info/LICENSE.md,sha256=Fq071sYNrZMCA77b2pFJu67xpN8WA6peeIRoL9McDIE,930
+shapelets_native-2.0.61.dist-info/METADATA,sha256=sbLAfXcLl-MaEOZR2IRw0excm-CniC6i9BwfKQGNIEM,471
+shapelets_native-2.0.61.dist-info/WHEEL,sha256=ycmo5H_b7yH7v1R7kR7fiFpp-oVDP_tN3VEYP_5SzS0,94
+shapelets_native-2.0.61.dist-info/top_level.txt,sha256=fAASXfFJeVmpzpqVN5JhnQfJbziQDO_sAsN2PODOyTY,17
+shapelets_native-2.0.61.dist-info/RECORD,,
