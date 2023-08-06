@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+solana_trader_python_proto.egg-info/PKG-INFO
+solana_trader_python_proto.egg-info/SOURCES.txt
+solana_trader_python_proto.egg-info/dependency_links.txt
+solana_trader_python_proto.egg-info/top_level.txt
