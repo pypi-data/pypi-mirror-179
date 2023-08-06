@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: boosint
+Version: 0.0.2
+Summary: A powerful username osint tool.
+Home-page: UNKNOWN
+Author: ProtDos
+Author-email: <rootcode@duck.com>
+License: UNKNOWN
+Keywords: python,osint,detection,information-gathering,maigret,social-media
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# Maigret
+
+<p align="center">
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/69071809/205497271-e2ec7bd3-1e14-46c9-bac4-d6f92e6b6dbe.jpg" height="200"/>
+  </p>
+</p>
+
+## About
+
+**BoOSINT** collects data **by username only** by checking nearly every data publicly available about a username and it's aliases.
+
+
+## Main features
+
+* Profile pages parsing, extraction of personal info, links to other profiles, etc.
+* Recursive search by new usernames and other ids found
+* Search by tags (site categories, countries)
+* Censorship and captcha detection
+* Requests retries
+* Finding of websites
+* Finding device information, telephone number, email addresses
+* Finding locations, gender, birthdays and real names
+
+
+## Installation
+
+
+### Package installing
+
+Coming soon...
+
+### Cloning
+
+```bash
+# or clone and install manually
+git clone https://github.com/protdos/boosint && cd boosint
+pip3 install -r requirements.txt
+
+# usage
+cd boosint
+python3 boosint.py username
+
+# usage with pypi (see above)
+boosint username
+```
+
+## Usage
+
+```bash
+# make txt or json reports
+boosint username --type txt
+boosint username --type json
+
+# filename output (default is report.json)
+boosint username --output report.txt
+boosint username --output report.json
+```
+
+Use `maigret -h` to get full options description.
+
+##  Sources / Credits
+Here is a list of sources I used:
+* [Maigret](https://github.com/soxoj/maigret)
+* [BlackBird](https://github.com/p1ngul1n0/blackbird)
+* [GitRecon](https://github.com/GONZOsint/gitrecon)
+
+The code is partly combined but the most of it is written by myself.
+
