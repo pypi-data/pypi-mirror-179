@@ -1,0 +1,15 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/bellstate.py,sha256=GK_jCNBSlQ0s6hUGx4n0ZTFW5CWnyULievXhCoTMPeI,413
+example/grover.py,sha256=15BfXXLCSgTDwXtC3k0Doiwu0zbcTR9ZxW_scx34vc4,862
+example/teleport.py,sha256=Q4FvuYrir3FAYYh95d87AiqprAgpJp5IW9LWzME3EMY,1050
+taichi_q/Engine.py,sha256=fEplXgYdl4S0Rv5A5fz5u91e-BFSQ2q7h1sehUutKeU,13529
+taichi_q/Gate.py,sha256=Vu471qrcd3ZXJp7IhR1LX0doHvmyXsc2Ch8hArpqyzg,4974
+taichi_q/Qubits.py,sha256=wGIkk-4UYTDel9mulqjWDz5KdFPJzy_vLlMi8No8lgc,9954
+taichi_q/__init__.py,sha256=6KqPz269fTp4cu_76lkEOirjd5tuQe1RhlvEFIq1gdk,76
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=TX5PQWwUxfn0azgEwoHPhyqC2uLD56Kg3GT6cXKmh-U,1100
+taichi_q-0.0.10.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+taichi_q-0.0.10.dist-info/METADATA,sha256=LugdjOmcf5meu2ndkQP23PE6EpqrBWbORar7_lZjHNY,4471
+taichi_q-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+taichi_q-0.0.10.dist-info/top_level.txt,sha256=fUqZwhxm-n-fj-QQT-6mVQ9C8kSYm0ERVD7FHoMqaQc,17
+taichi_q-0.0.10.dist-info/RECORD,,
