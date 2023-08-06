@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CyberBookInterpreter/main.py
+CyberBookInterpreter.egg-info/PKG-INFO
+CyberBookInterpreter.egg-info/SOURCES.txt
+CyberBookInterpreter.egg-info/dependency_links.txt
+CyberBookInterpreter.egg-info/not-zip-safe
+CyberBookInterpreter.egg-info/requires.txt
+CyberBookInterpreter.egg-info/top_level.txt
