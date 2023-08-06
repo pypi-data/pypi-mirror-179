@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+jupyternb/__init__.py
+jupyternb/jupyter_startup.py
+jupyternb_setup.egg-info/PKG-INFO
+jupyternb_setup.egg-info/SOURCES.txt
+jupyternb_setup.egg-info/dependency_links.txt
+jupyternb_setup.egg-info/requires.txt
+jupyternb_setup.egg-info/top_level.txt
