@@ -1,0 +1,11 @@
+predictnow/__init__.py,sha256=t8GFzaZfZuRpkvQH_eW4nH6xh6IwaFW1IcDKGZMy8Bs,2376
+predictnow/find_files_with_specific_extensions.py,sha256=Poib6XApPTwS0Sy50l5n_T6TyQ5fhDBuvMkOCjVILQQ,554
+predictnow/notifier.py,sha256=cihZPfRj6D-dyHyLYV7YJNsi-QugB83lpJ9vwZkTOmo,1182
+predictnow/pdapi.py,sha256=VHPtGFW2jeeu5DYKvuPK4cuJe24h8s_webkgNWLta24,14202
+predictnow/predict_result.py,sha256=HqmUSU1by1R2bs_g_KUcKkurtLCq_Sjc__0rLMd1fzs,623
+predictnow/training_result.py,sha256=uAzkBYBCicB_BwnKu_sAdYtZOjstm0MlZmhf3-jeVDg,2032
+pnow_client-0.1.2.dist-info/LICENSE,sha256=6YuUUBztIHc7Cew3N-W5oXkMuEfJV108psRL6HnDjts,1069
+pnow_client-0.1.2.dist-info/METADATA,sha256=cIM67fJ2mSThW0gSm5zbXT0SSyoCBxQ1Jw_aZv2aVZU,1748
+pnow_client-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pnow_client-0.1.2.dist-info/top_level.txt,sha256=M7eh0bNs2WSJzEekxDtwW-FGycM_iSkOB-aDX6Ceivo,11
+pnow_client-0.1.2.dist-info/RECORD,,
