@@ -1,0 +1,16 @@
+shellserver/__init__.py,sha256=_fuYbcLrdbIhScl15Lt_02OwRAgiWXu0ED3PfK-mSgw,156
+shellserver/__main__.py,sha256=Z_il50V8zawALJRTQRHLvVYXeWYoCsiHjNHPKhoAlkM,59
+shellserver/cache.py,sha256=xYHJvTaY5SFofAgDMMOzVflcmOF32QycaRVwonodugw,2902
+shellserver/cli.py,sha256=63AAgByxrbg2pF4mB3NdfOOdoTqXJcHgIAZRyq4Nn44,718
+shellserver/ls.py,sha256=Q11B_iTm3r7WwzA3rhcK3gcIczgvBC7a1k8BgMRo-4o,6524
+shellserver/server.py,sha256=lB0wTZxhxg4KCf0b-OvHQeO6qEhPr5gSlizodOz7SpA,4938
+shellserver/style.py,sha256=axuIPhDzUTgyNcKjGYczZCHz8HqptcqdvUICTjtRciM,3018
+shellserver/gitinfo/__init__.py,sha256=VfDcJEy1kl8c1t_pn-V6tVQ-KWZUOBglOrzNcXEvv_k,735
+shellserver/gitinfo/high.py,sha256=JOHFNNSbxSxbsKFiF27l2B136uX2c-RiCzZKm-yOZB0,7625
+shellserver/gitinfo/low.py,sha256=-LItIC3ublKwDX-1yne0KZjNDOEuGuOtiWu-1vL5r0s,4896
+shellserver-0.0.1.dist-info/LICENSE,sha256=u-kzA7udAsZ65InAtP6p-lQrQurxoFshO_IeHOdXe28,1093
+shellserver-0.0.1.dist-info/METADATA,sha256=kvuUkn-VuXPQTj2KuoCD64VZH7nAG3vY5VmWtcX6pHY,2914
+shellserver-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+shellserver-0.0.1.dist-info/entry_points.txt,sha256=l-t0wsUOGHpPWe02boSs5oJKZD86j5s7m65KN7GXizU,53
+shellserver-0.0.1.dist-info/top_level.txt,sha256=a9M5C_AxRK687rbTCEHd78KlcCLn5IXI3_zNo1AQXyw,12
+shellserver-0.0.1.dist-info/RECORD,,
