@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: carp_compression
+Version: 0.1.0
+Summary: use CARP to compress image
+Home-page: https://github.com/xylimeng/BayesCompression
+Author: Yifan Tao
+Author-email: 2019302020078@whu.edu.cn
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+
+The module pybind11 need compiler clang 13 to compile cpp files, so we need to quit the base environment built by anaconda(if you use anaconda cronically). You can enter "conda deactivate" in terminal. Python version required here is Python 3.9.13.
+
+
+You also need to install the c++ libraray armadillo in order to compile tree_class.cpp.
