@@ -1,0 +1,10 @@
+tcw_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcw_tasks/models.py,sha256=DjCRUMv0alAuvfi1xTSLzkk5Iw8IYjG1Zktnix3lc4o,1558
+tcw_tasks/notify.py,sha256=HjQ_IsbXFbYSMYq7qvCo0TXcaTL4jnNs69RqhU_IEs4,1535
+tcw_tasks/templates.py,sha256=NjChRuzC6542JBPJlFmBpus3PxcYCl6rM2VQQlMp9vU,7484
+tcw_tasks-0.0.5.dist-info/LICENSE,sha256=ytmMoF8IrNqMYxwsVz3OmgzisxT1odKVW1y3ruosmCg,1060
+tcw_tasks-0.0.5.dist-info/METADATA,sha256=XsmIT4TWBQxoe6ZBUX58dILU7OmRnl-mOW_imPzxY3A,368
+tcw_tasks-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tcw_tasks-0.0.5.dist-info/entry_points.txt,sha256=kyyO7z3OpAVz4tj-oSpSS7KGvG31oQSpUFHOeUD171k,52
+tcw_tasks-0.0.5.dist-info/top_level.txt,sha256=BGzfQBvMmChuNYGiRnj3522A4ipgqn22Vrvl0wN7j-E,10
+tcw_tasks-0.0.5.dist-info/RECORD,,
