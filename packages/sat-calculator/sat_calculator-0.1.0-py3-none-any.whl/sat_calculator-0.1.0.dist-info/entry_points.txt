@@ -1,0 +1,2 @@
+[console.scripts]
+calculate = calculator.app:main
