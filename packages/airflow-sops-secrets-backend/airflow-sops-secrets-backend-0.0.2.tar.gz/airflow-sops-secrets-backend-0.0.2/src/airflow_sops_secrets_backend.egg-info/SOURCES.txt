@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/airflow_sops/__init__.py
+src/airflow_sops/helpers.py
+src/airflow_sops/secrets_backend.py
+src/airflow_sops_secrets_backend.egg-info/PKG-INFO
+src/airflow_sops_secrets_backend.egg-info/SOURCES.txt
+src/airflow_sops_secrets_backend.egg-info/dependency_links.txt
+src/airflow_sops_secrets_backend.egg-info/requires.txt
+src/airflow_sops_secrets_backend.egg-info/top_level.txt
