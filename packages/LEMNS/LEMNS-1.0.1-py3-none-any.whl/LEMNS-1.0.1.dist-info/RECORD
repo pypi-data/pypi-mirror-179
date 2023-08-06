@@ -1,0 +1,11 @@
+LEMNS/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LEMNS/amplifiers.txt,sha256=x1MK5pRE5FsihZHkPOogVTz0KQZlbe3EJW9lKz4SSwE,12504
+LEMNS/inverters.txt,sha256=IeVn3ipXRv_ub0hsv-TzPJl34VWJd94iWRWg_s0-S3k,370
+LEMNS/lemons.py,sha256=kaconKxoG8adb0l9QT0XlZRQBc8o3ryx7b7r-LsRumg,9138
+LEMNS/negative.txt,sha256=sBEE4I4-ICnFtwqC80LVWVJLGaY9VMxiG-Jlg0OXvXA,49529
+LEMNS/positive.txt,sha256=oPVDzv6ROlkQ2Ov8bBbewKACtESRkzaGVpTom10NaPU,21093
+LEMNS-1.0.1.dist-info/METADATA,sha256=y1ZKMOnJrhgPBSufdyZMuWLKvD_z8OMmRhqOO0Gm6XY,181
+LEMNS-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+LEMNS-1.0.1.dist-info/license.txt,sha256=BUWxmX-6kobU9ih4HMRTkOy3SzMwLGHlMGlMHtrC9CM,30
+LEMNS-1.0.1.dist-info/top_level.txt,sha256=pq1uW1aB8_EGf9PuJ1fIc_JrX0tu0PBe3Oc84HAw1cA,6
+LEMNS-1.0.1.dist-info/RECORD,,
