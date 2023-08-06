@@ -1,0 +1,9 @@
+ml-metadata==1.11.0
+dvc
+pandas
+retrying
+pyarrow
+neo4j
+sklearn
+tabulate
+click
