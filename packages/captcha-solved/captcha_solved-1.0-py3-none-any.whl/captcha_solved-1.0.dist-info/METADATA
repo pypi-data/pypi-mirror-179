@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: captcha-solved
+Version: 1.0
+Summary: Google-recaptcha solver package,solves any google captcha (i am not robot) type.Very useful for web crawling,automation testing. just will have to enter in the frame of auto recheck .dependencies are = pydub and speech_recognition 
+Author: Jenil Akoliya
+Author-email: akoliyajenil1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
+UNKNOWN
+
