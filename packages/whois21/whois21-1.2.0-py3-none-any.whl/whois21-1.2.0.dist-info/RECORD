@@ -1,0 +1,12 @@
+whois21/API.py,sha256=VtLmBtg1KX42NSQjV9TcrQJlY7La0UXhg6tTGMs6C8g,2234
+whois21/ASN.py,sha256=o8HaTGTFTpSURFmBnbsX0xO9xuBaQEfO9cnGZ6vUQB0,6858
+whois21/DNS.py,sha256=Ni-tYLKXmDqzrg_NNZ1a-KszqHQ1zsnkwZ7V-nTCNyw,6544
+whois21/__init__.py,sha256=Hwp2dCdmn39qJA0yh4sC2iXEalUvQ-zmsnnmUwFU0Eg,22952
+whois21/__main__.py,sha256=NgSTYi4g4An4evxnTGGPWk3Zbd2majNH8WTvouOmcl4,6367
+whois21/vcard-map.json,sha256=5HFCSkxMbv638FILPqrH02Jf_s-Geh5axxyXhGhHmKE,835
+whois21-1.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+whois21-1.2.0.dist-info/METADATA,sha256=U7seD52y12CQ3PLwulPISzNZbRaR7TQ0PCRsQJd1N2k,8364
+whois21-1.2.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+whois21-1.2.0.dist-info/entry_points.txt,sha256=vp7WWYGJgxvrdRigCS290VRvLndehjoBXcBvXEdA6PY,49
+whois21-1.2.0.dist-info/top_level.txt,sha256=YzRLC_CuBVSI0Sa93wfyVZ0Gf0fkyCuY49BYZZgnKx4,8
+whois21-1.2.0.dist-info/RECORD,,
