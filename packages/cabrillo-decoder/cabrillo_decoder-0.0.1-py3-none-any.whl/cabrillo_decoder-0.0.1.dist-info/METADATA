@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cabrillo-decoder
+Version: 0.0.1
+Summary: Docode Cabrillo file to dictonary variable
+Home-page: https://github.com/GusZandy/CabrilloDecoderPython.git
+Author: Zandy Yudha Perwira
+Author-email: zandy.yudha.p@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#Cabrillo Decoder Python
