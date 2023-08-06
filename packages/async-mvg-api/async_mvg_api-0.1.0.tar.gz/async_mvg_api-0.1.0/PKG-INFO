@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: async-mvg-api
+Version: 0.1.0
+Summary: 
+Author: Lukas Mahr
+Author-email: lukas@yousuckatprogramming.de
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=22.10.0,<23.0.0)
+Requires-Dist: httpx (>=0.23.1,<0.24.0)
+Requires-Dist: levenshtein (>=0.20.8,<0.21.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: pylint (>=2.15.7,<3.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+
