@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: asunder
+Version: 0.1.0
+Summary: CLI for refactoring python projects
+Author: Leandro G. Almeida
+Author-email: leandro.g.almeida@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: rope (>=1.4.0,<2.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+[![asunder](https://github.com/lalmei/asunder/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/lalmei/asunder/actions/workflows/main.yml) [![Maintainability](https://api.codeclimate.com/v1/badges/67d0f7c0715d81bef5f9/maintainability)](https://codeclimate.com/github/lalmei/asunder/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/67d0f7c0715d81bef5f9/test_coverage)](https://codeclimate.com/github/lalmei/asunder/test_coverage)
+
