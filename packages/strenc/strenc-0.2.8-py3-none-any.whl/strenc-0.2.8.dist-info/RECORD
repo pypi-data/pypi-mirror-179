@@ -1,0 +1,11 @@
+_customizekeys/__init__.py,sha256=QC58i72wJ5GjPeB_A4TLSvq79vcX4itDyWfHkQwVv18,18473
+strenc/__init__.py,sha256=yFk3PLQWj3YrO-YEkV1VA0YB8KuivpfWy05OMC4FDUk,3295
+strenccli/__init__.py,sha256=Ie3K0FuVz2ujEeHiYB9gBF6UJKpKWC-6-sfrhigtvlg,1955
+strenccli/main.py,sha256=JsyLCWzK8xOmv-s3Gybd-f3QFTNNvWCaeeU1SpDrjAo,19165
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+strenc-0.2.8.dist-info/LICENCE,sha256=qMLo6XT8lza7JxpVABzBPTDHInt3YQPeJvbmXNKdk50,1085
+strenc-0.2.8.dist-info/METADATA,sha256=PqxHk5Hbs-qU1wBQFFr10PPz4qwdcsoSxHbM0MCzDpU,9333
+strenc-0.2.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+strenc-0.2.8.dist-info/entry_points.txt,sha256=u8f3LoTwm2lmheIC445MyRme5ErZCbB46oCfUNAX8vc,44
+strenc-0.2.8.dist-info/top_level.txt,sha256=MjYjK5i7SkVBbZVy9_9hJTKfJIPmToYgi-fWEwnaB54,7
+strenc-0.2.8.dist-info/RECORD,,
