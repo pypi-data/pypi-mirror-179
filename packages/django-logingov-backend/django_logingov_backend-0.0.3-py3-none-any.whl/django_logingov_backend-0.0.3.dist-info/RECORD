@@ -1,0 +1,15 @@
+djangooidc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangooidc/backends.py,sha256=JvTS4tRf-KAuaOVlBzgpsf31evzBYqyFWBDeM3w-FZc,2886
+djangooidc/exceptions.py,sha256=hDL0YEbwOQvZTUoLoFhZ-dRZ-u2ZVccx6Wc7nZ_oAto,1280
+djangooidc/oidc.py,sha256=gM83ScLe2Ls30Xv4i0gRQWHlaMJFPN1h6GVS487su70,11182
+djangooidc/urls.py,sha256=smI9MGgsWeRZ8Jw1pPvyAx-GC0pwlaV1tbGKquaEDTc,349
+djangooidc/views.py,sha256=eeggVniOXjktCJNqt7SXZMZ9kDi-lWTIQ2JUCxBZ_xU,3910
+djangooidc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangooidc/tests/common.py,sha256=mVipTCOWTQIPPHd1lDU0PgQ32sloOl4FYbj8SfyRlRA,1293
+djangooidc/tests/test_settings.py,sha256=LuvOb6qy29yzalZC8YeZbWU-NAWtDJUll9yyt5R-AEQ,1493
+djangooidc/tests/test_views.py,sha256=kh-IVvONKqjdMMAyCuTaArETDirEDaKM8ZTkDUmFLD0,4361
+django_logingov_backend-0.0.3.dist-info/LICENSE,sha256=WeG3eIw8aN_dYGMjJuVHxl827iBLbB28_qkm3sEyocI,11340
+django_logingov_backend-0.0.3.dist-info/METADATA,sha256=BdetxaVVJ9mJdARR9OFwmMy4on2KuDMsqo1WY6-EXCA,1404
+django_logingov_backend-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_logingov_backend-0.0.3.dist-info/top_level.txt,sha256=sX_J228CkPFLuOLa03Sg9dqHjNJuXpfPYQhxFmdwQdo,11
+django_logingov_backend-0.0.3.dist-info/RECORD,,
