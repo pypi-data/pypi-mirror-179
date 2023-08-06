@@ -1,0 +1,9 @@
+talkweb/__init__.py,sha256=0Jr1iSrrMsI8jsLmdsLeJoJO-cvfIL9iCuEM4zC2aX4,122
+talkweb/cell.py,sha256=1q-OBgF7OzX0CnOjH2CK-7mmyVzM5C9VNQTwcoETbVU,9295
+talkweb/cparser.py,sha256=x_FdgyQKGvA2UnA1zlugiRsI5Smb1AaLEgOUlGecowY,4278
+talkweb/htmltocell.py,sha256=h00vvTyTZs-DtGsj1PgvHIaw0AGfibi4G0djwDYjRbE,2507
+talkweb/wparser.py,sha256=GuMyjRukjOnXeUZBzrjmTnbwt_9Lnjfhyx0XMZfZzuA,3143
+talkweb-1.3.dist-info/METADATA,sha256=dsggYbOdl9WengJAv4fFsHFREnscxNhovRPysDE4emw,1290
+talkweb-1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+talkweb-1.3.dist-info/top_level.txt,sha256=imvIcHnXCTlxUfg8URE6dmAazgOcCyzmiIk03dqmEQY,8
+talkweb-1.3.dist-info/RECORD,,
