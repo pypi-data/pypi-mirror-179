@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: tcom
+Version: 0.16
+Summary: Replace your HTML templates with Python server-Side components
+Home-page: https://tcom.scaletti.dev/
+License: MIT
+Author: Juan-Pablo Scaletti
+Author-email: juanpablo@jpscaletti.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Dist: jinja2 (>=3.0)
+Requires-Dist: markupsafe (>=2.0)
+Requires-Dist: whitenoise (>=5.3)
+Project-URL: Documentation, https://tcom.scaletti.dev/guides/
+Project-URL: Repository, https://github.com/jpsca/tcom
+Description-Content-Type: text/markdown
+
+<h1>
+  <img
+    src="https://github.com/jpsca/tcom/raw/main/docs/assets/images/logo.png"
+    width="48" height="48"
+    align="bottom"
+   >
+  Template Components
+</h1>
+
+The power of components in your server-side-rendered Python web app.
+
+**Documentation:** https://tcom.scaletti.dev/
+
+Write server-side components as single Jinja template files.
+Use them as HTML tags without doing any importing.
+
+<img class="card-code"  src="./docs/assets/images/card-code.png" height="300">
+
+## About
+
+This project is developed by *Juan-Pablo Scaletti*.<br>
+I love building products and sharing knowledge.
+
+
