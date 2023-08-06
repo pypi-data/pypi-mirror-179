@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: uonet-fslogin
+Version: 0.2.0
+Summary: Uonet+ ADFS & CUFS login module
+Home-page: https://github.com/marioneq4958/uonet-fslogin
+Author: Marioneq4958
+Author-email: marioneq4958@gmail.com
+License: MIT
+Keywords: Vulcan,UONET+,ADFS,CUFS,login
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Polish
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6,<4.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asyncio
+Requires-Dist: aiohttp
+Requires-Dist: bs4
+Requires-Dist: beautifulsoup4
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: python-dotenv ; extra == 'testing'
+
+Uonet+ ADFS & CUFS login module
