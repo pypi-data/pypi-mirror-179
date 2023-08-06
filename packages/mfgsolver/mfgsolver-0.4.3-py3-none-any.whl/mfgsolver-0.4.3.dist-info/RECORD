@@ -1,0 +1,6 @@
+mfgsolver/__init__.py,sha256=C1qFc6XstUzYFRr_akJVJm45RJALT5AR6a3M8JWDJ-M,68
+mfgsolver/base.py,sha256=OiLmJBuQc84JpdZev3q7REWgLn1RRNtQ_KZm_h57d5o,40489
+mfgsolver/ergodic.py,sha256=7LDncyYH-DMvNB_r-cD7pm6XmU2qe4bW9H6pc-BBcNw,10237
+mfgsolver-0.4.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mfgsolver-0.4.3.dist-info/METADATA,sha256=IYIMlmu0c4VZGAW7aVKjnlGaVCWC4afzCqzr4hgAgqM,692
+mfgsolver-0.4.3.dist-info/RECORD,,
