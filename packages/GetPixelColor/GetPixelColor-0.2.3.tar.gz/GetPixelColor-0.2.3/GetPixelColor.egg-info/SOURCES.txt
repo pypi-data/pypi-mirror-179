@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+GetPixelColor.egg-info/PKG-INFO
+GetPixelColor.egg-info/SOURCES.txt
+GetPixelColor.egg-info/dependency_links.txt
+GetPixelColor.egg-info/requires.txt
+GetPixelColor.egg-info/top_level.txt
+getpixelcolor/__init__.py
+getpixelcolor.egg-info/PKG-INFO
+getpixelcolor.egg-info/SOURCES.txt
+getpixelcolor.egg-info/dependency_links.txt
+getpixelcolor.egg-info/requires.txt
+getpixelcolor.egg-info/top_level.txt
