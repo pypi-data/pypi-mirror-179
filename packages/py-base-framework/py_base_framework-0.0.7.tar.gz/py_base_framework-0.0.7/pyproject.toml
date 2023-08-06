@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py-base-framework"
+version = "0.0.7"
+description = "抖店微应用 python 框架"
+authors = ["陈志峰 <chenzhifeng.777@bytedance.com>"]
+readme = "README.md"
+license = "LGPL"
+packages = [{include = "py_base_framework"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
