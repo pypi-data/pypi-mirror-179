@@ -1,0 +1,8 @@
+README.rst
+setup.py
+starrysky/__init__.py
+starrysky/getinfo.py
+starrysky.egg-info/PKG-INFO
+starrysky.egg-info/SOURCES.txt
+starrysky.egg-info/dependency_links.txt
+starrysky.egg-info/top_level.txt
