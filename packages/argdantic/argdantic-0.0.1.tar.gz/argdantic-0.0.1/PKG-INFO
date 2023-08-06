@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: argdantic
+Version: 0.0.1
+Summary: Typed command line interfaces with argparse and pydantic
+Author-email: Edoardo Arnaudo <edoardo.arn@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pydantic >= 1.10.0
+Requires-Dist: black >= 22.6.0 ; extra == "dev"
+Requires-Dist: flake8 >= 4.0.0 ; extra == "dev"
+Requires-Dist: isort >= 5.10.0 ; extra == "dev"
+Requires-Dist: mkdocs >= 1.4.0 ; extra == "docs"
+Requires-Dist: mkdocs-material >= 8.5.0 ; extra == "docs"
+Requires-Dist: coverage >= 6.1.2 ; extra == "test"
+Requires-Dist: pytest >= 6.2.5 ; extra == "test"
+Requires-Dist: pytest-cov >= 3.0.0 ; extra == "test"
+Requires-Dist: pytest-xdist >= 2.5.0 ; extra == "test"
+Project-URL: Home, https://github.com/edornd
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+
+# argdantic
+Typed command line interfaces with `argparse` and [`pydantic`](https://github.com/pydantic/pydantic).
+
+[![test passing](https://img.shields.io/github/workflow/status/edornd/argdantic/Test/main)](https://github.com/edornd/argdantic)
+[![coverage](https://img.shields.io/codecov/c/gh/edornd/argdantic)](https://codecov.io/gh/edornd/argdantic)
+[![pypi version](https://img.shields.io/pypi/v/argdantic)](https://pypi.org/project/argdantic/)
+[![python versions](https://img.shields.io/pypi/pyversions/argdantic)](https://github.com/edornd/argdantic)
+---
+
+## Features
+
+`argdantic` provides a thin boilerplate layer to provide a modern CLI experience, including:
+- **Typed arguments:** arguments require full typing by default, enforcing clarity and help your editor provide better support (linting, hinting).
+- **Nested models:** exploit `pydantic` models to scale from simple primitives to complex nested configurations with little effort.
+- **Nested commands:** combine commands and build complex hierarchies to build complex interfaces.
+- **Validation by default:** thanks to `pydantic`, field validation is provided by default, with the desired complexity.
+
+## A Simple Example
+
+Creating a CLI with `argdantic` can be as simple as:
+```python
+from argdantic import ArgParser
+
+# 1. create a CLI instance
+parser = ArgParser()
+
+
+# 2. decorate the function to be called
+@parser.command()
+def buy(name: str, quantity: int, price: float):
+    print(f"Bought {quantity} {name} at ${price:.2f}.")
+
+# 3. Use your CLI by simply calling it
+if __name__ == "__main__":
+    parser()
+```
+Then, in a terminal, the `help` command can provide the usual information:
+
+```console
+$ python cli.py --help
+> usage: buy [-h] --name TEXT --quantity INT --price FLOAT
+>
+> optional arguments:
+>   -h, --help      show this help message and exit
+>   --name TEXT
+>   --quantity INT
+>   --price FLOAT
+```
+This gives us the required arguments for the execution:
+```console
+$ python cli.py --name apples --quantity 10 --price 3.4
+> Bought 10 apples at $3.40.
+```
+
+##
+
+
+
+
+
+
+
