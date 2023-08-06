@@ -1,0 +1,11 @@
+README.txt
+setup.py
+bbcinds/src/bbcinds.egg-info/PKG-INFO
+bbcinds/src/bbcinds.egg-info/SOURCES.txt
+bbcinds/src/bbcinds.egg-info/dependency_links.txt
+bbcinds/src/bbcinds.egg-info/top_level.txt
+bbcinds/src/bbcinds.py
+bbcinds/src/bbcinds.egg-info/PKG-INFO
+bbcinds/src/bbcinds.egg-info/SOURCES.txt
+bbcinds/src/bbcinds.egg-info/dependency_links.txt
+bbcinds/src/bbcinds.egg-info/top_level.txt
