@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: awdb-python
+Version: 1.0.0
+Summary: 
+Author: ipplus360
+Requires-Python: >=3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# awdb-python
+www.ipplus360.com 官方支持的解析awdb格式的Python代码(Official support for parsing Python code in AWDB format )
+

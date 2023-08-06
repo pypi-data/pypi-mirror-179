@@ -1,0 +1,10 @@
+awdb/__init__.py,sha256=pc4vjU48qd6LDzUOjDt6LyeFQRcGl2bn0f23bGps5-Y,1122
+awdb/compat.py,sha256=f2C6l4Rm_31EaPQlFKhkZztZ-twhnRB-OL4ZPGvH4KQ,723
+awdb/const.py,sha256=Z_9meXavt7ySvEcS-gIWMTfLfjfMdRaMW1zRa3Qfjzk,89
+awdb/decoder.py,sha256=LIAzr9OPb-1TRlwe-hvGkOiiA9idR6O-6kRkiSwocHs,5630
+awdb/errors.py,sha256=mUL9hGDdZycTByqhV5_EOUHUkja1H0vGImBy3beU9gI,51
+awdb/file.py,sha256=Nu9-yDMIWgVpacC35MOeB6HgHibxCZ5Gqh52xNg-F_c,1200
+awdb/reader.py,sha256=QJN44LRg0RGLzLDgbjwyKMHg90qZCMWDzC9fSb1rFao,7128
+awdb_python-1.0.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+awdb_python-1.0.0.dist-info/METADATA,sha256=VczkcXSbrK0AqsAmxOBp4FU13c0QjZo8TRgkbDM3d9k,635
+awdb_python-1.0.0.dist-info/RECORD,,
