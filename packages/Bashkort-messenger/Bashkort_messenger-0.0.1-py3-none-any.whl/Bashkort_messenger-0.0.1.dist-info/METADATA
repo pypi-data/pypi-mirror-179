@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Bashkort-messenger
+Version: 0.0.1
+Summary: messendger_client
+Home-page: UNKNOWN
+Author: MadEngine
+Author-email: scorpio-84@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt6
+Requires-Dist: sqlalchemy
+
+UNKNOWN
+
