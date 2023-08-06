@@ -1,0 +1,3 @@
+[pytest11]
+pytestpy15 = pytestpy15.pytest_py15
+
