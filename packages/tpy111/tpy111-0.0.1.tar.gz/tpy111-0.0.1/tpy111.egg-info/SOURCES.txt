@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tpy111/__init__.py
+tpy111.egg-info/PKG-INFO
+tpy111.egg-info/SOURCES.txt
+tpy111.egg-info/dependency_links.txt
+tpy111.egg-info/top_level.txt
