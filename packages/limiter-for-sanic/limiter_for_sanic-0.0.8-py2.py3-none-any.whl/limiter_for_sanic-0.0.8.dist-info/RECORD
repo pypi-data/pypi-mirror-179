@@ -1,0 +1,7 @@
+limiter_for_sanic/__init__.py,sha256=J2_Rxp-S-TMtwqNwx5Dey1rIQ5v1D3ZH2u86Ufdo12A,3361
+limiter_for_sanic/bulk.py,sha256=KuP_2WDkqWyeO8QcRN2mtw_2qauUPWK4w7IaGxr8ofs,2716
+limiter_for_sanic/errors.py,sha256=giHcOvxzVP14ki7cgFNxYCUvvB3t0xOn-DB2WTw0JQk,261
+limiter_for_sanic-0.0.8.dist-info/METADATA,sha256=sIPIIGHOpXBHi5s1-wKl8v3LfhihAPR3QPUWVnViQaE,589
+limiter_for_sanic-0.0.8.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+limiter_for_sanic-0.0.8.dist-info/top_level.txt,sha256=9bYvN8EK3-dtXKSifvSqrEaOakBxkporUBcXYsu8yv8,18
+limiter_for_sanic-0.0.8.dist-info/RECORD,,
