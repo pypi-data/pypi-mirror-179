@@ -1,0 +1,14 @@
+bda.calendar.base-1.2.5-nspkg.pth,sha256=sRfP0RbFlVYrZvXWlqXkMbBs33oDULmTB-wJ_4sL9sU,1668
+bda/calendar/base/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+bda/calendar/base/calculator.py,sha256=pD0vsNn6kC9og3a4S-lihOTOSgnb9_AicJgapbZd0A8,2175
+bda/calendar/base/configure.zcml,sha256=FqZZEG2vyZaa69dwdPQJOKqEQ-WH1_5N9M1Yf0VHXR4,464
+bda/calendar/base/converter.py,sha256=x6nE8obtmAsK-dwAErwlcOH3IG0YwSrmTEwd5yrpHmg,1631
+bda/calendar/base/inspector.py,sha256=5FHE3o3CmfGlwM1xxIw7Y8VCztuw7givOB9kgqm2MFw,1243
+bda/calendar/base/interfaces.py,sha256=WnL_vHf8SpvlTNubl7r5tXUDYl0jID6QPJpidAJaeGw,186
+bda/calendar/base/recurring.py,sha256=rdla2v6GUhLXQ3epSw6_xBLIn-e8lmgDsHUyYxrvgOQ,2292
+bda/calendar/base/timezone.py,sha256=SX-UhDUWf9IQerMTVKbe0j7ezzyq71fGHWx9-vGRjzQ,770
+bda.calendar.base-1.2.5.dist-info/METADATA,sha256=O0zeW78TVZMjWVIGq_d3N45C_JI9HgMpDINCnxaFhJY,5968
+bda.calendar.base-1.2.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bda.calendar.base-1.2.5.dist-info/namespace_packages.txt,sha256=x9McqwDZ43FvIm8Av_BiG9wZmYADYbyCBF98Kn00xoI,17
+bda.calendar.base-1.2.5.dist-info/top_level.txt,sha256=o6j_AbxsjEUSGRtUTlySIks6bshK_mUiiyXK6CIhgSM,4
+bda.calendar.base-1.2.5.dist-info/RECORD,,
