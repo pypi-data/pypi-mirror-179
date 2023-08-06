@@ -1,0 +1,17 @@
+viggofiscal/__init__.py,sha256=22EKdJLl9aTxJfOZukwYohTtuMdIgLEBjkj1f0pmhEo,1487
+viggofiscal/resources.py,sha256=P4kxm_-8h9p9sDsUlU45fjvOL1djeOWs1z3OmpJNF8k,306
+viggofiscal/subsystem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggofiscal/subsystem/parametrizacao/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+viggofiscal/subsystem/parametrizacao/domain_org/__init__.py,sha256=ExOn0iksmlwWnw3A6uUaSTG-flwooebg0qbxncuhosY,169
+viggofiscal/subsystem/parametrizacao/domain_org/resource.py,sha256=dvs46NqG-S45l5HI_Z5bGApUTLkujZOFuE5PM39wf_0,2504
+viggofiscal/subsystem/parametrizacao/forma_pagamento_sefaz/__init__.py,sha256=nstV-w9rlPARUEeg0OeC0lrQ9qTdALrvymQbIOfNmqQ,191
+viggofiscal/subsystem/parametrizacao/forma_pagamento_sefaz/resource.py,sha256=dzduh_oRAF4nmgV5QytSmQB0mpQUleSETNMOIUvqq4k,681
+viggofiscal/subsystem/parametrizacao/portaria/__init__.py,sha256=eP2VhHlmCg_xJ7M5E_RUPtgH0R4rqfoWLz1KOMUokEg,167
+viggofiscal/subsystem/parametrizacao/portaria/resource.py,sha256=aKiCLmZ4XAws2jUkiSAxSqcO4ANjIQLhmLTwB-njfaM,760
+viggofiscal/subsystem/parametrizacao/uficms/__init__.py,sha256=pf7zVYbXrJxJKOk4hPNwy75ulMVlOmfdVdy0G4RTxNA,163
+viggofiscal/subsystem/parametrizacao/uficms/resource.py,sha256=if2BfA0hpQv_BRLQWJsLWO2gs-6BidphQdCqWDWOuTQ,1210
+viggofiscal-1.0.4.dist-info/AUTHORS,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+viggofiscal-1.0.4.dist-info/METADATA,sha256=3fdOzs9HCp14csGQLYwTBXOZy-Dq2kRdw44Y7RGlk_w,333
+viggofiscal-1.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+viggofiscal-1.0.4.dist-info/top_level.txt,sha256=uwpoaG_gUYwQCSLoFd7fslh2-fR9vX19i0zHpPnxJ7E,12
+viggofiscal-1.0.4.dist-info/RECORD,,
