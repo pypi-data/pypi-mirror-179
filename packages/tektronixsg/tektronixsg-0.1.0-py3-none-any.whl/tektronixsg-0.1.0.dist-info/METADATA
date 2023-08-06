@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: tektronixsg
+Version: 0.1.0
+Summary: Interface for Tektronix signal generators.
+Home-page: https://github.com/emtpb/tektronixsg/
+Author: Kevin Koch
+Author-email: kevink2@mail.uni-paderborn.de
+License: BSD
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pyvisa
+Requires-Dist: pyvisa-py ; sys_platform == "linux"
+Requires-Dist: pyusb ; sys_platform == "linux"
+
+************************************
+Tektronix Signal Generator Interface
+************************************
+
+Interface for Tektronix signal generators.
+
+
+Features
+========
+
+* Support basic functions for model AFG31052
+* Support basic functions for model AFG1022
+
+
+Installation
+============
+
+To install the Tektronix Signal Generator Interface, run this command in your terminal::
+
+   $ pip install tektronixsg
+
+Note that usage in Windows will require a driver, for example the `IO Libraries Suite`_ by Keysight.
+
+
+Usage
+=====
+
+Example how to use tektronixsg::
+
+   from tektronixsg import SignalGenerator
+   sg = SignalGenerator()
+   # Set the voltage amplitude of the first channel to 1V
+   sg.channels[0].voltage_amplitude = 1
+   # Set the signal type of the first channel to sine
+   sg.channels[0].signal_type = "sine"
+   # Set the frequency of the first channel to 100 kHz
+   sg.channels[0].frequency = 1e5
+   # Enable the output of the first channel
+   sg.channels[0].output_on = True
+
+
+.. _IO Libraries Suite: https://www.keysight.com/us/en/lib/software-detail/computer-software/io-libraries-suite-downloads-2175637.html
+
+
+*********
+Changelog
+*********
+
+This project follows the guidelines of `Keep a changelog`_ and adheres to
+`Semantic versioning`_.
+
+.. _Keep a changelog: http://keepachangelog.com/
+.. _Semantic versioning: https://semver.org/
+
+
+`0.1.0`_ - 2022-12-01
+=====================
+
+Added
+-----
+* First preview release.
+
+
+.. _0.1.0: https://github.com/emtpb/tektronixsg/releases/tag/0.1.0
