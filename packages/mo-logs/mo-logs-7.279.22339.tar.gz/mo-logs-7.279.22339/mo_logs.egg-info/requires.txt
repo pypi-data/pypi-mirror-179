@@ -1,0 +1,14 @@
+mo-dots==9.279.22339
+mo-future==6.265.22338
+mo-imports==7.265.22338
+mo-kwargs==7.279.22339
+
+[tests]
+mo-json
+mo-threads
+mo-testing
+mo-kwargs
+jx-python
+boto
+beautifulsoup4
+graypy
