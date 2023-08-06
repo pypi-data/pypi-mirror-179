@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: slthost
+Version: 1.0.post1
+Summary: Library for interfacing with Sealta devices in Python
+Home-page: UNKNOWN
+Author: yufan
+Author-email: 1014720522@qq.com
+Maintainer: yufan
+Maintainer-email: 1014720522@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+
+# slthost
+
+Python C code module, used to control the sealta device
+
+# Installing
+
+- `pip install slthost`
+
+# How to use
+
+#### C API can be mimiced almost identically by doing the following:
+
+    >>> from slthost import dev_ctl
+    >>> dev = dev_ctl.create_steap_device(\"192.168.100.100\", 3, 3)
+    >>> res_code,res_string = dev.start_data_record()
+    >>> res_code,res_string = dev.stop_data_record()
+    >>> res_code=dev_ctl.delete_steap_device(dev)
+
+
