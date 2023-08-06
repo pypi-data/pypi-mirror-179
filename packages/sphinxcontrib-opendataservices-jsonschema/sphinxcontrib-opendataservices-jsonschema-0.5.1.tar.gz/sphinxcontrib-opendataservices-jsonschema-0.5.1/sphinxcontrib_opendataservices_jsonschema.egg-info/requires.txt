@@ -1,0 +1,9 @@
+docutils
+jsonref
+jsonpointer
+myst-parser
+
+[test]
+flake8<6
+lxml
+pytest
