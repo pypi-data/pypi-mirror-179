@@ -1,0 +1,11 @@
+itk_fpfh-0.1.1.dist-info/RECORD,,
+itk_fpfh-0.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_fpfh-0.1.1.dist-info/WHEEL,sha256=5lHVdPuBGmG9UawPT0-AMISMkMm-RwSJPUmYxiUjh6s,102
+itk_fpfh-0.1.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_fpfh-0.1.1.dist-info/METADATA,sha256=U_pzBYWrCOpY74ekiLb0A83Mc6XZdvn5abmwHsphSGo,1582
+itk/_FpfhPython.so,sha256=iVKyH73EDbqVQyfCuE0htgSYPuYelMH_PDiCYiVRBhc,1064144
+itk/FpfhPython.py,sha256=CQPQXV0qMfLhLx6e1bap2LsfqI-xdLS3W0B4-gZiz0g,2357
+itk/itkPointFeaturePython.py,sha256=t8N4Q5sX3H2sBLPe-IteX_GfcI0VFdwXupfnQQXhMXQ,21523
+itk/Configuration/Fpfh_snake_case.py,sha256=czLG6ZwAuYYU3JN1XnqrZAcprgNIW-VKr4QKY2NBHBY,81
+itk/Configuration/FpfhConfig.py,sha256=fA-u4YaSQsCwsYtkQ5BS9Iz_swY9bCul6SNDbquKW_Q,348
+itk/.dylibs/libtbb.12.3.dylib,sha256=E4ma_iqQM3j9mMICxOZCT2bhPxGzccnHE1g1CDhqCzU,394048

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: itk-fpfh
+Version: 0.1.1
+Summary: An ITK-based implementation of FPFH (Fast Point Feature Histogram) used for point cloud feature calculation.
+Home-page: https://itk.org/
+Author: Pranjal Sahu
+Author-email: pranjalsahu5@gmail.com
+License: Apache
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKFPFH
+Keywords: ITK InsightToolkit
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+License-File: LICENSE
+Requires-Dist: itk (>=5.3.0)
+
+The feature points could be used obtain salient points while performing registration using RANSAC remote module. The class PointFeature is the main driver that takes a PointSet as argument. Please refer to the documentation for a detailed description and sample usage: https://github.com/InsightSoftwareConsortium/ITKFPFH
+
