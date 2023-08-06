@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: discover-daily
+Version: 0.1.0
+Summary: discover-daily is a CLI tool for all the music nerds out there.
+Author: Robert Kossendey
+Author-email: robert.kossendey@protonmail.ch
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
