@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: studentresume
+Version: 0.7.0
+Summary: 
+Author: curtiskennedy
+Author-email: 52674197+curtiskennedy@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jsonschema (>=4.17.3,<5.0.0)
+Requires-Dist: reportlab (>=3.6.12,<4.0.0)
+Requires-Dist: rich (>=12.6.0,<13.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
