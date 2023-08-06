@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Bingus-Tools
+Version: 0.1.1
+Summary: Just some tools to make your coding easier!
+Author: MrHDumpty
+Requires-Dist: pycountry
+
