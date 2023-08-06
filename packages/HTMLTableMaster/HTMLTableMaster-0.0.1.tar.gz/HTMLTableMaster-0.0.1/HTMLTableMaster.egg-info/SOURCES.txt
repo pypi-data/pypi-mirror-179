@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+HTMLTableMaster/HTMLTable.py
+HTMLTableMaster/__init__.py
+HTMLTableMaster.egg-info/PKG-INFO
+HTMLTableMaster.egg-info/SOURCES.txt
+HTMLTableMaster.egg-info/dependency_links.txt
+HTMLTableMaster.egg-info/top_level.txt
