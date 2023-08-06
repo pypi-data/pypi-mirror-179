@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tweetSentimentAnalysis_MP
+Version: 0.0.2
+Summary: Assignment #10
+Author-email: Matthew Postel <mpostel@g.emporia.edu>
+Project-URL: Homepage, https://github.com/BadWolf22
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tweet Sentiment Analysis
+
+This is Assignment #10 as a PyPi package.
+
+## Running Built-In Examples
+```bash
+python -c "import tweetSentimentAnalysis_MP.examples.example1"
+python -c "import tweetSentimentAnalysis_MP.examples.example2"
+```
+
+## External Example 1
+```python
+import tweetSentimentAnalysis_MP as tsa
+
+tsa.analyze("./vaccination_tweets.csv")
+```
+
+## External Example 2
+```python
+from tweetSentimentAnalysis_MP import analyze
+
+analyze("./vaccination_tweets.csv")
+```

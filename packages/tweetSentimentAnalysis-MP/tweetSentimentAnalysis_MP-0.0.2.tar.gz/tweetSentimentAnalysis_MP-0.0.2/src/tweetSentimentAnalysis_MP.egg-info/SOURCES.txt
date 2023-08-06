@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/tweetSentimentAnalysis_MP/__init__.py
+src/tweetSentimentAnalysis_MP/assignment10.py
+src/tweetSentimentAnalysis_MP.egg-info/PKG-INFO
+src/tweetSentimentAnalysis_MP.egg-info/SOURCES.txt
+src/tweetSentimentAnalysis_MP.egg-info/dependency_links.txt
+src/tweetSentimentAnalysis_MP.egg-info/top_level.txt
+src/tweetSentimentAnalysis_MP/examples/__init__.py
+src/tweetSentimentAnalysis_MP/examples/example1.py
+src/tweetSentimentAnalysis_MP/examples/example2.py
