@@ -1,0 +1,3 @@
+[console_scripts]
+twinify = twinify.cli.__main__:main
+twinify-tools = twinify.cli.tools.__main__:main
