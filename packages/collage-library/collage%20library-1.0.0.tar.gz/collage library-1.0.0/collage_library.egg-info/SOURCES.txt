@@ -1,0 +1,6 @@
+README.md
+setup.py
+collage_library.egg-info/PKG-INFO
+collage_library.egg-info/SOURCES.txt
+collage_library.egg-info/dependency_links.txt
+collage_library.egg-info/top_level.txt

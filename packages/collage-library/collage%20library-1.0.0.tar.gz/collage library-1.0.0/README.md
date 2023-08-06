@@ -1,0 +1,56 @@
+collage
+
+This library helps you to enter students or employees information of a collage through specific items that library or its classes asked you.
+
+How it works?
+Use the following command to install this library
+
+pip install collage
+
+This library has a base class and two different child classes:
+1.Student: that needs (name,family,idnumber,age,phone,idclass) to display a string output of the student information.
+2.Employee: that needs (name,family,idnumber,age,phone,salary(in your own currency)) to display a string output of the staff information,in addition to normal information this class will display tax price,insurance price and finally income.
+
+Use:
+1:display student information
+
+from collage import Student
+get_date=Student(name,family,idnumber,age,phone,idclass)
+print(get_date)
+#you have to enter all wanted or required dataes as string format("")when you make an object from the class
+
+example:
+from collage  import Student
+get_date=Student("ali","akbari","006","35","0912","A3")
+print(get_date)
+________________________________
+output:
+A STUDENT :information of the person is :
+full name is :ali    akbari
+id number is :006
+age :35     phone:0912
+the student class number is :A3
+
+
+
+2:display employee information
+
+from collage import Employee
+get_date=Student(name,family,idnumber,age,phone,salary)
+print(get_date)
+#you have to enter all wanted or required dataes as string format("")when you make an object from the class
+
+example:
+from collage import Employee
+get_date=Employee("hasan","jamali","25874","45","0912",4500000)
+print(get_date)
+_______________________________
+output:
+AN EMPLOYEE :information of the person is :
+full name is :hasan    jamali
+id number is :25874
+age :45     phone:0912
+unpure salary :4500000
+tax is :200000      insurance is :315000
+total income is :3985000.0
+
