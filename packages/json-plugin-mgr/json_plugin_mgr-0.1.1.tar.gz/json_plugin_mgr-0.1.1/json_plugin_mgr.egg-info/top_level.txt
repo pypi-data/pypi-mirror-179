@@ -1,0 +1,4 @@
+dist
+docs
+dummy_package
+plugin_manager

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: json_plugin_mgr
+Version: 0.1.1
+Summary: A collection of ttkbootrap based GUI widgets
+Home-page: https://github.com/stroudcuster/plugin_manager
+Author: Stroud Custer
+Author-email: custerstroud@gmail.com
+Keywords: plugin
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE.txt
+License-File: AUTHORS.txt

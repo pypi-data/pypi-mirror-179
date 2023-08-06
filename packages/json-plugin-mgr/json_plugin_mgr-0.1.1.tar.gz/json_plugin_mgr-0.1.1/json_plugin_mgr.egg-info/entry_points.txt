@@ -1,0 +1,2 @@
+[gui_scripts]
+plugin-mgr = plugin_manager.main:launch
