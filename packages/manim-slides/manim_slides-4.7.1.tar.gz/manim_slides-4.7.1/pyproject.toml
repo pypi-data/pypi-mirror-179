@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "manim-slides"
+description = "Tool for live presentations using manim"
+authors = [
+    "Jérome Eertmans <jeertmans@icloud.com>"
+]
+version = "4.7.1"
+license = "GPL-3.0-only"
+readme = "README.md"
+homepage = "https://github.com/jeertmans/manim-slides"
+documentation = "https://eertmans.be/manim-slides"
+repository = "https://github.com/jeertmans/manim-slides"
+
+keywords = ["manim", "slides", "plugin", "manimgl"]
+
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "Operating System :: OS Independent",
+        "Topic :: Multimedia :: Video",
+        "Topic :: Multimedia :: Graphics",
+        "Topic :: Scientific/Engineering",
+    ]
+
+exclude = ["docs/","static/"]
+packages = [
+    { include = "manim_slides" },
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+click = ">=8.0"
+click-default-group = ">=1.2"
+numpy = ">=1.19"
+opencv-python = ">=4.6"
+pydantic = ">=1.9"
+pyside6 = ">=6"
+requests = ">=2.26"
+tqdm = ">=4.62"
+
+[tool.poetry.dev-dependencies]
+manim = "^0.17.0"
+manimgl = "^1.6.1"
+
+[build-system]
+requires = ["setuptools","poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.plugins]
+[tool.poetry.plugins."console_scripts"]
+manim-slides = "manim_slides.__main__:cli"
