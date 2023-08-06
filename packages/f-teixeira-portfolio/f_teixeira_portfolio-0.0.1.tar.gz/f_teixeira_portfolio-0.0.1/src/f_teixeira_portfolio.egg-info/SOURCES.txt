@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/f_teixeira_portfolio.egg-info/PKG-INFO
+src/f_teixeira_portfolio.egg-info/SOURCES.txt
+src/f_teixeira_portfolio.egg-info/dependency_links.txt
+src/f_teixeira_portfolio.egg-info/top_level.txt
+src/portfolio/__init__.py
+src/portfolio/portfolio_report.py
+src/portfolio/setup.py
