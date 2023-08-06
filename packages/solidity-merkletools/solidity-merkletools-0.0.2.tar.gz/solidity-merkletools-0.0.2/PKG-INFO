@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: solidity-merkletools
+Version: 0.0.2
+Summary: Merkle Tools
+Home-page: https://github.com/f8n/solidity-pymerkletools
+Author: Hsu Han Ooi
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: merkle tree,blockchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
