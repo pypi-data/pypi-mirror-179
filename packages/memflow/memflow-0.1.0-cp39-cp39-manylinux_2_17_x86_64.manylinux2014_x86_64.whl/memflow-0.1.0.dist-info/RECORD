@@ -1,0 +1,8 @@
+memflow-0.1.0.dist-info/METADATA,sha256=3PEc7STs6hiUYGVf9SdrrhSTbKiyGux6q853eObA74g,1720
+memflow-0.1.0.dist-info/WHEEL,sha256=_ACA9XfAeqXxWobwvm3qjdOvYVLZLdz4TAGKT65YnVM,128
+memflow-0.1.0.dist-info/license_files/LICENSE,sha256=LgE74YNN8i1LVTNGpgi5uRpKmKnG6s3suLbyz3otnUg,1093
+memflow/__init__.py,sha256=1qNnzmSvqcsn1sqZQlfZLn9b4N4aFZuMoGLcgEwNEGE,1218
+memflow/memflow.pyi,sha256=gfvzw7nfyZxO9-rLRB_VNfrzWA-hhfHAAT_3rdhx3IM,1450
+memflow/py.typed,sha256=8PBQ9FmAufQ-7pA_RcGhZAyLZXqD_JxBAIk0zTvgL94,9
+memflow/memflow.cpython-39-x86_64-linux-gnu.so,sha256=7wDoev9pwyeelWIqd4fSLSVFV0kDgXXyOaQqtGfCoxc,3225656
+memflow-0.1.0.dist-info/RECORD,,
