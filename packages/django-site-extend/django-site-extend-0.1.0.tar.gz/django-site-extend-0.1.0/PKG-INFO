@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-site-extend
+Version: 0.1.0
+Summary: Django-Site is a Django app to extend django sites framework.
+Home-page: https://github.com/riso-tech/django-site
+Author: Bin Nguyen
+Author-email: support@risotech.vn
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.10
+License-File: LICENSE
