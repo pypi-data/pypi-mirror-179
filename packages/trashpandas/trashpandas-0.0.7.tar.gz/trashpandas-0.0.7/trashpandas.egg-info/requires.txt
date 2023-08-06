@@ -1,0 +1,6 @@
+SQLAlchemy
+pandas
+tables
+
+[HDF5]
+h5py
