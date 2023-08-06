@@ -1,0 +1,14 @@
+gTixi/__init__.py,sha256=_xcnkMlnOlqNRwGvJjVANUpoABIBEy0uFJGp8vQQ494,734
+gTixi/alib.py,sha256=sdNQh499-CWp11v8eWuoh9xijcRPIBNQ3PMg7Ux5jfk,11875
+gTixi/starMod.py,sha256=jCuKh0BAiW9zwKq8qCkxEzNGCrSE2d82rH9aoxwx8hI,5154
+gTixi/starServer.py,sha256=lBXqOr3r5cFG38rQ1IB65VPbol3Krswc_CydJ5UW6Cc,7621
+gTixi/wLTR390.py,sha256=M0249_bHxYXiH3BxJ2GT7oS5Ea-fTBepcGU4vSQ6FLI,6783
+gTixi/waDrivers.py,sha256=eRiN-E3-bI9NXfTNK-PjfeZ2kreSdjAh7qnaAJyYUW0,13201
+gTixi/waFile.py,sha256=WdrEIhTIDhTSzUDvA5eG9DjFuPL0IV7V8BIW9ZgVsck,4118
+gTixi/waText.py,sha256=dSpjs6o1Ovj3evxiz9Vh_h3BgUaiqzhEFDdh6LRnKmM,5983
+gTixi/wadapter.py,sha256=757jad2rspPNvBar3M11bUMk9lSN6-v5hj8AkyRbXV0,23017
+gTixi-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gTixi-0.0.4.dist-info/METADATA,sha256=tc6-YQjV2Nrjopvx4c4J15A545ea6AHahThcm2vnxA8,1229
+gTixi-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gTixi-0.0.4.dist-info/top_level.txt,sha256=21AeEwnogPPeDglFFakLNzoj2cQ-q6TySCG_vA8zKUs,6
+gTixi-0.0.4.dist-info/RECORD,,
