@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pyredraw
+Version: 0.2.1
+Summary: A python package for resampling statistical operations
+License: MIT
+Author: Elizabeth H. Camp
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.6.2)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: scipy (==1.8.1)
+Requires-Dist: statsmodels (>=0.13.5,<0.14.0)
+Description-Content-Type: text/markdown
+
+# pyredraw
+
+A python package for resampling statistical operations
+
+## Installation
+
+```bash
+$ pip install pyredraw
+```
+Package available on PyPI at https://pypi.org/project/pyredraw/
+
+## Usage
+
+- For example usage see `pyredraw/docs/example.ipynb` with documentation available at https://pyredraw.readthedocs.io/en/latest/
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pyredraw` was created by Elizabeth H. Camp. It is licensed under the terms of the MIT license.
+
+## Credits
+
+A big thank you goes to Tomas Beuzan and Tiffany Timbers for their book Python Packages which can be found at https://py-pkgs.org . This resource was invaluable in creating `pyredraw` 
+
