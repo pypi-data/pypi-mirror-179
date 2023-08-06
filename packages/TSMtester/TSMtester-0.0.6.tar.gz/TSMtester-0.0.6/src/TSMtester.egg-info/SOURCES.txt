@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/TSMtester.egg-info/PKG-INFO
+src/TSMtester.egg-info/SOURCES.txt
+src/TSMtester.egg-info/dependency_links.txt
+src/TSMtester.egg-info/requires.txt
+src/TSMtester.egg-info/top_level.txt
+src/TravelingSalesman/TSM_class.py
+src/TravelingSalesman/__about__.py
+src/TravelingSalesman/__init__.py
