@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pywinmm/__init__.py
+pywinmm/pywinmm.py
+pywinmm.egg-info/PKG-INFO
+pywinmm.egg-info/SOURCES.txt
+pywinmm.egg-info/dependency_links.txt
+pywinmm.egg-info/top_level.txt
