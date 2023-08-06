@@ -1,0 +1,35 @@
+# the "wheel" crate is excluded from the workspace because pyo3 has problems with
+# "cargo test" and "cargo bench"
+[workspace]
+members = ["wasm", "chinilla_streamable_macro", "chinilla-bls", "chinilla-clvm-utils", "chinilla-protocol", "chinilla_py_streamable_macro"]
+exclude = ["wheel"]
+
+[package]
+name = "chinilla"
+version = "0.1.17"
+edition = "2021"
+license = "Apache-2.0"
+description = "Utility functions and types used by the Chinilla blockchain full node"
+authors = ["Edward Teach <edward@chinilla.com>"]
+homepage = "https://github.com/Chinilla/chinilla_rs/"
+repository = "https://github.com/Chinilla/chinilla_rs/"
+
+[features]
+py-bindings = ["dep:pyo3"]
+
+[dependencies]
+clvmr_chinilla = "=0.1.24"
+hex = "=0.4.3"
+pyo3 = { version = "=0.15.1", features = ["extension-module"], optional = true }
+chinilla-clvm-utils = { version = "=0.1.19", path = "../chinilla-clvm-utils" }
+chinilla-protocol = { version = "=0.1.17", path = "../chinilla-protocol" }
+
+[dev-dependencies]
+num-traits = "=0.2.15"
+
+[lib]
+name = "chinilla"
+crate-type = ["rlib"]
+
+[profile.release]
+lto = true

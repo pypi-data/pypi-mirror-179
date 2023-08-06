@@ -1,0 +1,12 @@
+[package]
+name = "chinilla-clvm-utils"
+version = "0.1.19"
+edition = "2021"
+license = "Apache-2.0"
+description = "Utility functions for processing clvm programs and structures"
+authors = ["Edward Teach <edward@chinilla.com>"]
+homepage = "https://github.com/Chinilla/chinilla_rs/"
+repository = "https://github.com/Chinilla/chinilla_rs/chinilla-clvm-utils"
+
+[dependencies]
+clvmr_chinilla = "=0.1.24"
