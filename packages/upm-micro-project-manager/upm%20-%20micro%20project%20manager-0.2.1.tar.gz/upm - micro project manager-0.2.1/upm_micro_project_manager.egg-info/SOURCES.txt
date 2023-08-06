@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+upm/__init__.py
+upm/cli.py
+upm/config.py
+upm/template.py
+upm/upm.py
+upm_micro_project_manager.egg-info/PKG-INFO
+upm_micro_project_manager.egg-info/SOURCES.txt
+upm_micro_project_manager.egg-info/dependency_links.txt
+upm_micro_project_manager.egg-info/entry_points.txt
+upm_micro_project_manager.egg-info/top_level.txt
