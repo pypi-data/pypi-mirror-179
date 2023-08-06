@@ -1,0 +1,6 @@
+torch
+requests
+tqdm
+h5py
+
+[dev]
