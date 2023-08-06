@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/resypy.egg-info/PKG-INFO
+src/resypy.egg-info/SOURCES.txt
+src/resypy.egg-info/dependency_links.txt
+src/resypy.egg-info/requires.txt
+src/resypy.egg-info/top_level.txt
