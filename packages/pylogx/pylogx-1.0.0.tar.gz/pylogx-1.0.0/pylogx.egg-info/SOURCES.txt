@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pylogx/__init__.py
+pylogx/levels.json
+pylogx/log.py
+pylogx.egg-info/PKG-INFO
+pylogx.egg-info/SOURCES.txt
+pylogx.egg-info/dependency_links.txt
+pylogx.egg-info/requires.txt
+pylogx.egg-info/top_level.txt
