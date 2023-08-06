@@ -1,0 +1,15 @@
+mirdata
+librosa
+torch
+numpy
+torchaudio
+torchmetrics==0.10.3
+pytorch-lightning
+tensorboard
+argbind
+torchvision
+sklearn
+umap-learn
+pandas
+plotly
+kaleido
