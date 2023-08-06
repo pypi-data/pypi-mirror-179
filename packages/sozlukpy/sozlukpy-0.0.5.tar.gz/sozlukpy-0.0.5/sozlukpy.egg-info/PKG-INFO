@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: sozlukpy
+Version: 0.0.5
+Summary: A basic Turkish dictionary
+Home-page: 
+Author: Meinos10
+Author-email: E.tmen2023@gmail.com
+License: MIT
+Keywords: sozlukpy,sozlukpython,sozluk,sozluk-python,sozluk-py
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sozlukpy
+
+A basic Turkish dictionary
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install -U sozlukpy
+```
+
+## Usage
+
+```python
+from sozlukpy import Sozluk
+
+sozluk = Sozluk()
+
+kelime = "Bayrak"
+
+# returns 'anlam'
+sozluk.anlam(kelime)
+"""Bir milletin, belli bir topluluÄŸun veya bir kuruluÅŸun simgesi olarak kullanÄ±lan, renk ve biÃ§imle Ã¶zelleÅŸtirilmiÅŸ, genellikle dikdÃ¶rtgen biÃ§iminde kumaÅŸ, sancak"""
+
+# returns 'anlamlar'
+sozluk.anlamlar(kelime)
+"""BAYRAK
+
+1 - Bir milletin, belli bir topluluÄŸun veya bir kuruluÅŸun simgesi olarak kullanÄ±lan, renk ve biÃ§imle Ã¶zelleÅŸtirilmiÅŸ, genellikle dikdÃ¶rtgen biÃ§iminde kumaÅŸ, sancak
+2 - Ã–ncÃ¼
+3 - Simge, sembol
+4 - Baklagilllerde diÄŸerlerinden daha Ã¼stte bulunan, daha bÃ¼yÃ¼k olan ve Ã§oÄŸunlukla baÅŸka bir renkte ve yuvarlakÃ§a olan taÃ§ yapraÄŸÄ±
+5 - Atletizmdeki bayrak yarÄ±ÅŸÄ±nda dÃ¶rt sporcunun elden ele geÃ§irdiÄŸi kÄ±sa, yuvarlak sopa
+6 - GerektiÄŸinde indirilip kaldÄ±rÄ±lan, aÃ§Ä±lÄ±p kapatÄ±lan kol"""
+
+# returns 'ornekler'
+sozluk.ornekler(kelime)
+"""BAYRAK
+
+- BayraklarÄ± bayrak yapan Ã¼stÃ¼ndeki kandÄ±r / Toprak eÄŸer uÄŸrunda Ã¶len varsa vatandÄ±r | Mithat Cemal Kuntay
+- Yeni bir sanat kuÅŸaÄŸÄ±nÄ±n bayraÄŸÄ±ydÄ± o. | Yusuf Ziya OrtaÃ§
+- KÄ±z, Sinekli Bakkal'Ä±n erkek dÃ¼nyasÄ±na meydan okuyan bir bayrak gibiydi. | Halide Edip AdÄ±var
+- Yoldan, bayraÄŸÄ± aÃ§Ä±k bir taksi Ã§evirdiler. | Mahmut Yesari"""
+
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact
+
+[Telegram](https://t.me/ReWoxi) - [Github](https://github.com/Meinos10) - Discord: ```emree#0010```
