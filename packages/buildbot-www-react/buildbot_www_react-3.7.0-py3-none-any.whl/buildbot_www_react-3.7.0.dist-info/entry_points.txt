@@ -1,0 +1,4 @@
+
+        [buildbot.www]
+        base_react = buildbot_www_react:ep
+    
