@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gen_msmask
+Version: 2.0.0
+Summary: A tool to generate masks for images of multispectrum
+Author-email: Harishguna Satgunarajah <satgu7@gmail.com>, Saumik Khan <saumik.13@gmail.com>
+Project-URL: Homepage, https://github.com/saumik13/multi-spectral-mask-generator
+Project-URL: Bug Tracker, https://github.com/saumik13/multi-spectral-mask-generator
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Multi-spectral Mask Generator
+
+This is an open-source Python library that can be used for background removal of multi-spectral medical images. 
+<!-- [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content. -->
