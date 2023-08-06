@@ -1,0 +1,3 @@
+[console_scripts]
+etl-gen=etl_gen.main:app
+
