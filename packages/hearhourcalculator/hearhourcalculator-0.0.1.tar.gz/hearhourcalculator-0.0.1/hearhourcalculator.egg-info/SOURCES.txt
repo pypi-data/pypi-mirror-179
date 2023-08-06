@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+hearhourcalculator/__init__.py
+hearhourcalculator.egg-info/PKG-INFO
+hearhourcalculator.egg-info/SOURCES.txt
+hearhourcalculator.egg-info/dependency_links.txt
+hearhourcalculator.egg-info/top_level.txt
