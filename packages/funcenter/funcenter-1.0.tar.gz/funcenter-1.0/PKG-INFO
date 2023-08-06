@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: funcenter
+Version: 1.0
+Summary: Some random functions I made... includes color formatting, text formatting, basic math, and most of all... dumb algorithms. Enjoy.
+Author: uncenter
+Author-email: uncenteristaken@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
