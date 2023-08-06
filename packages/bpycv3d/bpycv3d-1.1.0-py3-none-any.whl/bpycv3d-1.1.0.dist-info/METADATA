@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bpycv3d
+Version: 1.1.0
+Summary: Blender Python Package for extracting internal data from blender scenes for 3d related data generation purposes.
+Home-page: https://github.com/ArenaGrenade/bpycv3d
+Author: Rohan Asokan
+Author-email: rohanasokan@gmail.com
+Project-URL: Bug Tracker, https://github.com/ArenaGrenade/bpycv3d/-/issues
+Project-URL: repository, https://github.com/ArenaGrenade/bpycv3d
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+BPYCV3D
+=======
+
+**BPYCV3D** is a blender python library that allows you to extract data from blender for 3d models training purposes.
+
+There is also a UI component provided with the library.
