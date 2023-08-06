@@ -1,0 +1,5 @@
+requests>=2.26.0
+prompt-toolkit>=3.0.0
+keyring<24,>=23.0.0
+ruamel.yaml>=0.17.0
+click>=8.0.0
