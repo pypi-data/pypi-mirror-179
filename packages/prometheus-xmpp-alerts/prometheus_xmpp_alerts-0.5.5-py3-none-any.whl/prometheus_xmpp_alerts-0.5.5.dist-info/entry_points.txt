@@ -1,0 +1,2 @@
+[console_scripts]
+prometheus-xmpp-alerts = prometheus_xmpp_alerts:main
