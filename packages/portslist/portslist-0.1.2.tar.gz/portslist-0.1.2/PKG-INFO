@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: portslist
+Version: 0.1.2
+Summary: List listening ports on terminal
+Author: lethe
+Author-email: lethe30003000@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: psutil (>=5.9.4,<6.0.0)
+Requires-Dist: textual (>=0.5.0,<0.6.0)
