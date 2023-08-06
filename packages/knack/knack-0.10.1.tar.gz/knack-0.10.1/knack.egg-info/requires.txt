@@ -1,0 +1,5 @@
+argcomplete
+jmespath
+pygments
+pyyaml
+tabulate
