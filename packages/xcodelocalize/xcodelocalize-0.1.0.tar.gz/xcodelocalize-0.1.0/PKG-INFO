@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: xcodelocalize
+Version: 0.1.0
+Summary: Tool for automatic search and localization of .strings files
+License: MIT
+Author: MarkParker5
+Author-email: markparker.it@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mtranslate (>=1.8,<2.0)
+Requires-Dist: typer[all] (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# XCodeLocalize
+
+# Requirments
+Python3.9+
+
+## Installation
+> pip install xcodelocalize 
+
+## Usage
+> xcodelocalize --help
