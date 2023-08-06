@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: exorcist
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/unknown/exorcist#readme
+Project-URL: Issues, https://github.com/unknown/exorcist/issues
+Project-URL: Source, https://github.com/unknown/exorcist
+Author-email: Mike Henry <11765982+mikemhenry@users.noreply.github.com>
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# exorcist
+
+[![PyPI - Version](https://img.shields.io/pypi/v/exorcist.svg)](https://pypi.org/project/exorcist)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/exorcist.svg)](https://pypi.org/project/exorcist)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install exorcist
+```
+
+## License
+
+`exorcist` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
