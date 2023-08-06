@@ -1,0 +1,11 @@
+python-augeas
+future
+six
+distro
+netifaces
+ipaddress
+requests
+netapp-ontap
+
+[ssh]
+ssh2-python
