@@ -1,0 +1,13 @@
+snek5000_tgv/Snakefile,sha256=L1eJ2N-YDOxmHNmfweJv8h5L41glbOfgaqNmMCNYACQ,910
+snek5000_tgv/__init__.py,sha256=lvtjVPM-jbyS6hD8TLEwo8jHVtNrydfzw9fgzu6PZHU,118
+snek5000_tgv/output.py,sha256=3ezhj7IzFK5kuO2xoocVRyzSIJBz03hkUl55EnJMpjc,703
+snek5000_tgv/solver.py,sha256=OpTuuEn3izxhHkGZHtzV8etTEj6OZHrwC_VfKtLBIH4,2252
+snek5000_tgv/tgv.par.cfg,sha256=o4Z0ppozF4NAIqw91FBGCe0TLKSGTFW5CpLqvzKbGDU,325
+snek5000_tgv/tgv.usr.f,sha256=yOhhSYpKeHYfwumSnWaM6RVMX86dBdBsU1lf_EqVYNM,3792
+snek5000_tgv/templates/__init__.py,sha256=4Xb-dAUBpmc5-N6gKBnFcYpLxKiOrE11mvVZZkcoHrw,328
+snek5000_tgv-0.1.0.dist-info/LICENSE,sha256=fOnrmlW3J6gVHyiv-lV344G-MVByjqXcWCnw5SXU8p4,2853
+snek5000_tgv-0.1.0.dist-info/METADATA,sha256=55bIdSElLMq8mE-a4yn70tY7dr0QMmT32XaUdOFzBAY,723
+snek5000_tgv-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snek5000_tgv-0.1.0.dist-info/entry_points.txt,sha256=06OLUUTLeU3D4fJ57B_6AUehp5iroRAj5-pAQfQFpHY,46
+snek5000_tgv-0.1.0.dist-info/top_level.txt,sha256=bFdqWeIliGpda489CXT088MTJMmAJniG6IPOK8rarcs,13
+snek5000_tgv-0.1.0.dist-info/RECORD,,
