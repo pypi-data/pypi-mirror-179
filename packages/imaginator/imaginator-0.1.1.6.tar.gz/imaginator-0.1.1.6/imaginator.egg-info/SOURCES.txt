@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+imaginator/__init__.py
+imaginator/experiment.py
+imaginator/pipeline_utils.py
+imaginator.egg-info/PKG-INFO
+imaginator.egg-info/SOURCES.txt
+imaginator.egg-info/dependency_links.txt
+imaginator.egg-info/requires.txt
+imaginator.egg-info/top_level.txt
