@@ -1,0 +1,4 @@
+include a_pandas_ex_horizontal_explode/requirements.txt
+include a_pandas_ex_horizontal_explode/thirdparty.json
+include a_pandas_ex_horizontal_explode/README.MD
+include a_pandas_ex_horizontal_explode/LICENSE

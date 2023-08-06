@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+a_pandas_ex_horizontal_explode/LICENSE
+a_pandas_ex_horizontal_explode/README.MD
+a_pandas_ex_horizontal_explode/__init__.py
+a_pandas_ex_horizontal_explode/requirements.txt
+a_pandas_ex_horizontal_explode/thirdparty.json
+a_pandas_ex_horizontal_explode.egg-info/PKG-INFO
+a_pandas_ex_horizontal_explode.egg-info/SOURCES.txt
+a_pandas_ex_horizontal_explode.egg-info/dependency_links.txt
+a_pandas_ex_horizontal_explode.egg-info/requires.txt
+a_pandas_ex_horizontal_explode.egg-info/top_level.txt
