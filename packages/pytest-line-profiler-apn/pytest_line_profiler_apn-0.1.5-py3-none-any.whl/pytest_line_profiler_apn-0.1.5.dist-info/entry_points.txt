@@ -1,0 +1,3 @@
+[pytest11]
+line-profiler=pytest_line_profiler_apn
+
