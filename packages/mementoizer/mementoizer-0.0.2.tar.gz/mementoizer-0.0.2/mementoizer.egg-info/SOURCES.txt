@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+mementoizer.egg-info/PKG-INFO
+mementoizer.egg-info/SOURCES.txt
+mementoizer.egg-info/dependency_links.txt
+mementoizer.egg-info/entry_points.txt
+mementoizer.egg-info/requires.txt
+mementoizer.egg-info/top_level.txt
