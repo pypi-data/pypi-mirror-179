@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pp_project_hmv/__init__.py
+pp_project_hmv/maths.py
+pp_project_hmv.egg-info/PKG-INFO
+pp_project_hmv.egg-info/SOURCES.txt
+pp_project_hmv.egg-info/dependency_links.txt
+pp_project_hmv.egg-info/requires.txt
+pp_project_hmv.egg-info/top_level.txt
