@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: simple-converge
+Version: 0.11.0
+Summary: utilities for faster and easier prototyping of DL models
+Home-page: https://github.com/EytanKats/simple_converge
+Download-URL: https://pypi.org/project/simple_converge/
+Author: Eytan Kats
+Author-email: eytan.kats@gmail.com
+License: MIT
+Keywords: DeepLearning
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# simple-converge
+
+
