@@ -1,0 +1,13 @@
+awkward_pandas/__init__.py,sha256=mXuHm6sWAb244ittCpoZ8FxF1mL5Zj-r9ElzfjulNNs,481
+awkward_pandas/accessor.py,sha256=X8B2789Lk6poJJpkr45ATjvrhaNQrm8__a82f71lBUA,7297
+awkward_pandas/array.py,sha256=vz6xzo9fVpm-cyjcjXPKQFKa9BPRL8BoPW-JKlaZhkY,4883
+awkward_pandas/dtype.py,sha256=3oOuIlDZreHRmBrrkwL634rtrwni2JlQhou1aF689YY,1862
+awkward_pandas/io.py,sha256=HsURWGXCEtKODQ-5mzkypbQPA-CH2d-oD_5rETcbybA,1621
+awkward_pandas/lib.py,sha256=BKSkISAmLW9wiI_DcdNKlZ4hj_SmqhFxonUJIUXnjvY,1090
+awkward_pandas/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awkward_pandas/strings.py,sha256=wS5bWgnrby7AFCsq23mEBQ0INFv8UJpatKB2lAiMKhA,4581
+awkward_pandas/version.py,sha256=XXtuxRUJezUb3Jrvdv4xwCWxeuNGlZDQW5NHxllYOo4,181
+awkward_pandas-2022.12a0.dist-info/METADATA,sha256=E8TmxfomcOtSPbY0LzhJs3kkAlA6s3PLwzHR2jm5KSc,1828
+awkward_pandas-2022.12a0.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+awkward_pandas-2022.12a0.dist-info/licenses/LICENSE,sha256=qHDcsWGQArBZuorL5704cnCmIZEJdQ5fT7HoihCN5NY,1521
+awkward_pandas-2022.12a0.dist-info/RECORD,,
