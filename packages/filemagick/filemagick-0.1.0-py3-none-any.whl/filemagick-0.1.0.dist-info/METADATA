@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: filemagick
+Version: 0.1.0
+Summary: Tools for files manipulation
+Home-page: https://github.com/wonderbeyond/filemagick
+License: MIT
+Keywords: Python,CI/CD,FileMagick,Templating,Substitution
+Author: Wonder
+Author-email: wonderbeyond@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: testing
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "testing"
+Project-URL: Documentation, https://github.com/wonderbeyond/filemagick
+Project-URL: Repository, https://github.com/wonderbeyond/filemagick
+Description-Content-Type: text/markdown
+
+## FileMagick - Tools for files manipulation
+
+```bash
+filemagick sub __init__.py -p '__version__ = "0.0.0"' -r '__version__ = "0.1.0"'
+```
+
+For more use cases see the test cases in the `tests` directory.
+
