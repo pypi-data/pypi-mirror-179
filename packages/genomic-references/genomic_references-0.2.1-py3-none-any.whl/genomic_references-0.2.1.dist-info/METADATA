@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: genomic-references
+Version: 0.2.1
+Summary: OncoDNA library to handle genomic reference directory
+License: MIT
+Author: Benoitdw
+Author-email: bw@oncodna.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dataclass-type-validator (>=0.1.2,<0.2.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
