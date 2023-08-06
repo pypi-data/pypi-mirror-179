@@ -1,0 +1,2 @@
+[console_scripts]
+pyadvdocx = reader.__main__:main
