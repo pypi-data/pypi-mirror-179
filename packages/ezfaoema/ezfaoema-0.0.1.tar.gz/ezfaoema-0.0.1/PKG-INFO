@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ezfaoema
+Version: 0.0.1
+Summary: This is a built-in method for python sorting
+Home-page: https://blog.csdn.net/sdsdvsdvs?spm=1000.2115.3001.5343
+Author: ZhangHaiJun
+Author-email: 2215664237@qq.com
+License: BSD License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE

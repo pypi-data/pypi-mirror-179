@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ezfaoema/__init__.py
+ezfaoema/minHoll.py
+ezfaoema.egg-info/PKG-INFO
+ezfaoema.egg-info/SOURCES.txt
+ezfaoema.egg-info/dependency_links.txt
+ezfaoema.egg-info/top_level.txt
