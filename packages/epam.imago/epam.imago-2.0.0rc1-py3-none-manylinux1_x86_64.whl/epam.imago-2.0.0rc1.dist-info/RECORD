@@ -1,0 +1,10 @@
+imago/__init__.py,sha256=mIrSdwkPmd-QL966jvgjUWLaJdgS8_tuWUQZDXf5QK4,69
+imago/imago.py,sha256=O7l7gKTueDGr8mOKqoiWBE_odSYi5EgO9z6L5kdWIKM,13483
+imago/imago_exception.py,sha256=cYzminlD-DP_O4nVLd5Qb57B_wVRVWwjd1_aF_9ZVEI,45
+imago/imago_filters.py,sha256=5PxvEX9an0TKbGbOyWMqC2ghhZEoC_RaWsw2jtHSgD8,193
+imago/imago_log_record.py,sha256=2g6_fIE-d4FP3rA4QMjTtI8fDJirzRCBKnJFVyXcNSE,205
+imago/lib/linux-x86_64/libimago.so,sha256=znhsd_kJFFw5eKGMp1H2qa8rjGODNUnD-b2DSqzEf1Q,51901520
+epam.imago-2.0.0rc1.dist-info/METADATA,sha256=lNVvKgn9KV_38kOX0dgUVUN9qC-Se9hOJoR_8aCBv1c,1740
+epam.imago-2.0.0rc1.dist-info/WHEEL,sha256=-kQi_VMfvRQozZJT7HUPMfY-5vLo0LVTmAylNJ3Ft98,106
+epam.imago-2.0.0rc1.dist-info/top_level.txt,sha256=CmxEmWUcW3Yp1jcouEkh955ihyHK8wHIX2ud4RmMTuU,6
+epam.imago-2.0.0rc1.dist-info/RECORD,,
