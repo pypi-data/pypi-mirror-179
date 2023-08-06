@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+wotApiPy/__init__.py
+wotApiPy/wotApiPy.py
+wotApiPy.egg-info/PKG-INFO
+wotApiPy.egg-info/SOURCES.txt
+wotApiPy.egg-info/dependency_links.txt
+wotApiPy.egg-info/not-zip-safe
+wotApiPy.egg-info/top_level.txt
