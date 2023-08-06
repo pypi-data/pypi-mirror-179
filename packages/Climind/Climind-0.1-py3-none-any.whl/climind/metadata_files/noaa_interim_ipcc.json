@@ -1,0 +1,30 @@
+{
+  "name": "NOAA Interim IPCC",
+  "display_name": "NOAA Interim IPCC",
+  "version": "",
+  "variable": "tas",
+  "units": "degC",
+  "citation": ["Vose, R. S., Huang, B., Yin, X., Arndt, D., Easterling, D. R., Lawrimore, J. H., et al. (2021). Implementing full spatial coverage in NOAA’s global temperature analysis. Geophysical Research Letters, 48, e2020GL090873. https://doi.org/10.1029/2020GL090873"],
+  "citation_url": ["https://doi.org/10.1029/2020GL090873"],
+  "data_citation": [""],
+  "acknowledgement": "",
+  "colour": "#f0e442",
+  "zpos": 10,
+  "datasets": [
+	{
+      "url": ["https://dap.ceda.ac.uk/badc/ar6_wg1/data/ch_02/ch2_fig11/v20211207//Figure_2_11c-lower_panel.csv"],
+      "filename": ["Figure_2_11c-lower_panel.csv"],
+      "type": "timeseries",
+      "long_name": "Global mean temperature",
+	  "time_resolution": "annual",
+	  "space_resolution": 999,
+	  "climatology_start": 1961,
+	  "climatology_end": 1990,
+	  "actual": false,
+	  "derived": false,
+	  "history": [],
+      "reader": "reader_ipcc_ts",
+	  "fetcher": "fetcher_standard_url"
+    }
+  ]
+}
