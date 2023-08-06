@@ -1,0 +1,9 @@
+README.md
+setup.py
+pydatrie/__init__.py
+pydatrie/_datrie.py
+pydatrie.egg-info/PKG-INFO
+pydatrie.egg-info/SOURCES.txt
+pydatrie.egg-info/dependency_links.txt
+pydatrie.egg-info/not-zip-safe
+pydatrie.egg-info/top_level.txt
