@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 52", "setuptools_scm >= 6.2", "Cython >= 0.29.20"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/dnaio/_version.py"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.cibuildwheel]
+environment = "CFLAGS=-g0"
+test-requires = "pytest"
+test-command = ["cd {project}", "pytest tests"]
+
+[[tool.cibuildwheel.overrides]]
+select = "*-win*"
+test-command = ["cd /d {project}", "pytest tests"]
