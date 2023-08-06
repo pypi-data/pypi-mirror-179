@@ -1,0 +1,3 @@
+[console_scripts]
+iias_project_cli = iias_project_cli.__main__:main
+
