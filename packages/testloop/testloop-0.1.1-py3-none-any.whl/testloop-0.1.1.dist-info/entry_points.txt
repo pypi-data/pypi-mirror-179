@@ -1,0 +1,3 @@
+[console_scripts]
+testloop=testloop.testloop:cli
+
