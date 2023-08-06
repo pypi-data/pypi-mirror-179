@@ -1,0 +1,11 @@
+versioner/Exceptions.py,sha256=g1UT2ay-a0bhBAH-gDO7s-E90aO43QmdNRW_1rXCwwQ,952
+versioner/Functions.py,sha256=CDY6veHsJhlkwdaXFyPi1oaIDvy8CXei2_6f-QB7pJ8,1131
+versioner/Units.py,sha256=vlD_9tjmMIn_uVYNireMXt9tQlad6SXILxAVC17rJow,520
+versioner/Version.py,sha256=XebCy84ulkBSEKYediO1ZpL8etzGBf38i0b1jqpDxRw,2686
+versioner/__init__.py,sha256=23ftN5_-CHb9mdbSXPNTeOkzXK04LC1hY6ASueSt7Ok,304
+versioner/__main__.py,sha256=Ech3UOb48OzHnRLWMh6SURZZ3m5FiZsIaQpB4Q4Xw7Y,986
+versioner.py-1.0.0.dist-info/LICENSE,sha256=spNP9-xRNk_f344KMfxONAblI58MMrpPasaQ5sXdwe4,1085
+versioner.py-1.0.0.dist-info/METADATA,sha256=a_nLWyukajmNNGHqcWErOidiIM1L30xx0ochgt4bv28,366
+versioner.py-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+versioner.py-1.0.0.dist-info/top_level.txt,sha256=7lke3tKWLLL9eOFxui2M8Bx6OxbHIZKbLtcXqwwkQhg,10
+versioner.py-1.0.0.dist-info/RECORD,,
