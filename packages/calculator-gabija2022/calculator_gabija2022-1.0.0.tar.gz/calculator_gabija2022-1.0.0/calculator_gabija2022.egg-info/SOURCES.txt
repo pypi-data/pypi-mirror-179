@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+calculator_gabija2022/__init__.py
+calculator_gabija2022/calculator_main.py
+calculator_gabija2022.egg-info/PKG-INFO
+calculator_gabija2022.egg-info/SOURCES.txt
+calculator_gabija2022.egg-info/dependency_links.txt
+calculator_gabija2022.egg-info/top_level.txt
