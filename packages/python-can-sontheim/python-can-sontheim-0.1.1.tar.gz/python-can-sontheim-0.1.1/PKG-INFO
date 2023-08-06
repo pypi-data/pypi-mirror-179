@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: python-can-sontheim
+Version: 0.1.1
+Summary: A python-can interface driver for Sontheim Industrie Elektronik CAN bus interfaces
+Author-email: Matt Woodhead <woody.w62@gmail.com>
+License: GNU Lesser General Public License v3 (LGPLv3)
+Project-URL: homepage, https://github.com/MattWoodhead/python-can-sontheim
+Project-URL: documentation, https://github.com/MattWoodhead/python-can-sontheim
+Project-URL: repository, https://github.com/MattWoodhead/python-can-sontheim
+Keywords: CANbus,Sontheim,python-can,CANfox
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Manufacturing
+Classifier: Environment :: Plugins
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+python-can-sontheim
+===================================================================================
+|release| |python_implementation| |downloads|
+
+.. |release| image:: https://img.shields.io/pypi/v/python-can-sontheim.svg)
+   :target: https://pypi.python.org/pypi/python-can-sontheim/
+   :alt: Latest Version on PyPi
+
+.. |python_implementation| image:: https://img.shields.io/pypi/implementation/python-can-sontheim
+   :target: https://pypi.python.org/pypi/python-can-sontheim/
+   :alt: Supported Python implementations
+   
+.. |downloads| image:: https://pepy.tech/badge/python-can-sontheim
+   :target: https://pepy.tech/project/python-can-sontheim
+   :alt: Downloads on PePy
+
+
+This module is a plugin for the python-can_. module, that allows the use of CAN interfaces that rely on the Sontheim Industrie Elektronik (SIE) MTAPI drivers (windows only). These include the SIE CANfox (including rebranded versions such as that by IFM), SIE CANUSB, etc.
+
+
+Installation
+------------
+
+Install using pip::
+
+    $ pip install python-can-sontheim
+
+
+Usage
+-----
+
+In general, useage is largely the same as with the main python-can_ library, using the interface designation of "sontheim". When integrating the sontheim interface into scripts, it is possible to import constants, device deisgnations etc from the python-can-sontheim module using "import can_sontheim". For the majority of the use cases, using an SIE interface is as simple as amending any python-can examples with the lines shown below:
+
+Create python-can bus with the SIE CANfox USB interface:
+
+.. code-block:: python
+
+    import can
+    from can_sontheim import devices
+
+    bus = can.Bus(interface="sontheim", channel=devices.CANfox.CAN1, bitrate=250000, echo=False)
+
+Some examples are present in the python-can-sontheim/examples_ directory in the repository, and more complete documentation specific to the SIE interfaces and driver will be uploaded to this module in due course.
+
+
+.. _python-can: https://python-can.readthedocs.org/en/stable/
+
+.. _examples: https://github.com/MattWoodhead/python-can-sontheim/tree/main/examples
