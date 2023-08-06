@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: baysalt
+Version: 0.0.0
+Summary: Somde simple tools for baysalt
+Author: Christmas
+Author-email: 273519355@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# This Package is a collection of Christmas related packages.
+## Authors : Christmas
+## Maintainer : Christmas
+
+To install this package, run:
+
+    pip install baysalt
+or
+
+    pip3 install baysalt
+
+
