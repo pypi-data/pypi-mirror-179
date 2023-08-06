@@ -1,0 +1,35 @@
+CHANGELOG.txt
+LISCENCE.txt
+MANIFEST.in
+README.md
+setup.py
+BashiruFaw/1_Erkrankungen des Nervensystems_S.txt
+BashiruFaw/Aufklärung_Einleitung.txt
+BashiruFaw/Dok1.txt
+BashiruFaw/FXSEXT.txt
+BashiruFaw/LAN_policy_v1.txt
+BashiruFaw/LAN_profile_v1.txt
+BashiruFaw/OneX_v1.txt
+BashiruFaw/Training zur Meinungsrede.txt
+BashiruFaw/WFD_LEGACY_profile_v1.txt
+BashiruFaw/WFD_profile_v1.txt
+BashiruFaw/WLANAP_profile_v1.txt
+BashiruFaw/WLAN_policy_v1.txt
+BashiruFaw/WLAN_profile_v1.txt
+BashiruFaw/WLAN_profile_v2.txt
+BashiruFaw/WLAN_profile_v3.txt
+BashiruFaw/WWAN_profile_v1.txt
+BashiruFaw/WWAN_profile_v2.txt
+BashiruFaw/WWAN_profile_v3.txt
+BashiruFaw/WWAN_profile_v4.txt
+BashiruFaw/WWAN_profile_v5.txt
+BashiruFaw/WWAN_profile_v6.txt
+BashiruFaw/WWAN_profile_v7.txt
+BashiruFaw/WWAN_profile_v8.txt
+BashiruFaw/WWAN_profile_v9.txt
+BashiruFaw/cb3e5ba0adf111e0998b0002a5d5c51b.txt
+CypherIt.egg-info/PKG-INFO
+CypherIt.egg-info/SOURCES.txt
+CypherIt.egg-info/dependency_links.txt
+CypherIt.egg-info/top_level.txt
+CyphterIt/__init__.py

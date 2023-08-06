@@ -1,0 +1,19 @@
+Change Log
+==========
+
+0.0.1 (29/11/2022)
+-----------------
+- First Release
+
+0.0.2 (29/11/2022)
+-----------------
+- Fix
+
+0.0.3 (03/12/2022)
+-----------------
+- More intelligent
+- Accurate connection
+- Folder in path can also be written to a txt file
+- file in the path will be overwritten even folders in the path
+- Faster overwriting (ps. Still slow but I am working on it)
+- Path error fixed
