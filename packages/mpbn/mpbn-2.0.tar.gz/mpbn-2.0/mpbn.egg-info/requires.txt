@@ -1,0 +1,6 @@
+boolean.py
+clingo
+colomoto_jupyter>=0.8.0
+numpy
+scipy
+tqdm
