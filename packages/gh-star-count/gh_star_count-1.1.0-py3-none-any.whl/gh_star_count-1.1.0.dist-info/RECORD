@@ -1,0 +1,14 @@
+gh_star_count/__main__.py,sha256=o9YY8dOIXDqlrsPzlhH43AVkRen2ZD3UH8HExrgq4Zw,885
+gh_star_count/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gh_star_count/cli/count_stars.py,sha256=0Yvq6ipGC5-Rt6Ap3g2alN-syi1iQ8eqSdXzySckh3g,2047
+gh_star_count/cli/count_stars_scrapping.py,sha256=6ZQEx15ZsRF-Xr7fHYM_G3zswYGmxNLgIrOWCbiJWFA,4243
+gh_star_count/cli/desc_update.py,sha256=z4tr07vOUWVe-kwIcm3xpw0kwzNGxN_HGdR7B4SObtc,1141
+gh_star_count/cli/status_update.py,sha256=_ipZOl5Ir4GFwCWEn3nhJOo5n-JFBm557q8VJB9GUN8,2193
+gh_star_count/cli/test_count_stars.py,sha256=ggDa3pDJvW-ViblMJs41dEMqib0IPm7orP5qA5NtB4M,150
+gh_star_count/cli/test_count_stars_scrapping.py,sha256=0v2Gf6qJO_Qt7xiaS2VZY7XVniTcYKc2cBQIO7ip_qo,1232
+gh_star_count/cli/test_desc_update.py,sha256=6MwGM5BlNNGFvrsOj9F_wB7lkftfJygvxVVfwcfZ86M,127
+gh_star_count/cli/test_status_update.py,sha256=y7T1sVSw1TuyXr3i-rUTYSW6Nm2Q1CvUmEXSLnE9zOk,44
+gh_star_count-1.1.0.dist-info/LICENSE,sha256=0E0nI-3IxoKwQxEUAValBaFj5cggITVUYtr_P6uDcV4,1098
+gh_star_count-1.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+gh_star_count-1.1.0.dist-info/METADATA,sha256=nr0rXkOdVouqc6aieFXnk6cnmwfuyJ7tSKJWdDNpJ7s,1614
+gh_star_count-1.1.0.dist-info/RECORD,,
