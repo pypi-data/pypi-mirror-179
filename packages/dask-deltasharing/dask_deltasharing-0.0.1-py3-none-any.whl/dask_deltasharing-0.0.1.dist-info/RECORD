@@ -1,0 +1,5 @@
+dask_deltasharing/__init__.py,sha256=vgJcv-P90T0ff2VZAY-cqR2peSQ091wZKH5KJbV93LI,70
+dask_deltasharing/dask_deltasharing.py,sha256=c4Pc1oHcuRcJ-0VpwU9Su2HGpiMiD0erz_FUq1VYQWA,5751
+dask_deltasharing-0.0.1.dist-info/METADATA,sha256=_88FN58pzqv0oWcXJdancPOuMTqdLS1vJxYE_NH6B90,828
+dask_deltasharing-0.0.1.dist-info/WHEEL,sha256=NaLmgHHW_f9jTvv_wRh9vcK7c7EK9o5fwsIXMOzoGgM,87
+dask_deltasharing-0.0.1.dist-info/RECORD,,
