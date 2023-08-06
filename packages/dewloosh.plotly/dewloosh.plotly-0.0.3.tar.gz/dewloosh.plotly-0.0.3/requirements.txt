@@ -1,0 +1,5 @@
+setuptools
+wheel
+polymesh>=0.0.9
+pandas
+plotly
