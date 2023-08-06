@@ -1,0 +1,3 @@
+[console_scripts]
+discover-daily=src.main:recommend_album
+

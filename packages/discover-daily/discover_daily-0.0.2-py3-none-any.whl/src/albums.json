@@ -1,0 +1,2192 @@
+[
+  {
+    "album": "OK Computer",
+    "artist": "Radiohead",
+    "rating": 4.26,
+    "release_date": "16 June 1997"
+  },
+  {
+    "album": "To Pimp a Butterfly",
+    "artist": "Kendrick Lamar",
+    "rating": 4.33,
+    "release_date": "15 March 2015"
+  },
+  {
+    "album": "Wish You Were Here",
+    "artist": "Pink Floyd",
+    "rating": 4.31,
+    "release_date": "12 September 1975"
+  },
+  {
+    "album": "In the Court of the Crimson King",
+    "artist": "King Crimson",
+    "rating": 4.31,
+    "release_date": "10 October 1969"
+  },
+  {
+    "album": "Kid A",
+    "artist": "Radiohead",
+    "rating": 4.24,
+    "release_date": "3 October 2000"
+  },
+  {
+    "album": "Loveless",
+    "artist": "My Bloody Valentine",
+    "rating": 4.25,
+    "release_date": "11 November 1991"
+  },
+  {
+    "album": "Madvillainy",
+    "artist": "Madvillain",
+    "rating": 4.31,
+    "release_date": "23 March 2004"
+  },
+  {
+    "album": "The Dark Side of the Moon",
+    "artist": "Pink Floyd",
+    "rating": 4.22,
+    "release_date": "23 March 1973"
+  },
+  {
+    "album": "Abbey Road",
+    "artist": "The Beatles",
+    "rating": 4.26,
+    "release_date": "26 September 1969"
+  },
+  {
+    "album": "In Rainbows",
+    "artist": "Radiohead",
+    "rating": 4.23,
+    "release_date": "10 October 2007"
+  },
+  {
+    "album": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+    "artist": "David Bowie",
+    "rating": 4.26,
+    "release_date": "16 June 1972"
+  },
+  {
+    "album": "good kid, m.A.A.d city",
+    "artist": "Kendrick Lamar",
+    "rating": 4.26,
+    "release_date": "22 October 2012"
+  },
+  {
+    "album": "The Velvet Underground & Nico",
+    "artist": "The Velvet Underground & Nico",
+    "rating": 4.23,
+    "release_date": "12 March 1967"
+  },
+  {
+    "album": "The Black Saint and the Sinner Lady",
+    "artist": "Mingus",
+    "rating": 4.34,
+    "release_date": "July 1963"
+  },
+  {
+    "album": "Remain in Light",
+    "artist": "Talking Heads",
+    "rating": 4.26,
+    "release_date": "8 October 1980"
+  },
+  {
+    "album": "Revolver",
+    "artist": "The Beatles",
+    "rating": 4.23,
+    "release_date": "5 August 1966"
+  },
+  {
+    "album": "A Love Supreme",
+    "artist": "John Coltrane",
+    "rating": 4.30,
+    "release_date": "February 1965"
+  },
+  {
+    "album": "Illmatic",
+    "artist": "Nas",
+    "rating": 4.23,
+    "release_date": "19 April 1994"
+  },
+  {
+    "album": "Kind of Blue",
+    "artist": "Miles Davis",
+    "rating": 4.24,
+    "release_date": "17 August 1959"
+  },
+  {
+    "album": "Paranoid",
+    "artist": "Black Sabbath",
+    "rating": 4.21,
+    "release_date": "18 September 1970"
+  },
+  {
+    "album": "Lift Yr. Skinny Fists Like Antennas to Heaven!",
+    "artist": "Godspeed You Black Emperor!",
+    "rating": 4.20,
+    "release_date": "9 October 2000"
+  },
+  {
+    "album": "Pet Sounds",
+    "artist": "The Beach Boys",
+    "rating": 4.18,
+    "release_date": "16 May 1966"
+  },
+  {
+    "album": "Enter the Wu-Tang (36 Chambers)",
+    "artist": "Wu-Tang Clan",
+    "rating": 4.21,
+    "release_date": "9 November 1993"
+  },
+  {
+    "album": "Red",
+    "artist": "King Crimson",
+    "rating": 4.23,
+    "release_date": "6 October 1974"
+  },
+  {
+    "album": "Disintegration",
+    "artist": "The Cure",
+    "rating": 4.20,
+    "release_date": "2 May 1989"
+  },
+  {
+    "album": "In the Aeroplane Over the Sea",
+    "artist": "Neutral Milk Hotel",
+    "rating": 4.10,
+    "release_date": "10 February 1998"
+  },
+  {
+    "album": "Spiderland",
+    "artist": "Slint",
+    "rating": 4.16,
+    "release_date": "27 March 1991"
+  },
+  {
+    "album": "Pink Moon",
+    "artist": "Nick Drake",
+    "rating": 4.19,
+    "release_date": "25 February 1972"
+  },
+  {
+    "album": "My Beautiful Dark Twisted Fantasy",
+    "artist": "Kanye West",
+    "rating": 4.09,
+    "release_date": "22 November 2010"
+  },
+  {
+    "album": "Sgt. Pepper's Lonely Hearts Club Band",
+    "artist": "The Beatles",
+    "rating": 4.13,
+    "release_date": "26 May 1967"
+  },
+  {
+    "album": "Animals",
+    "artist": "Pink Floyd",
+    "rating": 4.15,
+    "release_date": "21 January 1977"
+  },
+  {
+    "album": "Vespertine",
+    "artist": "Björk",
+    "rating": 4.19,
+    "release_date": "27 August 2001"
+  },
+  {
+    "album": "The Beatles [White Album]",
+    "artist": "The Beatles",
+    "rating": 4.14,
+    "release_date": "22 November 1968"
+  },
+  {
+    "album": "Unknown Pleasures",
+    "artist": "Joy Division",
+    "rating": 4.11,
+    "release_date": "15 June 1979"
+  },
+  {
+    "album": "The Queen Is Dead",
+    "artist": "The Smiths",
+    "rating": 4.13,
+    "release_date": "16 June 1986"
+  },
+  {
+    "album": "Long Season",
+    "artist": "Fishmans",
+    "rating": 4.19,
+    "release_date": "25 October 1996"
+  },
+  {
+    "album": "In a Silent Way",
+    "artist": "Miles Davis",
+    "rating": 4.22,
+    "release_date": "30 July 1969"
+  },
+  {
+    "album": "Highway 61 Revisited",
+    "artist": "Bob Dylan",
+    "rating": 4.18,
+    "release_date": "30 August 1965"
+  },
+  {
+    "album": "Dummy",
+    "artist": "Portishead",
+    "rating": 4.14,
+    "release_date": "22 August 1994"
+  },
+  {
+    "album": "Hounds of Love",
+    "artist": "Kate Bush",
+    "rating": 4.17,
+    "release_date": "16 September 1985"
+  },
+  {
+    "album": "Doolittle",
+    "artist": "Pixies",
+    "rating": 4.12,
+    "release_date": "17 April 1989"
+  },
+  {
+    "album": "Songs in the Key of Life",
+    "artist": "Stevie Wonder",
+    "rating": 4.22,
+    "release_date": "28 September 1976"
+  },
+  {
+    "album": "Low",
+    "artist": "David Bowie",
+    "rating": 4.13,
+    "release_date": "14 January 1977"
+  },
+  {
+    "album": "98.12.28 男達の別れ (98.12.28 Otokotachi no Wakare)",
+    "artist": "Fishmans",
+    "rating": 4.38,
+    "release_date": "29 September 1999 Live"
+  },
+  {
+    "album": "F♯A♯∞",
+    "artist": "Godspeed You Black Emperor!",
+    "rating": 4.14,
+    "release_date": "14 August 1997"
+  },
+  {
+    "album": "Led Zeppelin [IV]",
+    "artist": "Led Zeppelin",
+    "rating": 4.11,
+    "release_date": "8 November 1971"
+  },
+  {
+    "album": "The Glow Pt. 2",
+    "artist": "The Microphones",
+    "rating": 4.14,
+    "release_date": "11 September 2001"
+  },
+  {
+    "album": "Bitches Brew",
+    "artist": "Miles Davis",
+    "rating": 4.17,
+    "release_date": "30 March 1970"
+  },
+  {
+    "album": "Souvlaki",
+    "artist": "Slowdive",
+    "rating": 4.11,
+    "release_date": "1 June 1993"
+  },
+  {
+    "album": "Blonde on Blonde",
+    "artist": "Bob Dylan",
+    "rating": 4.16,
+    "release_date": "20 June 1966"
+  },
+  {
+    "album": "Endtroducing.....",
+    "artist": "DJ Shadow",
+    "rating": 4.13,
+    "release_date": "19 November 1996"
+  },
+  {
+    "album": "Marquee Moon",
+    "artist": "Television",
+    "rating": 4.14,
+    "release_date": "8 February 1977"
+  },
+  {
+    "album": "Close to the Edge",
+    "artist": "Yes",
+    "rating": 4.15,
+    "release_date": "13 September 1972"
+  },
+  {
+    "album": "The Low End Theory",
+    "artist": "A Tribe Called Quest",
+    "rating": 4.14,
+    "release_date": "24 September 1991"
+  },
+  {
+    "album": "The Money Store",
+    "artist": "Death Grips",
+    "rating": 4.06,
+    "release_date": "24 April 2012"
+  },
+  {
+    "album": "Blood on the Tracks",
+    "artist": "Bob Dylan",
+    "rating": 4.16,
+    "release_date": "20 January 1975"
+  },
+  {
+    "album": "Atrocity Exhibition",
+    "artist": "Danny Brown",
+    "rating": 4.11,
+    "release_date": "30 September 2016"
+  },
+  {
+    "album": "Electric Ladyland",
+    "artist": "The Jimi Hendrix Experience",
+    "rating": 4.16,
+    "release_date": "25 October 1968"
+  },
+  {
+    "album": "Homogenic",
+    "artist": "Björk",
+    "rating": 4.11,
+    "release_date": "22 September 1997"
+  },
+  {
+    "album": "Blonde",
+    "artist": "Frank Ocean",
+    "rating": 4.08,
+    "release_date": "20 August 2016"
+  },
+  {
+    "album": "The Doors",
+    "artist": "The Doors",
+    "rating": 4.10,
+    "release_date": "4 January 1967"
+  },
+  {
+    "album": "The College Dropout",
+    "artist": "Kanye West",
+    "rating": 4.07,
+    "release_date": "10 February 2004"
+  },
+  {
+    "album": "Master of Reality",
+    "artist": "Black Sabbath",
+    "rating": 4.13,
+    "release_date": "21 July 1971"
+  },
+  {
+    "album": "Either / Or",
+    "artist": "Elliott Smith",
+    "rating": 4.13,
+    "release_date": "25 February 1997"
+  },
+  {
+    "album": "Heaven or Las Vegas",
+    "artist": "Cocteau Twins",
+    "rating": 4.12,
+    "release_date": "17 September 1990"
+  },
+  {
+    "album": "Closer",
+    "artist": "Joy Division",
+    "rating": 4.10,
+    "release_date": "18 July 1980"
+  },
+  {
+    "album": "Illinois",
+    "artist": "Sufjan Stevens",
+    "rating": 4.09,
+    "release_date": "5 July 2005"
+  },
+  {
+    "album": "Are You Experienced",
+    "artist": "The Jimi Hendrix Experience",
+    "rating": 4.12,
+    "release_date": "12 May 1967"
+  },
+  {
+    "album": "What's Going On",
+    "artist": "Marvin Gaye",
+    "rating": 4.13,
+    "release_date": "21 May 1971"
+  },
+  {
+    "album": "Soundtracks for the Blind",
+    "artist": "Swans",
+    "rating": 4.13,
+    "release_date": "22 October 1996"
+  },
+  {
+    "album": "★ [Blackstar]",
+    "artist": "David Bowie",
+    "rating": 4.09,
+    "release_date": "8 January 2016"
+  },
+  {
+    "album": "Laughing Stock",
+    "artist": "Talk Talk",
+    "rating": 4.12,
+    "release_date": "19 November 1991"
+  },
+  {
+    "album": "Songs of Leonard Cohen",
+    "artist": "Leonard Cohen",
+    "rating": 4.13,
+    "release_date": "27 December 1967"
+  },
+  {
+    "album": "Station to Station",
+    "artist": "David Bowie",
+    "rating": 4.11,
+    "release_date": "23 January 1976"
+  },
+  {
+    "album": "MM..FOOD",
+    "artist": "MF DOOM",
+    "rating": 4.11,
+    "release_date": "16 November 2004"
+  },
+  {
+    "album": "Ride the Lightning",
+    "artist": "Metallica",
+    "rating": 4.07,
+    "release_date": "30 July 1984"
+  },
+  {
+    "album": "The Velvet Underground",
+    "artist": "The Velvet Underground",
+    "rating": 4.10,
+    "release_date": "March 1969"
+  },
+  {
+    "album": "Selected Ambient Works 85-92",
+    "artist": "Aphex Twin",
+    "rating": 4.06,
+    "release_date": "9 November 1992"
+  },
+  {
+    "album": "Liquid Swords",
+    "artist": "Genius/GZA",
+    "rating": 4.11,
+    "release_date": "7 November 1995"
+  },
+  {
+    "album": "Donuts",
+    "artist": "J Dilla",
+    "rating": 4.10,
+    "release_date": "7 February 2006"
+  },
+  {
+    "album": "Aquemini",
+    "artist": "OutKast",
+    "rating": 4.12,
+    "release_date": "29 September 1998"
+  },
+  {
+    "album": "Karma",
+    "artist": "Pharoah Sanders",
+    "rating": 4.14,
+    "release_date": "May 1969"
+  },
+  {
+    "album": "Daydream Nation",
+    "artist": "Sonic Youth",
+    "rating": 4.05,
+    "release_date": "18 October 1988"
+  },
+  {
+    "album": "Future Days",
+    "artist": "Can",
+    "rating": 4.11,
+    "release_date": "September 1973"
+  },
+  {
+    "album": "Midnight Marauders",
+    "artist": "A Tribe Called Quest",
+    "rating": 4.11,
+    "release_date": "9 November 1993"
+  },
+  {
+    "album": "Rubber Soul",
+    "artist": "The Beatles",
+    "rating": 4.03,
+    "release_date": "3 December 1965"
+  },
+  {
+    "album": "Black Sabbath",
+    "artist": "Black Sabbath",
+    "rating": 4.07,
+    "release_date": "13 February 1970"
+  },
+  {
+    "album": "Bringing It All Back Home",
+    "artist": "Bob Dylan",
+    "rating": 4.11,
+    "release_date": "22 March 1965"
+  },
+  {
+    "album": "Tago Mago",
+    "artist": "Can",
+    "rating": 4.08,
+    "release_date": "August 1971"
+  },
+  {
+    "album": "Ágætis byrjun",
+    "artist": "Sigur Rós",
+    "rating": 4.05,
+    "release_date": "12 June 1999"
+  },
+  {
+    "album": "Innervisions",
+    "artist": "Stevie Wonder",
+    "rating": 4.12,
+    "release_date": "3 August 1973"
+  },
+  {
+    "album": "Carrie & Lowell",
+    "artist": "Sufjan Stevens",
+    "rating": 4.07,
+    "release_date": "31 March 2015"
+  },
+  {
+    "album": "Deathconsciousness",
+    "artist": "Have a Nice Life",
+    "rating": 4.05,
+    "release_date": "24 January 2008"
+  },
+  {
+    "album": "Igor",
+    "artist": "Tyler, the Creator",
+    "rating": 4.00,
+    "release_date": "17 May 2019"
+  },
+  {
+    "album": "After the Gold Rush",
+    "artist": "Neil Young",
+    "rating": 4.09,
+    "release_date": "19 September 1970"
+  },
+  {
+    "album": "Master of Puppets",
+    "artist": "Metallica",
+    "rating": 4.02,
+    "release_date": "3 March 1986"
+  },
+  {
+    "album": "The Complete Peel Sessions 1978-2004",
+    "artist": "The Fall",
+    "rating": 4.33,
+    "release_date": "25 April 2005 Archival"
+  },
+  {
+    "album": "Fun House",
+    "artist": "The Stooges",
+    "rating": 4.08,
+    "release_date": "September 1970"
+  },
+  {
+    "album": "Giant Steps",
+    "artist": "John Coltrane",
+    "rating": 4.11,
+    "release_date": "27 January 1960"
+  },
+  {
+    "album": "Mezzanine",
+    "artist": "Massive Attack",
+    "rating": 4.05,
+    "release_date": "20 April 1998"
+  },
+  {
+    "album": "Symbolic",
+    "artist": "Death",
+    "rating": 4.09,
+    "release_date": "21 March 1995"
+  },
+  {
+    "album": "The Downward Spiral",
+    "artist": "Nine Inch Nails",
+    "rating": 4.05,
+    "release_date": "8 March 1994"
+  },
+  {
+    "album": "Rain Dogs",
+    "artist": "Tom Waits",
+    "rating": 4.07,
+    "release_date": "30 September 1985"
+  },
+  {
+    "album": "Hunky Dory",
+    "artist": "David Bowie",
+    "rating": 4.03,
+    "release_date": "17 December 1971"
+  },
+  {
+    "album": "London Calling",
+    "artist": "The Clash",
+    "rating": 4.02,
+    "release_date": "14 December 1979"
+  },
+  {
+    "album": "Hot Rats",
+    "artist": "Frank Zappa",
+    "rating": 4.07,
+    "release_date": "10 October 1969"
+  },
+  {
+    "album": "Spirit of Eden",
+    "artist": "Talk Talk",
+    "rating": 4.07,
+    "release_date": "16 September 1988"
+  },
+  {
+    "album": "Nevermind",
+    "artist": "Nirvana",
+    "rating": 3.95,
+    "release_date": "24 September 1991"
+  },
+  {
+    "album": "My Favorite Things",
+    "artist": "John Coltrane",
+    "rating": 4.11,
+    "release_date": "March 1961"
+  },
+  {
+    "album": "The Lonesome Crowded West",
+    "artist": "Modest Mouse",
+    "rating": 4.07,
+    "release_date": "18 November 1997"
+  },
+  {
+    "album": "Late Registration",
+    "artist": "Kanye West",
+    "rating": 4.01,
+    "release_date": "30 August 2005"
+  },
+  {
+    "album": "Hatful of Hollow",
+    "artist": "The Smiths",
+    "rating": 4.08,
+    "release_date": "12 November 1984"
+  },
+  {
+    "album": "Funeral",
+    "artist": "Arcade Fire",
+    "rating": 3.98,
+    "release_date": "14 September 2004"
+  },
+  {
+    "album": "Odessey and Oracle",
+    "artist": "The Zombies",
+    "rating": 4.08,
+    "release_date": "19 April 1968"
+  },
+  {
+    "album": "In Utero",
+    "artist": "Nirvana",
+    "rating": 3.99,
+    "release_date": "21 September 1993"
+  },
+  {
+    "album": "On the Beach",
+    "artist": "Neil Young",
+    "rating": 4.10,
+    "release_date": "19 July 1974"
+  },
+  {
+    "album": "Velocity : Design : Comfort",
+    "artist": "Sweet Trip",
+    "rating": 4.06,
+    "release_date": "17 June 2003"
+  },
+  {
+    "album": "White Light / White Heat",
+    "artist": "The Velvet Underground",
+    "rating": 4.03,
+    "release_date": "30 January 1968"
+  },
+  {
+    "album": "Clube da Esquina",
+    "artist": "Milton Nascimento & Lô Borges",
+    "rating": 4.11,
+    "release_date": "March 1972"
+  },
+  {
+    "album": "Discovery",
+    "artist": "Daft Punk",
+    "rating": 4.01,
+    "release_date": "13 March 2001"
+  },
+  {
+    "album": "Mingus Ah Um",
+    "artist": "Charles Mingus",
+    "rating": 4.09,
+    "release_date": "14 September 1959"
+  },
+  {
+    "album": "Ants From Up There",
+    "artist": "Black Country, New Road",
+    "rating": 4.01,
+    "release_date": "4 February 2022"
+  },
+  {
+    "album": "The Infamous",
+    "artist": "Mobb Deep",
+    "rating": 4.08,
+    "release_date": "25 April 1995"
+  },
+  {
+    "album": "Pornography",
+    "artist": "The Cure",
+    "rating": 4.03,
+    "release_date": "3 May 1982"
+  },
+  {
+    "album": "Music for 18 Musicians",
+    "artist": "Steve Reich / Steve Reich and Musicians",
+    "rating": 4.08,
+    "release_date": "April 1978"
+  },
+  {
+    "album": "Since I Left You",
+    "artist": "The Avalanches",
+    "rating": 4.02,
+    "release_date": "27 November 2000"
+  },
+  {
+    "album": "All Things Must Pass",
+    "artist": "George Harrison",
+    "rating": 4.07,
+    "release_date": "30 November 1970"
+  },
+  {
+    "album": "Five Leaves Left",
+    "artist": "Nick Drake",
+    "rating": 4.05,
+    "release_date": "1 September 1969"
+  },
+  {
+    "album": "To Be Kind",
+    "artist": "Swans",
+    "rating": 4.01,
+    "release_date": "13 May 2014"
+  },
+  {
+    "album": "ATLiens",
+    "artist": "OutKast",
+    "rating": 4.06,
+    "release_date": "27 August 1996"
+  },
+  {
+    "album": "Another Green World",
+    "artist": "Eno",
+    "rating": 4.03,
+    "release_date": "14 November 1975"
+  },
+  {
+    "album": "Blue",
+    "artist": "Joni Mitchell",
+    "rating": 4.04,
+    "release_date": "22 June 1971"
+  },
+  {
+    "album": "Rumours",
+    "artist": "Fleetwood Mac",
+    "rating": 4.01,
+    "release_date": "4 February 1977"
+  },
+  {
+    "album": "Grace",
+    "artist": "Jeff Buckley",
+    "rating": 4.01,
+    "release_date": "23 August 1994"
+  },
+  {
+    "album": "Piñata",
+    "artist": "Freddie Gibbs & Madlib",
+    "rating": 4.03,
+    "release_date": "18 March 2014"
+  },
+  {
+    "album": "The Dreaming",
+    "artist": "Kate Bush",
+    "rating": 4.05,
+    "release_date": "1 September 1982"
+  },
+  {
+    "album": "The Smile Sessions",
+    "artist": "The Beach Boys",
+    "rating": 4.23,
+    "release_date": "1 November 2011 Archival"
+  },
+  {
+    "album": "Everybody Knows This Is Nowhere",
+    "artist": "Neil Young with Crazy Horse",
+    "rating": 4.06,
+    "release_date": "14 May 1969"
+  },
+  {
+    "album": "Journey in Satchidananda",
+    "artist": "Alice Coltrane featuring Pharoah Sanders",
+    "rating": 4.08,
+    "release_date": "February 1971"
+  },
+  {
+    "album": "Ready to Die",
+    "artist": "The Notorious B.I.G.",
+    "rating": 4.04,
+    "release_date": "13 September 1994"
+  },
+  {
+    "album": "Violator",
+    "artist": "Depeche Mode",
+    "rating": 4.01,
+    "release_date": "19 March 1990"
+  },
+  {
+    "album": "Songs of Love and Hate",
+    "artist": "Leonard Cohen",
+    "rating": 4.06,
+    "release_date": "17 March 1971"
+  },
+  {
+    "album": "Ege Bamyası",
+    "artist": "Can",
+    "rating": 4.03,
+    "release_date": "October 1972"
+  },
+  {
+    "album": "Is This It",
+    "artist": "The Strokes",
+    "rating": 3.95,
+    "release_date": "20 August 2001"
+  },
+  {
+    "album": "The Bootleg Series Vol. 4: Live 1966 - The 'Royal Albert Hall' Concert",
+    "artist": "Bob Dylan",
+    "rating": 4.25,
+    "release_date": "13 October 1998 Archival Live"
+  },
+  {
+    "album": "Rust in Peace",
+    "artist": "Megadeth",
+    "rating": 4.01,
+    "release_date": "21 September 1990"
+  },
+  {
+    "album": "The Kinks Are the Village Green Preservation Society",
+    "artist": "The Kinks",
+    "rating": 4.05,
+    "release_date": "22 November 1968"
+  },
+  {
+    "album": "Ys",
+    "artist": "Joanna Newsom",
+    "rating": 4.01,
+    "release_date": "14 November 2006"
+  },
+  {
+    "album": "Larks' Tongues in Aspic",
+    "artist": "King Crimson",
+    "rating": 4.03,
+    "release_date": "23 March 1973"
+  },
+  {
+    "album": "Perfect From Now On",
+    "artist": "Built to Spill",
+    "rating": 4.04,
+    "release_date": "28 January 1997"
+  },
+  {
+    "album": "Live at Massey Hall 1971",
+    "artist": "Neil Young",
+    "rating": 4.25,
+    "release_date": "13 March 2007 Archival Live"
+  },
+  {
+    "album": "Swans Are Dead",
+    "artist": "Swans",
+    "rating": 4.24,
+    "release_date": "20 January 1998 Live"
+  },
+  {
+    "album": "Music Has the Right to Children",
+    "artist": "Boards of Canada",
+    "rating": 3.99,
+    "release_date": "20 April 1998"
+  },
+  {
+    "album": "Raw Power",
+    "artist": "Iggy and The Stooges",
+    "rating": 4.03,
+    "release_date": "February 1973"
+  },
+  {
+    "album": "Meddle",
+    "artist": "Pink Floyd",
+    "rating": 3.97,
+    "release_date": "5 November 1971"
+  },
+  {
+    "album": "Fear of Music",
+    "artist": "Talking Heads",
+    "rating": 4.01,
+    "release_date": "3 August 1979"
+  },
+  {
+    "album": "Sticky Fingers",
+    "artist": "The Rolling Stones",
+    "rating": 4.01,
+    "release_date": "23 April 1971"
+  },
+  {
+    "album": "Turn on the Bright Lights",
+    "artist": "Interpol",
+    "rating": 3.96,
+    "release_date": "20 August 2002"
+  },
+  {
+    "album": "Leaves Turn Inside You",
+    "artist": "Unwound",
+    "rating": 4.03,
+    "release_date": "17 April 2001"
+  },
+  {
+    "album": "The Great Deceiver: Live 1973-1974",
+    "artist": "King Crimson",
+    "rating": 4.25,
+    "release_date": "30 October 1992 Archival Live"
+  },
+  {
+    "album": "'Heroes'",
+    "artist": "David Bowie",
+    "rating": 3.99,
+    "release_date": "14 October 1977"
+  },
+  {
+    "album": "Forever Changes",
+    "artist": "Love",
+    "rating": 4.00,
+    "release_date": "November 1967"
+  },
+  {
+    "album": "You Will Never Know Why",
+    "artist": "Sweet Trip",
+    "rating": 4.04,
+    "release_date": "28 September 2009"
+  },
+  {
+    "album": "Stop Making Sense",
+    "artist": "Talking Heads",
+    "rating": 4.21,
+    "release_date": "September 1984 Live Soundtrack"
+  },
+  {
+    "album": "Cosmo's Factory",
+    "artist": "Creedence Clearwater Revival",
+    "rating": 4.04,
+    "release_date": "25 July 1970"
+  },
+  {
+    "album": "Art Blakey and The Jazz Messengers [Moanin']",
+    "artist": "Art Blakey and The Jazz Messengers",
+    "rating": 4.06,
+    "release_date": "January 1959"
+  },
+  {
+    "album": "Untrue",
+    "artist": "Burial",
+    "rating": 3.97,
+    "release_date": "5 November 2007"
+  },
+  {
+    "album": "Siamese Dream",
+    "artist": "Smashing Pumpkins",
+    "rating": 3.97,
+    "release_date": "26 July 1993"
+  },
+  {
+    "album": "Selling England by the Pound",
+    "artist": "Genesis",
+    "rating": 4.01,
+    "release_date": "12 October 1973"
+  },
+  {
+    "album": "Led Zeppelin",
+    "artist": "Led Zeppelin",
+    "rating": 3.95,
+    "release_date": "12 January 1969"
+  },
+  {
+    "album": "The Name of This Band Is Talking Heads",
+    "artist": "Talking Heads",
+    "rating": 4.22,
+    "release_date": "24 March 1982 Live"
+  },
+  {
+    "album": "Sign '☮' the Times",
+    "artist": "Prince",
+    "rating": 4.03,
+    "release_date": "30 March 1987"
+  },
+  {
+    "album": "Acabou chorare",
+    "artist": "Novos Baianos",
+    "rating": 4.06,
+    "release_date": "November 1972"
+  },
+  {
+    "album": "First Utterance",
+    "artist": "Comus",
+    "rating": 4.02,
+    "release_date": "19 February 1971"
+  },
+  {
+    "album": "The Stone Roses",
+    "artist": "The Stone Roses",
+    "rating": 3.99,
+    "release_date": "13 March 1989"
+  },
+  {
+    "album": "We got it from Here… Thank You 4 Your service",
+    "artist": "A Tribe Called Quest",
+    "rating": 4.01,
+    "release_date": "11 November 2016"
+  },
+  {
+    "album": "Expensive Shit",
+    "artist": "Fela Ransome Kuti & Africa 70",
+    "rating": 4.05,
+    "release_date": "1975"
+  },
+  {
+    "album": "Symphony No. 9",
+    "artist": "Berlin Philharmonic / Herbert von Karajan",
+    "rating": 4.08,
+    "release_date": "1963"
+  },
+  {
+    "album": "Blue Train",
+    "artist": "John Coltrane",
+    "rating": 4.02,
+    "release_date": "January 1958"
+  },
+  {
+    "album": "Rage Against the Machine",
+    "artist": "Rage Against the Machine",
+    "rating": 3.96,
+    "release_date": "10 November 1992"
+  },
+  {
+    "album": "Painkiller",
+    "artist": "Judas Priest",
+    "rating": 4.01,
+    "release_date": "3 September 1990"
+  },
+  {
+    "album": "Powerslave",
+    "artist": "Iron Maiden",
+    "rating": 4.00,
+    "release_date": "3 September 1984"
+  },
+  {
+    "album": "Harvest",
+    "artist": "Neil Young",
+    "rating": 4.00,
+    "release_date": "25 February 1972"
+  },
+  {
+    "album": "A Moon Shaped Pool",
+    "artist": "Radiohead",
+    "rating": 3.92,
+    "release_date": "8 May 2016"
+  },
+  {
+    "album": "Geogaddi",
+    "artist": "Boards of Canada",
+    "rating": 3.99,
+    "release_date": "18 February 2002"
+  },
+  {
+    "album": "Curtis",
+    "artist": "Curtis Mayfield",
+    "rating": 4.04,
+    "release_date": "September 1970"
+  },
+  {
+    "album": "Get Up With It",
+    "artist": "Miles Davis",
+    "rating": 4.05,
+    "release_date": "22 November 1974"
+  },
+  {
+    "album": "Flower Boy",
+    "artist": "Tyler, the Creator",
+    "rating": 3.92,
+    "release_date": "21 July 2017"
+  },
+  {
+    "album": "Post",
+    "artist": "Björk",
+    "rating": 3.95,
+    "release_date": "15 June 1995"
+  },
+  {
+    "album": "Thick as a Brick",
+    "artist": "Jethro Tull",
+    "rating": 4.01,
+    "release_date": "3 March 1972"
+  },
+  {
+    "album": "Lateralus",
+    "artist": "Tool",
+    "rating": 3.95,
+    "release_date": "15 May 2001"
+  },
+  {
+    "album": "Reign in Blood",
+    "artist": "Slayer",
+    "rating": 3.96,
+    "release_date": "7 October 1986"
+  },
+  {
+    "album": "The Jimi Hendrix Experience",
+    "artist": "The Jimi Hendrix Experience",
+    "rating": 4.23,
+    "release_date": "12 September 2000 Archival"
+  },
+  {
+    "album": "If You're Feeling Sinister",
+    "artist": "Belle and Sebastian",
+    "rating": 3.98,
+    "release_date": "18 November 1996"
+  },
+  {
+    "album": "Blues & Roots",
+    "artist": "Charlie Mingus",
+    "rating": 4.04,
+    "release_date": "March 1960"
+  },
+  {
+    "album": "Mount Eerie",
+    "artist": "The Microphones",
+    "rating": 4.01,
+    "release_date": "21 January 2003"
+  },
+  {
+    "album": "Crooked Rain, Crooked Rain",
+    "artist": "Pavement",
+    "rating": 3.97,
+    "release_date": "14 February 1994"
+  },
+  {
+    "album": "MTV Unplugged in New York",
+    "artist": "Nirvana",
+    "rating": 4.13,
+    "release_date": "1 November 1994 Live"
+  },
+  {
+    "album": "Dopethrone",
+    "artist": "Electric Wizard",
+    "rating": 3.99,
+    "release_date": "25 September 2000"
+  },
+  {
+    "album": "Songs for the Deaf",
+    "artist": "Queens of the Stone Age",
+    "rating": 3.95,
+    "release_date": "27 August 2002"
+  },
+  {
+    "album": "Led Zeppelin II",
+    "artist": "Led Zeppelin",
+    "rating": 3.94,
+    "release_date": "22 October 1969"
+  },
+  {
+    "album": "Stratosphere",
+    "artist": "Duster",
+    "rating": 3.99,
+    "release_date": "24 February 1998"
+  },
+  {
+    "album": "A Tábua de Esmeralda",
+    "artist": "Jorge Ben",
+    "rating": 4.04,
+    "release_date": "1974"
+  },
+  {
+    "album": "The Pet Sounds Sessions",
+    "artist": "The Beach Boys",
+    "rating": 4.22,
+    "release_date": "4 November 1997 Archival"
+  },
+  {
+    "album": "Discipline",
+    "artist": "King Crimson",
+    "rating": 3.99,
+    "release_date": "22 September 1981"
+  },
+  {
+    "album": "The Magnolia Electric Co.",
+    "artist": "Magnolia Electric Co.",
+    "rating": 4.02,
+    "release_date": "4 March 2003"
+  },
+  {
+    "album": "Townes Van Zandt",
+    "artist": "Townes Van Zandt",
+    "rating": 4.03,
+    "release_date": "September 1969"
+  },
+  {
+    "album": "The Complete Matrix Tapes",
+    "artist": "The Velvet Underground",
+    "rating": 4.23,
+    "release_date": "20 November 2015 Archival Live"
+  },
+  {
+    "album": "Twin Fantasy",
+    "artist": "Car Seat Headrest",
+    "rating": 3.94,
+    "release_date": "16 February 2018"
+  },
+  {
+    "album": "Black on Both Sides",
+    "artist": "Mos Def",
+    "rating": 4.01,
+    "release_date": "12 October 1999"
+  },
+  {
+    "album": "The Bends",
+    "artist": "Radiohead",
+    "rating": 3.85,
+    "release_date": "13 March 1995"
+  },
+  {
+    "album": "Sabbath Bloody Sabbath",
+    "artist": "Black Sabbath",
+    "rating": 3.98,
+    "release_date": "28 December 1973"
+  },
+  {
+    "album": "Exile on Main St.",
+    "artist": "The Rolling Stones",
+    "rating": 3.98,
+    "release_date": "26 May 1972"
+  },
+  {
+    "album": "Surfer Rosa",
+    "artist": "Pixies",
+    "rating": 3.94,
+    "release_date": "21 March 1988"
+  },
+  {
+    "album": "Zombie",
+    "artist": "Fela Anikulapo Kuti and Afrika 70",
+    "rating": 4.03,
+    "release_date": "1977"
+  },
+  {
+    "album": "The Olatunji Concert: The Last Live Recording",
+    "artist": "John Coltrane",
+    "rating": 4.19,
+    "release_date": "25 September 2001 Archival Live"
+  },
+  {
+    "album": "Hammersmith Odeon, London '75",
+    "artist": "Bruce Springsteen & the E Street Band",
+    "rating": 4.20,
+    "release_date": "28 February 2006 Archival Live"
+  },
+  {
+    "album": "Thriller",
+    "artist": "Michael Jackson",
+    "rating": 3.96,
+    "release_date": "30 November 1982"
+  },
+  {
+    "album": "Fresh Fruit for Rotting Vegetables",
+    "artist": "Dead Kennedys",
+    "rating": 3.97,
+    "release_date": "2 September 1980"
+  },
+  {
+    "album": "Treasure",
+    "artist": "Cocteau Twins",
+    "rating": 3.97,
+    "release_date": "1 November 1984"
+  },
+  {
+    "album": "Jane Doe",
+    "artist": "Converge",
+    "rating": 3.96,
+    "release_date": "4 September 2001"
+  },
+  {
+    "album": "Let It Bleed",
+    "artist": "The Rolling Stones",
+    "rating": 3.97,
+    "release_date": "29 November 1969"
+  },
+  {
+    "album": "Fôrça bruta",
+    "artist": "Jorge Ben",
+    "rating": 4.04,
+    "release_date": "1970"
+  },
+  {
+    "album": "Dirt",
+    "artist": "Alice in Chains",
+    "rating": 3.95,
+    "release_date": "29 September 1992"
+  },
+  {
+    "album": "Magical Mystery Tour",
+    "artist": "The Beatles",
+    "rating": 4.06,
+    "release_date": "27 November 1967 Soundtrack"
+  },
+  {
+    "album": "Die Mensch-Maschine",
+    "artist": "Kraftwerk",
+    "rating": 3.97,
+    "release_date": "19 May 1978"
+  },
+  {
+    "album": "Astral Weeks",
+    "artist": "Van Morrison",
+    "rating": 3.97,
+    "release_date": "29 November 1968"
+  },
+  {
+    "album": "Boris at Last -Feedbacker-",
+    "artist": "Boris",
+    "rating": 3.98,
+    "release_date": "25 December 2003"
+  },
+  {
+    "album": "Arthur or the Decline and Fall of the British Empire",
+    "artist": "The Kinks",
+    "rating": 4.02,
+    "release_date": "10 October 1969"
+  },
+  {
+    "album": "Prince and the Revolution: Live",
+    "artist": "Prince and The Revolution",
+    "rating": 4.24,
+    "release_date": "15 May 2020 Archival Live"
+  },
+  {
+    "album": "The Freewheelin' Bob Dylan",
+    "artist": "Bob Dylan",
+    "rating": 3.97,
+    "release_date": "27 May 1963"
+  },
+  {
+    "album": "Yankee Hotel Foxtrot",
+    "artist": "Wilco",
+    "rating": 3.93,
+    "release_date": "23 April 2002"
+  },
+  {
+    "album": "Head Hunters",
+    "artist": "Herbie Hancock",
+    "rating": 3.98,
+    "release_date": "13 October 1973"
+  },
+  {
+    "album": "Human",
+    "artist": "Death",
+    "rating": 3.99,
+    "release_date": "22 October 1991"
+  },
+  {
+    "album": "宇宙 日本 世田谷 (Uchu Nippon Setagaya)",
+    "artist": "Fishmans",
+    "rating": 4.00,
+    "release_date": "24 July 1997"
+  },
+  {
+    "album": "The Seer",
+    "artist": "Swans",
+    "rating": 3.95,
+    "release_date": "28 August 2012"
+  },
+  {
+    "album": "Axis: Bold as Love",
+    "artist": "The Jimi Hendrix Experience",
+    "rating": 3.97,
+    "release_date": "1 December 1967"
+  },
+  {
+    "album": "Swordfishtrombones",
+    "artist": "Tom Waits",
+    "rating": 3.98,
+    "release_date": "September 1983"
+  },
+  {
+    "album": "Rust Never Sleeps",
+    "artist": "Neil Young & Crazy Horse",
+    "rating": 4.16,
+    "release_date": "9 July 1979 Live"
+  },
+  {
+    "album": "Physical Graffiti",
+    "artist": "Led Zeppelin",
+    "rating": 3.95,
+    "release_date": "24 February 1975"
+  },
+  {
+    "album": "Alive 2007",
+    "artist": "Daft Punk",
+    "rating": 4.16,
+    "release_date": "19 November 2007 Live"
+  },
+  {
+    "album": "Weezer [Blue Album]",
+    "artist": "Weezer",
+    "rating": 3.88,
+    "release_date": "10 May 1994"
+  },
+  {
+    "album": "Who's Next",
+    "artist": "The Who",
+    "rating": 3.95,
+    "release_date": "25 August 1971"
+  },
+  {
+    "album": "Let My Children Hear Music",
+    "artist": "Charles Mingus",
+    "rating": 4.02,
+    "release_date": "February 1972"
+  },
+  {
+    "album": "The Moon & Antarctica",
+    "artist": "Modest Mouse",
+    "rating": 3.96,
+    "release_date": "13 June 2000"
+  },
+  {
+    "album": "Entertainment!",
+    "artist": "Gang of Four",
+    "rating": 3.96,
+    "release_date": "25 September 1979"
+  },
+  {
+    "album": "Maggot Brain",
+    "artist": "Funkadelic",
+    "rating": 3.97,
+    "release_date": "12 July 1971"
+  },
+  {
+    "album": "Flood",
+    "artist": "Boris",
+    "rating": 3.98,
+    "release_date": "15 December 2000"
+  },
+  {
+    "album": "Construção",
+    "artist": "Chico Buarque",
+    "rating": 4.02,
+    "release_date": "1971"
+  },
+  {
+    "album": "Blackwater Park",
+    "artist": "Opeth",
+    "rating": 3.95,
+    "release_date": "12 March 2001"
+  },
+  {
+    "album": "Trans Europa Express",
+    "artist": "Kraftwerk",
+    "rating": 3.97,
+    "release_date": "March 1977"
+  },
+  {
+    "album": "Jenny Death: The Powers That B Disc 2",
+    "artist": "Death Grips",
+    "rating": 3.97,
+    "release_date": "19 March 2015"
+  },
+  {
+    "album": "The Nocturnes",
+    "artist": "Frédéric Chopin / Artur Rubinstein",
+    "rating": 4.04,
+    "release_date": "October 1967"
+  },
+  {
+    "album": "Seventh Son of a Seventh Son",
+    "artist": "Iron Maiden",
+    "rating": 3.97,
+    "release_date": "11 April 1988"
+  },
+  {
+    "album": "Absent Lovers: Live in Montreal 1984",
+    "artist": "King Crimson",
+    "rating": 4.19,
+    "release_date": "23 June 1998 Archival Live"
+  },
+  {
+    "album": "KIDS SEE GHOSTS",
+    "artist": "KIDS SEE GHOSTS",
+    "rating": 3.88,
+    "release_date": "8 June 2018"
+  },
+  {
+    "album": "Titanic Rising",
+    "artist": "Weyes Blood",
+    "rating": 3.93,
+    "release_date": "5 April 2019"
+  },
+  {
+    "album": "Aja",
+    "artist": "Steely Dan",
+    "rating": 3.97,
+    "release_date": "23 September 1977"
+  },
+  {
+    "album": "Voodoo",
+    "artist": "D'Angelo",
+    "rating": 3.99,
+    "release_date": "25 January 2000"
+  },
+  {
+    "album": "XO",
+    "artist": "Elliott Smith",
+    "rating": 3.98,
+    "release_date": "25 August 1998"
+  },
+  {
+    "album": "Bryter Layter",
+    "artist": "Nick Drake",
+    "rating": 3.96,
+    "release_date": "5 March 1971"
+  },
+  {
+    "album": "Born to Run",
+    "artist": "Bruce Springsteen",
+    "rating": 3.96,
+    "release_date": "25 August 1975"
+  },
+  {
+    "album": "How the West Was Won",
+    "artist": "Led Zeppelin",
+    "rating": 4.17,
+    "release_date": "27 May 2003 Archival Live"
+  },
+  {
+    "album": "Vaudeville Villain",
+    "artist": "Viktor Vaughn",
+    "rating": 3.98,
+    "release_date": "16 September 2003"
+  },
+  {
+    "album": "Bone Machine",
+    "artist": "Tom Waits",
+    "rating": 3.98,
+    "release_date": "8 September 1992"
+  },
+  {
+    "album": "At Folsom Prison",
+    "artist": "Johnny Cash",
+    "rating": 4.13,
+    "release_date": "May 1968 Live"
+  },
+  {
+    "album": "Sunshine Daydream: Veneta, Oregon, August 27, 1972",
+    "artist": "Grateful Dead",
+    "rating": 4.19,
+    "release_date": "17 September 2013 Archival Live"
+  },
+  {
+    "album": "Purple Rain",
+    "artist": "Prince and The Revolution",
+    "rating": 4.08,
+    "release_date": "25 June 1984 Soundtrack"
+  },
+  {
+    "album": "The Shape of Jazz to Come",
+    "artist": "Ornette Coleman",
+    "rating": 3.98,
+    "release_date": "November 1959"
+  },
+  {
+    "album": "White Pony",
+    "artist": "Deftones",
+    "rating": 3.93,
+    "release_date": "20 June 2000"
+  },
+  {
+    "album": "Sometimes I Might Be Introvert",
+    "artist": "Little Simz",
+    "rating": 3.95,
+    "release_date": "3 September 2021"
+  },
+  {
+    "album": "Live at The Old Quarter, Houston, Texas",
+    "artist": "Townes Van Zandt",
+    "rating": 4.17,
+    "release_date": "1977 Live"
+  },
+  {
+    "album": "Foxtrot",
+    "artist": "Genesis",
+    "rating": 3.97,
+    "release_date": "6 October 1972"
+  },
+  {
+    "album": "Fragile",
+    "artist": "Yes",
+    "rating": 3.94,
+    "release_date": "26 November 1971"
+  },
+  {
+    "album": "The Bootleg Series Volumes 1-3: (Rare & Unreleased) 1961-1991",
+    "artist": "Bob Dylan",
+    "rating": 4.17,
+    "release_date": "26 March 1991 Archival"
+  },
+  {
+    "album": "Ænima",
+    "artist": "Tool",
+    "rating": 3.92,
+    "release_date": "1 October 1996"
+  },
+  {
+    "album": "Bridge Over Troubled Water",
+    "artist": "Simon and Garfunkel",
+    "rating": 3.97,
+    "release_date": "26 January 1970"
+  },
+  {
+    "album": "Ascension [Edition I]",
+    "artist": "John Coltrane",
+    "rating": 3.98,
+    "release_date": "February 1966"
+  },
+  {
+    "album": "Pastel Blues",
+    "artist": "Nina Simone",
+    "rating": 4.00,
+    "release_date": "October 1965"
+  },
+  {
+    "album": "Have One on Me",
+    "artist": "Joanna Newsom",
+    "rating": 3.97,
+    "release_date": "23 February 2010"
+  },
+  {
+    "album": "Deceit",
+    "artist": "This Heat",
+    "rating": 3.95,
+    "release_date": "September 1981"
+  },
+  {
+    "album": "Moment of Truth",
+    "artist": "Gang Starr",
+    "rating": 4.00,
+    "release_date": "31 March 1998"
+  },
+  {
+    "album": "Twin Peaks",
+    "artist": "Angelo Badalamenti",
+    "rating": 4.12,
+    "release_date": "11 September 1990 Soundtrack"
+  },
+  {
+    "album": "Getz / Gilberto",
+    "artist": "Stan Getz & João Gilberto",
+    "rating": 3.98,
+    "release_date": "April 1964"
+  },
+  {
+    "album": "The Hot Rats Sessions",
+    "artist": "Frank Zappa",
+    "rating": 4.21,
+    "release_date": "20 December 2019 Archival"
+  },
+  {
+    "album": "Sound of Silver",
+    "artist": "LCD Soundsystem",
+    "rating": 3.92,
+    "release_date": "12 March 2007"
+  },
+  {
+    "album": "Relationship of Command",
+    "artist": "At the Drive-In",
+    "rating": 3.94,
+    "release_date": "12 September 2000"
+  },
+  {
+    "album": "Quebec",
+    "artist": "Ween",
+    "rating": 3.98,
+    "release_date": "5 August 2003"
+  },
+  {
+    "album": "Out to Lunch",
+    "artist": "Eric Dolphy",
+    "rating": 3.97,
+    "release_date": "August 1964"
+  },
+  {
+    "album": "Ram",
+    "artist": "Paul & Linda McCartney",
+    "rating": 3.98,
+    "release_date": "17 May 1971"
+  },
+  {
+    "album": "Otis Blue: Otis Redding Sings Soul",
+    "artist": "Otis Redding",
+    "rating": 3.99,
+    "release_date": "15 September 1965"
+  },
+  {
+    "album": "El jardín de los presentes",
+    "artist": "Invisible",
+    "rating": 4.01,
+    "release_date": "29 September 1976"
+  },
+  {
+    "album": "Symphonie Nr.5",
+    "artist": "Ludwig van Beethoven / Wiener Philharmoniker / Carlos Kleiber",
+    "rating": 4.02,
+    "release_date": "1975"
+  },
+  {
+    "album": "Third",
+    "artist": "Portishead",
+    "rating": 3.93,
+    "release_date": "28 April 2008"
+  },
+  {
+    "album": "Pink Flag",
+    "artist": "Wire",
+    "rating": 3.93,
+    "release_date": "December 1977"
+  },
+  {
+    "album": "Strange Days",
+    "artist": "The Doors",
+    "rating": 3.94,
+    "release_date": "25 September 1967"
+  },
+  {
+    "album": "Hellfire",
+    "artist": "black midi",
+    "rating": 3.94,
+    "release_date": "15 July 2022"
+  },
+  {
+    "album": "Let Love In",
+    "artist": "Nick Cave and The Bad Seeds",
+    "rating": 3.96,
+    "release_date": "19 April 1994"
+  },
+  {
+    "album": "When the Pawn",
+    "artist": "Fiona Apple",
+    "rating": 3.97,
+    "release_date": "9 November 1999"
+  },
+  {
+    "album": "The Number of the Beast",
+    "artist": "Iron Maiden",
+    "rating": 3.93,
+    "release_date": "22 March 1982"
+  },
+  {
+    "album": "Kyuss [Welcome to Sky Valley]",
+    "artist": "Kyuss",
+    "rating": 3.95,
+    "release_date": "21 June 1994"
+  },
+  {
+    "album": "加爾基 精液 栗ノ花 (Kalk samen kuri no hana)",
+    "artist": "Sheena Ringo 椎名林檎",
+    "rating": 3.98,
+    "release_date": "23 February 2003"
+  },
+  {
+    "album": "Blade Runner",
+    "artist": "Vangelis",
+    "rating": 4.14,
+    "release_date": "21 June 1994 Archival Soundtrack"
+  },
+  {
+    "album": "Silent Hill 2",
+    "artist": "Akira Yamaoka 山岡晃",
+    "rating": 4.13,
+    "release_date": "3 October 2001 Soundtrack"
+  },
+  {
+    "album": "Paul's Boutique",
+    "artist": "Beastie Boys",
+    "rating": 3.94,
+    "release_date": "25 July 1989"
+  },
+  {
+    "album": "Olé Coltrane",
+    "artist": "John Coltrane",
+    "rating": 3.99,
+    "release_date": "November 1961"
+  },
+  {
+    "album": "LP!",
+    "artist": "JPEGMAFIA",
+    "rating": 3.94,
+    "release_date": "22 October 2021"
+  },
+  {
+    "album": "The Lamb Lies Down on Broadway",
+    "artist": "Genesis",
+    "rating": 3.97,
+    "release_date": "18 November 1974"
+  },
+  {
+    "album": "Here Come the Warm Jets",
+    "artist": "Eno",
+    "rating": 3.95,
+    "release_date": "February 1974"
+  },
+  {
+    "album": "Mirage",
+    "artist": "Camel",
+    "rating": 3.97,
+    "release_date": "1 March 1974"
+  },
+  {
+    "album": "Tonight's the Night",
+    "artist": "Neil Young",
+    "rating": 3.97,
+    "release_date": "20 June 1975"
+  },
+  {
+    "album": "Africa / Brass",
+    "artist": "The John Coltrane Quartet",
+    "rating": 4.00,
+    "release_date": "1 September 1961"
+  },
+  {
+    "album": "Roseland NYC Live",
+    "artist": "Portishead",
+    "rating": 4.14,
+    "release_date": "2 November 1998 Live"
+  },
+  {
+    "album": "Le sacre du printemps",
+    "artist": "Igor Stravinsky / New York Philharmonic / Leonard Bernstein",
+    "rating": 4.00,
+    "release_date": "1958"
+  },
+  {
+    "album": "Still Life",
+    "artist": "Opeth",
+    "rating": 3.95,
+    "release_date": "18 October 1999"
+  },
+  {
+    "album": "Keep an Eye on the Sky",
+    "artist": "Big Star",
+    "rating": 4.17,
+    "release_date": "15 September 2009 Archival"
+  },
+  {
+    "album": "Live After Death",
+    "artist": "Iron Maiden",
+    "rating": 4.13,
+    "release_date": "14 October 1985 Live"
+  },
+  {
+    "album": "Lanquidity",
+    "artist": "Sun Ra",
+    "rating": 3.98,
+    "release_date": "1978"
+  },
+  {
+    "album": "The Bootleg Series Vol. 5: Live 1975 - The Rolling",
+    "artist": "Bob dDylan",
+    "rating": 4.16,
+    "release_date": "26. November 2002"
+  },
+  {
+    "album": "Staatsorchester Stuttgart / Lithuanian Chamber Orchestra / The 12 Cellists of the Berlin Philharmonic Orchestra / Dennis Russell Davies / Saulius Sondeckis / Gidon Kremer / Keith Jarrett / Tatjana Grindenko / Alfred Schnittke",
+    "artist": "3.98",
+    "rating": 6.025,
+    "release_date": "MinimalismModern Classical"
+  },
+  {
+    "album": "Dots and Loops",
+    "artist": "Stereolab",
+    "rating": 3.96,
+    "release_date": "23 September 1997"
+  },
+  {
+    "album": "Live Rust",
+    "artist": "Neil Young & Crazy Horse",
+    "rating": 4.15,
+    "release_date": "14 November 1979 Live"
+  },
+  {
+    "album": "The Mollusk",
+    "artist": "Ween",
+    "rating": 3.94,
+    "release_date": "24 June 1997"
+  },
+  {
+    "album": "Moondance",
+    "artist": "Van Morrison",
+    "rating": 3.96,
+    "release_date": "28 February 1970"
+  },
+  {
+    "album": "Black Sabbath Vol. 4",
+    "artist": "Black Sabbath",
+    "rating": 3.93,
+    "release_date": "25 September 1972"
+  },
+  {
+    "album": "Transformer",
+    "artist": "Lou Reed",
+    "rating": 3.92,
+    "release_date": "8 November 1972"
+  },
+  {
+    "album": "( )",
+    "artist": "Sigur Rós",
+    "rating": 3.93,
+    "release_date": "28 October 2002"
+  },
+  {
+    "album": "Yeezus",
+    "artist": "Kanye West",
+    "rating": 3.81,
+    "release_date": "18 June 2013"
+  },
+  {
+    "album": "Some Rap Songs",
+    "artist": "Earl Sweatshirt",
+    "rating": 3.88,
+    "release_date": "30 November 2018"
+  },
+  {
+    "album": "Beggars Banquet",
+    "artist": "The Rolling Stones",
+    "rating": 3.94,
+    "release_date": "6 December 1968"
+  },
+  {
+    "album": "Elliott Smith",
+    "artist": "Elliott Smith",
+    "rating": 3.95,
+    "release_date": "21 July 1995"
+  },
+  {
+    "album": "Love Deluxe",
+    "artist": "Sade",
+    "rating": 3.98,
+    "release_date": "11 November 1992"
+  },
+  {
+    "album": "Dark Magus",
+    "artist": "Miles Davis",
+    "rating": 4.14,
+    "release_date": "1977 Live"
+  },
+  {
+    "album": "Filosofem",
+    "artist": "Burzum",
+    "rating": 3.90,
+    "release_date": "31 January 1996"
+  },
+  {
+    "album": "Moving Pictures",
+    "artist": "Rush",
+    "rating": 3.92,
+    "release_date": "9 February 1981"
+  },
+  {
+    "album": "0",
+    "artist": "Ichiko Aoba 青葉市子",
+    "rating": 3.97,
+    "release_date": "23 October 2013"
+  },
+  {
+    "album": "Live at Leeds",
+    "artist": "The Who",
+    "rating": 4.12,
+    "release_date": "3 May 1970 Live"
+  },
+  {
+    "album": "The Long Goodbye: LCD Soundsystem Live at Madison Square Garden",
+    "artist": "LCD Soundsystem",
+    "rating": 4.14,
+    "release_date": "19 April 2014 Live"
+  },
+  {
+    "album": "Houses of the Holy",
+    "artist": "Led Zeppelin",
+    "rating": 3.91,
+    "release_date": "28 March 1973"
+  },
+  {
+    "album": "Dick's Picks Volume Twelve: Providence Civic, June 26, 1974 - Boston Garden, June 28, 1974",
+    "artist": "Grateful Dead",
+    "rating": 4.18,
+    "release_date": "October 1998 Archival Live"
+  },
+  {
+    "album": "A Crow Looked at Me",
+    "artist": "Mount Eerie",
+    "rating": 3.91,
+    "release_date": "24 March 2017"
+  },
+  {
+    "album": "Made in Japan",
+    "artist": "Deep Purple",
+    "rating": 4.12,
+    "release_date": "8 December 1972 Live"
+  },
+  {
+    "album": "Music for 18 Musicians",
+    "artist": "Steve Reich / Steve Reich and Musicians",
+    "rating": 3.99,
+    "release_date": "31 March 1998"
+  },
+  {
+    "album": "It Takes a Nation of Millions to Hold Us Back",
+    "artist": "Public Enemy",
+    "rating": 3.93,
+    "release_date": "14 April 1988"
+  },
+  {
+    "album": "Live at the Harlem Square Club, 1963",
+    "artist": "Sam Cooke",
+    "rating": 4.14,
+    "release_date": "29 April 1985 Archival Live"
+  },
+  {
+    "album": "Stress: The Extinction Agenda",
+    "artist": "Organized Konfusion",
+    "rating": 3.98,
+    "release_date": "16 August 1994"
+  },
+  {
+    "album": "Hot Buttered Soul",
+    "artist": "Isaac Hayes",
+    "rating": 3.97,
+    "release_date": "May 1969"
+  },
+  {
+    "album": "The Cellar Door Sessions 1970",
+    "artist": "Miles Davis",
+    "rating": 4.17,
+    "release_date": "September 2005 Archival Live"
+  },
+  {
+    "album": "The Wall",
+    "artist": "Pink Floyd",
+    "rating": 3.81,
+    "release_date": "30 November 1979"
+  },
+  {
+    "album": "Love Power Peace: Live at the Olympia, Paris, 1971",
+    "artist": "James Brown",
+    "rating": 4.16,
+    "release_date": "23 June 1992 Archival Live"
+  },
+  {
+    "album": "The Ape of Naples",
+    "artist": "Coil",
+    "rating": 3.94,
+    "release_date": "2 December 2005"
+  },
+  {
+    "album": "None So Vile",
+    "artist": "Cryptopsy",
+    "rating": 3.95,
+    "release_date": "3 July 1996"
+  },
+  {
+    "album": "Cornell 5/8/77",
+    "artist": "Grateful Dead",
+    "rating": 4.16,
+    "release_date": "5 May 2017 Archival Live"
+  },
+  {
+    "album": "Time Out",
+    "artist": "The Dave Brubeck Quartet",
+    "rating": 3.95,
+    "release_date": "14 December 1959"
+  },
+  {
+    "album": "Things Fall Apart",
+    "artist": "The Roots",
+    "rating": 3.95,
+    "release_date": "23 February 1999"
+  },
+  {
+    "album": "154",
+    "artist": "Wire",
+    "rating": 3.95,
+    "release_date": "23 September 1979"
+  },
+  {
+    "album": "Artaud",
+    "artist": "Pescado Rabioso",
+    "rating": 3.98,
+    "release_date": "October 1973"
+  },
+  {
+    "album": "Machine Head",
+    "artist": "Deep Purple",
+    "rating": 3.93,
+    "release_date": "25 March 1972"
+  },
+  {
+    "album": "Bottomless Pit",
+    "artist": "Death Grips",
+    "rating": 3.88,
+    "release_date": "6 May 2016"
+  },
+  {
+    "album": "Chairs Missing",
+    "artist": "Wire",
+    "rating": 3.94,
+    "release_date": "8 September 1978"
+  },
+  {
+    "album": "Only Built 4 Cuban Linx...",
+    "artist": "Raekwon",
+    "rating": 3.95,
+    "release_date": "1 August 1995"
+  },
+  {
+    "album": "Highlights From the Plugged Nickel",
+    "artist": "Miles Davis",
+    "rating": 4.17,
+    "release_date": "14 November 1995 Archival Live"
+  },
+  {
+    "album": "You Won't Get What You Want",
+    "artist": "Daughters",
+    "rating": 3.86,
+    "release_date": "26 October 2018"
+  },
+  {
+    "album": "The Miseducation of Lauryn Hill",
+    "artist": "Lauryn Hill",
+    "rating": 3.93,
+    "release_date": "25 August 1998"
+  },
+  {
+    "album": "The Ascension",
+    "artist": "Glenn Branca",
+    "rating": 3.94,
+    "release_date": "November 198"
+  }
+]
