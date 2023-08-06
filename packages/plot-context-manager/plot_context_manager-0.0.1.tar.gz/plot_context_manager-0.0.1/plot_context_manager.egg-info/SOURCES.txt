@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+plot_context_manager/__init__.py
+plot_context_manager/plot.py
+plot_context_manager/plot_manager.py
+plot_context_manager/style_setter.py
+plot_context_manager.egg-info/PKG-INFO
+plot_context_manager.egg-info/SOURCES.txt
+plot_context_manager.egg-info/dependency_links.txt
+plot_context_manager.egg-info/requires.txt
+plot_context_manager.egg-info/top_level.txt
