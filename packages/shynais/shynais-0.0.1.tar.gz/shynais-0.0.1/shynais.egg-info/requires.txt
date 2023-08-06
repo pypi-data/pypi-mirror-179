@@ -1,0 +1,7 @@
+setuptools
+wheel
+ShynaDatabase
+Shynatime
+python-telegram-bot
+ShynaTelegramBotNotification
+wget
