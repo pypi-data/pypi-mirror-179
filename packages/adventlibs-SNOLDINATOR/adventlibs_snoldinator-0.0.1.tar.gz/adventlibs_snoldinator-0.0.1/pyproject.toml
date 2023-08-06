@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "adventlibs_SNOLDINATOR"
+version = "0.0.1"
+authors = [
+  { name="Thor Richard Hansen", email="chaoz@gale-huset.net" },
+  { name="Simon Bruce-Cassidy", email="simon@gale-huset.net" },
+]
+description = "Libraries containing some simple convenience functions for use in solving Advent of Code challenges."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/snoldinator/adventlibs"
+"Bug Tracker" = "https://github.com/snoldinator/adventlibs/issues"
