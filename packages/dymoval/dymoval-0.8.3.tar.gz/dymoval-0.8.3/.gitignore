@@ -1,0 +1,16 @@
+# Global directories
+__pycache__/
+.ipynb_checkpoints/
+
+# Root directories
+/.benchmarks/
+/.env/
+/.mypy_cache/
+/.pytest_cache/
+/.spyproject/
+/backend/dist/
+/dist/
+/site/
+/docs/build/
+
+/.coverage*
