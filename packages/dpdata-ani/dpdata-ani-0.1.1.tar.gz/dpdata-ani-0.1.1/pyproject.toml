@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpdata-ani"
+dynamic = ["version"]
+description = "The dpdata plugin for ANI."
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "dpdata >=0.2.7",
+    "torchani",
+    "torch",
+    "numpy",
+    "h5py",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.urls]
+Homepage = "https://github.com/njzjz/dpdata_ani"
+
+[project.optional-dependencies]
+aiqm1 = [
+    "MLatom",
+    "dftd4",
+]
+test = [
+    "pytest",
+    "pytest-cov",
+]
+
+[project.entry-points."dpdata.plugins"]
+anidriver = "dpdata_ani.anidriver:ANIDriver"
+ani1xload = "dpdata_ani.ani1x:ANI1xFormat"
+comp6load = "dpdata_ani.comp6:COMP6Format"
+odm2driver = "dpdata_ani.odm2:ODM2Driver"
+dftd4 = "dpdata_ani.dftd4:DFTD4Driver"
+aiqm1nn = "dpdata_ani.aiqm1:AIQM1NNDriver"
+aiqm1 = "dpdata_ani.aiqm1:AIQM1Driver"
+
+[tool.setuptools_scm]

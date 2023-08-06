@@ -1,0 +1,13 @@
+dpdata>=0.2.7
+torchani
+torch
+numpy
+h5py
+
+[aiqm1]
+MLatom
+dftd4
+
+[test]
+pytest
+pytest-cov
