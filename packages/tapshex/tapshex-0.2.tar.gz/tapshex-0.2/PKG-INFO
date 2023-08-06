@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tapshex
+Version: 0.2
+Summary: Generate ShEx from DCTAP instances.
+Home-page: https://github.com/tombaker/tapshex
+Author: Tom Baker
+Author-email: tom@tombaker.org
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click
+Requires-Dist: dataclasses
+Requires-Dist: ruamel.base
+Requires-Dist: ruamel.yaml
+Requires-Dist: ruamel.yaml[jinja2]
+Requires-Dist: Jinja2
+Requires-Dist: PyShEx
+Requires-Dist: PyShExC
+Requires-Dist: ShExJSG
+Requires-Dist: dctap
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
+
+tap2shex
+========
+
+Generate ShEx from DCTAP/JSON input.
+
+Installation
+------------
+
+.. code-block:: bash
+
+    $ git clone https://github.com/tombaker/tapshex.git
+    $ cd tapshex
+    $ python -m venv .venv
+    $ source .venv/bin/activate
+    $ python3 -m pip install flit Pygments
+    $ flit install -s
+
+
