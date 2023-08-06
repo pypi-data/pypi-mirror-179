@@ -1,0 +1,44 @@
+---
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  colored_console:
+    (): coloredlogs.ColoredFormatter
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: colored_console
+    stream: ext://sys.stderr
+#  info_file_handler:
+#    class: logging.handlers.RotatingFileHandler
+#    level: DEBUG
+#    formatter: simple
+#    filename: info.p3s_logging
+#    maxBytes: 10485760 # 10MB
+#    backupCount: 20
+#    encoding: utf8
+#  error_file_handler:
+#    class: logging.handlers.RotatingFileHandler
+#    level: ERROR
+#    formatter: simple
+#    filename: errors.p3s_logging
+#    maxBytes: 10485760 # 10MB
+#    backupCount: 20
+#    encoding: utf8
+
+loggers:
+  invoke:
+    level: INFO
+#  __main__:
+#    level: DEBUG
+#    handlers: [console]
+#    propagate: yes
+
+root:
+  level: INFO
+  handlers: [console]
