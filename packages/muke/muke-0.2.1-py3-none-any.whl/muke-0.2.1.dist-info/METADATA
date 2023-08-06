@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: muke
+Version: 0.2.1
+Summary: A simple approach to detect 3d keypoints by using 2d estimation methods and multiview rendering.
+Home-page: https://github.com/cansik/multiview-3d-keypoint-detection
+Author: Florian Bruggisser
+Author-email: github@broox.ch
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: wheel
+Requires-Dist: numpy
+Requires-Dist: open3d (>=0.16.0)
+Requires-Dist: opencv-python
+Requires-Dist: tqdm
+Requires-Dist: scipy
+Requires-Dist: mediapipe ; platform_system != "Darwin" and platform_machine != "arm64"
+Requires-Dist: mediapipe-silicon ; platform_system == "Darwin" and platform_machine == "arm64"
+
+# Multiview 3D Keypoint Detection (Muke)
+A simple approach to detect 3d keypoints by using 2d estimation methods and multiview rendering.
+
+### Installation
+
+To install the package use the following pip command:
+
+```bash
+pip install muke
+```
+
+### Running
+
+#### Configuration
+
+Example configuration:
+
+```json
+{
+  "description": "MP Face",
+  "detector": "media-pipe-face",
+  "resolution": 1024,
+  "generator": "wrap3",
+  "views": [
+    {
+      "name": "frontal",
+      "rotation": 0,
+      "keypoints": [
+        4,
+        76,
+        306
+      ]
+    }
+  ]
+}
+```
+
+Example on how to create a range (`skip` is optional):
+
+```json
+{
+  "start": 10,
+  "end": 15,
+  "skip": [13, 14]
+}
+```
+
+#### Demo
+
+```bash
+python -m muke assets/person.ply --display --resolution 1024
+```
+
+```bash
+python -m muke temp/AlexedWrapped.obj --display --resolution 1024 --detector media-pipe-face
+```
+
+```bash
+python -m muke temp/AlexedWrapped.obj --display --config config/media-pipe-face.json
+```
+
+#### Help
+
+```bash
+usage: muke [-h] [--detector {media-pipe-pose,media-pipe-face}]
+               [--resolution RESOLUTION] [--generator {wrap3}] [--display]
+               [--debug]
+               input
+
+Detects keypoint locations in a 3d model.
+
+positional arguments:
+  input                 Input mesh to process.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --detector {media-pipe-pose,media-pipe-face}
+                        Detection method for 2d keypoint detection (default:
+                        media-pipe-pose).
+  --resolution RESOLUTION
+                        Render resolution for each view pass (default: 512).
+  --generator {wrap3}   Generator methods for output generation (default:
+                        wrap3).
+  --display             Shows result rendering with keypoints (default: False)
+  --debug               Shows debug frames and information (default: False)
+```
+
+### About
+MIT License - Copyright (c) 2022 Florian Bruggisser
+
