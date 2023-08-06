@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: git-lfs-http-mirror
+Version: 0.0.1
+Summary: Simple Python server to serve a read only HTTP mirror of git repositories that use Large File Storage (LFS)
+Home-page: https://github.com/uktrade/git-lfs-http-mirror
+Author: Department for International Trade
+Author-email: sre@digital.trade.gov.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Version Control :: Git
+Requires-Python: >=3.7.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask (>=2.2.2)
+Requires-Dist: httpx (>=0.23.1)
+Requires-Dist: waitress (>=2.1.2)
+
+# git-lfs-http-mirror
+
+Simple Python server to serve a read only HTTP mirror of git repositories that use Large File Storage (LFS)
+
+Designed to sit in front of another HTTP server that serves git repositories using the so-called [dumb git protocol](https://git-scm.com/book/en/v2/Git-on-the-Server-The-Protocols#_dumb_http), extending it with the capability to serve LFS files.
+
+
+## Usage
+
+Configuration is by environment variables
+
+```
+UPSTREAM_ROOT='https://my-bucket.s3.eu-west-2.amazonaws.com/a-folder' \
+LOG_LEVEL=INFO \
+PORT=8888 \
+    python -m git_lfs_http_mirror
+```
