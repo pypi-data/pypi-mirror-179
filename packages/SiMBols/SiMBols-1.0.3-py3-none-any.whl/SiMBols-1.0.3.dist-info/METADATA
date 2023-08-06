@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SiMBols
+Version: 1.0.3
+Summary: A package containing similarity measures for life science purposes. The package contains or uses Fréchet Distance, Dynamic Time Warping, Hausdorff Distance, Longest Common Subsequence, Difference Distance Matrix, Wasserstein Distance and the Kullback-Leiber Divergence (Jenssen-Shannon Distance)
+Home-page: https://gitlab.uni-oldenburg.de/quantbiolab/simbols
+Author: Fabian Schuhmann
+Author-email: fabian.schuhmann@uol.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: dtaidistance
+Requires-Dist: mdtraj
+Requires-Dist: rmsd
+
