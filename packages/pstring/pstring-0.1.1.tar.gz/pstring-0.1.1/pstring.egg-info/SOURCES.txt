@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+pstring/__init__.py
+pstring/pstring.py
+pstring.egg-info/PKG-INFO
+pstring.egg-info/SOURCES.txt
+pstring.egg-info/dependency_links.txt
+pstring.egg-info/requires.txt
+pstring.egg-info/top_level.txt
