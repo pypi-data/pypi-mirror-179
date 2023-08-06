@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fastqlapi
+Version: 0.0.2
+Summary: first
+Home-page: https://github.com/happy-machine/FastQL
+Author: happy-machine
+Author-email: freshbbk@me.com
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
