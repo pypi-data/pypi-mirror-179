@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dataflow-ext
+Version: 0.1.1
+Summary: An Extension Library for Dataflow(Apache Beam) in Python
+Project-URL: Homepage, https://github.com/kilfu0701/dataflow-ext
+Project-URL: Bug Tracker, https://github.com/kilfu0701/dataflow-ext/issues
+Author-email: kilfu0701 <kilfu0701@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: apache-beam[gcp]
+Requires-Dist: google-cloud-storage
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: bumpver; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: pip-tools; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# dataflow-ext
+An Extension Library for Dataflow(Apache Beam) in Python
