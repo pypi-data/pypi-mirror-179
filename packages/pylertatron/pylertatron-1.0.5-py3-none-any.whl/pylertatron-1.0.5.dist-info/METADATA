@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pylertatron
+Version: 1.0.5
+Summary: Pylertatron is a Python library for sending alerts to Alertatron.
+Author-email: Keethesh Mootoosamy <keethesh15@Gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Bug Tracker, https://github.com/keethesh/pylertatron/issues
+Project-URL: Home, https://github.com/keethesh/pylertatron
+
+
+# Pylertatron
+
+A simple Alertatron wrapper for Python
+## Installation
+
+Install pylertatron with PIP:
+
+```
+pip install pylertatron
+```
