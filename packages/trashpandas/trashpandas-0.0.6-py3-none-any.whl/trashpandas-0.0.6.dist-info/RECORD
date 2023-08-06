@@ -1,0 +1,12 @@
+trashpandas/__init__.py,sha256=QF2tE4Ia3nvnVIPMFN1kyQysI1VZwGW6QAi9apHNjLs,562
+trashpandas/conversion.py,sha256=ohnqpxzWXOFyaYkEeEDC4W7sKOZzT7dZK8H-3S4RuXc,6457
+trashpandas/csv.py,sha256=qqJjK9JOL-b1cMde1IIY7xtLwTaxtY-NZ_l3293eY-U,5748
+trashpandas/hdf5.py,sha256=Ezij-qcBFTf_rWIUujfpzMZAOtuTwARVm08JOpsqjC4,5926
+trashpandas/interfaces.py,sha256=yOlEeuJ0yCxzY_Qot9_xvmqGcAv92ypcfjUvR3Td3T0,1445
+trashpandas/pickle.py,sha256=EekuyvpOFis0aegaxzbFJehS0SsBlbalHJGlrTuMM0s,3727
+trashpandas/sql.py,sha256=6lj8GXQ4aTh7F6Gtcwb7e-jrwSjfFYZiUn8-dETxv18,6596
+trashpandas/utils.py,sha256=JwEmVcMLxgpYjNyMfr7gnz5b76KC_2Tk0VQpIuT_j-w,1595
+trashpandas-0.0.6.dist-info/METADATA,sha256=miNgMyQ1OCY7r6RnFTJskZrsXJTJfJfTvyDKhd3Cok0,3069
+trashpandas-0.0.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+trashpandas-0.0.6.dist-info/top_level.txt,sha256=6dmGvv-Cf-p4a3_jpzabjOjSUrixhaI9PfxBkqQe7eo,12
+trashpandas-0.0.6.dist-info/RECORD,,
