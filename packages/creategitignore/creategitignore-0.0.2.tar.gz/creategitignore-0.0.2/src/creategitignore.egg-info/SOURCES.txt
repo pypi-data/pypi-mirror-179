@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/creategitignore.py
+src/creategitignore.egg-info/PKG-INFO
+src/creategitignore.egg-info/SOURCES.txt
+src/creategitignore.egg-info/dependency_links.txt
+src/creategitignore.egg-info/entry_points.txt
+src/creategitignore.egg-info/requires.txt
+src/creategitignore.egg-info/top_level.txt
