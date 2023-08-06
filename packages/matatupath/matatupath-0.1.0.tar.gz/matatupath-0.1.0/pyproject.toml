@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "matatupath"
+version = "0.1.0"
+description = ""
+authors = ["shadmeoli <shadcodes@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+openrouteservice = "^2.3.3"
+polyline = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
