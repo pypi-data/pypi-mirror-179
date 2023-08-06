@@ -1,0 +1,7 @@
+setup.py
+category-new/__init__.py
+category-new/hello.py
+category_new.egg-info/PKG-INFO
+category_new.egg-info/SOURCES.txt
+category_new.egg-info/dependency_links.txt
+category_new.egg-info/top_level.txt
