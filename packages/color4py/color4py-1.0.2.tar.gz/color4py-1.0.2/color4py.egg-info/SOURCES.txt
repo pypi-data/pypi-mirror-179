@@ -1,0 +1,5 @@
+color4py.egg-info/PKG-INFO
+color4py.egg-info/SOURCES.txt
+color4py.egg-info/dependency_links.txt
+color4py.egg-info/requires.txt
+color4py.egg-info/top_level.txt
