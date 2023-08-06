@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: inf-api-jama
+Version: 0.0.9
+Summary: A package that allows to create TCs for every ReQ automatically and more.
+Home-page: https://bitbucket.vih.infineon.com/users/trinkler/repos/jama-package/browse
+Author: Raphael Trinkler
+Maintainer: Raphael Trinkler
+Maintainer-email: raphael.trinkler@infineon.com
+License: Proprietary
+Project-URL: Documentation, https://bitbucket.vih.infineon.com/users/trinkler/repos/jama-package/browse/README.md
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Jama API
+
+API for Jama which following functions
+
+- create TC for every Requirement
+- delete every created TestSet
+
+
+
+## Installation
+
+The package is published on 
+
+
+Best practice is to setup a separate virtual environment:
+
+```sh
+# For Windows
+python -m venv venv_name
+. venv_name/Scripts/activate
+pip install inf_jama_api
+
+
+
+## Usage
+
+See `src/demo.py` in the project directory, of __branch__
+
+- __release/production__, if you install and import the DKT Client as a package
+- __master__, if you download the newest source files
+
+## Build
+
+
+`python -m build --wheel` or `tox -e package`
+
+
