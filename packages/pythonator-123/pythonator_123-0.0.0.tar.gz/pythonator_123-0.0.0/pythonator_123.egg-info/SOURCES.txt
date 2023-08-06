@@ -1,0 +1,11 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+pythonator_123/__init__.py
+pythonator_123/amazing_function.py
+pythonator_123.egg-info/PKG-INFO
+pythonator_123.egg-info/SOURCES.txt
+pythonator_123.egg-info/dependency_links.txt
+pythonator_123.egg-info/requires.txt
+pythonator_123.egg-info/top_level.txt

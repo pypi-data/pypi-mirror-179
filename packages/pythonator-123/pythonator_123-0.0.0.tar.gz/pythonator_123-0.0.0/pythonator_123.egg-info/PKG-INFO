@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pythonator-123
+Version: 0.0.0
+Summary: My test package for stuff with things
+Author-email: Rob Campbell <git@raacampbell.com>
+License: BSD 3-Clause
+Requires-Python: >=3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# pythonator_123
+
+### Amazing package readme
+
+This is so awesome. 
+
+
+
