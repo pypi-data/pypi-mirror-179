@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "usdPlus"
+version = "0.0.2"
+authors = [
+  { name="ZoidEEE", email="mckenzieturner@protonmail.com" },
+]
+description = "Access to Overnight.Fi Api"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ZoidEee/Overnight-API"
+"Bug Tracker" = "https://github.com/ZoidEee/Overnight-API/issues"

@@ -1,0 +1,18 @@
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[build-system]\nrequires = [\"hatchling\"]\nbuild-backend = \"hatchling.build\"\n\n[project]\nname = \"usdplus\"\nversion = \"0.0.1\"\nauthors = [\n  { name=\"ZoidEEE\", email=\"MckenzieTurner@protonmail.com\" },\n]\ndescription = \"Access to Overnight.Fi API Data\"\nreadme = \"README.md\"\nrequires-python = \">=3.7\"\nclassifiers = [\n    \"Programming Language :: Python :: 3\",\n    \"License :: OSI Approved :: MIT License\",\n    \"Operating System :: OS Independent\",\n]\n\n[project.urls]\n\"Homepage\" = \"https://github.com/pypa/sampleproject\"\n\"Bug Tracker\" = \"https://github.com/pypa/sampleproject/issues\"
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+--- a/pyproject.toml	
++++ b/pyproject.toml	
+@@ -18,5 +18,5 @@
+ ]
+ 
+ [project.urls]
+-"Homepage" = "https://github.com/pypa/sampleproject"
+-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+\ No newline at end of file
++"Homepage" = "https://github.com/ZoidEee/Overnight-API"
++"Bug Tracker" = "https://github.com/ZoidEee/Overnight-API/issues"
+\ No newline at end of file
