@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-packaging-swc-zm
+Version: 0.0.0
+Summary: Example of how to package Python projects
+Author-email: Zane Mitrevica <zane.mitrevica@gmail.com>
+License: BSD-3-Clause
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.yaml
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+This is a test package created as part of an SWC Software Development course!
