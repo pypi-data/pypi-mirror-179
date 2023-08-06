@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: raspberry-py
+Version: 0.2.0
+Summary: A Python/REST interface for GPIO circuits running on the Raspberry Pi
+Home-page: UNKNOWN
+Author: Matthew Gerber
+Author-email: gerber.matthew@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.9
+License-File: LICENSE
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: RPi.GPIO (==0.7.1)
+Requires-Dist: smbus2 (==0.4.1)
+Requires-Dist: Flask (==2.2.2)
+Requires-Dist: Flask-Cors (==3.0.10)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: rpi-ws281x (==4.3.4)
+Provides-Extra: dev
+Requires-Dist: bump2version (==1.0.1) ; extra == 'dev'
+Provides-Extra: test
+
+UNKNOWN
+
