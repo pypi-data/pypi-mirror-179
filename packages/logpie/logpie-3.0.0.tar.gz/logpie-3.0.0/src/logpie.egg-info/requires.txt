@@ -1,0 +1,5 @@
+cfgpie==2.3.7
+colorpie==0.0.1
+
+[:platform_system == "Windows"]
+pywin32==305
