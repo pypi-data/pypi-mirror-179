@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+shubham/__init__.py
+shubham.egg-info/PKG-INFO
+shubham.egg-info/SOURCES.txt
+shubham.egg-info/dependency_links.txt
+shubham.egg-info/top_level.txt
