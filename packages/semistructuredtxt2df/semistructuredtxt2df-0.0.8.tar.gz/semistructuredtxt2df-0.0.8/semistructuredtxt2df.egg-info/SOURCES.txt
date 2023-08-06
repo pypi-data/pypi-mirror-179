@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+semistructuredtxt2df/__init__.py
+semistructuredtxt2df/main.py
+semistructuredtxt2df.egg-info/PKG-INFO
+semistructuredtxt2df.egg-info/SOURCES.txt
+semistructuredtxt2df.egg-info/dependency_links.txt
+semistructuredtxt2df.egg-info/requires.txt
+semistructuredtxt2df.egg-info/top_level.txt
