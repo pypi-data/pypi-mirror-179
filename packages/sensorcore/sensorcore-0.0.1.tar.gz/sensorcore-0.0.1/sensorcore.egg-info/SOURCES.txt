@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+sensorcore/__init__.py
+sensorcore.egg-info/PKG-INFO
+sensorcore.egg-info/SOURCES.txt
+sensorcore.egg-info/dependency_links.txt
+sensorcore.egg-info/top_level.txt
+sensorcore/sensor/__init__.py
+sensorcore/sensor/sensor.py
+sensorcore/sensor/camera/__init__.py
+sensorcore/sensor/camera/camera.py
