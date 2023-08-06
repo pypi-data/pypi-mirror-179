@@ -1,0 +1,24 @@
+[package]
+name = "imc-rs"
+version = "0.1.8"
+edition = "2021"
+authors = ["Alan Race <alan.race@uni-marburg.de>"]
+homepage = "https://github.com/AlanRace/imc-rs"
+license = "MIT"
+repository = "https://github.com/AlanRace/imc-rs.git"
+description = "Library for reading imaging mass cytometry (IMC) data. Supports the .mcd format."
+
+[dependencies]
+quick-xml = "0.26.0"
+nalgebra = "0.31.0" 
+num-traits = "0.2"
+image = "0.24"
+tiff = "0.7.4"
+lz4_flex = "0.9.5"
+thiserror = "1.0"
+byteorder = "1"
+rand = "0.8.5"
+
+csv = "1.1"
+
+rayon = "1.6.0"
