@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: jigoku
+Version: 2.0.18
+Summary: Bulk downloader for booru imageboards
+Home-page: https://github.com/sinkaroid/jigoku
+Author: sinkaroid
+Author-email: anakmancasan@gmail.com
+License: MIT
+Project-URL: Discord, https://discord.gg/8wj4vM5hHM
+Project-URL: Funding, https://github.com/sponsors/sinkaroid
+Project-URL: Issue tracker, https://github.com/sinkaroid/jigoku/issues/new/choose
+Project-URL: Documentation, https://github.com/sinkaroid/jigoku/wiki
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Customer Service
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+<a href="https://github.com/sinkaroid/tomoe/wiki"><img width="500" src="https://cdn.discordapp.com/attachments/1046495201176334467/1048406208714903635/jigoku_.png" alt="tomoe"></a>
+
+<h4 align="center">Bulk downloader for booru imageboards with evil intentions.</h4>
+<p align="center">
+	<a href="https://github.com/sinkaroid/tomoe/actions/workflows/bulk_download.yml"><img src="https://github.com/sinkaroid/tomoe/workflows/modular%20bulk%20download/badge.svg"></a>
+	<a href="https://codeclimate.com/github/sinkaroid/tomoe/maintainability"><img src="https://api.codeclimate.com/v1/badges/a729e38da1fe1ee520b1/maintainability" /></a>
+</p>
+
+
+
