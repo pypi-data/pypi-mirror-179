@@ -1,0 +1,9 @@
+numpy
+scipy
+spatialmath-python
+sympy
+numba
+tensorflow
+torch
+torchvision
+torchaudio
