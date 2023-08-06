@@ -1,0 +1,15 @@
+wfiuh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wfiuh/curve_fitting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wfiuh/curve_fitting/pdf/__init__.py,sha256=93odRv3zSCU0tyoNSqGEIwsVlmvP19VzvexhJRM0Bmw,1212
+wfiuh/curve_fitting/pdf/__main__.py,sha256=1YL_Lo40re551B-rBK8-Cz4MHSpbzxDyw8foHYJQaQE,3907
+wfiuh/curve_fitting/pdf/beta.py,sha256=HgHSlCs1nlkPsXDN861RQzvH9yR37V0c571TlG4JUOY,402
+wfiuh/curve_fitting/pdf/double_triangular.py,sha256=yZFdKTZWB2HzFY6hyWte1wSJAaOxzX0YNwyu0nCtxFM,726
+wfiuh/curve_fitting/pdf/hoerl.py,sha256=8MlpvcEQN_Qk5J8kgDeQl7FkwBN7g_GsbWPh6py3vbM,253
+wfiuh/curve_fitting/pdf/inverse_gaussian.py,sha256=TdxIxjB8z1wTJbPJ5oHMUigpintxsjj_3d8vp-MXtHk,261
+wfiuh/curve_fitting/pdf/normal_gaussian.py,sha256=4Zp8i-oCqQxekPu11WtfY3vzTXkzMR03RTKqN5pLJdQ,274
+wfiuh/curve_fitting/pdf/polynomial.py,sha256=s8Y5hgKWjEaeb61vk48bjsnyDn7QNAc82rlZvCyXTDs,241
+wfiuh/curve_fitting/typed.py,sha256=3pVXujff4Bjn-wMmI5EaH42-psDXcZq7XAWaoSn2GDI,519
+wfiuh-0.1.4.dist-info/LICENSE,sha256=GKfnqXQAAcuRTwCuL29d3vPnCf3T5qCof_2SAFnAQt0,1063
+wfiuh-0.1.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wfiuh-0.1.4.dist-info/METADATA,sha256=gL7ExXHxunP9jSFl8dqQWqDIE389fsa5H1XFoOPicKg,868
+wfiuh-0.1.4.dist-info/RECORD,,
