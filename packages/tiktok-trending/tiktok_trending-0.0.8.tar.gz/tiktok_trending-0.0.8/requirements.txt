@@ -1,0 +1,14 @@
+# Linting.
+black
+mypy
+types-requests
+
+# Dependencies.
+requests
+
+# Packaging and dist.
+build
+twine
+
+# Testing.
+pytest
