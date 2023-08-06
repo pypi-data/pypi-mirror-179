@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: vfxpaths
+Version: 1.0.0
+Summary: Common processing module of VFX path
+Home-page: https://github.com/VFXToolkits/vfxpaths
+Author: zuokangbo
+Author-email: zuokangbo@outlook.com
+License: MIT License
+Description: ########
+        vfxpaths
+        ########
+        
+        Common processing module of VFX path
+        
+        *************
+        Documentation
+        *************
+        
+        full doc https://github.com/VFXToolkits/vfxpaths
+        
+Keywords: vfx,vfxpath,vfxfile,paths
+Platform: UNKNOWN
+Requires-Python: >=3.7
