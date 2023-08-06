@@ -1,0 +1,8 @@
+flask_filealchemy/__init__.py,sha256=3Otia8MkxsMCsZHN_7R2Jx7wwRqZVkF7GaK_KM5q-ZM,56
+flask_filealchemy/common.py,sha256=EGQQV_qWvYv75hhxByw43PTJXea1ArMcD42_e93blYw,825
+flask_filealchemy/filealchemy.py,sha256=XJ2tiCxwC_pbTjgAaOWjYvWLRgbIcSmk4lzFuLscE9A,2398
+flask_filealchemy/loaders.py,sha256=5I9dLzrZNLQJKiFBTtVbuATx5FArvF-6RYZ_8Nojs2E,3868
+flask_filealchemy-0.8.0.dist-info/LICENSE.txt,sha256=rQIWeUwa7y94zLaABof19bp5hhOwPOL627d7mcvST8Q,1077
+flask_filealchemy-0.8.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+flask_filealchemy-0.8.0.dist-info/METADATA,sha256=073DchBOc11oze1Sz-vyXlkiMq5Ibj6x20-FzcSptGQ,7647
+flask_filealchemy-0.8.0.dist-info/RECORD,,
