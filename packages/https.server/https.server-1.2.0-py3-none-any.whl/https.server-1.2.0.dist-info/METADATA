@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: https.server
+Version: 1.2.0
+Summary: https.server - SimpleHTTPServer wrapped in TLS
+Home-page: https://github.com/pathtofile/https.server
+Author: /path/to/file
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: pyOpenSSL (>=19.0.0)
+
