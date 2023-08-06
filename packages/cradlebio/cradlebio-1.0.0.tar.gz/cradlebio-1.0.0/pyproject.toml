@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "cradlebio"
+version = "1.0.0"
+description = "Client for Cradle's Alphafold-as-a-service"
+authors = ["Cradle Bio <info@cradle.bio>"]
+license = "Apache 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.7.2,<4.0"
+biopython = "^1.70"
+google-cloud-firestore = "^2.4.0"
+google-cloud-storage = "^2.2.1"
+google-auth = "^2.6"
+google-api-python-client = "^2.42.0"
+tqdm = "^4.64.0"
+fsspec = {extras = ["gcs"], version = "^2022.7.1"}
+importlib_metadata = "^4.12.0"
+packaging = "^21.3"
+myst-parser = "^0.18.0"
+sphinxcontrib-fulltoc = "^1.2.0"
+Sphinx = "^5.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-mock = "^3.7.0"
+pytest-timeout = "2.1.0"
+pre-commit = "^2.20.0"
+autopep8 = "^1.7.0"
+pylint = "^2.15.0"
+pytest-lazy-fixture = "^0.6.3"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+log_level = "DEBUG"
+log_file = ".pytest_cache/logs/pytest-logs.txt"
+addopts = "--full-trace"
+
+[tool.autopep8]
+max_line_length = 120
+in-place = true
+recursive = true
+
+
+[tool.pylint.master]
+ignore-paths = "tests"
+disable = "all"
+enable = [
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "too-few-public-methods",
+    "consider-using-f-string",
+    "unspecified-encoding",
+]
+jobs = 1
+load-plugins = [
+    "pylint.extensions.code_style",
+    "pylint.extensions.emptystring",
+    "pylint.extensions.comparetozero",
+    "pylint.extensions.comparison_placement",
+    "pylint.extensions.consider_ternary_expression",
+    "pylint.extensions.redefined_variable_type",
+    "pylint.extensions.empty_comment",
+    "pylint.extensions.set_membership",
+]
+max-args = 10  # default = 5
+max-line-length = 120  # default = 100
