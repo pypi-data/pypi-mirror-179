@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>raider.user &mdash; raider 0.2.3 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/assets/jsonview.bundle.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/libs/html/datatables.min.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/common.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/layouts.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/styles.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinx-needs/modern.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/assets/jsonview.bundle.js"></script>
+        <script src="../../_static/assets/jsonview_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables.min.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js"></script>
+        <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> raider
+          </a>
+              <div class="version">
+                0.2.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Overview</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/raider.html">What is Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/install.html">Installing Raider</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/glossary.html">Definitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../overview/faq.html">Frequently asked questions</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorials/reddit.html">Tutorials</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../examples/example.html">Example</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../api/api.html">User API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/api.html#internal-api-reference">Internal API reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/flows.html">Flows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/users.html">Users</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/plugins.html">Plugins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/operations.html">Operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api/attacks.html">Fuzzing</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">raider</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Module code</a></li>
+      <li class="breadcrumb-item active">raider.user</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for raider.user</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright (C) 2022 DigeeX</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the GNU General Public License as published by</span>
+<span class="c1"># the Free Software Foundation, either version 3 of the License, or</span>
+<span class="c1"># (at your option) any later version.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1"># MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1"># GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1"># You should have received a copy of the GNU General Public License</span>
+<span class="c1"># along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</span>
+
+<span class="sd">&quot;&quot;&quot;Classes used for handling users.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">List</span>
+
+<span class="kn">import</span> <span class="nn">hy</span>
+
+<span class="kn">from</span> <span class="nn">raider.plugins.basic.cookie</span> <span class="kn">import</span> <span class="n">Cookie</span>
+<span class="kn">from</span> <span class="nn">raider.plugins.basic.header</span> <span class="kn">import</span> <span class="n">Header</span>
+<span class="kn">from</span> <span class="nn">raider.plugins.common</span> <span class="kn">import</span> <span class="n">Plugin</span>
+<span class="kn">from</span> <span class="nn">raider.structures</span> <span class="kn">import</span> <span class="n">CookieStore</span><span class="p">,</span> <span class="n">DataStore</span><span class="p">,</span> <span class="n">HeaderStore</span>
+<span class="kn">from</span> <span class="nn">raider.utils</span> <span class="kn">import</span> <span class="n">hy_dict_to_python</span>
+
+
+<div class="viewcode-block" id="User"><a class="viewcode-back" href="../../api/users.html#raider.user.User">[docs]</a><span class="k">class</span> <span class="nc">User</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Class holding user related information.</span>
+
+<span class="sd">    :class:`User` objects are created inside the :class:`Users`. Each</span>
+<span class="sd">    :class:`User` object contains at least the ``username`` and the</span>
+<span class="sd">    ``password``. Every time a :class:`Plugin</span>
+<span class="sd">    &lt;raider.plugins.common.Plugin&gt;` generates an output, it is saved</span>
+<span class="sd">    in the :class:`User` object. If the :class:`Plugin</span>
+<span class="sd">    &lt;raider.plugins.common.Plugin&gt;` is a :class:`Cookie</span>
+<span class="sd">    &lt;raider.plugins.basic.Cookie&gt;` or a :class:`Header</span>
+<span class="sd">    &lt;raider.plugins.basic.Header&gt;`, the output will be stored in the</span>
+<span class="sd">    the ``cookies`` and ``headers`` attributes respectively. Otherwise</span>
+<span class="sd">    they&#39;ll be saved inside ``data``.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">      username:</span>
+<span class="sd">        A string containing the user&#39;s email or username used to log in.</span>
+<span class="sd">      password:</span>
+<span class="sd">        A string containing the user&#39;s password.</span>
+<span class="sd">      cookies:</span>
+<span class="sd">        A :class:`CookieStore &lt;raider.structures.CookieStore&gt;` object</span>
+<span class="sd">        containing all of the collected cookies for this user. The</span>
+<span class="sd">        :class:`Cookie &lt;raider.plugins.basic.Cookie&gt;` plugin only</span>
+<span class="sd">        writes here.</span>
+<span class="sd">      headers:</span>
+<span class="sd">        A :class:`HeaderStore &lt;raider.structures.HeaderStore&gt;` object</span>
+<span class="sd">        containing all of the collected headers for this user. The</span>
+<span class="sd">        :class:`Header &lt;raider.plugins.basic.Header&gt;` plugin only</span>
+<span class="sd">        writes here.</span>
+<span class="sd">      data:</span>
+<span class="sd">        A :class:`DataStore &lt;raider.structures.DataStore&gt;` object</span>
+<span class="sd">        containing the rest of the data collected from plugins for</span>
+<span class="sd">        this user.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="User.__init__"><a class="viewcode-back" href="../../api/users.html#raider.user.User.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">username</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">password</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="o">**</span><span class="n">kwargs</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">],</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Initializes a :class:`User` object.</span>
+
+<span class="sd">        Creates an object for easy access to user specific</span>
+<span class="sd">        information. It&#39;s used to store the ``username``,</span>
+<span class="sd">        ``password``, ``cookies``, ``headers``, and other ``data``</span>
+<span class="sd">        extracted from the :class:`Plugin</span>
+<span class="sd">        &lt;raider.plugins.common.Plugin&gt;` objects.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          username:</span>
+<span class="sd">            A string with the username used for the login process.</span>
+<span class="sd">          password:</span>
+<span class="sd">            A string with the password used for the login process.</span>
+<span class="sd">          **kwargs:</span>
+<span class="sd">            A dictionary with additional data about the user.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">username</span> <span class="o">=</span> <span class="n">username</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">password</span> <span class="o">=</span> <span class="n">password</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">cookies</span> <span class="o">=</span> <span class="n">CookieStore</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;cookies&quot;</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">headers</span> <span class="o">=</span> <span class="n">HeaderStore</span><span class="o">.</span><span class="n">from_dict</span><span class="p">(</span><span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;headers&quot;</span><span class="p">))</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">DataStore</span><span class="p">(</span><span class="n">kwargs</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;data&quot;</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="User.set_cookie"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_cookie">[docs]</a>    <span class="k">def</span> <span class="nf">set_cookie</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cookie</span><span class="p">:</span> <span class="n">Cookie</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Sets the ``cookies`` for the user.</span>
+
+<span class="sd">        Given a :class:`Cookie &lt;raider.plugins.basic.Cookie&gt;` object,</span>
+<span class="sd">        update the user&#39;s ``cookies`` attribute to include this</span>
+<span class="sd">        :class:`Cookie&#39;s &lt;raider.plugins.basic.Cookie&gt;` value.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          cookie:</span>
+<span class="sd">            A :class:`Cookie &lt;raider.plugins.basic.Cookie&gt;`</span>
+<span class="sd">            :class:`Plugin &lt;raider.plugins.common.Plugin&gt;` object with</span>
+<span class="sd">            the data to be added.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">cookie</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">cookie</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="User.set_cookies_from_dict"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_cookies_from_dict">[docs]</a>    <span class="k">def</span> <span class="nf">set_cookies_from_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Set user&#39;s ``cookies`` from a dictionary.</span>
+
+<span class="sd">        Given a dictionary of cookie values as strings, convert them</span>
+<span class="sd">        to :class:`Cookie &lt;raider.plugins.Cookie&gt;` objects, and load</span>
+<span class="sd">        them in the :class:`User &lt;raider.user.User&gt;` object</span>
+<span class="sd">        respectively.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          data:</span>
+<span class="sd">            A dictionary of strings corresponding to cookie keys and</span>
+<span class="sd">            values.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">cookies</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">cookie</span> <span class="o">=</span> <span class="n">Cookie</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+            <span class="n">cookies</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cookie</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">cookies</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">set_cookie</span><span class="p">(</span><span class="n">item</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="User.set_header"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_header">[docs]</a>    <span class="k">def</span> <span class="nf">set_header</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">header</span><span class="p">:</span> <span class="n">Header</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Sets the ``headers`` for the user.</span>
+
+<span class="sd">        Given a :class:`Header &lt;raider.plugins.basic.Header&gt;` object,</span>
+<span class="sd">        update the user&#39;s ``headers`` attribute to include this header</span>
+<span class="sd">        value.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          header:</span>
+<span class="sd">            A :class:`Header &lt;raider.plugins.basic.Header&gt;`</span>
+<span class="sd">            :class:`Plugin &lt;raider.plugins.common.Plugin` object with</span>
+<span class="sd">            the data to be added.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">header</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">header</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="User.set_headers_from_dict"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_headers_from_dict">[docs]</a>    <span class="k">def</span> <span class="nf">set_headers_from_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Set user&#39;s ``headers`` from a dictionary.</span>
+
+<span class="sd">        Given a dictionary of header values as strings, convert them</span>
+<span class="sd">        to :class:`Header &lt;raider.plugins.Header&gt;` objects, and load</span>
+<span class="sd">        them in the :class:`User &lt;raider.user.User&gt;` object</span>
+<span class="sd">        respectively.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          data:</span>
+<span class="sd">            A dictionary of strings corresponding to header keys and</span>
+<span class="sd">            values.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="n">headers</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="n">header</span> <span class="o">=</span> <span class="n">Header</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">value</span><span class="p">)</span>
+            <span class="n">headers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">header</span><span class="p">)</span>
+
+        <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">headers</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">set_header</span><span class="p">(</span><span class="n">item</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="User.set_data"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_data">[docs]</a>    <span class="k">def</span> <span class="nf">set_data</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Plugin</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Sets the ``data`` for the user.</span>
+
+<span class="sd">        Given a :class:`Plugin &lt;raider.plugins.common.Plugin&gt;`, update</span>
+<span class="sd">        the user&#39;s ``data`` attribute to include this data.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          data:</span>
+<span class="sd">            A :class:`Plugin &lt;raider.plugins.common.Plugin&gt;` object</span>
+<span class="sd">            with the data to be added.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">data</span><span class="o">.</span><span class="n">value</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">data</span><span class="o">.</span><span class="n">name</span><span class="p">:</span> <span class="n">data</span><span class="o">.</span><span class="n">value</span><span class="p">})</span></div>
+
+<div class="viewcode-block" id="User.set_data_from_dict"><a class="viewcode-back" href="../../api/users.html#raider.user.User.set_data_from_dict">[docs]</a>    <span class="k">def</span> <span class="nf">set_data_from_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">data</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Set user&#39;s ``data`` from a dictionary.</span>
+
+<span class="sd">        Given a dictionary of data items made out of strings, update</span>
+<span class="sd">        the ``data`` attribute accordingly.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          data:</span>
+<span class="sd">            A dictionary of strings corresponding to data keys and</span>
+<span class="sd">            values.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">({</span><span class="n">key</span><span class="p">:</span> <span class="n">value</span><span class="p">})</span></div>
+
+<div class="viewcode-block" id="User.to_dict"><a class="viewcode-back" href="../../api/users.html#raider.user.User.to_dict">[docs]</a>    <span class="k">def</span> <span class="nf">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Returns this object&#39;s data in a dictionary format.&quot;&quot;&quot;</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;username&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">username</span>
+        <span class="n">data</span><span class="p">[</span><span class="s2">&quot;password&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">password</span>
+        <span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cookies</span><span class="o">.</span><span class="n">to_dict</span><span class="p">())</span>
+        <span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">headers</span><span class="o">.</span><span class="n">to_dict</span><span class="p">())</span>
+        <span class="n">data</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">to_dict</span><span class="p">())</span>
+        <span class="k">return</span> <span class="n">data</span></div></div>
+
+
+<div class="viewcode-block" id="Users"><a class="viewcode-back" href="../../api/users.html#raider.user.Users">[docs]</a><span class="k">class</span> <span class="nc">Users</span><span class="p">(</span><span class="n">DataStore</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Class holding all the users of the application.</span>
+
+<span class="sd">    Users inherits from :class:`DataStructure</span>
+<span class="sd">    &lt;raider.structures.DataStore&gt;`, and contains the users set up in</span>
+<span class="sd">    :term:`hyfiles`. Each user is an :class:`User` object. The data</span>
+<span class="sd">    from a :class:`Users` object can be accessed same way like from</span>
+<span class="sd">    the :class:`DataStore &lt;raider.structures.DataStore&gt;`.</span>
+
+<span class="sd">    Attributes:</span>
+<span class="sd">      active_user:</span>
+<span class="sd">        A string with the ``username`` attribute of the currently</span>
+<span class="sd">        active :class:`User`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+<div class="viewcode-block" id="Users.__init__"><a class="viewcode-back" href="../../api/users.html#raider.user.Users.__init__">[docs]</a>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">users</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">Dict</span><span class="p">[</span><span class="n">hy</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Keyword</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">=</span> <span class="kc">None</span><span class="p">,</span>
+        <span class="n">active_user</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;DEFAULT&quot;</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Initializes the :class:`Users` object.</span>
+
+<span class="sd">        Given a `list</span>
+<span class="sd">        &lt;https://docs.hylang.org/en/stable/syntax.html#hy.models.List&gt;`_</span>
+<span class="sd">        of `dictionaries</span>
+<span class="sd">        &lt;https://docs.hylang.org/en/stable/syntax.html#dictionary-literals&gt;`_,</span>
+<span class="sd">        map them to a :class:`User` object and store them in this</span>
+<span class="sd">        :class:`Users` object.</span>
+
+<span class="sd">        Args:</span>
+<span class="sd">          users:</span>
+<span class="sd">            A list of dictionaries. Dictionary&#39;s data is mapped to a</span>
+<span class="sd">            :class:`User` object.</span>
+<span class="sd">          active_user:</span>
+<span class="sd">            An optional string specifying the default :class:`User`.</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">users</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">active_user</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">users</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">keys</span><span class="p">())[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">active_user</span> <span class="o">=</span> <span class="n">active_user</span>
+
+        <span class="n">values</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">if</span> <span class="n">users</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">users</span><span class="p">:</span>
+                <span class="n">username</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">item</span><span class="o">.</span><span class="n">keys</span><span class="p">())[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="n">password</span> <span class="o">=</span> <span class="n">item</span><span class="p">[</span><span class="n">username</span><span class="p">]</span>
+                <span class="n">item</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">username</span><span class="p">)</span>
+                <span class="n">user</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span>
+                    <span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="p">,</span> <span class="o">**</span><span class="p">{</span><span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="n">hy_dict_to_python</span><span class="p">(</span><span class="n">item</span><span class="p">)}</span>
+                <span class="p">)</span>
+                <span class="n">values</span><span class="p">[</span><span class="n">username</span><span class="p">]</span> <span class="o">=</span> <span class="n">user</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">username</span> <span class="o">=</span> <span class="s2">&quot;DEFAULT&quot;</span>
+            <span class="n">password</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="n">user</span> <span class="o">=</span> <span class="n">User</span><span class="p">(</span><span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="p">)</span>
+            <span class="n">values</span><span class="p">[</span><span class="n">username</span><span class="p">]</span> <span class="o">=</span> <span class="n">user</span>
+
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">values</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="Users.to_dict"><a class="viewcode-back" href="../../api/users.html#raider.user.Users.to_dict">[docs]</a>    <span class="k">def</span> <span class="nf">to_dict</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Returns the :class:`Users` object data in dictionary format.&quot;&quot;&quot;</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+        <span class="k">for</span> <span class="n">username</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">:</span>
+            <span class="n">data</span><span class="p">[</span><span class="n">username</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="p">[</span><span class="n">username</span><span class="p">]</span><span class="o">.</span><span class="n">to_dict</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">data</span></div>
+
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">active</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">User</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Returns the active :class:`User` as an :class:`Users` object.&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">active_user</span><span class="p">]</span></div>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, OWASP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
