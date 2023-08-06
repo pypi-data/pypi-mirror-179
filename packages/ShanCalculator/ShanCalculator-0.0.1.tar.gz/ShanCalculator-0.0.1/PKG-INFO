@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ShanCalculator
+Version: 0.0.1
+Summary: A simpy calculator for testing
+Home-page: 
+Author: Shan Zexin
+Author-email: parkershan21@outlook.com
+License: MIT
+Keywords: calculator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+this is a very simple calculator
+
+Change Log
+==========
+
+0.0.1 (03/12/2022)

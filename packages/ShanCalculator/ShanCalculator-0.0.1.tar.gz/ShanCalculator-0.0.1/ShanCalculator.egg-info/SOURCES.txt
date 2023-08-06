@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ShanCalculator.egg-info/PKG-INFO
+ShanCalculator.egg-info/SOURCES.txt
+ShanCalculator.egg-info/dependency_links.txt
+ShanCalculator.egg-info/top_level.txt
+testing/__init__.py
