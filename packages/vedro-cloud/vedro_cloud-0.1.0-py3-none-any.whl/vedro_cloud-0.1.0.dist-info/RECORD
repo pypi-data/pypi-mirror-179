@@ -1,0 +1,10 @@
+vedro_cloud/__init__.py,sha256=26E0h2wh3Q93FJGcGQimjSUtZ6HNH-5Lf2lsETlU6c0,131
+vedro_cloud/_optimal_orderer.py,sha256=32QfaEqljgiFyHXFFmt9i_Z2NgagRQS1O7F2_njn4DY,549
+vedro_cloud/_vedro_cloud_client.py,sha256=08_97ChVEIVT2-gGEFzqIMENhoX39Red1v8z0ps3oGE,1166
+vedro_cloud/_vedro_cloud_plugin.py,sha256=7V6kOnqGDUb528SGy7mf7sefLPCCBwNDIs-WR4Dnr0A,3136
+vedro_cloud/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vedro_cloud-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vedro_cloud-0.1.0.dist-info/METADATA,sha256=sugLuu95YoxIP2ocFYopMhvrx1V_tPOtNqUp6tApzRE,644
+vedro_cloud-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vedro_cloud-0.1.0.dist-info/top_level.txt,sha256=SBykndxlpbnELTZgfOGm6wdbSaH2QHownswkrC4N5Zo,12
+vedro_cloud-0.1.0.dist-info/RECORD,,
