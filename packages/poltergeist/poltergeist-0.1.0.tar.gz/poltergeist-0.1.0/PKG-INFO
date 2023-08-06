@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: poltergeist
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/alexandermalyga/poltergeist
+License: MIT
+Author: Alexander Malyga
+Author-email: alexander@malyga.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/alexandermalyga/poltergeist
+Description-Content-Type: text/markdown
+
+# poltergeist
