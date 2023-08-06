@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: streamlit-image-select-mod
+Version: 0.1.2
+Summary: 🖼️ An image select component for Streamlit
+License: MIT
+Author: Esa Sahla
+Author-email: esasahla@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit (>=1.12.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# streamlit-image-select-mod 🖼️
+
+**A modded image select component for Streamlit.**
+
+This custom component works just like `st.selectbox` but with images. It's a great option
+if you want to let the user select an example image, e.g. for a computer vision app!
+
