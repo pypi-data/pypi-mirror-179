@@ -1,0 +1,9 @@
+oci_recommendation/__init__.py,sha256=-EJDBAAB0c4fn9qc0xREOyZgvnJ1cZqj099fc86SpH8,57
+oci_recommendation/functions.py,sha256=fR4hcY6XSv4rMG8taoC7VhUaw-YL-q6qmmtjIEojRoA,9359
+oci_recommendation/oci_client.py,sha256=gxtmbQncpoxdV-E9Cc_YdQf1YQ-6Ih_-IeCGC9D-J-k,898
+oci_recommendation/utils.py,sha256=noE2akWGEmMhbU7zGmB3-aQaZySEkBNrN3Exx68R8sA,7098
+oci_recommendation-0.0.4.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oci_recommendation-0.0.4.dist-info/METADATA,sha256=_SZfHf-23n14u3usbwYlyq1aBumJCp8MOr5jgryiu8M,1025
+oci_recommendation-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+oci_recommendation-0.0.4.dist-info/top_level.txt,sha256=i1WEYTkPby1jv3aH9ItDr3Ok6uNlcw8_JHwKBbQAWI8,19
+oci_recommendation-0.0.4.dist-info/RECORD,,
