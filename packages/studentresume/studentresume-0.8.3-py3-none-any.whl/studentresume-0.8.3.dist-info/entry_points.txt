@@ -1,0 +1,3 @@
+[console_scripts]
+studentresume=studentresume.run:app
+
