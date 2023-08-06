@@ -1,0 +1,8 @@
+README.md
+setup.py
+WdSpider.egg-info/PKG-INFO
+WdSpider.egg-info/SOURCES.txt
+WdSpider.egg-info/dependency_links.txt
+WdSpider.egg-info/top_level.txt
+chick/Spider.py
+chick/__init__.py
