@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: keywordcloud
+Version: 0.0.10
+Summary: Generate a word cloud png file based on text or a URL contents.
+Home-page: https://amzto.com/
+Download-URL: https://github.com/jmandrake/keywordcloud
+Author: Jeffery Mandrake
+Author-email: <info@goinfosystems.com>
+License: MIT
+Keywords: python,keyword cloud,word cloud,wordcloud,keywordcloud,keywords,png,keyword,text to image
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: wordcloud
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pillow
+
+
+# keywordcloud package
+
+
+
+## To Do:
+
+
+
+- [ ] Build the app
+
+- [ ] Add pytest unit tests
+
+- [ ] Package the app v.0.1.0
+
+- [ ] Dockerfile
+
+- [ ] Github Actions: unit tests, deploy docker
+
+
+
+## Testing
+
+- Live docker container via https
+
+- Batch text files
+
+- Batch URLs file
+
+
+
+## Planned Integration with website
+
+SEO web tools: [amzto.com](https://amzto.com) -- add python app as micro service (new tool) and integrate in site's menu.
+
+
+
+## Credits
+
+Special thanks to NeuralNine for the original code base and idea for this project: 
+
+[Create Fancy Word Clouds in Python - NeuralNine](https://www.youtube.com/watch?v=vRbSnlRyJNQ)
+
+[Word Cloud in python | Word cloud tutorial](https://www.youtube.com/watch?v=4N_exdTyGHk)
+
+
+
+
+
+[Stylecloud tutorial](https://www.youtube.com/watch?v=txPNMDDWsB8)
+
+[Fontawesome version 5.x](https://github.com/minimaxir/stylecloud)
+
+[Fontawesome Icons](https://fontawesome.com/icons)
