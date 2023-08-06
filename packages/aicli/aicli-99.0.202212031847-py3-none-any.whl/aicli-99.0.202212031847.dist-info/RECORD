@@ -1,0 +1,16 @@
+ailib/__init__.py,sha256=ONKSBBbFEO95hOJFkvSgJ5CIxhnvwp1oe0Qq9IWSn3A,88581
+ailib/cli.py,sha256=8wuc2gEam_rIUdav1koNDQXxU7Q6My4mZh0CH-Zj36A,71808
+ailib/agent/cluster-deployment-sno.yaml,sha256=6NnAqpG7MBXg8uET1l5MW9AqxRfAM-kLPxRmj1TP7Hs,501
+ailib/agent/cluster-deployment.yaml,sha256=6NnAqpG7MBXg8uET1l5MW9AqxRfAM-kLPxRmj1TP7Hs,501
+ailib/agent/cluster-image-set.yaml,sha256=mgdW0mxChZW-T2QXF240ytri9xTZJP9A8YUiv0gQPzs,123
+ailib/agent/infraenv.yaml,sha256=b-K3w1SV-DeYizIq6ukD4OAjJPgNaffcbmpUwcodbbc,369
+ailib/agent/pull-secret.yaml,sha256=FacV1lU-kR7v1e6O2LpD9lvh0Jgtg8uAtiWCTi5vCCE,168
+ailib/agent/registries.conf.templ,sha256=iGX-B_zyNsieHV8fiHQLv7je5piHhLmLVejkaRtQWd8,125
+ailib/common/__init__.py,sha256=gdVm5JtK4hbjT6N7dkLFYzC1vL8-Fw8p9VCJ_Ng54dc,6477
+ailib/common/registries.conf.templ,sha256=s2d8IdYqjevLQtrOC0zO8SY3a5BcESDhJ7-VubcpUQM,748
+ailib/kfish/__init__.py,sha256=ZSDdesGIqlQ9QyrtCQpamhU_U_gD7TQ1UQKBSdW6Gi4,8045
+aicli-99.0.202212031847.dist-info/METADATA,sha256=xCTGwqVdBa5OFdzNNlYdHFevhjildB2bQ6oG8_JpbAw,352
+aicli-99.0.202212031847.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aicli-99.0.202212031847.dist-info/entry_points.txt,sha256=7uqZ_1svrJHY6WVurmsOhlEb_FiRFEgdEnKj_7BuT0Q,40
+aicli-99.0.202212031847.dist-info/top_level.txt,sha256=uCyBeu-We3_G6jzv4SY05Rg3VHcZ2_Dr7dcFduB8Wsw,6
+aicli-99.0.202212031847.dist-info/RECORD,,
