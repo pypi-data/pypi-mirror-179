@@ -1,0 +1,2 @@
+homeassistant==2022.11.5
+asyncio-mqtt==0.15.0
