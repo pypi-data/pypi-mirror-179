@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: priceloop-api
+Version: 0.41.3
+Summary: Priceloop API
+Home-page: https://github.com/priceloop/priceloop-api-python
+Author: Priceloop
+Author-email: hello@priceloop.ai
+Keywords: Priceloop API
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: boto3 (~=1.24.78)
+Requires-Dist: requests (==2.25)
+Requires-Dist: python-dateutil (~=2.8.2)
+Requires-Dist: frozendict (==2.3.4)
+Requires-Dist: pandas (==1.5.2)
+Requires-Dist: typing-extensions (==4.4.0)
+
+    Connect to your Priceloop Data through our API
+    
