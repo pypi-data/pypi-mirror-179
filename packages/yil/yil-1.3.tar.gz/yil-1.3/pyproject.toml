@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "yil"
+version = "1.2"
+description = "YandexImageLoader"
+authors = ["egm108"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+beautifulsoup4="^4.11.1"
+requests="^2.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
