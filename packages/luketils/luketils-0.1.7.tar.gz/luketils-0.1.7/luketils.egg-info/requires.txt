@@ -1,0 +1,14 @@
+opencv-python
+tensorflow
+
+[dev]
+flake8
+pytest
+pytype
+setuptools
+twine
+wheel
+sphinx-rtd-theme
+myst-parser
+sphinx-automodapi
+commonmark
