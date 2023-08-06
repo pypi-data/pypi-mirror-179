@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: CyberBook
+Version: 0.0.2
+Summary: Cyber spellbook for developers.
+Home-page: https://github.com/ClutchTech/TechBook
+Author: Clutch_Reboot
+Author-email: clutchshadow26@gmail.com
+License: GNU General Public License v3.0
+Keywords: cyberbook encoders tools
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CyberBook
+This is a collection of functions / tools that are used frequently enough to store them some place.
+
+## Example
+
+```python
+from CyberBook.modules.encoders import DecoderRing
+from CyberBook.modules import listener, wordlists
+
+# CrypticItems
+x = DecoderRing(data="test")
+x.base64_encode()
+print(f"{x.altered_data}")
+
+# NetworkPortals
+print(f"{listener.gather()}")
+
+# FileSystemMagic
+print(f'{wordlists.read_wordlist(file="someWords.lst")}')
+```
+
