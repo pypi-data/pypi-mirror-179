@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: UniqueIDV
+Version: 1
+Summary: For Sharing Data between files
+Author: Damian Payano
+Author-email: damiangamesss464@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# UniqueID
+
+Get Unique id
+
+## About
+
+This package allows scripts to ids
+
+## instructions
+
+1. Install
+
+```
+pip install UniqueIDV
+```
+
+2. Import
+
+```
+from UniqueIDV import *
+
+```
+
+## Functions
+1. Creates Your id
+
+```
+CreateId(me)
+```
+
+2. Gets Your id
+
+```
+
+getMyId(me)
+
+```
+
+## Note this package won't commonly get updates
