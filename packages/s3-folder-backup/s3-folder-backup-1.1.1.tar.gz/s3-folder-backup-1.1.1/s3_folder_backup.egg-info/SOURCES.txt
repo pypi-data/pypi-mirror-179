@@ -1,0 +1,8 @@
+setup.py
+S3_Folder_Backup/__init__.py
+S3_Folder_Backup/s3_folder_backup.py
+s3_folder_backup.egg-info/PKG-INFO
+s3_folder_backup.egg-info/SOURCES.txt
+s3_folder_backup.egg-info/dependency_links.txt
+s3_folder_backup.egg-info/requires.txt
+s3_folder_backup.egg-info/top_level.txt
