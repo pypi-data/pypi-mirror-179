@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: TeXid
+Version: 0.1.3
+Summary: Tense Identification using HuggingFace RoBERTa
+Author: Le Minh Khoi
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Tense identification
+
+Tense identification using RoBERTa model.
+
+Install the conda environment before install from this repo.
+
+[Github repo](https://github.com/TokisakiKurumi2001/tense_identification)
+
+## Tense transformation
+
+Tense transformation take advantages of tense identification and other libraries to perform transforming tense of a given sentence.
+
+**Repo**: [tense_transformation](https://github.com/TokisakiKurumi2001/tense_transformation)
+
+**NOTE**: Just a toy repo I try to deploy on PyPI.

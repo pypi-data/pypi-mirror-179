@@ -1,0 +1,11 @@
+TeXid/__init__.py,sha256=cx93oANDlvHEcmYfVERLg1gTUhOFrPyfSEMi2TW3nXE,240
+TeXid/configuration.py,sha256=3eXRjEovybdDEim9Ckwqvq7WaDK5PrXbN7PchLb9tc0,582
+TeXid/dataloader.py,sha256=teT12YUvBvGNDZIWQW3B9D35xK9OldPssDlPD0fL_Yk,1739
+TeXid/model.py,sha256=o4J57DrSnnasDH_Wy5jrwtrvxQA5uHhbfGmWwnRG1rs,3886
+TeXid/pl_wrapper.py,sha256=wkoBZ3mSLa1Iz8IbDiQmggjwaR17edfoexGHIUgupvY,2869
+TeXid/postprocess.py,sha256=ntkrAK1Nz5A8qVlYVgqV4I3CPL8DDxi4A10BmFxumus,1845
+TeXid/tokenizer.py,sha256=bhyQmsn2Rd73Y7GgDRi5kc3kn_vwqBODirK76fp_f1s,803
+TeXid-0.1.3.dist-info/METADATA,sha256=D5SPryTmRiDCHaa1gTcH-VgqmjeHWE5TLbCzcTJQc00,856
+TeXid-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+TeXid-0.1.3.dist-info/top_level.txt,sha256=a4De5gS4ZnlmWGI1pClvbC1JLuXfUKZjizmUe_0A7UI,6
+TeXid-0.1.3.dist-info/RECORD,,
