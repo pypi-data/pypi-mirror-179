@@ -1,0 +1,3 @@
+revChatGPT==0.0.13
+fire
+loguru
