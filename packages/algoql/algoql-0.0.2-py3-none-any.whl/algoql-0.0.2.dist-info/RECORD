@@ -1,0 +1,11 @@
+algoql/__init__.py,sha256=yB59945lTwA5ld6LZLkGfBi9DlsACnfxwPc_TC7CStI,27
+algoql/algoql.py,sha256=tQuDdscjnvTKTzfX28vRFzMi7KgAuvBuXH4aL-7qLdE,4888
+algoql/algoql.tx,sha256=JizALQ8gciKRjX3itmfKv7Fkj9TxLk1ON0G5NwhVtA8,784
+algoql/algorand.py,sha256=2enSER0n30euULfyf6Bnz86E1PRTW_0ZTFe4KbMM1S4,1230
+algoql/cli.py,sha256=21v9GM6cnBycmkQBa91AebSRdYDU5ggtI_cgQXi_UDo,389
+algoql-0.0.2.dist-info/LICENSE.txt,sha256=M-lHsTV0mmfPcsMZKv-ou_uK7Z6NyIwZtbtVqbuzs64,1094
+algoql-0.0.2.dist-info/METADATA,sha256=gIKPilxci7p1iFcF_tbZyfcCZtsPvg7ze-ErUIWKUwY,784
+algoql-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+algoql-0.0.2.dist-info/entry_points.txt,sha256=4IZRQqKoBaMvo2r107ns9p8YTO_34WQ5SR8besaUTQA,42
+algoql-0.0.2.dist-info/top_level.txt,sha256=q1eJb9gQE465GGJRX7xTA3B8nZ8JxA8sq2HBaJLWMzY,7
+algoql-0.0.2.dist-info/RECORD,,
