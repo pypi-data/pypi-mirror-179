@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: AD-cs107
+Version: 0.0.1
+Summary: Autodifferentiation Package using Dual Numbers
+Author-email: Annika Huprikar <annika_huprikar@college.harvard.edu>, "Anaiah (Nas) Thomas" <anaiahthomas@college.harvard.edu>, Caitlin Hauser <caitlinhauser@college.harvard.edu>, Lauren Shen <laurenshen@college.harvard.edu>, Parita Shah <paritashah@college.harvard.edu>
+Project-URL: Homepage, https://code.harvard.edu/CS107/team28/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: math
+
+# team28
+CS107 Final Project Repository
+
+![.github/workflows/test.yml](https://code.harvard.edu/CS107/team28/actions/workflows/test.yml/badge.svg)
+
+![.github/workflows/coverage.yml](https://code.harvard.edu/CS107/team28/actions/workflows/coverage.yml/badge.svg)
