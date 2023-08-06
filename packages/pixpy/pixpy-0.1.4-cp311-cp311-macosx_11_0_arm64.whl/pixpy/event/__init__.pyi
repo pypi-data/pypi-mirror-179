@@ -1,0 +1,105 @@
+from __future__ import annotations
+import pixpy._pixpy.event
+import typing
+
+__all__ = [
+    "AnyEvent",
+    "Click",
+    "Key",
+    "Move",
+    "NoEvent",
+    "Quit",
+    "Resize",
+    "Text"
+]
+
+
+class AnyEvent():
+    pass
+class Click():
+    def __repr__(self) -> str: ...
+    @property
+    def buttons(self) -> int:
+        """
+        :type: int
+        """
+    @property
+    def pos(self) -> pixpy._pixpy.Float2:
+        """
+        :type: pixpy._pixpy.Float2
+        """
+    @property
+    def x(self) -> float:
+        """
+        :type: float
+        """
+    @property
+    def y(self) -> float:
+        """
+        :type: float
+        """
+    __match_args__ = ('pos', 'buttons')
+    pass
+class Key():
+    def __repr__(self) -> str: ...
+    @property
+    def key(self) -> int:
+        """
+        :type: int
+        """
+    @property
+    def mods(self) -> int:
+        """
+        :type: int
+        """
+    __match_args__ = ('key',)
+    pass
+class Move():
+    def __repr__(self) -> str: ...
+    @property
+    def buttons(self) -> int:
+        """
+        :type: int
+        """
+    @property
+    def pos(self) -> pixpy._pixpy.Float2:
+        """
+        :type: pixpy._pixpy.Float2
+        """
+    @property
+    def x(self) -> float:
+        """
+        :type: float
+        """
+    @property
+    def y(self) -> float:
+        """
+        :type: float
+        """
+    __match_args__ = ('pos', 'buttons')
+    pass
+class NoEvent():
+    pass
+class Quit():
+    pass
+class Resize():
+    @property
+    def x(self) -> int:
+        """
+        :type: int
+        """
+    @property
+    def y(self) -> int:
+        """
+        :type: int
+        """
+    pass
+class Text():
+    def __repr__(self) -> str: ...
+    @property
+    def text(self) -> str:
+        """
+        :type: str
+        """
+    __match_args__ = ('text',)
+    pass
