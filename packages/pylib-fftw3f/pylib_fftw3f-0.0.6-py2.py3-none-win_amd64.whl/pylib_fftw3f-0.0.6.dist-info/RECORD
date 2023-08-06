@@ -1,0 +1,17 @@
+pylib_fftw3f/__init__.py,sha256=OqyUJ-7TR2HInjjamoGDsmE85zOzYBUwelOLuzDnuZc,481
+pylib_fftw3f/placeholder.cp36-win_amd64.pyd,sha256=wnZDMt_ID7I1aaBxiIdS4TqDlJvIZWBzcGfz6a3uEGA,10240
+pylib_fftw3f/include/fftw3.f,sha256=H4pcmkjz43JrZnlwkH0i48sMuf347IvnUh-3mP0778Y,2447
+pylib_fftw3f/include/fftw3.f03,sha256=WVYEaWqiEFkKNMI3LTHHpz_oNk_B9mkmSGJmEwkxEu0,56296
+pylib_fftw3f/include/fftw3.h,sha256=DdG5iLaB1Xl6rxDCxXwQf33KUQaV5LlLOFXrUlUNKCw,31986
+pylib_fftw3f/include/fftw3l.f03,sha256=a3KbqK-kdMISa9ryeAA75i6kWSuMED17MAubrzxkqaI,27203
+pylib_fftw3f/include/fftw3q.f03,sha256=n23k90Wh2nGdl-bhjo8RgTXR9FOOmpkpy_j9cuz-FcY,25902
+pylib_fftw3f/lib/fftw3f.lib,sha256=S-b2eR-BuWMss9fdTfQ6rY1_lKQvBNipZht-xbAxbAg,5632362
+pylib_fftw3f/lib/cmake/fftw3f/FFTW3LibraryDepends-debug.cmake,sha256=jIq5wmmtrT_12FB5H5mTcnc9BewC1zJdhn0ZAwMggMQ,843
+pylib_fftw3f/lib/cmake/fftw3f/FFTW3LibraryDepends.cmake,sha256=wZfdLNIgLXw9eHqGhrnGTPT9gZhZB_zdOriS9C2aJw0,4002
+pylib_fftw3f/lib/cmake/fftw3f/FFTW3fConfig.cmake,sha256=oo1mi2i5MBUp9V2kn2ZfTGqCMWRwA0t8ly-7_yurdL8,650
+pylib_fftw3f/lib/cmake/fftw3f/FFTW3fConfigVersion.cmake,sha256=GTaqwD7BErCBQEoCGMvrSZ12anV9y2WnGIehQh58-gs,388
+pylib_fftw3f/lib/pkgconfig/fftw3f.pc,sha256=XmfDc7v4fpixH_3jm9Q0ijNOg-kqsB2snqiHYXvmE3M,473
+pylib_fftw3f-0.0.6.dist-info/METADATA,sha256=exDbmRDFwQvkrWIU7Jm3U0fIoSk0zHpGV-cho9kQiSM,260
+pylib_fftw3f-0.0.6.dist-info/WHEEL,sha256=8e_9EhrhtMEXrRhyN2zhE8gj0hAOei24ZK6EkkdkIcY,123
+pylib_fftw3f-0.0.6.dist-info/top_level.txt,sha256=uNKOXhwgqeMt7xvtWQmPd4-aJH3LJkohUrhtx7PYtI8,13
+pylib_fftw3f-0.0.6.dist-info/RECORD,,
