@@ -1,0 +1,13 @@
+README.md
+setup.py
+SCSKutils.egg-info/PKG-INFO
+SCSKutils.egg-info/SOURCES.txt
+SCSKutils.egg-info/dependency_links.txt
+SCSKutils.egg-info/requires.txt
+SCSKutils.egg-info/top_level.txt
+scskutils/__init__.py
+scskutils/decorators.py
+scskutils/scraper.py
+scskutils/scskutils.py
+scskutils/translator.py
+scskutils/visuals.py
