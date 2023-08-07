@@ -1,0 +1,16 @@
+pip_plus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pip_plus/__version__.py,sha256=tj86aEDyEK6EgW7SC6GlfpPKQ0kVabd0QqVLpoPeWWs,180
+pip_plus/constants.py,sha256=zN-lz37-0RrTtwe1J2Fn0ShBVQFfoT7wEhgx6www3o8,585
+pip_plus/entrypoint.py,sha256=ZSnE20o9TK8OGs-aA6cVBkdZNWiPnnZRNlIj70vrRrQ,2328
+pip_plus/logger.py,sha256=ZC1lQUgGPixa1UMJJET-N9UI2ut_RuKeai29Yv9cLGs,2532
+pip_plus/pinned_package.py,sha256=raPWhlsMhV4fZTlrN7Hx-UrH6NGx2WcLX0XCm2nrb7Y,1005
+pip_plus/utils.py,sha256=icg5VBBksrFGx45Y-TUY94NG7NK7bMO9wSSwm6-xQ6Q,8288
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/requirements.txt,sha256=QC0G_FtwHzySsvbl8ivlPNyGW7dOzdkJmdE5CHwFhXI,78
+test/test_utils.py,sha256=a1naAf0Q0tLrmtYU1TY0T_6qS_pmeyQYKprAuP5fy-4,13307
+pip_plus_cli-0.1.0b0.dist-info/METADATA,sha256=54CLcBMHKbI7PfKJItMmO9-YIWSRMgMhWM08i6O1TsM,442
+pip_plus_cli-0.1.0b0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pip_plus_cli-0.1.0b0.dist-info/entry_points.txt,sha256=jkGSrk0D2L1-YsT_ZoYsCbczad0Qm-FhWfCpH-51Hag,50
+pip_plus_cli-0.1.0b0.dist-info/top_level.txt,sha256=GMdeI_C7aNZ_p7IqnfItuEHt7vawqcXxqeXH1Wr5Z70,14
+pip_plus_cli-0.1.0b0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pip_plus_cli-0.1.0b0.dist-info/RECORD,,

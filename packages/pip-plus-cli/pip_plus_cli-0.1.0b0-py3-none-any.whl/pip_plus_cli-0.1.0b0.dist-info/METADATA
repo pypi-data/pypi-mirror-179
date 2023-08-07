@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pip-plus-cli
+Version: 0.1.0b0
+Summary: Pip-Plus
+Home-page: https://github.com/Bee-Mar/pip-plus
+Download-URL: https://github.com/Bee-Mar/pip-plus/archive/pip-plus-0.1.0beta.tar.gz
+Author: Brandon Marlowe
+Author-email: bpmarlowe-software@protonmail.com
+License: MIT
+Keywords: pip pip-plus pip_plus
+Requires-Python: >=3.7
+
+The Pip-Plus CLI automatically updates requirements.txt following install/removal of packages
