@@ -1,0 +1,5 @@
+black
+pydocstyle
+pylint
+build
+twine~=4.0.2
