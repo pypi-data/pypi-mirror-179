@@ -1,0 +1,13 @@
+inigo_py/VERSION,sha256=AtOOmOiPSo3C6kDbt2kzhgEGb8lJILUogqFPIa2X9-4,7
+inigo_py/__init__.py,sha256=xc4fhr09foia4DtSztyMw2HxywVrQkiqHkLo39FyB_U,282
+inigo_py/ffi.py,sha256=BB6RjlGiUe4kAAKcg9Fm4NDfKgQHEUFij6xUvZHtAx8,3791
+inigo_py/middleware.py,sha256=lCCYtX9Y5_pFDPu6yPIWUQdPVQnXKW2AnsJ4gurdGeE,7978
+inigo_py/lib/inigo-darwin-amd64.dylib,sha256=SHwcPXUQDSHBLh5aHfh1V7RbzlRhbcBOZNNZKps7BHE,25008888
+inigo_py/lib/inigo-darwin-arm64.dylib,sha256=i-vx7fbz03rKw3EMaAutlXL56vdW8rmNvV_-ume9Wc4,27627282
+inigo_py/lib/inigo-linux-amd64.so,sha256=K47FTn8HmPqzsvj93Qq4ubgWPpeki35D_ozGa1NEjQA,27206760
+inigo_py/lib/inigo-linux-arm64.so,sha256=F2d1FXK_FGs-huzhND811WXy9xcU-2JftZjIdyaCdT8,26126408
+inigo_py-0.17.0.dist-info/LICENSE,sha256=O4xtdZWpFRdMPVNz5doLEwiVg7T3WLk4IxEePVs3cP8,1074
+inigo_py-0.17.0.dist-info/METADATA,sha256=HOzxqx_r4Fvtd9rqVaoeaCEmDL5QlaWZRRsyCV7CFzo,5199
+inigo_py-0.17.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+inigo_py-0.17.0.dist-info/top_level.txt,sha256=5jWGApMfqq779OG19l-vj5qifwYq76vXnkm-jpb2qdE,9
+inigo_py-0.17.0.dist-info/RECORD,,
